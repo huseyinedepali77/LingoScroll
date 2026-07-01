@@ -1639,5 +1639,2625 @@
     "correctAnswer": "Hesabı bölüşmek",
     "category": "TRAVEL",
     "variations": []
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Otobüs biletini nereden alabileceğinizi sormak için: 'Where can I _____ a bus ticket?'",
+    "translation": "buy",
+    "context": "'Buy' kelimesi satın almak anlamına gelir. Bilet alırken en çok kullanacağınız kelimelerdendir.",
+    "options": [
+      "buy",
+      "sell",
+      "fly",
+      "drive"
+    ],
+    "correctAnswer": "buy",
+    "category": "TRAVEL",
+    "variations": [
+      "Where can I _____ some water?",
+      "Where can I _____ a souvenir?"
+    ],
+    "id": 3023
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Havalimanında bagaj teslim noktasını ararken: 'Where is the baggage _____?'",
+    "translation": "claim",
+    "context": "'Baggage claim' bagaj teslim alanı demektir. Uçaktan indikten sonra bavulları aldığınız yerdir.",
+    "options": [
+      "claim",
+      "store",
+      "lost",
+      "shop"
+    ],
+    "correctAnswer": "claim",
+    "category": "TRAVEL",
+    "variations": [
+      "Please go to the baggage _____.",
+      "My bag is not at the baggage _____."
+    ],
+    "id": 3024
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Otel odasında kablosuz internet şifresini sormak için: 'What is the Wi-Fi _____?'",
+    "translation": "password",
+    "context": "'Password' şifre anlamına gelir. İnternete bağlanmak için resepsiyona sorabilirsiniz.",
+    "options": [
+      "password",
+      "name",
+      "number",
+      "key"
+    ],
+    "correctAnswer": "password",
+    "category": "TRAVEL",
+    "variations": [
+      "Do you know the Wi-Fi _____?",
+      "Please write the Wi-Fi _____ here."
+    ],
+    "id": 3025
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Hesabı istemek için garsona: 'Could we have the _____, please?'",
+    "translation": "bill",
+    "context": "'Bill' hesap demektir (İngiltere'de bill, Amerika'da check kullanılır).",
+    "options": [
+      "bill",
+      "menu",
+      "food",
+      "card"
+    ],
+    "correctAnswer": "bill",
+    "category": "TRAVEL",
+    "variations": [
+      "Can I pay the _____ now?",
+      "Is the service included in the _____?"
+    ],
+    "id": 3026
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Uçakta pencere kenarı koltuk istemek için: 'I would like a _____ seat, please.'",
+    "translation": "window",
+    "context": "'Window seat' pencere kenarı koltuk demektir. Manzarayı izlemek için tercih edilir.",
+    "options": [
+      "window",
+      "aisle",
+      "middle",
+      "back"
+    ],
+    "correctAnswer": "window",
+    "category": "TRAVEL",
+    "variations": [
+      "Do you prefer a _____ seat?",
+      "Is this a _____ seat?"
+    ],
+    "id": 3027
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Giriş saati hakkında bilgi alırken: 'What time is _____?'",
+    "translation": "check-in",
+    "context": "'Check-in' otele giriş yapma işlemidir. Genellikle öğleden sonra başlar.",
+    "options": [
+      "check-in",
+      "check-out",
+      "dinner",
+      "breakfast"
+    ],
+    "correctAnswer": "check-in",
+    "category": "TRAVEL",
+    "variations": [
+      "We want to do our _____.",
+      "Where is the _____ desk?"
+    ],
+    "id": 3028
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Otobüsü kaçırdığınızı söylemek için: 'I _____ the last bus.'",
+    "translation": "missed",
+    "context": "'Miss' kaçırmak demektir. Geç kaldığınızda taşıtları kaçırdığınızı belirtir.",
+    "options": [
+      "missed",
+      "lost",
+      "caught",
+      "passed"
+    ],
+    "correctAnswer": "missed",
+    "category": "TRAVEL",
+    "variations": [
+      "Don't worry, you won't _____ it.",
+      "I don't want to _____ my train."
+    ],
+    "id": 3029
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Havalimanında uçuş kartınızı isterken: 'Here is your boarding _____, sir.'",
+    "translation": "pass",
+    "context": "'Boarding pass' uçağa biniş kartıdır. Güvenlikten geçerken gösterilir.",
+    "options": [
+      "pass",
+      "ticket",
+      "card",
+      "paper"
+    ],
+    "correctAnswer": "pass",
+    "category": "TRAVEL",
+    "variations": [
+      "Show me your boarding _____.",
+      "I lost my boarding _____."
+    ],
+    "id": 3030
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Gideceğiniz yönü sormak için: 'Which _____ is the train station?'",
+    "translation": "way",
+    "context": "'Way' yol, yön veya taraf anlamına gelir. Yol tariflerinde sıkça kullanılır.",
+    "options": [
+      "way",
+      "street",
+      "road",
+      "map"
+    ],
+    "correctAnswer": "way",
+    "category": "TRAVEL",
+    "variations": [
+      "Go this _____ please.",
+      "Is this the right _____?"
+    ],
+    "id": 3031
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Taksi çağırırken resepsiyona: 'Can you call a _____ for me?'",
+    "translation": "taxi",
+    "context": "'Taxi' veya 'cab' ticari taksi demektir. Kolay ulaşım için tercih edilir.",
+    "options": [
+      "taxi",
+      "bus",
+      "plane",
+      "bicycle"
+    ],
+    "correctAnswer": "taxi",
+    "category": "TRAVEL",
+    "variations": [
+      "Where can I find a _____?",
+      "How much is a _____ to the airport?"
+    ],
+    "id": 3032
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Metro haritasını sormak için: 'Do you have a subway _____?'",
+    "translation": "map",
+    "context": "'Map' harita demektir. Yabancı şehirlerde yön bulmak için önemlidir.",
+    "options": [
+      "map",
+      "book",
+      "guide",
+      "card"
+    ],
+    "correctAnswer": "map",
+    "category": "TRAVEL",
+    "variations": [
+      "Can you show me on the _____?",
+      "I need a city _____."
+    ],
+    "id": 3033
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Otobüse nakit ödeme yapmak için: 'Do you accept _____?'",
+    "translation": "cash",
+    "context": "'Cash' nakit para demektir. Kredi kartı geçmeyen yerlerde kullanılır.",
+    "options": [
+      "cash",
+      "card",
+      "cheque",
+      "coin"
+    ],
+    "correctAnswer": "cash",
+    "category": "TRAVEL",
+    "variations": [
+      "I only have _____.",
+      "We don't take _____ here."
+    ],
+    "id": 3034
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "E-posta gönderdiğinizi belirtmek için: 'I _____ you the file.'",
+    "translation": "sent",
+    "context": "'Sent' göndermek (send) fiilinin geçmiş zaman halidir. İş hayatında sürekli kullanılır.",
+    "options": [
+      "sent",
+      "got",
+      "took",
+      "made"
+    ],
+    "correctAnswer": "sent",
+    "category": "BUSINESS",
+    "variations": [
+      "Have you _____ the report?",
+      "I already _____ the email."
+    ],
+    "id": 3035
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Toplantının ne zaman başlayacağını sormak için: 'What time is the _____?'",
+    "translation": "meeting",
+    "context": "'Meeting' toplantı anlamına gelir. Ofis hayatının vazgeçilmezidir.",
+    "options": [
+      "meeting",
+      "lunch",
+      "work",
+      "job"
+    ],
+    "correctAnswer": "meeting",
+    "category": "BUSINESS",
+    "variations": [
+      "We have a _____ at ten.",
+      "The _____ was very long."
+    ],
+    "id": 3036
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "İş arkadaşınıza yardım teklif ederken: 'How can I _____ you?'",
+    "translation": "help",
+    "context": "'Help' yardım etmek demektir. İş birliği yaparken kullanılır.",
+    "options": [
+      "help",
+      "work",
+      "ask",
+      "tell"
+    ],
+    "correctAnswer": "help",
+    "category": "BUSINESS",
+    "variations": [
+      "Thank you for your _____.",
+      "Do you need any _____?"
+    ],
+    "id": 3037
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Ofise giriş yaparken: 'I start _____ at 9 AM.'",
+    "translation": "work",
+    "context": "'Work' çalışmak veya iş demektir. Mesai saatlerini belirtirken kullanılır.",
+    "options": [
+      "work",
+      "job",
+      "career",
+      "office"
+    ],
+    "correctAnswer": "work",
+    "category": "BUSINESS",
+    "variations": [
+      "I have a lot of _____.",
+      "She is at _____ right now."
+    ],
+    "id": 3038
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Dosyayı ekte gönderdiğinizi belirtmek için: 'Please see the _____ file.'",
+    "translation": "attached",
+    "context": "'Attached' ekli, ekteki demektir. E-postalara dosya eklerken yazılır.",
+    "options": [
+      "attached",
+      "open",
+      "new",
+      "lost"
+    ],
+    "correctAnswer": "attached",
+    "category": "BUSINESS",
+    "variations": [
+      "I _____ the document.",
+      "Where is the _____ file?"
+    ],
+    "id": 3039
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Telefon numaranızı vermek için: 'Here is my phone _____.'",
+    "translation": "number",
+    "context": "'Number' numara demektir. İletişim bilgilerini paylaşırken kullanılır.",
+    "options": [
+      "number",
+      "call",
+      "address",
+      "name"
+    ],
+    "correctAnswer": "number",
+    "category": "BUSINESS",
+    "variations": [
+      "What is your office _____?",
+      "Can I have your _____?"
+    ],
+    "id": 3040
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "İş arkadaşınıza teşekkür etmek için: 'Thanks for your _____.'",
+    "translation": "time",
+    "context": "'Time' zaman demektir. İş görüşmelerinin sonunda nezaketen söylenir.",
+    "options": [
+      "time",
+      "job",
+      "money",
+      "help"
+    ],
+    "correctAnswer": "time",
+    "category": "BUSINESS",
+    "variations": [
+      "Thank you for your _____ today.",
+      "We don't have much _____."
+    ],
+    "id": 3041
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Yöneticiye rapor sunarken: 'Here is the sales _____.'",
+    "translation": "report",
+    "context": "'Report' rapor demektir. Performans veya sonuç sunumlarında kullanılır.",
+    "options": [
+      "report",
+      "book",
+      "letter",
+      "note"
+    ],
+    "correctAnswer": "report",
+    "category": "BUSINESS",
+    "variations": [
+      "Please write a daily _____.",
+      "The _____ is ready."
+    ],
+    "id": 3042
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "İş yerindeki görevinizden bahsederken: 'What is your _____?'",
+    "translation": "job",
+    "context": "'Job' iş veya meslek demektir. Kişilerin çalışma alanlarını sorarken kullanılır.",
+    "options": [
+      "job",
+      "company",
+      "boss",
+      "office"
+    ],
+    "correctAnswer": "job",
+    "category": "BUSINESS",
+    "variations": [
+      "I love my _____.",
+      "He is looking for a _____."
+    ],
+    "id": 3043
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Müşteri ile iletişim kurmak için: 'We need to call the _____.'",
+    "translation": "client",
+    "context": "'Client' veya 'customer' müşteri demektir. Ticari ilişkilerde kullanılır.",
+    "options": [
+      "client",
+      "worker",
+      "boss",
+      "manager"
+    ],
+    "correctAnswer": "client",
+    "category": "BUSINESS",
+    "variations": [
+      "The _____ is happy.",
+      "Meet our new _____."
+    ],
+    "id": 3044
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Ofis dışındayken e-postalara eklenen not: 'I am out of the _____.'",
+    "translation": "office",
+    "context": "'Office' ofis, iş yeri demektir. İş dışı durumu belirtirken kullanılır.",
+    "options": [
+      "office",
+      "desk",
+      "building",
+      "home"
+    ],
+    "correctAnswer": "office",
+    "category": "BUSINESS",
+    "variations": [
+      "He is not in the _____.",
+      "Welcome to our _____."
+    ],
+    "id": 3045
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Projeyi zamanında teslim etmek için: 'What is the _____?'",
+    "translation": "deadline",
+    "context": "'Deadline' son teslim tarihi demektir. İşlerin bitirilmesi gereken son günü belirtir.",
+    "options": [
+      "deadline",
+      "start",
+      "time",
+      "date"
+    ],
+    "correctAnswer": "deadline",
+    "category": "BUSINESS",
+    "variations": [
+      "The _____ is tomorrow.",
+      "Can we change the _____?"
+    ],
+    "id": 3046
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Sözleşmeyi imzalamak için: 'Please _____ here.'",
+    "translation": "sign",
+    "context": "'Sign' imzalamak demektir. Anlaşmaların resmiyet kazanmasını sağlar.",
+    "options": [
+      "sign",
+      "write",
+      "read",
+      "look"
+    ],
+    "correctAnswer": "sign",
+    "category": "BUSINESS",
+    "variations": [
+      "Did you _____ the contract?",
+      "I need to _____ this letter."
+    ],
+    "id": 3047
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Şirketin kurucusundan bahsederken: 'Who is the _____?'",
+    "translation": "boss",
+    "context": "'Boss' patron veya yönetici demektir. İş yerindeki en üst yetkiliyi ifade eder.",
+    "options": [
+      "boss",
+      "worker",
+      "friend",
+      "guest"
+    ],
+    "correctAnswer": "boss",
+    "category": "BUSINESS",
+    "variations": [
+      "Talk to your _____.",
+      "My _____ is very nice."
+    ],
+    "id": 3048
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Yeni bir planı konuşmak için: 'Let's discuss the _____.'",
+    "translation": "plan",
+    "context": "'Plan' plan veya taslak demektir. Yol haritası belirlerken konuşulur.",
+    "options": [
+      "plan",
+      "work",
+      "money",
+      "paper"
+    ],
+    "correctAnswer": "plan",
+    "category": "BUSINESS",
+    "variations": [
+      "What is the marketing _____?",
+      "Do we have a _____?"
+    ],
+    "id": 3049
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "İş arkadaşınızın e-postasına cevap verirken: 'Thank you for your _____.'",
+    "translation": "reply",
+    "context": "'Reply' yanıt, cevap demektir. E-posta trafiğinde çok sık yazılır.",
+    "options": [
+      "reply",
+      "question",
+      "work",
+      "name"
+    ],
+    "correctAnswer": "reply",
+    "category": "BUSINESS",
+    "variations": [
+      "I am waiting for your _____.",
+      "Please _____ to this email."
+    ],
+    "id": 3050
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Çalıştığınız firmadan bahsederken: 'I love our _____.'",
+    "translation": "company",
+    "context": "'Company' şirket veya firma demektir. Kurumsal aidiyeti belirtir.",
+    "options": [
+      "company",
+      "house",
+      "shop",
+      "team"
+    ],
+    "correctAnswer": "company",
+    "category": "BUSINESS",
+    "variations": [
+      "Our _____ is growing fast.",
+      "Which _____ do you work for?"
+    ],
+    "id": 3051
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Bir sunum yaparken: 'Welcome to my _____.'",
+    "translation": "presentation",
+    "context": "'Presentation' sunum demektir. Proje veya fikir anlatımlarında kullanılır.",
+    "options": [
+      "presentation",
+      "meeting",
+      "office",
+      "class"
+    ],
+    "correctAnswer": "presentation",
+    "category": "BUSINESS",
+    "variations": [
+      "The _____ was great.",
+      "I am preparing a _____."
+    ],
+    "id": 3052
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Ofis içinde bir ekiple çalışırken: 'We are a great _____.'",
+    "translation": "team",
+    "context": "'Team' takım veya ekip demektir. Kolektif başarıyı vurgular.",
+    "options": [
+      "team",
+      "group",
+      "class",
+      "club"
+    ],
+    "correctAnswer": "team",
+    "category": "BUSINESS",
+    "variations": [
+      "Join our _____.",
+      "The project _____ is small."
+    ],
+    "id": 3053
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Yıllık izne ayrılacağınızı söylemek için: 'I am taking a _____.'",
+    "translation": "vacation",
+    "context": "'Vacation' tatil, izin demektir. Çalışmaya ara verileceğini bildirir.",
+    "options": [
+      "vacation",
+      "work",
+      "break",
+      "flight"
+    ],
+    "correctAnswer": "vacation",
+    "category": "BUSINESS",
+    "variations": [
+      "Have a nice _____!",
+      "When is your _____?"
+    ],
+    "id": 3054
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Fatura detaylarını kontrol ederken: 'Please check the _____.'",
+    "translation": "invoice",
+    "context": "'Invoice' fatura demektir. Ödeme işlemlerinde resmi belgeyi belirtir.",
+    "options": [
+      "invoice",
+      "report",
+      "card",
+      "paper"
+    ],
+    "correctAnswer": "invoice",
+    "category": "BUSINESS",
+    "variations": [
+      "Send the _____ to accounting.",
+      "Where is the _____?"
+    ],
+    "id": 3055
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Havanın nasıl olduğunu sormak için: 'What is the _____ like today?'",
+    "translation": "weather",
+    "context": "'Weather' hava durumu demektir. Günlük sohbetlerin en popüler açılış konusudur.",
+    "options": [
+      "weather",
+      "climate",
+      "sky",
+      "day"
+    ],
+    "correctAnswer": "weather",
+    "category": "CASUAL",
+    "variations": [
+      "The _____ is beautiful.",
+      "I don't like cold _____."
+    ],
+    "id": 3056
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Saat kaç olduğunu sormak için: 'Excuse me, what _____ is it?'",
+    "translation": "time",
+    "context": "'Time' zaman, saat demektir. Günlük hayatta saati sorarken kullanılır.",
+    "options": [
+      "time",
+      "hour",
+      "clock",
+      "watch"
+    ],
+    "correctAnswer": "time",
+    "category": "CASUAL",
+    "variations": [
+      "I have no _____.",
+      "What _____ does the film start?"
+    ],
+    "id": 3057
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Arkadaşınızın nasıl olduğunu öğrenmek için: 'How are _____?'",
+    "translation": "you",
+    "context": "'How are you?' en temel selamlaşma cümlesidir. Nasılsın anlamına gelir.",
+    "options": [
+      "you",
+      "your",
+      "they",
+      "we"
+    ],
+    "correctAnswer": "you",
+    "category": "CASUAL",
+    "variations": [
+      "Good to see _____.",
+      "Are _____ ready?"
+    ],
+    "id": 3058
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Kahve ikram ederken: 'Would you like some _____?'",
+    "translation": "coffee",
+    "context": "'Coffee' kahve demektir. Sosyalleşirken en çok sunulan içecektir.",
+    "options": [
+      "coffee",
+      "water",
+      "tea",
+      "milk"
+    ],
+    "correctAnswer": "coffee",
+    "category": "CASUAL",
+    "variations": [
+      "I need a cup of _____.",
+      "Let's drink some _____."
+    ],
+    "id": 3059
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Plan yaparken arkadaşınıza: 'Are you _____ tonight?'",
+    "translation": "free",
+    "context": "'Free' boş, meşgul olmayan demektir. Müsaitlik durumunu sorar.",
+    "options": [
+      "free",
+      "busy",
+      "tired",
+      "late"
+    ],
+    "correctAnswer": "free",
+    "category": "CASUAL",
+    "variations": [
+      "I am _____ on Sunday.",
+      "When are you _____?"
+    ],
+    "id": 3060
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Birine adını sormak için: 'What is your _____?'",
+    "translation": "name",
+    "context": "'Name' isim demektir. Yeni tanışılan insanlara sorulan ilk şeydir.",
+    "options": [
+      "name",
+      "job",
+      "home",
+      "number"
+    ],
+    "correctAnswer": "name",
+    "category": "CASUAL",
+    "variations": [
+      "My _____ is John.",
+      "Write your _____ here."
+    ],
+    "id": 3061
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Hafta sonu planını sorarken: 'Any plans for the _____?'",
+    "translation": "weekend",
+    "context": "'Weekend' hafta sonu (Cumartesi-Pazar) demektir. Sosyal planlarda sorulur.",
+    "options": [
+      "weekend",
+      "week",
+      "night",
+      "holiday"
+    ],
+    "correctAnswer": "weekend",
+    "category": "CASUAL",
+    "variations": [
+      "Have a great _____!",
+      "I worked over the _____."
+    ],
+    "id": 3062
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Nerede yaşadığını sormak için: 'Where do you _____?'",
+    "translation": "live",
+    "context": "'Live' yaşamak, ikamet etmek demektir. Yaşanılan şehri/ülkeyi sorar.",
+    "options": [
+      "live",
+      "work",
+      "stay",
+      "go"
+    ],
+    "correctAnswer": "live",
+    "category": "CASUAL",
+    "variations": [
+      "I _____ in Istanbul.",
+      "Do you _____ alone?"
+    ],
+    "id": 3063
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Bir yemeği beğendiğinizi söylemek için: 'This food is _____.'",
+    "translation": "delicious",
+    "context": "'Delicious' lezzetli, çok güzel demektir. Yemek beğenisini ifade eder.",
+    "options": [
+      "delicious",
+      "bad",
+      "hot",
+      "cold"
+    ],
+    "correctAnswer": "delicious",
+    "category": "CASUAL",
+    "variations": [
+      "The cake was _____.",
+      "This looks _____."
+    ],
+    "id": 3064
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Telefonla arayan kişiyi sormak için: 'Who is _____?'",
+    "translation": "calling",
+    "context": "'Calling' aramak demektir. Telefonda arayanın kimliğini sorar.",
+    "options": [
+      "calling",
+      "talking",
+      "speaking",
+      "listening"
+    ],
+    "correctAnswer": "calling",
+    "category": "CASUAL",
+    "variations": [
+      "Someone is _____ you.",
+      "Thanks for _____."
+    ],
+    "id": 3065
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Güzel bir gün dilemek için: 'Have a nice _____!'",
+    "translation": "day",
+    "context": "'Day' gün demektir. Ayrılırken iyi dilek bildirmek için söylenir.",
+    "options": [
+      "day",
+      "night",
+      "week",
+      "year"
+    ],
+    "correctAnswer": "day",
+    "category": "CASUAL",
+    "variations": [
+      "It was a long _____.",
+      "What a beautiful _____!"
+    ],
+    "id": 3066
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Yorgun olduğunuzu belirtmek için: 'I am so _____.'",
+    "translation": "tired",
+    "context": "'Tired' yorgun demektir. Çok çalıştıktan sonra hislerinizi açıklar.",
+    "options": [
+      "tired",
+      "happy",
+      "excited",
+      "busy"
+    ],
+    "correctAnswer": "tired",
+    "category": "CASUAL",
+    "variations": [
+      "You look _____.",
+      "I am too _____ to go out."
+    ],
+    "id": 3067
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Birini tebrik etmek için: '_____ on your success!'",
+    "translation": "Congratulations",
+    "context": "'Congratulations' tebrikler demektir. Kısaca 'Congrats' olarak da söylenir.",
+    "options": [
+      "Congratulations",
+      "Sorry",
+      "Welcome",
+      "Hello"
+    ],
+    "correctAnswer": "Congratulations",
+    "category": "CASUAL",
+    "variations": [
+      "_____ on your wedding!",
+      "Please accept my _____."
+    ],
+    "id": 3068
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Nerede buluşacağınızı sorarken: 'Where should we _____?'",
+    "translation": "meet",
+    "context": "'Meet' buluşmak, tanışmak demektir. Randevulaşırken kullanılır.",
+    "options": [
+      "meet",
+      "go",
+      "see",
+      "run"
+    ],
+    "correctAnswer": "meet",
+    "category": "CASUAL",
+    "variations": [
+      "Nice to _____ you.",
+      "Let's _____ at the cafe."
+    ],
+    "id": 3069
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Birinden yavaş konuşmasını isterken: 'Can you speak _____, please?'",
+    "translation": "slowly",
+    "context": "'Slowly' yavaşça demektir. Karşıdakinin hızını düşürmesini rica eder.",
+    "options": [
+      "slowly",
+      "fast",
+      "loudly",
+      "quietly"
+    ],
+    "correctAnswer": "slowly",
+    "category": "CASUAL",
+    "variations": [
+      "Please walk _____.",
+      "Read it _____."
+    ],
+    "id": 3070
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Sinemaya gitmek için arkadaşınıza teklif: 'Let's watch a _____.'",
+    "translation": "movie",
+    "context": "'Movie' veya 'film' sinema filmi demektir. Eğlenceli aktivitelerde söylenir.",
+    "options": [
+      "movie",
+      "book",
+      "game",
+      "song"
+    ],
+    "correctAnswer": "movie",
+    "category": "CASUAL",
+    "variations": [
+      "What is your favorite _____?",
+      "I want to see a _____."
+    ],
+    "id": 3071
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Birine teşekkür ettikten sonra: 'You are _____.'",
+    "translation": "welcome",
+    "context": "'You are welcome' rica ederim anlamına gelir. Teşekküre karşılıktır.",
+    "options": [
+      "welcome",
+      "fine",
+      "good",
+      "happy"
+    ],
+    "correctAnswer": "welcome",
+    "category": "CASUAL",
+    "variations": [
+      "No problem, you are _____.",
+      "_____ to our city!"
+    ],
+    "id": 3072
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Uçuşun ertelendiğini belirtmek için: 'The flight has been _____ due to bad weather.'",
+    "translation": "delayed",
+    "context": "'Delayed' gecikmeli, rötar yapmış demektir. Havalimanında sıkça duyulur.",
+    "options": [
+      "delayed",
+      "cancelled",
+      "boarded",
+      "landed"
+    ],
+    "correctAnswer": "delayed",
+    "category": "TRAVEL",
+    "variations": [
+      "Our train was _____.",
+      "Why is the bus _____?"
+    ],
+    "id": 3073
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Pasaport kontrolünde görevliye: 'What is the _____ of your visit?'",
+    "translation": "purpose",
+    "context": "'Purpose' amaç demektir. Ülkeye giriş yaparken memurlar bu soruyu sorar.",
+    "options": [
+      "purpose",
+      "time",
+      "cost",
+      "ticket"
+    ],
+    "correctAnswer": "purpose",
+    "category": "TRAVEL",
+    "variations": [
+      "The _____ of my trip is tourism.",
+      "Tell me the _____ of this meeting."
+    ],
+    "id": 3074
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Otelde rezervasyon durumunu teyit ederken: 'I would like to _____ my booking.'",
+    "translation": "confirm",
+    "context": "'Confirm' onaylamak demektir. Rezervasyon veya bilet bilgilerini netleştirir.",
+    "options": [
+      "confirm",
+      "cancel",
+      "make",
+      "change"
+    ],
+    "correctAnswer": "confirm",
+    "category": "TRAVEL",
+    "variations": [
+      "Please _____ your email.",
+      "We need to _____ the hotel reservation."
+    ],
+    "id": 3075
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Para bozdurmak için döviz bürosuna: 'Where is the currency _____?'",
+    "translation": "exchange",
+    "context": "'Currency exchange' döviz bürosu veya para bozdurma yeri demektir.",
+    "options": [
+      "exchange",
+      "shop",
+      "market",
+      "bank"
+    ],
+    "correctAnswer": "exchange",
+    "category": "TRAVEL",
+    "variations": [
+      "What is the _____ rate today?",
+      "I need to _____ some dollars."
+    ],
+    "id": 3076
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Havalimanında aktarma yaparken: 'I have a connecting _____ in London.'",
+    "translation": "flight",
+    "context": "'Connecting flight' aktarmalı uçuş demektir. Yolculuğun bölünmesini ifade eder.",
+    "options": [
+      "flight",
+      "bus",
+      "train",
+      "ticket"
+    ],
+    "correctAnswer": "flight",
+    "category": "TRAVEL",
+    "variations": [
+      "I missed my connecting _____.",
+      "Is this a direct _____?"
+    ],
+    "id": 3077
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Gezilecek yerler hakkında öneri alırken: 'Can you _____ any good local restaurants?'",
+    "translation": "recommend",
+    "context": "'Recommend' tavsiye etmek demektir. Yerel öneriler almak için kullanılır.",
+    "options": [
+      "recommend",
+      "show",
+      "give",
+      "take"
+    ],
+    "correctAnswer": "recommend",
+    "category": "TRAVEL",
+    "variations": [
+      "Which hotel do you _____?",
+      "Can you _____ a nice beach?"
+    ],
+    "id": 3078
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Rezervasyonu iptal etmek için: 'I need to _____ my reservation.'",
+    "translation": "cancel",
+    "context": "'Cancel' iptal etmek demektir. Acil plan değişikliklerinde kullanılır.",
+    "options": [
+      "cancel",
+      "confirm",
+      "change",
+      "keep"
+    ],
+    "correctAnswer": "cancel",
+    "category": "TRAVEL",
+    "variations": [
+      "Don't _____ the trip.",
+      "You can _____ for free up to 24 hours."
+    ],
+    "id": 3079
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Otelden ayrılırken resepsiyona: 'We would like to _____ out now.'",
+    "translation": "check",
+    "context": "'Check out' otelden çıkış yapma işlemidir. Oda anahtarını teslim etmeyi içerir.",
+    "options": [
+      "check",
+      "go",
+      "run",
+      "take"
+    ],
+    "correctAnswer": "check",
+    "category": "TRAVEL",
+    "variations": [
+      "The _____ out time is 11 AM.",
+      "Did you _____ out?"
+    ],
+    "id": 3080
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Kayıp eşya bürosunu ararken: 'Where is the lost and _____ office?'",
+    "translation": "found",
+    "context": "'Lost and found' kayıp eşya bürosu demektir. Eşyanızı unuttuğunuzda gidersiniz.",
+    "options": [
+      "found",
+      "kept",
+      "taken",
+      "sold"
+    ],
+    "correctAnswer": "found",
+    "category": "TRAVEL",
+    "variations": [
+      "I went to the lost and _____.",
+      "Did you find it in the lost and _____?"
+    ],
+    "id": 3081
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Şehir merkezine giden yolu ararken: 'How do I get to the city _____?'",
+    "translation": "center",
+    "context": "'City center' veya 'downtown' şehir merkezi demektir. Turistik merkezleri belirtir.",
+    "options": [
+      "center",
+      "hall",
+      "park",
+      "road"
+    ],
+    "correctAnswer": "center",
+    "category": "TRAVEL",
+    "variations": [
+      "The hotel is in the city _____.",
+      "We walked around the city _____."
+    ],
+    "id": 3082
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Otel odasında ekstra çarşaf isterken: 'Could we have extra _____?'",
+    "translation": "sheets",
+    "context": "'Sheets' yatak çarşafları demektir. Resepsiyondan talep edilebilir.",
+    "options": [
+      "sheets",
+      "towels",
+      "pillows",
+      "beds"
+    ],
+    "correctAnswer": "sheets",
+    "category": "TRAVEL",
+    "variations": [
+      "Change the _____ please.",
+      "The _____ are clean."
+    ],
+    "id": 3083
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Uçak biletinin iade edilebilir olup olmadığını sorarken: 'Is this ticket _____?'",
+    "translation": "refundable",
+    "context": "'Refundable' iade edilebilir demektir. Bilet alırken esneklik sağlar.",
+    "options": [
+      "refundable",
+      "expensive",
+      "cheap",
+      "valid"
+    ],
+    "correctAnswer": "refundable",
+    "category": "TRAVEL",
+    "variations": [
+      "The flight ticket is non-_____.",
+      "I want a _____ booking."
+    ],
+    "id": 3084
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Kiralık araç seçerken: 'I want to rent an _____ car.'",
+    "translation": "automatic",
+    "context": "'Automatic' otomatik vitesli demektir. Sürüş kolaylığı için tercih edilir.",
+    "options": [
+      "automatic",
+      "manual",
+      "electric",
+      "fast"
+    ],
+    "correctAnswer": "automatic",
+    "category": "TRAVEL",
+    "variations": [
+      "Do you drive an _____ car?",
+      "I prefer _____ transmission."
+    ],
+    "id": 3085
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Seyahat sigortası yaptırırken: 'Do you have travel _____?'",
+    "translation": "insurance",
+    "context": "'Insurance' sigorta demektir. Tıbbi veya bagaj kayıplarını karşılar.",
+    "options": [
+      "insurance",
+      "ticket",
+      "guide",
+      "card"
+    ],
+    "correctAnswer": "insurance",
+    "category": "TRAVEL",
+    "variations": [
+      "Make sure to buy travel _____.",
+      "The _____ covers lost baggage."
+    ],
+    "id": 3086
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Bölgeyi gezmek için rehber isterken: 'We hired a local _____.'",
+    "translation": "guide",
+    "context": "'Guide' rehber demektir. Tarihi ve turistik yerleri anlatır.",
+    "options": [
+      "guide",
+      "driver",
+      "doctor",
+      "worker"
+    ],
+    "correctAnswer": "guide",
+    "category": "TRAVEL",
+    "variations": [
+      "Where is our tour _____?",
+      "Follow the _____ please."
+    ],
+    "id": 3087
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Gümrük kapısından geçerken memur: 'Do you have anything to _____?'",
+    "translation": "declare",
+    "context": "'Declare' beyan etmek demektir. Vergiye tabi eşyaları bildirmeyi ifade eder.",
+    "options": [
+      "declare",
+      "show",
+      "buy",
+      "sell"
+    ],
+    "correctAnswer": "declare",
+    "category": "TRAVEL",
+    "variations": [
+      "I have nothing to _____.",
+      "You must _____ this alcohol."
+    ],
+    "id": 3088
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Müze giriş biletlerinde indirim sorarken: 'Do you offer student _____?'",
+    "translation": "discounts",
+    "context": "'Discount' indirim demektir. Seyahat ederken maliyetleri düşürmeye yarar.",
+    "options": [
+      "discounts",
+      "prices",
+      "tickets",
+      "passes"
+    ],
+    "correctAnswer": "discounts",
+    "category": "TRAVEL",
+    "variations": [
+      "Is there any _____?",
+      "We get a 10% _____."
+    ],
+    "id": 3089
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Uçuş kartını self-servis makinesinden almak için: 'Use the _____ kiosk.'",
+    "translation": "self-service",
+    "context": "'Self-service' kendi kendine işlem yapılan makine veya tezgahtır.",
+    "options": [
+      "self-service",
+      "manual",
+      "closed",
+      "ticket"
+    ],
+    "correctAnswer": "self-service",
+    "category": "TRAVEL",
+    "variations": [
+      "I checked in at the _____ kiosk.",
+      "Where is the _____ counter?"
+    ],
+    "id": 3090
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Toplantıyı ertelemek için: 'We need to _____ the meeting to Friday.'",
+    "translation": "postpone",
+    "context": "'Postpone' ertelemek, ileri bir tarihe almak demektir. İş dünyasında sıkça kullanılır.",
+    "options": [
+      "postpone",
+      "cancel",
+      "start",
+      "schedule"
+    ],
+    "correctAnswer": "postpone",
+    "category": "BUSINESS",
+    "variations": [
+      "Can we _____ the deadline?",
+      "The game was _____ due to rain."
+    ],
+    "id": 3091
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "E-postaya hızlıca geri dönüş yaparken: 'I am writing in _____ to your email.'",
+    "translation": "response",
+    "context": "'Response' yanıt, tepki demektir. Resmi yazışmalarda 'Cevaben' yazarken kullanılır.",
+    "options": [
+      "response",
+      "regard",
+      "spite",
+      "order"
+    ],
+    "correctAnswer": "response",
+    "category": "BUSINESS",
+    "variations": [
+      "Thank you for your quick _____.",
+      "The client's _____ was positive."
+    ],
+    "id": 3092
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Toplantı gündemini paylaşırken: 'Please review the meeting _____.'",
+    "translation": "agenda",
+    "context": "'Agenda' gündem demektir. Toplantıda konuşulacak konuların listesidir.",
+    "options": [
+      "agenda",
+      "book",
+      "notes",
+      "calendar"
+    ],
+    "correctAnswer": "agenda",
+    "category": "BUSINESS",
+    "variations": [
+      "What is on the _____ today?",
+      "We must follow the _____."
+    ],
+    "id": 3093
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Bütçe planlaması yaparken: 'We must stay within the _____.'",
+    "translation": "budget",
+    "context": "'Budget' bütçe demektir. Harcamaların sınırını belirler.",
+    "options": [
+      "budget",
+      "cost",
+      "price",
+      "profit"
+    ],
+    "correctAnswer": "budget",
+    "category": "BUSINESS",
+    "variations": [
+      "Our marketing _____ is limited.",
+      "We exceeded the _____."
+    ],
+    "id": 3094
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Yeni projeyi hayata geçirmek için: 'Let's _____ the new software next week.'",
+    "translation": "implement",
+    "context": "'Implement' uygulamaya koymak, yürütmek demektir. Kararları uygulamayı anlatır.",
+    "options": [
+      "implement",
+      "design",
+      "think",
+      "destroy"
+    ],
+    "correctAnswer": "implement",
+    "category": "BUSINESS",
+    "variations": [
+      "We need to _____ this plan.",
+      "The changes were _____ immediately."
+    ],
+    "id": 3095
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Sorunu çözmek için: 'We must _____ this issue immediately.'",
+    "translation": "address",
+    "context": "'Address' hitap etmek veya ele almak, çözmeye odaklanmak demektir.",
+    "options": [
+      "address",
+      "ignore",
+      "hide",
+      "write"
+    ],
+    "correctAnswer": "address",
+    "category": "BUSINESS",
+    "variations": [
+      "How will you _____ the customer complaints?",
+      "We did not _____ the problem."
+    ],
+    "id": 3096
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "İş birliği yapmak için: 'We need to _____ with the marketing team.'",
+    "translation": "collaborate",
+    "context": "'Collaborate' iş birliği yapmak, ortak çalışmak demektir.",
+    "options": [
+      "collaborate",
+      "compete",
+      "fight",
+      "discuss"
+    ],
+    "correctAnswer": "collaborate",
+    "category": "BUSINESS",
+    "variations": [
+      "We decided to _____ on the project.",
+      "They _____ successfully."
+    ],
+    "id": 3097
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Müzakere sürecinde: 'We reached an _____ after long talks.'",
+    "translation": "agreement",
+    "context": "'Agreement' anlaşma, mutabakat demektir. İş görüşmelerinin olumlu sonucunu belirtir.",
+    "options": [
+      "agreement",
+      "argument",
+      "office",
+      "invoice"
+    ],
+    "correctAnswer": "agreement",
+    "category": "BUSINESS",
+    "variations": [
+      "Sign the _____ please.",
+      "Did you reach an _____?"
+    ],
+    "id": 3098
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Maliyetleri düşürmek için: 'We need to reduce our _____.'",
+    "translation": "expenses",
+    "context": "'Expenses' giderler, harcamalar demektir. Şirket harcamalarını kısıtlamayı anlatır.",
+    "options": [
+      "expenses",
+      "profits",
+      "sales",
+      "incomes"
+    ],
+    "correctAnswer": "expenses",
+    "category": "BUSINESS",
+    "variations": [
+      "Keep track of your travel _____.",
+      "The company's _____ are too high."
+    ],
+    "id": 3099
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "İş performansını değerlendirirken: 'Her performance exceeded our _____.'",
+    "translation": "expectations",
+    "context": "'Expectation' beklenti demektir. Çalışanın hedefleri aşmasını tanımlar.",
+    "options": [
+      "expectations",
+      "results",
+      "rules",
+      "plans"
+    ],
+    "correctAnswer": "expectations",
+    "category": "BUSINESS",
+    "variations": [
+      "What are your salary _____?",
+      "Meet the client's _____."
+    ],
+    "id": 3100
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Bir teklif hazırlarken: 'Please submit your _____ by Friday.'",
+    "translation": "proposal",
+    "context": "'Proposal' teklif, öneri demektir. İş ortaklığı veya proje tekliflerini ifade eder.",
+    "options": [
+      "proposal",
+      "report",
+      "sign",
+      "bill"
+    ],
+    "correctAnswer": "proposal",
+    "category": "BUSINESS",
+    "variations": [
+      "We rejected their _____.",
+      "I am writing a project _____."
+    ],
+    "id": 3101
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Pazar payını artırmak için: 'We want to expand our market _____.'",
+    "translation": "share",
+    "context": "'Market share' pazar payı demektir. Şirketin sektördeki gücünü gösterir.",
+    "options": [
+      "share",
+      "value",
+      "cost",
+      "place"
+    ],
+    "correctAnswer": "share",
+    "category": "BUSINESS",
+    "variations": [
+      "Our market _____ is growing.",
+      "They lost some market _____."
+    ],
+    "id": 3102
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Geri bildirim almak için: 'We appreciate your _____.'",
+    "translation": "feedback",
+    "context": "'Feedback' geri bildirim, yapıcı eleştiri demektir. Gelişim için önemlidir.",
+    "options": [
+      "feedback",
+      "report",
+      "help",
+      "work"
+    ],
+    "correctAnswer": "feedback",
+    "category": "BUSINESS",
+    "variations": [
+      "Give me your honest _____.",
+      "The client provided good _____."
+    ],
+    "id": 3103
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Şirketin hedeflerinden bahsederken: 'Our primary _____ is customer satisfaction.'",
+    "translation": "objective",
+    "context": "'Objective' veya 'goal' hedef, amaç demektir. Şirketin vizyonunu tanımlar.",
+    "options": [
+      "objective",
+      "plan",
+      "office",
+      "contract"
+    ],
+    "correctAnswer": "objective",
+    "category": "BUSINESS",
+    "variations": [
+      "What is your main _____?",
+      "We achieved our sales _____."
+    ],
+    "id": 3104
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Görüşmeleri yöneten kişi: 'He is a skilled _____.'",
+    "translation": "negotiator",
+    "context": "'Negotiator' müzakereci demektir. Anlaşma sağlamada uzman kişiyi belirtir.",
+    "options": [
+      "negotiator",
+      "worker",
+      "boss",
+      "clerk"
+    ],
+    "correctAnswer": "negotiator",
+    "category": "BUSINESS",
+    "variations": [
+      "We need a professional _____.",
+      "She acts as a _____ for the firm."
+    ],
+    "id": 3105
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Şirket içi yetkilendirme yaparken: 'You can _____ this task to your assistant.'",
+    "translation": "delegate",
+    "context": "'Delegate' yetkilendirmek, işi başkasına devretmek demektir.",
+    "options": [
+      "delegate",
+      "do",
+      "cancel",
+      "check"
+    ],
+    "correctAnswer": "delegate",
+    "category": "BUSINESS",
+    "variations": [
+      "Managers must learn to _____.",
+      "I want to _____ this responsibility."
+    ],
+    "id": 3106
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "İş sözleşmesini feshetmek için: 'The company decided to _____ the contract.'",
+    "translation": "terminate",
+    "context": "'Terminate' sonlandırmak, feshetmek demektir. Resmi ilişkileri bitirir.",
+    "options": [
+      "terminate",
+      "sign",
+      "renew",
+      "keep"
+    ],
+    "correctAnswer": "terminate",
+    "category": "BUSINESS",
+    "variations": [
+      "We have the right to _____ the agreement.",
+      "They decided to _____ his employment."
+    ],
+    "id": 3107
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Arkadaşınızın teklifini kibarca reddederken: 'I would love to, but I have a prior _____.'",
+    "translation": "commitment",
+    "context": "'Commitment' taahhüt, söz veya önceden yapılmış plan demektir.",
+    "options": [
+      "commitment",
+      "meeting",
+      "work",
+      "excuse"
+    ],
+    "correctAnswer": "commitment",
+    "category": "CASUAL",
+    "variations": [
+      "Sorry, I have a family _____.",
+      "Thank you for your _____ to the team."
+    ],
+    "id": 3108
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Buluşma zamanını netleştirmek için: 'Let's _____ the details later.'",
+    "translation": "finalize",
+    "context": "'Finalize' kesinleştirmek, son halini vermek demektir. Planları netleştirirken söylenir.",
+    "options": [
+      "finalize",
+      "start",
+      "change",
+      "cancel"
+    ],
+    "correctAnswer": "finalize",
+    "category": "CASUAL",
+    "variations": [
+      "We need to _____ our plans.",
+      "Did you _____ the schedule?"
+    ],
+    "id": 3109
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Bir teklife sıcak baktığınızı belirtmek için: 'That sounds _____ to me.'",
+    "translation": "appealing",
+    "context": "'Appealing' cazip, çekici demektir. Tekliflerin cazip olduğunu belirtir.",
+    "options": [
+      "appealing",
+      "boring",
+      "bad",
+      "heavy"
+    ],
+    "correctAnswer": "appealing",
+    "category": "CASUAL",
+    "variations": [
+      "The idea is very _____.",
+      "I don't find it _____."
+    ],
+    "id": 3110
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Bir konuyu geçiştirmek veya boş vermek için: 'Never _____! It's not important.'",
+    "translation": "mind",
+    "context": "'Never mind' boş ver, önemi yok demektir. Günlük konuşmada çok sık duyulur.",
+    "options": [
+      "mind",
+      "care",
+      "worry",
+      "think"
+    ],
+    "correctAnswer": "mind",
+    "category": "CASUAL",
+    "variations": [
+      "_____ your own business!",
+      "I don't _____ waiting."
+    ],
+    "id": 3111
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Arkadaşınızla sohbet etmeyi özlediğinizi belirtirken: 'We should _____ up soon.'",
+    "translation": "catch",
+    "context": "'Catch up' buluşup havadan sudan konuşmak, arayı kapatmak demektir.",
+    "options": [
+      "catch",
+      "meet",
+      "go",
+      "talk"
+    ],
+    "correctAnswer": "catch",
+    "category": "CASUAL",
+    "variations": [
+      "Let's _____ up over coffee.",
+      "It was great to _____ up with you."
+    ],
+    "id": 3112
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Birine katılmadığınızı kibarca söylemek için: 'I see your point, but I _____.'",
+    "translation": "disagree",
+    "context": "'Disagree' katılmamak, aynı fikirde olmamak demektir. Kibar tartışmalarda kullanılır.",
+    "options": [
+      "disagree",
+      "agree",
+      "know",
+      "think"
+    ],
+    "correctAnswer": "disagree",
+    "category": "CASUAL",
+    "variations": [
+      "We politly _____.",
+      "I strongly _____ with this view."
+    ],
+    "id": 3113
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Bir şeyin geçici olduğunu belirtirken: 'Don't worry, it's only _____.'",
+    "translation": "temporary",
+    "context": "'Temporary' geçici demektir. Kalıcı olmayan durumları tanımlar.",
+    "options": [
+      "temporary",
+      "permanent",
+      "good",
+      "bad"
+    ],
+    "correctAnswer": "temporary",
+    "category": "CASUAL",
+    "variations": [
+      "It was a _____ problem.",
+      "I have a _____ job."
+    ],
+    "id": 3114
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Şaka yaptığınızı söylerken: 'Don't take it seriously, I am only _____.'",
+    "translation": "kidding",
+    "context": "'Kidding' şaka yapmak demektir. Genellikle 'just kidding' şeklinde söylenir.",
+    "options": [
+      "kidding",
+      "working",
+      "crying",
+      "lying"
+    ],
+    "correctAnswer": "kidding",
+    "category": "CASUAL",
+    "variations": [
+      "Are you _____ me?",
+      "He is just _____."
+    ],
+    "id": 3115
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Birinin karar vermesine yardımcı olurken: 'It's up to _____.'",
+    "translation": "you",
+    "context": "'It's up to you' karar senin, sana kalmış anlamına gelen popüler bir deyimdir.",
+    "options": [
+      "you",
+      "your",
+      "me",
+      "them"
+    ],
+    "correctAnswer": "you",
+    "category": "CASUAL",
+    "variations": [
+      "It is up to _____ to decide.",
+      "The choice is up to _____."
+    ],
+    "id": 3116
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Kararsız kaldığınızda: 'I am on the _____ about going out tonight.'",
+    "translation": "fence",
+    "context": "'On the fence' kararsız olmak, iki fikir arasında kalmak anlamına gelen bir deyimdir.",
+    "options": [
+      "fence",
+      "wall",
+      "road",
+      "gate"
+    ],
+    "correctAnswer": "fence",
+    "category": "CASUAL",
+    "variations": [
+      "She is still on the _____.",
+      "Don't sit on the _____! Make a choice."
+    ],
+    "id": 3117
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Planı iptal etmek için: 'Let's call it a _____.'",
+    "translation": "day",
+    "context": "'Call it a day' bugünlük bu kadar yeter, paydos edelim anlamına gelir.",
+    "options": [
+      "day",
+      "night",
+      "week",
+      "time"
+    ],
+    "correctAnswer": "day",
+    "category": "CASUAL",
+    "variations": [
+      "I am tired, let's call it a _____.",
+      "We worked hard, let's call it a _____."
+    ],
+    "id": 3118
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Şans dilemek için arkadaşınıza: 'Break a _____ tonight!'",
+    "translation": "leg",
+    "context": "'Break a leg' sahneye çıkacak birine şans dilemek için söylenen popüler deyimdir.",
+    "options": [
+      "leg",
+      "arm",
+      "heart",
+      "bone"
+    ],
+    "correctAnswer": "leg",
+    "category": "CASUAL",
+    "variations": [
+      "Good luck, break a _____!",
+      "She told him to break a _____."
+    ],
+    "id": 3119
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Birinin sırrı saklamasını isterken: 'Keep it under your _____.'",
+    "translation": "hat",
+    "context": "'Keep it under your hat' sır olarak sakla, kimseye söyleme demektir.",
+    "options": [
+      "hat",
+      "desk",
+      "bed",
+      "hand"
+    ],
+    "correctAnswer": "hat",
+    "category": "CASUAL",
+    "variations": [
+      "I have a secret, keep it under your _____.",
+      "Please keep this news under your _____."
+    ],
+    "id": 3120
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Birine sürpriz yaparken: 'Don't let the cat out of the _____.'",
+    "translation": "bag",
+    "context": "'Let the cat out of the bag' sırrı ağzından kaçırmak demektir.",
+    "options": [
+      "bag",
+      "box",
+      "house",
+      "cage"
+    ],
+    "correctAnswer": "bag",
+    "category": "CASUAL",
+    "variations": [
+      "She let the cat out of the _____.",
+      "Who let the cat out of the _____?"
+    ],
+    "id": 3121
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Biriyle hemfikir olduğunuzu belirtirken: 'We are on the same _____.'",
+    "translation": "page",
+    "context": "'On the same page' aynı fikirde olmak, mutabık kalmak anlamına gelir.",
+    "options": [
+      "page",
+      "book",
+      "road",
+      "team"
+    ],
+    "correctAnswer": "page",
+    "category": "CASUAL",
+    "variations": [
+      "Make sure we are all on the same _____.",
+      "Are we on the same _____?"
+    ],
+    "id": 3122
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Verimliliği artırmak için: 'We need to leverage our core _____.'",
+    "translation": "competencies",
+    "context": "'Competency' yetkinlik demektir. Şirketin en güçlü olduğu alanları ifade eder.",
+    "options": [
+      "competencies",
+      "difficulties",
+      "employees",
+      "invoices"
+    ],
+    "correctAnswer": "competencies",
+    "category": "BUSINESS",
+    "variations": [
+      "What are the organization's core _____?",
+      "Develop your professional _____."
+    ],
+    "id": 3123
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Piyasadaki dalgalanmaları tanımlarken: 'The market is highly _____.'",
+    "translation": "volatile",
+    "context": "'Volatile' değişken, istikrarsız demektir. Fiyatların hızla değiştiği durumları açıklar.",
+    "options": [
+      "volatile",
+      "stable",
+      "steady",
+      "predictable"
+    ],
+    "correctAnswer": "volatile",
+    "category": "BUSINESS",
+    "variations": [
+      "Cryptocurrency prices are very _____.",
+      "We operate in a _____ environment."
+    ],
+    "id": 3124
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Bütçe kesintilerini açıklarken: 'We must mitigate the financial _____.'",
+    "translation": "risks",
+    "context": "'Mitigate' hafifletmek, azaltmak demektir. Riskleri minimize etmeyi ifade eder.",
+    "options": [
+      "risks",
+      "benefits",
+      "sales",
+      "contracts"
+    ],
+    "correctAnswer": "risks",
+    "category": "BUSINESS",
+    "variations": [
+      "Steps were taken to _____ the damage.",
+      "We want to _____ the impact of inflation."
+    ],
+    "id": 3125
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Şirketin sürdürülebilirliğinden bahsederken: 'We need a viable business _____.'",
+    "translation": "model",
+    "context": "'Viable' sürdürülebilir, uygulanabilir, yaşayabilir demektir.",
+    "options": [
+      "model",
+      "contract",
+      "idea",
+      "paper"
+    ],
+    "correctAnswer": "model",
+    "category": "BUSINESS",
+    "variations": [
+      "Is this a _____ solution?",
+      "We need a _____ alternative."
+    ],
+    "id": 3126
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Maliyet fayda analizinde: 'The return on investment is _____.'",
+    "translation": "substantial",
+    "context": "'Substantial' kayda değer, önemli miktarda demektir.",
+    "options": [
+      "substantial",
+      "minor",
+      "small",
+      "cheap"
+    ],
+    "correctAnswer": "substantial",
+    "category": "BUSINESS",
+    "variations": [
+      "We made _____ progress.",
+      "The company lost a _____ amount of money."
+    ],
+    "id": 3127
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "İş süreçlerini hızlandırmak için: 'We need to streamline our _____.'",
+    "translation": "operations",
+    "context": "'Streamline' kolaylaştırmak, sadeleştirmek, daha verimli hale getirmek demektir.",
+    "options": [
+      "operations",
+      "problems",
+      "costs",
+      "meetings"
+    ],
+    "correctAnswer": "operations",
+    "category": "BUSINESS",
+    "variations": [
+      "The system was designed to _____ the workflow.",
+      "We must _____ the production line."
+    ],
+    "id": 3128
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Şirketin iflas riskini belirtmek için: 'The firm is on the verge of _____.'",
+    "translation": "insolvency",
+    "context": "'Insolvency' borçlarını ödeyememe, iflas durumu demektir.",
+    "options": [
+      "insolvency",
+      "merger",
+      "success",
+      "growth"
+    ],
+    "correctAnswer": "insolvency",
+    "category": "BUSINESS",
+    "variations": [
+      "Declare _____ to protect the assets.",
+      "The bank faced _____ due to bad loans."
+    ],
+    "id": 3129
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Şirket birleşmelerinde: 'The two corporations agreed to a _____.'",
+    "translation": "merger",
+    "context": "'Merger' birleşme demektir. İki şirketin tek çatı altında toplanmasını ifade eder.",
+    "options": [
+      "merger",
+      "split",
+      "sale",
+      "closure"
+    ],
+    "correctAnswer": "merger",
+    "category": "BUSINESS",
+    "variations": [
+      "The _____ will create the largest bank in the country.",
+      "They announced the _____ yesterday."
+    ],
+    "id": 3130
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "İşe alım kriterlerinde: 'We look for candidates with high _____.'",
+    "translation": "integrity",
+    "context": "'Integrity' dürüstlük, ahlaki bütünlük demektir. İş ahlakını vurgular.",
+    "options": [
+      "integrity",
+      "speed",
+      "height",
+      "money"
+    ],
+    "correctAnswer": "integrity",
+    "category": "BUSINESS",
+    "variations": [
+      "He is a man of great _____.",
+      "We must maintain our professional _____."
+    ],
+    "id": 3131
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Yeni yasaların etkisini değerlendirirken: 'The new regulations will _____ the industry.'",
+    "translation": "disrupt",
+    "context": "'Disrupt' düzeni bozmak, altüst etmek, köklü değişiklik yapmak demektir.",
+    "options": [
+      "disrupt",
+      "help",
+      "build",
+      "create"
+    ],
+    "correctAnswer": "disrupt",
+    "category": "BUSINESS",
+    "variations": [
+      "AI is set to _____ many jobs.",
+      "Don't _____ the flow of the meeting."
+    ],
+    "id": 3132
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Pazarlama stratejisini çeşitlendirirken: 'We need to diversify our product _____.'",
+    "translation": "portfolio",
+    "context": "'Portfolio' portföy demektir. Sunulan ürün veya yatırım çeşitliliğini ifade eder.",
+    "options": [
+      "portfolio",
+      "box",
+      "list",
+      "price"
+    ],
+    "correctAnswer": "portfolio",
+    "category": "BUSINESS",
+    "variations": [
+      "Manage your investment _____ carefully.",
+      "We have a broad client _____."
+    ],
+    "id": 3133
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Tedarik zinciri aksamalarında: 'The shortage caused a bottleneck in the _____.'",
+    "translation": "supply chain",
+    "context": "'Bottleneck' darboğaz, tıkanıklık demektir. Süreçlerin yavaşlamasına neden olur.",
+    "options": [
+      "supply chain",
+      "office",
+      "market",
+      "meeting"
+    ],
+    "correctAnswer": "supply chain",
+    "category": "BUSINESS",
+    "variations": [
+      "Locate the _____ in our production.",
+      "This delay is a major _____ for us."
+    ],
+    "id": 3134
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Pazardaki tekelleşmeyi önlemek için: 'The watchdog monitored the _____ practices.'",
+    "translation": "monopolistic",
+    "context": "'Monopolistic' tekelci demektir. Rekabeti engelleyici davranışları tanımlar.",
+    "options": [
+      "monopolistic",
+      "competitive",
+      "fair",
+      "legal"
+    ],
+    "correctAnswer": "monopolistic",
+    "category": "BUSINESS",
+    "variations": [
+      "They accused the tech giant of _____ behavior.",
+      "Prevent _____ control of the energy market."
+    ],
+    "id": 3135
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Hissedarların beklentilerini karşılarken: 'We must maximize shareholder _____.'",
+    "translation": "value",
+    "context": "'Shareholder value' hissedar değeri demektir. Yatırımcı memnuniyetini ölçer.",
+    "options": [
+      "value",
+      "cost",
+      "risk",
+      "number"
+    ],
+    "correctAnswer": "value",
+    "category": "BUSINESS",
+    "variations": [
+      "Our goal is to create long-term shareholder _____.",
+      "The CEO focused on shareholder _____."
+    ],
+    "id": 3136
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Fikri mülkiyet haklarını korumak için: 'We registered a new _____.'",
+    "translation": "patent",
+    "context": "'Patent' patent demektir. Buluşların kopyalanmasını önler.",
+    "options": [
+      "patent",
+      "contract",
+      "invoice",
+      "paper"
+    ],
+    "correctAnswer": "patent",
+    "category": "BUSINESS",
+    "variations": [
+      "They filed a _____ for the technology.",
+      "Who holds the _____?"
+    ],
+    "id": 3137
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "İşten çıkarma operasyonlarında: 'The company announced a corporate _____.'",
+    "translation": "downsizing",
+    "context": "'Downsizing' küçülme, personel sayısını azaltma operasyonudur.",
+    "options": [
+      "downsizing",
+      "expansion",
+      "merger",
+      "growth"
+    ],
+    "correctAnswer": "downsizing",
+    "category": "BUSINESS",
+    "variations": [
+      "The _____ led to job losses.",
+      "Due to recession, corporate _____ is inevitable."
+    ],
+    "id": 3138
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Sinerji oluşturmak için: 'The collaboration created great _____.'",
+    "translation": "synergy",
+    "context": "'Synergy' sinerji demektir. Birlikte çalışarak daha büyük değer üretmeyi tanımlar.",
+    "options": [
+      "synergy",
+      "conflict",
+      "problem",
+      "work"
+    ],
+    "correctAnswer": "synergy",
+    "category": "BUSINESS",
+    "variations": [
+      "Look for _____ between the two teams.",
+      "The merger failed to produce any _____."
+    ],
+    "id": 3139
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Birine çok kızdığınızda öfkenizi kontrol etmek için: 'Take a deep breath and compose _____.'",
+    "translation": "yourself",
+    "context": "'Compose yourself' sakinleş, kendini toparla anlamına gelen şık bir deyimdir.",
+    "options": [
+      "yourself",
+      "himself",
+      "myself",
+      "itself"
+    ],
+    "correctAnswer": "yourself",
+    "category": "CASUAL",
+    "variations": [
+      "Please take a moment to compose _____.",
+      "She had to compose _____ before speaking."
+    ],
+    "id": 3140
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Çok mutlu olduğunuzu belirtmek için: 'I am on cloud _____ today!'",
+    "translation": "nine",
+    "context": "'On cloud nine' mutluluktan havalara uçmak anlamına gelen popüler bir deyimdir.",
+    "options": [
+      "nine",
+      "seven",
+      "ten",
+      "eight"
+    ],
+    "correctAnswer": "nine",
+    "category": "CASUAL",
+    "variations": [
+      "He was on cloud _____ after winning.",
+      "They are on cloud _____ about the baby."
+    ],
+    "id": 3141
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Biriyle aynı fikirde olduğunuzda: 'We see eye to _____ on this issue.'",
+    "translation": "eye",
+    "context": "'See eye to eye' tamamen aynı fikirde olmak, mutabık kalmak demektir.",
+    "options": [
+      "eye",
+      "face",
+      "hand",
+      "mind"
+    ],
+    "correctAnswer": "eye",
+    "category": "CASUAL",
+    "variations": [
+      "They don't see eye to _____.",
+      "I am glad we see eye to _____."
+    ],
+    "id": 3142
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Zor durumlarda umudunu kaybetmeyenler için: 'Every cloud has a silver _____.'",
+    "translation": "lining",
+    "context": "'Every cloud has a silver lining' her şerde bir hayır vardır anlamına gelen atasözüdür.",
+    "options": [
+      "lining",
+      "star",
+      "light",
+      "border"
+    ],
+    "correctAnswer": "lining",
+    "category": "CASUAL",
+    "variations": [
+      "Try to find the silver _____.",
+      "Remember, every cloud has a silver _____."
+    ],
+    "id": 3143
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Birinin yalan söylediğini anladığınızda: 'I smell a _____.'",
+    "translation": "rat",
+    "context": "'I smell a rat' işin içinde bir bit yeniği olduğunu sezmek anlamına gelen deyimdir.",
+    "options": [
+      "rat",
+      "cat",
+      "dog",
+      "mouse"
+    ],
+    "correctAnswer": "rat",
+    "category": "CASUAL",
+    "variations": [
+      "Something is wrong here, I smell a _____.",
+      "He began to smell a _____ when they lied."
+    ],
+    "id": 3144
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Biriyle dalga geçerken: 'Are you pulling my _____?'",
+    "translation": "leg",
+    "context": "'Pull someone's leg' biriyle kafa bulmak, dalga geçmek, işletmek demektir.",
+    "options": [
+      "leg",
+      "hair",
+      "arm",
+      "ear"
+    ],
+    "correctAnswer": "leg",
+    "category": "CASUAL",
+    "variations": [
+      "Don't believe him, he is just pulling your _____.",
+      "Are you pulling my _____? Really?"
+    ],
+    "id": 3145
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Önemli konularda lafı dolandırmamayı isterken: 'Stop beating around the _____.'",
+    "translation": "bush",
+    "context": "'Beat around the bush' lafı dolandırmak, sadede gelmemek demektir.",
+    "options": [
+      "bush",
+      "tree",
+      "wall",
+      "gate"
+    ],
+    "correctAnswer": "bush",
+    "category": "CASUAL",
+    "variations": [
+      "Just tell me the truth, don't beat around the _____.",
+      "He beats around the _____ to avoid the question."
+    ],
+    "id": 3146
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Çok nadir olan durumları tarif ederken: 'It happens once in a blue _____.'",
+    "translation": "moon",
+    "context": "'Once in a blue moon' kırk yılda bir, çok nadiren gerçekleşen olaylar için kullanılır.",
+    "options": [
+      "moon",
+      "star",
+      "sky",
+      "year"
+    ],
+    "correctAnswer": "moon",
+    "category": "CASUAL",
+    "variations": [
+      "We meet once in a blue _____.",
+      "He calls me once in a blue _____."
+    ],
+    "id": 3147
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Birine tam destek verirken: 'I will back you up through thick and _____.'",
+    "translation": "thin",
+    "context": "'Through thick and thin' iyi günde kötü günde, her türlü zorluğa göğüs gererek demektir.",
+    "options": [
+      "thin",
+      "fat",
+      "short",
+      "long"
+    ],
+    "correctAnswer": "thin",
+    "category": "CASUAL",
+    "variations": [
+      "They stayed together through thick and _____.",
+      "I support you through thick and _____."
+    ],
+    "id": 3148
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Çok kolay bir işi anlatırken: 'This exam is a piece of _____.'",
+    "translation": "cake",
+    "context": "'Piece of cake' çocuk oyuncağı, yapması son derece kolay olan iş demektir.",
+    "options": [
+      "cake",
+      "bread",
+      "pie",
+      "apple"
+    ],
+    "correctAnswer": "cake",
+    "category": "CASUAL",
+    "variations": [
+      "The test was a piece of _____.",
+      "Cooking is a piece of _____ for her."
+    ],
+    "id": 3149
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Bir sırrı saklayamayanlar için: 'Don't spill the _____.'",
+    "translation": "beans",
+    "context": "'Spill the beans' sırrı ifşa etmek, baklayı ağzından çıkarmak demektir.",
+    "options": [
+      "beans",
+      "coffee",
+      "milk",
+      "water"
+    ],
+    "correctAnswer": "beans",
+    "category": "CASUAL",
+    "variations": [
+      "Who spilled the _____?",
+      "Trust him, he won't spill the _____."
+    ],
+    "id": 3150
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Olayları akışına bırakmak için: 'Go with the _____.'",
+    "translation": "flow",
+    "context": "'Go with the flow' akıntıya bırakmak, rüzgara göre hareket etmek anlamına gelir.",
+    "options": [
+      "flow",
+      "wind",
+      "water",
+      "sea"
+    ],
+    "correctAnswer": "flow",
+    "category": "CASUAL",
+    "variations": [
+      "Just relax and go with the _____.",
+      "Sometimes it is best to go with the _____."
+    ],
+    "id": 3151
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Çok pahalı bir eşyadan bahsederken: 'It costs an arm and a _____.'",
+    "translation": "leg",
+    "context": "'Costs an arm and a leg' aşırı derecede pahalı olmak, cep yakmak anlamına gelir.",
+    "options": [
+      "leg",
+      "head",
+      "eye",
+      "hand"
+    ],
+    "correctAnswer": "leg",
+    "category": "CASUAL",
+    "variations": [
+      "Buying a house costs an arm and a _____.",
+      "That car costs an arm and a _____."
+    ],
+    "id": 3152
+  },
+  {
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Bir durumu tam vaktinde kurtarırken: 'You arrived in the nick of _____.'",
+    "translation": "time",
+    "context": "'In the nick of time' tam zamanında, son anda, ucu ucuna demektir.",
+    "options": [
+      "time",
+      "day",
+      "hour",
+      "year"
+    ],
+    "correctAnswer": "time",
+    "category": "CASUAL",
+    "variations": [
+      "The ambulance arrived in the nick of _____.",
+      "I finished the exam in the nick of _____."
+    ],
+    "id": 3153
   }
 ]
