@@ -52,7 +52,7 @@ def generate_feed_json(api_key, headlines):
     prompt = f"""Günün şu güncel haber başlıklarını (dünya gündemi, teknoloji, bilim/uzay, spor haberleri ve tuhaf/viral/komik haber olayları) incele:
 {headlines_text}
 
-Bu haberlerde geçen anahtar kelimelerden, teknolojik gelişmelerden, komik/viral durumlardan, spor terimlerinden veya seyahat durumlarından yola çıkarak LingoScroll uygulaması için tam 9 adet güncel pratik test sorusu üret.
+Bu haberlerde geçen anahtar kelimelerden, teknolojik gelişmelerden, komik/viral durumlardan, spor terimlerinden veya seyahat durumlarından yola çıkarak LingoScroll uygulaması için tam 12 adet güncel pratik test sorusu üret.
 
 Sorular aşağıdaki şemaya tam uymalıdır (JSON Array olarak):
 [
@@ -71,8 +71,8 @@ Sorular aşağıdaki şemaya tam uymalıdır (JSON Array olarak):
 ]
 
 Kurallar:
-1. Ürettiğin 9 sorunun seviye dağılımı: 3 adet BEGINNER, 3 adet INTERMEDIATE, 3 adet ADVANCED olmalıdır.
-2. Her seviye içindeki kategori dağılımı: 1 adet TRAVEL, 1 adet BUSINESS, 1 adet CASUAL olmalıdır (Toplam 3 TRAVEL, 3 BUSINESS, 3 CASUAL).
+1. Ürettiğin 12 sorunun seviye dağılımı: 4 adet BEGINNER, 4 adet INTERMEDIATE, 4 adet ADVANCED olmalıdır.
+2. Her seviye içindeki kategori dağılımı: 1 adet TRAVEL, 1 adet BUSINESS, 1 adet CASUAL, 1 adet MIXED/GENERAL olmalıdır (Toplam 3 TRAVEL, 3 BUSINESS, 3 CASUAL, 3 MIXED).
 3. İlgi çeken tuhaf/viral haberleri ve spor/uzay haberlerini de mutlaka sorulara yansıt. Kelime açıklamaları eğlenceli ve merak uyandırıcı olsun.
 4. Sadece geçerli bir JSON dizisi çıktısı ver. Çıktının başına veya sonuna ```json, ``` veya herhangi bir markdown/metin açıklaması ekleme, doğrudan raw JSON döndür.
 5. "options" dizisini kesinlikle boş bırakma. "type" değeri QUIZ_COMPLETION (boşluk doldurma) olsa dahi, kullanıcının boşluğa yerleştirebilmesi için 1 adet doğru cevap ve 3 adet çeldirici olmak üzere tam 4 seçeneği mutlaka listele!
@@ -136,9 +136,12 @@ def main():
 
     feed_cards = generate_feed_json(api_key, headlines)
     if feed_cards:
-        # ID'leri benzersiz ve ardışık hale getir (2001'den başlayarak)
+        # ID'leri benzersiz, tarih bazlı ve integer limitlerine uygun hale getir (Örn: 126070101, 126070102)
+        import datetime
+        date_str = datetime.datetime.now().strftime("%y%m%d")
+        date_prefix = int(f"1{date_str}") * 100
         for idx, card in enumerate(feed_cards):
-            card["id"] = 2001 + idx
+            card["id"] = date_prefix + (idx + 1)
             
         output_file = "feed.json"
         try:
