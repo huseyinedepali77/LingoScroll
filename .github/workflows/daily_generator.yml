@@ -1,0 +1,36 @@
+name: Daily LingoScroll Feed Generator
+
+on:
+  schedule:
+    - cron: '0 5 * * *' # Her gün Türkiye saatiyle 08:00'de otomatik çalışır
+  workflow_dispatch: # Manuel olarak GitHub panelinden tetikleme izni verir
+
+permissions:
+  contents: write
+
+jobs:
+  generate-feed:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Repoyu Klonla
+      uses: actions/checkout@v4
+
+    - name: Python Kurulumu
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Güncel Haberleri Çek ve Soruları Üret
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      run: |
+        python generator/lingoscroll_generator.py
+
+    - name: feed.json Dosyasını Taahhüt Et (Commit) ve Pushla
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add feed.json || true
+        git commit -m "Automated daily feed update [skip ci]" || true
+        git push
