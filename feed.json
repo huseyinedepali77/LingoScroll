@@ -3,171 +3,171 @@
     "id": 2001,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "A dangerous _____ is expected to hit the US this weekend.",
-    "translation": "Tehlikeli bir sıcak hava dalgası bu hafta sonu ABD'yi vuracak.",
-    "context": "Tatil planları yaparken hava durumunu kontrol etmek şart! Özellikle 'heatwave' dedikleri, yani aşırı sıcak hava dalgaları, plajda yanmaktan öte sağlığa zararlı olabilir. Hava çok sıcak ve nemliyse, 'It's a real heatwave today!' diyerek serin bir şeyler içme isteğinizi dile getirebilirsiniz. Unutmayın, bu dalgalarda bol su içmek ve serin kalmak çok önemli.",
+    "phrase": "The small plane _____ in the mountains.",
+    "translation": "Küçük uçak dağlara çarptı.",
+    "context": "Aman dikkat! Uçakla seyahat ederken 'crash' kelimesi duymak istemeyeceğimiz en kötü şeylerden biri. Bir şeyin aniden, kontrolsüzce bir yere çarpması veya düşmesi anlamına gelir. Genelde 'plane crash' (uçak kazası) veya 'car crash' (araba kazası) olarak kullanırız.",
     "options": [
-      "heatwave",
-      "storm",
-      "blizzard",
-      "breeze"
+      "crashed",
+      "flew",
+      "landed",
+      "departed"
     ],
-    "correctAnswer": "heatwave",
+    "correctAnswer": "crashed",
     "category": "TRAVEL",
     "variations": [
-      "Many people suffer during a heatwave.",
-      "The heatwave made us stay indoors."
+      "A plane often crashes due to bad weather.",
+      "I heard about a plane crash yesterday."
     ]
   },
   {
     "id": 2002,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The new _____ is looking for angel investors.",
-    "translation": "Yeni girişim melek yatırımcı arıyor.",
-    "context": "'Startup' demek, genelde 'silikon vadisi' rüyası kuran, yenilikçi fikirlerle yola çıkmış, büyüme potansiyeli yüksek genç şirket demek. Senin de parlak bir fikrin varsa, bir 'startup' kurabilir, hatta belki ileride bir 'unicorn' olabilirsin! Unutma, 'startup' kültüründe hızlı düşünmek ve hızlı hareket etmek çok önemli.",
+    "phrase": "My grandpa is looking forward to _____ next year.",
+    "translation": "Büyükbabam gelecek yıl emekli olmayı dört gözle bekliyor.",
+    "context": "Oh la la! Yıllarca çalıştıktan sonra ayakları uzatıp dinlenmek isteyenlerin hayali! 'Retire' fiili, işi bırakıp emekliye ayrılmak demek. Genellikle yaşlılık veya yeterli birikim sonrası olur. Keyfini çıkarın!",
     "options": [
-      "startup",
-      "corporation",
-      "branch",
-      "department"
+      "retiring",
+      "working",
+      "studying",
+      "traveling"
     ],
-    "correctAnswer": "startup",
+    "correctAnswer": "retiring",
     "category": "BUSINESS",
     "variations": [
-      "Her dream is to work for a tech startup.",
-      "The startup managed to raise millions."
+      "She plans to retire early.",
+      "Many people dream of retiring young."
     ]
   },
   {
     "id": 2003,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "Bir futbol kulübünün yeni bir oyuncuyla sözleşme imzalamasına ne denir?",
-    "translation": "What do you call it when a football club signs a new player?",
-    "context": "Spor dünyasında, özellikle futbolda, bir kulübün yeni bir oyuncuyu kadrosuna katmasına 'sign a player' denir. Yani transfer haberlerini duyduğunda, 'They just signed a great striker!' (Harika bir forvetle sözleşme imzaladılar!) diyerek heyecanını paylaşabilirsin. Bu terim sadece sporda değil, genel olarak bir anlaşma veya sözleşme imzalamak için de kullanılabilir.",
-    "options": [
-      "To sign a player",
-      "To play a player",
-      "To score a player",
-      "To watch a player"
-    ],
-    "correctAnswer": "To sign a player",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 2004,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The trapped hikers were _____ by the mountain rescue team.",
-    "translation": "Mahsur kalan yürüyüşçüler dağ kurtarma ekibi tarafından kurtarıldı.",
-    "context": "Bir felaket anında veya tehlikeli bir durumda birinin hayatının kurtarılmasına 'to be rescued' denir. Haberlerde 'A child was rescued from the earthquake rubble' gibi cümleler duyabilirsin. Bu kelime, zor durumda kalanlara yardım eli uzatmak anlamına gelir. Tıpkı bir süper kahraman gibi!",
+    "level": "BEGINNER",
+    "phrase": "We're having a terrible _____ this week.",
+    "translation": "Bu hafta berbat bir sıcak hava dalgası yaşıyoruz.",
+    "context": "Yazın en sevdiğimiz kelime olmayabilir! 'Heatwave', hava sıcaklığının uzun bir süre boyunca normalin çok üzerinde seyrettiği, bunaltıcı sıcak hava dalgası demek. Bol su içmeyi ve gölgede kalmayı unutma!",
     "options": [
-      "rescued",
-      "captured",
-      "abandoned",
-      "forgotten"
+      "heatwave",
+      "cold front",
+      "rainy day",
+      "snowstorm"
     ],
-    "correctAnswer": "rescued",
-    "category": "TRAVEL",
+    "correctAnswer": "heatwave",
+    "category": "CASUAL",
     "variations": [
-      "They tried to rescue the cat from the tree.",
-      "The lifeguards rescued the swimmer."
+      "A dangerous heatwave hit the city.",
+      "Stay hydrated during a heatwave."
     ]
   },
   {
-    "id": 2005,
+    "id": 2004,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Bir kişinin iş hayatını bırakıp emekli olmasına ne denir?",
-    "translation": "What do you call it when a person leaves their job and retires?",
-    "context": "Yıllarca süren çalışmanın ardından, insanların 'retiring' olması yani emekli olması, hayatlarında yeni bir dönemeçtir. Emeklilik, genellikle hobilerle uğraşmak, torunlarla vakit geçirmek veya dünya turuna çıkmak gibi hayallerle ilişkilendirilir. Eğer bir gün 'I'm thinking of retiring next year' derseniz, muhtemelen herkes size 'iyi tatiller' dileyecektir!",
+    "phrase": "Hangi kelime, şiddetli yağışlar sonucu su baskını durumunu en iyi açıklar?",
+    "translation": "Which word best describes the situation of water overflow due to heavy rains?",
+    "context": "Tatilini mahvedebilecek, bazen de evleri sular altında bırakabilecek kötü bir doğa olayı! 'Flooding', genellikle yoğun yağışlar veya nehir taşmaları sonucu bir bölgenin su altında kalması durumu. Eğer bir yere seyahat ediyorsan, gitmeden önce 'flooding' olup olmadığını kontrol etmek iyi fikir.",
     "options": [
-      "To retire",
-      "To promote",
-      "To resign",
-      "To transfer"
+      "Flooding",
+      "Drought",
+      "Blizzard",
+      "Hailstorm"
     ],
-    "correctAnswer": "To retire",
-    "category": "BUSINESS",
+    "correctAnswer": "Flooding",
+    "category": "TRAVEL",
     "variations": []
+  },
+  {
+    "id": 2005,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The startup's market _____ reached $1 billion.",
+    "translation": "Girişimin piyasa değeri 1 milyar dolara ulaştı.",
+    "context": "Girişimcilik dünyasının havalı terimlerinden! 'Valuation', bir şirketin veya varlığın piyasa değerinin belirlenmesi anlamına gelir. Yatırımcılar bir şirkete para yatırmadan önce 'valuation' yaparak ne kadar değerli olduğunu anlamaya çalışır. Hayallerin milyar dolarlarla ölçüldüğü yer burası!",
+    "options": [
+      "valuation",
+      "profit",
+      "expense",
+      "debt"
+    ],
+    "correctAnswer": "valuation",
+    "category": "BUSINESS",
+    "variations": [
+      "They disagreed on the company's valuation.",
+      "High valuation attracts more investors."
+    ]
   },
   {
     "id": 2006,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Her reaction was completely _____, nobody saw it coming.",
-    "translation": "Tepkisi tamamen öngörülemezdi, kimse beklemiyordu.",
-    "context": "Hayatta bazı insanlar veya durumlar vardır ki ne yapacaklarını asla bilemezsin. İşte bu duruma 'unpredictable' denir. Tıpkı havai fişek gösterisi gibi, bir sonraki hareketin ne olacağını tahmin edemezsin. 'My cat is so unpredictable; sometimes she wants cuddles, sometimes she scratches!' (Kedim o kadar tahmin edilemez ki; bazen kucaklaşmak ister, bazen tırmalar!) diyebiliriz.",
+    "phrase": "Our team is playing in the _____ next week.",
+    "translation": "Takımımız gelecek hafta yarı finalde oynuyor.",
+    "context": "Spor müsabakalarında heyecanın tavan yaptığı an! 'Semi-final', bir turnuvada finale kalmak için oynanan son tur maçı demek. Kazananlar finale yükselir, kaybedenler eve gider. Adrenalin patlaması garanti!",
     "options": [
-      "unpredictable",
-      "reliable",
-      "obvious",
-      "consistent"
+      "semi-final",
+      "friendly match",
+      "training session",
+      "opening ceremony"
     ],
-    "correctAnswer": "unpredictable",
+    "correctAnswer": "semi-final",
     "category": "CASUAL",
     "variations": [
-      "The weather here is very unpredictable.",
-      "His unpredictable behavior worries us."
+      "They won the semi-final match.",
+      "The semi-final will be intense."
     ]
   },
   {
     "id": 2007,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Heavy rains caused widespread _____ in the low-lying areas.",
-    "translation": "Şiddetli yağmurlar alçak bölgelerde yaygın sellere neden oldu.",
-    "context": "Aşırı yağışlar sonucu su baskınına 'flooding' denir. Bu, maalesef bazen ciddi hasara yol açabilen doğal bir afet. Sel suları yolları kapatabilir, evleri basabilir. 'Be careful, there's a lot of flooding on the main road!' (Dikkatli ol, ana yolda çok sel var!) diyerek insanları uyarabilirsin. Küresel iklim değişikliğiyle birlikte, 'flooding' haberlerini daha sık duymaya başladık.",
-    "options": [
-      "flooding",
-      "drought",
-      "erosion",
-      "landslide"
-    ],
-    "correctAnswer": "flooding",
-    "category": "TRAVEL",
-    "variations": [
-      "The city suffered from severe flooding.",
-      "We had to evacuate due to the flooding."
-    ]
-  },
-  {
-    "id": 2008,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Dijital para birimi olan 'cryptocurrency'nin kısaltması nedir?",
-    "translation": "What is the abbreviation for 'cryptocurrency', a digital currency?",
-    "context": "Son yılların en popüler yatırım ve teknoloji konularından biri 'crypto'. Bitcoin, Ethereum gibi dijital paraları duymuşsundur. Bu kelime, 'cryptocurrency'nin kısaltmasıdır ve blok zinciri teknolojisiyle güvenliği sağlanan, merkezi olmayan dijital varlıkları ifade eder. 'Have you invested in crypto?' (Kriptoya yatırım yaptın mı?) diye sorarak arkadaşlarınla bu konuda muhabbet açabilirsin. Ama unutma, 'crypto' dünyası oldukça hareketli ve riskli olabilir!",
+    "phrase": "Hükümetin seyahatle ilgili koyduğu 'kısıtlamalar' anlamına gelen kelime hangisidir?",
+    "translation": "Which word means 'limitations' imposed by the government regarding travel?",
+    "context": "Tatil planlarını altüst edebilecek o can sıkıcı kurallar! 'Restrictions', bir şeyin yapılmasını sınırlayan veya engelleyen kural veya kısıtlamalar anlamına gelir. Özellikle pandemi döneminde çok duyduk. Seyahat edecekseniz, varış ülkesinin 'travel restrictions' olup olmadığını mutlaka kontrol edin!",
     "options": [
-      "crypto",
-      "cryptic",
-      "cryptology",
-      "cipher"
+      "Restrictions",
+      "Permissions",
+      "Opportunities",
+      "Freedoms"
     ],
-    "correctAnswer": "crypto",
-    "category": "BUSINESS",
+    "correctAnswer": "Restrictions",
+    "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 2009,
+    "id": 2008,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The professor was shocked to discover _____ on the take-home exams.",
-    "translation": "Profesör, eve götürülen sınavlarda toplu kopya çekildiğini öğrenince şok oldu.",
-    "context": "Sınavlarda kopya çekmek zaten hoş değilken, bir de 'mass cheating' olunca işler çığırından çıkar! Bu terim, büyük ölçekli, yani birçok kişinin aynı anda kopya çektiği durumlar için kullanılır. Profesörün 'Humanity has chosen to become idiots' dediği haberde de gördüğümüz gibi, bu durum akademik dürüstlük açısından büyük bir hayal kırıklığı yaratır. 'The scandal involved mass cheating during the online course' (Skandal, online ders sırasında toplu kopya çekmeyi içeriyordu) gibi cümlelerde bu terimi görebilirsin.",
+    "phrase": "The new policy could _____ trust in the system.",
+    "translation": "Yeni politika sisteme olan güveni zayıflatabilir.",
+    "context": "Bir şeyin temelini yavaş yavaş aşındırmak, gücünü veya etkinliğini azaltmak demek. 'Undermine' fiili, genellikle fark edilmeden, sinsice bir şeyi zayıflatmak anlamında kullanılır. Güven, otorite veya bir plan gibi soyut kavramlarla ilgiliyken sıkça karşımıza çıkar. Sakın birinin sana olan güvenini 'undermine' etme!",
     "options": [
-      "mass cheating",
-      "hard work",
-      "creative answers",
-      "individual success"
+      "undermine",
+      "strengthen",
+      "support",
+      "establish"
     ],
-    "correctAnswer": "mass cheating",
-    "category": "CASUAL",
+    "correctAnswer": "undermine",
+    "category": "BUSINESS",
     "variations": [
-      "The investigation revealed widespread mass cheating.",
-      "They developed new methods to prevent mass cheating."
+      "His actions undermined her authority.",
+      "Constant criticism can undermine confidence."
     ]
+  },
+  {
+    "id": 2009,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Birçok öğrencinin sınavda aynı anda kopya çekmesi durumunu en iyi açıklayan terim hangisidir?",
+    "translation": "Which term best describes the situation where many students cheat simultaneously in an exam?",
+    "context": "Vay canına, sınavda yakalanmaktan daha kötüsü ne olabilir? Toplu kopya çekmek! 'Mass cheating', birçok öğrencinin aynı anda, organize bir şekilde veya bağımsız olarak kopya çekmesi anlamına gelir. Profesörün 'Humanity has chosen to become idiots' demesi boşuna değil! Ne yazık ki eğitimde dürüstlük bu gibi durumlarla sarsılır.",
+    "options": [
+      "Mass cheating",
+      "Group study",
+      "Fair assessment",
+      "Honest exams"
+    ],
+    "correctAnswer": "Mass cheating",
+    "category": "CASUAL",
+    "variations": []
   }
 ]
