@@ -117,7 +117,7 @@ class MainScreenViewModel(context: Context) : ViewModel() {
 
     init {
         // Her yeni yüklemede seviye tespit sınavının (SBS) baştan gelmesini sağlamak için build zamanı kontrolü
-        val currentBuildTime = "20260701_1418" 
+        val currentBuildTime = "20260701_1423" 
         val savedBuildTime = prefs.getSavedBuildTime()
         if (savedBuildTime != currentBuildTime) {
             prefs.clearUserProgress()
@@ -378,11 +378,11 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         }
         val targetPool = if (categoryFiltered.isNotEmpty()) categoryFiltered else allLevelCards
 
-        // Sadece QUIZ tiplerini pratik akışına al (CARD tiplerini ayırıyoruz)
-        val quizCards = targetPool.filter { it.type != "CARD" }
+        // Sadece QUIZ tiplerini pratik akışına al (CARD tiplerini ayırıyoruz) ve seviye tespit (SBS) sorularını hariç tut (ID 100-199)
+        val quizCards = targetPool.filter { it.type != "CARD" && it.id !in 100..199 }
         if (quizCards.isEmpty()) {
-            // Eğer kategoride quiz yoksa genel havuzdan quiz çek
-            val fallbackQuizzes = allLevelCards.filter { it.type != "CARD" }
+            // Eğer kategoride quiz yoksa genel havuzdan quiz çek (SBS soruları hariç)
+            val fallbackQuizzes = allLevelCards.filter { it.type != "CARD" && it.id !in 100..199 }
             if (fallbackQuizzes.isEmpty()) return
             selectAndEmitQuiz(fallbackQuizzes, level, currentTime)
             return
