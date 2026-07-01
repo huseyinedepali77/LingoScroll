@@ -9,7 +9,10 @@ import xml.etree.ElementTree as ET
 # RSS Feed URLs
 FEEDS = {
     "BBC World News": "http://feeds.bbci.co.uk/news/world/rss.xml",
-    "TechCrunch": "https://techcrunch.com/feed/"
+    "TechCrunch": "https://techcrunch.com/feed/",
+    "Science & Space": "http://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+    "Sports News": "https://www.skysports.com/rss/12040",
+    "Weird & Viral": "https://news.yahoo.com/rss/weird"
 }
 
 def fetch_rss_headlines():
@@ -30,7 +33,7 @@ def fetch_rss_headlines():
                     if title is not None and title.text:
                         headlines.append(f"[{name}] {title.text}")
                         count += 1
-                        if count >= 8: # Her kaynaktan en fazla 8 başlık al
+                        if count >= 4: # Her kaynaktan en fazla 4 başlık al (Toplam ~20 başlık)
                             break
             print(f"-> {name} kaynağından {count} başlık başarıyla çekildi.")
         except Exception as e:
@@ -46,10 +49,10 @@ def generate_feed_json(api_key, headlines):
     
     # Prompt hazırlığı
     headlines_text = "\n".join(headlines)
-    prompt = f"""Günün şu güncel haber başlıklarını incele:
+    prompt = f"""Günün şu güncel haber başlıklarını (dünya gündemi, teknoloji, bilim/uzay, spor haberleri ve tuhaf/viral/komik haber olayları) incele:
 {headlines_text}
 
-Bu haberlerde geçen anahtar kelimelerden, teknolojik gelişmelerden, ticari faaliyetlerden veya seyahat durumlarından yola çıkarak LingoScroll uygulaması için tam 6 adet güncel pratik test sorusu üret.
+Bu haberlerde geçen anahtar kelimelerden, teknolojik gelişmelerden, komik/viral durumlardan, spor terimlerinden veya seyahat durumlarından yola çıkarak LingoScroll uygulaması için tam 6 adet güncel pratik test sorusu üret.
 
 Sorular aşağıdaki şemaya tam uymalıdır (JSON Array olarak):
 [
@@ -59,7 +62,7 @@ Sorular aşağıdaki şemaya tam uymalıdır (JSON Array olarak):
     "level": "INTERMEDIATE", // "BEGINNER", "INTERMEDIATE" veya "ADVANCED"
     "phrase": "İngilizce soru kalıbı (Boşluk doldurma ise '_____', çoktan seçmeli ise Türkçe soru cümlesi)",
     "translation": "İngilizce kelimenin/cümlenin Türkçe karşılığı veya doğru seçenek açıklaması",
-    "context": "Haberde geçen kelimenin/deyiminin sokakta nerede ve nasıl kullanıldığına dair detaylı Türkçe açıklama",
+    "context": "Haberde veya günlük hayatta geçen kelimenin/deyiminin sokakta nerede ve nasıl kullanıldığına dair detaylı Türkçe açıklama. Eğlenceli, akılda kalıcı ve samimi bir ton kullan.",
     "options": ["seçenek1", "seçenek2", "seçenek3", "seçenek4"], // 4 seçenek (doğru cevap dahil)
     "correctAnswer": "doğru_cevap",
     "category": "BUSINESS", // "TRAVEL", "BUSINESS" veya "CASUAL"
@@ -69,7 +72,7 @@ Sorular aşağıdaki şemaya tam uymalıdır (JSON Array olarak):
 
 Kurallar:
 1. Ürettiğin 6 sorunun dağılımı: 2 adet BEGINNER, 2 adet INTERMEDIATE, 2 adet ADVANCED olmalıdır.
-2. Kategoriler haberlerin içeriğine göre TRAVEL, BUSINESS ve CASUAL olarak dengeli dağılmalıdır.
+2. İlgi çeken tuhaf/viral haberleri ve spor/uzay haberlerini de mutlaka sorulara yansıt. Kelime açıklamaları eğlenceli ve merak uyandırıcı olsun.
 3. Sadece geçerli bir JSON dizisi çıktısı ver. Çıktının başına veya sonuna ```json, ``` veya herhangi bir markdown/metin açıklaması ekleme, doğrudan raw JSON döndür.
 """
 
