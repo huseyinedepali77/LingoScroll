@@ -91,7 +91,8 @@ Kurallar:
             }
         ],
         "generationConfig": {
-            "responseMimeType": "application/json"
+            "responseMimeType": "application/json",
+            "maxOutputTokens": 8192
         }
     }
 
@@ -102,7 +103,7 @@ Kurallar:
             data=data,
             headers={'Content-Type': 'application/json'}
         )
-        with urllib.request.urlopen(req, timeout=30) as response:
+        with urllib.request.urlopen(req, timeout=90) as response:
             res_data = json.loads(response.read().decode('utf-8'))
             
             # Gemini JSON yanıtını çözümle
