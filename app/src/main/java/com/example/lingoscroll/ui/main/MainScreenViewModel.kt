@@ -91,6 +91,102 @@ class MainScreenViewModel(context: Context) : ViewModel() {
     private var secondsTimerActive = 0L
     private var activeDiagnosticQuestions = listOf<WordCard>()
 
+    private fun getVerbForms(verb: String): List<String> {
+        val v = verb.lowercase()
+        return when (v) {
+            "make" -> listOf("made", "makes", "making")
+            "go" -> listOf("went", "gone", "goes", "going")
+            "take" -> listOf("took", "taken", "takes", "taking")
+            "get" -> listOf("got", "gotten", "gets", "getting")
+            "call" -> listOf("called", "calls", "calling")
+            "keep" -> listOf("kept", "keeps", "keeping")
+            "break" -> listOf("broke", "broken", "breaks", "breaking")
+            "run" -> listOf("ran", "runs", "running")
+            "buy" -> listOf("bought", "buys", "buying")
+            "split" -> listOf("split", "splits", "splitting")
+            "let" -> listOf("let", "lets", "letting")
+            "spill" -> listOf("spilled", "spilt", "spills", "spilling")
+            "pull" -> listOf("pulled", "pulls", "pulling")
+            "beat" -> listOf("beat", "beaten", "beats", "beating")
+            "happen" -> listOf("happened", "happens", "happening")
+            "cost" -> listOf("costs", "costing")
+            "arrive" -> listOf("arrived", "arrives", "arriving")
+            "see" -> listOf("saw", "seen", "sees", "seeing")
+            "do" -> listOf("did", "done", "does", "doing")
+            "have" -> listOf("had", "has", "having")
+            "find" -> listOf("found", "finds", "finding")
+            "say" -> listOf("said", "says", "saying")
+            "tell" -> listOf("told", "tells", "telling")
+            "write" -> listOf("wrote", "written", "writes", "writing")
+            "read" -> listOf("reads", "reading")
+            "speak" -> listOf("spoke", "spoken", "speaks", "speaking")
+            "meet" -> listOf("met", "meets", "meeting")
+            "send" -> listOf("sent", "sends", "sending")
+            "fly" -> listOf("flew", "flies", "flying")
+            "pay" -> listOf("paid", "pays", "paying")
+            "lose" -> listOf("lost", "loses", "losing")
+            "miss" -> listOf("missed", "misses", "missing")
+            "confirm" -> listOf("confirmed", "confirms", "confirming")
+            "cancel" -> listOf("cancelled", "canceled", "cancels", "canceling")
+            "rent" -> listOf("rented", "rents", "renting")
+            "declare" -> listOf("declared", "declares", "declaring")
+            "postpone" -> listOf("postponed", "postpones", "postponing")
+            "implement" -> listOf("implemented", "implements", "implementing")
+            "address" -> listOf("addressed", "addresses", "addressing")
+            "collaborate" -> listOf("collaborated", "collaborates", "collaborating")
+            "delegate" -> listOf("delegated", "delegates", "delegating")
+            "terminate" -> listOf("terminated", "terminates", "terminating")
+            "finalize" -> listOf("finalized", "finalizes", "finalizing")
+            "leverage" -> listOf("leveraged", "leverages", "leveraging")
+            "mitigate" -> listOf("mitigated", "mitigates", "mitigating")
+            "streamline" -> listOf("streamlined", "streamlines", "streamlining")
+            "disrupt" -> listOf("disrupted", "disrupts", "disrupting")
+            "diversify" -> listOf("diversified", "diversifies", "diversifying")
+            "downsize" -> listOf("downsized", "downsizes", "downsizing")
+            "compose" -> listOf("composed", "composes", "composing")
+            else -> {
+                val list = mutableListOf<String>()
+                if (v.endsWith("e")) {
+                    list.add(v + "d")
+                    list.add(v + "s")
+                    list.add(v.substring(0, v.length - 1) + "ing")
+                } else if (v.endsWith("y") && v.length > 2 && !listOf('a', 'e', 'i', 'o', 'u').contains(v[v.length - 2])) {
+                    list.add(v.substring(0, v.length - 1) + "ied")
+                    list.add(v.substring(0, v.length - 1) + "ies")
+                    list.add(v + "ing")
+                } else {
+                    list.add(v + "ed")
+                    list.add(v + "s")
+                    list.add(v + "ing")
+                }
+                list
+            }
+        }
+    }
+
+    private fun replaceAnswerWithBlank(sentence: String, answer: String): String {
+        if (sentence.contains("_____")) return sentence
+        if (sentence.contains(answer, ignoreCase = true)) {
+            return sentence.replace(answer, "_____", ignoreCase = true)
+        }
+        val parts = answer.split(" ")
+        if (parts.isNotEmpty()) {
+            val verb = parts[0]
+            val verbForms = getVerbForms(verb) + verb
+            for (form in verbForms) {
+                val reconstructedPhrase = if (parts.size > 1) {
+                    form + " " + parts.subList(1, parts.size).joinToString(" ")
+                } else {
+                    form
+                }
+                if (sentence.contains(reconstructedPhrase, ignoreCase = true)) {
+                    return sentence.replace(reconstructedPhrase, "_____", ignoreCase = true)
+                }
+            }
+        }
+        return sentence
+    }
+
     private fun isEnglishString(text: String): Boolean {
         val turkishChars = charArrayOf('ı', 'ş', 'ğ', 'ç', 'ö', 'ü', 'ı', 'Ş', 'Ğ', 'Ç', 'Ö', 'Ü', 'İ')
         return !text.any { it in turkishChars }
@@ -349,11 +445,7 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         val variations = chosenItem.variationsList
         val finalItem = if (chosenItem.type == "QUIZ_COMPLETION" && variations.isNotEmpty()) {
             val randomVariation = variations.random()
-            val processedVariation = if (!randomVariation.contains("_____") && randomVariation.contains(chosenItem.correctAnswer, ignoreCase = true)) {
-                randomVariation.replace(chosenItem.correctAnswer, "_____", ignoreCase = true)
-            } else {
-                randomVariation
-            }
+            val processedVariation = replaceAnswerWithBlank(randomVariation, chosenItem.correctAnswer)
 
             val phrase = chosenItem.expression
             val end = phrase.lastIndexOf("'")
