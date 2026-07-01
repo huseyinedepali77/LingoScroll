@@ -3,20 +3,20 @@
     "id": 126070101,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The city is experiencing a severe _____.",
-    "translation": "Şehir şiddetli bir 'heatwave' yaşıyor.",
-    "context": "Havalar çok sıcak olduğunda, insanlar 'heatwave' diyor! Plajda serinlemek veya klimanın altında takılmak isteyeceğin zamanlardır. Aman dikkat, kavurucu sıcaklara 'dangerously hot' da diyebiliriz.",
+    "phrase": "Many people plan to travel during the long _____.",
+    "translation": "Pek çok insan uzun tatil haftasonu boyunca seyahat etmeyi planlar.",
+    "context": "Ailecek veya arkadaşlarla kaçamak yapmak için yılın belli başlı uzun haftasonları vardır, bunlara 'holiday weekend' denir. Özellikle Amerika'da Memorial Day, Labor Day gibi ulusal tatiller uzun haftasonları yaratır.",
     "options": [
-      "heatwave",
-      "cold front",
-      "rainy season",
-      "strong wind"
+      "weekend",
+      "journey",
+      "trip",
+      "vacation"
     ],
-    "correctAnswer": "heatwave",
-    "category": "CASUAL",
+    "correctAnswer": "weekend",
+    "category": "TRAVEL",
     "variations": [
-      "We're expecting a long _____ this summer.",
-      "Stay hydrated during the _____!"
+      "Are you excited for the holiday weekend?",
+      "We will visit my family during the holiday weekend."
     ]
   },
   {
@@ -24,204 +24,207 @@
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
     "phrase": "The countries signed a new _____.",
-    "translation": "Ülkeler yeni bir 'trade deal' imzaladı.",
-    "context": "İki ülke arasında mal alım satımını kolaylaştıran anlaşmalara 'trade deal' denir. Yani, iş dünyasının 'ben sana bunu satayım, sen bana şunu' deme şekli! Ekonomiyi canlandırmak için sıkça başvurulan bir yoldur.",
+    "translation": "Ülkeler yeni bir ticaret anlaşması imzaladı.",
+    "context": "Ülkeler arasında mal ve hizmet alım satımını kolaylaştıran anlaşmalara 'trade deal' denir. Bu anlaşmalar sayesinde ithalat ve ihracat daha düzenli ve kolay hale gelir, ekonomileri canlandırır. Bu haberde ise ABD'nin Kuzey Amerika ticaret anlaşmasının uzun vadeli yenilenmesini engellediği belirtiliyor.",
     "options": [
-      "trade deal",
-      "war treaty",
-      "peace treaty",
-      "loan agreement"
+      "deal",
+      "business",
+      "contract",
+      "agreement"
     ],
-    "correctAnswer": "trade deal",
+    "correctAnswer": "deal",
     "category": "BUSINESS",
     "variations": [
-      "They hope this _____ will boost their economies.",
-      "Negotiating a fair _____ took months."
+      "They hope to secure a good trade deal.",
+      "A new trade deal benefits both nations."
     ]
   },
   {
     "id": 126070103,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "Which word refers to the top of something, like a tower?",
-    "translation": "Bir şeyin, örneğin bir kulenin en tepesini ifade eden kelime hangisidir? (Doğru cevap: point)",
-    "context": "Bir yerin en tepesi, en yüksek noktası için 'highest point' deriz. Tıpkı Empire State Binası'nın en tepesi gibi, oradan tüm şehri kuş bakışı izleyebilirsin! Manzarası müthiş olur!",
+    "phrase": "Which word means 'the quality or state of being warm'?",
+    "translation": "'Sıcak olma niteliği veya hali' anlamına gelen kelime hangisidir?",
+    "context": "Bu haberde teyzesinin enkazdan kurtarılan yeğenine 'anne sıcaklığı' vereceği belirtiliyor. 'Warmth' sadece fiziksel sıcaklık değil, aynı zamanda samimiyet, şefkat gibi duygusal sıcaklığı da ifade eder. Mesela, 'Her smile brought warmth to the room.' (Gülümsemesi odaya sıcaklık getirdi.)",
     "options": [
-      "base",
-      "middle",
-      "point",
-      "corner"
+      "coldness",
+      "heat",
+      "warmth",
+      "chill"
     ],
-    "correctAnswer": "point",
-    "category": "TRAVEL",
+    "correctAnswer": "warmth",
+    "category": "CASUAL",
     "variations": []
   },
   {
     "id": 126070104,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "There's a _____ in the software.",
-    "translation": "Yazılımda bir 'bug' var.",
-    "context": "Bilgisayar programlarında veya uygulamalarda beklenmedik sorunlar, hatalar ortaya çıktığında 'bug' deriz. Tıpkı küçük bir böcek gibi, programın işleyişini bozabilir! Hemen düzeltilmesi gerekir.",
+    "phrase": "The team kept their championship _____.",
+    "translation": "Takım şampiyonluk hayallerini canlı tuttu.",
+    "context": "Bir hedefi veya umudu hala gerçekleştirebilir durumda olmak 'to keep a dream alive' demektir. Bu haberde Harry Kane'in attığı golle İngiltere'nin Dünya Kupası hayallerini canlı tuttuğu söyleniyor. Spor müsabakalarında veya genel hayatta bir amaç için mücadeleye devam etmeyi anlatır.",
     "options": [
-      "feature",
-      "update",
-      "bug",
-      "solution"
+      "dream",
+      "goal",
+      "hope",
+      "wish"
     ],
-    "correctAnswer": "bug",
-    "category": "MIXED",
+    "correctAnswer": "dream",
+    "category": "GENERAL",
     "variations": [
-      "We need to fix this _____ quickly.",
-      "The program crashed due to a _____."
+      "They fought hard to keep their dream alive.",
+      "Don't give up, keep your dream alive!"
     ]
   },
   {
     "id": 126070105,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Which word means 'to reveal something that was hidden'?",
-    "translation": "Gizli bir şeyi 'açığa çıkarmak' anlamına gelen kelime hangisidir? (Doğru cevap: Exposing)",
-    "context": "Gizli bir şeyin ortaya çıkması, ifşa olması durumuna 'expose' denir. Tıpkı bir sırrın açığa çıkması gibi! Sosyal medyada bir skandalı 'expose' etmek de diyebiliriz. Bazen istenmeyen durumlar için kullanılır.",
-    "options": [
-      "Concealing",
-      "Exposing",
-      "Hiding",
-      "Masking"
-    ],
-    "correctAnswer": "Exposing",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126070106,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The company's _____ reached billions after the investment.",
-    "translation": "Şirketin 'valuation'ı yatırımdan sonra milyarlara ulaştı.",
-    "context": "Bir şirketin veya varlığın piyasa değerini belirlemeye 'valuation' denir. Tıpkı bir mücevherin değerini biçmek gibi, şirketlerin de ne kadar 'ettiği' hesaplanır! Yatırımcılar için çok önemli bir terimdir.",
+    "phrase": "Many people were _____ the war-torn region.",
+    "translation": "Pek çok insan savaşın yıprattığı bölgeden kaçıyordu.",
+    "context": "'To flee' bir yerden hızla ve genellikle tehlikeden dolayı kaçmak demektir. Bu haberde Nijerya vatandaşlarının Güney Afrika'dan kaçması ve terk ettikleri mülkler için tazminat talep etmesi anlatılıyor. Acil ve zorunlu bir ayrılışı ifade eder.",
     "options": [
-      "donation",
-      "debt",
-      "valuation",
-      "loss"
+      "leaving",
+      "running",
+      "fleeing",
+      "escaping"
     ],
-    "correctAnswer": "valuation",
-    "category": "BUSINESS",
+    "correctAnswer": "fleeing",
+    "category": "TRAVEL",
     "variations": [
-      "Experts performed a careful _____ of the startup.",
-      "The new funding raised its market _____ significantly."
+      "They fled their homes in the night.",
+      "Thousands of refugees are fleeing the conflict."
     ]
   },
   {
-    "id": 126070107,
+    "id": 126070106,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Which phrase means 'to spread quickly over an area'?",
-    "translation": "Bir alana hızla yayılmak anlamına gelen ifade hangisidir? (Doğru cevap: sweep across)",
-    "context": "Bir şeyin (örneğin bir fırtına, salgın veya heyecan) geniş bir alanı hızla etkisi altına alması, yayılması durumuna 'sweep across' denir. Tıpkı bir süpürgenin her yeri temizlemesi gibi, ama bu sefer bir etki veya olay yayılıyor!",
+    "phrase": "What does 'raising red flags' mean?",
+    "translation": "'Raising red flags' ne anlama gelir?",
+    "context": "Bir durumun tehlike veya sorun işareti vermesi, uyarıcı nitelikte olması 'to raise red flags' olarak ifade edilir. Tıpkı bir boğa güreşçisinin kırmızı bayrağı sallayıp boğayı kışkırtması gibi, bu deyim de bir şeyin 'dikkat et, sorun var!' demesi anlamına gelir. WhatsApp kullanıcı adları konusundaki sahtekarlık endişelerini bu ifadeyle anlatmışlar.",
     "options": [
-      "stay localized",
-      "fade away",
-      "sweep across",
-      "slow down"
+      "causing excitement",
+      "showing approval",
+      "indicating a problem",
+      "giving good news"
     ],
-    "correctAnswer": "sweep across",
-    "category": "TRAVEL",
+    "correctAnswer": "indicating a problem",
+    "category": "BUSINESS",
     "variations": []
+  },
+  {
+    "id": 126070107,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Last month was the coldest winter _____.",
+    "translation": "Geçen ay kayıtlara geçen en soğuk kıştı.",
+    "context": "Bir şeyin 'on record' olması, o zamana kadarki tüm ölçümler veya gözlemler arasında bir ilk veya en iyi/kötü olması demektir. Yani 'kayıtlara geçen en...' anlamına gelir. İngiltere'nin tarihindeki en sıcak Haziran ayı olduğu gibi.",
+    "options": [
+      "history",
+      "ever",
+      "on record",
+      "data"
+    ],
+    "correctAnswer": "on record",
+    "category": "CASUAL",
+    "variations": [
+      "This storm is the strongest on record.",
+      "It was the highest score on record."
+    ]
   },
   {
     "id": 126070108,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "She is a strong _____ for the championship title.",
-    "translation": "Şampiyonluk unvanı için güçlü bir 'contender' o.",
-    "context": "Bir yarışmada, ödül için güçlü bir aday veya iddialı bir yarışmacıya 'contender' denir. Tıpkı bir boks maçında şampiyonluk için dövüşen iki boksörden biri gibi! Futbolda da Ballon D'Or adayı olmak büyük bir 'contender'lık örneğidir.",
+    "phrase": "The attack targeted an important _____.",
+    "translation": "Saldırı önemli bir petrol rafinerisini hedef aldı.",
+    "context": "'Oil refinery' ham petrolün benzin, dizel gibi farklı petrol ürünlerine dönüştürüldüğü büyük endüstriyel tesislere verilen isimdir. Enerji sektörü için hayati öneme sahip yerlerdir. Ukrayna'nın Rus petrol rafinerisini hedef alması gibi haberlerde sıkça karşımıza çıkar.",
     "options": [
-      "spectator",
-      "coach",
-      "contender",
-      "referee"
+      "plant",
+      "station",
+      "oil refinery",
+      "factory"
     ],
-    "correctAnswer": "contender",
-    "category": "MIXED",
+    "correctAnswer": "oil refinery",
+    "category": "GENERAL",
     "variations": [
-      "He's a serious _____ in the presidential race.",
-      "Many believe she is a top _____ for the gold medal."
+      "The government plans to build a new oil refinery.",
+      "Environmental concerns surrounded the oil refinery."
     ]
   },
   {
     "id": 126070109,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Which word means 'to weaken or damage something gradually'?",
-    "translation": "Bir şeyi yavaş yavaş 'zayıflatmak veya zarar vermek' anlamına gelen kelime hangisidir? (Doğru cevap: undermined)",
-    "context": "Bir şeyin temelini zayıflatmak, altını oymak veya gücünü azaltmak anlamına gelir. 'Undermined' birinin otoritesini, bir planı veya bir değeri yavaş yavaş yıpratmak gibi düşünebilirsin. Gizlice zarar vermek gibi, bazen hiç fark etmeden oluverir.",
+    "phrase": "Which term refers to payment for loss, injury, or suffering?",
+    "translation": "Kayıp, yaralanma veya acı için yapılan ödeme hangi terimle ifade edilir?",
+    "context": "Bir zararın, kaybın veya haksızlığın telafisi için yapılan ödemeye 'compensation' denir. Bu haberde, Güney Afrika'dan kaçan vatandaşların terk ettiği mülkler için Nijerya'nın tazminat talep edeceği belirtiliyor. Hukuki ve ticari bağlamda sıkça kullanılır.",
     "options": [
-      "strengthened",
-      "supported",
-      "reinforced",
-      "undermined"
+      "bounty",
+      "remuneration",
+      "compensation",
+      "gratification"
     ],
-    "correctAnswer": "undermined",
-    "category": "CASUAL",
+    "correctAnswer": "compensation",
+    "category": "TRAVEL",
     "variations": []
   },
   {
     "id": 126070110,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The court decided to _____ the new law.",
-    "translation": "Mahkeme, yeni yasayı 'strike down' etmeye karar verdi.",
-    "context": "Genellikle bir mahkeme tarafından bir yasa veya kararın geçersiz kılınması, iptal edilmesi anlamına gelir. Tıpkı bir boksörün rakibini yere sermesi gibi, hukuki bir kararı 'yere sermek' gibi düşünebilirsin! Güçlü bir eylemdir.",
+    "phrase": "Despite the general tech _____, their stock performed well.",
+    "translation": "Genel teknoloji düşüşüne rağmen, hisseleri iyi performans gösterdi.",
+    "context": "'SaaS slump' kelimesi, 'Software as a Service' (Hizmet olarak Yazılım) sektöründeki genel bir düşüş veya yavaşlama anlamına gelir. 'Slump' ekonomik bir düşüş, durgunluk ya da performans kaybı için kullanılır. Bu haberde, Bending Spoons şirketinin bu genel düşüşe rağmen ilk işlem gününde %40 yükselerek meydan okuduğu belirtiliyor.",
     "options": [
-      "uphold",
-      "amend",
-      "strike down",
-      "postpone"
+      "boom",
+      "slump",
+      "growth",
+      "rise"
     ],
-    "correctAnswer": "strike down",
+    "correctAnswer": "slump",
     "category": "BUSINESS",
     "variations": [
-      "The Supreme Court can _____ unconstitutional laws.",
-      "Critics hoped the judge would _____ the regulation."
+      "The housing market experienced a significant slump.",
+      "Many companies struggled during the economic slump."
     ]
   },
   {
     "id": 126070111,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Which word describes something left behind permanently?",
-    "translation": "Kalıcı olarak geride bırakılmış bir şeyi tanımlayan kelime hangisidir? (Doğru cevap: abandoned)",
-    "context": "Bir şeyin veya bir yerin tamamen terk edilmesi, sahipsiz bırakılması durumuna 'abandoned' denir. Tıpkı eski, harabe evler veya terk edilmiş oyuncaklar gibi. İnsanlar bir yeri 'abandon' edebilir, eşyalarını 'abandon' edebilirler. Duygusal anlamda da kullanılabilir.",
+    "phrase": "His constant criticism slowly _____ her confidence.",
+    "translation": "Onun sürekli eleştirisi yavaş yavaş özgüvenini zayıflattı.",
+    "context": "'To undermine' bir şeyin gücünü, etkinliğini veya güvenilirliğini zayıflatmak, temelini sarsmak demektir. Neil Gorsuch'un Yüksek Mahkeme'nin medeni özgürlükleri zayıflatan yanlış kararlarını düzeltmesini istediği haberinde geçiyor. Genellikle olumsuz bir eylemi ifade eder.",
     "options": [
-      "occupied",
-      "kept",
-      "maintained",
-      "abandoned"
+      "supported",
+      "boosted",
+      "strengthened",
+      "undermined"
     ],
-    "correctAnswer": "abandoned",
-    "category": "TRAVEL",
-    "variations": []
+    "correctAnswer": "undermined",
+    "category": "CASUAL",
+    "variations": [
+      "Lack of trust can undermine a relationship.",
+      "The scandal undermined public faith in the government."
+    ]
   },
   {
     "id": 126070112,
-    "type": "QUIZ_COMPLETION",
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "The scientist claimed that the old theory was completely _____.",
-    "translation": "Bilim insanı, eski teorinin tamamen 'discredited' olduğunu iddia etti.",
-    "context": "Bir fikrin, teorinin veya kişinin güvenilirliğini, itibarını kaybetmesi, çürütülmesi anlamına gelir. Yani artık ona kimse inanmıyor, geçerliliği kalmamış! Tıpkı modası geçmiş bir uygulama veya bilimsel olarak yanlış olduğu kanıtlanmış bir iddia gibi.",
+    "phrase": "What does it mean for a policy or idea to be 'discredited'?",
+    "translation": "Bir politika veya fikrin 'discredited' olması ne anlama gelir?",
+    "context": "'Discredited' bir şeyin güvenilirliğini, itibarını veya doğruluğunu yitirmiş olması demektir. Yani, 'gözden düşmüş', 'çürütülmüş' ya da 'itibarsızlaştırılmış' anlamına gelir. Trump yönetiminin daha önce çürütülmüş bir politikayı yeniden canlandırmaya çalıştığı haberinde geçiyor. Artık geçerliliği veya doğruluğu kabul edilmeyen durumlar için kullanılır.",
     "options": [
-      "proven",
-      "confirmed",
-      "discredited",
-      "established"
+      "proven effective",
+      "widely accepted",
+      "shown to be unreliable",
+      "newly introduced"
     ],
-    "correctAnswer": "discredited",
-    "category": "MIXED",
-    "variations": [
-      "Her research _____ earlier findings.",
-      "New evidence has _____ the previous claims."
-    ]
+    "correctAnswer": "shown to be unreliable",
+    "category": "GENERAL",
+    "variations": []
   }
 ]
