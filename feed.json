@@ -1,173 +1,224 @@
 [
   {
-    "id": 2001,
+    "id": 126070101,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The small plane _____ in the mountains.",
-    "translation": "Küçük uçak dağlara çarptı.",
-    "context": "Aman dikkat! Uçakla seyahat ederken 'crash' kelimesi duymak istemeyeceğimiz en kötü şeylerden biri. Bir şeyin aniden, kontrolsüzce bir yere çarpması veya düşmesi anlamına gelir. Genelde 'plane crash' (uçak kazası) veya 'car crash' (araba kazası) olarak kullanırız.",
+    "phrase": "The fans had a big _____ after their team won.",
+    "translation": "Taraftarlar takımları kazandıktan sonra büyük bir kutlama yaptı.",
+    "context": "'Celebration' demek, bir şeyi kutlamak, şenlik yapmak demek. Mesela doğum günü kutlaması, yeni yıl kutlaması ya da takımın şampiyonluğunu kutlamak gibi durumlarda kullanılır. Hava fişekler, müzik ve bol kahkaha hayal et!",
     "options": [
-      "crashed",
-      "flew",
-      "landed",
-      "departed"
+      "celebration",
+      "problem",
+      "failure",
+      "sadness"
     ],
-    "correctAnswer": "crashed",
-    "category": "TRAVEL",
+    "correctAnswer": "celebration",
+    "category": "CASUAL",
     "variations": [
-      "A plane often crashes due to bad weather.",
-      "I heard about a plane crash yesterday."
+      "We will have a family _____ next weekend.",
+      "What a fantastic _____ for the new year!"
     ]
   },
   {
-    "id": 2002,
-    "type": "QUIZ_COMPLETION",
+    "id": 126070102,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "My grandpa is looking forward to _____ next year.",
-    "translation": "Büyükbabam gelecek yıl emekli olmayı dört gözle bekliyor.",
-    "context": "Oh la la! Yıllarca çalıştıktan sonra ayakları uzatıp dinlenmek isteyenlerin hayali! 'Retire' fiili, işi bırakıp emekliye ayrılmak demek. Genellikle yaşlılık veya yeterli birikim sonrası olur. Keyfini çıkarın!",
+    "phrase": "Which weather condition describes a period of unusually hot weather?",
+    "translation": "Alışılmadık derecede sıcak hava periyodunu hangi hava durumu tanımlar?",
+    "context": "'Heatwave', yani 'sıcak hava dalgası' demek. Yazın bazen öyle günler olur ki, hava bir hafta boyunca fırın gibi yanar. İşte o zaman 'Aman dikkat, sıcak hava dalgası var!' derler. Dışarı çıkarken şapka ve bol su unutma!",
     "options": [
-      "retiring",
-      "working",
-      "studying",
-      "traveling"
-    ],
-    "correctAnswer": "retiring",
-    "category": "BUSINESS",
-    "variations": [
-      "She plans to retire early.",
-      "Many people dream of retiring young."
-    ]
-  },
-  {
-    "id": 2003,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "We're having a terrible _____ this week.",
-    "translation": "Bu hafta berbat bir sıcak hava dalgası yaşıyoruz.",
-    "context": "Yazın en sevdiğimiz kelime olmayabilir! 'Heatwave', hava sıcaklığının uzun bir süre boyunca normalin çok üzerinde seyrettiği, bunaltıcı sıcak hava dalgası demek. Bol su içmeyi ve gölgede kalmayı unutma!",
-    "options": [
+      "earthquake",
       "heatwave",
-      "cold front",
-      "rainy day",
-      "snowstorm"
+      "blizzard",
+      "flood"
     ],
     "correctAnswer": "heatwave",
-    "category": "CASUAL",
-    "variations": [
-      "A dangerous heatwave hit the city.",
-      "Stay hydrated during a heatwave."
-    ]
-  },
-  {
-    "id": 2004,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Hangi kelime, şiddetli yağışlar sonucu su baskını durumunu en iyi açıklar?",
-    "translation": "Which word best describes the situation of water overflow due to heavy rains?",
-    "context": "Tatilini mahvedebilecek, bazen de evleri sular altında bırakabilecek kötü bir doğa olayı! 'Flooding', genellikle yoğun yağışlar veya nehir taşmaları sonucu bir bölgenin su altında kalması durumu. Eğer bir yere seyahat ediyorsan, gitmeden önce 'flooding' olup olmadığını kontrol etmek iyi fikir.",
-    "options": [
-      "Flooding",
-      "Drought",
-      "Blizzard",
-      "Hailstorm"
-    ],
-    "correctAnswer": "Flooding",
     "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 2005,
+    "id": 126070103,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The startup's market _____ reached $1 billion.",
-    "translation": "Girişimin piyasa değeri 1 milyar dolara ulaştı.",
-    "context": "Girişimcilik dünyasının havalı terimlerinden! 'Valuation', bir şirketin veya varlığın piyasa değerinin belirlenmesi anlamına gelir. Yatırımcılar bir şirkete para yatırmadan önce 'valuation' yaparak ne kadar değerli olduğunu anlamaya çalışır. Hayallerin milyar dolarlarla ölçüldüğü yer burası!",
+    "level": "BEGINNER",
+    "phrase": "The company managed to _____ a lot of money from investors.",
+    "translation": "Şirket yatırımcılardan çok para toplamayı başardı.",
+    "context": "'Raise', yani 'para toplamak' ya da 'fon sağlamak' anlamına gelir. Bir şirket büyümek istediğinde veya yeni bir proje için paraya ihtiyaç duyduğunda yatırımcılardan 'para toplar'. Mesela, 'Bu startup, yeni yatırımcılarla 10 milyon dolar toplamayı başardı.' gibi.",
     "options": [
-      "valuation",
-      "profit",
-      "expense",
-      "debt"
+      "raise",
+      "lose",
+      "spend",
+      "hide"
     ],
-    "correctAnswer": "valuation",
+    "correctAnswer": "raise",
     "category": "BUSINESS",
     "variations": [
-      "They disagreed on the company's valuation.",
-      "High valuation attracts more investors."
+      "They want to _____ capital for their new venture.",
+      "We need to _____ funds for the charity event."
     ]
   },
   {
-    "id": 2006,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Our team is playing in the _____ next week.",
-    "translation": "Takımımız gelecek hafta yarı finalde oynuyor.",
-    "context": "Spor müsabakalarında heyecanın tavan yaptığı an! 'Semi-final', bir turnuvada finale kalmak için oynanan son tur maçı demek. Kazananlar finale yükselir, kaybedenler eve gider. Adrenalin patlaması garanti!",
-    "options": [
-      "semi-final",
-      "friendly match",
-      "training session",
-      "opening ceremony"
-    ],
-    "correctAnswer": "semi-final",
-    "category": "CASUAL",
-    "variations": [
-      "They won the semi-final match.",
-      "The semi-final will be intense."
-    ]
-  },
-  {
-    "id": 2007,
+    "id": 126070104,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Hükümetin seyahatle ilgili koyduğu 'kısıtlamalar' anlamına gelen kelime hangisidir?",
-    "translation": "Which word means 'limitations' imposed by the government regarding travel?",
-    "context": "Tatil planlarını altüst edebilecek o can sıkıcı kurallar! 'Restrictions', bir şeyin yapılmasını sınırlayan veya engelleyen kural veya kısıtlamalar anlamına gelir. Özellikle pandemi döneminde çok duyduk. Seyahat edecekseniz, varış ülkesinin 'travel restrictions' olup olmadığını mutlaka kontrol edin!",
+    "level": "BEGINNER",
+    "phrase": "Which word refers to a piece of equipment or mechanism designed for a particular purpose?",
+    "translation": "Belirli bir amaç için tasarlanmış bir ekipman veya mekanizma parçasını ifade eden kelime hangisidir?",
+    "context": "'Device', yani 'aygıt' veya 'cihaz' demek. Telefonun, tabletin, akıllı saatin... Hepsi birer 'device'! Bazen çok havalı, bazen de çok basit bir işe yarayan küçük aletlere denir. Yeni çıkan teknolojik ürünler için sıkça kullanılır.",
     "options": [
-      "Restrictions",
-      "Permissions",
-      "Opportunities",
-      "Freedoms"
+      "emotion",
+      "device",
+      "opinion",
+      "idea"
     ],
-    "correctAnswer": "Restrictions",
-    "category": "TRAVEL",
+    "correctAnswer": "device",
+    "category": "MIXED",
     "variations": []
   },
   {
-    "id": 2008,
+    "id": 126070105,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The new policy could _____ trust in the system.",
-    "translation": "Yeni politika sisteme olan güveni zayıflatabilir.",
-    "context": "Bir şeyin temelini yavaş yavaş aşındırmak, gücünü veya etkinliğini azaltmak demek. 'Undermine' fiili, genellikle fark edilmeden, sinsice bir şeyi zayıflatmak anlamında kullanılır. Güven, otorite veya bir plan gibi soyut kavramlarla ilgiliyken sıkça karşımıza çıkar. Sakın birinin sana olan güvenini 'undermine' etme!",
+    "level": "INTERMEDIATE",
+    "phrase": "The suspect was _____ with damaging public property after the incident.",
+    "translation": "Şüpheli olaydan sonra kamu malına zarar vermekle suçlandı.",
+    "context": "Hukukta 'to be charged with a crime', yani 'bir suçla itham edilmek' anlamına gelir. Polis seni bir suç işlediğinden şüphelenip mahkemeye sevk ettiğinde bu ifade kullanılır. Masumiyet karinesi unutulmamalı, suçlu olduğu kanıtlanana kadar herkes masumdur!",
     "options": [
-      "undermine",
-      "strengthen",
-      "support",
-      "establish"
+      "charged",
+      "helped",
+      "promoted",
+      "released"
     ],
-    "correctAnswer": "undermine",
-    "category": "BUSINESS",
+    "correctAnswer": "charged",
+    "category": "MIXED",
     "variations": [
-      "His actions undermined her authority.",
-      "Constant criticism can undermine confidence."
+      "She was _____ with theft last week.",
+      "He's being _____ with assault."
     ]
   },
   {
-    "id": 2009,
+    "id": 126070106,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "A company whose shares are traded on a stock exchange is called a _____ company.",
+    "translation": "Hisseleri borsada işlem gören bir şirkete ne denir?",
+    "context": "'Public company' (halka açık şirket), hisseleri borsada alınıp satılabilen şirketlere denir. Yani herkes gidip bu şirketten hisse alabilir, ortak olabilir! Büyük şirketlerin çoğu, büyüme ve yatırım çekme hedefiyle halka arz olurlar. Apple, Microsoft gibi devler hep bu kategoride!",
+    "options": [
+      "private",
+      "small",
+      "public",
+      "hidden"
+    ],
+    "correctAnswer": "public",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126070107,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "They completed all preparations _____ the long holiday weekend.",
+    "translation": "Uzun tatil hafta sonundan önce tüm hazırlıkları tamamladılar.",
+    "context": "'Ahead of' demek, 'bir şeyden önce' veya 'bir şeyin önünde' olmak demek. Mesela, 'We need to finish this report ahead of the deadline.' (Son teslim tarihinden önce bu raporu bitirmeliyiz.) gibi. Zaman konusunda bir önden gitme durumunu ifade eder. Tatilden önce her şeyi halletmek gibi!",
+    "options": [
+      "ahead of",
+      "behind",
+      "during",
+      "after"
+    ],
+    "correctAnswer": "ahead of",
+    "category": "TRAVEL",
+    "variations": [
+      "We arrived at the airport _____ the flight.",
+      "The team is working hard _____ the product launch."
+    ]
+  },
+  {
+    "id": 126070108,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "If an idea or person is 'discredited', what has happened?",
+    "translation": "Bir fikir veya kişi 'gözden düşmüşse', ne olmuştur?",
+    "context": "'Discredited' olmak, yani 'gözden düşmek' ya da 'itibarını kaybetmek' demek. Bir teori, bir kişi ya da bir politika zamanla yanlış veya güvenilmez olduğu anlaşıldığında bu duruma düşer. Mesela, 'Eski bir teori, yeni bulgularla çürütüldü.' dediğimizde bu kelimeyi kullanabiliriz. Kimse inanmaz artık!",
+    "options": [
+      "They have gained popularity.",
+      "They have been highly praised.",
+      "They have lost belief or respect.",
+      "They have achieved success."
+    ],
+    "correctAnswer": "They have lost belief or respect.",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126070109,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The controversial decisions could lead to a _____ within the organization.",
+    "translation": "Tartışmalı kararlar organizasyon içinde bir bölünmeye yol açabilir.",
+    "context": "'Schism', yani 'bölünme' ya da 'ayrılık' demek. Genellikle dini veya siyasi gruplar içinde büyük anlaşmazlıklar çıktığında, bu grupların ikiye veya daha fazla parçaya ayrılması durumunu ifade eder. Sanki bir aile kavgası gibi, ama çok daha büyük ölçekte ve geri dönülmez bir ayrılıkla sonuçlanabiliyor.",
+    "options": [
+      "schism",
+      "unity",
+      "merger",
+      "consensus"
+    ],
+    "correctAnswer": "schism",
+    "category": "CASUAL",
+    "variations": [
+      "Historically, many churches have faced periods of _____.",
+      "The party faced a deep _____ over its new leadership."
+    ]
+  },
+  {
+    "id": 126070110,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Birçok öğrencinin sınavda aynı anda kopya çekmesi durumunu en iyi açıklayan terim hangisidir?",
-    "translation": "Which term best describes the situation where many students cheat simultaneously in an exam?",
-    "context": "Vay canına, sınavda yakalanmaktan daha kötüsü ne olabilir? Toplu kopya çekmek! 'Mass cheating', birçok öğrencinin aynı anda, organize bir şekilde veya bağımsız olarak kopya çekmesi anlamına gelir. Profesörün 'Humanity has chosen to become idiots' demesi boşuna değil! Ne yazık ki eğitimde dürüstlük bu gibi durumlarla sarsılır.",
+    "phrase": "Which type of firm specializes in investing in startups and early-stage companies?",
+    "translation": "Hangi tür firma startup'lara ve erken aşama şirketlere yatırım yapma konusunda uzmanlaşmıştır?",
+    "context": "'VC firm' (Venture Capital firm) demek, 'Girişim Sermayesi Şirketi' demek. Yani, gelecek vaat eden ama henüz çok genç şirketlere (startup'lara) büyük paralar yatırıp büyümelerine yardımcı olan firmalar. Bir nevi startup'ların 'melek yatırımcıları' gibi düşünebilirsin, ama daha büyük ölçekte ve profesyonelce. Büyürlerse firmaya da para kazandırırlar!",
     "options": [
-      "Mass cheating",
-      "Group study",
-      "Fair assessment",
-      "Honest exams"
+      "Accounting firm",
+      "Law firm",
+      "Venture Capital (VC) firm",
+      "Marketing agency"
     ],
-    "correctAnswer": "Mass cheating",
-    "category": "CASUAL",
+    "correctAnswer": "Venture Capital (VC) firm",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126070111,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "After their visas expired, the immigrants were _____ from the country.",
+    "translation": "Vizeleri bittikten sonra göçmenler ülkeden sınır dışı edildi.",
+    "context": "'Deported' olmak, yani 'sınır dışı edilmek' demek. Bir kişinin, yasal bir hakkı olmadan veya vizesi bittiği için yaşadığı ülkeden zorla çıkarılması durumudur. Genellikle hukuki süreçler sonucunda gerçekleşir ve kişiye belirli bir süre ülkeye giriş yasağı da getirilebilir. Üzücü bir durum.",
+    "options": [
+      "deported",
+      "welcomed",
+      "naturalized",
+      "invited"
+    ],
+    "correctAnswer": "deported",
+    "category": "TRAVEL",
+    "variations": [
+      "He was _____ after overstaying his welcome.",
+      "The government decided to _____ the illegal residents."
+    ]
+  },
+  {
+    "id": 126070112,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "What does it mean to 'save the day'?",
+    "translation": "'Günü kurtarmak' ne anlama gelir?",
+    "context": "'Save the day' deyimi, 'günü kurtarmak' veya 'felaketi önlemek' anlamına gelir. Genellikle son anda ortaya çıkıp kötü giden bir durumu iyiye çeviren kişiler için kullanılır. Mesela, 'Tam her şey batıyordu ki, süper kahraman gibi gelip durumu kurtardı!' dediğimizde bu deyimcuk tam oturur. Harry Kane de takımı için aynısını yapmış!",
+    "options": [
+      "To plan a successful event.",
+      "To cause a problem.",
+      "To prevent a failure or disaster at the last moment.",
+      "To ignore an urgent situation."
+    ],
+    "correctAnswer": "To prevent a failure or disaster at the last moment.",
+    "category": "MIXED",
     "variations": []
   }
 ]
