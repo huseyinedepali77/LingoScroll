@@ -3,114 +3,96 @@
     "id": 2001,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The plane accidentally _____ a tower in Beijing.",
-    "translation": "Bir yere çarpmak, kaza yapmak.",
-    "context": "Uçakların, arabaların veya başka araçların bir yere çarptığını belirtmek için \"crash into\" deyimi kullanılır. Genellikle beklenmedik ve istenmeyen bir olayı ifade eder. Örneğin, \"The car crashed into a tree\" (Araba bir ağaca çarptı) veya \"The bird crashed into the window\" (Kuş pencereye çarptı).",
-    "options": [
-      "fell into",
-      "hit up",
-      "ran over",
-      "crashed into"
-    ],
-    "correctAnswer": "crashed into",
+    "phrase": "Many countries participate in the _____ Cup.",
+    "translation": "Dünya Kupası",
+    "context": "Futbolun en büyük şöleni! Dört yılda bir tüm dünyayı saran bu heyecanlı turnuva, takımların kupayı kaldırmak için kıyasıya mücadele ettiği yerdir. Brezilya'dan Almanya'ya, Arjantin'den Fransa'ya kadar birçok ülke bu kupayı kazanmanın hayalini kurar. 'World Cup' dediğimizde akla hemen futbol geliyor ama bazen başka spor dallarının dünya şampiyonaları için de kullanılabilir, mesela 'Rugby World Cup' gibi. Ama genel kullanımda futbol için geçerli!",
+    "options": [],
+    "correctAnswer": "World",
     "category": "CASUAL",
     "variations": [
-      "The car _____ the wall.",
-      "The bird _____ the window."
+      "The team won the World _____ last year.",
+      "Are you watching the World _____ this year?"
     ]
   },
   {
     "id": 2002,
-    "type": "QUIZ_COMPLETION",
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "OpenClaw is finally _____ Android and iOS devices.",
-    "translation": "Bir platformda veya cihazda mevcut olmak.",
-    "context": "Bir ürünün, uygulamanın veya hizmetin belirli bir platformda, cihazda veya yerde kullanıma sunulduğunu belirtmek için \"available on\" ifadesi kullanılır. Örneğin, \"This game is available on PC and console\" (Bu oyun PC ve konsolda mevcut) veya \"Tickets are available on our website\" (Biletler web sitemizde mevcut).",
+    "phrase": "Which of the following describes a period of unusually hot weather?",
+    "translation": "Aşırı sıcak hava dönemini aşağıdakilerden hangisi tanımlar?",
+    "context": "Yazın en bunaltıcı günleri geldi mi? İşte o zaman 'heatwave' dediğimiz olayla karşı karşıyayız demektir! Hani balkonun bile cayır cayır yandığı, klimasız evde yaşamanın işkenceye dönüştüğü o günler... Aman dikkat, bol su içmeyi ve güneşe çıkmamayı unutma! Özellikle yaşlılar ve çocuklar için tehlikeli olabilir, bu yüzden 'dangerous heatwave' haberleri sıkça karşımıza çıkar.",
     "options": [
-      "present to",
-      "ready for",
-      "open for",
-      "available on"
+      "snowstorm",
+      "heatwave",
+      "blizzard",
+      "downpour"
     ],
-    "correctAnswer": "available on",
-    "category": "BUSINESS",
-    "variations": [
-      "The new update is _____ all platforms.",
-      "This app is only _____ smartphones."
-    ]
+    "correctAnswer": "heatwave",
+    "category": "CASUAL",
+    "variations": []
   },
   {
     "id": 2003,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Venezuela depreminden altı gün sonra üç yaşındaki bir çocuk enkazdan çıkarıldı ve hastaneye kaldırıldı. Haberdeki \"rescued\" kelimesi ne anlama gelir?",
-    "translation": "To save someone from a dangerous or difficult situation.",
-    "context": "\"Rescued\" kelimesi, birini tehlikeli veya zor bir durumdan kurtarmak, emniyete almak anlamında kullanılır. Özellikle doğal afetler, kazalar veya rehine durumları gibi acil durumlarda sıkça karşımıza çıkar. Örneğin, \"The firefighters rescued the cat from the tree\" (İtfaiyeciler kediyi ağaçtan kurtardı) veya \"She rescued her dog from drowning\" (Köpeğini boğulmaktan kurtardı).",
-    "options": [
-      "Yardım edildi",
-      "Bulundu",
-      "İyileştirildi",
-      "Kurtarıldı"
-    ],
-    "correctAnswer": "Kurtarıldı",
+    "phrase": "After a long and successful career, my grandfather is finally _____ next month.",
+    "translation": "Gelecek ay emekli oluyor.",
+    "context": "'Retiring' deyince aklına hemen pijamalarını giyip keyif çatan, torun seven, hobilerine vakit ayıran insanlar gelsin! Bu kelime, bir kişinin çalışmayı bırakıp emeklilik hayatına adım atması demek. Yani artık alarm kurmak, trafikte çile çekmek yok! Emeklilik hayalleri kuranlar için kulağa ne kadar da hoş geliyor, değil mi? 'He's retiring after 30 years' gibi cümlelerde çok kullanılır.",
+    "options": [],
+    "correctAnswer": "retiring",
     "category": "CASUAL",
-    "variations": []
+    "variations": [
+      "She's looking forward to _____ early.",
+      "Many people dream of _____ by age 50."
+    ]
   },
   {
     "id": 2004,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The 'Father of the Internet' is finally _____ after decades of groundbreaking work.",
-    "translation": "Emekli olmak, işi bırakmak.",
-    "context": "\"Retiring\" kelimesi, genellikle uzun bir çalışma hayatının ardından işi bırakıp emekliye ayrılmak anlamına gelir. Bir kişinin mesleki kariyerini sonlandırması durumunu ifade eder. Örneğin, \"My grandfather is retiring next year\" (Büyükbabam gelecek yıl emekli oluyor) veya \"She decided to start a new hobby after retiring\" (Emekli olduktan sonra yeni bir hobiye başlamaya karar verdi).",
-    "options": [
-      "finishing",
-      "leaving",
-      "stopping",
-      "retiring"
-    ],
-    "correctAnswer": "retiring",
-    "category": "BUSINESS",
-    "variations": [
-      "He plans on _____ at 65.",
-      "She is _____ from her position next month."
-    ]
-  },
-  {
-    "id": 2005,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Wayve, çalışanlarına 8.5 milyar dolarlık değerlemede 85 milyon dolarlık bir çalışan 'tender offer'ı başlattı. Haberdeki 'tender offer' terimi ne anlama gelir?",
-    "translation": "A public offer to purchase shares directly from shareholders, usually at a premium to the market price.",
-    "context": "\"Tender offer\" (hisse alım teklifi), bir şirketin hisselerinin belirli bir kısmını veya tamamını, genellikle piyasa fiyatının üzerinde bir fiyattan, doğrudan mevcut hissedarlardan satın almak için yaptığı resmi bir tekliftir. Bu genellikle bir şirketi ele geçirmek (hostile takeover) veya mevcut hissedarlara likidite sağlamak amacıyla yapılır. Örneğin, \"The company launched a tender offer to acquire the rival firm\" (Şirket, rakip firmayı satın almak için bir hisse alım teklifi başlattı).",
+    "level": "INTERMEDIATE",
+    "phrase": "Which word means to cause someone or something to no longer be believed or respected?",
+    "translation": "Birinin veya bir şeyin artık inanılmamasına veya saygı duyulmamasına neden olmak hangi kelimeyle ifade edilir?",
+    "context": "Bir teori, bir yöntem ya da hatta bir kişi... Eğer ortaya atılan iddialar veya geçmişteki eylemler yüzünden artık ciddiye alınmıyorsa, o zaman 'discredited' hale gelmiş demektir. Yani 'itibarsızlaştırılmış' ya da 'güvenirliğini kaybetmiş'. Sanki biri sana 'Boş ver, o artık bu konuda dikkate alınmaz' der gibi. Özellikle bir politika ya da fikir, beklenen sonuçları vermediğinde veya yanlış olduğu kanıtlandığında bu kelime sıkça kullanılır. 'His claims were completely discredited by the evidence.'",
     "options": [
-      "Yeni bir ürün veya hizmetin tanıtımı",
-      "Şirket çalışanlarına sunulan indirimli hisse opsiyonları",
-      "Şirket hisselerini mevcut hissedarlardan, genellikle piyasa fiyatının üzerinde bir bedelle doğrudan satın alma teklifi.",
-      "Şirketin borçlarını ödemek için hisse senedi ihracı"
+      "credited",
+      "approved",
+      "endorsed",
+      "discredited"
     ],
-    "correctAnswer": "Şirket hisselerini mevcut hissedarlardan, genellikle piyasa fiyatının üzerinde bir bedelle doğrudan satın alma teklifi.",
+    "correctAnswer": "discredited",
     "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 2006,
+    "id": 2005,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The US Supreme Court _____ birthright citizenship in a recent ruling.",
-    "translation": "Bir kararı, prensibi veya kanunu desteklemek, onaylamak veya geçerli kılmak.",
-    "context": "\"Upholds\" kelimesi, özellikle yasal veya resmi bağlamlarda bir kararı, prensibi, kanunu veya hakkı desteklemek, onaylamak veya geçerli kılmak anlamına gelir. Mevcut bir durumu koruma veya devam ettirme eylemini ifade eder. Örneğin, \"The court upheld the previous decision\" (Mahkeme önceki kararı onayladı) veya \"The committee voted to uphold the chairman's ruling\" (Komite başkanın kararını onamayı oyladı).",
-    "options": [
-      "rejects",
-      "overturns",
-      "establishes",
-      "upholds"
-    ],
-    "correctAnswer": "upholds",
-    "category": "CASUAL",
+    "phrase": "The sudden resignation of the CEO plunged the company into financial _____.",
+    "translation": "Şirketi finansal kaosa sürükledi.",
+    "context": "'Chaos' kelimesi tam da beklediğin gibi! Tam bir curcuna, kargaşa ve düzensizlik hali. Düşünsene, sabah uyandın ve evde her şey darmadağınık, kimse ne yapacağını bilmiyor, telefonlar susmuyor... İşte o an 'chaos' içindesindir! F1'de bir sürücünün beklenmedik ayrılığı nasıl bir kargaşa yaratabilirse, günlük hayatta da ani olaylar 'chaos'a yol açabilir. Mesela 'traffic chaos' (trafik karmaşası) veya 'political chaos' (siyasi kargaşa) gibi kullanımları da var.",
+    "options": [],
+    "correctAnswer": "chaos",
+    "category": "BUSINESS",
     "variations": [
-      "The appeal court _____ the lower court's verdict.",
-      "The council decided to _____ the original zoning plan."
+      "The airport was in complete _____ due to the strike.",
+      "Her desk is always in a state of _____."
     ]
+  },
+  {
+    "id": 2006,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "What term refers to the legal right to citizenship for a child born within a country's territory, regardless of the citizenship of their parents?",
+    "translation": "Bir çocuğun, ebeveynlerinin vatandaşlığına bakılmaksızın, bir ülkenin toprakları içinde doğduğunda vatandaşlık kazanma yasal hakkına ne denir?",
+    "context": "Bu terim, özellikle siyaset ve göçmenlik tartışmalarında sıkça duyduğun bir konu: 'birthright citizenship'. Yani bir ülkede doğduğun an, o ülkenin vatandaşı olma hakkını elde ediyorsun, ebeveynlerin kim olursa olsun. Bu kural, bazı ülkelerde anayasayla güvence altına alınmış durumda. Tartışmaları hararetli olabilir ama kavramı bilmek, uluslararası ilişkileri ve hukuk sistemlerini anlamak için önemli. Amerika Birleşik Devletleri'nde 14. Anayasa Değişikliği ile garanti altına alınmış bir hak.",
+    "options": [
+      "naturalization",
+      "expatriation",
+      "birthright citizenship",
+      "dual nationality"
+    ],
+    "correctAnswer": "birthright citizenship",
+    "category": "BUSINESS",
+    "variations": []
   }
 ]
