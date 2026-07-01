@@ -689,6 +689,31 @@ fun PracticeScreen(
                                 lineHeight = 28.sp
                             )
 
+                            // QUIZ Tipi Türkçe Çeviri/İpucu Desteği
+                            if (state.currentItem.type != "CARD") {
+                                var showHint by remember(state.currentItem.id) { mutableStateOf(false) }
+                                Spacer(modifier = Modifier.height(8.dp))
+                                if (showHint) {
+                                    Text(
+                                        text = "Açıklama / Çeviri: ${state.currentItem.translation}",
+                                        fontSize = 14.sp,
+                                        color = MaterialTheme.colorScheme.primary,
+                                        fontWeight = FontWeight.Medium,
+                                        lineHeight = 20.sp
+                                    )
+                                } else {
+                                    Text(
+                                        text = "🔍 Türkçe Çevirisini Göster",
+                                        fontSize = 13.sp,
+                                        color = MaterialTheme.colorScheme.primary.copy(alpha = 0.8f),
+                                        fontWeight = FontWeight.Bold,
+                                        modifier = Modifier
+                                            .clickable { showHint = true }
+                                            .padding(vertical = 4.dp)
+                                    )
+                                }
+                            }
+
                             Spacer(modifier = Modifier.height(16.dp))
 
                             // CARD Tipi Açıklama Gösterme (Eğer feed'e düşerse)
