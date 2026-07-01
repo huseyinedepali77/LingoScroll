@@ -88,26 +88,39 @@ class MainScreenViewModel(context: Context) : ViewModel() {
     private var secondsTimerActive = 0L
     private var activeDiagnosticQuestions = listOf<WordCard>()
 
-    // Sadece İngilizce kısımları ve tamamlanmış cümleleri okumak için yardımcı fonksiyon
-    private fun getSpeakText(card: WordCard): String {
+    // Sadece İngilizce kısımları ve tamamlanmış cümleleri okumak için yardımcı fonksiyon (Cevap verilmeden önce cevabı sızdırmaz)
+    private fun getSpeakText(card: WordCard, isAnswerEvaluated: Boolean): String {
         return when (card.type) {
             "QUIZ_COMPLETION" -> {
                 val phrase = card.expression
                 val end = phrase.lastIndexOf("'")
                 val rawSentence = if (end != -1) {
-                    val start = phrase.lastIndexOf("'", end - 1)
-                    if (start != -1) {
-                        phrase.substring(start + 1, end)
-                    } else {
-                        phrase
-                    }
+                     val start = phrase.lastIndexOf("'", end - 1)
+                     if (start != -1) {
+                         phrase.substring(start + 1, end)
+                     } else {
+                         phrase
+                     }
                 } else {
-                    phrase
+                     phrase
                 }
-                rawSentence.replace("_____", card.correctAnswer)
+                if (isAnswerEvaluated) {
+                    rawSentence.replace("_____", card.correctAnswer)
+                } else {
+                    rawSentence.replace("_____", "blank")
+                }
             }
             "QUIZ_MULTIPLE_CHOICE" -> {
-                card.correctAnswer
+                if (isAnswerEvaluated) {
+                    card.correctAnswer
+                } else {
+                    // Soru cümlesini oku (Türkçe karakter içermiyorsa)
+                    if (card.expression.any { it in 'a'..'z' || it in 'A'..'Z' }) {
+                        card.expression
+                    } else {
+                        "Please choose the correct answer"
+                    }
+                }
             }
             else -> {
                 card.expression
@@ -117,7 +130,7 @@ class MainScreenViewModel(context: Context) : ViewModel() {
 
     init {
         // Her yeni yüklemede seviye tespit sınavının (SBS) baştan gelmesini sağlamak için build zamanı kontrolü
-        val currentBuildTime = "20260701_1531" 
+        val currentBuildTime = "20260701_1539" 
         val savedBuildTime = prefs.getSavedBuildTime()
         if (savedBuildTime != currentBuildTime) {
             prefs.clearUserProgress()
@@ -379,11 +392,11 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         // Eğer seçilen tarza göre havuzda yeterli soru yoksa (4'ten az ise) genel karışık (MIXED) havuzdan beslen
         val targetPool = if (categoryFiltered.size >= 4) categoryFiltered else allLevelCards
 
-        // Sadece QUIZ tiplerini pratik akışına al (CARD tiplerini ayırıyoruz) ve seviye tespit (SBS) sorularını hariç tut (ID 100-199)
-        val quizCards = targetPool.filter { it.type != "CARD" && it.id !in 100..199 }
+        // Sadece QUIZ tiplerini pratik akışına al (CARD tiplerini ayırıyoruz), seviye tespit (SBS) sorularını hariç tut (ID 100-199) ve YKS benzeri uzun paragrafları ele (max 18 kelime)
+        val quizCards = targetPool.filter { it.type != "CARD" && it.id !in 100..199 && it.expression.split(" ").size <= 18 }
         if (quizCards.isEmpty()) {
-            // Eğer kategoride quiz yoksa genel havuzdan quiz çek (SBS soruları hariç)
-            val fallbackQuizzes = allLevelCards.filter { it.type != "CARD" && it.id !in 100..199 }
+            // Eğer kategoride quiz yoksa genel havuzdan quiz çek (SBS soruları hariç, max 18 kelime)
+            val fallbackQuizzes = allLevelCards.filter { it.type != "CARD" && it.id !in 100..199 && it.expression.split(" ").size <= 18 }
             if (fallbackQuizzes.isEmpty()) return
             selectAndEmitQuiz(fallbackQuizzes, level, currentTime)
             return
@@ -484,7 +497,7 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         )
 
         // Doğru telaffuzu / tamamlanmış İngilizce cümleyi oku
-        tts.speak(getSpeakText(currentState.currentItem))
+        tts.speak(getSpeakText(currentState.currentItem, true))
     }
 
     // Kelime kartı değerlendirmesi (Kart okundu / anlaşıldı / tekrar edilecek)
@@ -509,7 +522,7 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         _uiState.value = currentState.copy(isMeaningRevealed = true)
 
         // Kart açıldığında sadece İngilizce deyimi oku
-        tts.speak(getSpeakText(currentState.currentItem))
+        tts.speak(getSpeakText(currentState.currentItem, true))
     }
 
     // --- Bağımsız Kelime Kartı Çalışma Metotları ---
@@ -546,7 +559,7 @@ class MainScreenViewModel(context: Context) : ViewModel() {
                         showLearningCards = true,
                         isLearningCardRevealed = false
                     )
-                    tts.speak(getSpeakText(globalCards[0]))
+                    tts.speak(getSpeakText(globalCards[0], true))
                 }
                 return
             }
@@ -556,7 +569,7 @@ class MainScreenViewModel(context: Context) : ViewModel() {
                 showLearningCards = true,
                 isLearningCardRevealed = false
             )
-            tts.speak(getSpeakText(fallbackCards[0]))
+            tts.speak(getSpeakText(fallbackCards[0], true))
             return
         }
         
@@ -566,7 +579,7 @@ class MainScreenViewModel(context: Context) : ViewModel() {
             showLearningCards = true,
             isLearningCardRevealed = false
         )
-        tts.speak(getSpeakText(cards[0]))
+        tts.speak(getSpeakText(cards[0], true))
     }
 
     fun closeLearningCards() {
@@ -608,7 +621,7 @@ class MainScreenViewModel(context: Context) : ViewModel() {
                 isLearningCardRevealed = false
             )
             val nextCard = currentState.learningCards[nextIndex]
-            tts.speak(getSpeakText(nextCard))
+            tts.speak(getSpeakText(nextCard, true))
         } else {
             _uiState.value = currentState.copy(
                 showLearningCards = false,
@@ -739,7 +752,7 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         if (text.isEmpty()) {
             val currentState = _uiState.value as? MainScreenUiState.Practice
             if (currentState != null) {
-                tts.speak(getSpeakText(currentState.currentItem))
+                tts.speak(getSpeakText(currentState.currentItem, currentState.isAnswerEvaluated))
             }
         } else {
             tts.speak(text)
