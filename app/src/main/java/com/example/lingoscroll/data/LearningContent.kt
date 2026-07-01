@@ -198,11 +198,11 @@ object LearningContent {
             id = 114,
             type = ItemType.QUIZ_MULTIPLE_CHOICE,
             level = Level.INTERMEDIATE,
-            phrase = "Hesabı öderken 'Benden olsun / Ben ısmarlıyorum' anlamında ne denir?",
-            translation = "It's on me.",
-            context = "Restoranda hesabı üstlenirken söylenir.",
-            options = listOf("It's on me.", "I pay now.", "Take my money.", "Give me ticket."),
-            correctAnswer = "It's on me.",
+            phrase = "Bir yere giderken 'Yoldayım / Geliyorum' anlamında hangi kalıp kullanılır?",
+            translation = "I'm on my way.",
+            context = "Hedefinize doğru yola çıktığınızı veya hareket halinde olduğunuzu bildirmek için kullanılan en yaygın kalıptır.",
+            options = listOf("I'm on my way.", "I'm in my path.", "I'm coming now.", "I'm run way."),
+            correctAnswer = "I'm on my way.",
             category = "TRAVEL"
         ),
         LearningItem(
