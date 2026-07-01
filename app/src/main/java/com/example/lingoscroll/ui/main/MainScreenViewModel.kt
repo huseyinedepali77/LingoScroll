@@ -130,7 +130,7 @@ class MainScreenViewModel(context: Context) : ViewModel() {
 
     init {
         // Her yeni yüklemede seviye tespit sınavının (SBS) baştan gelmesini sağlamak için build zamanı kontrolü
-        val currentBuildTime = "20260701_1539" 
+        val currentBuildTime = "20260701_1548" 
         val savedBuildTime = prefs.getSavedBuildTime()
         if (savedBuildTime != currentBuildTime) {
             prefs.clearUserProgress()
