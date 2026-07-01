@@ -219,7 +219,7 @@ fun StressTestQuizScreen(
             modifier = Modifier.fillMaxWidth(),
             verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
-            state.currentQuestion.optionsList.forEach { option ->
+            state.shuffledOptions.forEach { option ->
                 val isSelected = state.selectedOption == option
                 val isCorrect = option == state.currentQuestion.targetEn
                 val btnColor = when {
@@ -657,7 +657,7 @@ fun SwipeMechanicView(
         modifier = Modifier.fillMaxWidth(),
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
-        state.currentItem.optionsList.forEach { option ->
+        state.shuffledOptions.forEach { option ->
             val isSelected = state.selectedOption == option
             val isCorrect = option == state.currentItem.targetEn
             val btnColor = when {

@@ -30,7 +30,8 @@ sealed interface MainScreenUiState {
         val totalQuestions: Int,
         val currentQuestion: SurvivalCard,
         val selectedOption: String?,
-        val correctCount: Int
+        val correctCount: Int,
+        val shuffledOptions: List<String> = emptyList()
     ) : MainScreenUiState
 
     data class OnboardingLevelReveal(
@@ -63,6 +64,7 @@ sealed interface MainScreenUiState {
         val errorSentenceText: String = "",
         val isErrorCorrected: Boolean = false,
         
+        val shuffledOptions: List<String> = emptyList(),
         val selectedStyle: String = "MIXED",
         val speechRate: Float = 1.0f
     ) : MainScreenUiState
@@ -206,12 +208,14 @@ class MainScreenViewModel(context: Context) : ViewModel() {
     fun startStressTest() {
         activeStressTestQuestions = stressTestQuestions.shuffled()
         if (activeStressTestQuestions.isNotEmpty()) {
+            val firstQuestion = activeStressTestQuestions.first()
             _uiState.value = MainScreenUiState.OnboardingQuiz(
                 currentQuestionIndex = 0,
                 totalQuestions = activeStressTestQuestions.size,
-                currentQuestion = activeStressTestQuestions.first(),
+                currentQuestion = firstQuestion,
                 selectedOption = null,
-                correctCount = 0
+                correctCount = 0,
+                shuffledOptions = firstQuestion.optionsList.shuffled()
             )
         }
     }
@@ -240,7 +244,8 @@ class MainScreenViewModel(context: Context) : ViewModel() {
             _uiState.value = currentState.copy(
                 currentQuestionIndex = nextIndex,
                 currentQuestion = nextCard,
-                selectedOption = null
+                selectedOption = null,
+                shuffledOptions = nextCard.optionsList.shuffled()
             )
         } else {
             val score = currentState.correctCount
@@ -296,6 +301,8 @@ class MainScreenViewModel(context: Context) : ViewModel() {
             ""
         }
 
+        val shuffledOpts = chosenItem.optionsList.shuffled()
+
         _uiState.value = MainScreenUiState.Practice(
             currentItem = chosenItem,
             isMeaningRevealed = false,
@@ -317,7 +324,8 @@ class MainScreenViewModel(context: Context) : ViewModel() {
             shuffledChunks = shuffledChunks,
             tappedErrorWord = null,
             errorSentenceText = errorSentenceText,
-            isErrorCorrected = false
+            isErrorCorrected = false,
+            shuffledOptions = shuffledOpts
         )
     }
 
@@ -392,29 +400,39 @@ class MainScreenViewModel(context: Context) : ViewModel() {
             newClicked.add(chunk)
         }
 
+        // Derhal selectedChunks (clickedChunks) listesine ekle ve UI güncellemesine izin ver
         _uiState.value = currentState.copy(clickedChunks = newClicked)
 
         // Bütün parçalar seçildi mi kontrol et
         if (newClicked.size == currentState.currentItem.optionsList.size) {
-            val isCorrect = newClicked == currentState.currentItem.optionsList
-            prefs.incrementQuestionsStats(isCorrect)
-            updateFailCount(currentState.currentItem.id, isCorrect)
-            
-            viewModelScope.launch(Dispatchers.IO) {
-                repository.updateCardProgress(currentState.currentItem.id, isCorrect)
-            }
-            
-            if (isCorrect) {
-                prefs.addSecondsSaved(20)
-            }
+            viewModelScope.launch(Dispatchers.Main) {
+                kotlinx.coroutines.delay(300L)
+                
+                // Güvenlik: Kullanıcının seçtiği blok sayısı, toplam blok sayısına hala eşit mi ve değerlendirilmedi mi?
+                val latestState = _uiState.value as? MainScreenUiState.Practice ?: return@launch
+                if (latestState.clickedChunks.size == latestState.currentItem.optionsList.size && !latestState.isAnswerEvaluated) {
+                    val isCorrect = latestState.clickedChunks == latestState.currentItem.optionsList
+                    prefs.incrementQuestionsStats(isCorrect)
+                    updateFailCount(latestState.currentItem.id, isCorrect)
+                    
+                    viewModelScope.launch(Dispatchers.IO) {
+                        repository.updateCardProgress(latestState.currentItem.id, isCorrect)
+                    }
+                    
+                    if (isCorrect) {
+                        prefs.addSecondsSaved(20)
+                    }
 
-            _uiState.value = currentState.copy(
-                isAnswerEvaluated = true,
-                isAnswerCorrect = isCorrect,
-                secondsSaved = prefs.getTotalSecondsSaved()
-            )
+                    _uiState.value = latestState.copy(
+                        clickedChunks = latestState.clickedChunks,
+                        isAnswerEvaluated = true,
+                        isAnswerCorrect = isCorrect,
+                        secondsSaved = prefs.getTotalSecondsSaved()
+                    )
 
-            tts.speak(currentState.currentItem.targetEn)
+                    tts.speak(latestState.currentItem.targetEn)
+                }
+            }
         }
     }
 
