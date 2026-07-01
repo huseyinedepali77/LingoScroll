@@ -172,6 +172,14 @@ Kurallar:
             content = res_data['candidates'][0]['content']['parts'][0]['text']
             parsed_json = json.loads(content)
             return parsed_json
+    except urllib.error.HTTPError as e:
+        print(f"HTTP Error generating for {level} + {category}: {e.code} {e.reason}")
+        try:
+            body = e.read().decode('utf-8')
+            print(f"Response body: {body}")
+        except Exception:
+            pass
+        return []
     except Exception as e:
         print(f"Error generating for {level} + {category}: {e}")
         return []
