@@ -428,12 +428,17 @@ class MainScreenViewModel(context: Context) : ViewModel() {
 
         lastSeenItemId = chosenItem.id
 
-        // Seçenekleri Karıştır (Shuffle Options)
-        val preparedItem = if (finalItem.optionsRaw.isNotEmpty()) {
+        // Seçenekleri Karıştır (Shuffle Options) - Boş ise dinamik olarak doldur (Kullanıcının kilitlenmesini önlemek için)
+        val preparedItem = if (finalItem.optionsRaw.trim().isEmpty() || finalItem.optionsList.isEmpty()) {
+            val dist = listOf("time", "work", "day", "world", "life", "place", "home", "back", "show", "call", "money", "check")
+                .filter { it.lowercase() != finalItem.correctAnswer.lowercase() }
+                .shuffled()
+                .take(3)
+            val mixed = (dist + finalItem.correctAnswer).shuffled()
+            finalItem.copy(optionsRaw = mixed.joinToString("|"))
+        } else {
             val shuffledOpts = finalItem.optionsList.shuffled()
             finalItem.copy(optionsRaw = shuffledOpts.joinToString("|"))
-        } else {
-            finalItem
         }
 
         _uiState.value = MainScreenUiState.Practice(

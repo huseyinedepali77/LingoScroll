@@ -74,6 +74,7 @@ Kurallar:
 1. Ürettiğin 6 sorunun dağılımı: 2 adet BEGINNER, 2 adet INTERMEDIATE, 2 adet ADVANCED olmalıdır.
 2. İlgi çeken tuhaf/viral haberleri ve spor/uzay haberlerini de mutlaka sorulara yansıt. Kelime açıklamaları eğlenceli ve merak uyandırıcı olsun.
 3. Sadece geçerli bir JSON dizisi çıktısı ver. Çıktının başına veya sonuna ```json, ``` veya herhangi bir markdown/metin açıklaması ekleme, doğrudan raw JSON döndür.
+4. "options" dizisini kesinlikle boş bırakma. "type" değeri QUIZ_COMPLETION (boşluk doldurma) olsa dahi, kullanıcının boşluğa yerleştirebilmesi için 1 adet doğru cevap ve 3 adet çeldirici olmak üzere tam 4 seçeneği mutlaka listele!
 """
 
     # Gemini REST Endpoint
