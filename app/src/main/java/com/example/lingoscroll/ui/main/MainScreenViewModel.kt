@@ -4,72 +4,65 @@ import android.content.Context
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import androidx.work.Constraints
-import androidx.work.ExistingPeriodicWorkPolicy
-import androidx.work.NetworkType
-import androidx.work.PeriodicWorkRequestBuilder
-import androidx.work.WorkManager
-import com.example.lingoscroll.data.LearningContent
-import com.example.lingoscroll.data.ItemType
 import com.example.lingoscroll.data.local.AppDatabase
-import com.example.lingoscroll.data.local.WordCard
+import com.example.lingoscroll.data.local.SurvivalCard
 import com.example.lingoscroll.data.Level
 import com.example.lingoscroll.data.PreferencesManager
 import com.example.lingoscroll.data.repository.CardRepository
 import com.example.lingoscroll.data.tts.NativeTtsManager
 import com.example.lingoscroll.data.tts.TtsManager
-import com.example.lingoscroll.sync.SyncWorker
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
-import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
-import java.util.concurrent.TimeUnit
-import kotlin.random.Random
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.net.HttpURLConnection
 import java.net.URL
 import org.json.JSONArray
-import org.json.JSONObject
 
 sealed interface MainScreenUiState {
     object OnboardingWelcome : MainScreenUiState
-    object OnboardingStyleSelection : MainScreenUiState
     
     data class OnboardingQuiz(
         val currentQuestionIndex: Int,
         val totalQuestions: Int,
-        val currentQuestion: WordCard,
+        val currentQuestion: SurvivalCard,
         val selectedOption: String?,
         val correctCount: Int
     ) : MainScreenUiState
 
     data class OnboardingLevelReveal(
-        val level: Level,
+        val categoryFocus: String,
+        val startingStage: Int,
         val correctCount: Int
     ) : MainScreenUiState
 
     data class Practice(
-        val currentItem: WordCard,
+        val currentItem: SurvivalCard,
         val isMeaningRevealed: Boolean = false,
         val selectedOption: String? = null,
         val isAnswerEvaluated: Boolean = false,
         val isAnswerCorrect: Boolean = false,
         val streak: Int,
         val secondsSaved: Long,
-        val currentLevel: Level,
+        val currentCategory: String, // CRISIS, NAVIGATION, FINANCE, BASIC_NEEDS, MIXED
         val secondsSpentToday: Long = 0L,
-        // Aşama bazlı ilerleme alanları
         val currentStage: Int = 1,
         val stageProgress: Int = 0,
         val showStageComplete: Boolean = false,
-        // Bağımsız Kelime Kartı Alanı
-        val learningCards: List<WordCard> = emptyList(),
-        val currentLearningCardIndex: Int = 0,
-        val showLearningCards: Boolean = false,
-        val isLearningCardRevealed: Boolean = false,
+        
+        // Skeleton mechanic fields
+        val isSkeletonRevealed: Boolean = false,
+        // Chunk mechanic fields
+        val clickedChunks: List<String> = emptyList(),
+        val shuffledChunks: List<String> = emptyList(),
+        // Error find mechanic fields
+        val tappedErrorWord: String? = null,
+        val errorSentenceText: String = "",
+        val isErrorCorrected: Boolean = false,
+        
         val selectedStyle: String = "MIXED",
         val speechRate: Float = 1.0f
     ) : MainScreenUiState
@@ -84,191 +77,62 @@ class MainScreenViewModel(context: Context) : ViewModel() {
     private val _uiState = MutableStateFlow<MainScreenUiState>(MainScreenUiState.OnboardingWelcome)
     val uiState: StateFlow<MainScreenUiState> = _uiState.asStateFlow()
 
-    private val pendingCardUpdates = mutableMapOf<Int, Boolean>() // cardId -> isCorrect
-    private val sessionQueue = mutableListOf<WordCard>() // 15 soruluk aktif aşama kuyruğu
-    private var lastSeenItemId: Int? = null
-    private var selectedLevel: Level? = null
+    private val pendingCardUpdates = mutableMapOf<Int, Boolean>()
+    private val sessionQueue = mutableListOf<SurvivalCard>()
     private var secondsTimerActive = 0L
-    private var activeDiagnosticQuestions = listOf<WordCard>()
+    private var activeStressTestQuestions = listOf<SurvivalCard>()
 
-    private fun getVerbForms(verb: String): List<String> {
-        val v = verb.lowercase()
-        return when (v) {
-            "make" -> listOf("made", "makes", "making")
-            "go" -> listOf("went", "gone", "goes", "going")
-            "take" -> listOf("took", "taken", "takes", "taking")
-            "get" -> listOf("got", "gotten", "gets", "getting")
-            "call" -> listOf("called", "calls", "calling")
-            "keep" -> listOf("kept", "keeps", "keeping")
-            "break" -> listOf("broke", "broken", "breaks", "breaking")
-            "run" -> listOf("ran", "runs", "running")
-            "buy" -> listOf("bought", "buys", "buying")
-            "split" -> listOf("split", "splits", "splitting")
-            "let" -> listOf("let", "lets", "letting")
-            "spill" -> listOf("spilled", "spilt", "spills", "spilling")
-            "pull" -> listOf("pulled", "pulls", "pulling")
-            "beat" -> listOf("beat", "beaten", "beats", "beating")
-            "happen" -> listOf("happened", "happens", "happening")
-            "cost" -> listOf("costs", "costing")
-            "arrive" -> listOf("arrived", "arrives", "arriving")
-            "see" -> listOf("saw", "seen", "sees", "seeing")
-            "do" -> listOf("did", "done", "does", "doing")
-            "have" -> listOf("had", "has", "having")
-            "find" -> listOf("found", "finds", "finding")
-            "say" -> listOf("said", "says", "saying")
-            "tell" -> listOf("told", "tells", "telling")
-            "write" -> listOf("wrote", "written", "writes", "writing")
-            "read" -> listOf("reads", "reading")
-            "speak" -> listOf("spoke", "spoken", "speaks", "speaking")
-            "meet" -> listOf("met", "meets", "meeting")
-            "send" -> listOf("sent", "sends", "sending")
-            "fly" -> listOf("flew", "flies", "flying")
-            "pay" -> listOf("paid", "pays", "paying")
-            "lose" -> listOf("lost", "loses", "losing")
-            "miss" -> listOf("missed", "misses", "missing")
-            "confirm" -> listOf("confirmed", "confirms", "confirming")
-            "cancel" -> listOf("cancelled", "canceled", "cancels", "canceling")
-            "rent" -> listOf("rented", "rents", "renting")
-            "declare" -> listOf("declared", "declares", "declaring")
-            "postpone" -> listOf("postponed", "postpones", "postponing")
-            "implement" -> listOf("implemented", "implements", "implementing")
-            "address" -> listOf("addressed", "addresses", "addressing")
-            "collaborate" -> listOf("collaborated", "collaborates", "collaborating")
-            "delegate" -> listOf("delegated", "delegates", "delegating")
-            "terminate" -> listOf("terminated", "terminates", "terminating")
-            "finalize" -> listOf("finalized", "finalizes", "finalizing")
-            "leverage" -> listOf("leveraged", "leverages", "leveraging")
-            "mitigate" -> listOf("mitigated", "mitigates", "mitigating")
-            "streamline" -> listOf("streamlined", "streamlines", "streamlining")
-            "disrupt" -> listOf("disrupted", "disrupts", "disrupting")
-            "diversify" -> listOf("diversified", "diversifies", "diversifying")
-            "downsize" -> listOf("downsized", "downsizes", "downsizing")
-            "compose" -> listOf("composed", "composes", "composing")
-            else -> {
-                val list = mutableListOf<String>()
-                if (v.endsWith("e")) {
-                    list.add(v + "d")
-                    list.add(v + "s")
-                    list.add(v.substring(0, v.length - 1) + "ing")
-                } else if (v.endsWith("y") && v.length > 2 && !listOf('a', 'e', 'i', 'o', 'u').contains(v[v.length - 2])) {
-                    list.add(v.substring(0, v.length - 1) + "ied")
-                    list.add(v.substring(0, v.length - 1) + "ies")
-                    list.add(v + "ing")
-                } else {
-                    list.add(v + "ed")
-                    list.add(v + "s")
-                    list.add(v + "ing")
-                }
-                list
-            }
-        }
-    }
-
-    private fun replaceAnswerWithBlank(sentence: String, answer: String): String {
-        if (sentence.contains("_____")) return sentence
-        if (sentence.contains(answer, ignoreCase = true)) {
-            return sentence.replace(answer, "_____", ignoreCase = true)
-        }
-        val parts = answer.split(" ")
-        if (parts.isNotEmpty()) {
-            val verb = parts[0]
-            val verbForms = getVerbForms(verb) + verb
-            for (form in verbForms) {
-                val reconstructedPhrase = if (parts.size > 1) {
-                    form + " " + parts.subList(1, parts.size).joinToString(" ")
-                } else {
-                    form
-                }
-                if (sentence.contains(reconstructedPhrase, ignoreCase = true)) {
-                    return sentence.replace(reconstructedPhrase, "_____", ignoreCase = true)
-                }
-            }
-        }
-        return sentence
-    }
-
-    private fun isEnglishString(text: String): Boolean {
-        val turkishChars = charArrayOf('ı', 'ş', 'ğ', 'ç', 'ö', 'ü', 'ı', 'Ş', 'Ğ', 'Ç', 'Ö', 'Ü', 'İ')
-        return !text.any { it in turkishChars }
-    }
-
-    private fun getEnglishPart(text: String): String {
-        val turkishChars = charArrayOf('ı', 'ş', 'ğ', 'ç', 'ö', 'ü', 'ı', 'Ş', 'Ğ', 'Ç', 'Ö', 'Ü', 'İ')
-        val firstTurkishIndex = text.indexOfFirst { it in turkishChars }
-        
-        if (firstTurkishIndex != -1) {
-            val sub = text.substring(0, firstTurkishIndex)
-            val lastSpace = sub.lastIndexOf(" ")
-            val cleaned = if (lastSpace != -1) sub.substring(0, lastSpace) else sub
-            val trimmed = cleaned.trim(' ', '"', '\'', ':', ',', '.', '?')
-            if (trimmed.isNotEmpty() && isEnglishString(trimmed) && trimmed.length > 3) {
-                return trimmed
-            }
-        }
-        
-        val regex = "['\"]([^'\"]*)['\"]".toRegex()
-        val matches = regex.findAll(text).map { it.groupValues[1] }.toList()
-        val longestEnglishMatch = matches.filter { isEnglishString(it) }.maxByOrNull { it.length }
-        if (longestEnglishMatch != null && longestEnglishMatch.trim().isNotEmpty()) {
-            return longestEnglishMatch.trim()
-        }
-        
-        return text
-    }
-
-    // Sadece İngilizce kısımları okumak için yardımcı fonksiyon (Cevap sızdırmaz)
-    private fun getSpeakText(card: WordCard, isAnswerEvaluated: Boolean): String {
-        return when (card.type) {
-            "QUIZ_COMPLETION" -> {
-                val phrase = card.expression
-                val end = phrase.lastIndexOf("'")
-                val rawSentence = if (end != -1) {
-                     val start = phrase.lastIndexOf("'", end - 1)
-                     if (start != -1) {
-                         phrase.substring(start + 1, end)
-                     } else {
-                         phrase
-                     }
-                } else {
-                     phrase
-                }
-                if (isAnswerEvaluated) {
-                    rawSentence.replace("_____", card.correctAnswer)
-                } else {
-                    rawSentence.replace("_____", "blank")
-                }
-            }
-            "QUIZ_MULTIPLE_CHOICE" -> {
-                if (isAnswerEvaluated) {
-                    val firstQuote = card.expression.indexOf("'")
-                    val nextQuote = if (firstQuote != -1) card.expression.indexOf("'", firstQuote + 1) else -1
-                    val extracted = if (firstQuote != -1 && nextQuote != -1) {
-                        card.expression.substring(firstQuote + 1, nextQuote)
-                    } else {
-                        ""
-                    }
-                    if (extracted.isNotEmpty() && isEnglishString(extracted)) {
-                        extracted
-                    } else if (isEnglishString(card.correctAnswer) && card.correctAnswer.split(" ").size <= 4) {
-                        card.correctAnswer
-                    } else {
-                        getEnglishPart(card.expression)
-                    }
-                } else {
-                    if (isEnglishString(card.expression)) {
-                        card.expression
-                    } else {
-                        getEnglishPart(card.expression).ifEmpty { "Please choose the correct answer" }
-                    }
-                }
-            }
-            else -> card.expression
-        }
-    }
+    // 5 Soruluk Statik Onboarding Stres Testi Havuzu
+    private val stressTestQuestions = listOf(
+        SurvivalCard(
+            id = 9901,
+            category = "CRISIS",
+            mechanicType = "SWIPE",
+            scenarioTr = "Taksici taksimetreyi açmayı reddediyor ve fahiş fiyat istiyor. Doğru tepki nedir?",
+            targetEn = "Turn on the meter, please.",
+            optionsRaw = "Turn on the meter, please.|Okay, I will pay whatever.",
+            difficulty = 2
+        ),
+        SurvivalCard(
+            id = 9902,
+            category = "NAVIGATION",
+            mechanicType = "SWIPE",
+            scenarioTr = "Kayboldun ve en yakın metro istasyonunu sorman gerek.",
+            targetEn = "Where is the nearest subway station?",
+            optionsRaw = "Where is the nearest subway station?|Do you have coffee?",
+            difficulty = 1
+        ),
+        SurvivalCard(
+            id = 9903,
+            category = "FINANCE",
+            mechanicType = "SWIPE",
+            scenarioTr = "Hesabı nakit yerine kredi kartıyla ödemek istediğini söyle.",
+            targetEn = "Can I pay by credit card?",
+            optionsRaw = "Can I pay by credit card?|Can you give me a discount?",
+            difficulty = 2
+        ),
+        SurvivalCard(
+            id = 9904,
+            category = "BASIC_NEEDS",
+            mechanicType = "SWIPE",
+            scenarioTr = "Şarj aletin için acil priz dönüştürücüye ihtiyacın var.",
+            targetEn = "Do you have a plug adapter?",
+            optionsRaw = "Do you have a plug adapter?|I need an ambulance.",
+            difficulty = 3
+        ),
+        SurvivalCard(
+            id = 9905,
+            category = "CRISIS",
+            mechanicType = "SWIPE",
+            scenarioTr = "Pasaportunu kaybettiğini konsolosluğa bildirmelisin.",
+            targetEn = "I lost my passport.",
+            optionsRaw = "I lost my passport.|Where is the elevator?",
+            difficulty = 2
+        )
+    )
 
     init {
-        // Her yeni yüklemede seviye tespit sınavının (SBS) baştan gelmesini sağlamak için build zamanı kontrolü
-        val currentBuildTime = "20260701_1930" 
+        val currentBuildTime = "20260702_0000"
         val savedBuildTime = prefs.getSavedBuildTime()
         if (savedBuildTime != currentBuildTime) {
             prefs.clearUserProgress()
@@ -288,30 +152,28 @@ class MainScreenViewModel(context: Context) : ViewModel() {
 
         val savedLevel = prefs.getUserLevel()
         if (savedLevel != null) {
-            selectedLevel = savedLevel
             prefs.updateStreak()
-            startStageSession(savedLevel)
+            startStageSession(prefs.getUserStyle())
         } else {
             _uiState.value = MainScreenUiState.OnboardingWelcome
         }
     }
 
-    // Aşama Oturum Başlatıcı (9 Yeni + 6 Tekrar asenkron birleştirme)
-    fun startStageSession(level: Level) {
+    // Aşama Oturum Başlatıcı (9 Yeni + 6 Tekrar)
+    fun startStageSession(category: String) {
         viewModelScope.launch(Dispatchers.IO) {
-            val category = prefs.getUserStyle()
             val exclude = prefs.getRecentSeenIds()
-            val questions = repository.getStagePackage(level.name, category, exclude, System.currentTimeMillis())
+            val questions = repository.getStagePackage(category, exclude, System.currentTimeMillis())
             
             viewModelScope.launch(Dispatchers.Main) {
                 sessionQueue.clear()
                 sessionQueue.addAll(questions)
-                loadNextPracticeItem(level)
+                loadNextPracticeItem(category)
             }
         }
     }
 
-    // Yaşam Döngüsü tetiklendiğinde (onPause/onStop) RAM'deki verileri Room'a kaydetme
+    // İlerlemeyi Room veritabanına kaydetme
     fun saveProgress() {
         if (secondsTimerActive > 0L) {
             prefs.addSecondsSpentToday(secondsTimerActive)
@@ -330,67 +192,24 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         }
     }
 
-    // Tarz seçim ekranını başlatır
-    fun startStyleSelection() {
-        _uiState.value = MainScreenUiState.OnboardingStyleSelection
-    }
-
-    // Seçilen tarzı kaydeder ve seviye tespit sınavını başlatır (SBS)
-    fun selectLearningStyle(style: String) {
-        prefs.setUserStyle(style)
-        
-        // 10 soruluk dinamik SBS listesini oluştur (3 Başlangıç, 4 Orta, 3 İleri)
-        val allPool = LearningContent.diagnosticQuestions
-        val beginnerCandidates = allPool.filter { it.level == Level.BEGINNER }
-        val intermediateCandidates = allPool.filter { it.level == Level.INTERMEDIATE }
-        val advancedCandidates = allPool.filter { it.level == Level.ADVANCED }
-        
-        fun filterByStyle(candidates: List<com.example.lingoscroll.data.LearningItem>): List<com.example.lingoscroll.data.LearningItem> {
-            if (style == "MIXED") return candidates
-            val styleFiltered = candidates.filter { it.category == style || it.category == "CASUAL" }
-            return if (styleFiltered.isNotEmpty()) styleFiltered else candidates
-        }
-        
-        val begPool = filterByStyle(beginnerCandidates).shuffled()
-        val intPool = filterByStyle(intermediateCandidates).shuffled()
-        val advPool = filterByStyle(advancedCandidates).shuffled()
-        
-        val selectedBeg = begPool.take(3)
-        val selectedInt = intPool.take(4)
-        val selectedAdv = advPool.take(3)
-        
-        val combinedPool = (selectedBeg + selectedInt + selectedAdv).shuffled().map {
-            WordCard(
-                id = it.id,
-                type = it.type.name,
-                expression = it.phrase,
-                translation = it.translation,
-                example_sentence = it.context,
-                level = it.level.name,
-                optionsRaw = it.options.joinToString("|"),
-                correctAnswer = it.correctAnswer,
-                category = it.category
-            )
-        }
-        
-        activeDiagnosticQuestions = combinedPool
-        
-        if (combinedPool.isNotEmpty()) {
-            val firstQuestion = combinedPool.first()
+    // Survival Stress Testini Başlatma
+    fun startStressTest() {
+        activeStressTestQuestions = stressTestQuestions.shuffled()
+        if (activeStressTestQuestions.isNotEmpty()) {
             _uiState.value = MainScreenUiState.OnboardingQuiz(
                 currentQuestionIndex = 0,
-                totalQuestions = combinedPool.size,
-                currentQuestion = firstQuestion,
+                totalQuestions = activeStressTestQuestions.size,
+                currentQuestion = activeStressTestQuestions.first(),
                 selectedOption = null,
                 correctCount = 0
             )
         }
     }
 
-    // Seviye tespit sorusunu cevaplama
-    fun answerDiagnosticQuestion(option: String) {
+    // Stress Test Cevaplama
+    fun answerStressTestQuestion(option: String) {
         val currentState = _uiState.value as? MainScreenUiState.OnboardingQuiz ?: return
-        val isCorrect = option == currentState.currentQuestion.correctAnswer
+        val isCorrect = option == currentState.currentQuestion.targetEn
         val newCorrectCount = if (isCorrect) currentState.correctCount + 1 else currentState.correctCount
 
         _uiState.value = currentState.copy(
@@ -398,16 +217,16 @@ class MainScreenViewModel(context: Context) : ViewModel() {
             correctCount = newCorrectCount
         )
 
-        tts.speak(getSpeakText(currentState.currentQuestion, true))
+        tts.speak(currentState.currentQuestion.targetEn)
     }
 
-    // Seviye tespit sınavında bir sonraki soruya geçiş
-    fun nextDiagnosticQuestion() {
+    // Stress Test Sonraki Soru
+    fun nextStressTestQuestion() {
         val currentState = _uiState.value as? MainScreenUiState.OnboardingQuiz ?: return
         val nextIndex = currentState.currentQuestionIndex + 1
 
-        if (nextIndex < activeDiagnosticQuestions.size) {
-            val nextCard = activeDiagnosticQuestions[nextIndex]
+        if (nextIndex < activeStressTestQuestions.size) {
+            val nextCard = activeStressTestQuestions[nextIndex]
             _uiState.value = currentState.copy(
                 currentQuestionIndex = nextIndex,
                 currentQuestion = nextCard,
@@ -415,101 +234,89 @@ class MainScreenViewModel(context: Context) : ViewModel() {
             )
         } else {
             val score = currentState.correctCount
-            val calculatedLevel = when {
-                score <= 3 -> Level.BEGINNER
-                score <= 7 -> Level.INTERMEDIATE
-                else -> Level.ADVANCED
-            }
-            prefs.setUserLevel(calculatedLevel)
-            prefs.updateStreak()
-            selectedLevel = calculatedLevel
             
-            // Başlangıç aşamasını ayarla (1, 6 veya 11)
-            val startStage = when (calculatedLevel) {
-                Level.BEGINNER -> 1
-                Level.INTERMEDIATE -> 6
-                Level.ADVANCED -> 11
+            // Sonuca göre başlangıç kategorisi ve aşaması belirleme
+            val (categoryFocus, startStage) = when {
+                score <= 2 -> Pair("CRISIS", 1)         // Kriz durumları öncelikli (Aşama 1)
+                score <= 4 -> Pair("FINANCE", 6)        // Finans / Hesap öncelikli (Aşama 6)
+                else -> Pair("NAVIGATION", 11)          // Navigasyon / Yol bulma (Aşama 11)
             }
+
+            prefs.setUserStyle(categoryFocus)
+            prefs.setUserLevel(Level.BEGINNER) // dummy level for lifecycle compilation
+            prefs.updateStreak()
             prefs.setCurrentStage(startStage)
             prefs.setStageProgress(0)
 
-            _uiState.value = MainScreenUiState.OnboardingLevelReveal(calculatedLevel, score)
+            _uiState.value = MainScreenUiState.OnboardingLevelReveal(
+                categoryFocus = categoryFocus,
+                startingStage = startStage,
+                correctCount = score
+            )
         }
     }
 
-    // Seviye bildirim ekranından çıkıp çalışmaya başlama
-    fun startLearningAfterSBS() {
-        val level = selectedLevel ?: Level.BEGINNER
-        startStageSession(level)
+    // Test Sonrası Eğitime Başla
+    fun startLearningAfterStressTest() {
+        val category = prefs.getUserStyle()
+        startStageSession(category)
     }
 
-    // Pratik modunda sıradaki soruyu yükler (Session Queue bazlı)
-    private fun loadNextPracticeItem(level: Level) {
+    // Yeni Soru Yükleyici
+    private fun loadNextPracticeItem(category: String) {
         if (sessionQueue.isEmpty()) {
-            startStageSession(level)
+            startStageSession(category)
             return
         }
 
         val chosenItem = sessionQueue.first()
-        val variations = chosenItem.variationsList
-        val finalItem = if (chosenItem.type == "QUIZ_COMPLETION" && variations.isNotEmpty()) {
-            val randomVariation = variations.random()
-            val processedVariation = replaceAnswerWithBlank(randomVariation, chosenItem.correctAnswer)
-
-            val phrase = chosenItem.expression
-            val end = phrase.lastIndexOf("'")
-            if (end != -1) {
-                val start = phrase.lastIndexOf("'", end - 1)
-                if (start != -1) {
-                    val prefix = phrase.substring(0, start + 1)
-                    val suffix = phrase.substring(end)
-                    chosenItem.copy(expression = prefix + processedVariation + suffix)
-                } else {
-                    chosenItem.copy(expression = processedVariation)
-                }
-            } else {
-                chosenItem.copy(expression = processedVariation)
-            }
+        
+        // CHUNK mekaniği için parçaları oluştur
+        val clickedChunks = emptyList<String>()
+        val shuffledChunks = if (chosenItem.mechanicType == "CHUNK") {
+            chosenItem.optionsList.shuffled()
         } else {
-            chosenItem
+            emptyList()
         }
 
-        val preparedItem = if (finalItem.optionsRaw.trim().isEmpty() || finalItem.optionsList.isEmpty()) {
-            val dist = listOf("time", "work", "day", "world", "life", "place", "home", "back", "show", "call", "money", "check")
-                .filter { it.lowercase() != finalItem.correctAnswer.lowercase() }
-                .shuffled()
-                .take(3)
-            val mixed = (dist + finalItem.correctAnswer).shuffled()
-            finalItem.copy(optionsRaw = mixed.joinToString("|"))
+        // ERROR_FIND mekaniği için kelimeleri ve metni hazırla
+        val errorSentenceText = if (chosenItem.mechanicType == "ERROR_FIND") {
+            chosenItem.optionsList.getOrNull(0) ?: ""
         } else {
-            val shuffledOpts = finalItem.optionsList.shuffled()
-            finalItem.copy(optionsRaw = shuffledOpts.joinToString("|"))
+            ""
         }
 
         _uiState.value = MainScreenUiState.Practice(
-            currentItem = preparedItem,
+            currentItem = chosenItem,
             isMeaningRevealed = false,
             selectedOption = null,
             isAnswerEvaluated = false,
             isAnswerCorrect = false,
             streak = prefs.getStreak(),
             secondsSaved = prefs.getTotalSecondsSaved(),
-            currentLevel = level,
+            currentCategory = category,
             secondsSpentToday = prefs.getSecondsSpentToday() + secondsTimerActive,
             selectedStyle = prefs.getUserStyle(),
             speechRate = prefs.getTtsSpeechRate(),
             currentStage = prefs.getCurrentStage(),
             stageProgress = prefs.getStageProgress(),
-            showStageComplete = false
+            showStageComplete = false,
+            
+            isSkeletonRevealed = false,
+            clickedChunks = clickedChunks,
+            shuffledChunks = shuffledChunks,
+            tappedErrorWord = null,
+            errorSentenceText = errorSentenceText,
+            isErrorCorrected = false
         )
     }
 
-    // Pratik sorusunu cevaplama
-    fun answerPracticeQuestion(option: String) {
+    // Soru Cevaplama
+    fun answerPracticeQuestion(answer: String) {
         val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
         if (currentState.isAnswerEvaluated) return
 
-        val isCorrect = option == currentState.currentItem.correctAnswer
+        val isCorrect = answer == currentState.currentItem.targetEn
         prefs.incrementQuestionsStats(isCorrect)
         
         viewModelScope.launch(Dispatchers.IO) {
@@ -521,16 +328,126 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         }
 
         _uiState.value = currentState.copy(
-            selectedOption = option,
+            selectedOption = answer,
             isAnswerEvaluated = true,
             isAnswerCorrect = isCorrect,
             secondsSaved = prefs.getTotalSecondsSaved()
         )
 
-        tts.speak(getSpeakText(currentState.currentItem, true))
+        tts.speak(currentState.currentItem.targetEn)
     }
 
-    // Sıradaki pratik sorusuna geçiş
+    // Skeleton İçin Kendi Kendini Değerlendirme (Kolay/Zor/Bilemedim)
+    fun evaluateSkeleton(success: Boolean) {
+        val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
+        if (!currentState.isSkeletonRevealed) return
+
+        prefs.incrementQuestionsStats(success)
+
+        viewModelScope.launch(Dispatchers.IO) {
+            repository.updateCardProgress(currentState.currentItem.id, success)
+        }
+
+        if (success) {
+            prefs.addSecondsSaved(15)
+        }
+
+        _uiState.value = currentState.copy(
+            isAnswerEvaluated = true,
+            isAnswerCorrect = success,
+            secondsSaved = prefs.getTotalSecondsSaved()
+        )
+
+        tts.speak(currentState.currentItem.targetEn)
+    }
+
+    // Skeleton Hedefi Açma
+    fun revealSkeleton() {
+        val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
+        _uiState.value = currentState.copy(isSkeletonRevealed = true)
+        tts.speak(currentState.currentItem.targetEn)
+    }
+
+    // Chunk Butonuna Tıklama
+    fun clickChunk(chunk: String) {
+        val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
+        if (currentState.isAnswerEvaluated) return
+
+        val newClicked = currentState.clickedChunks.toMutableList()
+        if (chunk in newClicked) {
+            newClicked.remove(chunk)
+        } else {
+            newClicked.add(chunk)
+        }
+
+        _uiState.value = currentState.copy(clickedChunks = newClicked)
+
+        // Bütün parçalar seçildi mi kontrol et
+        if (newClicked.size == currentState.currentItem.optionsList.size) {
+            val isCorrect = newClicked == currentState.currentItem.optionsList
+            prefs.incrementQuestionsStats(isCorrect)
+            
+            viewModelScope.launch(Dispatchers.IO) {
+                repository.updateCardProgress(currentState.currentItem.id, isCorrect)
+            }
+            
+            if (isCorrect) {
+                prefs.addSecondsSaved(20)
+            }
+
+            _uiState.value = currentState.copy(
+                isAnswerEvaluated = true,
+                isAnswerCorrect = isCorrect,
+                secondsSaved = prefs.getTotalSecondsSaved()
+            )
+
+            tts.speak(currentState.currentItem.targetEn)
+        }
+    }
+
+    // Error Find Kelimesine Tıklama
+    fun clickErrorWord(word: String) {
+        val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
+        if (currentState.isAnswerEvaluated) return
+
+        val wrongWord = currentState.currentItem.optionsList.getOrNull(1) ?: ""
+        val correctReplacement = currentState.currentItem.optionsList.getOrNull(2) ?: ""
+
+        val cleanedTapped = word.trim(' ', '.', '?', ',', '!', '"', '\'')
+        val cleanedWrong = wrongWord.trim(' ', '.', '?', ',', '!', '"', '\'')
+
+        val isCorrect = cleanedTapped.equals(cleanedWrong, ignoreCase = true)
+        prefs.incrementQuestionsStats(isCorrect)
+
+        viewModelScope.launch(Dispatchers.IO) {
+            repository.updateCardProgress(currentState.currentItem.id, isCorrect)
+        }
+
+        if (isCorrect) {
+            prefs.addSecondsSaved(20)
+            // Yanlış kelimeyi doğrusu ile değiştir
+            val correctedText = currentState.errorSentenceText.replace(wrongWord, correctReplacement, ignoreCase = true)
+            _uiState.value = currentState.copy(
+                tappedErrorWord = word,
+                isAnswerEvaluated = true,
+                isAnswerCorrect = true,
+                errorSentenceText = correctedText,
+                isErrorCorrected = true,
+                secondsSaved = prefs.getTotalSecondsSaved()
+            )
+        } else {
+            _uiState.value = currentState.copy(
+                tappedErrorWord = word,
+                isAnswerEvaluated = true,
+                isAnswerCorrect = false,
+                isErrorCorrected = false
+            )
+        }
+
+        tts.speak(currentState.currentItem.targetEn)
+    }
+
+    // Sıradaki Soruya Geçiş
     fun nextPracticeQuestion() {
         val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
         if (!currentState.isAnswerEvaluated) return
@@ -552,17 +469,17 @@ class MainScreenViewModel(context: Context) : ViewModel() {
                 return
             }
         } else {
-            // Yanlış cevaplanan soruyu pekiştirme için kuyruğun sonuna taşı (Duolingo tarzı)
+            // Yanlış yapılan soruyu kuyruğun sonuna taşı
             if (sessionQueue.isNotEmpty()) {
                 val wrongCard = sessionQueue.removeAt(0)
                 sessionQueue.add(wrongCard)
             }
         }
 
-        loadNextPracticeItem(currentState.currentLevel)
+        loadNextPracticeItem(currentState.currentCategory)
     }
 
-    // Bir sonraki aşamaya geçiş (Kilit açma)
+    // Sonraki Aşamaya Geçiş
     fun proceedToNextStage() {
         val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
         val currentStage = prefs.getCurrentStage()
@@ -571,92 +488,17 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         prefs.setCurrentStage(nextStage)
         prefs.setStageProgress(0)
         
-        val calculatedLevel = when {
-            nextStage <= 5 -> Level.BEGINNER
-            nextStage <= 10 -> Level.INTERMEDIATE
-            else -> Level.ADVANCED
-        }
-        prefs.setUserLevel(calculatedLevel)
-        selectedLevel = calculatedLevel
-        
-        startStageSession(calculatedLevel)
+        startStageSession(currentState.currentCategory)
     }
 
-    // Bağımsız Kelime Kartı Çalışma Metotları
-    fun openLearningCards() {
-        val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
-        
-        viewModelScope.launch(Dispatchers.IO) {
-            repository.getCardsByLevel(currentState.currentLevel.name).collectLatest { cards ->
-                val userStyle = prefs.getUserStyle()
-                val filtered = cards.filter { 
-                    it.type == "CARD" && (userStyle == "MIXED" || it.category == userStyle)
-                }
-                
-                viewModelScope.launch(Dispatchers.Main) {
-                    val cardsToUse = if (filtered.isEmpty()) cards.filter { it.type == "CARD" } else filtered
-                    if (cardsToUse.isNotEmpty()) {
-                        _uiState.value = currentState.copy(
-                            learningCards = cardsToUse,
-                            currentLearningCardIndex = 0,
-                            showLearningCards = true,
-                            isLearningCardRevealed = false
-                        )
-                        tts.speak(getSpeakText(cardsToUse[0], true))
-                    }
-                }
-            }
-        }
+    // Kategori Seçimini Değiştirme (Acil Durum Alt Menüsü İçin)
+    fun changeCategory(newCategory: String) {
+        prefs.setUserStyle(newCategory)
+        prefs.setStageProgress(0)
+        startStageSession(newCategory)
     }
 
-    fun closeLearningCards() {
-        val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
-        _uiState.value = currentState.copy(showLearningCards = false)
-    }
-
-    fun revealLearningCard() {
-        val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
-        _uiState.value = currentState.copy(isLearningCardRevealed = true)
-        
-        val currentCard = currentState.learningCards.getOrNull(currentState.currentLearningCardIndex)
-        if (currentCard != null) {
-            val phrase = currentCard.expression
-            val example = currentCard.example_sentence
-            val speakText = if (example.isNotEmpty()) "$phrase. For example: $example" else phrase
-            tts.speak(speakText)
-        }
-    }
-
-    fun nextLearningCard(gotIt: Boolean) {
-        val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
-        val nextIndex = currentState.currentLearningCardIndex + 1
-        
-        val currentCard = currentState.learningCards.getOrNull(currentState.currentLearningCardIndex)
-        if (currentCard != null) {
-            viewModelScope.launch(Dispatchers.IO) {
-                repository.updateCardProgress(currentCard.id, gotIt)
-            }
-            if (gotIt) {
-                prefs.addSecondsSaved(10)
-            }
-        }
-
-        if (nextIndex < currentState.learningCards.size) {
-            _uiState.value = currentState.copy(
-                currentLearningCardIndex = nextIndex,
-                isLearningCardRevealed = false
-            )
-            val nextCard = currentState.learningCards[nextIndex]
-            tts.speak(getSpeakText(nextCard, true))
-        } else {
-            _uiState.value = currentState.copy(
-                showLearningCards = false,
-                secondsSaved = prefs.getTotalSecondsSaved()
-            )
-        }
-    }
-
-    // --- Anlık Arka Planda Senkronizasyon (Immediate Foreground Sync) ---
+    // --- Anlık Arka Planda Senkronizasyon ---
     fun triggerForegroundSync() {
         viewModelScope.launch(Dispatchers.IO) {
             try {
@@ -677,7 +519,7 @@ class MainScreenViewModel(context: Context) : ViewModel() {
                     conn.disconnect()
 
                     val jsonArray = JSONArray(response.toString())
-                    val newCards = mutableListOf<WordCard>()
+                    val newCards = mutableListOf<SurvivalCard>()
 
                     for (i in 0 until jsonArray.length()) {
                         val obj = jsonArray.getJSONObject(i)
@@ -688,102 +530,29 @@ class MainScreenViewModel(context: Context) : ViewModel() {
                                 optionsList.add(optionsArray.getString(j))
                             }
                         }
-                        val variationsArray = obj.optJSONArray("variations")
-                        val variationsList = mutableListOf<String>()
-                        if (variationsArray != null) {
-                            for (j in 0 until variationsArray.length()) {
-                                variationsList.add(variationsArray.getString(j))
-                            }
-                        }
 
                         newCards.add(
-                            WordCard(
+                            SurvivalCard(
                                 id = obj.getInt("id"),
-                                type = obj.getString("type"),
-                                level = obj.getString("level"),
-                                expression = obj.getString("phrase"),
-                                translation = obj.getString("translation"),
-                                example_sentence = obj.optString("context", ""),
+                                category = obj.getString("category"),
+                                mechanicType = obj.getString("mechanicType"),
+                                scenarioTr = obj.getString("scenarioTr"),
+                                targetEn = obj.getString("targetEn"),
                                 optionsRaw = optionsList.joinToString("|"),
-                                correctAnswer = obj.getString("correctAnswer"),
-                                category = obj.optString("category", "CASUAL"),
-                                variationsRaw = variationsList.joinToString("||")
+                                difficulty = obj.optInt("difficulty", 3),
+                                nextReviewDate = 0L
                             )
                         )
                     }
 
                     if (newCards.isNotEmpty()) {
                         repository.insertCards(newCards)
-                        Log.d("MainScreenViewModel", "Foreground Sync Başarılı: ${newCards.size} yeni gündem sorusu eklendi.")
+                        Log.d("MainScreenViewModel", "Foreground Sync Başarılı: ${newCards.size} yeni acil durum kartı eklendi.")
                     }
                 }
             } catch (e: Exception) {
-                // Simülasyon: 1.5 saniye sonra güncel Apple etkinliği, havalimanı ve orman yangını sorularını ekle
-                kotlinx.coroutines.delay(1500)
-                val simulatedCards = listOf(
-                    WordCard(
-                        id = 1001,
-                        type = "QUIZ_COMPLETION",
-                        level = "BEGINNER",
-                        expression = "Havalimanında bilet kontrolü sırasında: 'Please show me your _____.'",
-                        translation = "ticket",
-                        example_sentence = "'Please show me your...' seyahat sırasında en çok duyacağınız kalıplardandır.",
-                        correctAnswer = "ticket",
-                        optionsRaw = "ticket|bag|car|room",
-                        category = "TRAVEL",
-                        variationsRaw = "Excuse me, please show me your _____ || May I see your _____ please?"
-                    ),
-                    WordCard(
-                        id = 1002,
-                        type = "QUIZ_MULTIPLE_CHOICE",
-                        level = "INTERMEDIATE",
-                        expression = "Apple yeni gözlüğünü tanıttı! Tanıtımda geçen 'Son teknoloji / Çığır açıcı' anlamına gelen terim hangisidir?",
-                        translation = "State of the art",
-                        example_sentence = "Teknolojide en son gelişmişlik seviyesini tanımlamak için kullanılır.",
-                        correctAnswer = "State of the art",
-                        optionsRaw = "State of the art|Old school|Low key|Over the top",
-                        category = "BUSINESS"
-                    ),
-                    WordCard(
-                        id = 1003,
-                        type = "QUIZ_COMPLETION",
-                        level = "ADVANCED",
-                        expression = "Orman yangını haberlerinde geçen 'Tahliye etmek / Güvenli yere almak' anlamındaki kelime: 'Locals had to _____ the area.'",
-                        translation = "evacuate",
-                        example_sentence = "'Evacuate', acil durumlarda bölgeyi boşaltmak anlamındadır.",
-                        correctAnswer = "evacuate",
-                        optionsRaw = "evacuate|stay|burn|hide",
-                        category = "MIXED",
-                        variationsRaw = "The police ordered residents to _____ the building || Everyone had to _____ because of the fire."
-                    )
-                )
-                repository.insertCards(simulatedCards)
+                // Fallback or debug logs
             }
-        }
-    }
-    fun revealCardMeaning() {
-        val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
-        _uiState.value = currentState.copy(isMeaningRevealed = true)
-        tts.speak(getSpeakText(currentState.currentItem, true))
-    }
-
-    fun evaluateCard(gotIt: Boolean) {
-        val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
-        viewModelScope.launch(Dispatchers.IO) {
-            repository.updateCardProgress(currentState.currentItem.id, gotIt)
-        }
-        if (gotIt) {
-            prefs.addSecondsSaved(10)
-        }
-        loadNextPracticeItem(currentState.currentLevel)
-    }
-
-    fun changeLearningStyle(newStyle: String) {
-        prefs.setUserStyle(newStyle)
-        val currentState = _uiState.value as? MainScreenUiState.Practice
-        if (currentState != null) {
-            prefs.setStageProgress(0)
-            startStageSession(currentState.currentLevel)
         }
     }
 
@@ -839,7 +608,7 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         if (text.isEmpty()) {
             val currentState = _uiState.value as? MainScreenUiState.Practice
             if (currentState != null) {
-                tts.speak(getSpeakText(currentState.currentItem, currentState.isAnswerEvaluated))
+                tts.speak(currentState.currentItem.targetEn)
             }
         } else {
             tts.speak(text)

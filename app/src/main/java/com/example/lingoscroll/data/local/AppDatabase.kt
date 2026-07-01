@@ -5,14 +5,13 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
-import com.example.lingoscroll.data.LearningContent
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
-@Database(entities = [WordCard::class], version = 2, exportSchema = false)
+@Database(entities = [SurvivalCard::class], version = 3, exportSchema = false)
 abstract class AppDatabase : RoomDatabase() {
-    abstract fun cardDao(): WordCardDao
+    abstract fun cardDao(): SurvivalCardDao
 
     companion object {
         @Volatile
@@ -33,12 +32,11 @@ abstract class AppDatabase : RoomDatabase() {
             }
         }
 
-        // assets/offline_questions.json dosyasını okuyup veritabanına yükler
-        fun loadOfflineQuestions(context: Context, cardDao: WordCardDao) {
+        fun loadOfflineQuestions(context: Context, cardDao: SurvivalCardDao) {
             try {
-                val jsonString = context.assets.open("offline_questions.json").bufferedReader().use { it.readText() }
+                val jsonString = context.assets.open("survival_questions.json").bufferedReader().use { it.readText() }
                 val jsonArray = org.json.JSONArray(jsonString)
-                val cards = mutableListOf<WordCard>()
+                val cards = mutableListOf<SurvivalCard>()
                 
                 for (i in 0 until jsonArray.length()) {
                     val obj = jsonArray.getJSONObject(i)
@@ -49,29 +47,20 @@ abstract class AppDatabase : RoomDatabase() {
                         optionsList.add(optionsArray.getString(j))
                     }
                     
-                    val variationsArray = obj.getJSONArray("variations")
-                    val variationsList = mutableListOf<String>()
-                    for (j in 0 until variationsArray.length()) {
-                        variationsList.add(variationsArray.getString(j))
-                    }
-                    
                     cards.add(
-                        WordCard(
+                        SurvivalCard(
                             id = obj.getInt("id"),
-                            type = obj.getString("type"),
-                            level = obj.getString("level"),
-                            expression = obj.getString("phrase"),
-                            translation = obj.getString("translation"),
-                            example_sentence = obj.getString("context"),
-                            optionsRaw = optionsList.joinToString("|"),
-                            correctAnswer = obj.getString("correctAnswer"),
                             category = obj.getString("category"),
-                            variationsRaw = variationsList.joinToString("||")
+                            mechanicType = obj.getString("mechanicType"),
+                            scenarioTr = obj.getString("scenarioTr"),
+                            targetEn = obj.getString("targetEn"),
+                            optionsRaw = optionsList.joinToString("|"),
+                            difficulty = obj.optInt("difficulty", 3),
+                            nextReviewDate = 0L
                         )
                     )
                 }
                 
-                // Toplu veritabanı kaydı
                 kotlinx.coroutines.runBlocking(kotlinx.coroutines.Dispatchers.IO) {
                     cardDao.insertCards(cards)
                 }
