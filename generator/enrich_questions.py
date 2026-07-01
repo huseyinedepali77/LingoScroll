@@ -190,9 +190,20 @@ def main():
         print("Error: GEMINI_API_KEY environment variable not found.")
         sys.exit(1)
 
-    kt_file = "app/src/main/java/com/example/lingoscroll/data/LearningContent.kt"
-    existing_items = parse_learning_content(kt_file)
-    print(f"Loaded {len(existing_items)} existing questions from LearningContent.kt")
+    output_file = "app/src/main/assets/offline_questions.json"
+    existing_items = []
+    if os.path.exists(output_file):
+        try:
+            with open(output_file, "r", encoding="utf-8") as f:
+                existing_items = json.load(f)
+            print(f"Loaded {len(existing_items)} existing questions from assets/offline_questions.json")
+        except Exception as e:
+            print(f"Error loading assets/offline_questions.json: {e}")
+            
+    if not existing_items:
+        kt_file = "app/src/main/java/com/example/lingoscroll/data/LearningContent.kt"
+        existing_items = parse_learning_content(kt_file)
+        print(f"Loaded {len(existing_items)} existing questions from LearningContent.kt")
 
     # Group counts
     counts = {}
@@ -202,7 +213,13 @@ def main():
 
     # Enrich to at least 25 per combination
     enriched_items = list(existing_items)
-    new_id_counter = 3001
+    
+    # ID çakışmalarını önlemek için mevcut en büyük ID'den sonrasını ata
+    max_id = 3000
+    for item in existing_items:
+        if isinstance(item.get("id"), int) and item["id"] > max_id:
+            max_id = item["id"]
+    new_id_counter = max_id + 1
 
     levels = ["BEGINNER", "INTERMEDIATE", "ADVANCED"]
     categories = ["TRAVEL", "BUSINESS", "CASUAL"]
@@ -219,20 +236,19 @@ def main():
                     if new_questions:
                         break
                     print(f"Retry attempt {attempt+1} for {lvl} + {cat}...")
-                    time.sleep(2)
+                    time.sleep(15)
                 
                 for q in new_questions:
                     q["id"] = new_id_counter
                     new_id_counter += 1
-                    # Ensure defaults match schema
                     if "type" not in q:
                         q["type"] = "QUIZ_COMPLETION"
                     if "variations" not in q:
                         q["variations"] = []
                     enriched_items.append(q)
                 
-                # Sleep briefly to be nice to API limits
-                time.sleep(1)
+                # Rate limit aşımını önlemek için 10 saniye bekle
+                time.sleep(10)
 
     print(f"Total question pool enriched to {len(enriched_items)} questions!")
 
