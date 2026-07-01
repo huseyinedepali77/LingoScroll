@@ -348,7 +348,7 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         )
 
         // Doğru cevabı / cümleyi İngilizce seslendir
-        tts.speak(getSpeakText(currentState.currentQuestion))
+        tts.speak(getSpeakText(currentState.currentQuestion, true))
     }
 
     // Seviye tespit sınavında bir sonraki soruya geçiş
