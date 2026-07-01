@@ -240,7 +240,16 @@ class MainScreenViewModel(context: Context) : ViewModel() {
             }
             "QUIZ_MULTIPLE_CHOICE" -> {
                 if (isAnswerEvaluated) {
-                    if (isEnglishString(card.correctAnswer)) {
+                    val firstQuote = card.expression.indexOf("'")
+                    val nextQuote = if (firstQuote != -1) card.expression.indexOf("'", firstQuote + 1) else -1
+                    val extracted = if (firstQuote != -1 && nextQuote != -1) {
+                        card.expression.substring(firstQuote + 1, nextQuote)
+                    } else {
+                        ""
+                    }
+                    if (extracted.isNotEmpty() && isEnglishString(extracted)) {
+                        extracted
+                    } else if (isEnglishString(card.correctAnswer) && card.correctAnswer.split(" ").size <= 4) {
                         card.correctAnswer
                     } else {
                         getEnglishPart(card.expression)
