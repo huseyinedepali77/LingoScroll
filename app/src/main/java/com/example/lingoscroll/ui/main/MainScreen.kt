@@ -942,6 +942,15 @@ fun PracticeScreen(
                                     .border(1.dp, MaterialTheme.colorScheme.onSurface.copy(alpha = 0.05f), RoundedCornerShape(16.dp))
                                     .padding(16.dp)
                             ) {
+                                if (!state.isAnswerCorrect) {
+                                    Text(
+                                        text = "Doğru Cevap: ${state.currentItem.correctAnswer}",
+                                        fontWeight = FontWeight.Bold,
+                                        color = Color(0xFF1D5A3F),
+                                        fontSize = 15.sp
+                                    )
+                                    Spacer(modifier = Modifier.height(6.dp))
+                                }
                                 Text(
                                     text = "Anlamı: ${state.currentItem.translation}",
                                     fontWeight = FontWeight.Bold,

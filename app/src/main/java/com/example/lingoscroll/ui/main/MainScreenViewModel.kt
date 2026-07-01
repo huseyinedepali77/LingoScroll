@@ -91,6 +91,35 @@ class MainScreenViewModel(context: Context) : ViewModel() {
     private var secondsTimerActive = 0L
     private var activeDiagnosticQuestions = listOf<WordCard>()
 
+    private fun isEnglishString(text: String): Boolean {
+        val turkishChars = charArrayOf('ı', 'ş', 'ğ', 'ç', 'ö', 'ü', 'ı', 'Ş', 'Ğ', 'Ç', 'Ö', 'Ü', 'İ')
+        return !text.any { it in turkishChars }
+    }
+
+    private fun getEnglishPart(text: String): String {
+        val turkishChars = charArrayOf('ı', 'ş', 'ğ', 'ç', 'ö', 'ü', 'ı', 'Ş', 'Ğ', 'Ç', 'Ö', 'Ü', 'İ')
+        val firstTurkishIndex = text.indexOfFirst { it in turkishChars }
+        
+        if (firstTurkishIndex != -1) {
+            val sub = text.substring(0, firstTurkishIndex)
+            val lastSpace = sub.lastIndexOf(" ")
+            val cleaned = if (lastSpace != -1) sub.substring(0, lastSpace) else sub
+            val trimmed = cleaned.trim(' ', '"', '\'', ':', ',', '.', '?')
+            if (trimmed.isNotEmpty() && isEnglishString(trimmed) && trimmed.length > 3) {
+                return trimmed
+            }
+        }
+        
+        val regex = "['\"]([^'\"]*)['\"]".toRegex()
+        val matches = regex.findAll(text).map { it.groupValues[1] }.toList()
+        val longestEnglishMatch = matches.filter { isEnglishString(it) }.maxByOrNull { it.length }
+        if (longestEnglishMatch != null && longestEnglishMatch.trim().isNotEmpty()) {
+            return longestEnglishMatch.trim()
+        }
+        
+        return text
+    }
+
     // Sadece İngilizce kısımları okumak için yardımcı fonksiyon (Cevap sızdırmaz)
     private fun getSpeakText(card: WordCard, isAnswerEvaluated: Boolean): String {
         return when (card.type) {
@@ -115,12 +144,16 @@ class MainScreenViewModel(context: Context) : ViewModel() {
             }
             "QUIZ_MULTIPLE_CHOICE" -> {
                 if (isAnswerEvaluated) {
-                    card.correctAnswer
+                    if (isEnglishString(card.correctAnswer)) {
+                        card.correctAnswer
+                    } else {
+                        getEnglishPart(card.expression)
+                    }
                 } else {
-                    if (card.expression.any { it in 'a'..'z' || it in 'A'..'Z' }) {
+                    if (isEnglishString(card.expression)) {
                         card.expression
                     } else {
-                        "Please choose the correct answer"
+                        getEnglishPart(card.expression).ifEmpty { "Please choose the correct answer" }
                     }
                 }
             }
@@ -316,6 +349,12 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         val variations = chosenItem.variationsList
         val finalItem = if (chosenItem.type == "QUIZ_COMPLETION" && variations.isNotEmpty()) {
             val randomVariation = variations.random()
+            val processedVariation = if (!randomVariation.contains("_____") && randomVariation.contains(chosenItem.correctAnswer, ignoreCase = true)) {
+                randomVariation.replace(chosenItem.correctAnswer, "_____", ignoreCase = true)
+            } else {
+                randomVariation
+            }
+
             val phrase = chosenItem.expression
             val end = phrase.lastIndexOf("'")
             if (end != -1) {
@@ -323,12 +362,12 @@ class MainScreenViewModel(context: Context) : ViewModel() {
                 if (start != -1) {
                     val prefix = phrase.substring(0, start + 1)
                     val suffix = phrase.substring(end)
-                    chosenItem.copy(expression = prefix + randomVariation + suffix)
+                    chosenItem.copy(expression = prefix + processedVariation + suffix)
                 } else {
-                    chosenItem.copy(expression = randomVariation)
+                    chosenItem.copy(expression = processedVariation)
                 }
             } else {
-                chosenItem.copy(expression = randomVariation)
+                chosenItem.copy(expression = processedVariation)
             }
         } else {
             chosenItem
