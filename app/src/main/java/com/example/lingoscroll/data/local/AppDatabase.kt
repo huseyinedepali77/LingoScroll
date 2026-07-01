@@ -26,57 +26,70 @@ abstract class AppDatabase : RoomDatabase() {
                     "lingoscroll_database"
                 )
                 .fallbackToDestructiveMigration()
-                .addCallback(AppDatabaseCallback(scope))
+                .addCallback(AppDatabaseCallback(context.applicationContext, scope))
                 .build()
                 INSTANCE = instance
                 instance
             }
         }
+
+        // assets/offline_questions.json dosyasını okuyup veritabanına yükler
+        fun loadOfflineQuestions(context: Context, cardDao: WordCardDao) {
+            try {
+                val jsonString = context.assets.open("offline_questions.json").bufferedReader().use { it.readText() }
+                val jsonArray = org.json.JSONArray(jsonString)
+                val cards = mutableListOf<WordCard>()
+                
+                for (i in 0 until jsonArray.length()) {
+                    val obj = jsonArray.getJSONObject(i)
+                    
+                    val optionsArray = obj.getJSONArray("options")
+                    val optionsList = mutableListOf<String>()
+                    for (j in 0 until optionsArray.length()) {
+                        optionsList.add(optionsArray.getString(j))
+                    }
+                    
+                    val variationsArray = obj.getJSONArray("variations")
+                    val variationsList = mutableListOf<String>()
+                    for (j in 0 until variationsArray.length()) {
+                        variationsList.add(variationsArray.getString(j))
+                    }
+                    
+                    cards.add(
+                        WordCard(
+                            id = obj.getInt("id"),
+                            type = obj.getString("type"),
+                            level = obj.getString("level"),
+                            expression = obj.getString("phrase"),
+                            translation = obj.getString("translation"),
+                            example_sentence = obj.getString("context"),
+                            optionsRaw = optionsList.joinToString("|"),
+                            correctAnswer = obj.getString("correctAnswer"),
+                            category = obj.getString("category"),
+                            variationsRaw = variationsList.joinToString("||")
+                        )
+                    )
+                }
+                
+                // Toplu veritabanı kaydı
+                kotlinx.coroutines.runBlocking(kotlinx.coroutines.Dispatchers.IO) {
+                    cardDao.insertCards(cards)
+                }
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
+        }
     }
 
     private class AppDatabaseCallback(
+        private val context: Context,
         private val scope: CoroutineScope
     ) : RoomDatabase.Callback() {
         override fun onCreate(db: SupportSQLiteDatabase) {
             super.onCreate(db)
             INSTANCE?.let { database ->
                 scope.launch(Dispatchers.IO) {
-                    val cardDao = database.cardDao()
-
-                    // Seviye tespit sınav sorularını ekle
-                    val diagCards = LearningContent.diagnosticQuestions.map {
-                        WordCard(
-                            id = it.id,
-                            type = it.type.name,
-                            expression = it.phrase,
-                            translation = it.translation,
-                            example_sentence = it.context,
-                            level = it.level.name,
-                            optionsRaw = it.options.joinToString("|"),
-                            correctAnswer = it.correctAnswer,
-                            category = it.category,
-                            variationsRaw = it.variations.joinToString("||")
-                        )
-                    }
-
-                    // Genel pratik kelime/cümle kartlarını ekle
-                    val practiceCards = LearningContent.practiceItems.map {
-                        WordCard(
-                            id = it.id,
-                            type = it.type.name,
-                            expression = it.phrase,
-                            translation = it.translation,
-                            example_sentence = it.context,
-                            level = it.level.name,
-                            optionsRaw = it.options.joinToString("|"),
-                            correctAnswer = it.correctAnswer,
-                            category = it.category,
-                            variationsRaw = it.variations.joinToString("||")
-                        )
-                    }
-
-                    cardDao.insertCards(diagCards)
-                    cardDao.insertCards(practiceCards)
+                    loadOfflineQuestions(context, database.cardDao())
                 }
             }
         }

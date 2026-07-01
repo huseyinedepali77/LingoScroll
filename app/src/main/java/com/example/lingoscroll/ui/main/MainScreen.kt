@@ -108,13 +108,26 @@ fun MainScreen(
                     )
                 }
             }
+            is MainScreenUiState.OnboardingLevelReveal -> {
+                Box(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(16.dp)
+                ) {
+                    LevelRevealScreen(
+                        level = s.level,
+                        correctCount = s.correctCount,
+                        onStartLearning = { viewModel.startLearningAfterSBS() }
+                    )
+                }
+            }
             is MainScreenUiState.Practice -> {
                 PracticeScreen(
                     state = s,
                     onRevealMeaning = { viewModel.revealCardMeaning() },
                     onEvaluateCard = { viewModel.evaluateCard(it) },
                     onAnswerQuiz = { viewModel.answerPracticeQuestion(it) },
-                    onNext = { viewModel.nextPracticeItem() },
+                    onNext = { viewModel.nextPracticeQuestion() },
                     onSpeak = { viewModel.speakText(it) },
                     onReset = { viewModel.resetProgress() },
                     onOpenLearningCards = { viewModel.openLearningCards() },
@@ -125,7 +138,8 @@ fun MainScreen(
                     onSpeechRateChange = { viewModel.changeTtsSpeechRate(it) },
                     getStats = { viewModel.getStudyStats() },
                     onFeedUrlChange = { viewModel.updateFeedUrl(it) },
-                    getFeedUrl = { viewModel.getCustomFeedUrl() }
+                    getFeedUrl = { viewModel.getCustomFeedUrl() },
+                    onNextStage = { viewModel.proceedToNextStage() }
                 )
             }
         }
@@ -493,7 +507,8 @@ fun PracticeScreen(
     onSpeechRateChange: (Float) -> Unit,
     getStats: () -> StudyStats,
     onFeedUrlChange: (String) -> Unit,
-    getFeedUrl: () -> String
+    getFeedUrl: () -> String,
+    onNextStage: () -> Unit
 ) {
     var showStatsBottomSheet by remember { mutableStateOf(false) }
     var showSettingsBottomSheet by remember { mutableStateOf(false) }
@@ -625,6 +640,43 @@ fun PracticeScreen(
                             color = MaterialTheme.colorScheme.primary
                         )
                     }
+                }
+
+                Spacer(modifier = Modifier.height(16.dp))
+
+                // Aşama İlerleme Göstergesi
+                Column(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(vertical = 4.dp)
+                ) {
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Text(
+                            text = "Aşama ${state.currentStage}",
+                            fontSize = 13.sp,
+                            fontWeight = FontWeight.Bold,
+                            color = MaterialTheme.colorScheme.primary
+                        )
+                        Text(
+                            text = "Soru ${state.stageProgress} / 15",
+                            fontSize = 11.sp,
+                            color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.6f)
+                        )
+                    }
+                    Spacer(modifier = Modifier.height(6.dp))
+                    androidx.compose.material3.LinearProgressIndicator(
+                        progress = { state.stageProgress / 15f },
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(6.dp)
+                            .clip(RoundedCornerShape(3.dp)),
+                        color = MaterialTheme.colorScheme.primary,
+                        trackColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.15f)
+                    )
                 }
 
                 Spacer(modifier = Modifier.height(16.dp))
@@ -1380,6 +1432,169 @@ fun PracticeScreen(
                     Text("Kaydet & Senkronize Et 🔄", fontWeight = FontWeight.Bold)
                 }
             }
+        }
+    }
+
+    if (state.showStageComplete) {
+        androidx.compose.material3.AlertDialog(
+            onDismissRequest = {},
+            title = {
+                Text(
+                    text = "Aşama Tamamlandı! 🎉",
+                    fontSize = 20.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = MaterialTheme.colorScheme.primary,
+                    textAlign = TextAlign.Center,
+                    modifier = Modifier.fillMaxWidth()
+                )
+            },
+            text = {
+                Column(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
+                    Text(
+                        text = "Tebrikler! Aşama ${state.currentStage} içerisindeki tüm 15 soruyu başarıyla tamamladınız.",
+                        fontSize = 14.sp,
+                        textAlign = TextAlign.Center,
+                        color = MaterialTheme.colorScheme.onSurface
+                    )
+                    Spacer(modifier = Modifier.height(16.dp))
+                    Text(
+                        text = "Bir sonraki aşamaya geçmeye hazır mısınız?",
+                        fontSize = 14.sp,
+                        textAlign = TextAlign.Center,
+                        fontWeight = FontWeight.Bold,
+                        color = MaterialTheme.colorScheme.primary
+                    )
+                }
+            },
+            confirmButton = {
+                Button(
+                    onClick = onNextStage,
+                    modifier = Modifier.fillMaxWidth(),
+                    shape = RoundedCornerShape(12.dp)
+                ) {
+                    Text("Sonraki Aşamaya Geç 🚀", fontWeight = FontWeight.Bold)
+                }
+            }
+        )
+    }
+}
+
+@Composable
+fun LevelRevealScreen(
+    level: Level,
+    correctCount: Int,
+    onStartLearning: () -> Unit
+) {
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(24.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
+    ) {
+        Card(
+            shape = RoundedCornerShape(24.dp),
+            colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
+            modifier = Modifier
+                .fillMaxWidth()
+                .border(1.dp, MaterialTheme.colorScheme.primary.copy(alpha = 0.15f), RoundedCornerShape(24.dp))
+        ) {
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(32.dp),
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+                Text(
+                    text = "Tebrikler! 🎉",
+                    fontSize = 28.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = MaterialTheme.colorScheme.primary
+                )
+                Spacer(modifier = Modifier.height(8.dp))
+                Text(
+                    text = "Seviye Belirleme Sınavı Tamamlandı",
+                    fontSize = 14.sp,
+                    color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f),
+                    textAlign = TextAlign.Center
+                )
+                Spacer(modifier = Modifier.height(32.dp))
+                
+                // Score Box
+                Box(
+                    modifier = Modifier
+                        .size(100.dp)
+                        .clip(CircleShape)
+                        .background(MaterialTheme.colorScheme.primary.copy(alpha = 0.1f)),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                        Text(
+                            text = "$correctCount/10",
+                            fontSize = 24.sp,
+                            fontWeight = FontWeight.Bold,
+                            color = MaterialTheme.colorScheme.primary
+                        )
+                        Text(
+                            text = "Doğru",
+                            fontSize = 12.sp,
+                            color = MaterialTheme.colorScheme.primary.copy(alpha = 0.8f)
+                        )
+                    }
+                }
+                Spacer(modifier = Modifier.height(32.dp))
+                
+                Text(
+                    text = "Belirlenen Seviyeniz:",
+                    fontSize = 15.sp,
+                    color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f)
+                )
+                Spacer(modifier = Modifier.height(8.dp))
+                
+                val levelLabel = when (level) {
+                    Level.BEGINNER -> "Başlangıç (Beginner)"
+                    Level.INTERMEDIATE -> "Orta Seviye (Intermediate)"
+                    Level.ADVANCED -> "İleri Seviye (Advanced)"
+                }
+                
+                Text(
+                    text = levelLabel,
+                    fontSize = 22.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = MaterialTheme.colorScheme.primary,
+                    textAlign = TextAlign.Center
+                )
+                Spacer(modifier = Modifier.height(16.dp))
+                
+                val startStage = when (level) {
+                    Level.BEGINNER -> 1
+                    Level.INTERMEDIATE -> 6
+                    Level.ADVANCED -> 11
+                }
+                Text(
+                    text = "Pratik dersleriniz Aşama $startStage'den başlayacak.",
+                    fontSize = 13.sp,
+                    color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.5f),
+                    textAlign = TextAlign.Center
+                )
+            }
+        }
+        Spacer(modifier = Modifier.height(48.dp))
+        Button(
+            onClick = onStartLearning,
+            shape = RoundedCornerShape(16.dp),
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(56.dp)
+        ) {
+            Text(
+                text = "Eğitime Başla 🚀",
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold
+            )
         }
     }
 }

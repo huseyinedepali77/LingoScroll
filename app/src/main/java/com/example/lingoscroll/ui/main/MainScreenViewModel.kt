@@ -46,16 +46,25 @@ sealed interface MainScreenUiState {
         val correctCount: Int
     ) : MainScreenUiState
 
+    data class OnboardingLevelReveal(
+        val level: Level,
+        val correctCount: Int
+    ) : MainScreenUiState
+
     data class Practice(
         val currentItem: WordCard,
-        val isMeaningRevealed: Boolean = false, // CARD tipi için (artık kullanılmıyor ama uyumluluk için kaldı)
-        val selectedOption: String? = null,    // QUIZ tipi için
-        val isAnswerEvaluated: Boolean = false, // QUIZ tipi için
-        val isAnswerCorrect: Boolean = false,    // QUIZ tipi için
+        val isMeaningRevealed: Boolean = false,
+        val selectedOption: String? = null,
+        val isAnswerEvaluated: Boolean = false,
+        val isAnswerCorrect: Boolean = false,
         val streak: Int,
         val secondsSaved: Long,
         val currentLevel: Level,
         val secondsSpentToday: Long = 0L,
+        // Aşama bazlı ilerleme alanları
+        val currentStage: Int = 1,
+        val stageProgress: Int = 0,
+        val showStageComplete: Boolean = false,
         // Bağımsız Kelime Kartı Alanı
         val learningCards: List<WordCard> = emptyList(),
         val currentLearningCardIndex: Int = 0,
@@ -68,27 +77,21 @@ sealed interface MainScreenUiState {
 
 class MainScreenViewModel(context: Context) : ViewModel() {
     private val prefs = PreferencesManager(context)
-    
-    // TtsManager soyutlamasını kullanıyoruz ve native TTS motorunu enjekte ediyoruz
     private val tts: TtsManager = NativeTtsManager(context)
-
-    // Room Database ve Repository kurulumu
     private val db = AppDatabase.getDatabase(context, viewModelScope)
     private val repository = CardRepository(db.cardDao())
 
     private val _uiState = MutableStateFlow<MainScreenUiState>(MainScreenUiState.OnboardingWelcome)
     val uiState: StateFlow<MainScreenUiState> = _uiState.asStateFlow()
 
-    // RAM'de tutulan geçici ilerleme verileri (UI takılmalarını önlemek için)
     private val pendingCardUpdates = mutableMapOf<Int, Boolean>() // cardId -> isCorrect
-    
+    private val sessionQueue = mutableListOf<WordCard>() // 15 soruluk aktif aşama kuyruğu
     private var lastSeenItemId: Int? = null
-    private var allLevelCards = listOf<WordCard>()
     private var selectedLevel: Level? = null
     private var secondsTimerActive = 0L
     private var activeDiagnosticQuestions = listOf<WordCard>()
 
-    // Sadece İngilizce kısımları ve tamamlanmış cümleleri okumak için yardımcı fonksiyon (Cevap verilmeden önce cevabı sızdırmaz)
+    // Sadece İngilizce kısımları okumak için yardımcı fonksiyon (Cevap sızdırmaz)
     private fun getSpeakText(card: WordCard, isAnswerEvaluated: Boolean): String {
         return when (card.type) {
             "QUIZ_COMPLETION" -> {
@@ -114,7 +117,6 @@ class MainScreenViewModel(context: Context) : ViewModel() {
                 if (isAnswerEvaluated) {
                     card.correctAnswer
                 } else {
-                    // Soru cümlesini oku (Türkçe karakter içermiyorsa)
                     if (card.expression.any { it in 'a'..'z' || it in 'A'..'Z' }) {
                         card.expression
                     } else {
@@ -122,134 +124,53 @@ class MainScreenViewModel(context: Context) : ViewModel() {
                     }
                 }
             }
-            else -> {
-                card.expression
-            }
+            else -> card.expression
         }
     }
 
     init {
         // Her yeni yüklemede seviye tespit sınavının (SBS) baştan gelmesini sağlamak için build zamanı kontrolü
-        val currentBuildTime = "20260701_1613" 
+        val currentBuildTime = "20260701_1930" 
         val savedBuildTime = prefs.getSavedBuildTime()
         if (savedBuildTime != currentBuildTime) {
             prefs.clearUserProgress()
+            prefs.clearRecentSeenIds()
             viewModelScope.launch(Dispatchers.IO) {
                 repository.deleteAll()
-                // Veritabanını baştan kur ve statik verileri ekle (SQLite dosyasının yeniden oluşmasını beklemeden)
-                val diagCards = LearningContent.diagnosticQuestions.map {
-                    WordCard(
-                        id = it.id,
-                        type = it.type.name,
-                        expression = it.phrase,
-                        translation = it.translation,
-                        example_sentence = it.context,
-                        level = it.level.name,
-                        optionsRaw = it.options.joinToString("|"),
-                        correctAnswer = it.correctAnswer,
-                        category = it.category,
-                        variationsRaw = it.variations.joinToString("||")
-                    )
-                }
-                val practiceCards = LearningContent.practiceItems.map {
-                    WordCard(
-                        id = it.id,
-                        type = it.type.name,
-                        expression = it.phrase,
-                        translation = it.translation,
-                        example_sentence = it.context,
-                        level = it.level.name,
-                        optionsRaw = it.options.joinToString("|"),
-                        correctAnswer = it.correctAnswer,
-                        category = it.category,
-                        variationsRaw = it.variations.joinToString("||")
-                    )
-                }
-                repository.insertCards(diagCards)
-                repository.insertCards(practiceCards)
+                AppDatabase.loadOfflineQuestions(context, db.cardDao())
             }
             prefs.setSavedBuildTime(currentBuildTime)
         }
 
-        // TTS hızını SharedPreferences'taki değere göre ayarla
         tts.setSpeechRate(prefs.getTtsSpeechRate())
-
-        // Anlık Arka Plan Senkronizasyonu (Foreground Sync) Başlat
         triggerForegroundSync()
-
-        // WorkManager background sync planlama (Sadece Wi-Fi ile çalışır)
         scheduleBackgroundSync(context)
-
-        // Akıllı Bildirimleri Planla
         scheduleNotifications(context)
-
-        // Zaman Sayacını Başlat
         startActiveTimer()
 
         val savedLevel = prefs.getUserLevel()
         if (savedLevel != null) {
             selectedLevel = savedLevel
             prefs.updateStreak()
-            observeRoomCards(savedLevel)
+            startStageSession(savedLevel)
         } else {
             _uiState.value = MainScreenUiState.OnboardingWelcome
         }
     }
 
-
-
-    // Room Veritabanındaki kartları gerçek zamanlı dinler (Flow)
-    private fun observeRoomCards(level: Level) {
-        viewModelScope.launch {
-            repository.getCardsByLevel(level.name).collectLatest { cards ->
-                allLevelCards = cards
-                // Eğer Room verileri henüz yüklenmediyse yerel statik bellekten beslen
-                if (allLevelCards.isEmpty()) {
-                    allLevelCards = LearningContent.practiceItems.filter { it.level == level }.map {
-                        WordCard(
-                            id = it.id,
-                            type = it.type.name,
-                            expression = it.phrase,
-                            translation = it.translation,
-                            example_sentence = it.context,
-                            level = it.level.name,
-                            optionsRaw = it.options.joinToString("|"),
-                            correctAnswer = it.correctAnswer,
-                            category = it.category,
-                            variationsRaw = it.variations.joinToString("||")
-                        )
-                    }
-                }
-                
-                // Eğer aktif olarak bir kart gösterilmiyorsa sıradakini yükle
-                if (_uiState.value !is MainScreenUiState.Practice) {
-                    loadNextPracticeItem(level)
-                } else {
-                    // Veritabanı değiştikçe feed'i de reaktif güncelle
-                    val currentState = _uiState.value as MainScreenUiState.Practice
-                    if (allLevelCards.none { it.id == currentState.currentItem.id }) {
-                        loadNextPracticeItem(level)
-                    }
-                }
+    // Aşama Oturum Başlatıcı (9 Yeni + 6 Tekrar asenkron birleştirme)
+    fun startStageSession(level: Level) {
+        viewModelScope.launch(Dispatchers.IO) {
+            val category = prefs.getUserStyle()
+            val exclude = prefs.getRecentSeenIds()
+            val questions = repository.getStagePackage(level.name, category, exclude, System.currentTimeMillis())
+            
+            viewModelScope.launch(Dispatchers.Main) {
+                sessionQueue.clear()
+                sessionQueue.addAll(questions)
+                loadNextPracticeItem(level)
             }
         }
-    }
-
-    // WorkManager Eşitleme Yapılandırması
-    private fun scheduleBackgroundSync(context: Context) {
-        val constraints = Constraints.Builder()
-            .setRequiredNetworkType(NetworkType.UNMETERED) // Sadece Wi-Fi
-            .build()
-
-        val syncRequest = PeriodicWorkRequestBuilder<SyncWorker>(24, TimeUnit.HOURS)
-            .setConstraints(constraints)
-            .build()
-
-        WorkManager.getInstance(context).enqueueUniquePeriodicWork(
-            "LingoScrollSync",
-            ExistingPeriodicWorkPolicy.KEEP,
-            syncRequest
-        )
     }
 
     // Yaşam Döngüsü tetiklendiğinde (onPause/onStop) RAM'deki verileri Room'a kaydetme
@@ -260,10 +181,9 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         }
 
         val updates = pendingCardUpdates.toMap()
-        pendingCardUpdates.clear() // Çift yazmayı engellemek için RAM havuzunu hemen boşalt
+        pendingCardUpdates.clear()
         
         if (updates.isNotEmpty()) {
-            Log.d("MainScreenViewModel", "Yaşam döngüsü tetiklendi: ${updates.size} adet kart ilerlemesi Room veritabanına yazılıyor...")
             viewModelScope.launch(Dispatchers.IO) {
                 updates.forEach { (cardId, isCorrect) ->
                     repository.updateCardProgress(cardId, isCorrect)
@@ -277,19 +197,16 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         _uiState.value = MainScreenUiState.OnboardingStyleSelection
     }
 
-    // Seçilen tarzı kaydeder ve seviye tespit sınavını başlatır
+    // Seçilen tarzı kaydeder ve seviye tespit sınavını başlatır (SBS)
     fun selectLearningStyle(style: String) {
         prefs.setUserStyle(style)
         
         // 10 soruluk dinamik SBS listesini oluştur (3 Başlangıç, 4 Orta, 3 İleri)
         val allPool = LearningContent.diagnosticQuestions
-        
-        // Seviyelere göre filtrele
         val beginnerCandidates = allPool.filter { it.level == Level.BEGINNER }
         val intermediateCandidates = allPool.filter { it.level == Level.INTERMEDIATE }
         val advancedCandidates = allPool.filter { it.level == Level.ADVANCED }
         
-        // Seçilen tarzla eşleşen veya CASUAL olanları filtrele (tarz MIXED değilse)
         fun filterByStyle(candidates: List<com.example.lingoscroll.data.LearningItem>): List<com.example.lingoscroll.data.LearningItem> {
             if (style == "MIXED") return candidates
             val styleFiltered = candidates.filter { it.category == style || it.category == "CASUAL" }
@@ -300,12 +217,10 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         val intPool = filterByStyle(intermediateCandidates).shuffled()
         val advPool = filterByStyle(advancedCandidates).shuffled()
         
-        // 3 Beginner, 4 Intermediate, 3 Advanced seç
         val selectedBeg = begPool.take(3)
         val selectedInt = intPool.take(4)
         val selectedAdv = advPool.take(3)
         
-        // Birleştir ve karıştır (Toplam 10 soru)
         val combinedPool = (selectedBeg + selectedInt + selectedAdv).shuffled().map {
             WordCard(
                 id = it.id,
@@ -322,7 +237,6 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         
         activeDiagnosticQuestions = combinedPool
         
-        // Sınavı başlat
         if (combinedPool.isNotEmpty()) {
             val firstQuestion = combinedPool.first()
             _uiState.value = MainScreenUiState.OnboardingQuiz(
@@ -338,7 +252,6 @@ class MainScreenViewModel(context: Context) : ViewModel() {
     // Seviye tespit sorusunu cevaplama
     fun answerDiagnosticQuestion(option: String) {
         val currentState = _uiState.value as? MainScreenUiState.OnboardingQuiz ?: return
-        
         val isCorrect = option == currentState.currentQuestion.correctAnswer
         val newCorrectCount = if (isCorrect) currentState.correctCount + 1 else currentState.correctCount
 
@@ -347,7 +260,6 @@ class MainScreenViewModel(context: Context) : ViewModel() {
             correctCount = newCorrectCount
         )
 
-        // Doğru cevabı / cümleyi İngilizce seslendir
         tts.speak(getSpeakText(currentState.currentQuestion, true))
     }
 
@@ -364,7 +276,6 @@ class MainScreenViewModel(context: Context) : ViewModel() {
                 selectedOption = null
             )
         } else {
-            // Sınav bitti, seviyeyi hesapla ve kaydet
             val score = currentState.correctCount
             val calculatedLevel = when {
                 score <= 3 -> Level.BEGINNER
@@ -374,54 +285,37 @@ class MainScreenViewModel(context: Context) : ViewModel() {
             prefs.setUserLevel(calculatedLevel)
             prefs.updateStreak()
             selectedLevel = calculatedLevel
-            observeRoomCards(calculatedLevel)
+            
+            // Başlangıç aşamasını ayarla (1, 6 veya 11)
+            val startStage = when (calculatedLevel) {
+                Level.BEGINNER -> 1
+                Level.INTERMEDIATE -> 6
+                Level.ADVANCED -> 11
+            }
+            prefs.setCurrentStage(startStage)
+            prefs.setStageProgress(0)
+
+            _uiState.value = MainScreenUiState.OnboardingLevelReveal(calculatedLevel, score)
         }
     }
 
-    // Pratik modunda sıradaki soruyu yükler (Spaced Repetition due-date algorithm)
+    // Seviye bildirim ekranından çıkıp çalışmaya başlama
+    fun startLearningAfterSBS() {
+        val level = selectedLevel ?: Level.BEGINNER
+        startStageSession(level)
+    }
+
+    // Pratik modunda sıradaki soruyu yükler (Session Queue bazlı)
     private fun loadNextPracticeItem(level: Level) {
-        if (allLevelCards.isEmpty()) return
-
-        val currentTime = System.currentTimeMillis()
-        
-        // Kullanıcının seçtiği kategoriye göre filtrele (Seyahat, İş vb.)
-        val userStyle = prefs.getUserStyle()
-        val categoryFiltered = allLevelCards.filter { 
-            userStyle == "MIXED" || it.category == userStyle
-        }
-        // Eğer seçilen tarza göre havuzda yeterli soru yoksa (4'ten az ise) genel karışık (MIXED) havuzdan beslen
-        val targetPool = if (categoryFiltered.size >= 4) categoryFiltered else allLevelCards
-
-        // Sadece QUIZ tiplerini pratik akışına al (CARD tiplerini ayırıyoruz), seviye tespit (SBS) sorularını hariç tut (ID 100-199) ve YKS benzeri uzun paragrafları ele (max 18 kelime)
-        val quizCards = targetPool.filter { it.type != "CARD" && it.id !in 100..199 && it.expression.split(" ").size <= 18 }
-        if (quizCards.isEmpty()) {
-            // Eğer kategoride quiz yoksa genel havuzdan quiz çek (SBS soruları hariç, max 18 kelime)
-            val fallbackQuizzes = allLevelCards.filter { it.type != "CARD" && it.id !in 100..199 && it.expression.split(" ").size <= 18 }
-            if (fallbackQuizzes.isEmpty()) return
-            selectAndEmitQuiz(fallbackQuizzes, level, currentTime)
+        if (sessionQueue.isEmpty()) {
+            startStageSession(level)
             return
         }
 
-        selectAndEmitQuiz(quizCards, level, currentTime)
-    }
-
-    private fun selectAndEmitQuiz(pool: List<WordCard>, level: Level, currentTime: Long) {
-        // Tekrar tarihi gelmiş veya geçmiş kartları filtrele (Öncelikli)
-        val dueCards = pool.filter { it.next_review_date <= currentTime }
-        val candidates = if (dueCards.isNotEmpty()) dueCards else pool
-
-        // Son görülen sorudan farklı bir soru seçmeye çalış
-        var chosenItem = candidates.random()
-        if (candidates.size > 1 && chosenItem.id == lastSeenItemId) {
-            val otherItems = candidates.filter { it.id != lastSeenItemId }
-            chosenItem = otherItems.random()
-        }
-
-        // Varyasyon Motoru (Context Variation Engine)
+        val chosenItem = sessionQueue.first()
         val variations = chosenItem.variationsList
         val finalItem = if (chosenItem.type == "QUIZ_COMPLETION" && variations.isNotEmpty()) {
             val randomVariation = variations.random()
-            // Kalıbın Türkçe açıklama kısmını bozmamak için tırnak içindeki İngilizce cümleyi varyasyon ile değiştiriyoruz
             val phrase = chosenItem.expression
             val end = phrase.lastIndexOf("'")
             if (end != -1) {
@@ -440,9 +334,6 @@ class MainScreenViewModel(context: Context) : ViewModel() {
             chosenItem
         }
 
-        lastSeenItemId = chosenItem.id
-
-        // Seçenekleri Karıştır (Shuffle Options) - Boş ise dinamik olarak doldur (Kullanıcının kilitlenmesini önlemek için)
         val preparedItem = if (finalItem.optionsRaw.trim().isEmpty() || finalItem.optionsList.isEmpty()) {
             val dist = listOf("time", "work", "day", "world", "life", "place", "home", "back", "show", "call", "money", "check")
                 .filter { it.lowercase() != finalItem.correctAnswer.lowercase() }
@@ -466,7 +357,10 @@ class MainScreenViewModel(context: Context) : ViewModel() {
             currentLevel = level,
             secondsSpentToday = prefs.getSecondsSpentToday() + secondsTimerActive,
             selectedStyle = prefs.getUserStyle(),
-            speechRate = prefs.getTtsSpeechRate()
+            speechRate = prefs.getTtsSpeechRate(),
+            currentStage = prefs.getCurrentStage(),
+            stageProgress = prefs.getStageProgress(),
+            showStageComplete = false
         )
     }
 
@@ -476,11 +370,8 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         if (currentState.isAnswerEvaluated) return
 
         val isCorrect = option == currentState.currentItem.correctAnswer
-        
-        // İstatistikleri güncelle
         prefs.incrementQuestionsStats(isCorrect)
         
-        // Veritabanına anında yaz (Tekrarları önlemek için hemen güncelliyoruz)
         viewModelScope.launch(Dispatchers.IO) {
             repository.updateCardProgress(currentState.currentItem.id, isCorrect)
         }
@@ -496,90 +387,86 @@ class MainScreenViewModel(context: Context) : ViewModel() {
             secondsSaved = prefs.getTotalSecondsSaved()
         )
 
-        // Doğru telaffuzu / tamamlanmış İngilizce cümleyi oku
         tts.speak(getSpeakText(currentState.currentItem, true))
     }
 
-    // Kelime kartı değerlendirmesi (Kart okundu / anlaşıldı / tekrar edilecek)
-    fun evaluateCard(gotIt: Boolean) {
+    // Sıradaki pratik sorusuna geçiş
+    fun nextPracticeQuestion() {
         val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
-        
-        // Veritabanına anında yaz
-        viewModelScope.launch(Dispatchers.IO) {
-            repository.updateCardProgress(currentState.currentItem.id, gotIt)
+        if (!currentState.isAnswerEvaluated) return
+
+        val isCorrect = currentState.isAnswerCorrect
+
+        if (isCorrect) {
+            prefs.addRecentSeenId(currentState.currentItem.id)
+            if (sessionQueue.isNotEmpty()) {
+                sessionQueue.removeAt(0)
+            }
+            prefs.incrementStageProgress()
+            
+            if (prefs.getStageProgress() >= 15) {
+                _uiState.value = currentState.copy(
+                    stageProgress = 15,
+                    showStageComplete = true
+                )
+                return
+            }
+        } else {
+            // Yanlış cevaplanan soruyu pekiştirme için kuyruğun sonuna taşı (Duolingo tarzı)
+            if (sessionQueue.isNotEmpty()) {
+                val wrongCard = sessionQueue.removeAt(0)
+                sessionQueue.add(wrongCard)
+            }
         }
-        
-        if (gotIt) {
-            prefs.addSecondsSaved(10)
-        }
-        
+
         loadNextPracticeItem(currentState.currentLevel)
     }
 
-    // Kartın anlamını göster
-    fun revealCardMeaning() {
+    // Bir sonraki aşamaya geçiş (Kilit açma)
+    fun proceedToNextStage() {
         val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
-        _uiState.value = currentState.copy(isMeaningRevealed = true)
-
-        // Kart açıldığında sadece İngilizce deyimi oku
-        tts.speak(getSpeakText(currentState.currentItem, true))
+        val currentStage = prefs.getCurrentStage()
+        val nextStage = currentStage + 1
+        
+        prefs.setCurrentStage(nextStage)
+        prefs.setStageProgress(0)
+        
+        val calculatedLevel = when {
+            nextStage <= 5 -> Level.BEGINNER
+            nextStage <= 10 -> Level.INTERMEDIATE
+            else -> Level.ADVANCED
+        }
+        prefs.setUserLevel(calculatedLevel)
+        selectedLevel = calculatedLevel
+        
+        startStageSession(calculatedLevel)
     }
 
-    // --- Bağımsız Kelime Kartı Çalışma Metotları ---
+    // Bağımsız Kelime Kartı Çalışma Metotları
     fun openLearningCards() {
         val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
         
-        val userStyle = prefs.getUserStyle()
-        val cards = allLevelCards.filter { 
-            it.type == "CARD" && (userStyle == "MIXED" || it.category == userStyle)
-        }
-        
-        if (cards.isEmpty()) {
-            val fallbackCards = allLevelCards.filter { it.type == "CARD" }
-            if (fallbackCards.isEmpty()) {
-                // Eğer seviyede kart yoksa statik hafızadaki tüm kartları yükle (Emniyet supabı)
-                val globalCards = LearningContent.practiceItems.filter { it.type == ItemType.CARD }.map {
-                    WordCard(
-                        id = it.id,
-                        type = it.type.name,
-                        expression = it.phrase,
-                        translation = it.translation,
-                        example_sentence = it.context,
-                        level = it.level.name,
-                        optionsRaw = it.options.joinToString("|"),
-                        correctAnswer = it.correctAnswer,
-                        category = it.category,
-                        variationsRaw = it.variations.joinToString("||")
-                    )
+        viewModelScope.launch(Dispatchers.IO) {
+            repository.getCardsByLevel(currentState.currentLevel.name).collectLatest { cards ->
+                val userStyle = prefs.getUserStyle()
+                val filtered = cards.filter { 
+                    it.type == "CARD" && (userStyle == "MIXED" || it.category == userStyle)
                 }
-                if (globalCards.isNotEmpty()) {
-                    _uiState.value = currentState.copy(
-                        learningCards = globalCards,
-                        currentLearningCardIndex = 0,
-                        showLearningCards = true,
-                        isLearningCardRevealed = false
-                    )
-                    tts.speak(getSpeakText(globalCards[0], true))
+                
+                viewModelScope.launch(Dispatchers.Main) {
+                    val cardsToUse = if (filtered.isEmpty()) cards.filter { it.type == "CARD" } else filtered
+                    if (cardsToUse.isNotEmpty()) {
+                        _uiState.value = currentState.copy(
+                            learningCards = cardsToUse,
+                            currentLearningCardIndex = 0,
+                            showLearningCards = true,
+                            isLearningCardRevealed = false
+                        )
+                        tts.speak(getSpeakText(cardsToUse[0], true))
+                    }
                 }
-                return
             }
-            _uiState.value = currentState.copy(
-                learningCards = fallbackCards,
-                currentLearningCardIndex = 0,
-                showLearningCards = true,
-                isLearningCardRevealed = false
-            )
-            tts.speak(getSpeakText(fallbackCards[0], true))
-            return
         }
-        
-        _uiState.value = currentState.copy(
-            learningCards = cards,
-            currentLearningCardIndex = 0,
-            showLearningCards = true,
-            isLearningCardRevealed = false
-        )
-        tts.speak(getSpeakText(cards[0], true))
     }
 
     fun closeLearningCards() {
@@ -593,7 +480,6 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         
         val currentCard = currentState.learningCards.getOrNull(currentState.currentLearningCardIndex)
         if (currentCard != null) {
-            // Açıklama/Örnek cümleyi de oku
             val phrase = currentCard.expression
             val example = currentCard.example_sentence
             val speakText = if (example.isNotEmpty()) "$phrase. For example: $example" else phrase
@@ -634,7 +520,6 @@ class MainScreenViewModel(context: Context) : ViewModel() {
     fun triggerForegroundSync() {
         viewModelScope.launch(Dispatchers.IO) {
             try {
-                // Mock Gündem Feed URL'sini SharedPreferences'tan dinamik al
                 val url = URL(prefs.getCustomFeedUrl())
                 val conn = url.openConnection() as HttpURLConnection
                 conn.requestMethod = "GET"
@@ -649,25 +534,25 @@ class MainScreenViewModel(context: Context) : ViewModel() {
                         response.append(line)
                     }
                     reader.close()
+                    conn.disconnect()
 
                     val jsonArray = JSONArray(response.toString())
                     val newCards = mutableListOf<WordCard>()
+
                     for (i in 0 until jsonArray.length()) {
                         val obj = jsonArray.getJSONObject(i)
-                        
-                        val options = mutableListOf<String>()
-                        val optsArray = obj.optJSONArray("options")
-                        if (optsArray != null) {
-                            for (j in 0 until optsArray.length()) {
-                                options.add(optsArray.getString(j))
+                        val optionsArray = obj.optJSONArray("options")
+                        val optionsList = mutableListOf<String>()
+                        if (optionsArray != null) {
+                            for (j in 0 until optionsArray.length()) {
+                                optionsList.add(optionsArray.getString(j))
                             }
                         }
-
-                        val variations = mutableListOf<String>()
-                        val varsArray = obj.optJSONArray("variations")
-                        if (varsArray != null) {
-                            for (j in 0 until varsArray.length()) {
-                                variations.add(varsArray.getString(j))
+                        val variationsArray = obj.optJSONArray("variations")
+                        val variationsList = mutableListOf<String>()
+                        if (variationsArray != null) {
+                            for (j in 0 until variationsArray.length()) {
+                                variationsList.add(variationsArray.getString(j))
                             }
                         }
 
@@ -678,11 +563,11 @@ class MainScreenViewModel(context: Context) : ViewModel() {
                                 level = obj.getString("level"),
                                 expression = obj.getString("phrase"),
                                 translation = obj.getString("translation"),
-                                example_sentence = obj.getString("context"),
+                                example_sentence = obj.optString("context", ""),
+                                optionsRaw = optionsList.joinToString("|"),
                                 correctAnswer = obj.getString("correctAnswer"),
-                                optionsRaw = options.joinToString("|"),
                                 category = obj.optString("category", "CASUAL"),
-                                variationsRaw = variations.joinToString("||")
+                                variationsRaw = variationsList.joinToString("||")
                             )
                         )
                     }
@@ -691,12 +576,8 @@ class MainScreenViewModel(context: Context) : ViewModel() {
                         repository.insertCards(newCards)
                         Log.d("MainScreenViewModel", "Foreground Sync Başarılı: ${newCards.size} yeni gündem sorusu eklendi.")
                     }
-                } else {
-                    throw Exception("HTTP error code: ${conn.responseCode}")
                 }
             } catch (e: Exception) {
-                Log.e("MainScreenViewModel", "Foreground Sync çevrimdışı çalışıyor, yerel simülasyon çalıştırılıyor: ${e.message}")
-                
                 // Simülasyon: 1.5 saniye sonra güncel Apple etkinliği, havalimanı ve orman yangını sorularını ekle
                 kotlinx.coroutines.delay(1500)
                 val simulatedCards = listOf(
@@ -740,52 +621,65 @@ class MainScreenViewModel(context: Context) : ViewModel() {
             }
         }
     }
-
-    // Pratik modunda sıradaki soruya geçiş
-    fun nextPracticeItem() {
+    fun revealCardMeaning() {
         val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
+        _uiState.value = currentState.copy(isMeaningRevealed = true)
+        tts.speak(getSpeakText(currentState.currentItem, true))
+    }
+
+    fun evaluateCard(gotIt: Boolean) {
+        val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
+        viewModelScope.launch(Dispatchers.IO) {
+            repository.updateCardProgress(currentState.currentItem.id, gotIt)
+        }
+        if (gotIt) {
+            prefs.addSecondsSaved(10)
+        }
         loadNextPracticeItem(currentState.currentLevel)
     }
 
-    // Metni seslendir (Gelen İngilizce metni ses sentezleyiciye gönderir)
-    fun speakText(text: String) {
-        if (text.isEmpty()) {
-            val currentState = _uiState.value as? MainScreenUiState.Practice
-            if (currentState != null) {
-                tts.speak(getSpeakText(currentState.currentItem, currentState.isAnswerEvaluated))
-            }
-        } else {
-            tts.speak(text)
+    fun changeLearningStyle(newStyle: String) {
+        prefs.setUserStyle(newStyle)
+        val currentState = _uiState.value as? MainScreenUiState.Practice
+        if (currentState != null) {
+            prefs.setStageProgress(0)
+            startStageSession(currentState.currentLevel)
         }
     }
 
-    // İlerlemeyi sıfırlayıp onboarding'e döner
-    fun resetProgress() {
-        prefs.clearUserProgress()
-        pendingCardUpdates.clear()
-        
-        viewModelScope.launch(Dispatchers.IO) {
-            repository.deleteAll()
-        }
-        
-        _uiState.value = MainScreenUiState.OnboardingWelcome
+    private fun scheduleBackgroundSync(context: Context) {
+        val constraints = androidx.work.Constraints.Builder()
+            .setRequiredNetworkType(androidx.work.NetworkType.UNMETERED)
+            .build()
+
+        val syncRequest = androidx.work.PeriodicWorkRequestBuilder<com.example.lingoscroll.sync.SyncWorker>(24, java.util.concurrent.TimeUnit.HOURS)
+            .setConstraints(constraints)
+            .build()
+
+        androidx.work.WorkManager.getInstance(context).enqueueUniquePeriodicWork(
+            "LingoScrollSync",
+            androidx.work.ExistingPeriodicWorkPolicy.KEEP,
+            syncRequest
+        )
     }
 
-    override fun onCleared() {
-        // View model sonlandığında bekleyen tüm kayıtları hemen diske yaz (Kayıp önleme)
-        saveProgress()
-        tts.shutdown()
-        super.onCleared()
+    private fun scheduleNotifications(context: Context) {
+        val notificationRequest = androidx.work.PeriodicWorkRequestBuilder<com.example.lingoscroll.sync.NotificationWorker>(12, java.util.concurrent.TimeUnit.HOURS)
+            .build()
+
+        androidx.work.WorkManager.getInstance(context).enqueueUniquePeriodicWork(
+            "LingoScrollNotifications",
+            androidx.work.ExistingPeriodicWorkPolicy.KEEP,
+            notificationRequest
+        )
     }
 
-    // --- Zaman Sayacı Metotları ---
     private fun startActiveTimer() {
         viewModelScope.launch {
             while (coroutineContext[kotlinx.coroutines.Job]?.isActive == true) {
                 kotlinx.coroutines.delay(1000)
                 secondsTimerActive += 1
                 
-                // Her 15 saniyede bir diske yaz ve sayacı sıfırla
                 if (secondsTimerActive >= 15L) {
                     prefs.addSecondsSpentToday(secondsTimerActive)
                     secondsTimerActive = 0L
@@ -801,46 +695,50 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         }
     }
 
-    // Akıllı Bildirimleri Planlama (Günde 1 kez/12 saatte bir tetiklenecek şekilde)
-    private fun scheduleNotifications(context: Context) {
-        val notificationRequest = PeriodicWorkRequestBuilder<com.example.lingoscroll.sync.NotificationWorker>(12, TimeUnit.HOURS)
-            .build()
-
-        WorkManager.getInstance(context).enqueueUniquePeriodicWork(
-            "LingoScrollNotifications",
-            ExistingPeriodicWorkPolicy.KEEP,
-            notificationRequest
-        )
-    }
-
-    // Kullanıcının öğrenme tarzını değiştirir (İlerlemeyi sıfırlamaz)
-    fun changeLearningStyle(newStyle: String) {
-        prefs.setUserStyle(newStyle)
-        // Eğer pratik modundaysak soruyu yeni tarza göre yeniden yükle
-        val currentState = _uiState.value as? MainScreenUiState.Practice
-        if (currentState != null) {
-            loadNextPracticeItem(currentState.currentLevel)
+    fun speakText(text: String) {
+        if (text.isEmpty()) {
+            val currentState = _uiState.value as? MainScreenUiState.Practice
+            if (currentState != null) {
+                tts.speak(getSpeakText(currentState.currentItem, currentState.isAnswerEvaluated))
+            }
+        } else {
+            tts.speak(text)
         }
     }
 
-    // Telaffuz okuma hızını değiştirir ve kaydeder
+    fun resetProgress() {
+        prefs.clearUserProgress()
+        prefs.clearRecentSeenIds()
+        pendingCardUpdates.clear()
+        sessionQueue.clear()
+        
+        viewModelScope.launch(Dispatchers.IO) {
+            repository.deleteAll()
+        }
+        
+        _uiState.value = MainScreenUiState.OnboardingWelcome
+    }
+
+    override fun onCleared() {
+        saveProgress()
+        tts.shutdown()
+        super.onCleared()
+    }
+
     fun changeTtsSpeechRate(rate: Float) {
         prefs.setTtsSpeechRate(rate)
         tts.setSpeechRate(rate)
     }
 
-    // Özel Akış URL'sini günceller ve senkronizasyonu anında tetikler
     fun updateFeedUrl(newUrl: String) {
         prefs.setCustomFeedUrl(newUrl)
         triggerForegroundSync()
     }
 
-    // Kayıtlı Özel Akış URL'sini döner
     fun getCustomFeedUrl(): String {
         return prefs.getCustomFeedUrl()
     }
 
-    // Arayüz için anlık istatistik verilerini döner
     fun getStudyStats(): StudyStats {
         val total = prefs.getTotalQuestionsAnswered()
         val correct = prefs.getCorrectQuestionsAnswered()
@@ -855,7 +753,6 @@ class MainScreenViewModel(context: Context) : ViewModel() {
     }
 }
 
-// İstatistikleri temsil eden veri sınıfı
 data class StudyStats(
     val streak: Int,
     val totalMinutes: Long,

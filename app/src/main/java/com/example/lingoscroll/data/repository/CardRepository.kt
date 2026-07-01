@@ -60,4 +60,34 @@ class CardRepository(private val cardDao: WordCardDao) {
         
         cardDao.updateCard(updatedCard)
     }
+
+    // 15 Soruluk Aşama Sınavı Paket Birleştirici (9 Yeni + 6 Tekrar)
+    suspend fun getStagePackage(level: String, category: String, excludeIds: List<Int>, currentTime: Long): List<WordCard> {
+        val safeExclude = if (excludeIds.isEmpty()) listOf(-1) else excludeIds
+        
+        // 1. Vakti gelmiş 6 tekrar sorusunu çek
+        var reviews = cardDao.getDueReviewQuestions(level, category, currentTime, 6)
+        
+        // Eğer vakti gelmiş yeterli soru yoksa, çözülmüş herhangi sorulardan tamamla
+        if (reviews.size < 6) {
+            val needed = 6 - reviews.size
+            val fallback = cardDao.getAnyReviewQuestions(level, category, needed)
+            reviews = reviews + fallback
+        }
+        
+        // 2. Rastgele 9 yeni soru çek (son görülenler hariç)
+        val newQuestions = cardDao.getNewQuestions(level, category, safeExclude, 9)
+        
+        // 3. Birleştir ve karıştır
+        val combined = (newQuestions + reviews).distinctBy { it.id }.shuffled()
+        
+        // Havuz darsa ve 15'e ulaşamadıysa filtreleri kaldırarak tamamla
+        if (combined.size < 15) {
+            val needed = 15 - combined.size
+            val fallbackAll = cardDao.getNewQuestions(level, category, listOf(-1), needed)
+            return (combined + fallbackAll).distinctBy { it.id }.take(15)
+        }
+        
+        return combined.take(15)
+    }
 }

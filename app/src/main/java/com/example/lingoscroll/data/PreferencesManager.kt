@@ -179,4 +179,50 @@ class PreferencesManager(context: Context) {
     fun setCustomFeedUrl(url: String) {
         prefs.edit().putString("custom_feed_url", url).apply()
     }
+
+    // Son çözülen 30 sorunun ID'sini saklayan kalıcı hafıza listesi (Sıfır Tekrar Motoru)
+    fun getRecentSeenIds(): List<Int> {
+        val raw = prefs.getString("recent_seen_ids", "") ?: ""
+        if (raw.isEmpty()) return emptyList()
+        return raw.split(",").mapNotNull { it.toIntOrNull() }
+    }
+
+    fun addRecentSeenId(id: Int) {
+        val current = getRecentSeenIds().toMutableList()
+        if (id in current) {
+            current.remove(id)
+        }
+        current.add(id)
+        // Son 30 soruyu koru
+        while (current.size > 30) {
+            current.removeAt(0)
+        }
+        prefs.edit().putString("recent_seen_ids", current.joinToString(",")).apply()
+    }
+
+    fun clearRecentSeenIds() {
+        prefs.edit().remove("recent_seen_ids").apply()
+    }
+
+    // Oyunlaştırılmış Aşama (Stage) Yönetimi
+    fun getCurrentStage(): Int {
+        return prefs.getInt("current_stage", 1)
+    }
+
+    fun setCurrentStage(stage: Int) {
+        prefs.edit().putInt("current_stage", stage).apply()
+    }
+
+    fun getStageProgress(): Int {
+        return prefs.getInt("stage_progress", 0)
+    }
+
+    fun setStageProgress(progress: Int) {
+        prefs.edit().putInt("stage_progress", progress.coerceIn(0, 15)).apply()
+    }
+
+    fun incrementStageProgress() {
+        val current = getStageProgress()
+        setStageProgress(current + 1)
+    }
 }
