@@ -28,13 +28,13 @@ jobs:
       env:
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       run: |
-        python generator/enrich_questions.py
+        python generator/enrich_questions.py > log.txt 2>&1 || true
         python generator/lingoscroll_generator.py
 
     - name: Dosyaları Taahhüt Et (Commit) ve Pushla
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git add app/src/main/assets/offline_questions.json feed.json || true
+        git add app/src/main/assets/offline_questions.json feed.json log.txt || true
         git commit -m "Automated offline questions and daily feed update [skip ci]" || true
         git push
