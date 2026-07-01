@@ -141,6 +141,7 @@ def main():
             print(f"Dosya yazma hatası: {e}")
     else:
         print("\n[HATA] Yapay zeka gündem soruları üretilemedi.")
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()
