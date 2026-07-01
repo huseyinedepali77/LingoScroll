@@ -3,96 +3,168 @@
     "id": 2001,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Many countries participate in the _____ Cup.",
-    "translation": "Dünya Kupası",
-    "context": "Futbolun en büyük şöleni! Dört yılda bir tüm dünyayı saran bu heyecanlı turnuva, takımların kupayı kaldırmak için kıyasıya mücadele ettiği yerdir. Brezilya'dan Almanya'ya, Arjantin'den Fransa'ya kadar birçok ülke bu kupayı kazanmanın hayalini kurar. 'World Cup' dediğimizde akla hemen futbol geliyor ama bazen başka spor dallarının dünya şampiyonaları için de kullanılabilir, mesela 'Rugby World Cup' gibi. Ama genel kullanımda futbol için geçerli!",
-    "options": [],
-    "correctAnswer": "World",
-    "category": "CASUAL",
+    "phrase": "A dangerous _____ is expected to hit the US this holiday weekend.",
+    "translation": "Tehlikeli bir sıcak hava dalgasının bu tatil haftasonu ABD'yi vurması bekleniyor.",
+    "context": "'Heatwave' dediğin zaman, oh be serinledik değil, resmen hava yanıyor demektir! Özellikle yazın tatil planları yaparken bu kelimeyi sıkça duyarsın. Güneş kremini, şapkanı ve bol suyunu unutma! Amerika'da tatil öncesi böyle haberler sıkça çıkar, dikkat etmek lazım.",
+    "options": [
+      "heatwave",
+      "cold snap",
+      "rainstorm",
+      "snowfall"
+    ],
+    "correctAnswer": "heatwave",
+    "category": "TRAVEL",
     "variations": [
-      "The team won the World _____ last year.",
-      "Are you watching the World _____ this year?"
+      "The city is preparing for a record-breaking _____.",
+      "We should stay indoors during this _____."
     ]
   },
   {
     "id": 2002,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Which of the following describes a period of unusually hot weather?",
-    "translation": "Aşırı sıcak hava dönemini aşağıdakilerden hangisi tanımlar?",
-    "context": "Yazın en bunaltıcı günleri geldi mi? İşte o zaman 'heatwave' dediğimiz olayla karşı karşıyayız demektir! Hani balkonun bile cayır cayır yandığı, klimasız evde yaşamanın işkenceye dönüştüğü o günler... Aman dikkat, bol su içmeyi ve güneşe çıkmamayı unutma! Özellikle yaşlılar ve çocuklar için tehlikeli olabilir, bu yüzden 'dangerous heatwave' haberleri sıkça karşımıza çıkar.",
+    "phrase": "Don't forget to _____ for the startup competition by July 6!",
+    "translation": "6 Temmuz'a kadar startup yarışmasına başvurmayı unutma!",
+    "context": "'Apply' demek, bir işe ya da bir programa başvurmak anlamına gelir. Hayatında sürekli karşına çıkacak bir kelime. Okula başvururken, iş ararken, hatta yeni bir fırsat yakalarken hep 'apply' dersin. Bu startup yarışması da gelecek vadeden girişimciler için harika bir fırsat!",
     "options": [
-      "snowstorm",
-      "heatwave",
-      "blizzard",
-      "downpour"
+      "apply",
+      "deny",
+      "refuse",
+      "abandon"
     ],
-    "correctAnswer": "heatwave",
-    "category": "CASUAL",
-    "variations": []
+    "correctAnswer": "apply",
+    "category": "BUSINESS",
+    "variations": [
+      "You must _____ online for the visa.",
+      "She decided to _____ for the new position."
+    ]
   },
   {
     "id": 2003,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "After a long and successful career, my grandfather is finally _____ next month.",
-    "translation": "Gelecek ay emekli oluyor.",
-    "context": "'Retiring' deyince aklına hemen pijamalarını giyip keyif çatan, torun seven, hobilerine vakit ayıran insanlar gelsin! Bu kelime, bir kişinin çalışmayı bırakıp emeklilik hayatına adım atması demek. Yani artık alarm kurmak, trafikte çile çekmek yok! Emeklilik hayalleri kuranlar için kulağa ne kadar da hoş geliyor, değil mi? 'He's retiring after 30 years' gibi cümlelerde çok kullanılır.",
-    "options": [],
-    "correctAnswer": "retiring",
-    "category": "CASUAL",
-    "variations": [
-      "She's looking forward to _____ early.",
-      "Many people dream of _____ by age 50."
-    ]
-  },
-  {
-    "id": 2004,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Which word means to cause someone or something to no longer be believed or respected?",
-    "translation": "Birinin veya bir şeyin artık inanılmamasına veya saygı duyulmamasına neden olmak hangi kelimeyle ifade edilir?",
-    "context": "Bir teori, bir yöntem ya da hatta bir kişi... Eğer ortaya atılan iddialar veya geçmişteki eylemler yüzünden artık ciddiye alınmıyorsa, o zaman 'discredited' hale gelmiş demektir. Yani 'itibarsızlaştırılmış' ya da 'güvenirliğini kaybetmiş'. Sanki biri sana 'Boş ver, o artık bu konuda dikkate alınmaz' der gibi. Özellikle bir politika ya da fikir, beklenen sonuçları vermediğinde veya yanlış olduğu kanıtlandığında bu kelime sıkça kullanılır. 'His claims were completely discredited by the evidence.'",
+    "level": "BEGINNER",
+    "phrase": "Serena'nın bundan sonraki adımları ne olacak? Onu nasıl tanımlarsın?",
+    "translation": "What will be Serena's next moves? How would you describe her?",
+    "context": "'Unpredictable' dediğin mi? Aha, o sensin! Bir gün neşeli, bir gün karamsar, bir gün eve kapanık, ertesi gün dünyayı gezen biri! 'Unpredictable' insanlar, çevreleri için hem heyecan verici hem de bazen biraz yorucu olabilir. Serena Williams gibi efsane sporcuların kariyeri de genelde böyle 'unpredictable' gelişmelerle dolu olur, o yüzden her zaman konuşulur.",
     "options": [
-      "credited",
-      "approved",
-      "endorsed",
-      "discredited"
+      "Her zaman ne yapacağı belli olan biri.",
+      "Kolayca tahmin edilebilir biri.",
+      "Tahmin edilmesi zor, sürprizlerle dolu biri.",
+      "Sıkıcı ve monoton biri."
     ],
-    "correctAnswer": "discredited",
-    "category": "BUSINESS",
+    "correctAnswer": "Tahmin edilmesi zor, sürprizlerle dolu biri.",
+    "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 2005,
+    "id": 2004,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The sudden resignation of the CEO plunged the company into financial _____.",
-    "translation": "Şirketi finansal kaosa sürükledi.",
-    "context": "'Chaos' kelimesi tam da beklediğin gibi! Tam bir curcuna, kargaşa ve düzensizlik hali. Düşünsene, sabah uyandın ve evde her şey darmadağınık, kimse ne yapacağını bilmiyor, telefonlar susmuyor... İşte o an 'chaos' içindesindir! F1'de bir sürücünün beklenmedik ayrılığı nasıl bir kargaşa yaratabilirse, günlük hayatta da ani olaylar 'chaos'a yol açabilir. Mesela 'traffic chaos' (trafik karmaşası) veya 'political chaos' (siyasi kargaşa) gibi kullanımları da var.",
-    "options": [],
-    "correctAnswer": "chaos",
-    "category": "BUSINESS",
+    "level": "INTERMEDIATE",
+    "phrase": "The brave rescue teams found survivors after the severe _____.",
+    "translation": "Cesur kurtarma ekipleri şiddetli depremin ardından hayatta kalanları buldu.",
+    "context": "'Quake' kelimesi, özellikle haberlerde 'earthquake' (deprem) yerine sıkça kullanılan, daha kısa ve havalı bir versiyonudur. Doğal afetleri konuşurken veya bir yer sarsıntısından bahsederken karşına çıkar. Venezuela'daki bu olayda olduğu gibi, ne yazık ki bazen kötü haberlerle birlikte duyarız.",
+    "options": [
+      "quake",
+      "flood",
+      "storm",
+      "drought"
+    ],
+    "correctAnswer": "quake",
+    "category": "TRAVEL",
     "variations": [
-      "The airport was in complete _____ due to the strike.",
-      "Her desk is always in a state of _____."
+      "Many buildings collapsed in the recent _____.",
+      "People were evacuated due to the big _____."
     ]
+  },
+  {
+    "id": 2005,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "'Crypto' neyin kısaltmasıdır ve genellikle ne tür işlemlerle ilişkilendirilir?",
+    "translation": "'Crypto' is an abbreviation for what and is generally associated with what kind of transactions?",
+    "context": "'Crypto' dediğin zaman, aklına hemen Bitcoin, Ethereum gibi dijital paralar gelmeli. Son yılların en popüler ve en çok kazandıran (ya da kaybettiren!) yatırım araçlarından biri. Eğer paranın geleceğiyle ilgileniyorsan, bu kelimeyi sık sık duyacaksın! Trump'ın bile bu alandan milyar dolar kazanması, ne kadar büyük bir pazar olduğunu gösteriyor.",
+    "options": [
+      "Cryptography'nin kısaltmasıdır ve şifreli mesajları ifade eder.",
+      "Cryptocurrency'nin kısaltmasıdır ve dijital para birimleri ile yapılan işlemleri ifade eder.",
+      "Crystal'ın kısaltmasıdır ve değerli taş ticaretini ifade eder.",
+      "Critical'ın kısaltmasıdır ve kritik öneme sahip konuları ifade eder."
+    ],
+    "correctAnswer": "Cryptocurrency'nin kısaltmasıdır ve dijital para birimleri ile yapılan işlemleri ifade eder.",
+    "category": "BUSINESS",
+    "variations": []
   },
   {
     "id": 2006,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "What term refers to the legal right to citizenship for a child born within a country's territory, regardless of the citizenship of their parents?",
-    "translation": "Bir çocuğun, ebeveynlerinin vatandaşlığına bakılmaksızın, bir ülkenin toprakları içinde doğduğunda vatandaşlık kazanma yasal hakkına ne denir?",
-    "context": "Bu terim, özellikle siyaset ve göçmenlik tartışmalarında sıkça duyduğun bir konu: 'birthright citizenship'. Yani bir ülkede doğduğun an, o ülkenin vatandaşı olma hakkını elde ediyorsun, ebeveynlerin kim olursa olsun. Bu kural, bazı ülkelerde anayasayla güvence altına alınmış durumda. Tartışmaları hararetli olabilir ama kavramı bilmek, uluslararası ilişkileri ve hukuk sistemlerini anlamak için önemli. Amerika Birleşik Devletleri'nde 14. Anayasa Değişikliği ile garanti altına alınmış bir hak.",
+    "level": "INTERMEDIATE",
+    "phrase": "Tuchel'in 'glamorous performances' beklemeyin demesinden ne anlıyorsunuz?",
+    "translation": "What do you understand from Tuchel saying 'Don't expect glamorous performances'?",
+    "context": "'Glamorous' kelimesini duyduğunda aklına hemen kırmızı halı, pırıltılı elbiseler, ışıl ışıl partiler gelmeli! Bir şeyin 'glamorous' olması, onun çok çekici, göz alıcı ve etkileyici olduğu anlamına gelir. Tuchel'in takımı için bunu söylemesi, belki de 'güzel oynayamayız ama kazanırız' demek istiyor olabilir, kim bilir? Futbol bazen kazanmak için 'glamorous' olmak zorunda değildir!",
     "options": [
-      "naturalization",
-      "expatriation",
-      "birthright citizenship",
-      "dual nationality"
+      "Çok basit ve sıkıcı maçlar olacağını kastediyor.",
+      "Göz kamaştırıcı, havalı ve çok etkileyici futbol beklemeyin demek istiyor.",
+      "Çok fazla gol atılmayacağını ima ediyor.",
+      "Takımın çok iyi antrenman yapmadığını söylüyor."
     ],
-    "correctAnswer": "birthright citizenship",
+    "correctAnswer": "Göz kamaştırıcı, havalı ve çok etkileyici futbol beklemeyin demek istiyor.",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 2007,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Due to the _____ summer, many farmers are struggling with their crops.",
+    "translation": "En kurak yaz nedeniyle, birçok çiftçi ürünleriyle mücadele ediyor.",
+    "context": "'Driest' dediğin zaman, akla çöl sıcağı ve su kıtlığı gelmeli! Bu kelime, bir yerin veya dönemin en kurak, yani en az yağış alan zamanını anlatır. Tarım ve dolayısıyla dünya ekonomisi için çok önemli bir durumdur. Hindistan'daki bu haber gibi, küresel ısınmanın etkilerini konuşurken sıkça karşımıza çıkar. Tatil planlarken bile gideceğin yerin 'driest season'ını bilmek işine yarayabilir.",
+    "options": [
+      "driest",
+      "wettest",
+      "hottest",
+      "coldest"
+    ],
+    "correctAnswer": "driest",
+    "category": "TRAVEL",
+    "variations": [
+      "This year was the _____ on record for the region.",
+      "The well has gone completely dry during the _____ months."
+    ]
+  },
+  {
+    "id": 2008,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Bir şirketin 'tender offer' yapması ve 'valuation' terimleri ne anlama gelir?",
+    "translation": "What do 'tender offer' and 'valuation' mean for a company?",
+    "context": "Ah, iş dünyasının derin sularına hoş geldin! 'Tender offer' ve 'valuation' terimleri, özellikle büyük şirket anlaşmalarında ve startup'ların büyüme süreçlerinde çok popülerdir. 'Tender offer' bir nevi 'gel hisseni bana sat' çağrısıdır. 'Valuation' ise şirketin 'piyasada kaç para eder?' sorusunun cevabıdır. Bu terimler sayesinde, bir şirketin ne kadar değerli olduğunu ve yatırımcıların ne kadar iştahlı olduğunu anlarsın. Wayve gibi firmaların milyar dolarlık 'valuation'ları, teknoloji dünyasında büyük heyecan yaratır!",
+    "options": [
+      "'Tender offer', çalışanlara verilen bir çeşit ikramiyedir; 'valuation' ise şirketin yıllık kârıdır.",
+      "'Tender offer', bir ürünün piyasaya sürülmesidir; 'valuation' ise ürünün satış fiyatıdır.",
+      "'Tender offer', bir şirketin hisselerini belirli bir fiyattan satın alma teklifidir; 'valuation' ise şirketin değerinin belirlenmesidir.",
+      "'Tender offer', bir şirketin borçlarını ödeme planıdır; 'valuation' ise şirketin borç miktarıdır."
+    ],
+    "correctAnswer": "'Tender offer', bir şirketin hisselerini belirli bir fiyattan satın alma teklifidir; 'valuation' ise şirketin değerinin belirlenmesidir.",
     "category": "BUSINESS",
     "variations": []
+  },
+  {
+    "id": 2009,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The professor was shocked to discover widespread _____ among students.",
+    "translation": "Profesör, öğrenciler arasında yaygın kopya çekme olayını keşfedince şok oldu.",
+    "context": "'Mass cheating' dediğin şey, bir sınavda veya ödevde birçok öğrencinin aynı anda kopya çekmesi veya kural dışı davranmasıdır. Bu haberdeki gibi, dürüstlük beklenirken karşılaşılan böyle durumlar insanı gerçekten çileden çıkarır. 'İdiots' kelimesiyle profesörün hayal kırıklığını anlayabiliriz. Umarım senin başına hiç gelmez, ya da sen hiç yapmazsın! 😉",
+    "options": [
+      "cheating",
+      "studying",
+      "learning",
+      "writing"
+    ],
+    "correctAnswer": "cheating",
+    "category": "CASUAL",
+    "variations": [
+      "The school had to cancel the exam due to rampant _____.",
+      "They were caught _____ on the final test."
+    ]
   }
 ]
