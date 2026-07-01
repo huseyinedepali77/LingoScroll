@@ -117,7 +117,7 @@ class MainScreenViewModel(context: Context) : ViewModel() {
 
     init {
         // Her yeni yüklemede seviye tespit sınavının (SBS) baştan gelmesini sağlamak için build zamanı kontrolü
-        val currentBuildTime = "20260701_1446" 
+        val currentBuildTime = "20260701_1502" 
         val savedBuildTime = prefs.getSavedBuildTime()
         if (savedBuildTime != currentBuildTime) {
             prefs.clearUserProgress()
@@ -376,7 +376,8 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         val categoryFiltered = allLevelCards.filter { 
             userStyle == "MIXED" || it.category == userStyle
         }
-        val targetPool = if (categoryFiltered.isNotEmpty()) categoryFiltered else allLevelCards
+        // Eğer seçilen tarza göre havuzda yeterli soru yoksa (4'ten az ise) genel karışık (MIXED) havuzdan beslen
+        val targetPool = if (categoryFiltered.size >= 4) categoryFiltered else allLevelCards
 
         // Sadece QUIZ tiplerini pratik akışına al (CARD tiplerini ayırıyoruz) ve seviye tespit (SBS) sorularını hariç tut (ID 100-199)
         val quizCards = targetPool.filter { it.type != "CARD" && it.id !in 100..199 }
@@ -466,8 +467,10 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         // İstatistikleri güncelle
         prefs.incrementQuestionsStats(isCorrect)
         
-        // Veritabanına anında yazmak yerine RAM'de kaydet (Performans optimizasyonu)
-        pendingCardUpdates[currentState.currentItem.id] = isCorrect
+        // Veritabanına anında yaz (Tekrarları önlemek için hemen güncelliyoruz)
+        viewModelScope.launch(Dispatchers.IO) {
+            repository.updateCardProgress(currentState.currentItem.id, isCorrect)
+        }
         
         if (isCorrect) {
             prefs.addSecondsSaved(20)
@@ -488,8 +491,10 @@ class MainScreenViewModel(context: Context) : ViewModel() {
     fun evaluateCard(gotIt: Boolean) {
         val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
         
-        // RAM'e kaydet
-        pendingCardUpdates[currentState.currentItem.id] = gotIt
+        // Veritabanına anında yaz
+        viewModelScope.launch(Dispatchers.IO) {
+            repository.updateCardProgress(currentState.currentItem.id, gotIt)
+        }
         
         if (gotIt) {
             prefs.addSecondsSaved(10)
@@ -589,7 +594,9 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         
         val currentCard = currentState.learningCards.getOrNull(currentState.currentLearningCardIndex)
         if (currentCard != null) {
-            pendingCardUpdates[currentCard.id] = gotIt
+            viewModelScope.launch(Dispatchers.IO) {
+                repository.updateCardProgress(currentCard.id, gotIt)
+            }
             if (gotIt) {
                 prefs.addSecondsSaved(10)
             }
