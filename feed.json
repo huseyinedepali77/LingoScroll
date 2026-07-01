@@ -3,224 +3,225 @@
     "id": 126070101,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "A dangerous _____ is expected to hit the region this weekend.",
-    "translation": "Sıcak hava dalgası",
-    "context": "'Heatwave' sıcak hava dalgası demek. Özellikle yaz aylarında, havalar çok ısındığında bu kelimeyi sıkça duyarsın. Mesela 'Stay hydrated during the heatwave!' (Sıcak hava dalgası boyunca sulu kal!) diyerek arkadaşına tavsiye verebilirsin. Dikkatli olmakta fayda var!",
+    "phrase": "The city is experiencing a severe _____.",
+    "translation": "Şehir şiddetli bir 'heatwave' yaşıyor.",
+    "context": "Havalar çok sıcak olduğunda, insanlar 'heatwave' diyor! Plajda serinlemek veya klimanın altında takılmak isteyeceğin zamanlardır. Aman dikkat, kavurucu sıcaklara 'dangerously hot' da diyebiliriz.",
     "options": [
       "heatwave",
-      "blizzard",
-      "downpour",
-      "fog"
+      "cold front",
+      "rainy season",
+      "strong wind"
     ],
     "correctAnswer": "heatwave",
-    "category": "TRAVEL",
+    "category": "CASUAL",
     "variations": [
-      "The country is experiencing an intense _____. We're preparing for a massive _____ next week."
+      "We're expecting a long _____ this summer.",
+      "Stay hydrated during the _____!"
     ]
   },
   {
     "id": 126070102,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The companies agreed on a new business _____ after long negotiations.",
-    "translation": "Anlaşma",
-    "context": "'Deal', iş dünyasında bir anlaşma veya ticari işlem anlamına gelir. 'We closed the deal!' (Anlaşmayı yaptık!) veya 'It's a great deal!' (Harika bir anlaşma!) gibi ifadelerle işyerinde sıkça karşılaşırsın. Hatta pazarlık yaparken 'Can we make a deal?' bile diyebilirsin.",
+    "phrase": "The countries signed a new _____.",
+    "translation": "Ülkeler yeni bir 'trade deal' imzaladı.",
+    "context": "İki ülke arasında mal alım satımını kolaylaştıran anlaşmalara 'trade deal' denir. Yani, iş dünyasının 'ben sana bunu satayım, sen bana şunu' deme şekli! Ekonomiyi canlandırmak için sıkça başvurulan bir yoldur.",
     "options": [
-      "deal",
-      "fight",
-      "play",
-      "song"
+      "trade deal",
+      "war treaty",
+      "peace treaty",
+      "loan agreement"
     ],
-    "correctAnswer": "deal",
+    "correctAnswer": "trade deal",
     "category": "BUSINESS",
     "variations": [
-      "They want to make a _____. This is a record-breaking _____."
+      "They hope this _____ will boost their economies.",
+      "Negotiating a fair _____ took months."
     ]
   },
   {
     "id": 126070103,
-    "type": "QUIZ_COMPLETION",
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "My new phone has a serious _____ that makes it crash often.",
-    "translation": "Yazılım hatası",
-    "context": "'Bug' kelimesi normalde böcek demek ama teknoloji dünyasında yazılım hatası, programdaki sorun anlamına gelir. 'There's a bug in the system!' (Sistemde bir hata var!) veya 'They fixed the bug.' (Hatayı düzelttiler.) derken kullanabilirsin. Umarım senin telefonunda yoktur!",
+    "phrase": "Which word refers to the top of something, like a tower?",
+    "translation": "Bir şeyin, örneğin bir kulenin en tepesini ifade eden kelime hangisidir? (Doğru cevap: point)",
+    "context": "Bir yerin en tepesi, en yüksek noktası için 'highest point' deriz. Tıpkı Empire State Binası'nın en tepesi gibi, oradan tüm şehri kuş bakışı izleyebilirsin! Manzarası müthiş olur!",
     "options": [
-      "bug",
-      "flower",
-      "key",
-      "door"
+      "base",
+      "middle",
+      "point",
+      "corner"
     ],
-    "correctAnswer": "bug",
-    "category": "CASUAL",
-    "variations": [
-      "The developers are working on fixing the _____. I found a weird _____ on this app."
-    ]
+    "correctAnswer": "point",
+    "category": "TRAVEL",
+    "variations": []
   },
   {
     "id": 126070104,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The suspect was _____ with fraud by the police yesterday.",
-    "translation": "Suçlandı",
-    "context": "'Charged with' bir suçla itham edilmek, suçlanmak anlamına gelir. Haberlerde veya hukukla ilgili konularda 'He was charged with theft.' (Hırsızlıkla suçlandı.) gibi duyabilirsin. Umarım sen hiç bu durumda kalmazsın!",
+    "phrase": "There's a _____ in the software.",
+    "translation": "Yazılımda bir 'bug' var.",
+    "context": "Bilgisayar programlarında veya uygulamalarda beklenmedik sorunlar, hatalar ortaya çıktığında 'bug' deriz. Tıpkı küçük bir böcek gibi, programın işleyişini bozabilir! Hemen düzeltilmesi gerekir.",
     "options": [
-      "charged",
-      "slept",
-      "ate",
-      "ran"
+      "feature",
+      "update",
+      "bug",
+      "solution"
     ],
-    "correctAnswer": "charged",
+    "correctAnswer": "bug",
     "category": "MIXED",
     "variations": [
-      "She was _____ with a serious offense. The man was _____ with a crime."
+      "We need to fix this _____ quickly.",
+      "The program crashed due to a _____."
     ]
   },
   {
     "id": 126070105,
-    "type": "QUIZ_COMPLETION",
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Many people were _____ from the country after their visas expired.",
-    "translation": "Sınır dışı edildi",
-    "context": "'Deported' bir ülkenin yabancıyı yasal nedenlerle kendi ülkesine geri göndermesi durumudur. Haberlerde göçmenlik veya yasa dışı ikamet konularında 'The immigrant was deported.' (Göçmen sınır dışı edildi.) şeklinde duyabilirsin. Seyahat planlarını iyi yapmak lazım!",
+    "phrase": "Which word means 'to reveal something that was hidden'?",
+    "translation": "Gizli bir şeyi 'açığa çıkarmak' anlamına gelen kelime hangisidir? (Doğru cevap: Exposing)",
+    "context": "Gizli bir şeyin ortaya çıkması, ifşa olması durumuna 'expose' denir. Tıpkı bir sırrın açığa çıkması gibi! Sosyal medyada bir skandalı 'expose' etmek de diyebiliriz. Bazen istenmeyen durumlar için kullanılır.",
     "options": [
-      "deported",
-      "invited",
-      "arrived",
-      "welcomed"
+      "Concealing",
+      "Exposing",
+      "Hiding",
+      "Masking"
     ],
-    "correctAnswer": "deported",
-    "category": "TRAVEL",
-    "variations": [
-      "He was _____ for overstaying his visa. They face being _____ next month."
-    ]
+    "correctAnswer": "Exposing",
+    "category": "CASUAL",
+    "variations": []
   },
   {
     "id": 126070106,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Ashton Kutcher is launching a new _____ to invest in startups.",
-    "translation": "Girişim sermayesi şirketi",
-    "context": "'VC firm' (Venture Capital firm) Girişim Sermayesi Şirketi anlamına gelir. Genellikle yeni ve büyümekte olan şirketlere (startup'lara) yatırım yapan firmalar için kullanılır. Teknoloji haberlerinde veya iş dünyası sohbetlerinde 'Our startup received funding from a famous VC firm.' (Startup'ımız ünlü bir VC firmasından fon aldı.) şeklinde karşılaşabilirsin. Senin de bir startup fikrin varsa, belki bir gün bir VC firması seni bulur!",
+    "phrase": "The company's _____ reached billions after the investment.",
+    "translation": "Şirketin 'valuation'ı yatırımdan sonra milyarlara ulaştı.",
+    "context": "Bir şirketin veya varlığın piyasa değerini belirlemeye 'valuation' denir. Tıpkı bir mücevherin değerini biçmek gibi, şirketlerin de ne kadar 'ettiği' hesaplanır! Yatırımcılar için çok önemli bir terimdir.",
     "options": [
-      "VC firm",
-      "car rental",
-      "grocery store",
-      "travel agency"
+      "donation",
+      "debt",
+      "valuation",
+      "loss"
     ],
-    "correctAnswer": "VC firm",
+    "correctAnswer": "valuation",
     "category": "BUSINESS",
     "variations": [
-      "The startup is seeking investment from a _____. They raised capital from a well-known _____."
+      "Experts performed a careful _____ of the startup.",
+      "The new funding raised its market _____ significantly."
     ]
   },
   {
     "id": 126070107,
-    "type": "QUIZ_COMPLETION",
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "The leader warned of a possible _____ within the organization.",
-    "translation": "Ayrılık / Bölünme",
-    "context": "'Schism' kelimesi özellikle dini veya siyasi gruplarda yaşanan ayrılık, bölünme, parçalanma anlamına gelir. Bir grubun veya organizasyonun üyeleri arasında ciddi anlaşmazlıklar çıktığında 'There's a growing schism in the party.' (Parti içinde büyüyen bir ayrılık var.) şeklinde kullanılabilir. Umarım senin grubunda hiç schism olmaz!",
+    "phrase": "Which phrase means 'to spread quickly over an area'?",
+    "translation": "Bir alana hızla yayılmak anlamına gelen ifade hangisidir? (Doğru cevap: sweep across)",
+    "context": "Bir şeyin (örneğin bir fırtına, salgın veya heyecan) geniş bir alanı hızla etkisi altına alması, yayılması durumuna 'sweep across' denir. Tıpkı bir süpürgenin her yeri temizlemesi gibi, ama bu sefer bir etki veya olay yayılıyor!",
     "options": [
-      "schism",
-      "unity",
-      "merger",
-      "agreement"
+      "stay localized",
+      "fade away",
+      "sweep across",
+      "slow down"
     ],
-    "correctAnswer": "schism",
-    "category": "CASUAL",
-    "variations": [
-      "The historical event caused a major _____. We must avoid a _____ in our community."
-    ]
+    "correctAnswer": "sweep across",
+    "category": "TRAVEL",
+    "variations": []
   },
   {
     "id": 126070108,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The team fought hard to _____ their World Cup dream _____.",
-    "translation": "Hayallerini canlı tutmak",
-    "context": "'Keep a dream alive' bir hayali, bir amacı canlı tutmak, peşinden koşmaya devam etmek anlamına gelir. Özellikle spor veya kişisel hedeflerle ilgili 'She worked tirelessly to keep her Olympic dream alive.' (Olimpiyat hayalini canlı tutmak için durmaksızın çalıştı.) gibi cümlelerde duyabilirsin. Sakın pes etme!",
+    "phrase": "She is a strong _____ for the championship title.",
+    "translation": "Şampiyonluk unvanı için güçlü bir 'contender' o.",
+    "context": "Bir yarışmada, ödül için güçlü bir aday veya iddialı bir yarışmacıya 'contender' denir. Tıpkı bir boks maçında şampiyonluk için dövüşen iki boksörden biri gibi! Futbolda da Ballon D'Or adayı olmak büyük bir 'contender'lık örneğidir.",
     "options": [
-      "keep / alive",
-      "lose / dead",
-      "give / up",
-      "start / new"
+      "spectator",
+      "coach",
+      "contender",
+      "referee"
     ],
-    "correctAnswer": "keep / alive",
+    "correctAnswer": "contender",
     "category": "MIXED",
     "variations": [
-      "They must win this game to _____ their hopes _____. It's crucial to _____ our aspirations _____."
+      "He's a serious _____ in the presidential race.",
+      "Many believe she is a top _____ for the gold medal."
     ]
   },
   {
     "id": 126070109,
-    "type": "QUIZ_COMPLETION",
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "The US decided to _____ the long-term renewal of the trade deal.",
-    "translation": "Engellemek",
-    "context": "'Block' kelimesi engellemek, tıkamak anlamına gelir. Özellikle siyasi veya ticari anlaşmalarda bir şeyin ilerlemesini durdurmak için kullanılır. Mesela 'The opposition tried to block the new law.' (Muhalefet yeni yasayı engellemeye çalıştı.) Yüksek siyasette sıkça duyduğun bir kelime!",
+    "phrase": "Which word means 'to weaken or damage something gradually'?",
+    "translation": "Bir şeyi yavaş yavaş 'zayıflatmak veya zarar vermek' anlamına gelen kelime hangisidir? (Doğru cevap: undermined)",
+    "context": "Bir şeyin temelini zayıflatmak, altını oymak veya gücünü azaltmak anlamına gelir. 'Undermined' birinin otoritesini, bir planı veya bir değeri yavaş yavaş yıpratmak gibi düşünebilirsin. Gizlice zarar vermek gibi, bazen hiç fark etmeden oluverir.",
     "options": [
-      "block",
-      "allow",
-      "support",
-      "facilitate"
+      "strengthened",
+      "supported",
+      "reinforced",
+      "undermined"
     ],
-    "correctAnswer": "block",
-    "category": "TRAVEL",
-    "variations": [
-      "They tried to _____ the construction project. The council will _____ the proposed changes."
-    ]
+    "correctAnswer": "undermined",
+    "category": "CASUAL",
+    "variations": []
   },
   {
     "id": 126070110,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Trump's attempt to avoid payment didn't succeed. Which phrase describes this?",
-    "translation": "Temyiz başvurusu reddedildi.",
-    "context": "'Appeal fails' yasal bir başvurunun, bir üst mahkemeye yapılan itirazın reddedilmesi anlamına gelir. Hukuk haberlerinde sıkça karşılaşırsın. Mesela bir mahkeme kararını beğenmeyip daha yüksek bir mahkemeye gittiğinde 'His appeal was denied.' (Temyiz başvurusu reddedildi.) diyebilirler. Bazen adalet yerini bulur!",
+    "phrase": "The court decided to _____ the new law.",
+    "translation": "Mahkeme, yeni yasayı 'strike down' etmeye karar verdi.",
+    "context": "Genellikle bir mahkeme tarafından bir yasa veya kararın geçersiz kılınması, iptal edilmesi anlamına gelir. Tıpkı bir boksörün rakibini yere sermesi gibi, hukuki bir kararı 'yere sermek' gibi düşünebilirsin! Güçlü bir eylemdir.",
     "options": [
-      "His appeal failed.",
-      "His appeal worked.",
-      "His appeal was successful.",
-      "His appeal made money."
+      "uphold",
+      "amend",
+      "strike down",
+      "postpone"
     ],
-    "correctAnswer": "His appeal failed.",
+    "correctAnswer": "strike down",
     "category": "BUSINESS",
-    "variations": []
+    "variations": [
+      "The Supreme Court can _____ unconstitutional laws.",
+      "Critics hoped the judge would _____ the regulation."
+    ]
   },
   {
     "id": 126070111,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Which phrase describes a policy that has lost its credibility or is no longer trusted?",
-    "translation": "İtibarı zedelenmiş bir politika.",
-    "context": "'Discredited' güvenilirliğini yitirmiş, itibarı zedelenmiş veya yanlış olduğu kanıtlanmış anlamına gelir. Özellikle bir teori, politika veya kişi hakkında 'The old theory was eventually discredited.' (Eski teori sonunda itibarsızlaştırıldı/geçersiz kılındı.) şeklinde kullanılır. Bazen bazı fikirlerin miadı dolar, değil mi?",
+    "phrase": "Which word describes something left behind permanently?",
+    "translation": "Kalıcı olarak geride bırakılmış bir şeyi tanımlayan kelime hangisidir? (Doğru cevap: abandoned)",
+    "context": "Bir şeyin veya bir yerin tamamen terk edilmesi, sahipsiz bırakılması durumuna 'abandoned' denir. Tıpkı eski, harabe evler veya terk edilmiş oyuncaklar gibi. İnsanlar bir yeri 'abandon' edebilir, eşyalarını 'abandon' edebilirler. Duygusal anlamda da kullanılabilir.",
     "options": [
-      "A discredited policy.",
-      "A popular policy.",
-      "A new policy.",
-      "An effective policy."
+      "occupied",
+      "kept",
+      "maintained",
+      "abandoned"
     ],
-    "correctAnswer": "A discredited policy.",
-    "category": "CASUAL",
+    "correctAnswer": "abandoned",
+    "category": "TRAVEL",
     "variations": []
   },
   {
     "id": 126070112,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The company is developing an advanced AI _____ for future use.",
-    "translation": "Prototip",
-    "context": "'Prototype' bir ürünün veya cihazın ilk modeli, deneme sürümü veya prototipi demektir. Özellikle teknoloji ve mühendislik alanında 'They showcased a prototype of their new electric car.' (Yeni elektrikli arabalarının bir prototipini sergilediler.) gibi duyabilirsin. Geleceğin teknolojilerini ilk görenlerden olmak harika bir duygu!",
+    "phrase": "The scientist claimed that the old theory was completely _____.",
+    "translation": "Bilim insanı, eski teorinin tamamen 'discredited' olduğunu iddia etti.",
+    "context": "Bir fikrin, teorinin veya kişinin güvenilirliğini, itibarını kaybetmesi, çürütülmesi anlamına gelir. Yani artık ona kimse inanmıyor, geçerliliği kalmamış! Tıpkı modası geçmiş bir uygulama veya bilimsel olarak yanlış olduğu kanıtlanmış bir iddia gibi.",
     "options": [
-      "prototype",
-      "painting",
-      "poem",
-      "recipe"
+      "proven",
+      "confirmed",
+      "discredited",
+      "established"
     ],
-    "correctAnswer": "prototype",
+    "correctAnswer": "discredited",
     "category": "MIXED",
     "variations": [
-      "We are working on a new software _____. The engineers built a working _____."
+      "Her research _____ earlier findings.",
+      "New evidence has _____ the previous claims."
     ]
   }
 ]
