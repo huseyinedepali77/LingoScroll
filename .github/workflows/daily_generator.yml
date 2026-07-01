@@ -1,6 +1,9 @@
 name: Daily LingoScroll Feed Generator
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: '0 5 * * *' # Her gün Türkiye saatiyle 08:00'de otomatik çalışır
   workflow_dispatch: # Manuel olarak GitHub panelinden tetikleme izni verir
