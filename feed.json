@@ -1,0 +1,116 @@
+[
+  {
+    "id": 2001,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The plane accidentally _____ a tower in Beijing.",
+    "translation": "Bir yere çarpmak, kaza yapmak.",
+    "context": "Uçakların, arabaların veya başka araçların bir yere çarptığını belirtmek için \"crash into\" deyimi kullanılır. Genellikle beklenmedik ve istenmeyen bir olayı ifade eder. Örneğin, \"The car crashed into a tree\" (Araba bir ağaca çarptı) veya \"The bird crashed into the window\" (Kuş pencereye çarptı).",
+    "options": [
+      "fell into",
+      "hit up",
+      "ran over",
+      "crashed into"
+    ],
+    "correctAnswer": "crashed into",
+    "category": "CASUAL",
+    "variations": [
+      "The car _____ the wall.",
+      "The bird _____ the window."
+    ]
+  },
+  {
+    "id": 2002,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "OpenClaw is finally _____ Android and iOS devices.",
+    "translation": "Bir platformda veya cihazda mevcut olmak.",
+    "context": "Bir ürünün, uygulamanın veya hizmetin belirli bir platformda, cihazda veya yerde kullanıma sunulduğunu belirtmek için \"available on\" ifadesi kullanılır. Örneğin, \"This game is available on PC and console\" (Bu oyun PC ve konsolda mevcut) veya \"Tickets are available on our website\" (Biletler web sitemizde mevcut).",
+    "options": [
+      "present to",
+      "ready for",
+      "open for",
+      "available on"
+    ],
+    "correctAnswer": "available on",
+    "category": "BUSINESS",
+    "variations": [
+      "The new update is _____ all platforms.",
+      "This app is only _____ smartphones."
+    ]
+  },
+  {
+    "id": 2003,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Venezuela depreminden altı gün sonra üç yaşındaki bir çocuk enkazdan çıkarıldı ve hastaneye kaldırıldı. Haberdeki \"rescued\" kelimesi ne anlama gelir?",
+    "translation": "To save someone from a dangerous or difficult situation.",
+    "context": "\"Rescued\" kelimesi, birini tehlikeli veya zor bir durumdan kurtarmak, emniyete almak anlamında kullanılır. Özellikle doğal afetler, kazalar veya rehine durumları gibi acil durumlarda sıkça karşımıza çıkar. Örneğin, \"The firefighters rescued the cat from the tree\" (İtfaiyeciler kediyi ağaçtan kurtardı) veya \"She rescued her dog from drowning\" (Köpeğini boğulmaktan kurtardı).",
+    "options": [
+      "Yardım edildi",
+      "Bulundu",
+      "İyileştirildi",
+      "Kurtarıldı"
+    ],
+    "correctAnswer": "Kurtarıldı",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 2004,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The 'Father of the Internet' is finally _____ after decades of groundbreaking work.",
+    "translation": "Emekli olmak, işi bırakmak.",
+    "context": "\"Retiring\" kelimesi, genellikle uzun bir çalışma hayatının ardından işi bırakıp emekliye ayrılmak anlamına gelir. Bir kişinin mesleki kariyerini sonlandırması durumunu ifade eder. Örneğin, \"My grandfather is retiring next year\" (Büyükbabam gelecek yıl emekli oluyor) veya \"She decided to start a new hobby after retiring\" (Emekli olduktan sonra yeni bir hobiye başlamaya karar verdi).",
+    "options": [
+      "finishing",
+      "leaving",
+      "stopping",
+      "retiring"
+    ],
+    "correctAnswer": "retiring",
+    "category": "BUSINESS",
+    "variations": [
+      "He plans on _____ at 65.",
+      "She is _____ from her position next month."
+    ]
+  },
+  {
+    "id": 2005,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Wayve, çalışanlarına 8.5 milyar dolarlık değerlemede 85 milyon dolarlık bir çalışan 'tender offer'ı başlattı. Haberdeki 'tender offer' terimi ne anlama gelir?",
+    "translation": "A public offer to purchase shares directly from shareholders, usually at a premium to the market price.",
+    "context": "\"Tender offer\" (hisse alım teklifi), bir şirketin hisselerinin belirli bir kısmını veya tamamını, genellikle piyasa fiyatının üzerinde bir fiyattan, doğrudan mevcut hissedarlardan satın almak için yaptığı resmi bir tekliftir. Bu genellikle bir şirketi ele geçirmek (hostile takeover) veya mevcut hissedarlara likidite sağlamak amacıyla yapılır. Örneğin, \"The company launched a tender offer to acquire the rival firm\" (Şirket, rakip firmayı satın almak için bir hisse alım teklifi başlattı).",
+    "options": [
+      "Yeni bir ürün veya hizmetin tanıtımı",
+      "Şirket çalışanlarına sunulan indirimli hisse opsiyonları",
+      "Şirket hisselerini mevcut hissedarlardan, genellikle piyasa fiyatının üzerinde bir bedelle doğrudan satın alma teklifi.",
+      "Şirketin borçlarını ödemek için hisse senedi ihracı"
+    ],
+    "correctAnswer": "Şirket hisselerini mevcut hissedarlardan, genellikle piyasa fiyatının üzerinde bir bedelle doğrudan satın alma teklifi.",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 2006,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The US Supreme Court _____ birthright citizenship in a recent ruling.",
+    "translation": "Bir kararı, prensibi veya kanunu desteklemek, onaylamak veya geçerli kılmak.",
+    "context": "\"Upholds\" kelimesi, özellikle yasal veya resmi bağlamlarda bir kararı, prensibi, kanunu veya hakkı desteklemek, onaylamak veya geçerli kılmak anlamına gelir. Mevcut bir durumu koruma veya devam ettirme eylemini ifade eder. Örneğin, \"The court upheld the previous decision\" (Mahkeme önceki kararı onayladı) veya \"The committee voted to uphold the chairman's ruling\" (Komite başkanın kararını onamayı oyladı).",
+    "options": [
+      "rejects",
+      "overturns",
+      "establishes",
+      "upholds"
+    ],
+    "correctAnswer": "upholds",
+    "category": "CASUAL",
+    "variations": [
+      "The appeal court _____ the lower court's verdict.",
+      "The council decided to _____ the original zoning plan."
+    ]
+  }
+]
