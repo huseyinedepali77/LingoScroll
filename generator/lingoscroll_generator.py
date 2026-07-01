@@ -52,7 +52,7 @@ def generate_feed_json(api_key, headlines):
     prompt = f"""Günün şu güncel haber başlıklarını (dünya gündemi, teknoloji, bilim/uzay, spor haberleri ve tuhaf/viral/komik haber olayları) incele:
 {headlines_text}
 
-Bu haberlerde geçen anahtar kelimelerden, teknolojik gelişmelerden, komik/viral durumlardan, spor terimlerinden veya seyahat durumlarından yola çıkarak LingoScroll uygulaması için tam 18 adet güncel pratik test sorusu üret.
+Bu haberlerde geçen anahtar kelimelerden, teknolojik gelişmelerden, komik/viral durumlardan, spor terimlerinden veya seyahat durumlarından yola çıkarak LingoScroll uygulaması için tam 9 adet güncel pratik test sorusu üret.
 
 Sorular aşağıdaki şemaya tam uymalıdır (JSON Array olarak):
 [
@@ -71,12 +71,13 @@ Sorular aşağıdaki şemaya tam uymalıdır (JSON Array olarak):
 ]
 
 Kurallar:
-1. Ürettiğin 18 sorunun seviye dağılımı: 6 adet BEGINNER, 6 adet INTERMEDIATE, 6 adet ADVANCED olmalıdır.
-2. Her seviye içindeki kategori dağılımı: 2 adet TRAVEL, 2 adet BUSINESS, 2 adet CASUAL olmalıdır (Toplam 6 TRAVEL, 6 BUSINESS, 6 CASUAL).
+1. Ürettiğin 9 sorunun seviye dağılımı: 3 adet BEGINNER, 3 adet INTERMEDIATE, 3 adet ADVANCED olmalıdır.
+2. Her seviye içindeki kategori dağılımı: 1 adet TRAVEL, 1 adet BUSINESS, 1 adet CASUAL olmalıdır (Toplam 3 TRAVEL, 3 BUSINESS, 3 CASUAL).
 3. İlgi çeken tuhaf/viral haberleri ve spor/uzay haberlerini de mutlaka sorulara yansıt. Kelime açıklamaları eğlenceli ve merak uyandırıcı olsun.
 4. Sadece geçerli bir JSON dizisi çıktısı ver. Çıktının başına veya sonuna ```json, ``` veya herhangi bir markdown/metin açıklaması ekleme, doğrudan raw JSON döndür.
 5. "options" dizisini kesinlikle boş bırakma. "type" değeri QUIZ_COMPLETION (boşluk doldurma) olsa dahi, kullanıcının boşluğa yerleştirebilmesi için 1 adet doğru cevap ve 3 adet çeldirici olmak üzere tam 4 seçeneği mutlaka listele!
 6. Soru cümleleri (phrase veya variations içerisindeki cümleler) kısa, net, mobil uyumlu ve anlaşılır olmalıdır. Kesinlikle YKS sınavı paragraf soruları gibi çok uzun ve karmaşık cümleler yazma. Her İngilizce cümle en fazla 12-15 kelimeden oluşmalıdır!
+7. JSON yapısının bozulmaması için, ürettiğin metinlerin (özellikle context, phrase, translation) içerisinde kesinlikle kaçışlandırılmamış çift tırnak (") karakterini kullanma. Eğer tırnak işareti kullanman gerekirse tırnak işareti yerine tek tırnak (') kullan!
 """
 
     # Gemini REST Endpoint
