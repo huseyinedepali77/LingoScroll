@@ -1,0 +1,1643 @@
+[
+  {
+    "id": 101,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "Sokakta birine 'Kendine iyi bak / İyi günler!' anlamında ne diyebilirsiniz?",
+    "translation": "Have a good one!",
+    "context": "ABD ve İngiltere'de vedalaşırken en çok kullanılan samimi ifadedir.",
+    "options": [
+      "Have a good one!",
+      "Good morning!",
+      "Nice to meet you.",
+      "Pardon me."
+    ],
+    "correctAnswer": "Have a good one!",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 102,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Cafede kahve siparişi verirken: 'Could I _____ a latte, please?'",
+    "translation": "get",
+    "context": "'Could I get ...?' günlük hayatta sipariş verirken en kibar ve yaygın kalıptır.",
+    "options": [
+      "give",
+      "get",
+      "take",
+      "bring"
+    ],
+    "correctAnswer": "get",
+    "category": "TRAVEL",
+    "variations": [
+      "In the cafe, I ordered: 'Could I _____ a tea, please?'",
+      "At the restaurant: 'Could I _____ the bill, please?'"
+    ]
+  },
+  {
+    "id": 103,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "'Naber, ne var ne yok?' anlamına gelen en yaygın sokak ifadesi hangisidir?",
+    "translation": "What's up?",
+    "context": "Arkadaşlar arasında selamlaşırken kullanılır.",
+    "options": [
+      "How do you do?",
+      "What's up?",
+      "Pleased to see you.",
+      "Are you okay?"
+    ],
+    "correctAnswer": "What's up?",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 104,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Birini can kulağıyla dinlediğinizi belirtmek için: 'I am all _____.'",
+    "translation": "ears",
+    "context": "'I'm all ears' (Kulak kesildim / Seni tüm dikkatimle dinliyorum) anlamına gelen yaygın bir deyimdir.",
+    "options": [
+      "eyes",
+      "ears",
+      "mouth",
+      "hands"
+    ],
+    "correctAnswer": "ears",
+    "category": "CASUAL",
+    "variations": [
+      "Tell me your secret, I am all _____.",
+      "Speak up, I am all _____ now."
+    ]
+  },
+  {
+    "id": 105,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Hesabı sizin ödeyeceğinizi belirtmek için hangisini söylersiniz?",
+    "translation": "It's on me.",
+    "context": "Kafede veya restoranda hesabı üstlenirken söylenir.",
+    "options": [
+      "I pay this.",
+      "It's my value.",
+      "It's on me.",
+      "Give me the ticket."
+    ],
+    "correctAnswer": "It's on me.",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 106,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "'Bana uyar / Ben de varım' anlamında hangi kalıp kullanılır?",
+    "translation": "I'm down for that.",
+    "context": "Bir teklifi kabul ederken veya plana katılacağınızı belirtirken kullanılır.",
+    "options": [
+      "I'm up of that.",
+      "I'm down for that.",
+      "I'm low on this.",
+      "I'm under that."
+    ],
+    "correctAnswer": "I'm down for that.",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 107,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "İş yerinde 'Bugünlük bu kadar yeter, paydos edelim' derken: 'Let's call it a _____.'",
+    "translation": "day",
+    "context": "'Call it a day' bir işi veya çalışmayı o günlük sonlandırmak anlamına gelir.",
+    "options": [
+      "night",
+      "time",
+      "job",
+      "day"
+    ],
+    "correctAnswer": "day",
+    "category": "BUSINESS",
+    "variations": [
+      "We have been working for hours, let's call it a _____.",
+      "I am so exhausted, let's call it a _____."
+    ]
+  },
+  {
+    "id": 108,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Kendini hafif hasta veya keyifsiz hisseden biri hangisini kullanır?",
+    "translation": "Under the weather",
+    "context": "Hafif kırgınlık veya soğuk algınlığı durumlarında kullanılır.",
+    "options": [
+      "Over the moon",
+      "Under the weather",
+      "In the dark",
+      "Out of blue"
+    ],
+    "correctAnswer": "Under the weather",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 109,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "'Sırrı ifşa etmek / Baklayı ağzından çıkarmak' anlamına gelen deyim hangisidir?",
+    "translation": "Spill the beans",
+    "context": "Gizli kalması gereken bir şeyi yanlışlıkla veya isteyerek söylemek anlamındadır.",
+    "options": [
+      "Spill the beans",
+      "Break the ice",
+      "Bite the bullet",
+      "Hit the road"
+    ],
+    "correctAnswer": "Spill the beans",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 110,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "İş yerinde 'Bana yardım edebilir misiniz?' anlamındaki en kibar kalıp hangisidir?",
+    "translation": "Could you give me a hand, please?",
+    "context": "İş yerinde birinden yardım isterken kullanılan en yaygın deyimsel ifadedir.",
+    "options": [
+      "Could you give me a hand, please?",
+      "Give me hands.",
+      "Are you working?",
+      "Help me now."
+    ],
+    "correctAnswer": "Could you give me a hand, please?",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 111,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "İş yerinde teslim tarihini yetiştirmeyi anlatırken: 'We must meet the _____.'",
+    "translation": "deadline",
+    "context": "Projelerin son teslim tarihini (deadline) ifade etmek için kullanılır.",
+    "options": [
+      "deadline",
+      "meeting",
+      "work",
+      "office"
+    ],
+    "correctAnswer": "deadline",
+    "category": "BUSINESS",
+    "variations": [
+      "Don't miss the _____.",
+      "We are working hard to meet the _____."
+    ]
+  },
+  {
+    "id": 112,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "İş yerinde 'Paydos edelim / Bugünlük bu kadar yeter' derken: 'Let's call it a _____.'",
+    "translation": "day",
+    "context": "Çalışmayı o günlük bitirmeyi ifade eden popüler deyimdir.",
+    "options": [
+      "night",
+      "time",
+      "day",
+      "job"
+    ],
+    "correctAnswer": "day",
+    "category": "BUSINESS",
+    "variations": [
+      "We have done enough, let's call it a _____.",
+      "I'm tired, let's call it a _____."
+    ]
+  },
+  {
+    "id": 113,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Havalimanında pasaport kontrolü sırasında: 'Please show me your _____.'",
+    "translation": "passport",
+    "context": "Pasaportunuzu ibraz etmenizi isteyen klasik seyahat kalıbıdır.",
+    "options": [
+      "car",
+      "passport",
+      "key",
+      "bill"
+    ],
+    "correctAnswer": "passport",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 114,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Bir yere giderken 'Yoldayım / Geliyorum' anlamında hangi kalıp kullanılır?",
+    "translation": "I'm on my way.",
+    "context": "Hedefinize doğru yola çıktığınızı veya hareket halinde olduğunuzu bildirmek için kullanılan en yaygın kalıptır.",
+    "options": [
+      "I'm on my way.",
+      "I'm in my path.",
+      "I'm coming now.",
+      "I'm run way."
+    ],
+    "correctAnswer": "I'm on my way.",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 115,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Havalimanında vergi iadesi (Tax Free) ofisini ararken: 'Where is the tax _____ desk?'",
+    "translation": "refund",
+    "context": "Vergi iadesini (tax refund) sormak için kullanılır.",
+    "options": [
+      "refund",
+      "back",
+      "return",
+      "free"
+    ],
+    "correctAnswer": "refund",
+    "category": "TRAVEL",
+    "variations": [
+      "Can I get a tax _____ for these items?",
+      "You need to show receipts at the tax _____ desk."
+    ]
+  },
+  {
+    "id": 1,
+    "type": "CARD",
+    "level": "BEGINNER",
+    "phrase": "Where is the baggage claim?",
+    "translation": "Bagaj alım yeri nerede?",
+    "context": "Havalimanına indikten sonra bavullarınızı teslim alacağınız yeri sormak için kullanılır.",
+    "options": [],
+    "correctAnswer": "",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 2,
+    "type": "CARD",
+    "level": "BEGINNER",
+    "phrase": "Could I have the menu, please?",
+    "translation": "Menüyü alabilir miyim lütfen?",
+    "context": "Restoranda sipariş vermeden önce menüyü istemek için en kibar kalıptır.",
+    "options": [],
+    "correctAnswer": "",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 3,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "Otelde resepsiyona 'Giriş yapmak istiyorum' demek için hangisi kullanılır?",
+    "translation": "I'd like to check in.",
+    "context": "Check-in işlemi otellere giriş yaparken kullanılan standart ifadedir.",
+    "options": [
+      "I want register.",
+      "I'd like to check in.",
+      "I am entering.",
+      "Give me my room."
+    ],
+    "correctAnswer": "I'd like to check in.",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 4,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Yol tarifi alırken metroya nasıl gideceğinizi sormak için: 'How do I get to the _____?'",
+    "translation": "subway",
+    "context": "'How do I get to...?' bir yere nasıl ulaşacağınızı sormanın en kolay ve doğal yoludur.",
+    "options": [
+      "subway",
+      "flight",
+      "check",
+      "room"
+    ],
+    "correctAnswer": "subway",
+    "category": "TRAVEL",
+    "variations": [
+      "Excuse me, how do I get to the _____?",
+      "Could you tell me how do I get to the _____?"
+    ]
+  },
+  {
+    "id": 5,
+    "type": "CARD",
+    "level": "INTERMEDIATE",
+    "phrase": "I'd like to make a reservation.",
+    "translation": "Rezervasyon yaptırmak istiyorum.",
+    "context": "Restoranlarda veya otellerde önceden yer ayırtmak için bu kalıbı kullanabilirsiniz.",
+    "options": [],
+    "correctAnswer": "",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 6,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Havalimanında 'Uçuşum ertelendi mi?' diye sormak için: 'Is my flight _____?'",
+    "translation": "delayed",
+    "context": "'Delayed', uçuşların veya trenlerin rötarlı olduğunu belirtmek için kullanılır.",
+    "options": [
+      "postponed",
+      "delayed",
+      "late",
+      "stopped"
+    ],
+    "correctAnswer": "delayed",
+    "category": "TRAVEL",
+    "variations": [
+      "Oh no, the train is _____ by two hours.",
+      "Is the direct flight to Paris _____?"
+    ]
+  },
+  {
+    "id": 11,
+    "type": "CARD",
+    "level": "BEGINNER",
+    "phrase": "Let's schedule a meeting.",
+    "translation": "Bir toplantı ayarlayalım.",
+    "context": "İş ortaklarıyla veya ekip arkadaşlarıyla toplantı tarihi belirlemek için kullanılır.",
+    "options": [],
+    "correctAnswer": "",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 12,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "Ofiste iş arkadaşınıza 'Bana yardım edebilir misin?' demenin en doğal yolu hangisidir?",
+    "translation": "Could you give me a hand?",
+    "context": "'Give a hand' deyimi fiziksel veya zihinsel bir yardım talep ederken kullanılır.",
+    "options": [
+      "Can you take my hand?",
+      "Could you give me a hand?",
+      "Will you pay me?",
+      "Are you working?"
+    ],
+    "correctAnswer": "Could you give me a hand?",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 13,
+    "type": "CARD",
+    "level": "INTERMEDIATE",
+    "phrase": "We need to meet the deadline.",
+    "translation": "Son teslim tarihine uymamız gerekiyor.",
+    "context": "Projelerin veya görevlerin teslim edilmesi gereken son güne (deadline) yetişilmesini anlatır.",
+    "options": [],
+    "correctAnswer": "",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 14,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Bir işi ertelemek veya daha sonraya bırakmak anlamında: 'Let's put it on the back _____.'",
+    "translation": "burner",
+    "context": "'Put on the back burner' (Arka ocağa koymak), bir işi önemsiz olduğu için ertelemek demektir.",
+    "options": [
+      "table",
+      "burner",
+      "shelf",
+      "office"
+    ],
+    "correctAnswer": "burner",
+    "category": "BUSINESS",
+    "variations": [
+      "This project is not urgent, let's put it on the back _____.",
+      "We must put that feature on the back _____ for now."
+    ]
+  },
+  {
+    "id": 15,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Bir şeyi çok iyi ve detaylıca anlamak / kavramak anlamında: 'I need to get a grip on _____.'",
+    "translation": "this",
+    "context": "'Get a grip on something' kontrolü ele almak veya bir konuyu tamamen kavramak anlamına gelir.",
+    "options": [
+      "this",
+      "that",
+      "there",
+      "them"
+    ],
+    "correctAnswer": "this",
+    "category": "BUSINESS",
+    "variations": [
+      "The new software is hard, I need to get a grip on _____.",
+      "Before presenting, make sure you get a grip on _____."
+    ]
+  },
+  {
+    "id": 21,
+    "type": "CARD",
+    "level": "BEGINNER",
+    "phrase": "Never mind.",
+    "translation": "Boşver. / Önemi yok.",
+    "context": "Bir konunun üzerinde durmaya gerek olmadığını belirtmek için kullanılır.",
+    "options": [],
+    "correctAnswer": "",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 22,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "'Haklısın / Sana sonuna kadar katılıyorum' anlamında sokakta ne söylenir?",
+    "translation": "You can say that again!",
+    "context": "Karşı tarafın söylediği bir şeyi çok güçlü bir şekilde onaylarken söylenir.",
+    "options": [
+      "Repeat it please.",
+      "You can say that again!",
+      "Speak louder.",
+      "I hear you again."
+    ],
+    "correctAnswer": "You can say that again!",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 23,
+    "type": "CARD",
+    "level": "INTERMEDIATE",
+    "phrase": "I'll grab a bite.",
+    "translation": "Hızlıca bir şeyler atıştıracağım.",
+    "context": "Özellikle kısıtlı vakitlerde hızlıca bir şeyler yemek anlamında çok sık kullanılır.",
+    "options": [],
+    "correctAnswer": "",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 24,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Bir sırrı saklayamayıp ağzından kaçıran birine: 'Don't spill the _____!'",
+    "translation": "beans",
+    "context": "'Spill the beans' sırları ifşa etmek veya gizli kalması gereken şeyi açıklamak demektir.",
+    "options": [
+      "milk",
+      "beans",
+      "tea",
+      "secret"
+    ],
+    "correctAnswer": "beans",
+    "category": "CASUAL",
+    "variations": [
+      "We are planning a surprise, so don't spill the _____!",
+      "Who spilled the _____ about the party?"
+    ]
+  },
+  {
+    "id": 25,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Gergin ve yabancı bir ortamdaki havayı yumuşatmak için: 'Let's break the _____.'",
+    "translation": "ice",
+    "context": "'Break the ice' (Buzu kırmak), yeni tanışılan insanlarla konuşma başlatıp ortamı rahatlatmaktır.",
+    "options": [
+      "glass",
+      "ice",
+      "wood",
+      "line"
+    ],
+    "correctAnswer": "ice",
+    "category": "CASUAL",
+    "variations": [
+      "A simple game can help to break the _____.",
+      "I told a joke to break the _____ at the meeting."
+    ]
+  },
+  {
+    "id": 30,
+    "type": "CARD",
+    "level": "ADVANCED",
+    "phrase": "I'm looking for a layover lounge.",
+    "translation": "Aktarma salonunu arıyorum.",
+    "context": "Uzun aktarmalı uçuşlarda dinlenme salonunu sormak için kullanılır.",
+    "options": [],
+    "correctAnswer": "",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 31,
+    "type": "CARD",
+    "level": "ADVANCED",
+    "phrase": "We need to pivot our business strategy.",
+    "translation": "İş stratejimizi yönlendirmeli / değiştirmeliyiz.",
+    "context": "Gidişata göre hızlıca strateji yönünü değiştirmek anlamına gelen profesyonel bir iş terimidir.",
+    "options": [],
+    "correctAnswer": "",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 32,
+    "type": "CARD",
+    "level": "ADVANCED",
+    "phrase": "I'm feeling under the weather.",
+    "translation": "Kendimi keyifsiz / hafif hasta hissediyorum.",
+    "context": "Hafif keyifsizlik veya yorgunluk durumlarını belirtmek için kullanılan popüler bir günlük deyimdir.",
+    "options": [],
+    "correctAnswer": "",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 41,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "Otel resepsiyonundan oda anahtarı isterken hangisini söylersiniz?",
+    "translation": "Could I have my room key, please?",
+    "context": "Resepsiyondan oda anahtarını talep ederken kullanılan kibar ifadedir.",
+    "options": [
+      "Could I have my room key, please?",
+      "Where is the airport?",
+      "Is this key gold?",
+      "I want to checkout."
+    ],
+    "correctAnswer": "Could I have my room key, please?",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 42,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Restoranda hesabı isterken: 'Could we have the _____, please?'",
+    "translation": "bill",
+    "context": "'Bill' (fatura/hesap), yemek sonunda ödeme talep ederken söylenir.",
+    "options": [
+      "ticket",
+      "card",
+      "bill",
+      "menu"
+    ],
+    "correctAnswer": "bill",
+    "category": "TRAVEL",
+    "variations": [
+      "Excuse me, could we have the _____ please?",
+      "We are ready to pay, could we get the _____?"
+    ]
+  },
+  {
+    "id": 43,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Uçağa biniş kartını sorarken: 'Where can I get my boarding ____?'",
+    "translation": "pass",
+    "context": "'Boarding pass' uçağa binmek için gerekli olan barkodlu geçiş kartıdır.",
+    "options": [
+      "card",
+      "pass",
+      "ticket",
+      "paper"
+    ],
+    "correctAnswer": "pass",
+    "category": "TRAVEL",
+    "variations": [
+      "Please present your boarding _____ at the gate.",
+      "I lost my boarding _____, can you print it?"
+    ]
+  },
+  {
+    "id": 44,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Gümrükten geçerken 'Bildirecek bir şeyim yok' anlamındaki kalıp hangisidir?",
+    "translation": "I have nothing to declare.",
+    "context": "Gümrük memuruna gümrüğe tabi mal taşımadığınızı belirtirken söylenir.",
+    "options": [
+      "I have nothing to declare.",
+      "I have no bags.",
+      "I am travel free.",
+      "Nothing in my pocket."
+    ],
+    "correctAnswer": "I have nothing to declare.",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 45,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Uçuş iptalinden sonra tazminat talep ederken: 'I am entitled to a full _____.'",
+    "translation": "refund",
+    "context": "'Refund', para iadesi anlamına gelen resmi bir terimdir.",
+    "options": [
+      "refund",
+      "ticket",
+      "flight",
+      "payment"
+    ],
+    "correctAnswer": "refund",
+    "category": "TRAVEL",
+    "variations": [
+      "Because of the delay, I demand a full _____.",
+      "The airline offered a voucher instead of a _____."
+    ]
+  },
+  {
+    "id": 46,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "İş arkadaşına kartvizitini verirken: 'Here is my business _____.'",
+    "translation": "card",
+    "context": "'Business card' iş dünyasında iletişim bilgilerini paylaşmak için kullanılan kartvizittir.",
+    "options": [
+      "paper",
+      "card",
+      "note",
+      "letter"
+    ],
+    "correctAnswer": "card",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 47,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Bir toplantıyı başka saate ertelemek anlamında: 'Let's push back the _____.'",
+    "translation": "meeting",
+    "context": "'Push back the meeting' toplantı vaktini daha ileriye ötelemek demektir.",
+    "options": [
+      "work",
+      "meeting",
+      "call",
+      "office"
+    ],
+    "correctAnswer": "meeting",
+    "category": "BUSINESS",
+    "variations": [
+      "Can we push back the _____ to 3 PM?",
+      "We need to push back the project _____."
+    ]
+  },
+  {
+    "id": 48,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "İş yerinde 'Aynı fikirdeyiz / Mutabıkız' anlamındaki yaygın kalıp hangisidir?",
+    "translation": "We are on the same page.",
+    "context": "Ekipteki herkesin ortak bir konuda hemfikir olduğunu anlatır.",
+    "options": [
+      "We are on the same page.",
+      "We read the same book.",
+      "We write same notes.",
+      "We are in same office."
+    ],
+    "correctAnswer": "We are on the same page.",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 49,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Bir projeyi başlatmak veya onaylamak anlamında: 'We got the green _____.'",
+    "translation": "light",
+    "context": "'Get the green light' (Yeşil ışık almak), bir işin yapılması için onay almaktır.",
+    "options": [
+      "light",
+      "card",
+      "sign",
+      "go"
+    ],
+    "correctAnswer": "light",
+    "category": "BUSINESS",
+    "variations": [
+      "Management gave us the green _____.",
+      "We are waiting to get the green _____."
+    ]
+  },
+  {
+    "id": 50,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Biri teşekkür ettiğinde 'Rica ederim' anlamında: 'You are _____.'",
+    "translation": "welcome",
+    "context": "'You're welcome' teşekkürlere karşılık verilen en yaygın kibar ifadedir.",
+    "options": [
+      "welcome",
+      "good",
+      "nice",
+      "ok"
+    ],
+    "correctAnswer": "welcome",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 51,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Biriyle şakalaşırken veya dalga geçerken: 'Are you pulling my _____?'",
+    "translation": "leg",
+    "context": "'Pull someone's leg' biriyle şaka yollu dalga geçmek veya kandırmak anlamında bir deyimdir.",
+    "options": [
+      "arm",
+      "leg",
+      "hair",
+      "hand"
+    ],
+    "correctAnswer": "leg",
+    "category": "CASUAL",
+    "variations": [
+      "Don't believe him, he is just pulling your _____.",
+      "You must be kidding, are you pulling my _____?"
+    ]
+  },
+  {
+    "id": 52,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Bir işi çok kolay veya çocuk oyuncağı olarak tanımlarken hangisini kullanırsınız?",
+    "translation": "A piece of cake.",
+    "context": "Bir görevin son derece zahmetsiz ve kolay olduğunu belirtir.",
+    "options": [
+      "A piece of cake.",
+      "An easy card.",
+      "A sweet job.",
+      "A walk in park."
+    ],
+    "correctAnswer": "A piece of cake.",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 60,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Seyahatte 'Bavulum kayboldu' derken: 'My luggage is _____.'",
+    "translation": "lost",
+    "context": "Havalimanında kaybolan eşyaları bildirmek için kullanılır.",
+    "options": [
+      "lost",
+      "check",
+      "flight",
+      "room"
+    ],
+    "correctAnswer": "lost",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 61,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Alışverişte bir şeyin fiyatını sorarken: 'How _____ is this?'",
+    "translation": "much",
+    "context": "Fiyat sormanın en temel İngilizce kalıbıdır.",
+    "options": [
+      "much",
+      "many",
+      "cost",
+      "price"
+    ],
+    "correctAnswer": "much",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 62,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Otelde 'Sessiz bir oda istiyorum' derken: 'I'd like a _____ room.'",
+    "translation": "quiet",
+    "context": "Konaklama esnasında gürültüden uzak bir oda talep etmek için söylenir.",
+    "options": [
+      "quiet",
+      "loud",
+      "big",
+      "hot"
+    ],
+    "correctAnswer": "quiet",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 63,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Arkadaşımıza ayrılırken 'Kendine iyi bak' demek için: 'Take _____.'",
+    "translation": "care",
+    "context": "'Take care' (Kendine dikkat et) vedalaşırken sıkça kullanılır.",
+    "options": [
+      "care",
+      "look",
+      "see",
+      "go"
+    ],
+    "correctAnswer": "care",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 64,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Saati sorarken: 'What _____ is it?'",
+    "translation": "time",
+    "context": "Zamanı öğrenmek için en yaygın soru biçimidir.",
+    "options": [
+      "time",
+      "day",
+      "hour",
+      "clock"
+    ],
+    "correctAnswer": "time",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 65,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Hesabı isterken: 'Can I have the _____, please?'",
+    "translation": "check",
+    "context": "Restoranda yemeğin sonunda hesabı istemek için kullanılır.",
+    "options": [
+      "check",
+      "menu",
+      "card",
+      "book"
+    ],
+    "correctAnswer": "check",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 66,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Bir teklifi onaylarken: 'That sounds _____.'",
+    "translation": "great",
+    "context": "Karşı tarafın fikrini beğendiğimizi kibarca belirtir.",
+    "options": [
+      "great",
+      "bad",
+      "slow",
+      "short"
+    ],
+    "correctAnswer": "great",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 67,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Adres sorarken: 'Where is the bus _____?'",
+    "translation": "station",
+    "context": "Otobüs durağının yerini sormak için kullanılır.",
+    "options": [
+      "station",
+      "car",
+      "flight",
+      "road"
+    ],
+    "correctAnswer": "station",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 68,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "İş yerinde 'Fikir fırtınası yapalım' derken: 'Let's _____ some ideas.'",
+    "translation": "brainstorm",
+    "context": "Yeni fikirler üretmek için ortak çalışma toplantılarını anlatır.",
+    "options": [
+      "brainstorm",
+      "build",
+      "make",
+      "think"
+    ],
+    "correctAnswer": "brainstorm",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 69,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Gecikme durumunda özür dilerken: 'Sorry for the _____.'",
+    "translation": "delay",
+    "context": "Uçuş veya toplantı gecikmelerinde nezaketen söylenir.",
+    "options": [
+      "delay",
+      "check",
+      "flight",
+      "call"
+    ],
+    "correctAnswer": "delay",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 70,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Sahneye çıkacak birine şans dilerken: 'Break a _____!'",
+    "translation": "leg",
+    "context": "'Break a leg' (Şeytanın bacağını kır), başarılar dilemenin deyim halidir.",
+    "options": [
+      "leg",
+      "arm",
+      "hand",
+      "head"
+    ],
+    "correctAnswer": "leg",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 71,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Toplantıyı ertelemek anlamında: 'We need to postpone the _____.'",
+    "translation": "meeting",
+    "context": "'Postpone', resmi erteleme durumlarında kullanılır.",
+    "options": [
+      "meeting",
+      "deadlines",
+      "office",
+      "workers"
+    ],
+    "correctAnswer": "meeting",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 72,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Bir konuyu kısaca özetlerken: 'To make a long story _____.'",
+    "translation": "short",
+    "context": "'To make a long story short' (Uzun lafın kısası) anlamına gelen bir deyimdir.",
+    "options": [
+      "short",
+      "big",
+      "tall",
+      "brief"
+    ],
+    "correctAnswer": "short",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 73,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "İş yerinde bir projenin sorumluluğunu alırken: 'I will take _____ of this.'",
+    "translation": "charge",
+    "context": "'Take charge of something' bir işin kontrolünü ve yönetimini ele almaktır.",
+    "options": [
+      "charge",
+      "work",
+      "money",
+      "deadlines"
+    ],
+    "correctAnswer": "charge",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 74,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Bir konuda kararsız kalındığında: 'I am on the _____ about it.'",
+    "translation": "fence",
+    "context": "'On the fence' (Çitin üstünde), kararsızlığı simgeleyen popüler bir deyimdir.",
+    "options": [
+      "fence",
+      "wall",
+      "chair",
+      "page"
+    ],
+    "correctAnswer": "fence",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 75,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Hafif hasta veya keyifsiz hissederken: 'I'm feeling under the _____.'",
+    "translation": "weather",
+    "context": "'Under the weather' halsizlik ve keyifsizlik durumlarını anlatır.",
+    "options": [
+      "weather",
+      "sun",
+      "sky",
+      "cloud"
+    ],
+    "correctAnswer": "weather",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 76,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Bir sırrı kimseye söylememek anlamında: 'Keep it under your _____.'",
+    "translation": "hat",
+    "context": "'Keep it under your hat' sırrı gizli tutmak anlamına gelir.",
+    "options": [
+      "hat",
+      "head",
+      "desk",
+      "card"
+    ],
+    "correctAnswer": "hat",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 77,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "İçgüdüsel hisleri ifade ederken: 'I have a gut _____.'",
+    "translation": "feeling",
+    "context": "'Gut feeling' (Karın/iç hissi) mantıktan ziyade hislere dayanmayı anlatır.",
+    "options": [
+      "feeling",
+      "thought",
+      "reaction",
+      "view"
+    ],
+    "correctAnswer": "feeling",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 78,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Çaba harcamadan kazanılan çok kolay iş: 'It's a walk in the _____.'",
+    "translation": "park",
+    "context": "'A walk in the park' işin zahmetsizliğini ifade eder.",
+    "options": [
+      "park",
+      "garden",
+      "street",
+      "road"
+    ],
+    "correctAnswer": "park",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 79,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Bir projeyi veya işi başlatırken: 'Let's get the ball _____.'",
+    "translation": "rolling",
+    "context": "'Get the ball rolling' işin ilk adımını atıp harekete geçirmektir.",
+    "options": [
+      "rolling",
+      "turning",
+      "spin",
+      "run"
+    ],
+    "correctAnswer": "rolling",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 80,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Çok heyecanlı ve meraklı bekleyiş: 'I am on the edge of my _____.'",
+    "translation": "seat",
+    "context": "'On the edge of my seat' (Koltuğumun ucundayım) heyecandan yerinde duramamaktır.",
+    "options": [
+      "seat",
+      "bed",
+      "chair",
+      "desk"
+    ],
+    "correctAnswer": "seat",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 81,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Beklenmedik sürpriz bir gelişme: 'Out of the _____.'",
+    "translation": "blue",
+    "context": "'Out of the blue' aniden, beklenmedik şekilde ortaya çıkan durumları anlatır.",
+    "options": [
+      "blue",
+      "red",
+      "green",
+      "white"
+    ],
+    "correctAnswer": "blue",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 82,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Zor gerçeklerle yüzleşip dürüst olmak: 'Let's face the _____.'",
+    "translation": "music",
+    "context": "'Face the music' yaptığı hataların sonuçlarına katlanmak demektir.",
+    "options": [
+      "music",
+      "song",
+      "noise",
+      "sound"
+    ],
+    "correctAnswer": "music",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 83,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Zor bir kararı cesaretle uygulamak: 'You have to bite the _____.'",
+    "translation": "bullet",
+    "context": "'Bite the bullet' (Kurşunu ısırmak) acı veren ama kaçınılmaz bir durumu kabullenmektir.",
+    "options": [
+      "bullet",
+      "food",
+      "stone",
+      "glass"
+    ],
+    "correctAnswer": "bullet",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 84,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Yanlış anlaşılmaları giderip konuyu netleştirmek: 'Let's clear the _____.'",
+    "translation": "air",
+    "context": "'Clear the air' gergin havayı dağıtıp ilişkileri yumuşatmaktır.",
+    "options": [
+      "air",
+      "sky",
+      "wind",
+      "room"
+    ],
+    "correctAnswer": "air",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 85,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Çok mutlu ve neşeli olmak: 'I'm on cloud _____.'",
+    "translation": "nine",
+    "context": "'On cloud nine' (Dokuzuncu bulutun üstünde) son derece mutlu ve keyifli olmaktır.",
+    "options": [
+      "nine",
+      "ten",
+      "eight",
+      "seven"
+    ],
+    "correctAnswer": "nine",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 3001,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "We're looking for a hotel that offers a unique experience, something a bit more _____ than a standard chain.",
+    "translation": "'Boutique' otel arıyoruz.",
+    "context": "Sıradan otellerden sıkıldın mı? 'Boutique' oteller, genelde daha küçük, şık ve kişisel hizmet sunan, kendine özgü tasarımları olan yerlerdir. Seyahatini özel kılmak istediğinde arayacağın kelime bu!",
+    "options": [
+      "luxurious",
+      "standard",
+      "boutique",
+      "budget"
+    ],
+    "correctAnswer": "boutique",
+    "category": "TRAVEL",
+    "variations": [
+      "She prefers boutique shops to large department stores.",
+      "This charming boutique hotel is a hidden gem."
+    ]
+  },
+  {
+    "id": 3002,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "My flight has a three-hour _____ in Dubai before the next leg to Sydney.",
+    "translation": "Uçuşumun Dubai'de üç saatlik bir aktarma süresi var.",
+    "context": "Aktarmalı uçuşlarda bir sonraki uçağa binmek için beklediğin süreye 'layover' denir. Bazen havalimanını keşfetmek için yeterli zamanın olur, bazen de sadece bir kahve molası verirsin.",
+    "options": [
+      "stop",
+      "layover",
+      "break",
+      "pause"
+    ],
+    "correctAnswer": "layover",
+    "category": "TRAVEL",
+    "variations": [
+      "We had a long layover in Amsterdam.",
+      "What do you plan to do during your layover?"
+    ]
+  },
+  {
+    "id": 3003,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "'I need to inform the restaurant about my dietary restrictions.' cümlesi ne anlama gelir?",
+    "translation": "Yemek kısıtlamalarım hakkında restoranı bilgilendirmem gerekiyor.",
+    "context": "Vegan, vejetaryen misin? Glüten alerjin mi var? 'Dietary restrictions' senin için önemli. Restorana önceden söylemek, keyifli bir yemek deneyimi yaşamanı sağlar.",
+    "options": [
+      "Restoranın menüsünü bilmem gerekiyor.",
+      "Yemek pişirme dersleri hakkında bilgi almalıyım.",
+      "Yemek kısıtlamalarım hakkında restoranı bilgilendirmem gerekiyor.",
+      "Restoranın yemek servisi saatlerini sormalıyım."
+    ],
+    "correctAnswer": "Yemek kısıtlamalarım hakkında restoranı bilgilendirmem gerekiyor.",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 3004,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "After a long flight, I always suffer from severe _____ for a few days.",
+    "translation": "Uzun bir uçuştan sonra, her zaman birkaç gün ciddi 'jet lag' yaşarım.",
+    "context": "Uçakla uzun mesafe yolculuk yaptıktan sonra oluşan zaman dilimi farkından kaynaklanan yorgunluk, uyku düzeni bozukluğuna 'jet lag' denir. Su iç, ışık al, adaptasyona yardımcı ol!",
+    "options": [
+      "fatigue",
+      "jet lag",
+      "exhaustion",
+      "sickness"
+    ],
+    "correctAnswer": "jet lag",
+    "category": "TRAVEL",
+    "variations": [
+      "I'm still recovering from jet lag.",
+      "The jet lag made it hard to sleep."
+    ]
+  },
+  {
+    "id": 3005,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "We prefer to explore places _____ to avoid the tourist crowds and find authentic experiences.",
+    "translation": "Turist kalabalığından kaçınmak ve otantik deneyimler bulmak için 'alışılmışın dışında' yerleri keşfetmeyi tercih ederiz.",
+    "context": "Turistik kalabalıklardan uzak, yerel deneyimler yaşamak isteyen gezginler bu ifadeyi çok kullanır. 'Off the beaten path', yani alışılmışın dışında, keşfedilmemiş yerleri ifade eder.",
+    "options": [
+      "off the beaten path",
+      "on the main road",
+      "in the city center",
+      "at popular spots"
+    ],
+    "correctAnswer": "off the beaten path",
+    "category": "TRAVEL",
+    "variations": [
+      "We found a lovely cafe off the beaten path.",
+      "This little village is truly off the beaten path."
+    ]
+  },
+  {
+    "id": 3006,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "'Are you up for some bargain hunting today?' cümlesi ne anlama gelir?",
+    "translation": "Bugün indirimli alışveriş yapmaya var mısın?",
+    "context": "'Bargain hunting', indirimli, hesaplı ve uygun fiyatlı ürünler bulmak için alışveriş yapmaktır. Özellikle pazarlarda veya indirim sezonlarında bu tabiri çok duyarsın.",
+    "options": [
+      "Bugün avlanmaya gitmek ister misin?",
+      "Bugün pazarlık yapmaya hazır mısın?",
+      "Bugün indirimli alışveriş yapmaya var mısın?",
+      "Bugün yeni eşyalar aramaya ne dersin?"
+    ],
+    "correctAnswer": "Bugün indirimli alışveriş yapmaya var mısın?",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 3007,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "It's quite easy to _____ around the city using the excellent public transport system.",
+    "translation": "Mükemmel toplu taşıma sistemini kullanarak şehirde 'dolaşmak' oldukça kolaydır.",
+    "context": "Bir şehirde veya bölgede bir yerden bir yere gitmek, gezmek anlamında kullanılan pratik bir deyimdir. Toplu taşıma, yürüyüş veya bisikletle şehri keşfederken işine yarar.",
+    "options": [
+      "move",
+      "travel",
+      "get around",
+      "circulate"
+    ],
+    "correctAnswer": "get around",
+    "category": "TRAVEL",
+    "variations": [
+      "How do you usually get around when you travel?",
+      "It's best to get around Venice on foot."
+    ]
+  },
+  {
+    "id": 3008,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Our plans changed suddenly, so we'll just have to _____ and see what happens.",
+    "translation": "Planlarımız aniden değişti, bu yüzden 'doğaçlama yapacağız' ve ne olacağını göreceğiz.",
+    "context": "Plansız, spontane hareket etmek, duruma göre karar vermek anlamındadır. Özellikle macera severler veya esnek seyahat edenler için kurtarıcı bir ifadedir.",
+    "options": [
+      "improvise",
+      "wing it",
+      "decide later",
+      "wait and see"
+    ],
+    "correctAnswer": "wing it",
+    "category": "TRAVEL",
+    "variations": [
+      "I didn't prepare a speech; I'll just wing it.",
+      "Let's wing it and see where the day takes us."
+    ]
+  },
+  {
+    "id": 3009,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "'This hotel offers complimentary breakfast.' ifadesinde 'complimentary' ne anlama gelir?",
+    "translation": "Ücretsiz",
+    "context": "Otelde konaklama fiyatına dahil, yani ek ücret ödemeden sunulan hizmetler için kullanılır. 'Complimentary Wi-Fi' veya 'complimentary toiletries' gibi birçok yerde karşına çıkar.",
+    "options": [
+      "Özel",
+      "Ücretli",
+      "Gereksiz",
+      "Ücretsiz"
+    ],
+    "correctAnswer": "Ücretsiz",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 3010,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "We asked a local for some _____ on the best non-touristy restaurants.",
+    "translation": "Yerel birinden en iyi turistik olmayan restoranlar hakkında 'bilgi/tavsiye' istedik.",
+    "context": "Yerel birinden alacağın değerli bilgiye, tavsiyeye 'insight' denir. Bu, turistik rehberlerde bulamayacağın, gerçekten yerel bir deneyim yaşamanı sağlayacak ipuçlarıdır.",
+    "options": [
+      "information",
+      "advice",
+      "insight",
+      "details"
+    ],
+    "correctAnswer": "insight",
+    "category": "TRAVEL",
+    "variations": [
+      "Her local insight was invaluable for our trip.",
+      "The guide gave us great insight into the culture."
+    ]
+  },
+  {
+    "id": 3011,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "'This restaurant is known for its local delicacy.' cümlesindeki 'delicacy' kelimesinin anlamı nedir?",
+    "translation": "Yerel spesiyalite/özel yiyecek",
+    "context": "Gittiğin yerin meşhur, özel ve nadir bulunan lezzetli yemeğine 'local delicacy' denir. Denemeden dönme!",
+    "options": [
+      "Yerel içecek",
+      "Yerel spesiyalite/özel yiyecek",
+      "Yerel tarif",
+      "Yerel restoran"
+    ],
+    "correctAnswer": "Yerel spesiyalite/özel yiyecek",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 3012,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "In some markets, it's common to _____ over prices to get a better deal.",
+    "translation": "Bazı pazarlarda, daha iyi bir anlaşma elde etmek için fiyatlar üzerinde 'pazarlık etmek' yaygındır.",
+    "context": "Özellikle Asya, Afrika veya bazı Avrupa pazarlarında satıcıyla fiyat konusunda pazarlık etmek, yani 'haggle' etmek oldukça yaygındır. Bazen de eğlencelidir!",
+    "options": [
+      "negotiate",
+      "haggle",
+      "discuss",
+      "debate"
+    ],
+    "correctAnswer": "haggle",
+    "category": "TRAVEL",
+    "variations": [
+      "Don't be afraid to haggle for a good price.",
+      "They spent an hour haggling over the antique rug."
+    ]
+  },
+  {
+    "id": 3013,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "'I need to book a taxi to the airport. Can you hail a cab for me?' ifadesindeki 'hail a cab' ne anlama gelir?",
+    "translation": "Taksi çağırmak/durdurmak",
+    "context": "Özellikle sokaktan geçen bir taksiyi durdurmak için elini kaldırmak veya işaret etmek eylemine denir. Akıllı telefon uygulamaları olmasa da, hala kullanılan bir yöntemdir.",
+    "options": [
+      "Taksiyi temizlemek",
+      "Taksiye binmek",
+      "Taksiye ödeme yapmak",
+      "Taksi çağırmak/durdurmak"
+    ],
+    "correctAnswer": "Taksi çağırmak/durdurmak",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 3014,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Before our trip, I need to _____ on my Spanish phrases.",
+    "translation": "Yolculuğumuzdan önce İspanyolca ifadelerimi 'tazelemem' gerekiyor.",
+    "context": "Unuttuğun veya paslandığını düşündüğün bir beceriyi (dil, bilgi) tazelemek, hatırlamak ve pratik yapmak anlamındadır. Seyahat öncesi dilini tazelemek için birebir.",
+    "options": [
+      "learn",
+      "brush up",
+      "review",
+      "practice"
+    ],
+    "correctAnswer": "brush up",
+    "category": "TRAVEL",
+    "variations": [
+      "I need to brush up on my driving skills.",
+      "She decided to brush up on her French before visiting Paris."
+    ]
+  },
+  {
+    "id": 3015,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "'The hotel offers various amenities.' cümlesindeki 'amenities' kelimesi ne anlama gelir?",
+    "translation": "Olanaklar/Hizmetler (havuz, spor salonu, Wi-Fi vb.)",
+    "context": "Otelde sunulan konfor ve kolaylık sağlayan ekstra hizmetler ve olanaklardır. Havuz, spor salonu, ücretsiz Wi-Fi, spa gibi şeyler 'amenities' kapsamındadır.",
+    "options": [
+      "Yemek seçenekleri",
+      "Otel odası tipleri",
+      "Olanaklar/Hizmetler (havuz, spor salonu, Wi-Fi vb.)",
+      "Personel sayısı"
+    ],
+    "correctAnswer": "Olanaklar/Hizmetler (havuz, spor salonu, Wi-Fi vb.)",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 3016,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Always _____ out for pickpockets in crowded tourist areas.",
+    "translation": "Kalabalık turistik bölgelerde her zaman yankesicilere karşı 'tetikte ol'.",
+    "context": "Etrafına dikkat etmek, bir şeye karşı uyanık olmak veya bir fırsatı kaçırmamak için kullanılır. Özellikle kalabalık yerlerde cüzdanına, eşyalarına sahip çıkmak için çok önemli bir uyarıdır.",
+    "options": [
+      "look",
+      "watch",
+      "keep an eye",
+      "be aware"
+    ],
+    "correctAnswer": "keep an eye",
+    "category": "TRAVEL",
+    "variations": [
+      "Keep an eye out for interesting souvenirs.",
+      "Can you keep an eye out for my luggage?"
+    ]
+  },
+  {
+    "id": 3017,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The restaurant was fully booked, so we had to _____ with a quick takeaway.",
+    "translation": "Restoran tamamen doluydu, bu yüzden hızlı bir paket servisle 'yetinmek' zorunda kaldık.",
+    "context": "Elinizdeki imkanlarla yetinmek, bir durumu idare etmek, geçici bir çözüm bulmak anlamına gelir. Plansız durumlar veya aksilikler karşısında esnek olmayı ifade eder.",
+    "options": [
+      "manage",
+      "deal",
+      "make do",
+      "compromise"
+    ],
+    "correctAnswer": "make do",
+    "category": "TRAVEL",
+    "variations": [
+      "We'll have to make do with instant coffee.",
+      "She made do with the limited resources she had."
+    ]
+  },
+  {
+    "id": 3018,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "'The museum is a stone's throw away from the hotel.' cümlesi ne anlama gelir?",
+    "translation": "Müze otele çok yakın bir mesafede.",
+    "context": "Bir yerin çok yakın olduğunu, taş atsan değecek mesafede olduğunu belirtmek için kullanılan bir deyimdir. Yürüyerek kolayca ulaşabileceğin yerler için ideal.",
+    "options": [
+      "Müze otelden çok uzakta.",
+      "Müze otele çok yakın bir mesafede.",
+      "Müze otele giden yolda taşlar var.",
+      "Müze otele bir taşla ulaşılabilir."
+    ],
+    "correctAnswer": "Müze otele çok yakın bir mesafede.",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 3019,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Trying to communicate without a common language can sometimes lead to serious _____.",
+    "translation": "Ortak bir dil olmadan iletişim kurmaya çalışmak bazen ciddi 'çeviride kaybolmalara' yol açabilir.",
+    "context": "Yanlış anlaşılmalar, farklı diller veya kültürler arası iletişimde yaşanan hatalar için kullanılır. Ne kadar iyi İngilizce bilsen de, bazen anlam kaymaları yaşanabilir.",
+    "options": [
+      "misunderstandings",
+      "lost in translation",
+      "confusion",
+      "problems"
+    ],
+    "correctAnswer": "lost in translation",
+    "category": "TRAVEL",
+    "variations": [
+      "Much of the humor was lost in translation.",
+      "He feared his true message would be lost in translation."
+    ]
+  },
+  {
+    "id": 3020,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "'We prefer traveling during the off-peak season.' ifadesindeki 'off-peak season' ne anlama gelir?",
+    "translation": "Yoğun olmayan dönem/sezon dışı",
+    "context": "Tatil yerlerinin, ulaşımın ve konaklamanın daha uygun fiyatlı ve daha az kalabalık olduğu, ana tatil dönemlerinin dışındaki zaman dilimidir. Bütçe dostu seyahatler için idealdir.",
+    "options": [
+      "En yoğun sezon",
+      "Tatildeyken",
+      "Yoğun olmayan dönem/sezon dışı",
+      "Kış mevsimi"
+    ],
+    "correctAnswer": "Yoğun olmayan dönem/sezon dışı",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 3021,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "We stumbled upon this amazing little cafe, it's a real _____!",
+    "translation": "Bu harika küçük kafeyi tesadüfen bulduk, gerçekten 'gizli bir cevher'!",
+    "context": "Çok bilinmeyen ama keşfedilmeye değer, harika bir yer veya şey için kullanılır. Kendi başımıza bulduğumuz özel restoranlar, küçük butikler veya manzara noktaları için idealdir.",
+    "options": [
+      "treasure",
+      "find",
+      "hidden gem",
+      "discovery"
+    ],
+    "correctAnswer": "hidden gem",
+    "category": "TRAVEL",
+    "variations": [
+      "The small bookstore was a hidden gem.",
+      "This beach is a true hidden gem."
+    ]
+  },
+  {
+    "id": 3022,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "'In some cultures, it's customary to split the bill.' cümlesindeki 'split the bill' ne anlama gelir?",
+    "translation": "Hesabı bölüşmek",
+    "context": "Bir restoran veya kafe gibi yerlerde hesabı aranızda eşit veya tüketime göre bölüşmek anlamına gelir. Arkadaşlarla yemek yerken sıkça kullanılan bir ifadedir.",
+    "options": [
+      "Faturayı ikiye katlamak",
+      "Hesabı daha sonra ödemek",
+      "Hesabı bölüşmek",
+      "Sadece kendi hesabını ödemek"
+    ],
+    "correctAnswer": "Hesabı bölüşmek",
+    "category": "TRAVEL",
+    "variations": []
+  }
+]

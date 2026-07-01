@@ -1,0 +1,11 @@
+Canlı RSS haberleri çekiliyor...
+-> BBC World News kaynağından 4 başlık başarıyla çekildi.
+-> TechCrunch kaynağından 4 başlık başarıyla çekildi.
+-> Science & Space kaynağından 4 başlık başarıyla çekildi.
+-> Sports News kaynağından 4 başlık başarıyla çekildi.
+-> Weird & Viral kaynağından 4 başlık başarıyla çekildi.
+
+Gemini API üzerinden LingoScroll günlük soruları üretiliyor...
+Gemini API çağrısı sırasında hata oluştu: HTTP Error 429: Too Many Requests
+
+[HATA] Yapay zeka gündem soruları üretilemedi.
