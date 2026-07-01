@@ -75,6 +75,7 @@ Kurallar:
 2. İlgi çeken tuhaf/viral haberleri ve spor/uzay haberlerini de mutlaka sorulara yansıt. Kelime açıklamaları eğlenceli ve merak uyandırıcı olsun.
 3. Sadece geçerli bir JSON dizisi çıktısı ver. Çıktının başına veya sonuna ```json, ``` veya herhangi bir markdown/metin açıklaması ekleme, doğrudan raw JSON döndür.
 4. "options" dizisini kesinlikle boş bırakma. "type" değeri QUIZ_COMPLETION (boşluk doldurma) olsa dahi, kullanıcının boşluğa yerleştirebilmesi için 1 adet doğru cevap ve 3 adet çeldirici olmak üzere tam 4 seçeneği mutlaka listele!
+5. Soru cümleleri (phrase veya variations içerisindeki cümleler) kısa, net, mobil uyumlu ve anlaşılır olmalıdır. Kesinlikle YKS sınavı paragraf soruları gibi çok uzun ve karmaşık cümleler yazma. Her İngilizce cümle en fazla 12-15 kelimeden oluşmalıdır!
 """
 
     # Gemini REST Endpoint

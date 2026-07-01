@@ -694,8 +694,18 @@ fun PracticeScreen(
                                 var showHint by remember(state.currentItem.id) { mutableStateOf(false) }
                                 Spacer(modifier = Modifier.height(8.dp))
                                 if (showHint) {
+                                    val hintText = remember(state.currentItem.id) {
+                                        val rawHint = state.currentItem.example_sentence.ifEmpty { state.currentItem.translation }
+                                        var cleanHint = rawHint
+                                        state.currentItem.optionsList.forEach { option ->
+                                            if (option.length > 2) {
+                                                cleanHint = cleanHint.replace(option, "_____", ignoreCase = true)
+                                            }
+                                        }
+                                        cleanHint.replace(state.currentItem.correctAnswer, "_____", ignoreCase = true)
+                                    }
                                     Text(
-                                        text = "Açıklama / Çeviri: ${state.currentItem.translation}",
+                                        text = "İpucu / Açıklama: $hintText",
                                         fontSize = 14.sp,
                                         color = MaterialTheme.colorScheme.primary,
                                         fontWeight = FontWeight.Medium,
