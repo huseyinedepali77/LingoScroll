@@ -3,222 +3,224 @@
     "id": 126070101,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The fans had a big _____ after their team won.",
-    "translation": "Taraftarlar takımları kazandıktan sonra büyük bir kutlama yaptı.",
-    "context": "'Celebration' demek, bir şeyi kutlamak, şenlik yapmak demek. Mesela doğum günü kutlaması, yeni yıl kutlaması ya da takımın şampiyonluğunu kutlamak gibi durumlarda kullanılır. Hava fişekler, müzik ve bol kahkaha hayal et!",
+    "phrase": "A dangerous _____ is expected to hit the region this weekend.",
+    "translation": "Sıcak hava dalgası",
+    "context": "'Heatwave' sıcak hava dalgası demek. Özellikle yaz aylarında, havalar çok ısındığında bu kelimeyi sıkça duyarsın. Mesela 'Stay hydrated during the heatwave!' (Sıcak hava dalgası boyunca sulu kal!) diyerek arkadaşına tavsiye verebilirsin. Dikkatli olmakta fayda var!",
     "options": [
-      "celebration",
-      "problem",
-      "failure",
-      "sadness"
+      "heatwave",
+      "blizzard",
+      "downpour",
+      "fog"
     ],
-    "correctAnswer": "celebration",
-    "category": "CASUAL",
+    "correctAnswer": "heatwave",
+    "category": "TRAVEL",
     "variations": [
-      "We will have a family _____ next weekend.",
-      "What a fantastic _____ for the new year!"
+      "The country is experiencing an intense _____. We're preparing for a massive _____ next week."
     ]
   },
   {
     "id": 126070102,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Which weather condition describes a period of unusually hot weather?",
-    "translation": "Alışılmadık derecede sıcak hava periyodunu hangi hava durumu tanımlar?",
-    "context": "'Heatwave', yani 'sıcak hava dalgası' demek. Yazın bazen öyle günler olur ki, hava bir hafta boyunca fırın gibi yanar. İşte o zaman 'Aman dikkat, sıcak hava dalgası var!' derler. Dışarı çıkarken şapka ve bol su unutma!",
+    "phrase": "The companies agreed on a new business _____ after long negotiations.",
+    "translation": "Anlaşma",
+    "context": "'Deal', iş dünyasında bir anlaşma veya ticari işlem anlamına gelir. 'We closed the deal!' (Anlaşmayı yaptık!) veya 'It's a great deal!' (Harika bir anlaşma!) gibi ifadelerle işyerinde sıkça karşılaşırsın. Hatta pazarlık yaparken 'Can we make a deal?' bile diyebilirsin.",
     "options": [
-      "earthquake",
-      "heatwave",
-      "blizzard",
-      "flood"
+      "deal",
+      "fight",
+      "play",
+      "song"
     ],
-    "correctAnswer": "heatwave",
-    "category": "TRAVEL",
-    "variations": []
+    "correctAnswer": "deal",
+    "category": "BUSINESS",
+    "variations": [
+      "They want to make a _____. This is a record-breaking _____."
+    ]
   },
   {
     "id": 126070103,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The company managed to _____ a lot of money from investors.",
-    "translation": "Şirket yatırımcılardan çok para toplamayı başardı.",
-    "context": "'Raise', yani 'para toplamak' ya da 'fon sağlamak' anlamına gelir. Bir şirket büyümek istediğinde veya yeni bir proje için paraya ihtiyaç duyduğunda yatırımcılardan 'para toplar'. Mesela, 'Bu startup, yeni yatırımcılarla 10 milyon dolar toplamayı başardı.' gibi.",
+    "phrase": "My new phone has a serious _____ that makes it crash often.",
+    "translation": "Yazılım hatası",
+    "context": "'Bug' kelimesi normalde böcek demek ama teknoloji dünyasında yazılım hatası, programdaki sorun anlamına gelir. 'There's a bug in the system!' (Sistemde bir hata var!) veya 'They fixed the bug.' (Hatayı düzelttiler.) derken kullanabilirsin. Umarım senin telefonunda yoktur!",
     "options": [
-      "raise",
-      "lose",
-      "spend",
-      "hide"
+      "bug",
+      "flower",
+      "key",
+      "door"
     ],
-    "correctAnswer": "raise",
-    "category": "BUSINESS",
+    "correctAnswer": "bug",
+    "category": "CASUAL",
     "variations": [
-      "They want to _____ capital for their new venture.",
-      "We need to _____ funds for the charity event."
+      "The developers are working on fixing the _____. I found a weird _____ on this app."
     ]
   },
   {
     "id": 126070104,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Which word refers to a piece of equipment or mechanism designed for a particular purpose?",
-    "translation": "Belirli bir amaç için tasarlanmış bir ekipman veya mekanizma parçasını ifade eden kelime hangisidir?",
-    "context": "'Device', yani 'aygıt' veya 'cihaz' demek. Telefonun, tabletin, akıllı saatin... Hepsi birer 'device'! Bazen çok havalı, bazen de çok basit bir işe yarayan küçük aletlere denir. Yeni çıkan teknolojik ürünler için sıkça kullanılır.",
+    "phrase": "The suspect was _____ with fraud by the police yesterday.",
+    "translation": "Suçlandı",
+    "context": "'Charged with' bir suçla itham edilmek, suçlanmak anlamına gelir. Haberlerde veya hukukla ilgili konularda 'He was charged with theft.' (Hırsızlıkla suçlandı.) gibi duyabilirsin. Umarım sen hiç bu durumda kalmazsın!",
     "options": [
-      "emotion",
-      "device",
-      "opinion",
-      "idea"
+      "charged",
+      "slept",
+      "ate",
+      "ran"
     ],
-    "correctAnswer": "device",
+    "correctAnswer": "charged",
     "category": "MIXED",
-    "variations": []
+    "variations": [
+      "She was _____ with a serious offense. The man was _____ with a crime."
+    ]
   },
   {
     "id": 126070105,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The suspect was _____ with damaging public property after the incident.",
-    "translation": "Şüpheli olaydan sonra kamu malına zarar vermekle suçlandı.",
-    "context": "Hukukta 'to be charged with a crime', yani 'bir suçla itham edilmek' anlamına gelir. Polis seni bir suç işlediğinden şüphelenip mahkemeye sevk ettiğinde bu ifade kullanılır. Masumiyet karinesi unutulmamalı, suçlu olduğu kanıtlanana kadar herkes masumdur!",
+    "phrase": "Many people were _____ from the country after their visas expired.",
+    "translation": "Sınır dışı edildi",
+    "context": "'Deported' bir ülkenin yabancıyı yasal nedenlerle kendi ülkesine geri göndermesi durumudur. Haberlerde göçmenlik veya yasa dışı ikamet konularında 'The immigrant was deported.' (Göçmen sınır dışı edildi.) şeklinde duyabilirsin. Seyahat planlarını iyi yapmak lazım!",
     "options": [
-      "charged",
-      "helped",
-      "promoted",
-      "released"
+      "deported",
+      "invited",
+      "arrived",
+      "welcomed"
     ],
-    "correctAnswer": "charged",
-    "category": "MIXED",
+    "correctAnswer": "deported",
+    "category": "TRAVEL",
     "variations": [
-      "She was _____ with theft last week.",
-      "He's being _____ with assault."
+      "He was _____ for overstaying his visa. They face being _____ next month."
     ]
   },
   {
     "id": 126070106,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "A company whose shares are traded on a stock exchange is called a _____ company.",
-    "translation": "Hisseleri borsada işlem gören bir şirkete ne denir?",
-    "context": "'Public company' (halka açık şirket), hisseleri borsada alınıp satılabilen şirketlere denir. Yani herkes gidip bu şirketten hisse alabilir, ortak olabilir! Büyük şirketlerin çoğu, büyüme ve yatırım çekme hedefiyle halka arz olurlar. Apple, Microsoft gibi devler hep bu kategoride!",
+    "phrase": "Ashton Kutcher is launching a new _____ to invest in startups.",
+    "translation": "Girişim sermayesi şirketi",
+    "context": "'VC firm' (Venture Capital firm) Girişim Sermayesi Şirketi anlamına gelir. Genellikle yeni ve büyümekte olan şirketlere (startup'lara) yatırım yapan firmalar için kullanılır. Teknoloji haberlerinde veya iş dünyası sohbetlerinde 'Our startup received funding from a famous VC firm.' (Startup'ımız ünlü bir VC firmasından fon aldı.) şeklinde karşılaşabilirsin. Senin de bir startup fikrin varsa, belki bir gün bir VC firması seni bulur!",
     "options": [
-      "private",
-      "small",
-      "public",
-      "hidden"
+      "VC firm",
+      "car rental",
+      "grocery store",
+      "travel agency"
     ],
-    "correctAnswer": "public",
+    "correctAnswer": "VC firm",
     "category": "BUSINESS",
-    "variations": []
+    "variations": [
+      "The startup is seeking investment from a _____. They raised capital from a well-known _____."
+    ]
   },
   {
     "id": 126070107,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "They completed all preparations _____ the long holiday weekend.",
-    "translation": "Uzun tatil hafta sonundan önce tüm hazırlıkları tamamladılar.",
-    "context": "'Ahead of' demek, 'bir şeyden önce' veya 'bir şeyin önünde' olmak demek. Mesela, 'We need to finish this report ahead of the deadline.' (Son teslim tarihinden önce bu raporu bitirmeliyiz.) gibi. Zaman konusunda bir önden gitme durumunu ifade eder. Tatilden önce her şeyi halletmek gibi!",
+    "phrase": "The leader warned of a possible _____ within the organization.",
+    "translation": "Ayrılık / Bölünme",
+    "context": "'Schism' kelimesi özellikle dini veya siyasi gruplarda yaşanan ayrılık, bölünme, parçalanma anlamına gelir. Bir grubun veya organizasyonun üyeleri arasında ciddi anlaşmazlıklar çıktığında 'There's a growing schism in the party.' (Parti içinde büyüyen bir ayrılık var.) şeklinde kullanılabilir. Umarım senin grubunda hiç schism olmaz!",
     "options": [
-      "ahead of",
-      "behind",
-      "during",
-      "after"
+      "schism",
+      "unity",
+      "merger",
+      "agreement"
     ],
-    "correctAnswer": "ahead of",
-    "category": "TRAVEL",
+    "correctAnswer": "schism",
+    "category": "CASUAL",
     "variations": [
-      "We arrived at the airport _____ the flight.",
-      "The team is working hard _____ the product launch."
+      "The historical event caused a major _____. We must avoid a _____ in our community."
     ]
   },
   {
     "id": 126070108,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "If an idea or person is 'discredited', what has happened?",
-    "translation": "Bir fikir veya kişi 'gözden düşmüşse', ne olmuştur?",
-    "context": "'Discredited' olmak, yani 'gözden düşmek' ya da 'itibarını kaybetmek' demek. Bir teori, bir kişi ya da bir politika zamanla yanlış veya güvenilmez olduğu anlaşıldığında bu duruma düşer. Mesela, 'Eski bir teori, yeni bulgularla çürütüldü.' dediğimizde bu kelimeyi kullanabiliriz. Kimse inanmaz artık!",
+    "phrase": "The team fought hard to _____ their World Cup dream _____.",
+    "translation": "Hayallerini canlı tutmak",
+    "context": "'Keep a dream alive' bir hayali, bir amacı canlı tutmak, peşinden koşmaya devam etmek anlamına gelir. Özellikle spor veya kişisel hedeflerle ilgili 'She worked tirelessly to keep her Olympic dream alive.' (Olimpiyat hayalini canlı tutmak için durmaksızın çalıştı.) gibi cümlelerde duyabilirsin. Sakın pes etme!",
     "options": [
-      "They have gained popularity.",
-      "They have been highly praised.",
-      "They have lost belief or respect.",
-      "They have achieved success."
+      "keep / alive",
+      "lose / dead",
+      "give / up",
+      "start / new"
     ],
-    "correctAnswer": "They have lost belief or respect.",
-    "category": "CASUAL",
-    "variations": []
+    "correctAnswer": "keep / alive",
+    "category": "MIXED",
+    "variations": [
+      "They must win this game to _____ their hopes _____. It's crucial to _____ our aspirations _____."
+    ]
   },
   {
     "id": 126070109,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The controversial decisions could lead to a _____ within the organization.",
-    "translation": "Tartışmalı kararlar organizasyon içinde bir bölünmeye yol açabilir.",
-    "context": "'Schism', yani 'bölünme' ya da 'ayrılık' demek. Genellikle dini veya siyasi gruplar içinde büyük anlaşmazlıklar çıktığında, bu grupların ikiye veya daha fazla parçaya ayrılması durumunu ifade eder. Sanki bir aile kavgası gibi, ama çok daha büyük ölçekte ve geri dönülmez bir ayrılıkla sonuçlanabiliyor.",
+    "phrase": "The US decided to _____ the long-term renewal of the trade deal.",
+    "translation": "Engellemek",
+    "context": "'Block' kelimesi engellemek, tıkamak anlamına gelir. Özellikle siyasi veya ticari anlaşmalarda bir şeyin ilerlemesini durdurmak için kullanılır. Mesela 'The opposition tried to block the new law.' (Muhalefet yeni yasayı engellemeye çalıştı.) Yüksek siyasette sıkça duyduğun bir kelime!",
     "options": [
-      "schism",
-      "unity",
-      "merger",
-      "consensus"
+      "block",
+      "allow",
+      "support",
+      "facilitate"
     ],
-    "correctAnswer": "schism",
-    "category": "CASUAL",
+    "correctAnswer": "block",
+    "category": "TRAVEL",
     "variations": [
-      "Historically, many churches have faced periods of _____.",
-      "The party faced a deep _____ over its new leadership."
+      "They tried to _____ the construction project. The council will _____ the proposed changes."
     ]
   },
   {
     "id": 126070110,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Which type of firm specializes in investing in startups and early-stage companies?",
-    "translation": "Hangi tür firma startup'lara ve erken aşama şirketlere yatırım yapma konusunda uzmanlaşmıştır?",
-    "context": "'VC firm' (Venture Capital firm) demek, 'Girişim Sermayesi Şirketi' demek. Yani, gelecek vaat eden ama henüz çok genç şirketlere (startup'lara) büyük paralar yatırıp büyümelerine yardımcı olan firmalar. Bir nevi startup'ların 'melek yatırımcıları' gibi düşünebilirsin, ama daha büyük ölçekte ve profesyonelce. Büyürlerse firmaya da para kazandırırlar!",
+    "phrase": "Trump's attempt to avoid payment didn't succeed. Which phrase describes this?",
+    "translation": "Temyiz başvurusu reddedildi.",
+    "context": "'Appeal fails' yasal bir başvurunun, bir üst mahkemeye yapılan itirazın reddedilmesi anlamına gelir. Hukuk haberlerinde sıkça karşılaşırsın. Mesela bir mahkeme kararını beğenmeyip daha yüksek bir mahkemeye gittiğinde 'His appeal was denied.' (Temyiz başvurusu reddedildi.) diyebilirler. Bazen adalet yerini bulur!",
     "options": [
-      "Accounting firm",
-      "Law firm",
-      "Venture Capital (VC) firm",
-      "Marketing agency"
+      "His appeal failed.",
+      "His appeal worked.",
+      "His appeal was successful.",
+      "His appeal made money."
     ],
-    "correctAnswer": "Venture Capital (VC) firm",
+    "correctAnswer": "His appeal failed.",
     "category": "BUSINESS",
     "variations": []
   },
   {
     "id": 126070111,
-    "type": "QUIZ_COMPLETION",
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "After their visas expired, the immigrants were _____ from the country.",
-    "translation": "Vizeleri bittikten sonra göçmenler ülkeden sınır dışı edildi.",
-    "context": "'Deported' olmak, yani 'sınır dışı edilmek' demek. Bir kişinin, yasal bir hakkı olmadan veya vizesi bittiği için yaşadığı ülkeden zorla çıkarılması durumudur. Genellikle hukuki süreçler sonucunda gerçekleşir ve kişiye belirli bir süre ülkeye giriş yasağı da getirilebilir. Üzücü bir durum.",
+    "phrase": "Which phrase describes a policy that has lost its credibility or is no longer trusted?",
+    "translation": "İtibarı zedelenmiş bir politika.",
+    "context": "'Discredited' güvenilirliğini yitirmiş, itibarı zedelenmiş veya yanlış olduğu kanıtlanmış anlamına gelir. Özellikle bir teori, politika veya kişi hakkında 'The old theory was eventually discredited.' (Eski teori sonunda itibarsızlaştırıldı/geçersiz kılındı.) şeklinde kullanılır. Bazen bazı fikirlerin miadı dolar, değil mi?",
     "options": [
-      "deported",
-      "welcomed",
-      "naturalized",
-      "invited"
+      "A discredited policy.",
+      "A popular policy.",
+      "A new policy.",
+      "An effective policy."
     ],
-    "correctAnswer": "deported",
-    "category": "TRAVEL",
-    "variations": [
-      "He was _____ after overstaying his welcome.",
-      "The government decided to _____ the illegal residents."
-    ]
+    "correctAnswer": "A discredited policy.",
+    "category": "CASUAL",
+    "variations": []
   },
   {
     "id": 126070112,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "What does it mean to 'save the day'?",
-    "translation": "'Günü kurtarmak' ne anlama gelir?",
-    "context": "'Save the day' deyimi, 'günü kurtarmak' veya 'felaketi önlemek' anlamına gelir. Genellikle son anda ortaya çıkıp kötü giden bir durumu iyiye çeviren kişiler için kullanılır. Mesela, 'Tam her şey batıyordu ki, süper kahraman gibi gelip durumu kurtardı!' dediğimizde bu deyimcuk tam oturur. Harry Kane de takımı için aynısını yapmış!",
+    "phrase": "The company is developing an advanced AI _____ for future use.",
+    "translation": "Prototip",
+    "context": "'Prototype' bir ürünün veya cihazın ilk modeli, deneme sürümü veya prototipi demektir. Özellikle teknoloji ve mühendislik alanında 'They showcased a prototype of their new electric car.' (Yeni elektrikli arabalarının bir prototipini sergilediler.) gibi duyabilirsin. Geleceğin teknolojilerini ilk görenlerden olmak harika bir duygu!",
     "options": [
-      "To plan a successful event.",
-      "To cause a problem.",
-      "To prevent a failure or disaster at the last moment.",
-      "To ignore an urgent situation."
+      "prototype",
+      "painting",
+      "poem",
+      "recipe"
     ],
-    "correctAnswer": "To prevent a failure or disaster at the last moment.",
+    "correctAnswer": "prototype",
     "category": "MIXED",
-    "variations": []
+    "variations": [
+      "We are working on a new software _____. The engineers built a working _____."
+    ]
   }
 ]
