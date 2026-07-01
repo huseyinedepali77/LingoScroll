@@ -78,8 +78,18 @@ class MainScreenViewModel(context: Context) : ViewModel() {
     val uiState: StateFlow<MainScreenUiState> = _uiState.asStateFlow()
 
     private val pendingCardUpdates = mutableMapOf<Int, Boolean>()
+    private val failCountMap = mutableMapOf<Int, Int>()
     private val sessionQueue = mutableListOf<SurvivalCard>()
     private var secondsTimerActive = 0L
+
+    private fun updateFailCount(cardId: Int, isCorrect: Boolean) {
+        if (isCorrect) {
+            failCountMap.remove(cardId)
+        } else {
+            val current = failCountMap[cardId] ?: 0
+            failCountMap[cardId] = current + 1
+        }
+    }
     private var activeStressTestQuestions = listOf<SurvivalCard>()
 
     // 5 Soruluk Statik Onboarding Stres Testi Havuzu
@@ -318,6 +328,7 @@ class MainScreenViewModel(context: Context) : ViewModel() {
 
         val isCorrect = answer == currentState.currentItem.targetEn
         prefs.incrementQuestionsStats(isCorrect)
+        updateFailCount(currentState.currentItem.id, isCorrect)
         
         viewModelScope.launch(Dispatchers.IO) {
             repository.updateCardProgress(currentState.currentItem.id, isCorrect)
@@ -343,6 +354,7 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         if (!currentState.isSkeletonRevealed) return
 
         prefs.incrementQuestionsStats(success)
+        updateFailCount(currentState.currentItem.id, success)
 
         viewModelScope.launch(Dispatchers.IO) {
             repository.updateCardProgress(currentState.currentItem.id, success)
@@ -386,6 +398,7 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         if (newClicked.size == currentState.currentItem.optionsList.size) {
             val isCorrect = newClicked == currentState.currentItem.optionsList
             prefs.incrementQuestionsStats(isCorrect)
+            updateFailCount(currentState.currentItem.id, isCorrect)
             
             viewModelScope.launch(Dispatchers.IO) {
                 repository.updateCardProgress(currentState.currentItem.id, isCorrect)
@@ -413,11 +426,14 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         val wrongWord = currentState.currentItem.optionsList.getOrNull(1) ?: ""
         val correctReplacement = currentState.currentItem.optionsList.getOrNull(2) ?: ""
 
-        val cleanedTapped = word.trim(' ', '.', '?', ',', '!', '"', '\'')
-        val cleanedWrong = wrongWord.trim(' ', '.', '?', ',', '!', '"', '\'')
+        val cleanClicked = word.lowercase().replace(Regex("[.,!?]"), "").trim()
+        val cleanTarget = currentState.currentItem.targetEn.lowercase().replace(Regex("[.,!?]"), "")
+        val targetWords = cleanTarget.split(" ").map { it.trim() }.filter { it.isNotEmpty() }
 
-        val isCorrect = cleanedTapped.equals(cleanedWrong, ignoreCase = true)
+        // Kural: Eğer temizlenmiş clickedWord, temizlenmiş targetEn cümlesinin kelimeleri içinde YOKSA başarılı say
+        val isCorrect = cleanClicked !in targetWords
         prefs.incrementQuestionsStats(isCorrect)
+        updateFailCount(currentState.currentItem.id, isCorrect)
 
         viewModelScope.launch(Dispatchers.IO) {
             repository.updateCardProgress(currentState.currentItem.id, isCorrect)
@@ -453,9 +469,11 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         if (!currentState.isAnswerEvaluated) return
 
         val isCorrect = currentState.isAnswerCorrect
+        val cardId = currentState.currentItem.id
 
         if (isCorrect) {
-            prefs.addRecentSeenId(currentState.currentItem.id)
+            failCountMap.remove(cardId)
+            prefs.addRecentSeenId(cardId)
             if (sessionQueue.isNotEmpty()) {
                 sessionQueue.removeAt(0)
             }
@@ -469,10 +487,29 @@ class MainScreenViewModel(context: Context) : ViewModel() {
                 return
             }
         } else {
-            // Yanlış yapılan soruyu kuyruğun sonuna taşı
-            if (sessionQueue.isNotEmpty()) {
-                val wrongCard = sessionQueue.removeAt(0)
-                sessionQueue.add(wrongCard)
+            val currentFailCount = failCountMap[cardId] ?: 0
+            if (currentFailCount >= 3) {
+                // 3-Strike Rule: Üst üste 3 kez yanlış bilindiğinde force pass uygula
+                failCountMap.remove(cardId)
+                prefs.addRecentSeenId(cardId)
+                if (sessionQueue.isNotEmpty()) {
+                    sessionQueue.removeAt(0)
+                }
+                prefs.incrementStageProgress()
+                
+                if (prefs.getStageProgress() >= 15) {
+                    _uiState.value = currentState.copy(
+                        stageProgress = 15,
+                        showStageComplete = true
+                    )
+                    return
+                }
+            } else {
+                // Yanlış yapılan soruyu normal olarak kuyruğun sonuna taşı
+                if (sessionQueue.isNotEmpty()) {
+                    val wrongCard = sessionQueue.removeAt(0)
+                    sessionQueue.add(wrongCard)
+                }
             }
         }
 

@@ -24,6 +24,10 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation3.runtime.NavKey
 import com.example.lingoscroll.data.local.SurvivalCard
 import com.example.lingoscroll.theme.*
+import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import kotlin.OptIn
+
 
 @Composable
 fun MainScreen(
@@ -201,7 +205,7 @@ fun StressTestQuizScreen(
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 Text(
-                    text = state.currentQuestion.scenarioTr,
+                    text = cleanScenarioText(state.currentQuestion.scenarioTr),
                     fontSize = 18.sp,
                     fontWeight = FontWeight.Medium,
                     color = SurvivalText,
@@ -416,7 +420,7 @@ fun PracticeScreen(
                                 )
                                 Spacer(modifier = Modifier.height(8.dp))
                                 Text(
-                                    text = state.currentItem.scenarioTr,
+                                    text = cleanScenarioText(state.currentItem.scenarioTr),
                                     fontSize = 16.sp,
                                     fontWeight = FontWeight.Medium,
                                     color = SurvivalText,
@@ -619,7 +623,7 @@ fun SkeletonMechanicView(
                         shape = RoundedCornerShape(10.dp),
                         modifier = Modifier.weight(1f)
                     ) {
-                        Text("Bilemedim")
+                        Text("Bilemedim", maxLines = 1, softWrap = false, fontSize = 12.sp)
                     }
                     Button(
                         onClick = { onEvaluate(true) },
@@ -627,7 +631,7 @@ fun SkeletonMechanicView(
                         shape = RoundedCornerShape(10.dp),
                         modifier = Modifier.weight(1f)
                     ) {
-                        Text("Zor")
+                        Text("Zor", maxLines = 1, softWrap = false, fontSize = 12.sp)
                     }
                     Button(
                         onClick = { onEvaluate(true) },
@@ -635,7 +639,7 @@ fun SkeletonMechanicView(
                         shape = RoundedCornerShape(10.dp),
                         modifier = Modifier.weight(1f)
                     ) {
-                        Text("Kolay")
+                        Text("Kolay", maxLines = 1, softWrap = false, fontSize = 12.sp)
                     }
                 }
             }
@@ -687,6 +691,7 @@ fun SwipeMechanicView(
 }
 
 // 4.3 CHUNK VIEW
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun ChunkMechanicView(
     state: MainScreenUiState.Practice,
@@ -723,12 +728,15 @@ fun ChunkMechanicView(
                             .background(SurvivalPrimary, RoundedCornerShape(8.dp))
                             .clickable { if (!state.isAnswerEvaluated) onClickChunk(chunk) }
                             .padding(horizontal = 12.dp, vertical = 6.dp)
+                            .wrapContentWidth()
                     ) {
                         Text(
                             text = chunk,
                             color = Color.White,
                             fontWeight = FontWeight.Bold,
-                            fontSize = 14.sp
+                            fontSize = 14.sp,
+                            maxLines = 1,
+                            softWrap = false
                         )
                     }
                 }
@@ -737,11 +745,11 @@ fun ChunkMechanicView(
 
         Spacer(modifier = Modifier.height(20.dp))
 
-        // Karıştırılmış Buton Havuzu
-        Row(
+        // Karıştırılmış Buton Havuzu (FlowRow ile taşmalar engellendi)
+        FlowRow(
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.Center,
-            verticalAlignment = Alignment.CenterVertically
+            verticalArrangement = Arrangement.spacedBy(8.dp)
         ) {
             state.shuffledChunks.forEach { chunk ->
                 val isSelected = chunk in state.clickedChunks
@@ -755,12 +763,15 @@ fun ChunkMechanicView(
                         .border(1.dp, SurvivalBorder, RoundedCornerShape(8.dp))
                         .clickable(enabled = !isSelected && !state.isAnswerEvaluated) { onClickChunk(chunk) }
                         .padding(horizontal = 12.dp, vertical = 8.dp)
+                        .wrapContentWidth()
                 ) {
                     Text(
                         text = chunk,
                         color = if (isSelected) Color.Gray else SurvivalText,
                         fontSize = 14.sp,
-                        fontWeight = FontWeight.Medium
+                        fontWeight = FontWeight.Medium,
+                        maxLines = 1,
+                        softWrap = false
                     )
                 }
             }
@@ -769,6 +780,7 @@ fun ChunkMechanicView(
 }
 
 // 4.4 ERROR FIND VIEW
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun ErrorFindMechanicView(
     state: MainScreenUiState.Practice,
@@ -790,10 +802,10 @@ fun ErrorFindMechanicView(
             state.errorSentenceText.split(" ")
         }
 
-        Row(
-            modifier = Modifier.horizontalScroll(rememberScrollState()),
-            horizontalArrangement = Arrangement.spacedBy(6.dp),
-            verticalAlignment = Alignment.CenterVertically
+        FlowRow(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.Center,
+            verticalArrangement = Arrangement.spacedBy(8.dp)
         ) {
             words.forEach { word ->
                 val isClicked = state.tappedErrorWord == word
@@ -806,16 +818,20 @@ fun ErrorFindMechanicView(
 
                 Box(
                     modifier = Modifier
+                        .padding(4.dp)
                         .background(bgColor, RoundedCornerShape(8.dp))
                         .border(1.dp, SurvivalBorder, RoundedCornerShape(8.dp))
                         .clickable(enabled = !state.isAnswerEvaluated) { onClickWord(word) }
                         .padding(horizontal = 10.dp, vertical = 8.dp)
+                        .wrapContentWidth()
                 ) {
                     Text(
                         text = word,
                         color = txtColor,
                         fontSize = 16.sp,
-                        fontWeight = FontWeight.SemiBold
+                        fontWeight = FontWeight.SemiBold,
+                        maxLines = 1,
+                        softWrap = false
                     )
                 }
             }
@@ -1009,4 +1025,8 @@ fun toSkeletonText(sentence: String): String {
         }
         sb.toString()
     }.joinToString(" ")
+}
+
+fun cleanScenarioText(text: String): String {
+    return text.replace(Regex("\\s*\\([^)]*\\)"), "").trim()
 }
