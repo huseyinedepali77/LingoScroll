@@ -14,6 +14,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.hapticfeedback.HapticFeedbackType
 import androidx.compose.ui.platform.LocalHapticFeedback
@@ -30,6 +31,9 @@ import com.example.lingoscroll.theme.*
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import kotlin.OptIn
+import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.focusRequester
+import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 
@@ -579,8 +583,15 @@ fun SkeletonMechanicView(
     onInputChange: (String) -> Unit,
     onUseJoker: () -> Unit
 ) {
-    val skeletonText = remember(state.currentItem.targetEn) {
-        toSkeletonText(state.currentItem.targetEn)
+    val dynamicSkeleton = remember(state.currentItem.targetEn, state.userInput) {
+        toDynamicSkeletonText(state.currentItem.targetEn, state.userInput)
+    }
+
+    val focusRequester = remember { FocusRequester() }
+    
+    // Soru değiştiğinde klavyeyi otomatik odakla
+    LaunchedEffect(state.currentItem.id) {
+        focusRequester.requestFocus()
     }
 
     val haptic = LocalHapticFeedback.current
@@ -599,26 +610,38 @@ fun SkeletonMechanicView(
     Column(
         modifier = Modifier
             .fillMaxWidth()
+            .clickable { focusRequester.requestFocus() } // Tıklandığında klavyeyi aç/odakla
             .padding(8.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        // Görünmez Klavye Giriş Alanı (Hayalet Klavye)
+        BasicTextField(
+            value = state.userInput,
+            onValueChange = onInputChange,
+            modifier = Modifier
+                .focusRequester(focusRequester)
+                .size(0.dp)
+                .alpha(0f),
+            enabled = !state.isAnswerEvaluated
+        )
+
         Text(
-            text = "İskelet Cümle:",
+            text = "İskelet Cümle (Yazmaya Başlayın):",
             fontSize = 12.sp,
             fontWeight = FontWeight.Bold,
             color = SurvivalDanger
         )
-        Spacer(modifier = Modifier.height(8.dp))
+        Spacer(modifier = Modifier.height(16.dp))
         Text(
-            text = skeletonText,
-            fontSize = 20.sp,
+            text = dynamicSkeleton,
+            fontSize = 22.sp,
             fontWeight = FontWeight.Bold,
             color = SurvivalText,
             textAlign = TextAlign.Center,
-            letterSpacing = 1.sp
+            letterSpacing = 4.sp // Karakterlerin ayrışması için geniş aralık
         )
         
-        Spacer(modifier = Modifier.height(16.dp))
+        Spacer(modifier = Modifier.height(20.dp))
 
         // Hata Geri Bildirim Metni (Görsel Animasyonlu)
         if (state.showErrorAnimation || errorAlpha > 0.01f) {
@@ -635,23 +658,7 @@ fun SkeletonMechanicView(
             Spacer(modifier = Modifier.height(20.dp))
         }
 
-        Spacer(modifier = Modifier.height(8.dp))
-        
-        OutlinedTextField(
-            value = state.userInput,
-            onValueChange = onInputChange,
-            placeholder = { Text("Cümleyi yazın...") },
-            modifier = Modifier.fillMaxWidth(),
-            shape = RoundedCornerShape(12.dp),
-            enabled = !state.isAnswerEvaluated,
-            colors = OutlinedTextFieldDefaults.colors(
-                focusedBorderColor = SurvivalPrimary,
-                cursorColor = SurvivalPrimary
-            ),
-            singleLine = true
-        )
-        
-        Spacer(modifier = Modifier.height(16.dp))
+        Spacer(modifier = Modifier.height(24.dp))
         
         Row(
             modifier = Modifier.fillMaxWidth(),
@@ -1050,6 +1057,23 @@ fun toSkeletonText(sentence: String): String {
         }
         sb.toString()
     }.joinToString(" ")
+}
+
+fun toDynamicSkeletonText(target: String, userInput: String): String {
+    val sb = java.lang.StringBuilder()
+    for (i in target.indices) {
+        val char = target[i]
+        if (i < userInput.length) {
+            sb.append(char)
+        } else {
+            if (char.isLetterOrDigit()) {
+                sb.append('_')
+            } else {
+                sb.append(char)
+            }
+        }
+    }
+    return sb.toString()
 }
 
 fun cleanScenarioText(text: String): String {
