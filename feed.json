@@ -3,228 +3,228 @@
     "id": 126070201,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "After the earthquake, a _____ was found alive.",
-    "translation": "Depremden sonra bir kurtulan canlı bulundu.",
-    "context": "'Survivor' kelimesi, zor bir olaydan sağ kurtulan kişiyi ifade eder. Bir depremden sonra hayatta kalan kişiye de 'survivor' denir. Hatta ünlü bir TV programı bile var! Hayatta kalmak zordur, o yüzden 'survivor' olmak takdire şayandır.",
+    "phrase": "The rescuers pulled the cat _____ from the rubble.",
+    "translation": "Kurtarıcılar kediyi enkazdan canlı çıkardı.",
+    "context": "Bir felaket veya olay sonrası 'canlı kurtarıldı' demek için 'pulled out alive' kalıbı süper pratik! Film sahnelerinde kahramanlar hep birilerini enkazdan böyle çıkarır, aklında kalsın.",
     "options": [
-      "survivor",
-      "victim",
-      "helper",
-      "witness"
+      "alive",
+      "live",
+      "living",
+      "life"
     ],
-    "correctAnswer": "survivor",
+    "correctAnswer": "alive",
     "category": "CASUAL",
     "variations": [
-      "Many survivors were rescued after the big storm.",
-      "She is a cancer survivor."
+      "The dog was found _____ after the fire.",
+      "They were lucky to be pulled _____ from the accident."
     ]
   },
   {
     "id": 126070202,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "A dangerous _____ is expected this summer.",
-    "translation": "Bu yaz tehlikeli bir sıcak hava dalgası bekleniyor.",
-    "context": "'Heatwave' dediğimizde, hava sıcaklığının uzun süre boyunca normalden çok daha yüksek seyrettiği dönemi anlatırız. Yaz tatili planları yaparken 'heatwave' gelmesin diye dua ederiz, çünkü aşırı sıcaklar gezmeyi zorlaştırabilir! Güneş kreminizi ve şapkanızı unutmayın.",
+    "phrase": "A new startup needs a big _____ to start.",
+    "translation": "Yeni bir girişimin başlamak için büyük bir yatırıma ihtiyacı var.",
+    "context": "Bir şirket veya proje, özellikle yeni başlayanlar için 'backing' yani finansal destek veya 'investment' (yatırım) aldığında, işler tıkır tıkır ilerler. Hani şu girişimcilik programlarında jüriye çıkıp 'yatırım arıyoruz' dersin ya, işte o!",
     "options": [
-      "heatwave",
-      "cold spell",
-      "storm",
-      "breeze"
+      "investment",
+      "investor",
+      "invest",
+      "investing"
     ],
-    "correctAnswer": "heatwave",
-    "category": "TRAVEL",
+    "correctAnswer": "investment",
+    "category": "BUSINESS",
     "variations": [
-      "We had a long heatwave last August.",
-      "The heatwave made it hard to sleep."
+      "The company is looking for foreign _____.",
+      "His best _____ was in real estate."
     ]
   },
   {
     "id": 126070203,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "They decided to _____ money to charity.",
-    "translation": "Hayır kurumuna para bağışlamaya karar verdiler.",
-    "context": "'Donate' fiili, bir şeyi karşılık beklemeden vermek, bağışlamak demektir. Özellikle hayır kurumlarına para veya eşya verirken 'donate' kelimesini kullanırız. Cebimizden bir miktar çıkınca belki üzülürüz ama aslında çok iyi bir şey yapmış oluruz!",
+    "phrase": "We are planning a trip for the upcoming _____ weekend.",
+    "translation": "Yaklaşan tatil hafta sonu için bir gezi planlıyoruz.",
+    "context": "'Holiday weekend' demek, resmi tatil + hafta sonu birleşimiyle ortaya çıkan uzun tatil demek. Genelde herkesin kaçamak yapmak için can attığı o süper günler! 'Hadi bir yerlere kaçalım!' dediğin anlar için birebir.",
     "options": [
-      "donate",
-      "borrow",
-      "lend",
-      "spend"
+      "holiday",
+      "vacation",
+      "break",
+      "rest"
     ],
-    "correctAnswer": "donate",
-    "category": "BUSINESS",
+    "correctAnswer": "holiday",
+    "category": "TRAVEL",
     "variations": [
-      "She donates blood regularly.",
-      "Please donate old clothes."
+      "I always look forward to a long _____ weekend.",
+      "Is it a national _____ tomorrow?"
     ]
   },
   {
     "id": 126070204,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "What is a 'bank holiday'?",
-    "translation": "'Bank holiday' nedir?",
-    "context": "'Bank holiday', İngiltere'de ve bazı diğer ülkelerde resmi tatil anlamına gelir. Adı 'banka tatili' olsa da, aslında bankalar dahil çoğu iş yeri kapalı olur. Yani, maç varsa ve 'bank holiday' gelirse, oh ne âlâ, herkes işten güçten uzaklaşıp maçı izler! Mis gibi uzun bir hafta sonu demek.",
-    "options": [
-      "A day when banks are closed but other businesses are open.",
-      "A national public holiday, often resulting in a long weekend.",
-      "A day for special banking events.",
-      "A holiday specifically for bank employees."
-    ],
-    "correctAnswer": "A national public holiday, often resulting in a long weekend.",
-    "category": "MIXED",
-    "variations": []
-  },
-  {
-    "id": 126070205,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "He traveled to another country, _____ asylum.",
-    "translation": "Başka bir ülkeye, sığınma hakkı arayarak gitti.",
-    "context": "'Seeking asylum', yani sığınma hakkı aramak, bir kişinin kendi ülkesinde zulümden veya tehlikeden kaçarak başka bir ülkede koruma istemesidir. Hayatın ne kadar zor ve karmaşık olabileceğini gösteren bir ifade. Düşünsene, her şeyi geride bırakıp yeni bir başlangıç yapmak zorunda kalmak... Kolay iş değil!",
+    "level": "BEGINNER",
+    "phrase": "The news reported a _____ attack on the city.",
+    "translation": "Haberler şehre büyük bir saldırı olduğunu bildirdi.",
+    "context": "'Massive' kelimesi bir şeyin çok büyük, devasa veya çok etkili olduğunu anlatmak için kullanılır. Deprem, saldırı gibi olumsuz olaylar için de, dev bir konser veya bir indirim kampanyası için de duyabilirsin. 'Vay be, ne kadar büyük bir şey!' demek istediğinde aklına gelsin.",
     "options": [
-      "seeking asylum",
-      "buying property",
-      "visiting friends",
-      "starting a business"
+      "massive",
+      "huge",
+      "big",
+      "large"
     ],
-    "correctAnswer": "seeking asylum",
-    "category": "TRAVEL",
+    "correctAnswer": "massive",
+    "category": "MIXED",
     "variations": [
-      "Many refugees are seeking asylum.",
-      "The family is seeking asylum in Canada."
+      "They made a _____ effort to clean the park.",
+      "The building suffered _____ damage."
     ]
   },
   {
-    "id": 126070206,
+    "id": 126070205,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "What does 'leadership shakeup' mean?",
-    "translation": "'Leadership shakeup' ne anlama gelir?",
-    "context": "'Leadership shakeup' (liderlik sarsıntısı/değişikliği), bir şirketin üst yönetiminde yapılan büyük değişiklikleri ifade eder. Sanki bir satranç tahtası gibi, yeni gelen CEO tüm taşları yeniden diziyor! Bazen iyiye işaret, bazen de zor zamanların habercisi olabilir. Dedikodulara kulak kabartmak lazım!",
+    "phrase": "Why was the person _____ asylum in the UK?",
+    "translation": "Bu kişi neden İngiltere'de sığınma talep ediyordu?",
+    "context": "'Seeking asylum' demek, bir ülkede siyasi nedenlerle veya güvenliğin tehlikede olması nedeniyle 'sığınma' talep etmek demektir. Yani o ülkenin kapısını çalıp 'Benim durumum zor, bana burada kalma izni verin' demek. Haberlerde sıkça karşımıza çıkar, önemli bir terim.",
     "options": [
-      "A minor change in company policy.",
-      "A significant restructuring or change in top management.",
-      "A new marketing campaign launch.",
-      "A sudden increase in sales figures."
+      "seeking",
+      "finding",
+      "getting",
+      "wanting"
     ],
-    "correctAnswer": "A significant restructuring or change in top management.",
-    "category": "BUSINESS",
+    "correctAnswer": "seeking",
+    "category": "CASUAL",
     "variations": []
+  },
+  {
+    "id": 126070206,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "A country's 'sovereign wealth fund' manages its _____ assets.",
+    "translation": "Bir ülkenin 'devlet varlık fonu', ulusal varlıklarını yönetir.",
+    "context": "'Sovereign wealth fund' dediğimiz şey, devletlerin genellikle petrol, doğalgaz gibi kaynaklardan elde ettikleri fazla gelirleri veya döviz rezervlerini yatırıma dönüştürmek için kurduğu devasa fonlardır. Ülkenin geleceği için stratejik yatırımlar yaparlar. Sanki ülkenin kocaman bir kumbarası gibi düşünebilirsin!",
+    "options": [
+      "national",
+      "private",
+      "personal",
+      "foreign"
+    ],
+    "correctAnswer": "national",
+    "category": "BUSINESS",
+    "variations": [
+      "Many nations invest in a _____ wealth fund.",
+      "The fund aims to boost the country's _____ economy."
+    ]
   },
   {
     "id": 126070207,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The couple now _____ 8 charges.",
-    "translation": "Çift şimdi 8 suçlamayla karşı karşıya.",
-    "context": "'Face charges', bir suçtan dolayı yasal olarak suçlanmak ve mahkemede hesap vermek anlamına gelir. Empire State Binası'na tırmanmak cesurca bir hareket olabilir ama yasal sonuçları da var. Sanki bir oyunda 'Level Up' yerine 'Charge Up' yapmış gibi! Ne de olsa kanunlar herkese eşit uygulanır.",
+    "phrase": "The new virus is expected to _____ across the country rapidly.",
+    "translation": "Yeni virüsün ülke çapında hızla yayılması bekleniyor.",
+    "context": "'Sweep across' deyimi, bir şeyin (hava olayı, trend, hastalık vb.) geniş bir alanı hızlıca ve yaygın bir şekilde kaplaması, 'silip süpürmesi' anlamına gelir. Bir fırtınanın ülkeyi sarması ya da yeni bir modanın tüm şehri etkisi altına alması gibi durumlar için ideal.",
     "options": [
-      "face",
-      "avoid",
-      "drop",
-      "ignore"
+      "sweep",
+      "rush",
+      "move",
+      "spread"
     ],
-    "correctAnswer": "face",
-    "category": "CASUAL",
+    "correctAnswer": "sweep",
+    "category": "TRAVEL",
     "variations": [
-      "She will face criminal charges.",
-      "They face many charges for vandalism."
+      "The storm will _____ the region by morning.",
+      "A wave of enthusiasm _____ the crowd."
     ]
   },
   {
     "id": 126070208,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "What does 'driest June on record' mean?",
-    "translation": "'Kaydedilen en kurak Haziran' ne anlama gelir?",
-    "context": "'On record' (kaydedilen) ifadesi, mevcut verilerin tutulmaya başlandığı zamandan beri görülen en... anlamında kullanılır. 'Driest June on record' ise, bugüne kadar kaydedilmiş tüm Haziran ayları arasında en kurak olanı demek. Yani, tarihe geçecek kadar az yağmur yağmış! Çiftçilerin yüzü asık olabilir.",
+    "phrase": "Last summer, we experienced a historic _____ for weeks.",
+    "translation": "Geçen yaz, haftalarca süren tarihi bir sıcak hava dalgası yaşadık.",
+    "context": "'Heatwave' dediğimizde, uzun süren ve normalin çok üzerindeki sıcaklıklarla karakterize olan 'sıcak hava dalgasını' kastediyoruz. Hani şu 'off, hava çok sıcak, klimalar yetmiyor!' diye isyan ettiğin günler oluyor ya, işte o!",
     "options": [
-      "June had a lot of rainfall recently.",
-      "It was the wettest June ever recorded.",
-      "June had the least rainfall since records began.",
-      "The weather in June was average."
+      "coldwave",
+      "heatwave",
+      "blizzard",
+      "downpour"
     ],
-    "correctAnswer": "June had the least rainfall since records began.",
+    "correctAnswer": "heatwave",
     "category": "MIXED",
     "variations": []
   },
   {
     "id": 126070209,
-    "type": "QUIZ_COMPLETION",
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "The church decided to _____ members who disobeyed.",
-    "translation": "Kilise, itaat etmeyen üyeleri aforoz etmeye karar verdi.",
-    "context": "'Excommunicate' kelimesi, birini kilise üyeliğinden veya bir topluluktan resmen çıkarmak, aforoz etmek anlamına gelir. Bu öyle sıradan bir 'artık arkadaş değiliz' durumu değil, çok daha ciddi bir dışlama. Sanki Hogwarts'tan atılmak gibi, yani bir daha geri dönemeyecek kadar büyük bir ceza! Bir nevi 'kapı dışarı etmek' diyebiliriz ama daha dini ve resmi.",
+    "phrase": "The church decided to _____ the rebellious members from its community.",
+    "translation": "Kilise, asi üyeleri cemaatinden aforoz etmeye karar verdi.",
+    "context": "'Excommunicate' kelimesi, özellikle dini kurumlarda birini cemaatten resmen atmak, 'aforoz etmek' anlamına gelir. Sanki bir oyun grubundan kurallara uymadığı için atılmak gibi ama daha ciddi dini sonuçları olan bir durum. Bu kelimeyi duyduğunda genellikle büyük bir anlaşmazlık veya ihlal olduğunu anlarsın.",
     "options": [
+      "include",
+      "integrate",
       "excommunicate",
-      "welcome",
-      "baptize",
-      "forgive"
+      "welcome"
     ],
     "correctAnswer": "excommunicate",
     "category": "CASUAL",
-    "variations": [
-      "Historically, popes could excommunicate kings.",
-      "He was excommunicated for heresy."
-    ]
+    "variations": []
   },
   {
     "id": 126070210,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "What is a 'sovereign wealth fund'?",
-    "translation": "'Sovereign wealth fund' nedir?",
-    "context": "'Sovereign wealth fund' (devlet servet fonu), bir ülkenin genellikle fazla bütçe gelirleri veya doğal kaynak satışlarından elde ettiği parayı uzun vadeli yatırım yapmak için kurduğu bir fondur. Yani devletin 'kumbara'sı gibi düşün, ama bu kumbaranın içinde milyarlarca dolar var ve profesyonelce yönetiliyor. Gelecek nesillere miras bırakmak için akıllıca bir yol!",
+    "phrase": "After the merger, the new CEO initiated a major _____ to reorganize the company.",
+    "translation": "Birleşmeden sonra, yeni CEO şirketi yeniden düzenlemek için büyük bir değişime başladı.",
+    "context": "'Shakeup' veya 'leadership shakeup' bir şirkette veya organizasyonda üst düzey yönetim pozisyonlarında büyük ve ani değişiklikler yaşanması durumunu anlatır. Sanki bir kutuyu alıp içindekileri silkelersin de her şey yeniden yerleşir ya, işte aynen öyle! 'Koltuklar sallandı!' dediğimiz anlar için birebir.",
     "options": [
-      "A private investment fund managed by a group of wealthy individuals.",
-      "A fund set up by a country to invest its national savings globally.",
-      "A charitable organization for international aid.",
-      "A bank specializing in foreign exchange transactions."
+      "shakeup",
+      "change",
+      "revision",
+      "restructure"
     ],
-    "correctAnswer": "A fund set up by a country to invest its national savings globally.",
+    "correctAnswer": "shakeup",
     "category": "BUSINESS",
-    "variations": []
+    "variations": [
+      "The government announced a cabinet _____.",
+      "There was a big leadership _____ in the department."
+    ]
   },
   {
     "id": 126070211,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The ship got stuck in the narrow _____ of Hormuz.",
-    "translation": "Gemi dar Hürmüz Boğazı'nda sıkıştı.",
-    "context": "'Strait' (boğaz), iki büyük su kütlesini birbirine bağlayan dar bir su geçididir. 'Strait of Hormuz' ise dünyanın en önemli denizcilik yollarından biri. Oradan geçen gemiler için burası bazen dar bir patika gibi olabilir. Sıkışmak mı? Sanki İstanbul trafiğinde kalmak gibi, ama daha büyük gemilerle! Navigasyon bilgisi burada çok önemli.",
+    "phrase": "Mountaineers often try to _____ challenging peaks.",
+    "translation": "Dağcılar genellikle zorlu zirvelere tırmanmaya çalışırlar.",
+    "context": "'Scale' kelimesi, bir şeye tırmanmak, ölçeklendirmek veya bir şeyi belirli bir büyüklüğe göre ayarlamak gibi farklı anlamlara gelir. Burada, özellikle yüksek bir şeye 'tırmanmak' anlamında kullanılıyor. Empire State Binası'na tırmanmak bayağı cesaret ister, değil mi? Senin de hayatında 'scaling a mountain' gibi hedeflerin olabilir!",
     "options": [
-      "strait",
-      "lake",
-      "ocean",
-      "river"
+      "scale",
+      "climb",
+      "ascend",
+      "mount"
     ],
-    "correctAnswer": "strait",
+    "correctAnswer": "scale",
     "category": "TRAVEL",
     "variations": [
-      "The Bering Strait connects the Arctic and Pacific Oceans.",
-      "Ships navigate through the strait carefully."
+      "It's difficult to _____ Mount Everest.",
+      "They decided to _____ the fence to enter."
     ]
   },
   {
     "id": 126070212,
-    "type": "QUIZ_COMPLETION",
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "They expect their team to _____ the entire tournament.",
-    "translation": "Takımlarının tüm turnuvaya hakim olmasını bekliyorlar.",
-    "context": "'Dominate' fiili, bir şeye tamamen hakim olmak, üstün gelmek veya kontrol etmek anlamına gelir. Spor dünyasında favori takımlar için sıkça kullanılır. Rakip takımlara karşı öyle bir üstünlük kurmak ki, sanki sahada sadece onlar varmış gibi! Herkes 'dominate' etmeyi sever ama bu, çok çaba ve yetenek gerektirir.",
+    "phrase": "Many people hope the team's victory will lead to a _____ holiday.",
+    "translation": "Birçok kişi takımın zaferinin resmi bir tatile yol açacağını umuyor.",
+    "context": "'Bank holiday' özellikle Birleşik Krallık'ta yaygın kullanılan bir terimdir ve 'resmi tatil' anlamına gelir. Bankaların kapalı olduğu, çoğu kişinin işe gitmediği, kutlama ve dinlenme zamanı! Hani milli maç sonrası 'Acaba yarın tatil olur mu?' diye bekleriz ya, işte o anları İngilizler 'bank holiday' ile ifade eder.",
     "options": [
-      "dominate",
-      "lose",
-      "participate",
-      "struggle"
+      "bank",
+      "store",
+      "private",
+      "weekend"
     ],
-    "correctAnswer": "dominate",
+    "correctAnswer": "bank",
     "category": "MIXED",
-    "variations": [
-      "The company dominates the market.",
-      "He tried to dominate the conversation."
-    ]
+    "variations": []
   }
 ]
