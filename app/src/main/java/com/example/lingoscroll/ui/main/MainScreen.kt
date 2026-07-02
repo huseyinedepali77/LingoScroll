@@ -584,8 +584,8 @@ fun SkeletonMechanicView(
     onInputChange: (String) -> Unit,
     onUseJoker: () -> Unit
 ) {
-    val dynamicSkeleton = remember(state.currentItem.targetEn, state.userInput) {
-        toDynamicSkeletonText(state.currentItem.targetEn, state.userInput)
+    val dynamicSkeleton = remember(state.currentItem.targetEn, state.userInput, state.revealedIndices) {
+        toDynamicSkeletonText(state.currentItem.targetEn, state.userInput, state.revealedIndices)
     }
 
     val focusRequester = remember { FocusRequester() }
@@ -1071,11 +1071,11 @@ fun toSkeletonText(sentence: String): String {
     }.joinToString(" ")
 }
 
-fun toDynamicSkeletonText(target: String, userInput: String): String {
+fun toDynamicSkeletonText(target: String, userInput: String, revealedIndices: Set<Int>): String {
     val sb = java.lang.StringBuilder()
     for (i in target.indices) {
         val char = target[i]
-        if (i < userInput.length) {
+        if (i < userInput.length || i in revealedIndices) {
             sb.append(char)
         } else {
             if (char.isLetterOrDigit()) {

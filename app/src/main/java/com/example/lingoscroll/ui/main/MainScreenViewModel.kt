@@ -61,6 +61,7 @@ sealed interface MainScreenUiState {
         val jokerCount: Int = 0,
         val wrongLetter: String = "",
         val showErrorAnimation: Boolean = false,
+        val revealedIndices: Set<Int> = emptySet(),
         // Chunk mechanic fields
         val clickedChunks: List<String> = emptyList(),
         val shuffledChunks: List<String> = emptyList(),
@@ -329,6 +330,7 @@ class MainScreenViewModel(context: Context) : ViewModel() {
             jokerCount = 0,
             wrongLetter = "",
             showErrorAnimation = false,
+            revealedIndices = calculateRevealedIndices(chosenItem.targetEn, chosenItem.difficulty),
             clickedChunks = clickedChunks,
             shuffledChunks = shuffledChunks,
             tappedErrorWord = null,
@@ -759,6 +761,75 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         }
         
         _uiState.value = MainScreenUiState.OnboardingWelcome
+    }
+
+    private fun calculateRevealedIndices(target: String, difficulty: Int): Set<Int> {
+        val revealed = mutableSetOf<Int>()
+        
+        // 1. Boşluk ve noktalama işaretlerini her zaman açık tut
+        for (i in target.indices) {
+            val char = target[i]
+            if (!char.isLetterOrDigit()) {
+                revealed.add(i)
+            }
+        }
+        
+        // Kelime aralıklarını bul
+        var inWord = false
+        var wordStart = -1
+        val wordRanges = mutableListOf<IntRange>()
+        for (i in target.indices) {
+            val isLetter = target[i].isLetter()
+            if (isLetter && !inWord) {
+                inWord = true
+                wordStart = i
+            } else if (!isLetter && inWord) {
+                inWord = false
+                wordRanges.add(wordStart until i)
+            }
+        }
+        if (inWord) {
+            wordRanges.add(wordStart until target.length)
+        }
+        
+        when (difficulty) {
+            1 -> {
+                // Her kelimenin İLK ve SON harfini açık başlat
+                for (range in wordRanges) {
+                    if (range.first <= range.last) {
+                        revealed.add(range.first)
+                        revealed.add(range.last)
+                    }
+                }
+            }
+            2 -> {
+                // Her kelimenin SADECE İLK harfini açık başlat
+                for (range in wordRanges) {
+                    if (range.first <= range.last) {
+                        revealed.add(range.first)
+                    }
+                }
+            }
+            3 -> {
+                // Sadece cümlenin en başındaki ilk harfi açık başlat
+                if (wordRanges.isNotEmpty()) {
+                    val firstWordRange = wordRanges.first()
+                    revealed.add(firstWordRange.first)
+                }
+                // Uzunluğu 4 karakterden büyük olan kelimelerin sadece rastgele 1 harfini açık bırak
+                for (i in wordRanges.indices) {
+                    val range = wordRanges[i]
+                    val wordLength = range.last - range.first + 1
+                    if (i == 0) continue // İlk kelime zaten en baştaki kural ile açıldı
+                    
+                    if (wordLength > 4) {
+                        val randomIdx = kotlin.random.Random.nextInt(range.first, range.last + 1)
+                        revealed.add(randomIdx)
+                    }
+                }
+            }
+        }
+        return revealed
     }
 
     override fun onCleared() {
