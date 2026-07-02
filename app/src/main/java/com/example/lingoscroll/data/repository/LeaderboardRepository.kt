@@ -17,7 +17,7 @@ interface LeaderboardRepository {
 }
 
 class FirebaseLeaderboardRepository : LeaderboardRepository {
-    private val database = FirebaseDatabase.getInstance().getReference("leaderboard")
+    private val database = FirebaseDatabase.getInstance("https://lingoscroll-37efe-default-rtdb.firebaseio.com").getReference("leaderboard")
 
     override suspend fun submitScore(entry: LeaderboardEntry): Boolean {
         return try {
