@@ -3,231 +3,231 @@
     "id": 126070201,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The pubs will _____ until 5 am for the match.",
-    "translation": "Barlar maç için sabah 5'e kadar açık kalacak.",
-    "context": "Maç heyecanı dorukta! İngiltere'nin maçı için barlar sabahın ilk ışıklarına kadar 'stay open' (açık kalma) kararı almış. Arkadaşlarla eğlenmek ya da önemli bir etkinliği takip etmek için bir yerin 'açık kalması' işte tam da bu.",
+    "phrase": "The country experienced a severe _____ last week.",
+    "translation": "Ülke geçen hafta şiddetli bir sıcak hava dalgası yaşadı.",
+    "context": "Tatillerde deniz kenarında buz gibi bir içecekle yayılıyorsun, ama dışarısı cayır cayır yanıyor! İşte o bunaltıcı, kavurucu sıcaklara 'heatwave' diyoruz. Aman dikkat, erime noktasına gelme!",
     "options": [
-      "stay open",
-      "close early",
-      "shut down",
-      "be empty"
+      "heatwave",
+      "cold spell",
+      "rainstorm",
+      "fog"
     ],
-    "correctAnswer": "stay open",
+    "correctAnswer": "heatwave",
     "category": "CASUAL",
     "variations": [
-      "The cafe will stay open late tonight.",
-      "Most shops stay open until 9 PM."
+      "A dangerous heatwave is expected this weekend.",
+      "We are preparing for a long heatwave."
     ]
   },
   {
     "id": 126070202,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Melinda Gates' firm _____ a new venture fund.",
-    "translation": "Melinda Gates'in şirketi yeni bir girişim fonunu destekliyor.",
-    "context": "Teknoloji dünyasında büyük bir yatırım! Bir firmanın bir fonu 'backs' (desteklemesi), ona finansal olarak güvenmesi ve büyümesine yardımcı olması demektir. Tıpkı bir arkadaşına zor zamanında destek olmak gibi, ama milyar dolarlar seviyesinde!",
+    "phrase": "Many refugees seek _____ in a new country.",
+    "translation": "Birçok mülteci yeni bir ülkede sığınma arar.",
+    "context": "Zor durumda kalanların, güvende hissetmek için başka bir ülkeye gidip 'benim burada kalmaya ihtiyacım var' demesine 'asylum' denir. Resmen yeni bir başlangıç kapısı!",
     "options": [
-      "backs",
-      "ignores",
-      "closes",
-      "opposes"
+      "asylum",
+      "visa",
+      "passport",
+      "vacation"
     ],
-    "correctAnswer": "backs",
-    "category": "BUSINESS",
+    "correctAnswer": "asylum",
+    "category": "TRAVEL",
     "variations": [
-      "Our company backs new talent.",
-      "The government backs local businesses."
+      "He applied for political asylum.",
+      "The government granted asylum to the family."
     ]
   },
   {
     "id": 126070203,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "A dangerous _____ is expected before the holiday.",
-    "translation": "Tatil öncesinde tehlikeli bir sıcak hava dalgası bekleniyor.",
-    "context": "Güneşe dikkat! 'Heatwave' (sıcak hava dalgası), havanın normalden çok daha sıcak olduğu, bazen bunaltıcı ve tehlikeli olabilen bir dönem demek. Yaz tatili planları yapanlar için serinletici çözümler bulmak şart!",
+    "phrase": "The startup offered 5% _____ to its early investors.",
+    "translation": "Startup, ilk yatırımcılarına %5 hisse teklif etti.",
+    "context": "Bir şirketin 'benim de içinde payım var' diyebileceğin kısmına 'equity' denir. Yani şirketin bir parçasına sahip olmak gibi. Belki geleceğin Elon Musk'ı sen olursun, kim bilir!",
     "options": [
-      "heatwave",
-      "cold front",
-      "snowstorm",
-      "rainy season"
+      "equity",
+      "debt",
+      "loan",
+      "salary"
     ],
-    "correctAnswer": "heatwave",
-    "category": "TRAVEL",
+    "correctAnswer": "equity",
+    "category": "BUSINESS",
     "variations": [
-      "We are experiencing a severe heatwave.",
-      "Stay hydrated during the heatwave."
+      "She increased her equity in the company.",
+      "Stock options are a form of equity compensation."
     ]
   },
   {
     "id": 126070204,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "İngiltere Dünya Kupası'nda Meksika'ya karşı mücadele edecek.",
-    "translation": "England will clash against Mexico in the World Cup.",
-    "context": "Dünya Kupası'nda büyük bir 'clash' (mücadele/çatışma) kapıda! Spor dünyasında iki takımın karşı karşıya gelmesi, yani rekabet etmesi anlamına gelir. Tıpkı iki süper kahramanın filmde kozlarını paylaşması gibi!",
-    "options": [
-      "clash",
-      "surrender",
-      "withdraw",
-      "forfeit"
-    ],
-    "correctAnswer": "clash",
-    "category": "MIXED/GENERAL",
-    "variations": []
-  },
-  {
-    "id": 126070205,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The popular TV app is _____ as the company shifts to AI.",
-    "translation": "Şirket yapay zekaya yöneldiği için popüler TV uygulaması kapanıyor.",
-    "context": "Bir devir kapanıyor! Sevdiğimiz bir uygulamanın 'shutting down' (kapanması), artık hizmet vermeyeceği ve erişilemez olacağı anlamına gelir. Tıpkı favori dizinizin final yapması gibi, biraz hüzünlü ama yeni başlangıçlara yer açıyor!",
+    "level": "BEGINNER",
+    "phrase": "The old factory is _____ next month.",
+    "translation": "Eski fabrika önümüzdeki ay kapanıyor.",
+    "context": "Sevdiğin bir uygulamanın, mekanın veya bir işletmenin 'artık buralar eskisi gibi değil, biz kapatıyoruz' demesi durumu. Hani o eski TV-tracking uygulaması gibi, anladın sen!",
     "options": [
       "shutting down",
       "opening up",
       "expanding",
-      "updating"
+      "relocating"
     ],
     "correctAnswer": "shutting down",
-    "category": "CASUAL",
+    "category": "MIXED",
     "variations": [
-      "The old factory is shutting down next month.",
-      "Many businesses are shutting down due to the crisis."
+      "The restaurant is shutting down due to low sales.",
+      "They decided on shutting down the project."
     ]
+  },
+  {
+    "id": 126070205,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Which word means 'the force or speed of movement'?",
+    "translation": "'Hareketin gücü veya hızı' anlamına gelen kelime hangisidir?",
+    "context": "Bir sporcu yarışta son viraja girerken hızını artırır ya, işte o 'tam gaz' haline 'momentum' denir. İş dünyasında da bir projenin veya büyümenin ivmesi için kullanılır. Durdurulamaz bir güç gibi!",
+    "options": [
+      "momentum",
+      "inertia",
+      "velocity",
+      "friction"
+    ],
+    "correctAnswer": "momentum",
+    "category": "CASUAL",
+    "variations": []
   },
   {
     "id": 126070206,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The company's new CEO initiated a major _____",
-    "translation": "Şirketin yeni CEO'su büyük bir liderlik değişikliği başlattı.",
-    "context": "Şirketlerde sular ısınıyor! 'Leadership shakeup' (liderlik değişikliği/el değiştirmesi), üst yönetimde büyük ve ani değişiklikler olması demektir. Yeni bir patron geldiğinde bazen bütün ekipler yerinden oynar, tıpkı yapbozun parçalarını yeniden düzenlemek gibi.",
+    "phrase": "The climbers successfully _____ the mountain peak.",
+    "translation": "Dağcılar dağın zirvesine başarıyla tırmandı.",
+    "context": "Empire State Binası'na tırmanan maceraperest çift gibi, büyük ve yüksek bir şeye 'tırmanmak' veya 'üzerinden geçmek' eylemine 'scale' denir. Yani, fiziksel olarak yükselmek!",
     "options": [
-      "leadership shakeup",
-      "staff party",
-      "product launch",
-      "annual meeting"
+      "scaled",
+      "walked",
+      "fell",
+      "crossed"
     ],
-    "correctAnswer": "leadership shakeup",
-    "category": "BUSINESS",
+    "correctAnswer": "scaled",
+    "category": "TRAVEL",
     "variations": [
-      "The recent scandal led to a leadership shakeup.",
-      "Investors are hoping for a leadership shakeup."
+      "The company scaled its operations globally.",
+      "She scaled the wall with ease."
     ]
   },
   {
     "id": 126070207,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Extreme heat and high _____ are hitting the region.",
-    "translation": "Aşırı sıcak ve yüksek nem bölgeyi vuruyor.",
-    "context": "Yazın o yapış yapış hissi... 'Humidity' (nem), havadaki su buharı miktarıdır. Özellikle sıcak havalarda yüksek nem, terlemenin buharlaşmasını zorlaştırarak bizi daha bunaltır. Saçların kabarması da cabası!",
+    "phrase": "A _____ invests in new, high-growth potential businesses.",
+    "translation": "Bir girişim sermayesi şirketi, yeni, yüksek büyüme potansiyeline sahip işletmelere yatırım yapar.",
+    "context": "Yeni ve yenilikçi fikirlere, yani 'startup'lara para yatırıp onların büyümesine yardım eden şirketlere 'venture firm' deriz. Melinda Gates'in yaptığı gibi, bir nevi 'geleceğe yatırım' bankası!",
     "options": [
-      "humidity",
-      "pressure",
-      "wind",
-      "sunlight"
+      "venture firm",
+      "hedge fund",
+      "brokerage",
+      "retail bank"
     ],
-    "correctAnswer": "humidity",
-    "category": "TRAVEL",
+    "correctAnswer": "venture firm",
+    "category": "BUSINESS",
     "variations": [
-      "I can't stand the humidity in summer.",
-      "High humidity makes it feel even hotter."
+      "Many startups seek funding from venture firms.",
+      "Our venture firm specializes in AI technology."
     ]
   },
   {
     "id": 126070208,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Depremden sonra sekiz gün hayatta kalan kişiye ne denir?",
-    "translation": "What do you call a person who survived eight days after the earthquake?",
-    "context": "Umudun zaferi! 'Survivor' (hayatta kalan kişi), büyük bir felaket, kaza veya zorlu bir durumdan sağ salim kurtulmuş kişidir. Sanki bir film sahnesi gibi, mucizevi bir kurtuluş hikayesi anlatır.",
+    "phrase": "If someone is 'convicted' of a crime, what does it mean?",
+    "translation": "Birisi bir suçtan 'hüküm giyerse', bu ne anlama gelir?",
+    "context": "Mahkemeye çıktın, yargılandın ve hakim 'evet, bu kişi suçludur' dedi. İşte bu duruma 'convicted' olmak denir. Hani o insan kaçakçısı gibi, cezası kesinleşmiş oluyor!",
     "options": [
-      "survivor",
-      "victim",
-      "rescuer",
-      "witness"
+      "Found guilty in court",
+      "Acquitted of charges",
+      "Released from prison",
+      "Arrested by police"
     ],
-    "correctAnswer": "survivor",
-    "category": "MIXED/GENERAL",
+    "correctAnswer": "Found guilty in court",
+    "category": "MIXED",
     "variations": []
   },
   {
     "id": 126070209,
-    "type": "QUIZ_COMPLETION",
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "The couple who scaled the building now _____",
-    "translation": "Binaya tırmanan çift şimdi suçlamalarla karşı karşıya.",
-    "context": "Başınız belada! Birinin 'face charges' (suçlamalarla yüzleşmesi), yasal bir suçtan dolayı mahkemeye çıkarılacağı anlamına gelir. Yani yaptıkları bir eylemin hukuki sonuçlarıyla karşılaşacaklar. Umarım avukatları iyidir!",
+    "phrase": "What does it mean if a church 'excommunicates' a member?",
+    "translation": "Bir kilise bir üyeyi 'aforoz ederse' bu ne anlama gelir?",
+    "context": "Bir dini grubun, kurallarına uymayan veya aykırı düşünen bir üyesini kendi cemaatinden resmi olarak dışlaması, yani 'git başımdan' demesi durumudur. Vatikan'ın yaptığı gibi, ciddi bir yaptırım!",
     "options": [
-      "face charges",
-      "receive awards",
-      "get promotions",
-      "take a vacation"
+      "They formally expel them from the church",
+      "They give them a special blessing",
+      "They appoint them to a high position",
+      "They welcome them back warmly"
     ],
-    "correctAnswer": "face charges",
+    "correctAnswer": "They formally expel them from the church",
     "category": "CASUAL",
-    "variations": [
-      "He might face charges for reckless driving.",
-      "They will face charges for vandalism."
-    ]
+    "variations": []
   },
   {
     "id": 126070210,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "OpenAI proposed donating 5% of its _____ to a US fund.",
-    "translation": "OpenAI, ABD fonuna öz sermayesinin %5'ini bağışlamayı teklif etti.",
-    "context": "Şirketlerin can damarı! 'Equity' (öz sermaye), bir şirketin sahiplerine ait olan kısmıdır, yani şirketin borçları ödendikten sonra kalan değeri. Hisse senedi gibi düşünebilirsin; şirketin sana ait olan minik bir dilimi!",
+    "phrase": "The special permits will _____ next month, so act fast.",
+    "translation": "Özel izinler önümüzdeki ay sona erecek, o yüzden hızlı hareket edin.",
+    "context": "Bir iznin, anlaşmanın veya muafiyetin 'geçerliliğini yitirmesi' veya 'süresinin dolması' durumuna 'waivers expire' denir. Trump'ın Jones Act muafiyetleri gibi, bir şeyin artık geçerli olmaması durumu.",
     "options": [
-      "equity",
-      "debt",
-      "revenue",
-      "expenses"
+      "waivers expire",
+      "renew automatically",
+      "become permanent",
+      "be extended indefinitely"
     ],
-    "correctAnswer": "equity",
-    "category": "BUSINESS",
+    "correctAnswer": "waivers expire",
+    "category": "TRAVEL",
     "variations": [
-      "Investing in equity can be risky.",
-      "Shareholders own a part of the company's equity."
+      "Your passport will expire soon.",
+      "The contract expires at the end of the year."
     ]
   },
   {
     "id": 126070211,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "He was found living in the UK and _____",
-    "translation": "İngiltere'de yaşıyor ve sığınma talebinde bulunurken bulundu.",
-    "context": "Yeni bir hayat arayışı! 'Seeking asylum' (sığınma talebinde bulunmak), kişinin kendi ülkesinde zulüm veya tehlike altında olduğu gerekçesiyle başka bir ülkede koruma talep etmesi anlamına gelir. Zor bir karar, büyük bir umut yolculuğu.",
+    "phrase": "Many countries manage their reserves through a _____.",
+    "translation": "Birçok ülke rezervlerini bir devlet varlık fonu aracılığıyla yönetir.",
+    "context": "Bir ülkenin genellikle petrol, gaz gibi doğal kaynaklardan gelen devasa fazla gelirini geleceğe yönelik yatırımlar yapmak için kurduğu fona 'sovereign wealth fund' denir. OpenAI'ın bağış yapmayı düşündüğü gibi, mega bir hazine sandığı!",
     "options": [
-      "seeking asylum",
-      "applying for a job",
-      "buying a house",
-      "starting a business"
+      "sovereign wealth fund",
+      "private equity fund",
+      "mutual fund",
+      "hedge fund"
     ],
-    "correctAnswer": "seeking asylum",
-    "category": "TRAVEL",
+    "correctAnswer": "sovereign wealth fund",
+    "category": "BUSINESS",
     "variations": [
-      "Many refugees are seeking asylum in Europe.",
-      "He is seeking asylum due to political persecution."
+      "Norway has one of the largest sovereign wealth funds.",
+      "The fund invests in various global assets."
     ]
   },
   {
     "id": 126070212,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Birine karşı yapılan iddiaların doğru olmadığını kanıtlamak ne anlama gelir?",
-    "translation": "What does it mean to prove that allegations made against someone are not true?",
-    "context": "Dedikodulara dur de! 'Refute allegations' (iddiaları çürütmek), bir kişinin veya temsilcisinin, hakkında yapılan suçlamaların doğru olmadığını kanıtlamak için resmi olarak karşı çıkması demektir. Tıpkı bir süper kahramanın adını temizlemesi gibi!",
+    "phrase": "Critics say the new _____ aims to suppress cultural differences.",
+    "translation": "Eleştirenler, yeni etnik birlik yasasının kültürel farklılıkları bastırmayı amaçladığını söylüyor.",
+    "context": "Bir ülkenin farklı etnik gruplar arasındaki birliği sağlamak veya 'tek tip' bir kimlik oluşturmak amacıyla çıkardığı yasaya 'ethnic unity law' denir. Kulağa hoş gelse de, bazen kültürel çeşitliliği tehdit edebilir, Çin'deki gibi tartışmalı olabilir.",
     "options": [
-      "refute allegations",
-      "confirm claims",
-      "accept blame",
-      "spread rumors"
+      "ethnic unity law",
+      "economic reform bill",
+      "environmental protection act",
+      "public safety ordinance"
     ],
-    "correctAnswer": "refute allegations",
-    "category": "MIXED/GENERAL",
-    "variations": []
+    "correctAnswer": "ethnic unity law",
+    "category": "MIXED",
+    "variations": [
+      "The government implemented an ethnic unity policy.",
+      "Debates surround the effectiveness of the ethnic unity initiatives."
+    ]
   }
 ]
