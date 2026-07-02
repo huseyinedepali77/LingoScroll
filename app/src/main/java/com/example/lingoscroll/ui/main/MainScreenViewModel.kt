@@ -695,14 +695,13 @@ class MainScreenViewModel(private val context: Context) : ViewModel() {
 
     // Sonraki Aşamaya Geçiş
     fun proceedToNextStage() {
-        val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
         val currentStage = prefs.getCurrentStage()
         val nextStage = currentStage + 1
         
         prefs.setCurrentStage(nextStage)
         prefs.setStageProgress(0)
         
-        startStageSession(currentState.currentCategory)
+        exitRedCodeMode()
     }
 
     // Kategori Seçimini Değiştirme (Acil Durum Alt Menüsü İçin)

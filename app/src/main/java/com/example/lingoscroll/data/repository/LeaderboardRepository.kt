@@ -21,9 +21,7 @@ class FirebaseLeaderboardRepository : LeaderboardRepository {
 
     override suspend fun submitScore(entry: LeaderboardEntry): Boolean {
         return try {
-            kotlinx.coroutines.withTimeout(5000L) {
-                database.child(entry.uid).setValue(entry).await()
-            }
+            database.child(entry.uid).setValue(entry)
             true
         } catch (e: Exception) {
             false
@@ -32,7 +30,7 @@ class FirebaseLeaderboardRepository : LeaderboardRepository {
 
     override suspend fun getTopScores(limit: Int): List<LeaderboardEntry> {
         return try {
-            kotlinx.coroutines.withTimeout(5000L) {
+            kotlinx.coroutines.withTimeout(15000L) {
                 val snapshot = database.orderByChild("score").limitToLast(limit).get().await()
                 val entries = mutableListOf<LeaderboardEntry>()
                 for (child in snapshot.children) {
