@@ -15,6 +15,9 @@ interface SurvivalCardDao {
     @Query("SELECT * FROM survival_cards WHERE category = :category")
     fun getCardsByCategoryFlow(category: String): Flow<List<SurvivalCard>>
 
+    @Query("SELECT * FROM survival_cards WHERE (category = :category OR :category = 'MIXED')")
+    suspend fun getCardsByCategory(category: String): List<SurvivalCard>
+
     @Query("SELECT * FROM survival_cards WHERE id = :id LIMIT 1")
     suspend fun getCardById(id: Int): SurvivalCard?
 

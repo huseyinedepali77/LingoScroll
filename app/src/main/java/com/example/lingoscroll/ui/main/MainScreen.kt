@@ -477,32 +477,7 @@ fun PracticeScreen(
                 )
                 Spacer(modifier = Modifier.height(16.dp))
 
-                // Kırmızı Kod Giriş Butonu
-                Button(
-                    onClick = { viewModel.startRedCodeMode() },
-                    colors = ButtonDefaults.buttonColors(containerColor = SurvivalDanger),
-                    shape = RoundedCornerShape(14.dp),
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .height(52.dp)
-                        .border(1.5.dp, Color.Red, RoundedCornerShape(14.dp))
-                ) {
-                    Row(
-                        verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.Center
-                    ) {
-                        Text("🚨", fontSize = 18.sp)
-                        Spacer(modifier = Modifier.width(8.dp))
-                        Text(
-                            text = "KIRMIZI KOD: Hayatta Kal",
-                            fontSize = 15.sp,
-                            fontWeight = FontWeight.Black,
-                            color = Color.White
-                        )
-                    }
-                }
 
-                Spacer(modifier = Modifier.height(16.dp))
 
                 // Active Scenario Card
                 Card(
@@ -772,7 +747,7 @@ fun PracticeScreen(
         if (state.showStageComplete) {
             StageCompleteOverlay(
                 stage = state.currentStage,
-                onProceed = { viewModel.proceedToNextStage() }
+                onProceed = { viewModel.startRedCodeMode() }
             )
         }
     }
@@ -1353,15 +1328,16 @@ fun StageCompleteOverlay(
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color.Black.copy(alpha = 0.6f)),
+            .background(Color.Black.copy(alpha = 0.85f)),
         contentAlignment = Alignment.Center
     ) {
         Card(
             modifier = Modifier
                 .fillMaxWidth(0.85f)
                 .padding(16.dp),
-            colors = CardDefaults.cardColors(containerColor = SurvivalSurface),
-            shape = RoundedCornerShape(24.dp)
+            colors = CardDefaults.cardColors(containerColor = Color(0xFF1D1414)),
+            shape = RoundedCornerShape(24.dp),
+            border = androidx.compose.foundation.BorderStroke(2.dp, Color(0xFFFF5252))
         ) {
             Column(
                 modifier = Modifier.padding(24.dp),
@@ -1369,31 +1345,34 @@ fun StageCompleteOverlay(
                 verticalArrangement = Arrangement.Center
             ) {
                 Text(
-                    text = "🎉 Tebrikler! 🎉",
-                    fontSize = 26.sp,
-                    fontWeight = FontWeight.Bold,
-                    color = SurvivalPrimary
-                )
-                Spacer(modifier = Modifier.height(8.dp))
-                Text(
-                    text = "Aşama $stage Başarıyla Tamamlandı!",
-                    fontSize = 16.sp,
-                    color = SurvivalText,
+                    text = "🏆 Aşama $stage Tamamlandı! 🏆",
+                    fontSize = 22.sp,
+                    fontWeight = FontWeight.Black,
+                    color = Color(0xFFFFB300),
                     textAlign = TextAlign.Center
                 )
-                Spacer(modifier = Modifier.height(24.dp))
+                Spacer(modifier = Modifier.height(12.dp))
+                Text(
+                    text = "Yeni aşamanın kilidini açmak için 60 saniyelik Hayatta Kalma Testi'ni (Quiz) geçmeniz gerekiyor. En az 5 doğru yapmalısınız!",
+                    fontSize = 15.sp,
+                    color = Color.LightGray,
+                    textAlign = TextAlign.Center,
+                    lineHeight = 22.sp
+                )
+                Spacer(modifier = Modifier.height(28.dp))
                 Button(
                     onClick = onProceed,
-                    colors = ButtonDefaults.buttonColors(containerColor = SurvivalPrimary),
+                    colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFFF5252)),
                     shape = RoundedCornerShape(14.dp),
                     modifier = Modifier
                         .fillMaxWidth()
                         .height(52.dp)
                 ) {
                     Text(
-                        text = "Sıradaki Aşamaya Geç ➡️",
+                        text = "Testi Başlat ⚡",
                         color = Color.White,
-                        fontWeight = FontWeight.Bold
+                        fontWeight = FontWeight.Black,
+                        fontSize = 16.sp
                     )
                 }
             }
@@ -1737,11 +1716,19 @@ fun RedCodeSurvivalScreen(
                         horizontalAlignment = Alignment.CenterHorizontally,
                         verticalArrangement = Arrangement.Center
                     ) {
+                        val isPassed = state.correctCount >= 5
                         Text(
-                            text = "🔴 SÜRE BİTTİ! 🔴",
+                            text = if (isPassed) "🎉 TEST BAŞARILI! 🎉" else "❌ TEST BAŞARISIZ! ❌",
                             fontSize = 24.sp,
                             fontWeight = FontWeight.Black,
-                            color = Color(0xFFFF5252),
+                            color = if (isPassed) Color(0xFF81C784) else Color(0xFFFF5252),
+                            textAlign = TextAlign.Center
+                        )
+                        Spacer(modifier = Modifier.height(8.dp))
+                        Text(
+                            text = if (isPassed) "Yeni aşamanın kilidi açıldı!" else "Yeterli doğru cevaba ulaşamadınız. Bu aşamayı tekrar etmelisiniz (En az 5 doğru gerekli).",
+                            fontSize = 14.sp,
+                            color = Color.LightGray,
                             textAlign = TextAlign.Center
                         )
                         Spacer(modifier = Modifier.height(16.dp))
@@ -1774,71 +1761,91 @@ fun RedCodeSurvivalScreen(
                         
                         Spacer(modifier = Modifier.height(28.dp))
                         
-                        // Skor Gönder & Liderlik Tablosu Bölümü
-                        if (state.totalScore > 0) {
-                            val uploadSuccess by viewModel.scoreUploadSuccess.collectAsState()
-                            val isUploading by viewModel.isUploadingScore.collectAsState()
-
-                            Spacer(modifier = Modifier.height(16.dp))
-                            when {
-                                uploadSuccess == true -> {
-                                    Text("Skor Başarıyla Gönderildi! ✅", color = Color(0xFF81C784), fontWeight = FontWeight.Bold, fontSize = 14.sp)
+                        if (isPassed) {
+                            // Skor Gönder & Liderlik Tablosu Bölümü (Sadece başarılı testlerde)
+                            val savedNickname = viewModel.getUserNickname()
+                            if (savedNickname != null) {
+                                val uploadSuccess by viewModel.scoreUploadSuccess.collectAsState()
+                                val isUploading by viewModel.isUploadingScore.collectAsState()
+                                when {
+                                    uploadSuccess == true -> {
+                                        Text("Skor Otomatik Yüklendi! ✅\n(Kod Adı: $savedNickname)", color = Color(0xFF81C784), fontWeight = FontWeight.Bold, fontSize = 14.sp, textAlign = TextAlign.Center)
+                                    }
+                                    isUploading -> {
+                                        Text("Skor Gönderiliyor... ⏳", color = Color.Yellow, fontWeight = FontWeight.Bold, fontSize = 14.sp)
+                                    }
+                                    else -> {
+                                        Text("Skor Otomatik Yükleniyor... ⏳", color = Color.LightGray, fontSize = 14.sp)
+                                    }
                                 }
-                                isUploading -> {
-                                    Text("Skor Gönderiliyor... ⏳", color = Color.Yellow, fontWeight = FontWeight.Bold, fontSize = 14.sp)
-                                }
-                                else -> {
-                                    Button(
-                                        onClick = { showNameDialog = true },
-                                        colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFE5A93C)),
-                                        shape = RoundedCornerShape(12.dp),
-                                        modifier = Modifier
-                                            .fillMaxWidth()
-                                            .height(48.dp)
-                                    ) {
-                                        Text("Skoru Gönder 🏆", color = Color.White, fontWeight = FontWeight.Bold)
+                            } else {
+                                if (state.totalScore > 0) {
+                                    val uploadSuccess by viewModel.scoreUploadSuccess.collectAsState()
+                                    val isUploading by viewModel.isUploadingScore.collectAsState()
+                                    when {
+                                        uploadSuccess == true -> {
+                                            Text("Skor Başarıyla Gönderildi! ✅", color = Color(0xFF81C784), fontWeight = FontWeight.Bold, fontSize = 14.sp)
+                                        }
+                                        isUploading -> {
+                                            Text("Skor Gönderiliyor... ⏳", color = Color.Yellow, fontWeight = FontWeight.Bold, fontSize = 14.sp)
+                                        }
+                                        else -> {
+                                            Button(
+                                                onClick = { showNameDialog = true },
+                                                colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFE5A93C)),
+                                                shape = RoundedCornerShape(12.dp),
+                                                modifier = Modifier
+                                                    .fillMaxWidth()
+                                                    .height(48.dp)
+                                            ) {
+                                                Text("Skoru Gönder 🏆", color = Color.White, fontWeight = FontWeight.Bold)
+                                            }
+                                        }
                                     }
                                 }
                             }
-                        }
 
-                        Spacer(modifier = Modifier.height(8.dp))
+                            Spacer(modifier = Modifier.height(8.dp))
 
-                        Button(
-                            onClick = {
-                                viewModel.fetchLeaderboard()
-                                showLeaderboardDialog = true
-                            },
-                            colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF332222)),
-                            shape = RoundedCornerShape(12.dp),
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .height(48.dp)
-                                .border(1.dp, Color(0xFFFF5252).copy(alpha = 0.5f), RoundedCornerShape(12.dp))
-                        ) {
-                            Text("Liderlik Tablosu 🏅", color = Color.White, fontWeight = FontWeight.Bold)
-                        }
+                            Button(
+                                onClick = {
+                                    viewModel.fetchLeaderboard()
+                                    showLeaderboardDialog = true
+                                },
+                                colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF332222)),
+                                shape = RoundedCornerShape(12.dp),
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .height(48.dp)
+                                    .border(1.dp, Color(0xFFFF5252).copy(alpha = 0.5f), RoundedCornerShape(12.dp))
+                            ) {
+                                Text("Liderlik Tablosu 🏅", color = Color.White, fontWeight = FontWeight.Bold)
+                            }
 
-                        Spacer(modifier = Modifier.height(16.dp))
-                        
-                        Button(
-                            onClick = { viewModel.retryRedCodeMode() },
-                            colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFFF5252)),
-                            shape = RoundedCornerShape(12.dp),
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .height(48.dp)
-                        ) {
-                            Text("Tekrar Dene 🔄", color = Color.White, fontWeight = FontWeight.Bold)
-                        }
-                        
-                        Spacer(modifier = Modifier.height(8.dp))
-                        
-                        TextButton(
-                            onClick = { viewModel.exitRedCodeMode() },
-                            modifier = Modifier.fillMaxWidth()
-                        ) {
-                            Text("Çıkış Yap 🚪", color = Color.LightGray, fontWeight = FontWeight.SemiBold)
+                            Spacer(modifier = Modifier.height(16.dp))
+                            
+                            Button(
+                                onClick = { viewModel.proceedToNextStage() },
+                                colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF81C784)),
+                                shape = RoundedCornerShape(12.dp),
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .height(48.dp)
+                            ) {
+                                Text("Yeni Aşamaya Geç ➡️", color = Color.White, fontWeight = FontWeight.Bold)
+                            }
+                        } else {
+                            // Başarısız Test: Aşamayı Tekrar Etme Butonu
+                            Button(
+                                onClick = { viewModel.redoCurrentStage() },
+                                colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFFF5252)),
+                                shape = RoundedCornerShape(12.dp),
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .height(48.dp)
+                            ) {
+                                Text("Aşamayı Tekrar Et 🔄", color = Color.White, fontWeight = FontWeight.Bold)
+                            }
                         }
                     }
                 }

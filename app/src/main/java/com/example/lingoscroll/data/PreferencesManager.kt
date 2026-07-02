@@ -255,4 +255,12 @@ class PreferencesManager(context: Context) {
             else -> "Saha Ajanı"
         }
     }
+
+    fun getUserNickname(): String? {
+        return prefs.getString("user_nickname", null)
+    }
+
+    fun setUserNickname(name: String) {
+        prefs.edit().putString("user_nickname", name).apply()
+    }
 }

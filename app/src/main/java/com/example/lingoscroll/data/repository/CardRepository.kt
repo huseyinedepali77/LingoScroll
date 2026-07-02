@@ -53,10 +53,8 @@ class CardRepository(private val cardDao: SurvivalCardDao) {
         cardDao.updateCard(updatedCard)
     }
 
-    // 15 Soruluk Hayatta Kalma Oturumu (9 Yeni + 6 Tekrar)
-    suspend fun getStagePackage(category: String, excludeIds: List<Int>, currentTime: Long): List<SurvivalCard> {
-        val safeExclude = if (excludeIds.isEmpty()) listOf(-1) else excludeIds
-        
+    // 15 Soruluk Hayatta Kalma Oturumu (9 Yeni + 6 Tekrar) - Aşama Bazlı Bölümleme (Slicing) ve Zorluk Sıralaması
+    suspend fun getStagePackage(category: String, excludeIds: List<Int>, currentTime: Long, stage: Int): List<SurvivalCard> {
         // 1. Tekrar zamanı gelmiş 6 adet soruyu getir
         var reviews = cardDao.getDueReviewQuestions(category, currentTime, 6)
         
@@ -67,13 +65,27 @@ class CardRepository(private val cardDao: SurvivalCardDao) {
             reviews = reviews + fallback
         }
         
-        // 2. 9 adet yeni soru getir (son çözülenler hariç)
-        val newQuestions = cardDao.getNewQuestions(category, safeExclude, 9)
+        // 2. Aşamaya göre 9 adet yeni soru dilimini belirle
+        // Tüm kategori sorularını zorluk ve ID'ye göre sıralıyoruz
+        val allCategoryCards = cardDao.getCardsByCategory(category)
+            .sortedWith(compareBy({ it.difficulty }, { it.id }))
         
-        // 3. Birleştir ve karıştır
+        val newQuestions = if (allCategoryCards.isNotEmpty()) {
+            val startIndex = ((stage - 1) * 9) % allCategoryCards.size
+            val slice = mutableListOf<SurvivalCard>()
+            for (i in 0 until 9) {
+                val index = (startIndex + i) % allCategoryCards.size
+                slice.add(allCategoryCards[index])
+            }
+            slice.toList()
+        } else {
+            emptyList()
+        }
+        
+        // 3. Birleştir ve karıştır (distinctBy ile çakışmaları engelle)
         val combined = (newQuestions + reviews).distinctBy { it.id }.shuffled()
         
-        // Eğer havuz darsa ve 15'e ulaşamadıysa, filtreleri kaldırarak tamamla
+        // Eğer havuz darsa ve 15'e ulaşamadıysa, rastgele tamamla
         if (combined.size < 15) {
             val needed = 15 - combined.size
             val fallbackAll = cardDao.getNewQuestions(category, listOf(-1), needed)

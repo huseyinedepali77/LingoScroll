@@ -238,7 +238,7 @@ class MainScreenViewModel(private val context: Context) : ViewModel() {
     fun startStageSession(category: String) {
         viewModelScope.launch(Dispatchers.IO) {
             val exclude = prefs.getRecentSeenIds()
-            val questions = repository.getStagePackage(category, exclude, System.currentTimeMillis())
+            val questions = repository.getStagePackage(category, exclude, System.currentTimeMillis(), prefs.getCurrentStage())
             
             viewModelScope.launch(Dispatchers.Main) {
                 sessionQueue.clear()
@@ -1015,10 +1015,21 @@ class MainScreenViewModel(private val context: Context) : ViewModel() {
                 
                 val nextTime = currentState.timeLeftSeconds - 1
                 if (nextTime <= 0) {
+                    val finalScore = currentState.totalScore
+                    val finalCorrect = currentState.correctCount
                     _uiState.value = currentState.copy(
                         timeLeftSeconds = 0,
                         showSummary = true
                     )
+                    
+                    // Otomatik skor gönderme mantığı:
+                    // Eğer 5 veya daha fazla doğru yapıldıysa ve önceden kaydedilmiş kullanıcı adı varsa arka planda otomatik gönder
+                    if (finalCorrect >= 5) {
+                        val savedNickname = prefs.getUserNickname()
+                        if (savedNickname != null) {
+                            submitLeaderboardScore(savedNickname, finalScore)
+                        }
+                    }
                     break
                 } else {
                     _uiState.value = currentState.copy(timeLeftSeconds = nextTime)
@@ -1203,6 +1214,9 @@ class MainScreenViewModel(private val context: Context) : ViewModel() {
         _isUploadingScore.value = true
         _scoreUploadSuccess.value = null
         
+        // Kalıcı ismi ayarla (Eğer ilk kez girildiyse kaydet)
+        prefs.setUserNickname(name)
+        
         viewModelScope.launch(Dispatchers.IO) {
             val entry = LeaderboardEntry(
                 uid = uid,
@@ -1229,6 +1243,16 @@ class MainScreenViewModel(private val context: Context) : ViewModel() {
                 _leaderboardState.value = topScores
             }
         }
+    }
+
+    fun redoCurrentStage() {
+        prefs.setStageProgress(0)
+        val category = prefs.getUserStyle()
+        startStageSession(category)
+    }
+
+    fun getUserNickname(): String? {
+        return prefs.getUserNickname()
     }
 }
 
