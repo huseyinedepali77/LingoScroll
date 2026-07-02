@@ -3,76 +3,76 @@
     "id": 126070201,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "A strong _____ hit the city last night, causing significant damage.",
-    "translation": "Geçen gece şehri büyük bir deprem vurdu, önemli hasara yol açtı.",
-    "context": "Quake kelimesi, 'deprem' anlamına gelir ve özellikle haberlerde veya günlük konuşmalarda 'earthquake' yerine kısaltma olarak sıklıkla kullanılır. Aman dikkat! Eğer büyük bir titreme hissettiysen, hemen güvenli bir yere geçip, LingoScroll'u açıp 'quake' kelimesini tekrar etmelisin!",
+    "phrase": "After the earthquake, a _____ was found alive.",
+    "translation": "Depremden sonra bir kurtulan canlı bulundu.",
+    "context": "'Survivor' kelimesi, zor bir olaydan sağ kurtulan kişiyi ifade eder. Bir depremden sonra hayatta kalan kişiye de 'survivor' denir. Hatta ünlü bir TV programı bile var! Hayatta kalmak zordur, o yüzden 'survivor' olmak takdire şayandır.",
     "options": [
-      "quake",
-      "strike",
-      "blast",
-      "wave"
+      "survivor",
+      "victim",
+      "helper",
+      "witness"
     ],
-    "correctAnswer": "quake",
+    "correctAnswer": "survivor",
     "category": "CASUAL",
     "variations": [
-      "The building was damaged by the quake.",
-      "Many people were affected by the recent quake."
+      "Many survivors were rescued after the big storm.",
+      "She is a cancer survivor."
     ]
   },
   {
     "id": 126070202,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Our old system is _____ as we transition to a new one.",
-    "translation": "Yeni bir sisteme geçerken eski sistemimiz kapanıyor.",
-    "context": "'Shutting down', bir sistemin, uygulamanın veya işin tamamen kapanması, faaliyetini durdurması anlamına gelir. Tıpkı favori TV dizilerini takip ettiğin uygulamanın 'ben artık yokum' demesi gibi... Çok üzücü olabilir, biliyorum!",
+    "phrase": "A dangerous _____ is expected this summer.",
+    "translation": "Bu yaz tehlikeli bir sıcak hava dalgası bekleniyor.",
+    "context": "'Heatwave' dediğimizde, hava sıcaklığının uzun süre boyunca normalden çok daha yüksek seyrettiği dönemi anlatırız. Yaz tatili planları yaparken 'heatwave' gelmesin diye dua ederiz, çünkü aşırı sıcaklar gezmeyi zorlaştırabilir! Güneş kreminizi ve şapkanızı unutmayın.",
     "options": [
-      "shutting down",
-      "closing out",
-      "finishing up",
-      "turning off"
+      "heatwave",
+      "cold spell",
+      "storm",
+      "breeze"
     ],
-    "correctAnswer": "shutting down",
-    "category": "BUSINESS",
+    "correctAnswer": "heatwave",
+    "category": "TRAVEL",
     "variations": [
-      "The factory is shutting down next month.",
-      "They are shutting down the old server."
+      "We had a long heatwave last August.",
+      "The heatwave made it hard to sleep."
     ]
   },
   {
     "id": 126070203,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Despite the difficult conditions, she proved to be a true _____.",
-    "translation": "Zorlu koşullara rağmen, o gerçek bir hayatta kalan olduğunu kanıtladı.",
-    "context": "Survivor, 'hayatta kalan' demektir. Yani zorlu bir durumdan, kazadan veya felaketten sağ çıkmış kişi! Survivor yarışmasında 'açlık adası'nda bir hafta geçiren de, yolda kaybolduktan sonra doğru yolu bulan da bir survivor'dır. Her zaman umut vardır!",
+    "phrase": "They decided to _____ money to charity.",
+    "translation": "Hayır kurumuna para bağışlamaya karar verdiler.",
+    "context": "'Donate' fiili, bir şeyi karşılık beklemeden vermek, bağışlamak demektir. Özellikle hayır kurumlarına para veya eşya verirken 'donate' kelimesini kullanırız. Cebimizden bir miktar çıkınca belki üzülürüz ama aslında çok iyi bir şey yapmış oluruz!",
     "options": [
-      "survivor",
-      "traveler",
-      "explorer",
-      "visitor"
+      "donate",
+      "borrow",
+      "lend",
+      "spend"
     ],
-    "correctAnswer": "survivor",
-    "category": "TRAVEL",
+    "correctAnswer": "donate",
+    "category": "BUSINESS",
     "variations": [
-      "He was the only survivor of the accident.",
-      "The plant is a survivor in harsh climates."
+      "She donates blood regularly.",
+      "Please donate old clothes."
     ]
   },
   {
     "id": 126070204,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "What does 'heatwave' mean in Turkish?",
-    "translation": "Sıcak hava dalgası",
-    "context": "Heatwave, 'sıcak hava dalgası' anlamına gelir. Hani o bunaltıcı günlerde, dışarı çıktığında sanki fırın kapağı açılmış gibi hissedersin ya, işte tam olarak o! İngiltere'nin rekor kıran Haziran'ı veya ABD'yi vuran tehlikeli sıcaklar tam da bu durumun örnekleri.",
+    "phrase": "What is a 'bank holiday'?",
+    "translation": "'Bank holiday' nedir?",
+    "context": "'Bank holiday', İngiltere'de ve bazı diğer ülkelerde resmi tatil anlamına gelir. Adı 'banka tatili' olsa da, aslında bankalar dahil çoğu iş yeri kapalı olur. Yani, maç varsa ve 'bank holiday' gelirse, oh ne âlâ, herkes işten güçten uzaklaşıp maçı izler! Mis gibi uzun bir hafta sonu demek.",
     "options": [
-      "Sıcak hava dalgası",
-      "Soğuk cephe",
-      "Hava kirliliği",
-      "Şiddetli rüzgar"
+      "A day when banks are closed but other businesses are open.",
+      "A national public holiday, often resulting in a long weekend.",
+      "A day for special banking events.",
+      "A holiday specifically for bank employees."
     ],
-    "correctAnswer": "Sıcak hava dalgası",
+    "correctAnswer": "A national public holiday, often resulting in a long weekend.",
     "category": "MIXED",
     "variations": []
   },
@@ -80,76 +80,73 @@
     "id": 126070205,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The team is expected to _____ the competition easily this season.",
-    "translation": "Takımın bu sezon rekabeti kolayca domine etmesi bekleniyor.",
-    "context": "Dominate kelimesi, 'bir şeye hükmetmek', 'üstün gelmek' veya 'ezici bir şekilde lider olmak' anlamına gelir. Tıpkı spor müsabakalarında bir takımın rakiplerine karşı açık ara önde olması veya arkadaş grubunda esprileriyle herkesi güldüren kişinin sohbeti 'domine etmesi' gibi!",
+    "phrase": "He traveled to another country, _____ asylum.",
+    "translation": "Başka bir ülkeye, sığınma hakkı arayarak gitti.",
+    "context": "'Seeking asylum', yani sığınma hakkı aramak, bir kişinin kendi ülkesinde zulümden veya tehlikeden kaçarak başka bir ülkede koruma istemesidir. Hayatın ne kadar zor ve karmaşık olabileceğini gösteren bir ifade. Düşünsene, her şeyi geride bırakıp yeni bir başlangıç yapmak zorunda kalmak... Kolay iş değil!",
     "options": [
-      "dominate",
-      "participate",
-      "follow",
-      "watch"
+      "seeking asylum",
+      "buying property",
+      "visiting friends",
+      "starting a business"
     ],
-    "correctAnswer": "dominate",
-    "category": "CASUAL",
+    "correctAnswer": "seeking asylum",
+    "category": "TRAVEL",
     "variations": [
-      "Our company aims to dominate the market.",
-      "She dominates every conversation with her knowledge."
+      "Many refugees are seeking asylum.",
+      "The family is seeking asylum in Canada."
     ]
   },
   {
     "id": 126070206,
-    "type": "QUIZ_COMPLETION",
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Following the merger, the company went through a major _____.",
-    "translation": "Birleşmenin ardından şirket büyük bir liderlik değişikliği yaşadı.",
-    "context": "Leadership shakeup, 'yönetim kadrosunda köklü değişiklikler' veya 'liderlik sarsıntısı' anlamına gelir. Yeni bir CEO geldiğinde veya şirket büyük bir dönüşüm geçirdiğinde, bazı yöneticilerin değişmesi, yeni isimlerin gelmesi çok doğal. Tıpkı bir orkestrada yeni bir şefin baton alması gibi!",
+    "phrase": "What does 'leadership shakeup' mean?",
+    "translation": "'Leadership shakeup' ne anlama gelir?",
+    "context": "'Leadership shakeup' (liderlik sarsıntısı/değişikliği), bir şirketin üst yönetiminde yapılan büyük değişiklikleri ifade eder. Sanki bir satranç tahtası gibi, yeni gelen CEO tüm taşları yeniden diziyor! Bazen iyiye işaret, bazen de zor zamanların habercisi olabilir. Dedikodulara kulak kabartmak lazım!",
     "options": [
-      "leadership shakeup",
-      "staff meeting",
-      "team building",
-      "project review"
+      "A minor change in company policy.",
+      "A significant restructuring or change in top management.",
+      "A new marketing campaign launch.",
+      "A sudden increase in sales figures."
     ],
-    "correctAnswer": "leadership shakeup",
+    "correctAnswer": "A significant restructuring or change in top management.",
     "category": "BUSINESS",
-    "variations": [
-      "The recent scandal led to a leadership shakeup.",
-      "Investors demanded a leadership shakeup for better results."
-    ]
+    "variations": []
   },
   {
     "id": 126070207,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "They successfully _____ the mountain peak after a long climb.",
-    "translation": "Uzun bir tırmanışın ardından dağ zirvesine başarıyla tırmandılar (scaled).",
-    "context": "Scale kelimesi burada 'tırmanmak', 'yükselmek' anlamında kullanılır. Tıpkı o çılgın çiftin Empire State Binası'na tırmanması gibi, ya da dağcıların yüksek bir zirveye çıkması gibi. Genellikle büyük ve yüksek bir yere tırmanmaktan bahsederken kullanılır. Hadi sen de kendi 'zirvene' tırman!",
+    "phrase": "The couple now _____ 8 charges.",
+    "translation": "Çift şimdi 8 suçlamayla karşı karşıya.",
+    "context": "'Face charges', bir suçtan dolayı yasal olarak suçlanmak ve mahkemede hesap vermek anlamına gelir. Empire State Binası'na tırmanmak cesurca bir hareket olabilir ama yasal sonuçları da var. Sanki bir oyunda 'Level Up' yerine 'Charge Up' yapmış gibi! Ne de olsa kanunlar herkese eşit uygulanır.",
     "options": [
-      "scaled",
-      "walked",
-      "ran",
-      "drove"
+      "face",
+      "avoid",
+      "drop",
+      "ignore"
     ],
-    "correctAnswer": "scaled",
-    "category": "TRAVEL",
+    "correctAnswer": "face",
+    "category": "CASUAL",
     "variations": [
-      "The climbers scaled the rock face carefully.",
-      "He scaled the wall to reach the garden."
+      "She will face criminal charges.",
+      "They face many charges for vandalism."
     ]
   },
   {
     "id": 126070208,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Which term describes requesting protection in another country due to persecution?",
-    "translation": "Zulüm nedeniyle başka bir ülkede koruma isteme terimi nedir?",
-    "context": "Asylum, 'sığınma' veya 'iltica' anlamına gelir. Bir ülke, başka bir ülkeden gelen ve kendi ülkesinde zulüm görme riski olan kişilere koruma sağladığında bu terim kullanılır. Tıpkı kötü bir durumdan kaçıp daha güvenli bir limana sığınmak gibi. Bu, uluslararası hukukun önemli bir parçasıdır.",
+    "phrase": "What does 'driest June on record' mean?",
+    "translation": "'Kaydedilen en kurak Haziran' ne anlama gelir?",
+    "context": "'On record' (kaydedilen) ifadesi, mevcut verilerin tutulmaya başlandığı zamandan beri görülen en... anlamında kullanılır. 'Driest June on record' ise, bugüne kadar kaydedilmiş tüm Haziran ayları arasında en kurak olanı demek. Yani, tarihe geçecek kadar az yağmur yağmış! Çiftçilerin yüzü asık olabilir.",
     "options": [
-      "Asylum",
-      "Visa",
-      "Citizenship",
-      "Residency"
+      "June had a lot of rainfall recently.",
+      "It was the wettest June ever recorded.",
+      "June had the least rainfall since records began.",
+      "The weather in June was average."
     ],
-    "correctAnswer": "Asylum",
+    "correctAnswer": "June had the least rainfall since records began.",
     "category": "MIXED",
     "variations": []
   },
@@ -157,77 +154,77 @@
     "id": 126070209,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "If caught, they could _____ for vandalism.",
-    "translation": "Yakalanırlarsa, vandalizmden suçlamalarla karşılaşabilirler.",
-    "context": "Face charges, 'suçlamalarla yüzleşmek' veya 'hakkında dava açılmak' demektir. Hani o Empire State'e tırmanan çift gibi, yasa dışı bir iş yaptığında polisle, mahkemeyle başın belaya girebilir. Yani yaptığının bedelini ödemek zorunda kalmak! O yüzden kurallara uy, başın belaya girmesin!",
+    "phrase": "The church decided to _____ members who disobeyed.",
+    "translation": "Kilise, itaat etmeyen üyeleri aforoz etmeye karar verdi.",
+    "context": "'Excommunicate' kelimesi, birini kilise üyeliğinden veya bir topluluktan resmen çıkarmak, aforoz etmek anlamına gelir. Bu öyle sıradan bir 'artık arkadaş değiliz' durumu değil, çok daha ciddi bir dışlama. Sanki Hogwarts'tan atılmak gibi, yani bir daha geri dönemeyecek kadar büyük bir ceza! Bir nevi 'kapı dışarı etmek' diyebiliriz ama daha dini ve resmi.",
     "options": [
-      "face charges",
-      "make calls",
-      "take photos",
-      "write reports"
+      "excommunicate",
+      "welcome",
+      "baptize",
+      "forgive"
     ],
-    "correctAnswer": "face charges",
+    "correctAnswer": "excommunicate",
     "category": "CASUAL",
     "variations": [
-      "He might face charges for reckless driving.",
-      "The company will face charges for environmental pollution."
+      "Historically, popes could excommunicate kings.",
+      "He was excommunicated for heresy."
     ]
   },
   {
     "id": 126070210,
-    "type": "QUIZ_COMPLETION",
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "The startup offered a small percentage of its _____ to early investors.",
-    "translation": "Startup, erken yatırımcılara kendi öz sermayesinin küçük bir yüzdesini teklif etti.",
-    "context": "Equity, bir şirketteki 'öz sermaye' veya 'hisse' anlamına gelir. Yani şirketin sahibine ait olan değerin bir parçası. Eğer bir şirkette equity sahibiysen, o şirketin bir kısmına sahipsin demektir. Tıpkı bir pasta dilimi gibi, ne kadar çok equity'n varsa, o kadar büyük bir dilim senin demektir!",
+    "phrase": "What is a 'sovereign wealth fund'?",
+    "translation": "'Sovereign wealth fund' nedir?",
+    "context": "'Sovereign wealth fund' (devlet servet fonu), bir ülkenin genellikle fazla bütçe gelirleri veya doğal kaynak satışlarından elde ettiği parayı uzun vadeli yatırım yapmak için kurduğu bir fondur. Yani devletin 'kumbara'sı gibi düşün, ama bu kumbaranın içinde milyarlarca dolar var ve profesyonelce yönetiliyor. Gelecek nesillere miras bırakmak için akıllıca bir yol!",
     "options": [
-      "equity",
-      "debt",
-      "revenue",
-      "salary"
+      "A private investment fund managed by a group of wealthy individuals.",
+      "A fund set up by a country to invest its national savings globally.",
+      "A charitable organization for international aid.",
+      "A bank specializing in foreign exchange transactions."
     ],
-    "correctAnswer": "equity",
+    "correctAnswer": "A fund set up by a country to invest its national savings globally.",
     "category": "BUSINESS",
-    "variations": [
-      "He sold his equity in the business.",
-      "The company's equity value increased significantly."
-    ]
+    "variations": []
   },
   {
     "id": 126070211,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The travel restrictions will _____ next month, allowing more flights.",
-    "translation": "Seyahat kısıtlamaları gelecek ay planlandığı gibi sona erecek ve daha fazla uçuşa izin verecek.",
-    "context": "Expire as scheduled, 'planlandığı gibi süresi dolmak' veya 'zamanında sona ermek' demektir. Tıpkı vizenin, pasaportunun veya bir anlaşmanın belirli bir tarihte geçerliliğini yitirmesi gibi. Eğer bir seyahat planın varsa, biletlerinin veya vizelerinin 'expire as scheduled' olmadığından emin olmalısın!",
+    "phrase": "The ship got stuck in the narrow _____ of Hormuz.",
+    "translation": "Gemi dar Hürmüz Boğazı'nda sıkıştı.",
+    "context": "'Strait' (boğaz), iki büyük su kütlesini birbirine bağlayan dar bir su geçididir. 'Strait of Hormuz' ise dünyanın en önemli denizcilik yollarından biri. Oradan geçen gemiler için burası bazen dar bir patika gibi olabilir. Sıkışmak mı? Sanki İstanbul trafiğinde kalmak gibi, ama daha büyük gemilerle! Navigasyon bilgisi burada çok önemli.",
     "options": [
-      "expire as scheduled",
-      "begin promptly",
-      "continue indefinitely",
-      "change unexpectedly"
+      "strait",
+      "lake",
+      "ocean",
+      "river"
     ],
-    "correctAnswer": "expire as scheduled",
+    "correctAnswer": "strait",
     "category": "TRAVEL",
     "variations": [
-      "The contract will expire as scheduled at year-end.",
-      "Make sure your driver's license doesn't expire as scheduled."
+      "The Bering Strait connects the Arctic and Pacific Oceans.",
+      "Ships navigate through the strait carefully."
     ]
   },
   {
     "id": 126070212,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "What does 'undermined civil liberties' mean?",
-    "translation": "Sivil özgürlükleri zayıflatmak",
-    "context": "Undermine, 'zayıflatmak', 'temelini sarsmak' veya 'baltalamak' anlamına gelir. Civil liberties ise 'sivil özgürlükler' demektir. Yani 'undermined civil liberties' ifadesi, insanların temel hak ve özgürlüklerinin kısıtlandığı veya tehlikeye atıldığı durumları anlatır. Tıpkı bir duvarın temelini yavaş yavaş aşındırmak gibi, görünmez bir şekilde haklarını kısıtlamak! Bu tür durumlar genellikle yasal ve politik tartışmaların konusu olur.",
+    "phrase": "They expect their team to _____ the entire tournament.",
+    "translation": "Takımlarının tüm turnuvaya hakim olmasını bekliyorlar.",
+    "context": "'Dominate' fiili, bir şeye tamamen hakim olmak, üstün gelmek veya kontrol etmek anlamına gelir. Spor dünyasında favori takımlar için sıkça kullanılır. Rakip takımlara karşı öyle bir üstünlük kurmak ki, sanki sahada sadece onlar varmış gibi! Herkes 'dominate' etmeyi sever ama bu, çok çaba ve yetenek gerektirir.",
     "options": [
-      "Sivil özgürlükleri zayıflatmak",
-      "Sivil özgürlükleri güçlendirmek",
-      "Sivil özgürlükleri korumak",
-      "Sivil hakları tartışmak"
+      "dominate",
+      "lose",
+      "participate",
+      "struggle"
     ],
-    "correctAnswer": "Sivil özgürlükleri zayıflatmak",
+    "correctAnswer": "dominate",
     "category": "MIXED",
-    "variations": []
+    "variations": [
+      "The company dominates the market.",
+      "He tried to dominate the conversation."
+    ]
   }
 ]
