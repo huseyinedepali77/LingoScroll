@@ -391,6 +391,7 @@ fun PracticeScreen(
                 .fillMaxSize()
                 .background(SurvivalBg)
                 .padding(paddingValues)
+                .imePadding()
                 .padding(16.dp)
         ) {
             Column(
@@ -648,7 +649,6 @@ fun SkeletonMechanicView(
     Column(
         modifier = Modifier
             .fillMaxWidth()
-            .imePadding() // Klavye açıldığında içeriği yukarı itmek için imePadding
             .clickable { 
                 try {
                     focusRequester.requestFocus()
@@ -656,8 +656,8 @@ fun SkeletonMechanicView(
                 } catch (e: Exception) {
                     e.printStackTrace()
                 }
-            } // Tıklandığında klavyeyi aç/odakla
-            .padding(8.dp),
+            } // Kartın boş yerine tıklandığında da klavyeyi aç
+            .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         // Görünmez Klavye Giriş Alanı (Hayalet Klavye) - Genişlik ve yükseklik 1.dp yapılarak çökme engellendi
@@ -680,11 +680,20 @@ fun SkeletonMechanicView(
         Spacer(modifier = Modifier.height(16.dp))
         Text(
             text = annotatedSkeleton,
-            fontSize = 22.sp,
+            fontSize = 24.sp, // Harflerin rahatça okunabilmesi için en az 24.sp yapıldı
             fontWeight = FontWeight.Bold,
             color = SurvivalText,
             textAlign = TextAlign.Center,
-            letterSpacing = 4.sp // Karakterlerin ayrışması için geniş aralık
+            letterSpacing = 4.sp, // Karakterlerin ayrışması için geniş aralık
+            modifier = Modifier
+                .clickable {
+                    try {
+                        focusRequester.requestFocus()
+                        keyboardController?.show()
+                    } catch (e: Exception) {
+                        e.printStackTrace()
+                    }
+                } // Metne tıklandığında da klavyeyi aç
         )
         
         Spacer(modifier = Modifier.height(24.dp))
