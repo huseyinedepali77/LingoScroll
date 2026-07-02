@@ -3,231 +3,231 @@
     "id": 126070201,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The country experienced a severe _____ last week.",
-    "translation": "Ülke geçen hafta şiddetli bir sıcak hava dalgası yaşadı.",
-    "context": "Tatillerde deniz kenarında buz gibi bir içecekle yayılıyorsun, ama dışarısı cayır cayır yanıyor! İşte o bunaltıcı, kavurucu sıcaklara 'heatwave' diyoruz. Aman dikkat, erime noktasına gelme!",
+    "phrase": "The airline ticket had some _____ fees.",
+    "translation": "Havayolu biletinde bazı gizli ücretler vardı.",
+    "context": "Havayolu şirketlerinin veya otellerin, başlangıçta göstermediği ama sonradan ödemek zorunda kaldığın ek ücretlere 'hidden fees' denir. Tatil rezervasyonu yaparken her zaman küçük yazıları okumalısın ki sürpriz yaşama!",
     "options": [
-      "heatwave",
-      "cold spell",
-      "rainstorm",
-      "fog"
+      "hidden",
+      "visible",
+      "open",
+      "clear"
     ],
-    "correctAnswer": "heatwave",
-    "category": "CASUAL",
+    "correctAnswer": "hidden",
+    "category": "TRAVEL",
     "variations": [
-      "A dangerous heatwave is expected this weekend.",
-      "We are preparing for a long heatwave."
+      "The contract included several hidden _____.",
+      "You should check for any hidden _____ before booking."
     ]
   },
   {
     "id": 126070202,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Many refugees seek _____ in a new country.",
-    "translation": "Birçok mülteci yeni bir ülkede sığınma arar.",
-    "context": "Zor durumda kalanların, güvende hissetmek için başka bir ülkeye gidip 'benim burada kalmaya ihtiyacım var' demesine 'asylum' denir. Resmen yeni bir başlangıç kapısı!",
+    "phrase": "Meta just _____ a new gaming app.",
+    "translation": "Meta yeni bir oyun uygulamasını piyasaya sürdü.",
+    "context": "Bir şirket yeni bir ürün, uygulama veya hizmeti ilk kez halka sunduğunda 'launch' fiilini kullanırız. Tıpkı bir roketin fırlatılması gibi, yeni bir ürün de pazara 'fırlatılır'!",
     "options": [
-      "asylum",
-      "visa",
-      "passport",
-      "vacation"
+      "launched",
+      "closed",
+      "stopped",
+      "hid"
     ],
-    "correctAnswer": "asylum",
-    "category": "TRAVEL",
+    "correctAnswer": "launched",
+    "category": "BUSINESS",
     "variations": [
-      "He applied for political asylum.",
-      "The government granted asylum to the family."
+      "The company plans to _____ its new product next month.",
+      "When did they _____ their latest software?"
     ]
   },
   {
     "id": 126070203,
-    "type": "QUIZ_COMPLETION",
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "The startup offered 5% _____ to its early investors.",
-    "translation": "Startup, ilk yatırımcılarına %5 hisse teklif etti.",
-    "context": "Bir şirketin 'benim de içinde payım var' diyebileceğin kısmına 'equity' denir. Yani şirketin bir parçasına sahip olmak gibi. Belki geleceğin Elon Musk'ı sen olursun, kim bilir!",
+    "phrase": "'Heatwave' kelimesi ne anlama gelir?",
+    "translation": "Belirli bir bölgede uzun süren aşırı sıcak hava dalgası.",
+    "context": "Yazın dayanılmaz sıcaklardan şikayet ettiğimizde, işte o günler 'heatwave' oluyor! Özellikle nemle birleşince insanı eriten sıcak hava dalgası demek. Taylor Swift'in düğününe bile isabet edebiliyor, düşün artık!",
     "options": [
-      "equity",
-      "debt",
-      "loan",
-      "salary"
+      "A strong gust of wind",
+      "A period of unusually hot weather",
+      "A sudden cold front",
+      "Heavy rainfall"
     ],
-    "correctAnswer": "equity",
-    "category": "BUSINESS",
-    "variations": [
-      "She increased her equity in the company.",
-      "Stock options are a form of equity compensation."
-    ]
+    "correctAnswer": "A period of unusually hot weather",
+    "category": "CASUAL",
+    "variations": []
   },
   {
     "id": 126070204,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The old factory is _____ next month.",
-    "translation": "Eski fabrika önümüzdeki ay kapanıyor.",
-    "context": "Sevdiğin bir uygulamanın, mekanın veya bir işletmenin 'artık buralar eskisi gibi değil, biz kapatıyoruz' demesi durumu. Hani o eski TV-tracking uygulaması gibi, anladın sen!",
+    "phrase": "She was a lucky _____ of the plane crash.",
+    "translation": "O, uçak kazasının şanslı bir kurtulanıydı.",
+    "context": "Büyük bir felaketten (kaza, deprem, doğal afet vb.) sağ kurtulan kişiye 'survivor' denir. Tıpkı TV'deki ünlü yarışma programı gibi, hayatta kalmayı başaran kişi!",
     "options": [
-      "shutting down",
-      "opening up",
-      "expanding",
-      "relocating"
+      "victim",
+      "survivor",
+      "witness",
+      "passenger"
     ],
-    "correctAnswer": "shutting down",
+    "correctAnswer": "survivor",
     "category": "MIXED",
     "variations": [
-      "The restaurant is shutting down due to low sales.",
-      "They decided on shutting down the project."
+      "The only _____ of the accident was a child.",
+      "Many _____ were rescued from the collapsed building."
     ]
   },
   {
     "id": 126070205,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Which word means 'the force or speed of movement'?",
-    "translation": "'Hareketin gücü veya hızı' anlamına gelen kelime hangisidir?",
-    "context": "Bir sporcu yarışta son viraja girerken hızını artırır ya, işte o 'tam gaz' haline 'momentum' denir. İş dünyasında da bir projenin veya büyümenin ivmesi için kullanılır. Durdurulamaz bir güç gibi!",
+    "phrase": "They bravely _____ the mountain peak in challenging weather.",
+    "translation": "Zorlu hava koşullarında dağ zirvesine cesurca tırmandılar.",
+    "context": "'Scale' kelimesi normalde ölçek, tartı gibi anlamlara gelirken, burada haberde Empire State Binası'na 'tırmanmak' anlamında kullanılmış. Yani bir şeye tırmanmak, üzerine çıkmak, hatta bir zorluğun üstesinden gelmek için de kullanılabilir!",
     "options": [
-      "momentum",
-      "inertia",
-      "velocity",
-      "friction"
+      "climbed",
+      "scaled",
+      "descended",
+      "fell"
     ],
-    "correctAnswer": "momentum",
-    "category": "CASUAL",
-    "variations": []
+    "correctAnswer": "scaled",
+    "category": "TRAVEL",
+    "variations": [
+      "The climbers hoped to _____ Mount Everest.",
+      "We need to _____ the wall to reach the garden."
+    ]
   },
   {
     "id": 126070206,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The climbers successfully _____ the mountain peak.",
-    "translation": "Dağcılar dağın zirvesine başarıyla tırmandı.",
-    "context": "Empire State Binası'na tırmanan maceraperest çift gibi, büyük ve yüksek bir şeye 'tırmanmak' veya 'üzerinden geçmek' eylemine 'scale' denir. Yani, fiziksel olarak yükselmek!",
+    "phrase": "Companies often develop _____ chips for specific devices.",
+    "translation": "Şirketler genellikle belirli cihazlar için özel yongalar geliştirir.",
+    "context": "Teknoloji dünyasında 'custom chip', yani 'özel yonga', bir şirketin kendi ihtiyaçlarına veya belirli bir ürüne özel olarak tasarladığı ve ürettiği bir mikroçiptir. Bu, ürünün performansını ve verimliliğini artırabilir. Tıpkı sana özel dikilmiş bir takım elbise gibi!",
     "options": [
-      "scaled",
-      "walked",
-      "fell",
-      "crossed"
+      "generic",
+      "standard",
+      "custom",
+      "common"
     ],
-    "correctAnswer": "scaled",
-    "category": "TRAVEL",
+    "correctAnswer": "custom",
+    "category": "BUSINESS",
     "variations": [
-      "The company scaled its operations globally.",
-      "She scaled the wall with ease."
+      "We ordered a _____ design for our new product.",
+      "Many tech giants use _____ hardware components."
     ]
   },
   {
     "id": 126070207,
-    "type": "QUIZ_COMPLETION",
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "A _____ invests in new, high-growth potential businesses.",
-    "translation": "Bir girişim sermayesi şirketi, yeni, yüksek büyüme potansiyeline sahip işletmelere yatırım yapar.",
-    "context": "Yeni ve yenilikçi fikirlere, yani 'startup'lara para yatırıp onların büyümesine yardım eden şirketlere 'venture firm' deriz. Melinda Gates'in yaptığı gibi, bir nevi 'geleceğe yatırım' bankası!",
+    "phrase": "Spor haberlerinde sıkça duyduğumuz 'fightback' terimi ne anlama gelir?",
+    "translation": "Özellikle bir spor müsabakasında, kötü bir durumdan sonra toparlanıp başarı elde etme çabası.",
+    "context": "Maçta takımın geriye düştüğünde, pes etmeyip geri dönmek için gösterdiği müthiş çabaya 'fightback' denir. 'England charging with big fightback!' haberi de tam olarak bunu anlatıyor. O adrenalin dolu geri dönüş anları!",
     "options": [
-      "venture firm",
-      "hedge fund",
-      "brokerage",
-      "retail bank"
+      "A defensive strategy",
+      "An aggressive foul",
+      "A strong recovery or counter-attack",
+      "A warm-up exercise"
     ],
-    "correctAnswer": "venture firm",
-    "category": "BUSINESS",
-    "variations": [
-      "Many startups seek funding from venture firms.",
-      "Our venture firm specializes in AI technology."
-    ]
+    "correctAnswer": "A strong recovery or counter-attack",
+    "category": "CASUAL",
+    "variations": []
   },
   {
     "id": 126070208,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "If someone is 'convicted' of a crime, what does it mean?",
-    "translation": "Birisi bir suçtan 'hüküm giyerse', bu ne anlama gelir?",
-    "context": "Mahkemeye çıktın, yargılandın ve hakim 'evet, bu kişi suçludur' dedi. İşte bu duruma 'convicted' olmak denir. Hani o insan kaçakçısı gibi, cezası kesinleşmiş oluyor!",
+    "phrase": "The church decided to _____ the member for their actions.",
+    "translation": "Kilise, eylemleri nedeniyle üyeyi aforoz etmeye karar verdi.",
+    "context": "'Excommunicate' kelimesi özellikle dini kurumlarda bir kişiyi kilise üyeliğinden veya cemaatten çıkarma anlamına gelir. Artık topluluğun bir parçası değilsin, dışarıda kalırsın! Eski zamanlarda çok daha korkutucu bir cezaydı bu.",
     "options": [
-      "Found guilty in court",
-      "Acquitted of charges",
-      "Released from prison",
-      "Arrested by police"
+      "welcome",
+      "excommunicate",
+      "promote",
+      "forgive"
     ],
-    "correctAnswer": "Found guilty in court",
+    "correctAnswer": "excommunicate",
     "category": "MIXED",
-    "variations": []
+    "variations": [
+      "Historically, some rulers were _____ from the church.",
+      "They warned the dissident that he would be _____."
+    ]
   },
   {
     "id": 126070209,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "What does it mean if a church 'excommunicates' a member?",
-    "translation": "Bir kilise bir üyeyi 'aforoz ederse' bu ne anlama gelir?",
-    "context": "Bir dini grubun, kurallarına uymayan veya aykırı düşünen bir üyesini kendi cemaatinden resmi olarak dışlaması, yani 'git başımdan' demesi durumudur. Vatikan'ın yaptığı gibi, ciddi bir yaptırım!",
+    "phrase": "The car _____ in the mud during the storm.",
+    "translation": "Fırtına sırasında araba çamura saplandı.",
+    "context": "Bir aracın, bir geminin veya hatta bir kişinin bir yerde sıkışıp kalması, hareket edememesi durumuna 'get stuck' denir. Özellikle çamurda, kumda veya dar bir alanda mahsur kalmak gibi durumlarda kullanılır. Hormuz Boğazı'nda geminin başına gelen de buydu!",
     "options": [
-      "They formally expel them from the church",
-      "They give them a special blessing",
-      "They appoint them to a high position",
-      "They welcome them back warmly"
+      "moved",
+      "stuck",
+      "flew",
+      "drove"
     ],
-    "correctAnswer": "They formally expel them from the church",
-    "category": "CASUAL",
-    "variations": []
+    "correctAnswer": "stuck",
+    "category": "TRAVEL",
+    "variations": [
+      "My luggage _____ at the airport for hours.",
+      "The small boat _____ between two large rocks."
+    ]
   },
   {
     "id": 126070210,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The special permits will _____ next month, so act fast.",
-    "translation": "Özel izinler önümüzdeki ay sona erecek, o yüzden hızlı hareket edin.",
-    "context": "Bir iznin, anlaşmanın veya muafiyetin 'geçerliliğini yitirmesi' veya 'süresinin dolması' durumuna 'waivers expire' denir. Trump'ın Jones Act muafiyetleri gibi, bir şeyin artık geçerli olmaması durumu.",
+    "phrase": "The engineer _____ serious _____ about the new design.",
+    "translation": "Mühendis, yeni tasarımla ilgili ciddi güvenlik endişelerini dile getirdi.",
+    "context": "Bir konu hakkında endişelerini, şüphelerini veya kaygılarını dile getirmek, bildirmek anlamında 'raise concerns' deyimini kullanırız. İş hayatında, bir proje veya durumla ilgili potansiyel sorunları belirtmek için çok yaygın kullanılır. 'Manager who raised safety concerns' haberi gibi.",
     "options": [
-      "waivers expire",
-      "renew automatically",
-      "become permanent",
-      "be extended indefinitely"
+      "expressed, agreements",
+      "ignored, ideas",
+      "raised, concerns",
+      "dismissed, issues"
     ],
-    "correctAnswer": "waivers expire",
-    "category": "TRAVEL",
+    "correctAnswer": "raised, concerns",
+    "category": "BUSINESS",
     "variations": [
-      "Your passport will expire soon.",
-      "The contract expires at the end of the year."
+      "Employees often _____ ethical _____ about company policies.",
+      "She _____ financial _____ before the investment."
     ]
   },
   {
     "id": 126070211,
-    "type": "QUIZ_COMPLETION",
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Many countries manage their reserves through a _____.",
-    "translation": "Birçok ülke rezervlerini bir devlet varlık fonu aracılığıyla yönetir.",
-    "context": "Bir ülkenin genellikle petrol, gaz gibi doğal kaynaklardan gelen devasa fazla gelirini geleceğe yönelik yatırımlar yapmak için kurduğu fona 'sovereign wealth fund' denir. OpenAI'ın bağış yapmayı düşündüğü gibi, mega bir hazine sandığı!",
+    "phrase": "'High humidity' ifadesindeki 'humidity' kelimesi neye işaret eder?",
+    "translation": "Havada bulunan su buharı miktarı.",
+    "context": "Havada ne kadar su buharı olduğunu gösteren şeye 'humidity' yani nem denir. 'Extreme heat and high humidity' birleşince, yapış yapış ve boğucu bir hava olur ki bu da 'bunaltıcı' hissettirir. Saçların kabarması da cabası!",
     "options": [
-      "sovereign wealth fund",
-      "private equity fund",
-      "mutual fund",
-      "hedge fund"
+      "The amount of wind in the air",
+      "The level of atmospheric pressure",
+      "The measure of water vapor in the air",
+      "The intensity of sunlight"
     ],
-    "correctAnswer": "sovereign wealth fund",
-    "category": "BUSINESS",
-    "variations": [
-      "Norway has one of the largest sovereign wealth funds.",
-      "The fund invests in various global assets."
-    ]
+    "correctAnswer": "The measure of water vapor in the air",
+    "category": "CASUAL",
+    "variations": []
   },
   {
     "id": 126070212,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Critics say the new _____ aims to suppress cultural differences.",
-    "translation": "Eleştirenler, yeni etnik birlik yasasının kültürel farklılıkları bastırmayı amaçladığını söylüyor.",
-    "context": "Bir ülkenin farklı etnik gruplar arasındaki birliği sağlamak veya 'tek tip' bir kimlik oluşturmak amacıyla çıkardığı yasaya 'ethnic unity law' denir. Kulağa hoş gelse de, bazen kültürel çeşitliliği tehdit edebilir, Çin'deki gibi tartışmalı olabilir.",
+    "phrase": "The country launched a _____ _____ on enemy forces.",
+    "translation": "Ülke, düşman güçlerine karşı büyük bir saldırı başlattı.",
+    "context": "'Massive attack', çok büyük ve geniş çaplı bir saldırı veya hücum anlamına gelir. Sadece askeri değil, örneğin bir bilgisayar korsanlığı saldırısı için de kullanılabilir. Genellikle yıkıcı sonuçları olan bir eylemi ifade eder.",
     "options": [
-      "ethnic unity law",
-      "economic reform bill",
-      "environmental protection act",
-      "public safety ordinance"
+      "small, defense",
+      "minor, raid",
+      "massive, attack",
+      "gentle, push"
     ],
-    "correctAnswer": "ethnic unity law",
+    "correctAnswer": "massive, attack",
     "category": "MIXED",
     "variations": [
-      "The government implemented an ethnic unity policy.",
-      "Debates surround the effectiveness of the ethnic unity initiatives."
+      "They prepared for a _____ cyber _____ on their systems.",
+      "The news reported a _____ military _____ at dawn."
     ]
   }
 ]
