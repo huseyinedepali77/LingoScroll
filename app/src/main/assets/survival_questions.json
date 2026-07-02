@@ -2546,5 +2546,1195 @@
       "bill"
     ],
     "difficulty": 1
+  },
+  {
+    "id": 1400,
+    "category": "CRISIS",
+    "mechanicType": "ERROR_FIND",
+    "scenarioTr": "Kayboldum de. (losts/lost hatasını düzelt)",
+    "targetEn": "I am completely lost.",
+    "options": [
+      "I am completely losts.",
+      "losts",
+      "lost"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": 1401,
+    "category": "CRISIS",
+    "mechanicType": "ERROR_FIND",
+    "scenarioTr": "Bana yardım et de. (helps/help hatasını düzelt)",
+    "targetEn": "Please help me.",
+    "options": [
+      "Please helps me.",
+      "helps",
+      "help"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": 1402,
+    "category": "CRISIS",
+    "mechanicType": "ERROR_FIND",
+    "scenarioTr": "Doktora ihtiyacım var de. (doctors/doctor hatasını düzelt)",
+    "targetEn": "I need a doctor.",
+    "options": [
+      "I need a doctors.",
+      "doctors",
+      "doctor"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": 2400,
+    "category": "NAVIGATION",
+    "mechanicType": "ERROR_FIND",
+    "scenarioTr": "Metro nerede de. (subways/subway hatasını düzelt)",
+    "targetEn": "Where is the nearest subway station?",
+    "options": [
+      "Where is the nearest subways station?",
+      "subways",
+      "subway"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": 2401,
+    "category": "NAVIGATION",
+    "mechanicType": "ERROR_FIND",
+    "scenarioTr": "Bilet almak istiyorum de. (buys/buy hatasını düzelt)",
+    "targetEn": "I want to buy a ticket.",
+    "options": [
+      "I want to buys a ticket.",
+      "buys",
+      "buy"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": 3400,
+    "category": "FINANCE",
+    "mechanicType": "ERROR_FIND",
+    "scenarioTr": "Hesap yanlış de. (wrongs/wrong hatasını düzelt)",
+    "targetEn": "This bill is wrong.",
+    "options": [
+      "This bill is wrongs.",
+      "wrongs",
+      "wrong"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": 3401,
+    "category": "FINANCE",
+    "mechanicType": "ERROR_FIND",
+    "scenarioTr": "Kartımı yuttu de. (swallows/swallowed hatasını düzelt)",
+    "targetEn": "The ATM swallowed my card.",
+    "options": [
+      "The ATM swallows my card.",
+      "swallows",
+      "swallowed"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": 4400,
+    "category": "BASIC_NEEDS",
+    "mechanicType": "ERROR_FIND",
+    "scenarioTr": "Oda kirli de. (cleans/clean hatasını düzelt)",
+    "targetEn": "My room is not clean.",
+    "options": [
+      "My room is not cleans.",
+      "cleans",
+      "clean"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": 4401,
+    "category": "BASIC_NEEDS",
+    "mechanicType": "ERROR_FIND",
+    "scenarioTr": "Rezervasyonum var de. (reservations/reservation hatasını düzelt)",
+    "targetEn": "I have a booking reservation.",
+    "options": [
+      "I have a booking reservations.",
+      "reservations",
+      "reservation"
+    ],
+    "difficulty": 1
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Polisi arayın, acil durum var de.",
+    "targetEn": "Call the police, it is an emergency.",
+    "options": [],
+    "difficulty": 2,
+    "id": 4402
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Çantamı arabada unuttum de.",
+    "targetEn": "I left my bag in the car.",
+    "options": [],
+    "difficulty": 1,
+    "id": 4403
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Bu çocuk kaybolmuş görünüyor de.",
+    "targetEn": "This child seems to be lost.",
+    "options": [],
+    "difficulty": 2,
+    "id": 4404
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Astım krizim var, ilacım nerede de.",
+    "targetEn": "I have an asthma attack, where is my medicine?",
+    "options": [],
+    "difficulty": 3,
+    "id": 4405
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Buranın adresi ne de.",
+    "targetEn": "What is the address of this place?",
+    "options": [],
+    "difficulty": 1,
+    "id": 4406
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Telefonumu şarj etmem gerek, acil durum de.",
+    "targetEn": "I need to charge my phone, it is an emergency.",
+    "options": [],
+    "difficulty": 2,
+    "id": 4407
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Beni yalnız bırakın lütfen de.",
+    "targetEn": "Please leave me alone.",
+    "options": [],
+    "difficulty": 1,
+    "id": 4408
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Pasaportumu otelde unuttum de.",
+    "targetEn": "I forgot my passport at the hotel.",
+    "options": [],
+    "difficulty": 2,
+    "id": 4409
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Lütfen sakin olun de.",
+    "targetEn": "Please stay calm.",
+    "options": [],
+    "difficulty": 1,
+    "id": 4410
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "SWIPE",
+    "scenarioTr": "Biri seni rahatsız ediyor ve uzaklaşmasını istiyorsun.",
+    "targetEn": "Go away or I will call for help.",
+    "options": [
+      "Go away or I will call for help.",
+      "Can you show me the way?"
+    ],
+    "difficulty": 2,
+    "id": 4411
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "SWIPE",
+    "scenarioTr": "Hırsızlığı bildirmek için karakola gitmek istiyorsun.",
+    "targetEn": "I need to report a theft.",
+    "options": [
+      "I need to report a theft.",
+      "I want to buy a ticket."
+    ],
+    "difficulty": 2,
+    "id": 4412
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "SWIPE",
+    "scenarioTr": "Vücudunda ciddi bir alerjik reaksiyon başladı.",
+    "targetEn": "I am having a severe allergic reaction.",
+    "options": [
+      "I am having a severe allergic reaction.",
+      "I have a slight headache."
+    ],
+    "difficulty": 3,
+    "id": 4413
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "SWIPE",
+    "scenarioTr": "Yemek yerken arkadaşın boğuluyor, acil yardım çağır.",
+    "targetEn": "My friend is choking, help us.",
+    "options": [
+      "My friend is choking, help us.",
+      "My friend wants to drink water."
+    ],
+    "difficulty": 3,
+    "id": 4414
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "SWIPE",
+    "scenarioTr": "Dışarıda yangın olduğunu görüyorsun, insanları uyar.",
+    "targetEn": "Fire! Get out of the building.",
+    "options": [
+      "Fire! Get out of the building.",
+      "It is very hot outside."
+    ],
+    "difficulty": 1,
+    "id": 4415
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "SWIPE",
+    "scenarioTr": "Hattın çekmiyor ve acil arama yapman gerek.",
+    "targetEn": "I have no signal, is there a landline?",
+    "options": [
+      "I have no signal, is there a landline?",
+      "Can I have your phone number?"
+    ],
+    "difficulty": 2,
+    "id": 4416
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "CHUNK",
+    "scenarioTr": "Bana yardım edebilecek Türkçe bilen biri var mı?",
+    "targetEn": "Is there anyone here who speaks Turkish?",
+    "options": [
+      "Is",
+      "there",
+      "anyone",
+      "here",
+      "who",
+      "speaks",
+      "Turkish?"
+    ],
+    "difficulty": 2,
+    "id": 4417
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "CHUNK",
+    "scenarioTr": "En yakın hastaneye nasıl gidebilirim?",
+    "targetEn": "How can I get to the nearest hospital?",
+    "options": [
+      "How",
+      "can",
+      "I",
+      "get",
+      "to",
+      "the",
+      "nearest",
+      "hospital?"
+    ],
+    "difficulty": 1,
+    "id": 4418
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "CHUNK",
+    "scenarioTr": "Lütfen ambulans çağırın, çok kan kaybediyor.",
+    "targetEn": "Please call an ambulance, he is bleeding heavily.",
+    "options": [
+      "Please",
+      "call",
+      "an",
+      "ambulance,",
+      "he",
+      "is",
+      "bleeding",
+      "heavily."
+    ],
+    "difficulty": 3,
+    "id": 4419
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "CHUNK",
+    "scenarioTr": "Konsolosluk ile iletişime geçmek istiyorum.",
+    "targetEn": "I want to contact the consulate.",
+    "options": [
+      "I",
+      "want",
+      "to",
+      "contact",
+      "the",
+      "consulate."
+    ],
+    "difficulty": 2,
+    "id": 4420
+  },
+  {
+    "category": "NAVIGATION",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "En yakın tuvalet nerede de.",
+    "targetEn": "Where is the nearest restroom?",
+    "options": [],
+    "difficulty": 1,
+    "id": 4421
+  },
+  {
+    "category": "NAVIGATION",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Bu tren hangi perondan kalkıyor de.",
+    "targetEn": "Which platform does this train leave from?",
+    "options": [],
+    "difficulty": 2,
+    "id": 4422
+  },
+  {
+    "category": "NAVIGATION",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Şehir merkezine giden otobüs hangisi de.",
+    "targetEn": "Which bus goes to the city center?",
+    "options": [],
+    "difficulty": 2,
+    "id": 4423
+  },
+  {
+    "category": "NAVIGATION",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Bunu haritada gösterebilir misiniz de.",
+    "targetEn": "Can you show this on the map?",
+    "options": [],
+    "difficulty": 1,
+    "id": 4424
+  },
+  {
+    "category": "NAVIGATION",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Doğru yolda mıyım de.",
+    "targetEn": "Am I on the right way?",
+    "options": [],
+    "difficulty": 2,
+    "id": 4425
+  },
+  {
+    "category": "NAVIGATION",
+    "mechanicType": "SWIPE",
+    "scenarioTr": "Otobüs durağının yerini sorman gerek.",
+    "targetEn": "Where is the bus stop?",
+    "options": [
+      "Where is the bus stop?",
+      "Do you sell tickets?"
+    ],
+    "difficulty": 1,
+    "id": 4426
+  },
+  {
+    "category": "NAVIGATION",
+    "mechanicType": "SWIPE",
+    "scenarioTr": "Uçağını kaçırmak üzeresin, hızlı geçiş talep et.",
+    "targetEn": "I am going to miss my flight.",
+    "options": [
+      "I am going to miss my flight.",
+      "Where is my seat?"
+    ],
+    "difficulty": 3,
+    "id": 4427
+  },
+  {
+    "category": "NAVIGATION",
+    "mechanicType": "SWIPE",
+    "scenarioTr": "Taksi çağırmak istediğini resepsiyona belirt.",
+    "targetEn": "Could you call a taxi for me?",
+    "options": [
+      "Could you call a taxi for me?",
+      "I want to walk to the airport."
+    ],
+    "difficulty": 1,
+    "id": 4428
+  },
+  {
+    "category": "NAVIGATION",
+    "mechanicType": "SWIPE",
+    "scenarioTr": "Gideceğin yerin ne kadar uzak olduğunu sor.",
+    "targetEn": "How far is it from here?",
+    "options": [
+      "How far is it from here?",
+      "How much does it cost?"
+    ],
+    "difficulty": 2,
+    "id": 4429
+  },
+  {
+    "category": "NAVIGATION",
+    "mechanicType": "CHUNK",
+    "scenarioTr": "Buraya yürüyerek gidebilir miyim?",
+    "targetEn": "Can I walk there from here?",
+    "options": [
+      "Can",
+      "I",
+      "walk",
+      "there",
+      "from",
+      "here?"
+    ],
+    "difficulty": 1,
+    "id": 4430
+  },
+  {
+    "category": "NAVIGATION",
+    "mechanicType": "CHUNK",
+    "scenarioTr": "Havaalanına gitmenin en hızlı yolu nedir?",
+    "targetEn": "What is the fastest way to the airport?",
+    "options": [
+      "What",
+      "is",
+      "the",
+      "fastest",
+      "way",
+      "to",
+      "the",
+      "airport?"
+    ],
+    "difficulty": 2,
+    "id": 4431
+  },
+  {
+    "category": "NAVIGATION",
+    "mechanicType": "CHUNK",
+    "scenarioTr": "Bir sonraki durakta inmem gerekiyor.",
+    "targetEn": "I need to get off at the next stop.",
+    "options": [
+      "I",
+      "need",
+      "to",
+      "get",
+      "off",
+      "at",
+      "the",
+      "next",
+      "stop."
+    ],
+    "difficulty": 2,
+    "id": 4432
+  },
+  {
+    "category": "FINANCE",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Hesabı alabilir miyim de.",
+    "targetEn": "Can I have the bill, please?",
+    "options": [],
+    "difficulty": 1,
+    "id": 4433
+  },
+  {
+    "category": "FINANCE",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Kredi kartı kabul ediyor musunuz de.",
+    "targetEn": "Do you accept credit cards?",
+    "options": [],
+    "difficulty": 1,
+    "id": 4434
+  },
+  {
+    "category": "FINANCE",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Döviz bürosu ne zaman açılıyor de.",
+    "targetEn": "What time does the exchange office open?",
+    "options": [],
+    "difficulty": 2,
+    "id": 4435
+  },
+  {
+    "category": "FINANCE",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Burada komisyon ücreti var mı de.",
+    "targetEn": "Is there a commission fee here?",
+    "options": [],
+    "difficulty": 2,
+    "id": 4436
+  },
+  {
+    "category": "FINANCE",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Makbuz alabilir miyim de.",
+    "targetEn": "Can I get a receipt, please?",
+    "options": [],
+    "difficulty": 1,
+    "id": 4437
+  },
+  {
+    "category": "FINANCE",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Bahşiş hesaba dahil mi de.",
+    "targetEn": "Is the tip included in the bill?",
+    "options": [],
+    "difficulty": 2,
+    "id": 4438
+  },
+  {
+    "category": "FINANCE",
+    "mechanicType": "SWIPE",
+    "scenarioTr": "Ürünün fiyatının çok yüksek olduğunu belirt.",
+    "targetEn": "This is too expensive for me.",
+    "options": [
+      "This is too expensive for me.",
+      "It is very cheap."
+    ],
+    "difficulty": 1,
+    "id": 4439
+  },
+  {
+    "category": "FINANCE",
+    "mechanicType": "SWIPE",
+    "scenarioTr": "Kartının bloke olduğunu bankaya söyle.",
+    "targetEn": "My credit card is blocked.",
+    "options": [
+      "My credit card is blocked.",
+      "I forgot my wallet."
+    ],
+    "difficulty": 2,
+    "id": 4440
+  },
+  {
+    "category": "BASIC_NEEDS",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Çok açım, restoran nerede de.",
+    "targetEn": "I am very hungry, where is a restaurant?",
+    "options": [],
+    "difficulty": 1,
+    "id": 4441
+  },
+  {
+    "category": "BASIC_NEEDS",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Bir bardak su alabilir miyim de.",
+    "targetEn": "Can I have a glass of water?",
+    "options": [],
+    "difficulty": 1,
+    "id": 4442
+  },
+  {
+    "category": "BASIC_NEEDS",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Şarj aleti kiralayabilir miyim de.",
+    "targetEn": "Can I rent a charger?",
+    "options": [],
+    "difficulty": 2,
+    "id": 4443
+  },
+  {
+    "category": "BASIC_NEEDS",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Bu oda çok soğuk, klimayı kapatın de.",
+    "targetEn": "This room is too cold, turn off the AC.",
+    "options": [],
+    "difficulty": 2,
+    "id": 4444
+  },
+  {
+    "category": "BASIC_NEEDS",
+    "mechanicType": "SWIPE",
+    "scenarioTr": "Sıcak bir çay içmek istiyorsun.",
+    "targetEn": "I want a cup of hot tea.",
+    "options": [
+      "I want a cup of hot tea.",
+      "I want to buy some shoes."
+    ],
+    "difficulty": 1,
+    "id": 4445
+  },
+  {
+    "category": "BASIC_NEEDS",
+    "mechanicType": "SWIPE",
+    "scenarioTr": "Otelde kahvaltının ne zaman olduğunu sor.",
+    "targetEn": "What time is breakfast?",
+    "options": [
+      "What time is breakfast?",
+      "Is there a free table?"
+    ],
+    "difficulty": 1,
+    "id": 4446
+  },
+  {
+    "category": "BASIC_NEEDS",
+    "mechanicType": "CHUNK",
+    "scenarioTr": "Telefonum için priz dönüştürücü lazım.",
+    "targetEn": "I need a plug adapter for my phone.",
+    "options": [
+      "I",
+      "need",
+      "a",
+      "plug",
+      "adapter",
+      "for",
+      "my",
+      "phone."
+    ],
+    "difficulty": 2,
+    "id": 4447
+  },
+  {
+    "category": "BASIC_NEEDS",
+    "mechanicType": "CHUNK",
+    "scenarioTr": "Hesap lütfen.",
+    "targetEn": "Could I have the bill, please?",
+    "options": [
+      "Could",
+      "I",
+      "have",
+      "the",
+      "bill,",
+      "please?"
+    ],
+    "difficulty": 1,
+    "id": 4448
+  },
+  {
+    "category": "BASIC_NEEDS",
+    "mechanicType": "CHUNK",
+    "scenarioTr": "İnternet bağlantısı çalışmıyor.",
+    "targetEn": "The internet connection is not working.",
+    "options": [
+      "The",
+      "internet",
+      "connection",
+      "is",
+      "not",
+      "working."
+    ],
+    "difficulty": 2,
+    "id": 4449
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Yardım edin, boğuluyorum de.",
+    "targetEn": "Help me, I am drowning.",
+    "options": [],
+    "difficulty": 3,
+    "id": 4450
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Bagajımı kaybettim, nerede bulabilirim de.",
+    "targetEn": "I lost my luggage, where can I find it?",
+    "options": [],
+    "difficulty": 2,
+    "id": 4451
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Bu ilaç reçetesiz satılıyor mu de.",
+    "targetEn": "Is this medicine available without a prescription?",
+    "options": [],
+    "difficulty": 3,
+    "id": 4452
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Buranın deprem toplanma alanı neresi de.",
+    "targetEn": "Where is the earthquake assembly area here?",
+    "options": [],
+    "difficulty": 3,
+    "id": 4453
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Lütfen polisi aramayın de.",
+    "targetEn": "Please do not call the police.",
+    "options": [],
+    "difficulty": 2,
+    "id": 4454
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Beni kurtarın de.",
+    "targetEn": "Save me.",
+    "options": [],
+    "difficulty": 1,
+    "id": 4455
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Telefonumu çaldılar, polisi arayın de.",
+    "targetEn": "They stole my phone, call the police.",
+    "options": [],
+    "difficulty": 2,
+    "id": 4456
+  },
+  {
+    "category": "NAVIGATION",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Buradan tren istasyonuna ne kadar sürede gidilir de.",
+    "targetEn": "How long does it take to get to the train station from here?",
+    "options": [],
+    "difficulty": 3,
+    "id": 4457
+  },
+  {
+    "category": "NAVIGATION",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Bana en yakın benzin istasyonunu gösterebilir misiniz de.",
+    "targetEn": "Can you show me the nearest gas station?",
+    "options": [],
+    "difficulty": 2,
+    "id": 4458
+  },
+  {
+    "category": "NAVIGATION",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Bu bilet tek yön mü yoksa gidiş-dönüş mü de.",
+    "targetEn": "Is this ticket one-way or round-trip?",
+    "options": [],
+    "difficulty": 2,
+    "id": 4459
+  },
+  {
+    "category": "NAVIGATION",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Şehir haritası alabilir miyim de.",
+    "targetEn": "Can I have a city map?",
+    "options": [],
+    "difficulty": 1,
+    "id": 4460
+  },
+  {
+    "category": "NAVIGATION",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "İlk sağdan dönün de.",
+    "targetEn": "Turn at the first right.",
+    "options": [],
+    "difficulty": 1,
+    "id": 4461
+  },
+  {
+    "category": "NAVIGATION",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Burada taksi sırası nerede de.",
+    "targetEn": "Where is the taxi stand here?",
+    "options": [],
+    "difficulty": 2,
+    "id": 4462
+  },
+  {
+    "category": "FINANCE",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Fatura için ödeme vadesi nedir de.",
+    "targetEn": "What is the payment deadline for the bill?",
+    "options": [],
+    "difficulty": 3,
+    "id": 4463
+  },
+  {
+    "category": "FINANCE",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Bunu taksitle ödeyebilir miyim de.",
+    "targetEn": "Can I pay this in installments?",
+    "options": [],
+    "difficulty": 2,
+    "id": 4464
+  },
+  {
+    "category": "FINANCE",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Fiş alabilir miyim de.",
+    "targetEn": "Can I have a receipt?",
+    "options": [],
+    "difficulty": 1,
+    "id": 4465
+  },
+  {
+    "category": "FINANCE",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Bu fiyata vergi dahil mi de.",
+    "targetEn": "Is tax included in this price?",
+    "options": [],
+    "difficulty": 2,
+    "id": 4466
+  },
+  {
+    "category": "BASIC_NEEDS",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Bana en yakın eczaneyi tarif edebilir misiniz de.",
+    "targetEn": "Can you describe the way to the nearest pharmacy?",
+    "options": [],
+    "difficulty": 2,
+    "id": 4467
+  },
+  {
+    "category": "BASIC_NEEDS",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Burada şarj aleti ödünç alabilir miyim de.",
+    "targetEn": "Can I borrow a charger here?",
+    "options": [],
+    "difficulty": 2,
+    "id": 4468
+  },
+  {
+    "category": "BASIC_NEEDS",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Lütfen temiz çarşaf getirin de.",
+    "targetEn": "Please bring clean sheets.",
+    "options": [],
+    "difficulty": 1,
+    "id": 4469
+  },
+  {
+    "category": "BASIC_NEEDS",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Ütüye ihtiyacım var, nerede bulabilirim de.",
+    "targetEn": "I need an iron, where can I find one?",
+    "options": [],
+    "difficulty": 2,
+    "id": 4470
+  },
+  {
+    "category": "BASIC_NEEDS",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Bu yemek çok acı mı de.",
+    "targetEn": "Is this food very spicy?",
+    "options": [],
+    "difficulty": 1,
+    "id": 4471
+  },
+  {
+    "category": "BASIC_NEEDS",
+    "mechanicType": "SKELETON",
+    "scenarioTr": "Burada Wi-Fi ücretsiz mi de.",
+    "targetEn": "Is Wi-Fi free here?",
+    "options": [],
+    "difficulty": 1,
+    "id": 4472
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "SWIPE",
+    "scenarioTr": "Kaza yaptın ve acil servisi aramak istiyorsun.",
+    "targetEn": "I had a car accident, help me.",
+    "options": [
+      "I had a car accident, help me.",
+      "Where can I rent a car?"
+    ],
+    "difficulty": 2,
+    "id": 4473
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "SWIPE",
+    "scenarioTr": "Pasaportunun kayıp olduğunu polise bildirmek istiyorsun.",
+    "targetEn": "My passport is missing.",
+    "options": [
+      "My passport is missing.",
+      "Do you want to see my passport?"
+    ],
+    "difficulty": 2,
+    "id": 4474
+  },
+  {
+    "category": "NAVIGATION",
+    "mechanicType": "SWIPE",
+    "scenarioTr": "Trenin saat kaçta kalktığını sorman gerek.",
+    "targetEn": "What time does the train leave?",
+    "options": [
+      "What time does the train leave?",
+      "Where is the train?"
+    ],
+    "difficulty": 1,
+    "id": 4475
+  },
+  {
+    "category": "NAVIGATION",
+    "mechanicType": "SWIPE",
+    "scenarioTr": "Müzenin açık olup olmadığını sorman gerek.",
+    "targetEn": "Is the museum open today?",
+    "options": [
+      "Is the museum open today?",
+      "Where is the museum?"
+    ],
+    "difficulty": 1,
+    "id": 4476
+  },
+  {
+    "category": "FINANCE",
+    "mechanicType": "SWIPE",
+    "scenarioTr": "Fiyatı yazılı olarak istemek istiyorsun.",
+    "targetEn": "Can you write down the price?",
+    "options": [
+      "Can you write down the price?",
+      "I will pay with cash."
+    ],
+    "difficulty": 1,
+    "id": 4477
+  },
+  {
+    "category": "FINANCE",
+    "mechanicType": "SWIPE",
+    "scenarioTr": "Hesapta hata olduğunu garsona belirtmek istiyorsun.",
+    "targetEn": "There is a mistake in the bill.",
+    "options": [
+      "There is a mistake in the bill.",
+      "Can we get the bill?"
+    ],
+    "difficulty": 2,
+    "id": 4478
+  },
+  {
+    "category": "BASIC_NEEDS",
+    "mechanicType": "SWIPE",
+    "scenarioTr": "Bir taksi durağı sormak istiyorsun.",
+    "targetEn": "Where is the nearest taxi stand?",
+    "options": [
+      "Where is the nearest taxi stand?",
+      "How much is the taxi fare?"
+    ],
+    "difficulty": 1,
+    "id": 4479
+  },
+  {
+    "category": "BASIC_NEEDS",
+    "mechanicType": "SWIPE",
+    "scenarioTr": "Otel odasında sıcak su akmadığını resepsiyona söyle.",
+    "targetEn": "There is no hot water in my room.",
+    "options": [
+      "There is no hot water in my room.",
+      "I want to take a cold shower."
+    ],
+    "difficulty": 2,
+    "id": 4480
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "CHUNK",
+    "scenarioTr": "Acil durum çıkışı nerede bulunuyor?",
+    "targetEn": "Where is the emergency exit located?",
+    "options": [
+      "Where",
+      "is",
+      "the",
+      "emergency",
+      "exit",
+      "located?"
+    ],
+    "difficulty": 2,
+    "id": 4481
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "CHUNK",
+    "scenarioTr": "Burada güvende miyiz?",
+    "targetEn": "Are we safe here?",
+    "options": [
+      "Are",
+      "we",
+      "safe",
+      "here?"
+    ],
+    "difficulty": 1,
+    "id": 4482
+  },
+  {
+    "category": "NAVIGATION",
+    "mechanicType": "CHUNK",
+    "scenarioTr": "Taksiyle şehir merkezine gitmek ne kadar tutar?",
+    "targetEn": "How much does it cost to get to the city center by taxi?",
+    "options": [
+      "How",
+      "much",
+      "does",
+      "it",
+      "cost",
+      "to",
+      "get",
+      "to",
+      "the",
+      "city",
+      "center",
+      "by",
+      "taxi?"
+    ],
+    "difficulty": 3,
+    "id": 4483
+  },
+  {
+    "category": "NAVIGATION",
+    "mechanicType": "CHUNK",
+    "scenarioTr": "Bu otobüs havaalanına gidiyor mu?",
+    "targetEn": "Does this bus go to the airport?",
+    "options": [
+      "Does",
+      "this",
+      "bus",
+      "go",
+      "to",
+      "the",
+      "airport?"
+    ],
+    "difficulty": 1,
+    "id": 4484
+  },
+  {
+    "category": "FINANCE",
+    "mechanicType": "CHUNK",
+    "scenarioTr": "Bana ödeme için bir makbuz verebilir misiniz?",
+    "targetEn": "Can you give me a receipt for the payment?",
+    "options": [
+      "Can",
+      "you",
+      "give",
+      "me",
+      "a",
+      "receipt",
+      "for",
+      "the",
+      "payment?"
+    ],
+    "difficulty": 2,
+    "id": 4485
+  },
+  {
+    "category": "BASIC_NEEDS",
+    "mechanicType": "CHUNK",
+    "scenarioTr": "Wi-Fi şifresini alabilir miyim?",
+    "targetEn": "Could I have the Wi-Fi password?",
+    "options": [
+      "Could",
+      "I",
+      "have",
+      "the",
+      "Wi-Fi",
+      "password?"
+    ],
+    "difficulty": 1,
+    "id": 4486
+  },
+  {
+    "category": "BASIC_NEEDS",
+    "mechanicType": "CHUNK",
+    "scenarioTr": "Sıcak su ile ilgili bir sorun var.",
+    "targetEn": "There is a problem with the hot water.",
+    "options": [
+      "There",
+      "is",
+      "a",
+      "problem",
+      "with",
+      "the",
+      "hot",
+      "water."
+    ],
+    "difficulty": 2,
+    "id": 4487
+  },
+  {
+    "category": "CRISIS",
+    "mechanicType": "ERROR_FIND",
+    "scenarioTr": "Güvende değiliz de. (safes/safe hatasını düzelt)",
+    "targetEn": "We are not safe.",
+    "options": [
+      "We are not safes.",
+      "safes",
+      "safe"
+    ],
+    "difficulty": 1,
+    "id": 4488
+  },
+  {
+    "category": "NAVIGATION",
+    "mechanicType": "ERROR_FIND",
+    "scenarioTr": "Harita alabilir miyim de. (maps/map hatasını düzelt)",
+    "targetEn": "Can I get a map?",
+    "options": [
+      "Can I get a maps.",
+      "maps",
+      "map"
+    ],
+    "difficulty": 1,
+    "id": 4489
+  },
+  {
+    "category": "NAVIGATION",
+    "mechanicType": "ERROR_FIND",
+    "scenarioTr": "Taksi nerede de. (taxis/taxi hatasını düzelt)",
+    "targetEn": "Where is the taxi?",
+    "options": [
+      "Where is the taxis?",
+      "taxis",
+      "taxi"
+    ],
+    "difficulty": 1,
+    "id": 4490
+  },
+  {
+    "category": "FINANCE",
+    "mechanicType": "ERROR_FIND",
+    "scenarioTr": "Fiyat ne kadar de. (costs/cost hatasını düzelt)",
+    "targetEn": "How much does it cost?",
+    "options": [
+      "How much does it costs?",
+      "costs",
+      "cost"
+    ],
+    "difficulty": 1,
+    "id": 4491
+  },
+  {
+    "category": "FINANCE",
+    "mechanicType": "ERROR_FIND",
+    "scenarioTr": "Kartımı kabul edin de. (accepts/accept hatasını düzelt)",
+    "targetEn": "Do you accept cards?",
+    "options": [
+      "Do you accepts cards?",
+      "accepts",
+      "accept"
+    ],
+    "difficulty": 1,
+    "id": 4492
+  },
+  {
+    "category": "BASIC_NEEDS",
+    "mechanicType": "ERROR_FIND",
+    "scenarioTr": "Su istiyorum de. (waters/water hatasını düzelt)",
+    "targetEn": "I need some water.",
+    "options": [
+      "I need some waters.",
+      "waters",
+      "water"
+    ],
+    "difficulty": 1,
+    "id": 4493
+  },
+  {
+    "category": "BASIC_NEEDS",
+    "mechanicType": "ERROR_FIND",
+    "scenarioTr": "Şifre nedir de. (passwords/password hatasını düzelt)",
+    "targetEn": "What is the password?",
+    "options": [
+      "What is the passwords?",
+      "passwords",
+      "password"
+    ],
+    "difficulty": 1,
+    "id": 4494
   }
 ]

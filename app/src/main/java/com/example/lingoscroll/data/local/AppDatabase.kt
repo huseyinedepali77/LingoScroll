@@ -82,5 +82,14 @@ abstract class AppDatabase : RoomDatabase() {
                 }
             }
         }
+
+        override fun onOpen(db: SupportSQLiteDatabase) {
+            super.onOpen(db)
+            INSTANCE?.let { database ->
+                scope.launch(Dispatchers.IO) {
+                    loadOfflineQuestions(context, database.cardDao())
+                }
+            }
+        }
     }
 }

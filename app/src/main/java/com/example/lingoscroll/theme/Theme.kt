@@ -1,5 +1,6 @@
 package com.example.lingoscroll.theme
 
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
@@ -7,34 +8,53 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 
 private val DarkColorScheme = darkColorScheme(
-    primary = SurvivalPrimary,
-    secondary = SurvivalPrimary,
-    background = SurvivalBg,
-    surface = SurvivalSurface,
+    primary = DarkPrimary,
+    secondary = DarkPrimary,
+    background = DarkBg,
+    surface = DarkSurface,
     onPrimary = Color.White,
     onSecondary = Color.White,
-    onBackground = SurvivalText,
-    onSurface = SurvivalText,
-    error = SurvivalDanger
+    onBackground = DarkText,
+    onSurface = DarkText,
+    error = DarkDanger
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = SurvivalPrimary,
-    secondary = SurvivalPrimary,
-    background = SurvivalBg,
-    surface = SurvivalSurface,
+    primary = LightPrimary,
+    secondary = LightPrimary,
+    background = LightBg,
+    surface = LightSurface,
     onPrimary = Color.White,
     onSecondary = Color.White,
-    onBackground = SurvivalText,
-    onSurface = SurvivalText,
-    error = SurvivalDanger
+    onBackground = LightText,
+    onSurface = LightText,
+    error = LightDanger
 )
 
 @Composable
 fun LingoScrollTheme(
-    darkTheme: Boolean = false, // Dinamik veya sistem koyu teması yerine sabit göz dinlendirici palet
+    darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable () -> Unit
 ) {
+    // Aktif renkleri sistem/seçilen temaya göre güncelle
+    if (darkTheme) {
+        SurvivalBg = DarkBg
+        SurvivalPrimary = DarkPrimary
+        SurvivalDanger = DarkDanger
+        SurvivalSurface = DarkSurface
+        SurvivalText = DarkText
+        SurvivalTextSecondary = DarkTextSecondary
+        SurvivalBorder = DarkBorder
+    } else {
+        SurvivalBg = LightBg
+        SurvivalPrimary = LightPrimary
+        SurvivalDanger = LightDanger
+        SurvivalSurface = LightSurface
+        SurvivalText = LightText
+        SurvivalTextSecondary = LightTextSecondary
+        SurvivalBorder = LightBorder
+    }
+
     val colorScheme = if (darkTheme) DarkColorScheme else LightColorScheme
 
     MaterialTheme(
