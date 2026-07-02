@@ -1,230 +1,224 @@
 [
   {
-    "id": 126070101,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Many people plan to travel during the long _____.",
-    "translation": "Pek çok insan uzun tatil haftasonu boyunca seyahat etmeyi planlar.",
-    "context": "Ailecek veya arkadaşlarla kaçamak yapmak için yılın belli başlı uzun haftasonları vardır, bunlara 'holiday weekend' denir. Özellikle Amerika'da Memorial Day, Labor Day gibi ulusal tatiller uzun haftasonları yaratır.",
-    "options": [
-      "weekend",
-      "journey",
-      "trip",
-      "vacation"
-    ],
-    "correctAnswer": "weekend",
-    "category": "TRAVEL",
-    "variations": [
-      "Are you excited for the holiday weekend?",
-      "We will visit my family during the holiday weekend."
-    ]
-  },
-  {
-    "id": 126070102,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The countries signed a new _____.",
-    "translation": "Ülkeler yeni bir ticaret anlaşması imzaladı.",
-    "context": "Ülkeler arasında mal ve hizmet alım satımını kolaylaştıran anlaşmalara 'trade deal' denir. Bu anlaşmalar sayesinde ithalat ve ihracat daha düzenli ve kolay hale gelir, ekonomileri canlandırır. Bu haberde ise ABD'nin Kuzey Amerika ticaret anlaşmasının uzun vadeli yenilenmesini engellediği belirtiliyor.",
-    "options": [
-      "deal",
-      "business",
-      "contract",
-      "agreement"
-    ],
-    "correctAnswer": "deal",
-    "category": "BUSINESS",
-    "variations": [
-      "They hope to secure a good trade deal.",
-      "A new trade deal benefits both nations."
-    ]
-  },
-  {
-    "id": 126070103,
+    "id": 126070201,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "Which word means 'the quality or state of being warm'?",
-    "translation": "'Sıcak olma niteliği veya hali' anlamına gelen kelime hangisidir?",
-    "context": "Bu haberde teyzesinin enkazdan kurtarılan yeğenine 'anne sıcaklığı' vereceği belirtiliyor. 'Warmth' sadece fiziksel sıcaklık değil, aynı zamanda samimiyet, şefkat gibi duygusal sıcaklığı da ifade eder. Mesela, 'Her smile brought warmth to the room.' (Gülümsemesi odaya sıcaklık getirdi.)",
+    "phrase": "Which animal is known to carry rabies and can fly?",
+    "translation": "Kuduz taşıdığı bilinen ve uçabilen hayvan hangisidir?",
+    "context": "'Bat' (yarasa), gece uçuşan, meyve veya böcek yiyen ilginç bir memeli. Ama dikkat! Haberlerde de gördüğün gibi, bazen kuduz taşıyabiliyorlar. Bir gece yatakta uyurken aniden yüzünde bir yarasa uyanmak istemezsin, değil mi? Hayvanlara yaklaşırken her zaman temkinli ol!",
     "options": [
-      "coldness",
-      "heat",
-      "warmth",
-      "chill"
+      "bat",
+      "dog",
+      "cat",
+      "bird"
     ],
-    "correctAnswer": "warmth",
+    "correctAnswer": "bat",
     "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126070104,
+    "id": 126070202,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The team kept their championship _____.",
-    "translation": "Takım şampiyonluk hayallerini canlı tuttu.",
-    "context": "Bir hedefi veya umudu hala gerçekleştirebilir durumda olmak 'to keep a dream alive' demektir. Bu haberde Harry Kane'in attığı golle İngiltere'nin Dünya Kupası hayallerini canlı tuttuğu söyleniyor. Spor müsabakalarında veya genel hayatta bir amaç için mücadeleye devam etmeyi anlatır.",
+    "phrase": "The player will _____ to a new team next season.",
+    "translation": "Oyuncu gelecek sezon yeni bir takıma geçecek.",
+    "context": "'Move', hareket etmek, taşınmak anlamına gelir. Futbolda veya herhangi bir işte takım/şirket değiştirdiğinde 'move to a new team/company' dersin. Yani, 'Yeni bir eve mi taşındın?' demek için 'Did you move to a new house?' diyebilirsin. Hayat bazen sürekli bir 'move' hali!",
     "options": [
-      "dream",
-      "goal",
-      "hope",
-      "wish"
+      "move",
+      "stay",
+      "play",
+      "sign"
     ],
-    "correctAnswer": "dream",
-    "category": "GENERAL",
+    "correctAnswer": "move",
+    "category": "BUSINESS",
     "variations": [
-      "They fought hard to keep their dream alive.",
-      "Don't give up, keep your dream alive!"
+      "He decided to move to another city.",
+      "I need to move my car from here."
     ]
   },
   {
-    "id": 126070105,
+    "id": 126070203,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Many people were _____ the war-torn region.",
-    "translation": "Pek çok insan savaşın yıprattığı bölgeden kaçıyordu.",
-    "context": "'To flee' bir yerden hızla ve genellikle tehlikeden dolayı kaçmak demektir. Bu haberde Nijerya vatandaşlarının Güney Afrika'dan kaçması ve terk ettikleri mülkler için tazminat talep etmesi anlatılıyor. Acil ve zorunlu bir ayrılışı ifade eder.",
+    "level": "BEGINNER",
+    "phrase": "We are expecting a big _____ this week. Stay cool!",
+    "translation": "Bu hafta büyük bir sıcak hava dalgası bekliyoruz. Serin kalın!",
+    "context": "'Heatwave' (sıcak hava dalgası), özellikle yaz aylarında havanın günlerce normalden çok daha sıcak olması durumudur. Bu dönemlerde dışarı çıkarken şapka tak, su içmeyi unutma ve mümkünse serin yerlerde kal. 'Heatwave' uyarısı varsa, planlarını değiştirmek iyi bir fikir olabilir!",
     "options": [
-      "leaving",
-      "running",
-      "fleeing",
-      "escaping"
+      "heatwave",
+      "cold front",
+      "rainstorm",
+      "snowfall"
     ],
-    "correctAnswer": "fleeing",
+    "correctAnswer": "heatwave",
     "category": "TRAVEL",
     "variations": [
-      "They fled their homes in the night.",
-      "Thousands of refugees are fleeing the conflict."
+      "The country is currently experiencing a severe heatwave.",
+      "The heatwave is causing forest fires."
     ]
   },
   {
-    "id": 126070106,
+    "id": 126070204,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "Apple is preparing for the new product ____.",
+    "translation": "Apple yeni ürünün piyasaya sürülmesi için hazırlanıyor.",
+    "context": "'Release' (piyasaya sürmek, çıkarmak) teknoloji dünyasında yeni bir ürünün, filmin ya da albümün piyasaya çıkması anlamına gelir. Yeni bir iPhone veya favori grubunun yeni şarkısı çıktığında 'The new album was released today!' diyebilirsin. Beklentiler tavan yapar, değil mi?",
+    "options": [
+      "release",
+      "delay",
+      "recall",
+      "sale"
+    ],
+    "correctAnswer": "release",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126070205,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Many people seek _____ in other countries due to war.",
+    "translation": "Birçok insan savaş nedeniyle başka ülkelerde sığınma arar.",
+    "context": "'Asylum' (sığınma), bir ülkenin, zulümden veya savaştan kaçan kişilere koruma sağlamasıdır. Bu, onların yeni bir ülkede güvende ve özgürce yaşama şansı bulmaları demek. Bazen insanlar, korkunç durumlardan kaçmak için çok uzun ve tehlikeli yollar kat ederler.",
+    "options": [
+      "asylum",
+      "vacation",
+      "residence",
+      "passport"
+    ],
+    "correctAnswer": "asylum",
+    "category": "TRAVEL",
+    "variations": [
+      "She applied for political asylum in Canada.",
+      "Seeking asylum is a human right."
+    ]
+  },
+  {
+    "id": 126070206,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "What does 'raising red flags' mean?",
-    "translation": "'Raising red flags' ne anlama gelir?",
-    "context": "Bir durumun tehlike veya sorun işareti vermesi, uyarıcı nitelikte olması 'to raise red flags' olarak ifade edilir. Tıpkı bir boğa güreşçisinin kırmızı bayrağı sallayıp boğayı kışkırtması gibi, bu deyim de bir şeyin 'dikkat et, sorun var!' demesi anlamına gelir. WhatsApp kullanıcı adları konusundaki sahtekarlık endişelerini bu ifadeyle anlatmışlar.",
+    "phrase": "The company's stock price _____ after the positive news.",
+    "translation": "Olumlu haberlerin ardından şirketin hisse senedi fiyatı fırladı.",
+    "context": "'Surge' (ani yükseliş, fırlama), genellikle piyasa değerleri, fiyatlar veya kalabalıklar gibi şeylerin hızla ve aniden artması durumudur. Bir şirketin hisseleri aniden fırladığında ya da bir konsere biletler bir anda tükendiğinde 'surge' kelimesini kullanabilirsin. Adeta bir dalga gibi yükselir!",
     "options": [
-      "causing excitement",
-      "showing approval",
-      "indicating a problem",
-      "giving good news"
+      "surged",
+      "dropped",
+      "stalled",
+      "collapsed"
     ],
-    "correctAnswer": "indicating a problem",
+    "correctAnswer": "surged",
     "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126070107,
+    "id": 126070207,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Last month was the coldest winter _____.",
-    "translation": "Geçen ay kayıtlara geçen en soğuk kıştı.",
-    "context": "Bir şeyin 'on record' olması, o zamana kadarki tüm ölçümler veya gözlemler arasında bir ilk veya en iyi/kötü olması demektir. Yani 'kayıtlara geçen en...' anlamına gelir. İngiltere'nin tarihindeki en sıcak Haziran ayı olduğu gibi.",
+    "phrase": "The climbers managed to _____ the difficult mountain.",
+    "translation": "Dağcılar zorlu dağı tırmanmayı başardılar.",
+    "context": "'Scale' (tırmanmak, ölçeklendirmek), burada bir şeye tırmanmak anlamında kullanılmış. Haberlerde Empire State Binası'na tırmanan çift gibi, zorlu bir engeli aşmak veya bir yüksekliğe çıkmak için 'scale' diyebiliriz. Ama yasa dışı tırmanışlar, 'Don't try this at home!' kategorisinde.",
     "options": [
-      "history",
-      "ever",
-      "on record",
-      "data"
+      "scale",
+      "descend",
+      "avoid",
+      "pass"
     ],
-    "correctAnswer": "on record",
+    "correctAnswer": "scale",
     "category": "CASUAL",
     "variations": [
-      "This storm is the strongest on record.",
-      "It was the highest score on record."
+      "They scaled the wall to escape.",
+      "The company is trying to scale up its operations."
     ]
   },
   {
-    "id": 126070108,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The attack targeted an important _____.",
-    "translation": "Saldırı önemli bir petrol rafinerisini hedef aldı.",
-    "context": "'Oil refinery' ham petrolün benzin, dizel gibi farklı petrol ürünlerine dönüştürüldüğü büyük endüstriyel tesislere verilen isimdir. Enerji sektörü için hayati öneme sahip yerlerdir. Ukrayna'nın Rus petrol rafinerisini hedef alması gibi haberlerde sıkça karşımıza çıkar.",
-    "options": [
-      "plant",
-      "station",
-      "oil refinery",
-      "factory"
-    ],
-    "correctAnswer": "oil refinery",
-    "category": "GENERAL",
-    "variations": [
-      "The government plans to build a new oil refinery.",
-      "Environmental concerns surrounded the oil refinery."
-    ]
-  },
-  {
-    "id": 126070109,
+    "id": 126070208,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Which term refers to payment for loss, injury, or suffering?",
-    "translation": "Kayıp, yaralanma veya acı için yapılan ödeme hangi terimle ifade edilir?",
-    "context": "Bir zararın, kaybın veya haksızlığın telafisi için yapılan ödemeye 'compensation' denir. Bu haberde, Güney Afrika'dan kaçan vatandaşların terk ettiği mülkler için Nijerya'nın tazminat talep edeceği belirtiliyor. Hukuki ve ticari bağlamda sıkça kullanılır.",
+    "level": "INTERMEDIATE",
+    "phrase": "What is the term for a major international motor race?",
+    "translation": "Büyük bir uluslararası motor yarışı için kullanılan terim nedir?",
+    "context": "'Grand Prix' (Büyük Ödül), Formula 1 gibi büyük motor sporları yarışlarına verilen genel isimdir. Bu yarışlar, genellikle büyük bir heyecan fırtınası estirir ve dünya genelinde milyonlarca insan tarafından izlenir. Arabaların Lego versiyonlarını görmüş olmak ise bu heyecana komik bir tat katıyor, değil mi?",
     "options": [
-      "bounty",
-      "remuneration",
-      "compensation",
-      "gratification"
+      "Grand Prix",
+      "Marathon",
+      "Sprint",
+      "Rally"
     ],
-    "correctAnswer": "compensation",
-    "category": "TRAVEL",
+    "correctAnswer": "Grand Prix",
+    "category": "MIXED",
     "variations": []
   },
   {
-    "id": 126070110,
+    "id": 126070209,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Despite the general tech _____, their stock performed well.",
-    "translation": "Genel teknoloji düşüşüne rağmen, hisseleri iyi performans gösterdi.",
-    "context": "'SaaS slump' kelimesi, 'Software as a Service' (Hizmet olarak Yazılım) sektöründeki genel bir düşüş veya yavaşlama anlamına gelir. 'Slump' ekonomik bir düşüş, durgunluk ya da performans kaybı için kullanılır. Bu haberde, Bending Spoons şirketinin bu genel düşüşe rağmen ilk işlem gününde %40 yükselerek meydan okuduğu belirtiliyor.",
+    "phrase": "The city skyline was dominated by several shining _____.",
+    "translation": "Şehir silüeti, birkaç parlayan gökdelenle çevriliydi.",
+    "context": "'Skyscraper' (gökdelen), devasa yüksek binalara denir. New York, Dubai gibi büyük şehirlerin simgesidirler ve bulutlara kadar uzanırlar. Bir gün bu dev binaların tepesinden şehri izlemek istersen, mutlaka bir 'skyscraper'ın gözlem katına çıkmalısın. Manzara nefes kesici olur!",
     "options": [
-      "boom",
-      "slump",
-      "growth",
-      "rise"
+      "skyscrapers",
+      "bungalows",
+      "cottages",
+      "shacks"
     ],
-    "correctAnswer": "slump",
-    "category": "BUSINESS",
+    "correctAnswer": "skyscrapers",
+    "category": "TRAVEL",
     "variations": [
-      "The housing market experienced a significant slump.",
-      "Many companies struggled during the economic slump."
+      "Modern cities are often filled with towering skyscrapers.",
+      "Architects compete to design the tallest skyscraper."
     ]
   },
   {
-    "id": 126070111,
+    "id": 126070210,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "What is a wealthy and powerful business person, especially in one industry, called?",
+    "translation": "Özellikle bir sektörde, varlıklı ve güçlü bir iş insanına ne ad verilir?",
+    "context": "'Tycoon' (kodaman, iş devi), genellikle çok varlıklı ve kendi işinde büyük etkiye sahip bir iş insanını tanımlar. Teknoloji, medya veya emlak gibi sektörlerde kendi imparatorluklarını kurmuş kişiler için kullanılır. 'Tech tycoon' kelimesini duyduğunda, aklına Elon Musk veya Bill Gates gibi isimler gelebilir! Onlar sektörlerinin kralları gibi.",
+    "options": [
+      "Tycoon",
+      "Intern",
+      "Clerk",
+      "Apprentice"
+    ],
+    "correctAnswer": "Tycoon",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126070211,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "His constant criticism slowly _____ her confidence.",
-    "translation": "Onun sürekli eleştirisi yavaş yavaş özgüvenini zayıflattı.",
-    "context": "'To undermine' bir şeyin gücünü, etkinliğini veya güvenilirliğini zayıflatmak, temelini sarsmak demektir. Neil Gorsuch'un Yüksek Mahkeme'nin medeni özgürlükleri zayıflatan yanlış kararlarını düzeltmesini istediği haberinde geçiyor. Genellikle olumsuz bir eylemi ifade eder.",
+    "phrase": "His previous research was largely _____ after new evidence emerged.",
+    "translation": "Önceki araştırması, yeni kanıtlar ortaya çıktıktan sonra büyük ölçüde gözden düştü.",
+    "context": "'Discredited' (itibarsızlaştırılmış, gözden düşmüş), bir fikrin, politikanın veya kişinin güvenilirliğinin veya geçerliliğinin sorgulanması ve hatta ortadan kaldırılması anlamına gelir. Bir teori çürütüldüğünde veya bir politika işe yaramadığı kanıtlandığında, 'discredited' hale gelir. Yani, 'Artık kimse ona inanmıyor!' demek gibi.",
     "options": [
+      "discredited",
+      "confirmed",
       "supported",
-      "boosted",
-      "strengthened",
-      "undermined"
+      "validated"
     ],
-    "correctAnswer": "undermined",
+    "correctAnswer": "discredited",
     "category": "CASUAL",
     "variations": [
-      "Lack of trust can undermine a relationship.",
-      "The scandal undermined public faith in the government."
+      "The witness's testimony was discredited by the defense lawyer.",
+      "The old medical remedies have been largely discredited."
     ]
   },
   {
-    "id": 126070112,
+    "id": 126070212,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "What does it mean for a policy or idea to be 'discredited'?",
-    "translation": "Bir politika veya fikrin 'discredited' olması ne anlama gelir?",
-    "context": "'Discredited' bir şeyin güvenilirliğini, itibarını veya doğruluğunu yitirmiş olması demektir. Yani, 'gözden düşmüş', 'çürütülmüş' ya da 'itibarsızlaştırılmış' anlamına gelir. Trump yönetiminin daha önce çürütülmüş bir politikayı yeniden canlandırmaya çalıştığı haberinde geçiyor. Artık geçerliliği veya doğruluğu kabul edilmeyen durumlar için kullanılır.",
+    "phrase": "Which natural disaster is characterized by a prolonged period of abnormally low rainfall?",
+    "translation": "Anormal derecede düşük yağışın uzun bir süre devam etmesiyle karakterize olan doğal afet hangisidir?",
+    "context": "'Drought' (kuraklık), uzun süreli yağışsızlık nedeniyle su kaynaklarının tükenmesi ve ciddi su kıtlığı yaşanması durumudur. Çiftçiler için en büyük kabuslardan biridir çünkü ekinler kurur ve hayvanlar susuz kalır. İklim değişikliğiyle birlikte, bu tür haberleri daha sık duyuyoruz. Su israf etmeyelim!",
     "options": [
-      "proven effective",
-      "widely accepted",
-      "shown to be unreliable",
-      "newly introduced"
+      "Drought",
+      "Flood",
+      "Earthquake",
+      "Tornado"
     ],
-    "correctAnswer": "shown to be unreliable",
-    "category": "GENERAL",
+    "correctAnswer": "Drought",
+    "category": "MIXED",
     "variations": []
   }
 ]
