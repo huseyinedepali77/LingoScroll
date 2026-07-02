@@ -20,6 +20,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.hapticfeedback.HapticFeedbackType
 import androidx.compose.ui.platform.LocalHapticFeedback
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
+import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.ui.graphics.graphicsLayer
@@ -379,15 +380,28 @@ fun PracticeScreen(
 ) {
     val haptic = LocalHapticFeedback.current
     val scrollState = rememberScrollState()
+    val focusManager = LocalFocusManager.current
 
-    // Cevap değerlendirildiğinde (klavye kapandığında) ekranı otomatik en üste kaydır
+    // Cevap değerlendirildiğinde (klavye kapanıp ekran boyutu genişlediğinde) odağı temizle ve 300ms gecikmeyle üste kaydır
     LaunchedEffect(state.isAnswerEvaluated) {
         if (state.isAnswerEvaluated) {
+            focusManager.clearFocus() // Odağı kaldırarak scroll kitlenmesini engelle
+            delay(300L) // Klavyenin kapanıp ekranın eski boyutuna gelmesini bekle
             try {
                 scrollState.animateScrollTo(0)
             } catch (e: Exception) {
                 e.printStackTrace()
             }
+        }
+    }
+
+    // Yeni kart yüklendiğinde odağı temizle ve ekranı anında en üste sıfırla
+    LaunchedEffect(state.currentItem.id) {
+        focusManager.clearFocus()
+        try {
+            scrollState.scrollTo(0)
+        } catch (e: Exception) {
+            e.printStackTrace()
         }
     }
 
