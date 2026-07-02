@@ -42,6 +42,29 @@ sealed interface MainScreenUiState {
         val correctCount: Int
     ) : MainScreenUiState
 
+    data class RedCodeSurvival(
+        val currentItem: SurvivalCard,
+        val timeLeftSeconds: Int,
+        val totalScore: Int,
+        val correctCount: Int,
+        val wrongCount: Int,
+        val selectedOption: String? = null,
+        val isAnswerEvaluated: Boolean = false,
+        val isAnswerCorrect: Boolean = false,
+        val showSummary: Boolean = false,
+        
+        // Skeleton mechanic fields
+        val userInput: String = "",
+        val jokerCount: Int = 0,
+        val wrongLetter: String = "",
+        val showErrorAnimation: Boolean = false,
+        val revealedIndices: Set<Int> = emptySet(),
+        val typedIndices: Set<Int> = emptySet(),
+        
+        val shuffledOptions: List<String> = emptyList(),
+        val questionStartTime: Long = 0L
+    ) : MainScreenUiState
+
     data class Practice(
         val currentItem: SurvivalCard,
         val isMeaningRevealed: Boolean = false,
@@ -92,6 +115,11 @@ class MainScreenViewModel(private val context: Context) : ViewModel() {
     private val failCountMap = mutableMapOf<Int, Int>()
     private val sessionQueue = mutableListOf<SurvivalCard>()
     private var secondsTimerActive = 0L
+
+    // --- Aşama 3: Kırmızı Kod (Survival) Modu Alanları ---
+    private var redCodeTimerJob: kotlinx.coroutines.Job? = null
+    private val redCodeQueue = mutableListOf<SurvivalCard>()
+    private var currentRedCodeIndex = 0
 
     private fun updateFailCount(cardId: Int, isCorrect: Boolean) {
         if (isCorrect) {
@@ -922,6 +950,233 @@ class MainScreenViewModel(private val context: Context) : ViewModel() {
             correctAnswered = correct,
             accuracyPercent = accuracy
         )
+    }
+
+    // --- Aşama 3: Kırmızı Kod (Survival) Modu Yönetim Fonksiyonları ---
+
+    fun startRedCodeMode() {
+        viewModelScope.launch(Dispatchers.IO) {
+            val questions = repository.getRedCodeCards().shuffled()
+            if (questions.isNotEmpty()) {
+                viewModelScope.launch(Dispatchers.Main) {
+                    redCodeQueue.clear()
+                    redCodeQueue.addAll(questions)
+                    currentRedCodeIndex = 0
+                    
+                    val firstItem = redCodeQueue[0]
+                    val shuffledOpts = firstItem.optionsList.shuffled()
+                    
+                    _uiState.value = MainScreenUiState.RedCodeSurvival(
+                        currentItem = firstItem,
+                        timeLeftSeconds = 60,
+                        totalScore = 0,
+                        correctCount = 0,
+                        wrongCount = 0,
+                        selectedOption = null,
+                        isAnswerEvaluated = false,
+                        isAnswerCorrect = false,
+                        showSummary = false,
+                        
+                        userInput = "",
+                        jokerCount = 0,
+                        wrongLetter = "",
+                        showErrorAnimation = false,
+                        revealedIndices = calculateRevealedIndices(firstItem.targetEn, firstItem.difficulty),
+                        typedIndices = emptySet(),
+                        
+                        shuffledOptions = shuffledOpts,
+                        questionStartTime = System.currentTimeMillis()
+                    )
+                    
+                    startRedCodeTimer()
+                }
+            }
+        }
+    }
+
+    private fun startRedCodeTimer() {
+        redCodeTimerJob?.cancel()
+        redCodeTimerJob = viewModelScope.launch(Dispatchers.Main) {
+            while (true) {
+                delay(1000L)
+                val currentState = _uiState.value as? MainScreenUiState.RedCodeSurvival ?: break
+                if (currentState.showSummary) break
+                
+                val nextTime = currentState.timeLeftSeconds - 1
+                if (nextTime <= 0) {
+                    _uiState.value = currentState.copy(
+                        timeLeftSeconds = 0,
+                        showSummary = true
+                    )
+                    break
+                } else {
+                    _uiState.value = currentState.copy(timeLeftSeconds = nextTime)
+                }
+            }
+        }
+    }
+
+    fun answerRedCodeQuestion(answer: String) {
+        val currentState = _uiState.value as? MainScreenUiState.RedCodeSurvival ?: return
+        if (currentState.isAnswerEvaluated) return
+        
+        val isCorrect = answer == currentState.currentItem.targetEn
+        val elapsed = System.currentTimeMillis() - currentState.questionStartTime
+        
+        val pointsGained = if (isCorrect) {
+            if (elapsed < 3000L) 150 else 100
+        } else {
+            -20
+        }
+        
+        val newScore = (currentState.totalScore + pointsGained).coerceAtLeast(0)
+        val newTimeLeft = if (isCorrect) currentState.timeLeftSeconds + 3 else currentState.timeLeftSeconds
+        val newCorrectCount = if (isCorrect) currentState.correctCount + 1 else currentState.correctCount
+        val newWrongCount = if (!isCorrect) currentState.wrongCount + 1 else currentState.wrongCount
+        
+        _uiState.value = currentState.copy(
+            selectedOption = answer,
+            isAnswerEvaluated = true,
+            isAnswerCorrect = isCorrect,
+            totalScore = newScore,
+            timeLeftSeconds = newTimeLeft,
+            correctCount = newCorrectCount,
+            wrongCount = newWrongCount
+        )
+        
+        tts.speak(currentState.currentItem.targetEn)
+    }
+
+    fun onRedCodeSkeletonInputChange(newInput: String) {
+        val currentState = _uiState.value as? MainScreenUiState.RedCodeSurvival ?: return
+        if (currentState.isAnswerEvaluated) return
+        
+        val target = currentState.currentItem.targetEn
+        val firstHiddenIndex = target.indices.firstOrNull { i ->
+            target[i].isLetterOrDigit() && i !in (currentState.revealedIndices + currentState.typedIndices)
+        } ?: return
+        
+        val expectedChar = target[firstHiddenIndex].lowercaseChar()
+        val typedChar = newInput.lastOrNull()?.lowercaseChar()
+        
+        if (typedChar == expectedChar) {
+            val newTyped = currentState.typedIndices + firstHiddenIndex
+            _uiState.value = currentState.copy(
+                userInput = "",
+                typedIndices = newTyped,
+                showErrorAnimation = false
+            )
+            
+            checkRedCodeSkeletonFinished(newTyped, target, currentState.jokerCount)
+        } else if (typedChar != null) {
+            _uiState.value = currentState.copy(
+                userInput = "",
+                showErrorAnimation = true,
+                wrongLetter = typedChar.toString()
+            )
+            viewModelScope.launch {
+                delay(400L)
+                val latestState = _uiState.value as? MainScreenUiState.RedCodeSurvival ?: return@launch
+                _uiState.value = latestState.copy(showErrorAnimation = false)
+            }
+        }
+    }
+
+    private fun checkRedCodeSkeletonFinished(typedIndices: Set<Int>, target: String, jokerCount: Int) {
+        val currentState = _uiState.value as? MainScreenUiState.RedCodeSurvival ?: return
+        
+        val nextHidden = target.indices.firstOrNull { i ->
+            target[i].isLetterOrDigit() && i !in (currentState.revealedIndices + typedIndices)
+        }
+        
+        if (nextHidden == null) {
+            val elapsed = System.currentTimeMillis() - currentState.questionStartTime
+            
+            val pointsGained = if (jokerCount < 3) {
+                if (elapsed < 3000L) 150 else 100
+            } else {
+                100
+            }
+            
+            val newScore = (currentState.totalScore + pointsGained).coerceAtLeast(0)
+            val newTimeLeft = currentState.timeLeftSeconds + 3
+            val newCorrectCount = currentState.correctCount + 1
+            
+            _uiState.value = currentState.copy(
+                userInput = "",
+                isAnswerEvaluated = true,
+                isAnswerCorrect = true,
+                totalScore = newScore,
+                timeLeftSeconds = newTimeLeft,
+                correctCount = newCorrectCount
+            )
+            
+            tts.speak(target)
+        }
+    }
+
+    fun useRedCodeJoker() {
+        val currentState = _uiState.value as? MainScreenUiState.RedCodeSurvival ?: return
+        if (currentState.isAnswerEvaluated) return
+        
+        val target = currentState.currentItem.targetEn
+        val firstHiddenIndex = target.indices.firstOrNull { i ->
+            target[i].isLetterOrDigit() && i !in (currentState.revealedIndices + currentState.typedIndices)
+        }
+        
+        if (firstHiddenIndex != null) {
+            val newTypedIndices = currentState.typedIndices + firstHiddenIndex
+            val newJokerCount = currentState.jokerCount + 1
+            val newScore = (currentState.totalScore - 50).coerceAtLeast(0)
+            
+            _uiState.value = currentState.copy(
+                typedIndices = newTypedIndices,
+                jokerCount = newJokerCount,
+                totalScore = newScore
+            )
+            
+            checkRedCodeSkeletonFinished(newTypedIndices, target, newJokerCount)
+        }
+    }
+
+    fun nextRedCodeQuestion() {
+        val currentState = _uiState.value as? MainScreenUiState.RedCodeSurvival ?: return
+        
+        currentRedCodeIndex++
+        if (currentRedCodeIndex >= redCodeQueue.size) {
+            redCodeQueue.shuffle()
+            currentRedCodeIndex = 0
+        }
+        
+        if (redCodeQueue.isNotEmpty()) {
+            val nextItem = redCodeQueue[currentRedCodeIndex]
+            val shuffledOpts = nextItem.optionsList.shuffled()
+            
+            _uiState.value = currentState.copy(
+                currentItem = nextItem,
+                selectedOption = null,
+                isAnswerEvaluated = false,
+                isAnswerCorrect = false,
+                userInput = "",
+                jokerCount = 0,
+                wrongLetter = "",
+                showErrorAnimation = false,
+                revealedIndices = calculateRevealedIndices(nextItem.targetEn, nextItem.difficulty),
+                typedIndices = emptySet(),
+                shuffledOptions = shuffledOpts,
+                questionStartTime = System.currentTimeMillis()
+            )
+        }
+    }
+
+    fun exitRedCodeMode() {
+        redCodeTimerJob?.cancel()
+        val category = prefs.getUserStyle()
+        startStageSession(category)
+    }
+
+    fun retryRedCodeMode() {
+        startRedCodeMode()
     }
 }
 

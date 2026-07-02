@@ -103,6 +103,12 @@ fun MainScreen(
                     viewModel = viewModel
                 )
             }
+            is MainScreenUiState.RedCodeSurvival -> {
+                RedCodeSurvivalScreen(
+                    state = s,
+                    viewModel = viewModel
+                )
+            }
         }
     }
 }
@@ -464,6 +470,33 @@ fun PracticeScreen(
                     rank = viewModel.getUserRank(),
                     onSettingsClick = { showSettingsDialog = true }
                 )
+                Spacer(modifier = Modifier.height(16.dp))
+
+                // Kırmızı Kod Giriş Butonu
+                Button(
+                    onClick = { viewModel.startRedCodeMode() },
+                    colors = ButtonDefaults.buttonColors(containerColor = SurvivalDanger),
+                    shape = RoundedCornerShape(14.dp),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(52.dp)
+                        .border(1.5.dp, Color.Red, RoundedCornerShape(14.dp))
+                ) {
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.Center
+                    ) {
+                        Text("🚨", fontSize = 18.sp)
+                        Spacer(modifier = Modifier.width(8.dp))
+                        Text(
+                            text = "KIRMIZI KOD: Hayatta Kal",
+                            fontSize = 15.sp,
+                            fontWeight = FontWeight.Black,
+                            color = Color.White
+                        )
+                    }
+                }
+
                 Spacer(modifier = Modifier.height(16.dp))
 
                 // Active Scenario Card
@@ -1321,3 +1354,301 @@ fun toDynamicSkeletonText(target: String, userInput: String, revealedIndices: Se
 fun cleanScenarioText(text: String): String {
     return text.replace(Regex("\\s*\\([^)]*\\)"), "").trim()
 }
+
+// 8. KIRMIZI KOD (SURVIVAL) MODE SCREEN
+@Composable
+fun RedCodeSurvivalScreen(
+    state: MainScreenUiState.RedCodeSurvival,
+    viewModel: MainScreenViewModel
+) {
+    val haptic = androidx.compose.ui.platform.LocalHapticFeedback.current
+    val scrollState = rememberScrollState()
+    val focusManager = androidx.compose.ui.platform.LocalFocusManager.current
+    val keyboardController = androidx.compose.ui.platform.LocalSoftwareKeyboardController.current
+
+    LaunchedEffect(state.isAnswerEvaluated) {
+        if (state.isAnswerEvaluated) {
+            focusManager.clearFocus()
+            keyboardController?.hide()
+            delay(300L)
+            try {
+                scrollState.animateScrollTo(0)
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
+        }
+    }
+
+    LaunchedEffect(scrollState.maxValue, state.isAnswerEvaluated) {
+        if (state.isAnswerEvaluated) {
+            try {
+                scrollState.scrollTo(0)
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
+        } else {
+            if (scrollState.maxValue > 0) {
+                try {
+                    scrollState.animateScrollTo(scrollState.maxValue)
+                } catch (e: Exception) {
+                    e.printStackTrace()
+                }
+            }
+        }
+    }
+
+    LaunchedEffect(state.currentItem.id) {
+        focusManager.clearFocus()
+        try {
+            scrollState.scrollTo(0)
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+    }
+
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(Color(0xFF0F0B0B)) // Velvet Mat Kırmızımsı Koyu Arka Plan
+    ) {
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .verticalScroll(scrollState)
+                .padding(16.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            // Survival Header
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(vertical = 12.dp),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                val isUrgent = state.timeLeftSeconds <= 15
+                val timerBg = if (isUrgent) Color(0xFF451313) else Color(0xFF221414)
+                val timerColor = if (isUrgent) Color(0xFFFE2525) else Color(0xFFFFB300)
+                
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    modifier = Modifier
+                        .background(timerBg, RoundedCornerShape(12.dp))
+                        .border(1.dp, timerColor.copy(alpha = 0.4f), RoundedCornerShape(12.dp))
+                        .padding(horizontal = 14.dp, vertical = 8.dp)
+                ) {
+                    Text(if (isUrgent) "🚨" else "⏱️", fontSize = 16.sp)
+                    Spacer(modifier = Modifier.width(6.dp))
+                    Text(
+                        text = "${state.timeLeftSeconds}s",
+                        fontSize = 15.sp,
+                        fontWeight = FontWeight.Black,
+                        color = timerColor
+                    )
+                }
+
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    modifier = Modifier
+                        .background(Color(0xFF132213), RoundedCornerShape(12.dp))
+                        .border(1.dp, Color(0xFF81C784).copy(alpha = 0.4f), RoundedCornerShape(12.dp))
+                        .padding(horizontal = 14.dp, vertical = 8.dp)
+                ) {
+                    Text("⭐", fontSize = 16.sp)
+                    Spacer(modifier = Modifier.width(6.dp))
+                    Text(
+                        text = "${state.totalScore} Pts",
+                        fontSize = 15.sp,
+                        fontWeight = FontWeight.Black,
+                        color = Color(0xFF81C784)
+                    )
+                }
+            }
+
+            Spacer(modifier = Modifier.height(16.dp))
+
+            // Senaryo Kartı
+            Card(
+                modifier = Modifier.fillMaxWidth(),
+                colors = CardDefaults.cardColors(containerColor = Color(0xFF1D1414)),
+                elevation = CardDefaults.cardElevation(defaultElevation = 5.dp),
+                shape = RoundedCornerShape(18.dp),
+                border = androidx.compose.foundation.BorderStroke(1.dp, Color(0xFF3E1F1F))
+            ) {
+                Column(
+                    modifier = Modifier.padding(16.dp),
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
+                    Text(
+                        text = "ACİL DURUM SENARYOSU",
+                        fontSize = 12.sp,
+                        fontWeight = FontWeight.Black,
+                        color = Color(0xFFFF5252),
+                        textAlign = TextAlign.Center
+                    )
+                    Spacer(modifier = Modifier.height(8.dp))
+                    Text(
+                        text = cleanScenarioText(state.currentItem.scenarioTr),
+                        fontSize = 16.sp,
+                        fontWeight = FontWeight.Bold,
+                        color = Color.White,
+                        textAlign = TextAlign.Center,
+                        lineHeight = 24.sp
+                    )
+                }
+            }
+
+            Spacer(modifier = Modifier.height(16.dp))
+
+            // Mekanik Kartı
+            Card(
+                modifier = Modifier.fillMaxWidth(),
+                colors = CardDefaults.cardColors(containerColor = Color(0xFF1D1414)),
+                elevation = CardDefaults.cardElevation(defaultElevation = 4.dp),
+                shape = RoundedCornerShape(20.dp),
+                border = androidx.compose.foundation.BorderStroke(1.dp, Color(0xFF3E1F1F))
+            ) {
+                Column(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(20.dp),
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    verticalArrangement = Arrangement.Center
+                ) {
+                    if (state.currentItem.mechanicType == "SKELETON") {
+                        SkeletonMechanicView(
+                            state = MainScreenUiState.Practice(
+                                currentItem = state.currentItem,
+                                streak = 0,
+                                secondsSaved = 0,
+                                currentCategory = "MIXED",
+                                userInput = state.userInput,
+                                jokerCount = state.jokerCount,
+                                wrongLetter = state.wrongLetter,
+                                showErrorAnimation = state.showErrorAnimation,
+                                revealedIndices = state.revealedIndices,
+                                typedIndices = state.typedIndices
+                            ),
+                            isHapticEnabled = viewModel.isHapticEnabled(),
+                            onInputChange = { viewModel.onRedCodeSkeletonInputChange(it) },
+                            onUseJoker = { viewModel.useRedCodeJoker() }
+                        )
+                    } else {
+                        SwipeMechanicView(
+                            state = MainScreenUiState.Practice(
+                                currentItem = state.currentItem,
+                                streak = 0,
+                                secondsSaved = 0,
+                                currentCategory = "MIXED",
+                                shuffledOptions = state.shuffledOptions,
+                                selectedOption = state.selectedOption
+                            ),
+                            onAnswer = { viewModel.answerRedCodeQuestion(it) }
+                        )
+                    }
+                }
+            }
+
+            Spacer(modifier = Modifier.height(120.dp))
+        }
+
+        if (state.isAnswerEvaluated) {
+            Box(
+                modifier = Modifier
+                    .align(Alignment.BottomCenter)
+                    .fillMaxWidth()
+                    .padding(16.dp)
+            ) {
+                EvaluationResultBanner(
+                    isCorrect = state.isAnswerCorrect,
+                    correctAnswer = state.currentItem.targetEn,
+                    onNext = { viewModel.nextRedCodeQuestion() }
+                )
+            }
+        }
+
+        // Özet Ekranı
+        if (state.showSummary) {
+            Box(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .background(Color.Black.copy(alpha = 0.85f))
+                    .clickable(enabled = false) {},
+                contentAlignment = Alignment.Center
+            ) {
+                Card(
+                    modifier = Modifier
+                        .fillMaxWidth(0.85f)
+                        .padding(16.dp),
+                    colors = CardDefaults.cardColors(containerColor = Color(0xFF1D1414)),
+                    shape = RoundedCornerShape(24.dp),
+                    border = androidx.compose.foundation.BorderStroke(2.dp, Color(0xFFFF5252))
+                ) {
+                    Column(
+                        modifier = Modifier.padding(24.dp),
+                        horizontalAlignment = Alignment.CenterHorizontally,
+                        verticalArrangement = Arrangement.Center
+                    ) {
+                        Text(
+                            text = "🔴 SÜRE BİTTİ! 🔴",
+                            fontSize = 24.sp,
+                            fontWeight = FontWeight.Black,
+                            color = Color(0xFFFF5252),
+                            textAlign = TextAlign.Center
+                        )
+                        Spacer(modifier = Modifier.height(16.dp))
+                        Text(
+                            text = "Toplam Skor:",
+                            fontSize = 14.sp,
+                            color = Color.LightGray
+                        )
+                        Text(
+                            text = "${state.totalScore} Puan",
+                            fontSize = 28.sp,
+                            fontWeight = FontWeight.Black,
+                            color = Color(0xFF81C784)
+                        )
+                        Spacer(modifier = Modifier.height(16.dp))
+                        
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.SpaceEvenly
+                        ) {
+                            Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                                Text("Doğru", color = Color.Gray, fontSize = 12.sp)
+                                Text("${state.correctCount}", color = Color.White, fontWeight = FontWeight.Bold, fontSize = 18.sp)
+                            }
+                            Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                                Text("Yanlış", color = Color.Gray, fontSize = 12.sp)
+                                Text("${state.wrongCount}", color = Color.White, fontWeight = FontWeight.Bold, fontSize = 18.sp)
+                            }
+                        }
+                        
+                        Spacer(modifier = Modifier.height(28.dp))
+                        
+                        Button(
+                            onClick = { viewModel.retryRedCodeMode() },
+                            colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFFF5252)),
+                            shape = RoundedCornerShape(12.dp),
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .height(48.dp)
+                        ) {
+                            Text("Tekrar Dene 🔄", color = Color.White, fontWeight = FontWeight.Bold)
+                        }
+                        
+                        Spacer(modifier = Modifier.height(8.dp))
+                        
+                        TextButton(
+                            onClick = { viewModel.exitRedCodeMode() },
+                            modifier = Modifier.fillMaxWidth()
+                        ) {
+                            Text("Çıkış Yap 🚪", color = Color.LightGray, fontWeight = FontWeight.SemiBold)
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

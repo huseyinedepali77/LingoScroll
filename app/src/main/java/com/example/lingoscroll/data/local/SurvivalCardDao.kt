@@ -27,6 +27,9 @@ interface SurvivalCardDao {
     @Query("SELECT * FROM survival_cards WHERE (category = :category OR :category = 'MIXED') AND attempts > 0 ORDER BY RANDOM() LIMIT :limit")
     suspend fun getAnyReviewQuestions(category: String, limit: Int): List<SurvivalCard>
 
+    @Query("SELECT * FROM survival_cards WHERE mechanicType IN ('SKELETON', 'SWIPE')")
+    suspend fun getRedCodeCards(): List<SurvivalCard>
+
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     suspend fun insertCards(cards: List<SurvivalCard>)
 

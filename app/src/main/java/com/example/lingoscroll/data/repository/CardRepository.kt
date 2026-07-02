@@ -82,4 +82,8 @@ class CardRepository(private val cardDao: SurvivalCardDao) {
         
         return combined.take(15)
     }
+
+    suspend fun getRedCodeCards(): List<SurvivalCard> {
+        return cardDao.getRedCodeCards()
+    }
 }
