@@ -737,9 +737,7 @@ fun ChunkMechanicView(
                             text = chunk,
                             color = Color.White,
                             fontWeight = FontWeight.Bold,
-                            fontSize = 14.sp,
-                            maxLines = 1,
-                            softWrap = false
+                            fontSize = 14.sp
                         )
                     }
                 }
