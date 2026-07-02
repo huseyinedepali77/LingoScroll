@@ -10,6 +10,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.lifecycle.viewmodel.compose.viewModel
+import android.view.WindowManager
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
@@ -22,7 +23,8 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        enableEdgeToEdge()
+        // Durum çubuğunu (status bar) kalıcı olarak gizlemek için Fullscreen bayrağı ekle
+        window.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
         
         // Tam ekran yapmak için üst bildirim barını gizliyoruz
         val controller = WindowCompat.getInsetsController(window, window.decorView)

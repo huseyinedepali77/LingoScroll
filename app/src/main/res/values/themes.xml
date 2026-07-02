@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.LingoScroll" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.LingoScroll" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Durum çubuğunun uygulama açılırken de kalıcı olarak gizli kalmasını sağla -->
+        <item name="android:windowFullscreen">true</item>
+    </style>
 </resources>
