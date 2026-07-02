@@ -60,7 +60,7 @@ fun MainScreen(
     val state by viewModel.uiState.collectAsState()
 
     Surface(
-        modifier = Modifier.fillMaxSize(),
+        modifier = modifier.fillMaxSize(),
         color = MaterialTheme.colorScheme.background
     ) {
         when (val s = state) {
@@ -408,7 +408,7 @@ fun PracticeScreen(
     LaunchedEffect(isImeVisible) {
         if (isImeVisible) {
             try {
-                scrollState.animateScrollTo(scrollState.maxValue)
+                scrollState.animateScrollTo(0)
             } catch (e: Exception) {
                 e.printStackTrace()
             }
@@ -425,26 +425,6 @@ fun PracticeScreen(
                 scrollState.animateScrollTo(0)
             } catch (e: Exception) {
                 e.printStackTrace()
-            }
-        }
-    }
-
-    // Klavye kapanıp açıldığında veya ekran boyutu değiştiğinde scroll'u yönet
-    LaunchedEffect(scrollState.maxValue, state.isAnswerEvaluated) {
-        if (state.isAnswerEvaluated) {
-            try {
-                scrollState.scrollTo(0)
-            } catch (e: Exception) {
-                e.printStackTrace()
-            }
-        } else {
-            // Kullanıcı çözüyorken klavye açılırsa (yani maxValue > 0 olursa) otomatik olarak en alta kaydırıp butonları göster
-            if (scrollState.maxValue > 0) {
-                try {
-                    scrollState.animateScrollTo(scrollState.maxValue)
-                } catch (e: Exception) {
-                    e.printStackTrace()
-                }
             }
         }
     }
@@ -1512,7 +1492,7 @@ fun RedCodeSurvivalScreen(
     LaunchedEffect(isImeVisible) {
         if (isImeVisible) {
             try {
-                scrollState.animateScrollTo(scrollState.maxValue)
+                scrollState.animateScrollTo(0)
             } catch (e: Exception) {
                 e.printStackTrace()
             }
@@ -1528,24 +1508,6 @@ fun RedCodeSurvivalScreen(
                 scrollState.animateScrollTo(0)
             } catch (e: Exception) {
                 e.printStackTrace()
-            }
-        }
-    }
-
-    LaunchedEffect(scrollState.maxValue, state.isAnswerEvaluated) {
-        if (state.isAnswerEvaluated) {
-            try {
-                scrollState.scrollTo(0)
-            } catch (e: Exception) {
-                e.printStackTrace()
-            }
-        } else {
-            if (scrollState.maxValue > 0) {
-                try {
-                    scrollState.animateScrollTo(scrollState.maxValue)
-                } catch (e: Exception) {
-                    e.printStackTrace()
-                }
             }
         }
     }
