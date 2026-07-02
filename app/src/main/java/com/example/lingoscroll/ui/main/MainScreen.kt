@@ -381,14 +381,27 @@ fun PracticeScreen(
     val haptic = LocalHapticFeedback.current
     val scrollState = rememberScrollState()
     val focusManager = LocalFocusManager.current
+    val keyboardController = LocalSoftwareKeyboardController.current
 
     // Cevap değerlendirildiğinde (klavye kapanıp ekran boyutu genişlediğinde) odağı temizle ve 300ms gecikmeyle üste kaydır
     LaunchedEffect(state.isAnswerEvaluated) {
         if (state.isAnswerEvaluated) {
             focusManager.clearFocus() // Odağı kaldırarak scroll kitlenmesini engelle
+            keyboardController?.hide() // Klavyeyi gizle
             delay(300L) // Klavyenin kapanıp ekranın eski boyutuna gelmesini bekle
             try {
                 scrollState.animateScrollTo(0)
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
+        }
+    }
+
+    // Klavye kapanıp ekran boyutu genişlediğinde/değiştiğinde scroll'u anında sıfırla
+    LaunchedEffect(scrollState.maxValue, state.isAnswerEvaluated) {
+        if (state.isAnswerEvaluated) {
+            try {
+                scrollState.scrollTo(0)
             } catch (e: Exception) {
                 e.printStackTrace()
             }
@@ -695,8 +708,7 @@ fun SkeletonMechanicView(
             modifier = Modifier
                 .focusRequester(focusRequester)
                 .size(1.dp)
-                .alpha(0f),
-            enabled = !state.isAnswerEvaluated
+                .alpha(0f)
         )
 
         Text(
