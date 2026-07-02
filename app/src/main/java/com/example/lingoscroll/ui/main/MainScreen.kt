@@ -27,6 +27,8 @@ import com.example.lingoscroll.theme.*
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import kotlin.OptIn
+import androidx.compose.foundation.lazy.LazyRow
+import androidx.compose.foundation.lazy.items
 
 
 @Composable
@@ -718,11 +720,12 @@ fun ChunkMechanicView(
                 .padding(12.dp),
             contentAlignment = Alignment.CenterStart
         ) {
-            Row(
-                modifier = Modifier.horizontalScroll(rememberScrollState()),
-                horizontalArrangement = Arrangement.spacedBy(6.dp)
+            LazyRow(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(6.dp),
+                verticalAlignment = Alignment.CenterVertically
             ) {
-                state.clickedChunks.forEach { chunk ->
+                items(state.clickedChunks) { chunk ->
                     Box(
                         modifier = Modifier
                             .background(SurvivalPrimary, RoundedCornerShape(8.dp))
