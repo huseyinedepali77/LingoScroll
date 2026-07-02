@@ -389,6 +389,7 @@ fun StressTestRevealScreen(
 }
 
 // 4. PRACTICE SCREEN
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun PracticeScreen(
     state: MainScreenUiState.Practice,
@@ -402,6 +403,17 @@ fun PracticeScreen(
     var showSettingsDialog by remember { mutableStateOf(false) }
     var showResetConfirmation by remember { mutableStateOf(false) }
     var showLeaderboardDialog by remember { mutableStateOf(false) }
+
+    val isImeVisible = WindowInsets.isImeVisible
+    LaunchedEffect(isImeVisible) {
+        if (isImeVisible) {
+            try {
+                scrollState.animateScrollTo(scrollState.maxValue)
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
+        }
+    }
 
     // Cevap değerlendirildiğinde (klavye kapanıp ekran boyutu genişlediğinde) odağı temizle ve 300ms gecikmeyle üste kaydır
     LaunchedEffect(state.isAnswerEvaluated) {
@@ -458,6 +470,8 @@ fun PracticeScreen(
         Box(
             modifier = Modifier
                 .fillMaxSize()
+                .systemBarsPadding()
+                .imePadding()
                 .background(SurvivalBg)
                 .padding(paddingValues)
         ) {
@@ -1479,6 +1493,7 @@ fun cleanScenarioText(text: String): String {
 }
 
 // 8. KIRMIZI KOD (SURVIVAL) MODE SCREEN
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun RedCodeSurvivalScreen(
     state: MainScreenUiState.RedCodeSurvival,
@@ -1492,6 +1507,17 @@ fun RedCodeSurvivalScreen(
     var showNameDialog by remember { mutableStateOf(false) }
     var codeName by remember { mutableStateOf("") }
     var showLeaderboardDialog by remember { mutableStateOf(false) }
+
+    val isImeVisible = WindowInsets.isImeVisible
+    LaunchedEffect(isImeVisible) {
+        if (isImeVisible) {
+            try {
+                scrollState.animateScrollTo(scrollState.maxValue)
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
+        }
+    }
 
     LaunchedEffect(state.isAnswerEvaluated) {
         if (state.isAnswerEvaluated) {
@@ -1543,6 +1569,8 @@ fun RedCodeSurvivalScreen(
     Box(
         modifier = Modifier
             .fillMaxSize()
+            .systemBarsPadding()
+            .imePadding()
             .background(Color(0xFF0F0B0B)) // Velvet Mat Kırmızımsı Koyu Arka Plan
     ) {
         Column(

@@ -31,6 +31,8 @@ class MainActivity : ComponentActivity() {
         controller.hide(WindowInsetsCompat.Type.statusBars())
         controller.systemBarsBehavior = WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
 
+        WindowCompat.setDecorFitsSystemWindows(window, false)
+
         setContent {
             val context = LocalContext.current.applicationContext
             val vm: MainScreenViewModel = viewModel {
