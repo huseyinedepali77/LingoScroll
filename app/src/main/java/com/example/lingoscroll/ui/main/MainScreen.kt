@@ -431,13 +431,12 @@ fun PracticeScreen(
                 .fillMaxSize()
                 .background(SurvivalBg)
                 .padding(paddingValues)
-                .imePadding()
-                .padding(16.dp)
         ) {
             Column(
                 modifier = Modifier
                     .fillMaxSize()
-                    .verticalScroll(scrollState),
+                    .verticalScroll(scrollState)
+                    .padding(16.dp),
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 // Header (Progress Bar, Streak, Seconds Saved)
@@ -445,58 +444,55 @@ fun PracticeScreen(
                 Spacer(modifier = Modifier.height(16.dp))
 
                 // Active Scenario Card
-                Box(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(vertical = 8.dp),
-                    contentAlignment = Alignment.Center
+                Card(
+                    modifier = Modifier.fillMaxWidth(),
+                    colors = CardDefaults.cardColors(containerColor = SurvivalSurface),
+                    elevation = CardDefaults.cardElevation(defaultElevation = 3.dp),
+                    shape = RoundedCornerShape(18.dp)
                 ) {
                     Column(
-                        modifier = Modifier.fillMaxWidth(),
+                        modifier = Modifier.padding(16.dp),
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
-                        Card(
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(bottom = 16.dp),
-                            colors = CardDefaults.cardColors(containerColor = SurvivalSurface),
-                            elevation = CardDefaults.cardElevation(defaultElevation = 3.dp),
-                            shape = RoundedCornerShape(18.dp)
-                        ) {
-                            Column(
-                                modifier = Modifier.padding(16.dp),
-                                horizontalAlignment = Alignment.CenterHorizontally
-                            ) {
-                                Text(
-                                    text = "Senaryo (${state.currentItem.category})",
-                                    fontSize = 13.sp,
-                                    fontWeight = FontWeight.Bold,
-                                    color = SurvivalDanger,
-                                    textAlign = TextAlign.Center
-                                )
-                                Spacer(modifier = Modifier.height(8.dp))
-                                Text(
-                                    text = cleanScenarioText(state.currentItem.scenarioTr),
-                                    fontSize = 16.sp,
-                                    fontWeight = FontWeight.Medium,
-                                    color = SurvivalText,
-                                    textAlign = TextAlign.Center,
-                                    lineHeight = 24.sp
-                                )
-                            }
-                        }
-
-                        // Mechanics Block
-                        InteractiveMechanicCard(
-                            state = state,
-                            viewModel = viewModel,
-                            haptic = haptic
+                        Text(
+                            text = "Senaryo (${state.currentItem.category})",
+                            fontSize = 13.sp,
+                            fontWeight = FontWeight.Bold,
+                            color = SurvivalDanger,
+                            textAlign = TextAlign.Center
+                        )
+                        Spacer(modifier = Modifier.height(8.dp))
+                        Text(
+                            text = cleanScenarioText(state.currentItem.scenarioTr),
+                            fontSize = 16.sp,
+                            fontWeight = FontWeight.Medium,
+                            color = SurvivalText,
+                            textAlign = TextAlign.Center,
+                            lineHeight = 24.sp
                         )
                     }
                 }
+                Spacer(modifier = Modifier.height(16.dp))
 
-                // Evaluation Block (Bottom overlay when answered)
-                if (state.isAnswerEvaluated) {
+                // Mechanics Block
+                InteractiveMechanicCard(
+                    state = state,
+                    viewModel = viewModel,
+                    haptic = haptic
+                )
+
+                // Alt kısımdaki kayan değerlendirme kartı için boşluk bırak
+                Spacer(modifier = Modifier.height(120.dp))
+            }
+
+            // Alt Kısımda Yüzen Değerlendirme Kartı (Evaluation Block)
+            if (state.isAnswerEvaluated) {
+                Box(
+                    modifier = Modifier
+                        .align(Alignment.BottomCenter)
+                        .fillMaxWidth()
+                        .padding(16.dp)
+                ) {
                     EvaluationResultBanner(
                         isCorrect = state.isAnswerCorrect,
                         correctAnswer = state.currentItem.targetEn,
@@ -504,14 +500,14 @@ fun PracticeScreen(
                     )
                 }
             }
+        }
 
-            // Stage Complete Dialog
-            if (state.showStageComplete) {
-                StageCompleteOverlay(
-                    stage = state.currentStage,
-                    onProceed = { viewModel.proceedToNextStage() }
-                )
-            }
+        // Stage Complete Dialog
+        if (state.showStageComplete) {
+            StageCompleteOverlay(
+                stage = state.currentStage,
+                onProceed = { viewModel.proceedToNextStage() }
+            )
         }
     }
 }
