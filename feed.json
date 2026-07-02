@@ -3,225 +3,225 @@
     "id": 126070201,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Many people plan to travel during the long _____.",
-    "translation": "Uzun tatil hafta sonu boyunca birçok kişi seyahat etmeyi planlar.",
-    "context": "Şimdi bir düşün! Önünde uzun bir hafta sonu var, belki bayram, belki resmi tatil... İşte o zaman kaçış planları yaparız. 'Holiday weekend', işlerin durduğu, seyahatlerin başladığı o büyülü zaman dilimi demek! İster denize git, ister dağlara tırman, ister evde pijama partisi yap; bu, resmen izinli 'kafa dinleme' zamanı.",
+    "phrase": "A young boy tragically died from _____ after a bat bite.",
+    "translation": "Rabies (Kuduz)",
+    "context": "'Rabies', yani kuduz, genellikle hayvanlardan insanlara geçen, çok tehlikeli bir hastalık. Özellikle yarasa, köpek gibi hayvanlar taşıyabilir. Aman dikkat, eğer bir hayvan tarafından ısırılırsan hemen doktora görünmelisin!",
     "options": [
-      "weekend",
-      "weekday",
-      "workday",
-      "vacation"
+      "rabies",
+      "flu",
+      "allergy",
+      "fever"
     ],
-    "correctAnswer": "weekend",
-    "category": "TRAVEL",
+    "correctAnswer": "rabies",
+    "category": "CASUAL",
     "variations": [
-      "Are you excited for the upcoming holiday _____?",
-      "I'm looking forward to the next holiday _____ to relax."
+      "The disease caused by a bat bite is called _____.",
+      "Humans can contract _____ from infected animals."
     ]
   },
   {
     "id": 126070202,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Apple is planning new product _____ next year.",
-    "translation": "Apple yeni ürün piyasaya sürmeyi planlıyor.",
-    "context": "Yeni bir telefon, yeni bir tablet, yeni bir bilgisayar... Şirketler piyasaya sürülecek yeni bir üründen bahsettiğinde, işte bu 'releases' kelimesi devreye girer. Adeta yeni bir film vizyona girer gibi, yeni bir ürün de pazara 'çıkar'. Teknoloji tutkunları için nefes kesen bekleyişin adı bu!",
+    "phrase": "Many people are forced to _____ asylum in a new country.",
+    "translation": "Seek (aramak, sığınma talep etmek)",
+    "context": "'Seek asylum' demek, bir ülkede siyasi sığınma hakkı talep etmek anlamına gelir. Genellikle savaş veya zulümden kaçan kişiler yeni bir ülkede güvenlik arayışına girer. 'Seek' kelimesi 'aramak', 'elde etmeye çalışmak' demektir.",
     "options": [
-      "sales",
-      "updates",
-      "releases",
-      "meetings"
+      "seek",
+      "find",
+      "hide",
+      "give"
     ],
-    "correctAnswer": "releases",
-    "category": "BUSINESS",
+    "correctAnswer": "seek",
+    "category": "TRAVEL",
     "variations": [
-      "The company announced several new software _____.",
-      "Exciting new game _____ are expected next month."
+      "Refugees often _____ asylum in safe nations.",
+      "They have decided to _____ asylum due to conflict."
     ]
   },
   {
     "id": 126070203,
-    "type": "QUIZ_COMPLETION",
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "I had a strange dream after _____ a noise.",
-    "translation": "Bir sese uyandıktan sonra garip bir rüya gördüm.",
-    "context": "Sabahları uyanmak hepimizin yaptığı bir şey, değil mi? Ama bazen bir ses, bir alarm ya da güneşin yüzüne vurmasıyla aniden 'uyanırız'. 'Waking to' işte tam da böyle, bir şeye karşı uyanma durumunu anlatır. Mesela, en sevdiğin şarkının alarm sesiyle uyanmak gibisi yok!",
+    "phrase": "Which word means 'to rise or increase suddenly and sharply'?",
+    "translation": "Surge (ani yükseliş)",
+    "context": "'Surge' kelimesi, bir şeyin aniden ve hızla yükselmesi, artması anlamına gelir. Özellikle finans haberlerinde hisse senedi fiyatları veya piyasa değerleri için sıkça kullanılır. 'Hisseler fırladı' veya 'Piyasa coştu' gibi düşünebilirsin!",
     "options": [
-      "sleeping to",
-      "waking to",
-      "dreaming to",
-      "thinking to"
+      "fall",
+      "drop",
+      "surge",
+      "stabilize"
     ],
-    "correctAnswer": "waking to",
-    "category": "CASUAL",
-    "variations": [
-      "She spent the night _____ the sound of rain.",
-      "He was _____ the smell of coffee."
-    ]
+    "correctAnswer": "surge",
+    "category": "BUSINESS",
+    "variations": []
   },
   {
     "id": 126070204,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Aşırı sıcak havalar için hangi kelime kullanılır?",
-    "translation": "Heatwave: Sıcak hava dalgası",
-    "context": "Vay canına, hava çok sıcak! Güneş tepeden inmiyor, terden yapış yapış olduk... İşte tam bu durumun adı 'heatwave'! Yaz aylarında sıkça duyduğumuz bu kelime, 'normalden daha uzun süren ve daha sıcak olan hava dalgası' anlamına gelir. Klima olmadan yaşamak adeta bir macera olur bu zamanlarda!",
+    "phrase": "This summer, many regions are experiencing a severe _____",
+    "translation": "Heatwave (Sıcak hava dalgası)",
+    "context": "'Heatwave' demek, bir bölgenin uzun süreli, alışılmadık derecede sıcak hava dalgasıyla karşılaşması demek. Genellikle bunaltıcı sıcaklar, kavurucu rüzgarlar eşliğinde gelir. Yaz aylarında sıkça duyduğumuz, dışarı çıkarken şapka ve su almayı unutturmaması gereken bir durum!",
     "options": [
-      "Blizzard",
-      "Heatwave",
-      "Hailstorm",
-      "Fog"
+      "heatwave",
+      "cold front",
+      "rainstorm",
+      "breeze"
     ],
-    "correctAnswer": "Heatwave",
+    "correctAnswer": "heatwave",
     "category": "MIXED",
-    "variations": []
+    "variations": [
+      "A dangerous _____ is expected next week.",
+      "We need to stay hydrated during the _____."
+    ]
   },
   {
     "id": 126070205,
-    "type": "QUIZ_COMPLETION",
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Many people seek _____ in another country for safety.",
-    "translation": "Birçok insan güvenlik için başka bir ülkede sığınma hakkı arar.",
-    "context": "Hayat bazen zorlayıcı olabilir ve insanlar kendi ülkelerinde güvende hissetmeyebilir. İşte o zaman 'asylum' devreye girer. Bu kelime, bir ülkenin başka bir ülkeden gelen ve tehlikede olan kişilere sunduğu 'sığınma hakkı' anlamına gelir. Tıpkı bir liman gibi, sığınmacılara yeni bir başlangıç umudu sunar.",
+    "phrase": "What does 'to scale' mean in the context of climbing a building?",
+    "translation": "Bir şeyin tepesine tırmanmak",
+    "context": "Bir binayı 'scale' etmek, yani tırmanmak, genellikle yasa dışı ve tehlikeli bir eylemdir. Amaçları ne olursa olsun, bu tarz bir maceraperestlik genellikle yasal sonuçlar doğurur. 'Scaling Mount Everest' derken de 'zirveye tırmanmak' anlamında kullanılır.",
     "options": [
-      "refuge",
-      "residence",
-      "asylum",
-      "citizenship"
+      "to measure its dimensions",
+      "to fall from a height",
+      "to clean its surface",
+      "to climb to the top of something very high"
     ],
-    "correctAnswer": "asylum",
-    "category": "TRAVEL",
-    "variations": [
-      "She applied for political _____ after facing threats.",
-      "The family was granted _____ in Canada."
-    ]
+    "correctAnswer": "to climb to the top of something very high",
+    "category": "CASUAL",
+    "variations": []
   },
   {
     "id": 126070206,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Büyük ve başarılı bir işadamını tanımlamak için en uygun kelime hangisidir?",
-    "translation": "Tycoon: Büyük ve başarılı işadamı, patron.",
-    "context": "Düşünsene, milyon dolarlar kazanmış, şirketler kurmuş, ekonomiye yön veren birisi... İşte tam da bu 'tycoon' oluyor! Genellikle büyük iş imparatorlukları kuran, zengin ve güçlü iş insanları için kullanılır. Sanki kendi krallığını kurmuş bir 'iş kralı' gibi düşün!",
+    "phrase": "The city skyline is dominated by numerous shining _____.",
+    "translation": "Skyscrapers (Gökdelenler)",
+    "context": "'Skyscraper', yani 'gökdelen', adından da anlaşılacağı gibi göğe uzanan çok yüksek binalara denir. New York, Dubai gibi büyük şehirlerin simgesidirler. Gözünü yukarı kaldırdığında gördüğün o devasa yapılar işte bunlar!",
     "options": [
-      "Employee",
-      "Tycoon",
-      "Intern",
-      "Clerk"
+      "skyscrapers",
+      "cottages",
+      "shacks",
+      "tents"
     ],
-    "correctAnswer": "Tycoon",
-    "category": "BUSINESS",
-    "variations": []
+    "correctAnswer": "skyscrapers",
+    "category": "TRAVEL",
+    "variations": [
+      "New York City is famous for its tall _____.",
+      "Architects designed a new _____ for the downtown area."
+    ]
   },
   {
     "id": 126070207,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The rock climber successfully _____ the steep mountain.",
-    "translation": "Dağcı dik dağı başarıyla tırmandı.",
-    "context": "Bir binayı veya dağı tırmanmak, bazen de yasal olmayan yollarla bir yere 'çıkmak'... İşte bu durumlarda 'scaled' kelimesi kullanılır. Sadece fiziksel tırmanmayı değil, bazen bir engeli aşmayı da ifade edebilir. Tıpkı örümcek adam gibi, bir yerlere 'tırmanıp' çıkmak gibi düşünebilirsin!",
-    "options": [
-      "ran down",
-      "scaled",
-      "jumped off",
-      "fell from"
-    ],
-    "correctAnswer": "scaled",
-    "category": "CASUAL",
-    "variations": [
-      "They tried to _____ the wall without permission.",
-      "She has always wanted to _____ Mount Everest."
-    ]
-  },
-  {
-    "id": 126070208,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Bir şeyin 'kayıtlara geçmiş en iyisi/kötüsü' olduğunu belirtmek için hangi ifade kullanılır?",
-    "translation": "On record: Kayıtlara geçmiş, bilinen en...",
-    "context": "Hani derler ya, 'Bu, şimdiye kadarki en iyi konserdi!' veya 'Bu yıl, gelmiş geçmiş en sıcak yaz!' İşte 'on record' tam da bu anlama gelir. Mevcut tüm kayıtlar, belgeler ve veriler içinde 'bir benzeri daha olmayan' veya 'zirveye yerleşen' durumu ifade eder. Resmen tarihi bir 'rekor'dan bahsediyoruz!",
+    "phrase": "Which term best describes a powerful and influential person in the technology industry?",
+    "translation": "Tech tycoon (Teknoloji devi/zengini)",
+    "context": "'Tech tycoon' demek, teknoloji sektöründe çok başarılı, zengin ve etkili olmuş kişilere verilen isimdir. Mesela Elon Musk veya Bill Gates gibi isimler 'tech tycoon' olarak anılabilir. Kendi alanlarında adeta 'dev' olmuşlardır!",
     "options": [
-      "Out of control",
-      "On record",
-      "Under wraps",
-      "Behind schedule"
+      "tech newbie",
+      "tech guru",
+      "tech tycoon",
+      "tech assistant"
     ],
-    "correctAnswer": "On record",
-    "category": "MIXED",
-    "variations": []
-  },
-  {
-    "id": 126070209,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The police arrested a notorious _____ at the border.",
-    "translation": "Polis, kötü şöhretli bir kaçakçıyı sınırda tutukladı.",
-    "context": "Filmlerde sıkça gördüğümüz, yasa dışı yollarla insan, mal veya uyuşturucu taşıyan o karanlık karakterler... İşte onlara 'smuggler' denir! Sınırları aşan, gizli işler çeviren bu kişiler, bazen macera arayan, bazen de kötü niyetli 'kaçakçılar'dır. Hatta bazen, ne yazık ki insanları tehlikeli yolculuklara sürüklerler.",
-    "options": [
-      "tourist",
-      "guide",
-      "smuggler",
-      "customs officer"
-    ],
-    "correctAnswer": "smuggler",
-    "category": "TRAVEL",
-    "variations": [
-      "Customs officials caught a drug _____ trying to enter the country.",
-      "The art _____ was finally caught after years."
-    ]
-  },
-  {
-    "id": 126070210,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Bir şeyin beklentilerin veya kuralların aksine hareket ettiğini belirtmek için en uygun kelime hangisidir?",
-    "translation": "Defies: Karşı gelmek, meydan okumak, beklenenin aksine olmak.",
-    "context": "Düşünsene, herkes bir şeyin kötüye gideceğini beklerken, o tam tersi müthiş bir başarı yakalıyor! İşte bu duruma 'defies' denir. Kurallara, beklentilere veya olumsuz koşullara 'meydan okumak', hatta 'karşı gelmek' anlamına gelir. Tıpkı 'krizlere rağmen yükselen' bir şirket gibi, kalıpları yıkan durumlar için birebir!",
-    "options": [
-      "Follows",
-      "Supports",
-      "Defies",
-      "Agrees"
-    ],
-    "correctAnswer": "Defies",
+    "correctAnswer": "tech tycoon",
     "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126070211,
+    "id": 126070208,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "They tried to _____ the small fire with their feet.",
-    "translation": "Küçük yangını ayaklarıyla söndürmeye çalıştılar.",
-    "context": "Küçük bir yangın çıktığında, panik yapmadan hızlıca ayaklarımızla üzerine basıp söndürmeye çalışırız, değil mi? İşte 'stomp out' tam da bunu anlatır: bir şeyi 'ayakla ezerek söndürmek' ya da daha geniş anlamıyla bir sorunu 'hızla ve kesin bir şekilde ortadan kaldırmak'. Hani 'kökünü kazımak' deriz ya, işte o hesap!",
+    "level": "INTERMEDIATE",
+    "phrase": "The race will conclude with the final lap of the British _____.",
+    "translation": "GP (Grand Prix)",
+    "context": "'GP' aslında 'Grand Prix' kelimelerinin kısaltmasıdır. Özellikle Formula 1 yarışları için kullanılır ve 'Büyük Ödül Yarışı' anlamına gelir. Dünya genelinde farklı şehirlerde yapılan bu yarışlar, motor sporları tutkunları için vazgeçilmezdir!",
     "options": [
-      "light up",
-      "put off",
-      "stomp out",
-      "let burn"
+      "GP",
+      "MPH",
+      "RPM",
+      "PIT"
     ],
-    "correctAnswer": "stomp out",
-    "category": "CASUAL",
+    "correctAnswer": "GP",
+    "category": "MIXED",
     "variations": [
-      "The new policies aim to _____ corruption.",
-      "We need to _____ prejudice in our society."
+      "Which driver won the Monaco _____ last year?",
+      "Fans are excited for the next F1 _____."
     ]
   },
   {
-    "id": 126070212,
+    "id": 126070209,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Bir teorinin veya kişinin 'itibarını yitirmesine' ne denir?",
-    "translation": "Discredited: İtibarı sarsılmış, güvenilirliğini kaybetmiş.",
-    "context": "Bir zamanlar herkesin inandığı bir fikir veya saygı duyduğu bir kişi düşün. Sonra ne olduysa, o fikrin yanlış olduğu ortaya çıktı veya o kişi güvenilmez davrandı. İşte bu duruma 'discredited' denir! Yani 'itibarını kaybetmiş', 'güvenilirliğini yitirmiş' demektir. Eskiden parlayan bir yıldızın sönmesi gibi!",
+    "phrase": "What does it mean 'to declassify' official documents or information?",
+    "translation": "Gizlilik statüsünü kaldırmak",
+    "context": "'Declassify' etmek, genellikle gizli (classified) devlet belgelerinin veya bilgilerin üzerindeki gizlilik statüsünü kaldırmak ve kamuya açmak anlamına gelir. Bu işlem, genellikle belirli bir süre sonra veya ulusal çıkarlar doğrultusunda yapılır. Amaç, şeffaflığı artırmaktır.",
     "options": [
-      "Validated",
-      "Proven",
-      "Discredited",
-      "Confirmed"
+      "to organize them alphabetically",
+      "to make them public by removing their secret status",
+      "to destroy them completely",
+      "to encrypt them for security"
     ],
-    "correctAnswer": "Discredited",
-    "category": "MIXED",
+    "correctAnswer": "to make them public by removing their secret status",
+    "category": "CASUAL",
     "variations": []
+  },
+  {
+    "id": 126070210,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The city sustained a _____ attack overnight.",
+    "translation": "Massive (Devasa, çok büyük)",
+    "context": "'Massive' kelimesi, çok büyük, devasa veya şiddetli anlamına gelir. Haberlerde özellikle doğal afetler, saldırılar veya büyük çaplı olaylar için kullanılır. Mesela 'massive earthquake' (büyük deprem) veya 'massive explosion' (büyük patlama) gibi.",
+    "options": [
+      "massive",
+      "tiny",
+      "minor",
+      "slight"
+    ],
+    "correctAnswer": "massive",
+    "category": "TRAVEL",
+    "variations": [
+      "There was a _____ explosion in the factory.",
+      "The company faced a _____ loss in revenue."
+    ]
+  },
+  {
+    "id": 126070211,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Which phrase means 'to successfully resist or overcome a difficult situation'?",
+    "translation": "Bir düşüşe meydan okumak",
+    "context": "'To defy a slump' demek, genellikle piyasalarda veya ekonomide yaşanan bir düşüşe, gerilemeye (slump) rağmen başarılı olmak, ayakta kalmak veya hatta yükseliş göstermek demektir. 'Piyasa durgunluğuna meydan okumak' gibi düşünebiliriz. Bu, çoğu zaman büyük bir başarı işaretidir.",
+    "options": [
+      "to cause a slump",
+      "to ignore a slump",
+      "to defy a slump",
+      "to join a slump"
+    ],
+    "correctAnswer": "to defy a slump",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126070212,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The team's recent success is attributed to their impressive _____ spree.",
+    "translation": "Spending (harcama)",
+    "context": "'Spending spree' demek, kısa sürede çok fazla para harcamak anlamına gelir. Özellikle alışveriş veya futbol kulüplerinin transfer dönemlerinde çok oyuncu alması gibi durumlarda kullanılır. 'Alışveriş çılgınlığı' veya 'para saçma' gibi düşünebilirsin! 'Pulling this off' ise, bir şeyi başarmak, üstesinden gelmek demektir, genellikle zor bir şeyi.",
+    "options": [
+      "spending",
+      "saving",
+      "waiting",
+      "planning"
+    ],
+    "correctAnswer": "spending",
+    "category": "MIXED",
+    "variations": [
+      "She went on a shopping _____ after payday.",
+      "Their company is known for its aggressive _____ spree."
+    ]
   }
 ]
