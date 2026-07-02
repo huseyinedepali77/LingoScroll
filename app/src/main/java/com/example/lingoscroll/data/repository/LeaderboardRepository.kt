@@ -21,7 +21,7 @@ class FirebaseLeaderboardRepository : LeaderboardRepository {
 
     override suspend fun submitScore(entry: LeaderboardEntry): Boolean {
         return try {
-            database.child(entry.uid).setValue(entry)
+            database.child(entry.name).setValue(entry)
             true
         } catch (e: Exception) {
             false
@@ -31,7 +31,8 @@ class FirebaseLeaderboardRepository : LeaderboardRepository {
     override suspend fun getTopScores(limit: Int): List<LeaderboardEntry> {
         return try {
             kotlinx.coroutines.withTimeout(15000L) {
-                val snapshot = database.orderByChild("score").limitToLast(limit).get().await()
+                // Fetch the whole node and sort client-side to bypass index rule constraints
+                val snapshot = database.get().await()
                 val entries = mutableListOf<LeaderboardEntry>()
                 for (child in snapshot.children) {
                     val entry = child.getValue(LeaderboardEntry::class.java)
@@ -39,11 +40,12 @@ class FirebaseLeaderboardRepository : LeaderboardRepository {
                         entries.add(entry)
                     }
                 }
-                // Realtime Database outputs ascending order, we reverse it to display descending (highest score first)
-                entries.reverse()
-                entries
+                // Sort descending (highest score first) and take the top N entries
+                entries.sortByDescending { it.score }
+                entries.take(limit)
             }
         } catch (e: Exception) {
+            android.util.Log.e("FirebaseDatabase", "getTopScores failed", e)
             emptyList()
         }
     }

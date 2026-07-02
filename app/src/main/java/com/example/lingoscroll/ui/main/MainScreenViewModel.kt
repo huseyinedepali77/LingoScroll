@@ -1203,7 +1203,7 @@ class MainScreenViewModel(private val context: Context) : ViewModel() {
     // --- Aşama 4: Liderlik Tablosu Fonksiyonları ---
 
     fun getCurrentUserUid(): String {
-        return authManager.getCurrentUser()?.uid ?: "anonymous_user"
+        return authManager.getCurrentUser()?.uid ?: prefs.getDeviceUid()
     }
 
     fun submitLeaderboardScore(name: String, score: Int) {

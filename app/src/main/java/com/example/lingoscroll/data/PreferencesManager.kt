@@ -263,4 +263,13 @@ class PreferencesManager(context: Context) {
     fun setUserNickname(name: String) {
         prefs.edit().putString("user_nickname", name).apply()
     }
+
+    fun getDeviceUid(): String {
+        var uid = prefs.getString("device_uid", null)
+        if (uid == null) {
+            uid = "device_${java.util.UUID.randomUUID().toString().replace("-", "").take(12)}"
+            prefs.edit().putString("device_uid", uid).apply()
+        }
+        return uid
+    }
 }
