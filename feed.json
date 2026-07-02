@@ -3,228 +3,228 @@
     "id": 126070201,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Tesla saw a massive _____ jump last quarter.",
-    "translation": "Satışlar",
-    "context": "'Sales' kelimesi, bir şirketin ürün veya hizmetlerinin satışı anlamına gelir. Tesla'nın 'sales jump' yapması, satışlarının birdenbire çok artması demek. Yani kasa doldu, patron mutlu!",
+    "phrase": "A small boy died of rabies after a _____ bit him.",
+    "translation": "Küçük bir çocuk, bir yarasa onu ısırdıktan sonra kuduzdan öldü.",
+    "context": "'Bat' dediğimiz yarasa, özellikle akşamları uçuşan, bazı kültürlerde korkulan ama ekosistem için çok önemli bir canlıdır. Haberlerdeki gibi bazen tehlikeli hastalıklar taşıyabilirler. Aman dikkat!",
     "options": [
-      "sales",
-      "profit",
-      "price",
-      "stock"
+      "cat",
+      "bat",
+      "dog",
+      "bird"
     ],
-    "correctAnswer": "sales",
-    "category": "BUSINESS",
+    "correctAnswer": "bat",
+    "category": "CASUAL",
     "variations": [
-      "The new product helped boost company sales.",
-      "Our team needs to improve sales figures quickly."
+      "Watch out for the bat flying above!",
+      "The bat flew quickly into the cave."
     ]
   },
   {
     "id": 126070202,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The boy died of _____ after a bat bite.",
-    "translation": "Kuduz",
-    "context": "'Rabies' (kuduz), hayvanlardan insanlara bulaşan çok tehlikeli bir hastalık. Genellikle ısırma yoluyla geçer ve hemen tedavi edilmezse ölümcül olabilir. Yani, yarasaya dikkat!",
+    "phrase": "Tesla saw a massive _____ in the second quarter.",
+    "translation": "Tesla, ikinci çeyrekte büyük bir satış artışı yaşadı.",
+    "context": "'Sales jump' demek, satışların bir anda fırlaması, patlaması demek. Özellikle iş dünyasında, bir ürün çok popüler olduğunda ya da büyük bir kampanya yapıldığında 'sales jump' yaşanır ve patronlar bayram eder!",
     "options": [
-      "rabies",
-      "allergy",
-      "flu",
-      "fever"
+      "sales run",
+      "sales fall",
+      "sales jump",
+      "sales drop"
     ],
-    "correctAnswer": "rabies",
-    "category": "CASUAL",
+    "correctAnswer": "sales jump",
+    "category": "BUSINESS",
     "variations": [
-      "Dogs can carry rabies if not vaccinated.",
-      "A vaccine can prevent rabies if given soon."
+      "The new phone caused a big sales jump.",
+      "We expect a sales jump next month."
     ]
   },
   {
     "id": 126070203,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "A dangerous _____ will hit the US this weekend.",
-    "translation": "Sıcak hava dalgası",
-    "context": "'Heatwave', yani 'sıcak hava dalgası', birkaç gün veya daha uzun süren aşırı sıcak havalar için kullanılır. Yazın tatil planı yaparken hava durumunu kontrol etmek şart!",
+    "phrase": "England experienced a historic _____ last month.",
+    "translation": "İngiltere geçen ay tarihi bir sıcak hava dalgası yaşadı.",
+    "context": "'Heatwave', yani 'sıcak hava dalgası', havanın günlerce ortalamanın çok üzerinde seyretmesi durumudur. Genellikle yazın görürüz ve herkes serinlemek için denizlere, havuzlara koşar. Aman sıcaklarda bol su içmeyi unutmayın!",
     "options": [
+      "cold spell",
+      "snowstorm",
       "heatwave",
-      "blizzard",
-      "downpour",
-      "earthquake"
+      "rainstorm"
     ],
     "correctAnswer": "heatwave",
     "category": "TRAVEL",
     "variations": [
-      "We are experiencing a prolonged heatwave.",
-      "The heatwave is making outdoor activities difficult."
+      "A dangerous heatwave will hit the US.",
+      "The heatwave made everyone tired."
     ]
   },
   {
     "id": 126070204,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Anderson's £116m move to Man City was a record _____",
-    "translation": "Transfer",
-    "context": "Futbolda 'transfer', bir oyuncunun bir kulüpten diğerine geçmesi işlemine denir. Milyonlarca sterlinlik transferler, taraftarlar için heyecan verici bir gelişmedir!",
+    "phrase": "A massive _____ on the city killed many people.",
+    "translation": "Şehre düzenlenen büyük bir saldırıda birçok insan hayatını kaybetti.",
+    "context": "'Attack' kelimesi, bir şeye veya birine yönelik şiddetli bir saldırıyı ifade eder. Haberlerde sıkça karşımıza çıkar ve genellikle kötü sonuçları olur. Keşke sadece bilgisayar oyunlarında kalsalar!",
     "options": [
-      "transfer",
-      "goal",
-      "victory",
-      "stadium"
+      "party",
+      "concert",
+      "attack",
+      "festival"
     ],
-    "correctAnswer": "transfer",
-    "category": "BUSINESS",
+    "correctAnswer": "attack",
+    "category": "MIXED",
     "variations": [
-      "The player requested a transfer to a bigger club.",
-      "Many transfers happen during the summer window."
+      "The army launched a surprise attack.",
+      "They defended against the enemy attack."
     ]
   },
   {
     "id": 126070205,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Which word means 'to invest a large amount of money in something, often with risk'?",
-    "translation": "Büyük miktarda para yatırmak veya risk almak",
-    "context": "'Bet' kelimesi normalde iddia etmek veya bahse girmek anlamına gelirken, iş dünyasında bir projeye veya girişime risk alarak büyük yatırım yapmak için de kullanılır. Bu, bir şirketin geleceğine 'bahis oynamak' gibidir.",
+    "phrase": "'Yep, we're using OpenClaw to date now' cümlesindeki 'to date' ifadesi ne anlama gelir?",
+    "translation": "Flört etmek, biriyle çıkmak",
+    "context": "'To date' kelimesi İngilizcede birçok anlama gelebilir. Bir fiil olarak kullanıldığında, 'biriyle çıkmak', yani romantik bir ilişki başlatmak ya da flört etmek anlamına gelir. Haberdeki gibi yeni bir uygulama ile 'date' etmek, bayağı popüler oldu!",
     "options": [
-      "claim",
-      "bet",
-      "owe",
-      "lend"
+      "Çıkmak, flört etmek",
+      "Tarih belirlemek",
+      "Güncel tutmak",
+      "Veri girişi yapmak"
     ],
-    "correctAnswer": "bet",
-    "category": "BUSINESS",
+    "correctAnswer": "Çıkmak, flört etmek",
+    "category": "CASUAL",
     "variations": []
   },
   {
     "id": 126070206,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The couple was charged after they _____ the Empire State Building.",
-    "translation": "Tırmandılar",
-    "context": "'Scale' kelimesi tırmanmak, özellikle yüksek bir şeye merdiven veya halat kullanmadan zorlu bir şekilde tırmanmak anlamına gelir. Empire State Binası'nı 'scale' etmek bayağı havalı ama bir o kadar da yasa dışı bir hareket!",
+    "phrase": "Rivian raises EV sales _____ for the next quarter.",
+    "translation": "Rivian, bir sonraki çeyrek için elektrikli araç satış tahminlerini yükseltti.",
+    "context": "'Forecast' kelimesi, gelecek hakkında tahmin veya öngörüde bulunmak demektir. Hava durumunu tahmin edenlere 'weather forecast' denir, iş dünyasında ise satışları veya karı 'forecast' ederler. Geleceği bilmek gibisi yok, di mi?",
     "options": [
-      "scaled",
-      "painted",
-      "entered",
-      "flew"
+      "past",
+      "history",
+      "forecast",
+      "review"
     ],
-    "correctAnswer": "scaled",
-    "category": "CASUAL",
+    "correctAnswer": "forecast",
+    "category": "BUSINESS",
     "variations": [
-      "Mountaineers often scale steep cliffs.",
-      "They tried to scale the wall to escape."
+      "The economic forecast is positive.",
+      "Can you give me the sales forecast?"
     ]
   },
   {
     "id": 126070207,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "People fleeing war often seek _____ in safer countries.",
-    "translation": "Sığınma",
-    "context": "'Asylum', yani 'sığınma', başka bir ülkede zulümden korunmak için resmi koruma talep etme durumudur. Sığınmacılar, genellikle güvenlik arayışı içindeki insanlardır.",
-    "options": [
-      "asylum",
-      "visa",
-      "passport",
-      "permit"
-    ],
-    "correctAnswer": "asylum",
-    "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126070208,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Pollock remains on the _____ for the next game.",
-    "translation": "Yedek kulübesi",
-    "context": "Sporda 'bench', yedek oyuncuların oturduğu alanı ifade eder. Oyuncunun 'on the bench' kalması, yedek kulübesinde oturduğu ve maça başlamadığı anlamına gelir. Umarım bir sonraki maçta ilk 11'e girer!",
+    "phrase": "A foreign ship got stuck in the narrow _____ of Hormuz.",
+    "translation": "Yabancı bir gemi Hürmüz Boğazı'nda sıkışıp kaldı.",
+    "context": "'Strait' (boğaz) kelimesi, iki büyük kara parçasını ayıran ve iki denizi veya okyanusu birbirine bağlayan dar bir su yoludur. Çanakkale ve İstanbul Boğazı da böyledir! Gemiler için önemli geçiş noktalarıdır ama bazen haberdeki gibi 'stuck' kalabilirler.",
     "options": [
-      "bench",
-      "field",
-      "stand",
-      "goal"
-    ],
-    "correctAnswer": "bench",
-    "category": "BUSINESS",
-    "variations": [
-      "The coach decided to keep the star player on the bench.",
-      "He was angry about being left on the bench."
-    ]
-  },
-  {
-    "id": 126070209,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Which term describes a prolonged period of abnormally low rainfall?",
-    "translation": "Kuraklık",
-    "context": "'Drought', yani 'kuraklık', uzun süreli ve anormal derecede az yağış alan dönemdir. Özellikle tarım ve su kaynakları için ciddi sorunlar yaratır. Çiftçiler için kâbus gibidir.",
-    "options": [
-      "flood",
-      "drought",
-      "monsoon",
-      "blizzard"
-    ],
-    "correctAnswer": "drought",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126070210,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Trump urged the spy chief to _____ sensitive records.",
-    "translation": "Gizliliğini kaldırmak",
-    "context": "'Declassify' kelimesi, devlet sırrı olarak gizli tutulan belgelerin veya bilgilerin gizlilik statüsünü kaldırmak ve kamuoyuna açmak anlamına gelir. 'Top secret' belgelerin üzerindeki mühürü kaldırmak gibi düşünebiliriz!",
-    "options": [
-      "declassify",
-      "classify",
-      "shred",
-      "photocopy"
-    ],
-    "correctAnswer": "declassify",
-    "category": "CASUAL",
-    "variations": [
-      "The government decided to declassify old war documents.",
-      "It takes years to declassify some historical files."
-    ]
-  },
-  {
-    "id": 126070211,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "What is a narrow passage of water connecting two seas?",
-    "translation": "Boğaz",
-    "context": "'Strait' (boğaz), iki büyük su kütlesini birbirine bağlayan dar su yoludur. Hürmüz Boğazı gibi yerler, uluslararası gemi trafiği için kritik öneme sahiptir. Haritaları incelerken sıkça karşımıza çıkar.",
-    "options": [
-      "canal",
-      "gulf",
-      "fjord",
-      "strait"
+      "ocean",
+      "river",
+      "strait",
+      "lake"
     ],
     "correctAnswer": "strait",
     "category": "TRAVEL",
+    "variations": [
+      "The ship sailed through the narrow strait.",
+      "They crossed the strait by ferry."
+    ]
+  },
+  {
+    "id": 126070208,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "'Couple who scaled Empire State Building' cümlesindeki 'scaled' fiili ne anlama gelir?",
+    "translation": "Tırmanmak",
+    "context": "'To scale' fiili, bir şeye tırmanmak, özellikle de yüksek bir şeye merdiven veya özel ekipman kullanarak çıkmak anlamına gelir. Haberlerdeki gibi bir binaya tırmananlar genellikle yasaları 'scale' etmeye çalışır ve başları belaya girer!",
+    "options": [
+      "Ölçeklendirmek",
+      "Tartmak",
+      "Tırmanmak",
+      "Derisini yüzmek"
+    ],
+    "correctAnswer": "Tırmanmak",
+    "category": "MIXED",
     "variations": []
   },
   {
-    "id": 126070212,
+    "id": 126070209,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The PM's former top _____ resigned due to scandal.",
-    "translation": "Yardımcısı/Danışmanı",
-    "context": "'Aide' kelimesi, genellikle önemli bir politikacıya veya lidere yardımcı olan, danışmanlık yapan kişidir. Yani, bir nevi sağ kolu gibi düşünebiliriz. Bazen skandallara karışabilirler!",
+    "phrase": "Last month was the warmest June _____ in England.",
+    "translation": "Geçen ay İngiltere'de kaydedilen en sıcak Haziran ayıydı.",
+    "context": "'On record' ifadesi, bir şeyin kayıt altına alındığı tarihten bu yana en yüksek, en düşük, en sıcak vb. olduğunu belirtir. Yani, eldeki tüm verilere göre bir ilk yaşanmış demektir. Bilim insanları bu 'records'ları dikkatle takip eder!",
     "options": [
-      "aide",
-      "enemy",
-      "friend",
-      "janitor"
+      "on paper",
+      "on the book",
+      "on record",
+      "on the list"
     ],
-    "correctAnswer": "aide",
+    "correctAnswer": "on record",
     "category": "CASUAL",
     "variations": [
-      "She works as a senior aide to the president.",
-      "His aide helped him prepare for the debate."
+      "It was the coldest winter on record.",
+      "This year's profits are the highest on record."
     ]
+  },
+  {
+    "id": 126070210,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "'Rivian raises EV sales forecast as Q2 production ramps up' cümlesindeki 'ramps up' ifadesi ne anlama gelir?",
+    "translation": "Artırmak, hızlandırmak",
+    "context": "'To ramp up' fiili, bir şeyin miktarını veya hızını artırmak, genellikle hızla ve önemli ölçüde yükseltmek anlamına gelir. Fabrikalar üretimlerini, şirketler hizmetlerini 'ramp up' yapabilir. Özellikle yeni ürün lansmanlarında sıkça duyarsın!",
+    "options": [
+      "Düşürmek, yavaşlatmak",
+      "Durdurmak, bitirmek",
+      "Artırmak, hızlandırmak",
+      "Ayarlamak, dengelemek"
+    ],
+    "correctAnswer": "Artırmak, hızlandırmak",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126070211,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "A dangerous heatwave is expected to _____ the eastern US.",
+    "translation": "Tehlikeli bir sıcak hava dalgasının ABD'nin doğusunu kasıp kavurması bekleniyor.",
+    "context": "'To sweep across' ifadesi, bir şeyin (genellikle hava durumu, hastalık, moda gibi bir olgunun) hızlıca ve geniş bir alanı kaplaması, yayılması anlamına gelir. Rüzgarın süpürmesi gibi, bir anda her yeri etkisi altına alır. Aman dikkat!",
+    "options": [
+      "stand by",
+      "sweep across",
+      "hold up",
+      "move away"
+    ],
+    "correctAnswer": "sweep across",
+    "category": "TRAVEL",
+    "variations": [
+      "The storm will sweep across the region.",
+      "New trends often sweep across the globe quickly."
+    ]
+  },
+  {
+    "id": 126070212,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "'Wrong Turns That Undermined Civil Liberties' başlığındaki 'undermined' fiili ne anlama gelir?",
+    "translation": "Zayıflatmak, baltalamak",
+    "context": "'To undermine' fiili, bir şeyin (otorite, güven, sistem vb.) temelini yavaş yavaş veya gizlice zayıflatmak, baltalamak veya yıkmak anlamına gelir. Sanki altından kum çekiyormuş gibi düşün. Genellikle kötü niyetli veya olumsuz bir eylemi anlatır.",
+    "options": [
+      "Güçlendirmek, desteklemek",
+      "Yeniden inşa etmek",
+      "Zayıflatmak, baltalamak",
+      "Korumak, savunmak"
+    ],
+    "correctAnswer": "Zayıflatmak, baltalamak",
+    "category": "MIXED",
+    "variations": []
   }
 ]
