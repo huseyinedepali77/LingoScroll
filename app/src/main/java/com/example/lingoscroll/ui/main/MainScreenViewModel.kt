@@ -56,6 +56,8 @@ sealed interface MainScreenUiState {
         
         // Skeleton mechanic fields
         val isSkeletonRevealed: Boolean = false,
+        val userInput: String = "",
+        val jokerCount: Int = 0,
         // Chunk mechanic fields
         val clickedChunks: List<String> = emptyList(),
         val shuffledChunks: List<String> = emptyList(),
@@ -320,6 +322,8 @@ class MainScreenViewModel(context: Context) : ViewModel() {
             showStageComplete = false,
             
             isSkeletonRevealed = false,
+            userInput = "",
+            jokerCount = 0,
             clickedChunks = clickedChunks,
             shuffledChunks = shuffledChunks,
             tappedErrorWord = null,
@@ -356,36 +360,67 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         tts.speak(currentState.currentItem.targetEn)
     }
 
-    // Skeleton İçin Kendi Kendini Değerlendirme (Kolay/Zor/Bilemedim)
-    fun evaluateSkeleton(success: Boolean) {
+    // Skeleton Giriş Alanı Değişimi
+    fun onSkeletonInputChange(newInput: String) {
         val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
-        if (!currentState.isSkeletonRevealed) return
-
-        prefs.incrementQuestionsStats(success)
-        updateFailCount(currentState.currentItem.id, success)
-
-        viewModelScope.launch(Dispatchers.IO) {
-            repository.updateCardProgress(currentState.currentItem.id, success)
-        }
-
-        if (success) {
-            prefs.addSecondsSaved(15)
-        }
-
-        _uiState.value = currentState.copy(
-            isAnswerEvaluated = true,
-            isAnswerCorrect = success,
-            secondsSaved = prefs.getTotalSecondsSaved()
-        )
-
-        tts.speak(currentState.currentItem.targetEn)
+        if (currentState.isAnswerEvaluated) return
+        
+        _uiState.value = currentState.copy(userInput = newInput)
+        checkSkeletonMatch(newInput, currentState.currentItem.targetEn, currentState.jokerCount)
     }
 
-    // Skeleton Hedefi Açma
-    fun revealSkeleton() {
+    // Joker (Harf Al) Butonuna Basıldığında
+    fun useJoker() {
         val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
-        _uiState.value = currentState.copy(isSkeletonRevealed = true)
-        tts.speak(currentState.currentItem.targetEn)
+        if (currentState.isAnswerEvaluated) return
+        
+        val target = currentState.currentItem.targetEn
+        val currentInput = currentState.userInput
+        if (currentInput.length < target.length) {
+            val nextChar = target[currentInput.length]
+            val newInput = currentInput + nextChar
+            val newJokerCount = currentState.jokerCount + 1
+            
+            _uiState.value = currentState.copy(
+                userInput = newInput,
+                jokerCount = newJokerCount
+            )
+            
+            checkSkeletonMatch(newInput, target, newJokerCount)
+        }
+    }
+
+    // Otonom Eşleşme ve Leitner Değerlendirmesi
+    private fun checkSkeletonMatch(input: String, target: String, jokerCount: Int) {
+        val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
+        val cleanInput = input.lowercase().replace(Regex("[.,!?]"), "").trim()
+        val cleanTarget = target.lowercase().replace(Regex("[.,!?]"), "").trim()
+        
+        if (cleanInput == cleanTarget) {
+            // jokerCount >= 3 ise AGAIN (Bilemedim - false), aksi halde HARD/EASY (Başarılı - true)
+            val isCorrect = jokerCount < 3
+            prefs.incrementQuestionsStats(isCorrect)
+            updateFailCount(currentState.currentItem.id, isCorrect)
+            
+            viewModelScope.launch(Dispatchers.IO) {
+                repository.updateCardProgress(currentState.currentItem.id, isCorrect)
+            }
+            
+            if (isCorrect) {
+                val reward = if (jokerCount == 0) 25L else 10L
+                prefs.addSecondsSaved(reward)
+            }
+            
+            _uiState.value = currentState.copy(
+                userInput = target, // tam doğru cümleyi kutuya yazdır
+                jokerCount = jokerCount,
+                isAnswerEvaluated = true,
+                isAnswerCorrect = isCorrect,
+                secondsSaved = prefs.getTotalSecondsSaved()
+            )
+            
+            tts.speak(target)
+        }
     }
 
     // Chunk Butonuna Tıklama

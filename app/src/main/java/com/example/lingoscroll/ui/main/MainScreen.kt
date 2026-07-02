@@ -537,7 +537,11 @@ fun InteractiveMechanicCard(
         ) {
             when (state.currentItem.mechanicType) {
                 "SKELETON" -> {
-                    SkeletonMechanicView(state = state, onReveal = { viewModel.revealSkeleton() }, onEvaluate = { viewModel.evaluateSkeleton(it) })
+                    SkeletonMechanicView(
+                        state = state,
+                        onInputChange = { viewModel.onSkeletonInputChange(it) },
+                        onUseJoker = { viewModel.useJoker() }
+                    )
                 }
                 "SWIPE" -> {
                     SwipeMechanicView(state = state, onAnswer = { viewModel.answerPracticeQuestion(it) })
@@ -554,7 +558,11 @@ fun InteractiveMechanicCard(
                 }
                 else -> {
                     // Fallback to Skeleton
-                    SkeletonMechanicView(state = state, onReveal = { viewModel.revealSkeleton() }, onEvaluate = { viewModel.evaluateSkeleton(it) })
+                    SkeletonMechanicView(
+                        state = state,
+                        onInputChange = { viewModel.onSkeletonInputChange(it) },
+                        onUseJoker = { viewModel.useJoker() }
+                    )
                 }
             }
         }
@@ -565,90 +573,73 @@ fun InteractiveMechanicCard(
 @Composable
 fun SkeletonMechanicView(
     state: MainScreenUiState.Practice,
-    onReveal: () -> Unit,
-    onEvaluate: (Boolean) -> Unit
+    onInputChange: (String) -> Unit,
+    onUseJoker: () -> Unit
 ) {
     val skeletonText = remember(state.currentItem.targetEn) {
         toSkeletonText(state.currentItem.targetEn)
     }
 
-    if (!state.isSkeletonRevealed) {
-        Column(
-            modifier = Modifier
-                .fillMaxWidth()
-                .clickable { onReveal() }
-                .padding(24.dp),
-            horizontalAlignment = Alignment.CenterHorizontally
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(8.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text(
+            text = "İskelet Cümle:",
+            fontSize = 12.sp,
+            fontWeight = FontWeight.Bold,
+            color = SurvivalDanger
+        )
+        Spacer(modifier = Modifier.height(8.dp))
+        Text(
+            text = skeletonText,
+            fontSize = 20.sp,
+            fontWeight = FontWeight.Bold,
+            color = SurvivalText,
+            textAlign = TextAlign.Center,
+            letterSpacing = 1.sp
+        )
+        
+        Spacer(modifier = Modifier.height(24.dp))
+        
+        OutlinedTextField(
+            value = state.userInput,
+            onValueChange = onInputChange,
+            placeholder = { Text("Cümleyi yazın...") },
+            modifier = Modifier.fillMaxWidth(),
+            shape = RoundedCornerShape(12.dp),
+            enabled = !state.isAnswerEvaluated,
+            colors = OutlinedTextFieldDefaults.colors(
+                focusedBorderColor = SurvivalPrimary,
+                cursorColor = SurvivalPrimary
+            ),
+            singleLine = true
+        )
+        
+        Spacer(modifier = Modifier.height(16.dp))
+        
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceBetween,
+            verticalAlignment = Alignment.CenterVertically
         ) {
-            Text(
-                text = "İskelet Cümle (Açmak İçin Tıkla)",
-                fontSize = 12.sp,
-                fontWeight = FontWeight.Bold,
-                color = SurvivalDanger
-            )
-            Spacer(modifier = Modifier.height(16.dp))
-            Text(
-                text = skeletonText,
-                fontSize = 22.sp,
-                fontWeight = FontWeight.Bold,
-                color = SurvivalText,
-                textAlign = TextAlign.Center,
-                letterSpacing = 2.sp
-            )
-        }
-    } else {
-        Column(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(16.dp),
-            horizontalAlignment = Alignment.CenterHorizontally
-        ) {
-            Text(
-                text = state.currentItem.targetEn,
-                fontSize = 24.sp,
-                fontWeight = FontWeight.Bold,
-                color = SurvivalPrimary,
-                textAlign = TextAlign.Center
-            )
-            
-            if (!state.isAnswerEvaluated) {
-                Spacer(modifier = Modifier.height(24.dp))
-                Text(
-                    text = "Bu ifadeyi doğru tahmin edebildiniz mi?",
-                    fontSize = 14.sp,
-                    color = SurvivalTextSecondary
-                )
-                Spacer(modifier = Modifier.height(16.dp))
-                Row(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.spacedBy(8.dp)
-                ) {
-                    Button(
-                        onClick = { onEvaluate(false) },
-                        colors = ButtonDefaults.buttonColors(containerColor = SurvivalDanger),
-                        shape = RoundedCornerShape(10.dp),
-                        modifier = Modifier.weight(1f)
-                    ) {
-                        Text("Bilemedim", maxLines = 1, softWrap = false, fontSize = 12.sp)
-                    }
-                    Button(
-                        onClick = { onEvaluate(true) },
-                        colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFF4A261)),
-                        shape = RoundedCornerShape(10.dp),
-                        modifier = Modifier.weight(1f)
-                    ) {
-                        Text("Zor", maxLines = 1, softWrap = false, fontSize = 12.sp)
-                    }
-                    Button(
-                        onClick = { onEvaluate(true) },
-                        colors = ButtonDefaults.buttonColors(containerColor = SurvivalPrimary),
-                        shape = RoundedCornerShape(10.dp),
-                        modifier = Modifier.weight(1f)
-                    ) {
-                        Text("Kolay", maxLines = 1, softWrap = false, fontSize = 12.sp)
-                    }
-                }
+            Button(
+                onClick = onUseJoker,
+                enabled = !state.isAnswerEvaluated,
+                colors = ButtonDefaults.buttonColors(containerColor = SurvivalDanger),
+                shape = RoundedCornerShape(10.dp)
+            ) {
+                Text("💡 Harf Al", color = Color.White)
             }
+            
+            Text(
+                text = "Joker Sayacı: ${state.jokerCount}",
+                fontSize = 14.sp,
+                fontWeight = FontWeight.Medium,
+                color = if (state.jokerCount >= 3) SurvivalDanger else SurvivalTextSecondary
+            )
         }
     }
 }
