@@ -17,6 +17,9 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.hapticfeedback.HapticFeedbackType
 import androidx.compose.ui.platform.LocalHapticFeedback
+import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.core.tween
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -580,6 +583,19 @@ fun SkeletonMechanicView(
         toSkeletonText(state.currentItem.targetEn)
     }
 
+    val haptic = LocalHapticFeedback.current
+    LaunchedEffect(state.showErrorAnimation) {
+        if (state.showErrorAnimation) {
+            haptic.performHapticFeedback(HapticFeedbackType.LongPress)
+        }
+    }
+
+    val errorAlpha by animateFloatAsState(
+        targetValue = if (state.showErrorAnimation) 1f else 0f,
+        animationSpec = tween(durationMillis = 400),
+        label = "ErrorAlpha"
+    )
+
     Column(
         modifier = Modifier
             .fillMaxWidth()
@@ -602,7 +618,24 @@ fun SkeletonMechanicView(
             letterSpacing = 1.sp
         )
         
-        Spacer(modifier = Modifier.height(24.dp))
+        Spacer(modifier = Modifier.height(16.dp))
+
+        // Hata Geri Bildirim Metni (Görsel Animasyonlu)
+        if (state.showErrorAnimation || errorAlpha > 0.01f) {
+            Text(
+                text = "Hatalı Tuş: ${state.wrongLetter}",
+                color = SurvivalDanger,
+                fontWeight = FontWeight.Bold,
+                fontSize = 14.sp,
+                modifier = Modifier
+                    .graphicsLayer(alpha = errorAlpha)
+            )
+        } else {
+            // Boşlukta hizalama bozulmasın diye görünmez yer tutucu
+            Spacer(modifier = Modifier.height(20.dp))
+        }
+
+        Spacer(modifier = Modifier.height(8.dp))
         
         OutlinedTextField(
             value = state.userInput,

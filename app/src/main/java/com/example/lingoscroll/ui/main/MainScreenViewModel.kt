@@ -16,6 +16,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.delay
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.net.HttpURLConnection
@@ -58,6 +59,8 @@ sealed interface MainScreenUiState {
         val isSkeletonRevealed: Boolean = false,
         val userInput: String = "",
         val jokerCount: Int = 0,
+        val wrongLetter: String = "",
+        val showErrorAnimation: Boolean = false,
         // Chunk mechanic fields
         val clickedChunks: List<String> = emptyList(),
         val shuffledChunks: List<String> = emptyList(),
@@ -324,6 +327,8 @@ class MainScreenViewModel(context: Context) : ViewModel() {
             isSkeletonRevealed = false,
             userInput = "",
             jokerCount = 0,
+            wrongLetter = "",
+            showErrorAnimation = false,
             clickedChunks = clickedChunks,
             shuffledChunks = shuffledChunks,
             tappedErrorWord = null,
@@ -360,13 +365,44 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         tts.speak(currentState.currentItem.targetEn)
     }
 
-    // Skeleton Giriş Alanı Değişimi
+    // Skeleton Giriş Alanı Değişimi (Hayalet Klavye Mantığı)
     fun onSkeletonInputChange(newInput: String) {
         val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
         if (currentState.isAnswerEvaluated) return
         
-        _uiState.value = currentState.copy(userInput = newInput)
-        checkSkeletonMatch(newInput, currentState.currentItem.targetEn, currentState.jokerCount)
+        val currentInput = currentState.userInput
+        val target = currentState.currentItem.targetEn
+        
+        if (newInput.length < currentInput.length) {
+            // Silme işlemine doğrudan izin ver
+            _uiState.value = currentState.copy(userInput = newInput)
+            checkSkeletonMatch(newInput, target, currentState.jokerCount)
+        } else if (newInput.length > currentInput.length) {
+            val typedChar = newInput.last()
+            if (currentInput.length < target.length) {
+                val expectedChar = target[currentInput.length]
+                if (typedChar.lowercaseChar() == expectedChar.lowercaseChar()) {
+                    // Doğru harf girildi
+                    val correctInput = currentInput + expectedChar
+                    _uiState.value = currentState.copy(userInput = correctInput)
+                    checkSkeletonMatch(correctInput, target, currentState.jokerCount)
+                } else {
+                    // Yanlış harf basıldı (Hayalet Klavye Hatası)
+                    _uiState.value = currentState.copy(
+                        wrongLetter = typedChar.toString(),
+                        showErrorAnimation = true
+                    )
+                    viewModelScope.launch(Dispatchers.Main) {
+                        delay(400L)
+                        val latestState = _uiState.value as? MainScreenUiState.Practice ?: return@launch
+                        _uiState.value = latestState.copy(
+                            wrongLetter = "",
+                            showErrorAnimation = false
+                        )
+                    }
+                }
+            }
+        }
     }
 
     // Joker (Harf Al) Butonuna Basıldığında
