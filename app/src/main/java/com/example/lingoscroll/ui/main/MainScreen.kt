@@ -441,10 +441,12 @@ fun PracticeScreen(
 
     Scaffold(
         bottomBar = {
-            SurvivalBottomNavigation(
-                activeCategory = state.currentCategory,
-                onCategoryChange = { viewModel.changeCategory(it) }
-            )
+            if (!isImeVisible) {
+                SurvivalBottomNavigation(
+                    activeCategory = state.currentCategory,
+                    onCategoryChange = { viewModel.changeCategory(it) }
+                )
+            }
         }
     ) { paddingValues ->
         Box(
