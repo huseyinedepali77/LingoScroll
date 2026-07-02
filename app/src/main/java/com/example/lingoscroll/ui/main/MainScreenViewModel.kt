@@ -22,6 +22,7 @@ import java.io.InputStreamReader
 import java.net.HttpURLConnection
 import java.net.URL
 import org.json.JSONArray
+import com.example.lingoscroll.data.auth.AuthManager
 
 sealed interface MainScreenUiState {
     object OnboardingWelcome : MainScreenUiState
@@ -82,6 +83,7 @@ class MainScreenViewModel(context: Context) : ViewModel() {
     private val tts: TtsManager = NativeTtsManager(context)
     private val db = AppDatabase.getDatabase(context, viewModelScope)
     private val repository = CardRepository(db.cardDao())
+    private val authManager = AuthManager()
 
     private val _uiState = MutableStateFlow<MainScreenUiState>(MainScreenUiState.OnboardingWelcome)
     val uiState: StateFlow<MainScreenUiState> = _uiState.asStateFlow()
@@ -174,6 +176,15 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         scheduleBackgroundSync(context)
         scheduleNotifications(context)
         startActiveTimer()
+
+        // Firebase Anonim Kimlik Girişini tetikle
+        authManager.signInAnonymously { user ->
+            if (user != null) {
+                Log.d("MainScreenViewModel", "Firebase Anonim Giriş Başarılı. Kullanıcı ID (UID): ${user.uid}")
+            } else {
+                Log.e("MainScreenViewModel", "Firebase Anonim Giriş Başarısız oldu.")
+            }
+        }
 
         val savedLevel = prefs.getUserLevel()
         if (savedLevel != null) {

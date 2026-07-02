@@ -4,6 +4,7 @@ plugins {
   alias(libs.plugins.kotlin.serialization)
   id("org.jetbrains.kotlin.android")
   id("org.jetbrains.kotlin.kapt")
+  id("com.google.gms.google-services")
 }
 
 android {
@@ -91,4 +92,10 @@ dependencies {
 
   // WorkManager
   implementation(libs.androidx.work.runtime)
+
+  // Firebase integration
+  implementation(platform("com.google.firebase:firebase-bom:32.8.0"))
+  implementation("com.google.firebase:firebase-auth")
+  implementation("com.google.firebase:firebase-database")
+  implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.3")
 }
