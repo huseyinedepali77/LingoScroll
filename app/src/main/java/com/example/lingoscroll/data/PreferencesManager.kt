@@ -225,4 +225,34 @@ class PreferencesManager(context: Context) {
         val current = getStageProgress()
         setStageProgress(current + 1)
     }
+
+    // --- Aşama 2: Titreşim ve Oyunlaştırma (XP & Rütbe) ---
+    fun isHapticEnabled(): Boolean {
+        return prefs.getBoolean("haptic_enabled", true)
+    }
+
+    fun setHapticEnabled(enabled: Boolean) {
+        prefs.edit().putBoolean("haptic_enabled", enabled).apply()
+    }
+
+    fun getUserXp(): Int {
+        return prefs.getInt("user_xp", 0)
+    }
+
+    fun setUserXp(xp: Int) {
+        prefs.edit().putInt("user_xp", xp.coerceAtLeast(0)).apply()
+    }
+
+    fun addXp(amount: Int) {
+        val current = getUserXp()
+        setUserXp(current + amount)
+    }
+
+    fun getUserRank(xp: Int): String {
+        return when {
+            xp < 100 -> "Acemi"
+            xp < 500 -> "Çırak"
+            else -> "Saha Ajanı"
+        }
+    }
 }

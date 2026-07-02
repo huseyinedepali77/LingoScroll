@@ -78,6 +78,7 @@ fun MainScreen(
                 ) {
                     StressTestQuizScreen(
                         state = s,
+                        isHapticEnabled = viewModel.isHapticEnabled(),
                         onAnswer = { viewModel.answerStressTestQuestion(it) },
                         onNext = { viewModel.nextStressTestQuestion() }
                     )
@@ -169,6 +170,7 @@ fun WelcomeScreen(onStart: () -> Unit) {
 @Composable
 fun StressTestQuizScreen(
     state: MainScreenUiState.OnboardingQuiz,
+    isHapticEnabled: Boolean,
     onAnswer: (String) -> Unit,
     onNext: () -> Unit
 ) {
@@ -253,10 +255,12 @@ fun StressTestQuizScreen(
                     onClick = {
                         if (state.selectedOption == null) {
                             onAnswer(option)
-                            if (isCorrect) {
-                                haptic.performHapticFeedback(HapticFeedbackType.TextHandleMove)
-                            } else {
-                                haptic.performHapticFeedback(HapticFeedbackType.LongPress)
+                            if (isHapticEnabled) {
+                                if (isCorrect) {
+                                    haptic.performHapticFeedback(HapticFeedbackType.TextHandleMove)
+                                } else {
+                                    haptic.performHapticFeedback(HapticFeedbackType.LongPress)
+                                }
                             }
                         }
                     },
@@ -385,6 +389,9 @@ fun PracticeScreen(
     val focusManager = LocalFocusManager.current
     val keyboardController = LocalSoftwareKeyboardController.current
 
+    var showSettingsDialog by remember { mutableStateOf(false) }
+    var showResetConfirmation by remember { mutableStateOf(false) }
+
     // Cevap değerlendirildiğinde (klavye kapanıp ekran boyutu genişlediğinde) odağı temizle ve 300ms gecikmeyle üste kaydır
     LaunchedEffect(state.isAnswerEvaluated) {
         if (state.isAnswerEvaluated) {
@@ -451,7 +458,12 @@ fun PracticeScreen(
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 // Header (Progress Bar, Streak, Seconds Saved)
-                PracticeHeader(state = state)
+                PracticeHeader(
+                    state = state,
+                    xp = viewModel.getUserXp(),
+                    rank = viewModel.getUserRank(),
+                    onSettingsClick = { showSettingsDialog = true }
+                )
                 Spacer(modifier = Modifier.height(16.dp))
 
                 // Active Scenario Card
@@ -489,8 +501,80 @@ fun PracticeScreen(
                 InteractiveMechanicCard(
                     state = state,
                     viewModel = viewModel,
+                    isHapticEnabled = viewModel.isHapticEnabled(),
                     haptic = haptic
                 )
+
+                // Dialogs
+                if (showSettingsDialog) {
+                    AlertDialog(
+                        onDismissRequest = { showSettingsDialog = false },
+                        title = { Text("Operasyon Merkezi (Ayarlar)", fontWeight = FontWeight.Bold, color = SurvivalText) },
+                        text = {
+                            Column(modifier = Modifier.fillMaxWidth()) {
+                                Row(
+                                    modifier = Modifier.fillMaxWidth(),
+                                    horizontalArrangement = Arrangement.SpaceBetween,
+                                    verticalAlignment = Alignment.CenterVertically
+                                ) {
+                                    Text("Cihaz Titreşimi (Haptic)", color = SurvivalText, fontSize = 15.sp)
+                                    Switch(
+                                        checked = viewModel.isHapticEnabled(),
+                                        onCheckedChange = { viewModel.setHapticEnabled(it) },
+                                        colors = SwitchDefaults.colors(checkedThumbColor = SurvivalPrimary)
+                                    )
+                                }
+                                Spacer(modifier = Modifier.height(24.dp))
+                                Button(
+                                    onClick = { showResetConfirmation = true },
+                                    colors = ButtonDefaults.buttonColors(containerColor = SurvivalDanger),
+                                    modifier = Modifier.fillMaxWidth(),
+                                    shape = RoundedCornerShape(10.dp)
+                                ) {
+                                    Text("Verileri Sıfırla", color = Color.White, fontWeight = FontWeight.Bold)
+                                }
+                            }
+                        },
+                        confirmButton = {
+                            TextButton(onClick = { showSettingsDialog = false }) {
+                                Text("Kapat", color = SurvivalPrimary, fontWeight = FontWeight.Bold)
+                            }
+                        },
+                        containerColor = SurvivalSurface,
+                        shape = RoundedCornerShape(20.dp)
+                    )
+                }
+
+                if (showResetConfirmation) {
+                    AlertDialog(
+                        onDismissRequest = { showResetConfirmation = false },
+                        title = { Text("Emin misiniz?", fontWeight = FontWeight.Bold, color = SurvivalDanger) },
+                        text = {
+                            Text(
+                                "Bu işlem tüm rütbe, XP ve Leitner ilerleme geçmişinizi kalıcı olarak silecek. Bu işlem geri alınamaz!",
+                                color = SurvivalText
+                            )
+                        },
+                        confirmButton = {
+                            TextButton(
+                                onClick = {
+                                    viewModel.resetProgress()
+                                    showResetConfirmation = false
+                                    showSettingsDialog = false
+                                }
+                            ) {
+                                Text("Evet, Sıfırla", color = SurvivalDanger, fontWeight = FontWeight.Bold)
+                            }
+                        },
+                        dismissButton = {
+                            TextButton(onClick = { showResetConfirmation = false }) {
+                                Text("İptal", color = SurvivalTextSecondary)
+                            }
+                        },
+                        containerColor = SurvivalSurface,
+                        shape = RoundedCornerShape(20.dp)
+                    )
+                }
 
                 // Alt kısımdaki kayan değerlendirme kartı için boşluk bırak
                 Spacer(modifier = Modifier.height(120.dp))
@@ -526,11 +610,59 @@ fun PracticeScreen(
 // SUB-COMPONENTS FOR PRACTICE SCREEN
 
 @Composable
-fun PracticeHeader(state: MainScreenUiState.Practice) {
+fun PracticeHeader(
+    state: MainScreenUiState.Practice,
+    xp: Int,
+    rank: String,
+    onSettingsClick: () -> Unit
+) {
     Column(
         modifier = Modifier.fillMaxWidth(),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        // Rütbe ve XP Rozetleri Satırı
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(bottom = 12.dp),
+            horizontalArrangement = Arrangement.SpaceBetween,
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            // Sol Taraf: Rütbe Rozeti (Ajan Rozeti)
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier
+                    .background(SurvivalPrimary.copy(alpha = 0.15f), RoundedCornerShape(12.dp))
+                    .padding(horizontal = 12.dp, vertical = 6.dp)
+            ) {
+                Text("🎖️", fontSize = 14.sp)
+                Spacer(modifier = Modifier.width(4.dp))
+                Text(
+                    text = rank,
+                    fontSize = 13.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = SurvivalPrimary
+                )
+            }
+
+            // Sağ Taraf: XP Miktarı
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier
+                    .background(SurvivalDanger.copy(alpha = 0.15f), RoundedCornerShape(12.dp))
+                    .padding(horizontal = 12.dp, vertical = 6.dp)
+            ) {
+                Text("⭐", fontSize = 14.sp)
+                Spacer(modifier = Modifier.width(4.dp))
+                Text(
+                    text = "$xp XP",
+                    fontSize = 13.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = SurvivalDanger
+                )
+            }
+        }
+
         Row(
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceBetween,
@@ -556,6 +688,14 @@ fun PracticeHeader(state: MainScreenUiState.Practice) {
                     fontWeight = FontWeight.Bold,
                     color = SurvivalPrimary
                 )
+                Spacer(modifier = Modifier.width(12.dp))
+                // Ayarlar Çark Butonu
+                IconButton(
+                    onClick = onSettingsClick,
+                    modifier = Modifier.size(24.dp)
+                ) {
+                    Text("⚙️", fontSize = 18.sp)
+                }
             }
         }
         Spacer(modifier = Modifier.height(8.dp))
@@ -581,6 +721,7 @@ fun PracticeHeader(state: MainScreenUiState.Practice) {
 fun InteractiveMechanicCard(
     state: MainScreenUiState.Practice,
     viewModel: MainScreenViewModel,
+    isHapticEnabled: Boolean,
     haptic: androidx.compose.ui.hapticfeedback.HapticFeedback
 ) {
     Card(
@@ -600,6 +741,7 @@ fun InteractiveMechanicCard(
                 "SKELETON" -> {
                     SkeletonMechanicView(
                         state = state,
+                        isHapticEnabled = isHapticEnabled,
                         onInputChange = { viewModel.onSkeletonInputChange(it) },
                         onUseJoker = { viewModel.useJoker() }
                     )
@@ -621,6 +763,7 @@ fun InteractiveMechanicCard(
                     // Fallback to Skeleton
                     SkeletonMechanicView(
                         state = state,
+                        isHapticEnabled = isHapticEnabled,
                         onInputChange = { viewModel.onSkeletonInputChange(it) },
                         onUseJoker = { viewModel.useJoker() }
                     )
@@ -634,6 +777,7 @@ fun InteractiveMechanicCard(
 @Composable
 fun SkeletonMechanicView(
     state: MainScreenUiState.Practice,
+    isHapticEnabled: Boolean,
     onInputChange: (String) -> Unit,
     onUseJoker: () -> Unit
 ) {
@@ -664,7 +808,7 @@ fun SkeletonMechanicView(
 
     val haptic = LocalHapticFeedback.current
     LaunchedEffect(state.showErrorAnimation) {
-        if (state.showErrorAnimation) {
+        if (state.showErrorAnimation && isHapticEnabled) {
             haptic.performHapticFeedback(HapticFeedbackType.LongPress)
         }
     }

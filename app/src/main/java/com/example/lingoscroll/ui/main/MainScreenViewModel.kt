@@ -78,7 +78,7 @@ sealed interface MainScreenUiState {
     ) : MainScreenUiState
 }
 
-class MainScreenViewModel(context: Context) : ViewModel() {
+class MainScreenViewModel(private val context: Context) : ViewModel() {
     private val prefs = PreferencesManager(context)
     private val tts: TtsManager = NativeTtsManager(context)
     private val db = AppDatabase.getDatabase(context, viewModelScope)
@@ -374,6 +374,7 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         
         if (isCorrect) {
             prefs.addSecondsSaved(20)
+            prefs.addXp(10) // Doğru cevap: +10 XP
         }
 
         _uiState.value = currentState.copy(
@@ -450,6 +451,8 @@ class MainScreenViewModel(context: Context) : ViewModel() {
             val newTypedIndices = currentState.typedIndices + firstHiddenIndex
             val newJokerCount = currentState.jokerCount + 1
             
+            prefs.addXp(-5) // Joker kullanımı: -5 XP
+            
             _uiState.value = currentState.copy(
                 typedIndices = newTypedIndices,
                 jokerCount = newJokerCount
@@ -480,6 +483,7 @@ class MainScreenViewModel(context: Context) : ViewModel() {
             if (isLeitnerCorrect) {
                 val reward = if (jokerCount == 0) 25L else 10L
                 prefs.addSecondsSaved(reward)
+                prefs.addXp(10) // Doğru cevap: +10 XP
             }
             
             // Kullanıcı cümleyi eksiksiz tamamladığı için arayüzde HER ZAMAN başarılı/doğru göster
@@ -528,6 +532,7 @@ class MainScreenViewModel(context: Context) : ViewModel() {
                     
                     if (isCorrect) {
                         prefs.addSecondsSaved(20)
+                        prefs.addXp(10) // Doğru cevap: +10 XP
                     }
 
                     _uiState.value = latestState.copy(
@@ -573,6 +578,7 @@ class MainScreenViewModel(context: Context) : ViewModel() {
 
         if (isCorrect) {
             prefs.addSecondsSaved(20)
+            prefs.addXp(10) // Doğru cevap: +10 XP
             // Yanlış kelimeyi doğrusu ile değiştir
             val correctedText = currentState.errorSentenceText.replace(wrongWord, correctReplacement, ignoreCase = true)
             _uiState.value = currentState.copy(
@@ -792,9 +798,28 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         
         viewModelScope.launch(Dispatchers.IO) {
             repository.deleteAll()
+            // Veritabanını sıfırladıktan sonra çevrimdışı soruları Room veritabanına yeniden yükle
+            AppDatabase.loadOfflineQuestions(context, db.cardDao())
         }
         
         _uiState.value = MainScreenUiState.OnboardingWelcome
+    }
+
+    // --- Aşama 2: Titreşim ve Oyunlaştırma Getters/Setters ---
+    fun isHapticEnabled(): Boolean {
+        return prefs.isHapticEnabled()
+    }
+
+    fun setHapticEnabled(enabled: Boolean) {
+        prefs.setHapticEnabled(enabled)
+    }
+
+    fun getUserXp(): Int {
+        return prefs.getUserXp()
+    }
+
+    fun getUserRank(): String {
+        return prefs.getUserRank(prefs.getUserXp())
     }
 
     private fun calculateRevealedIndices(target: String, difficulty: Int): Set<Int> {
