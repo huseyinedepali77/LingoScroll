@@ -3,231 +3,225 @@
     "id": 126070201,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The airline ticket had some _____ fees.",
-    "translation": "Havayolu biletinde bazı gizli ücretler vardı.",
-    "context": "Havayolu şirketlerinin veya otellerin, başlangıçta göstermediği ama sonradan ödemek zorunda kaldığın ek ücretlere 'hidden fees' denir. Tatil rezervasyonu yaparken her zaman küçük yazıları okumalısın ki sürpriz yaşama!",
+    "phrase": "After the earthquake, a brave _____ was pulled out alive.",
+    "translation": "Depremden sonra cesur bir kurtulan canlı olarak çıkarıldı.",
+    "context": "Bu kelime 'kurtulan' veya 'hayatta kalan kişi' demek. Genellikle doğal afetler, kazalar veya zorlu durumlar sonrası kullanılır. Mesela, 'That cat is a real survivor, it fell from the third floor!' (O kedi tam bir kurtulan, üçüncü kattan düştü!) diyebilirsin.",
     "options": [
-      "hidden",
-      "visible",
-      "open",
-      "clear"
+      "survivor",
+      "visitor",
+      "worker",
+      "student"
     ],
-    "correctAnswer": "hidden",
-    "category": "TRAVEL",
+    "correctAnswer": "survivor",
+    "category": "CASUAL",
     "variations": [
-      "The contract included several hidden _____.",
-      "You should check for any hidden _____ before booking."
+      "The survivor told us his amazing story.",
+      "She is a strong survivor after the flood."
     ]
   },
   {
     "id": 126070202,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Meta just _____ a new gaming app.",
-    "translation": "Meta yeni bir oyun uygulamasını piyasaya sürdü.",
-    "context": "Bir şirket yeni bir ürün, uygulama veya hizmeti ilk kez halka sunduğunda 'launch' fiilini kullanırız. Tıpkı bir roketin fırlatılması gibi, yeni bir ürün de pazara 'fırlatılır'!",
+    "phrase": "Meta quietly _____ a new gaming app called Pocket.",
+    "translation": "Meta sessizce Pocket adlı yeni bir oyun uygulamasını piyasaya sürdü.",
+    "context": "Bir şirketin yeni bir ürün veya hizmeti 'piyasaya sürmesi', 'hizmete açması' anlamına gelir. 'Launch' kelimesi aynı zamanda uzaya roket fırlatmak için de kullanılır, tıpkı SpaceX'in yaptığı gibi!",
     "options": [
       "launched",
+      "bought",
       "closed",
-      "stopped",
-      "hid"
+      "fixed"
     ],
     "correctAnswer": "launched",
     "category": "BUSINESS",
     "variations": [
-      "The company plans to _____ its new product next month.",
-      "When did they _____ their latest software?"
+      "They plan to launch a new product next month.",
+      "The company will launch its website soon."
     ]
   },
   {
     "id": 126070203,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "'Heatwave' kelimesi ne anlama gelir?",
-    "translation": "Belirli bir bölgede uzun süren aşırı sıcak hava dalgası.",
-    "context": "Yazın dayanılmaz sıcaklardan şikayet ettiğimizde, işte o günler 'heatwave' oluyor! Özellikle nemle birleşince insanı eriten sıcak hava dalgası demek. Taylor Swift'in düğününe bile isabet edebiliyor, düşün artık!",
+    "phrase": "Which of these words refers to a period of unusually hot weather?",
+    "translation": "Bu kelimelerden hangisi alışılmadık derecede sıcak bir hava dönemini ifade eder?",
+    "context": "'Heatwave' dediğimizde, termometrelerin patlayacak gibi olduğu, klimasız evde yaşamanın bir eziyet olduğu, bunaltıcı sıcak hava dalgasından bahsediyoruz! Özellikle yaz aylarında tatil planlarını alt üst edebilir, aman dikkat!",
     "options": [
-      "A strong gust of wind",
-      "A period of unusually hot weather",
-      "A sudden cold front",
-      "Heavy rainfall"
+      "heatwave",
+      "snowstorm",
+      "rainy day",
+      "gentle breeze"
     ],
-    "correctAnswer": "A period of unusually hot weather",
-    "category": "CASUAL",
+    "correctAnswer": "heatwave",
+    "category": "TRAVEL",
     "variations": []
   },
   {
     "id": 126070204,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "She was a lucky _____ of the plane crash.",
-    "translation": "O, uçak kazasının şanslı bir kurtulanıydı.",
-    "context": "Büyük bir felaketten (kaza, deprem, doğal afet vb.) sağ kurtulan kişiye 'survivor' denir. Tıpkı TV'deki ünlü yarışma programı gibi, hayatta kalmayı başaran kişi!",
+    "phrase": "She was the only player _____ after a long match.",
+    "translation": "Uzun bir maçtan sonra kalan tek oyuncu oydu.",
+    "context": "'Last standing' demek, bir gruptan veya yarışmadan geriye kalan tek kişi veya şey olmak demek. Film sahnelerinde kahramanımız tüm düşmanları alt ettiğinde 'He was the last man standing!' diye bağırabilirsin!",
     "options": [
-      "victim",
-      "survivor",
-      "witness",
-      "passenger"
+      "standing",
+      "sitting",
+      "walking",
+      "running"
     ],
-    "correctAnswer": "survivor",
+    "correctAnswer": "standing",
     "category": "MIXED",
     "variations": [
-      "The only _____ of the accident was a child.",
-      "Many _____ were rescued from the collapsed building."
+      "Who is the last one standing in the competition?",
+      "He was the last man standing on the island."
     ]
   },
   {
     "id": 126070205,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "They bravely _____ the mountain peak in challenging weather.",
-    "translation": "Zorlu hava koşullarında dağ zirvesine cesurca tırmandılar.",
-    "context": "'Scale' kelimesi normalde ölçek, tartı gibi anlamlara gelirken, burada haberde Empire State Binası'na 'tırmanmak' anlamında kullanılmış. Yani bir şeye tırmanmak, üzerine çıkmak, hatta bir zorluğun üstesinden gelmek için de kullanılabilir!",
+    "phrase": "The city suffered a _____ attack, causing widespread damage.",
+    "translation": "Şehir yaygın hasara neden olan büyük bir saldırı yaşadı.",
+    "context": "'Massive' kelimesi, 'çok büyük', 'devasa' veya 'çok etkili' anlamlarına gelir. Bir saldırı için kullanıldığında, büyüklüğünü ve yıkıcılığını vurgular. Aynı zamanda 'Bugün massive bir kahvaltı yaptım!' diyerek çok büyük bir kahvaltıyı da anlatabilirsin!",
     "options": [
-      "climbed",
-      "scaled",
-      "descended",
-      "fell"
+      "massive",
+      "tiny",
+      "light",
+      "small"
     ],
-    "correctAnswer": "scaled",
-    "category": "TRAVEL",
+    "correctAnswer": "massive",
+    "category": "CASUAL",
     "variations": [
-      "The climbers hoped to _____ Mount Everest.",
-      "We need to _____ the wall to reach the garden."
+      "The company made a massive investment.",
+      "They built a massive bridge over the river."
     ]
   },
   {
     "id": 126070206,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Companies often develop _____ chips for specific devices.",
-    "translation": "Şirketler genellikle belirli cihazlar için özel yongalar geliştirir.",
-    "context": "Teknoloji dünyasında 'custom chip', yani 'özel yonga', bir şirketin kendi ihtiyaçlarına veya belirli bir ürüne özel olarak tasarladığı ve ürettiği bir mikroçiptir. Bu, ürünün performansını ve verimliliğini artırabilir. Tıpkı sana özel dikilmiş bir takım elbise gibi!",
-    "options": [
-      "generic",
-      "standard",
-      "custom",
-      "common"
-    ],
-    "correctAnswer": "custom",
-    "category": "BUSINESS",
-    "variations": [
-      "We ordered a _____ design for our new product.",
-      "Many tech giants use _____ hardware components."
-    ]
-  },
-  {
-    "id": 126070207,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Spor haberlerinde sıkça duyduğumuz 'fightback' terimi ne anlama gelir?",
-    "translation": "Özellikle bir spor müsabakasında, kötü bir durumdan sonra toparlanıp başarı elde etme çabası.",
-    "context": "Maçta takımın geriye düştüğünde, pes etmeyip geri dönmek için gösterdiği müthiş çabaya 'fightback' denir. 'England charging with big fightback!' haberi de tam olarak bunu anlatıyor. O adrenalin dolu geri dönüş anları!",
+    "phrase": "What does 'AI hype' refer to in the business world?",
+    "translation": "İş dünyasında 'AI hype' neyi ifade eder?",
+    "context": "'AI hype', yapay zekanın (AI) potansiyeli hakkında bazen abartılı beklentilerin veya heyecanın olduğu durumu anlatır. Herkes AI'dan bahseder, her şeye AI katılır ama gerçek faydaları bazen bu 'hype'ın gerisinde kalabilir. 'Abartı' diyebiliriz yani!",
     "options": [
-      "A defensive strategy",
-      "An aggressive foul",
-      "A strong recovery or counter-attack",
-      "A warm-up exercise"
+      "overblown excitement about AI",
+      "fear of AI's future",
+      "actual development of AI",
+      "lack of interest in AI"
     ],
-    "correctAnswer": "A strong recovery or counter-attack",
-    "category": "CASUAL",
+    "correctAnswer": "overblown excitement about AI",
+    "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126070208,
+    "id": 126070207,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The church decided to _____ the member for their actions.",
-    "translation": "Kilise, eylemleri nedeniyle üyeyi aforoz etmeye karar verdi.",
-    "context": "'Excommunicate' kelimesi özellikle dini kurumlarda bir kişiyi kilise üyeliğinden veya cemaatten çıkarma anlamına gelir. Artık topluluğun bir parçası değilsin, dışarıda kalırsın! Eski zamanlarda çok daha korkutucu bir cezaydı bu.",
+    "phrase": "The travel app had to pay a large _____ due to hidden fees.",
+    "translation": "Seyahat uygulaması, gizli ücretler nedeniyle büyük bir uzlaşma bedeli ödemek zorunda kaldı.",
+    "context": "'Settlement' kelimesi, genellikle yasal bir anlaşmazlıkta tarafların mahkemeye gitmeden uzlaşarak bir sonuca varması demektir. Ortada bir 'hata' varsa, bunun bedelini ödemeyi kabul etmektir. Bir nevi 'sulh olmak' gibi düşünebilirsin.",
     "options": [
-      "welcome",
-      "excommunicate",
-      "promote",
-      "forgive"
+      "settlement",
+      "vacation",
+      "bonus",
+      "discount"
     ],
-    "correctAnswer": "excommunicate",
-    "category": "MIXED",
+    "correctAnswer": "settlement",
+    "category": "TRAVEL",
     "variations": [
-      "Historically, some rulers were _____ from the church.",
-      "They warned the dissident that he would be _____."
+      "They reached a settlement after long negotiations.",
+      "The company offered a settlement to the customers."
     ]
+  },
+  {
+    "id": 126070208,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "What does it mean when a team 'stutters' in a game?",
+    "translation": "Bir takımın bir oyunda 'tökezlemesi' ne anlama gelir?",
+    "context": "'Stutter' kelimesi, genellikle konuşurken takılmak veya kekelemek anlamına gelir. Ama sporda kullanıldığında, bir takımın iyi gitmezken 'sendelemesi', 'performansının düşmesi' veya 'takılıp kalması' demektir. Mesela favori takımın beklenmedik bir şekilde puan kaybederse 'They started to stutter!' diyebilirsin.",
+    "options": [
+      "They perform poorly or hesitate.",
+      "They score many points quickly.",
+      "They dominate the game easily.",
+      "They win the game smoothly."
+    ],
+    "correctAnswer": "They perform poorly or hesitate.",
+    "category": "MIXED",
+    "variations": []
   },
   {
     "id": 126070209,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The car _____ in the mud during the storm.",
-    "translation": "Fırtına sırasında araba çamura saplandı.",
-    "context": "Bir aracın, bir geminin veya hatta bir kişinin bir yerde sıkışıp kalması, hareket edememesi durumuna 'get stuck' denir. Özellikle çamurda, kumda veya dar bir alanda mahsur kalmak gibi durumlarda kullanılır. Hormuz Boğazı'nda geminin başına gelen de buydu!",
+    "phrase": "The church decided to _____ the rebellious members from its community.",
+    "translation": "Kilise, asi üyeleri cemaatinden aforoz etmeye karar verdi.",
+    "context": "'Excommunicate' kelimesi, özellikle dini bir kurumun (genellikle Kilise) bir kişiyi veya grubu, kurallara uymadığı için topluluğundan resmen çıkarması, 'aforoz etmesi' demektir. Bu, o kişi veya grubun artık o topluluğun bir parçası olmadığı anlamına gelir. Çok ciddi bir yaptırımdır!",
     "options": [
-      "moved",
-      "stuck",
-      "flew",
-      "drove"
+      "excommunicate",
+      "welcome",
+      "invite",
+      "promote"
     ],
-    "correctAnswer": "stuck",
-    "category": "TRAVEL",
+    "correctAnswer": "excommunicate",
+    "category": "CASUAL",
     "variations": [
-      "My luggage _____ at the airport for hours.",
-      "The small boat _____ between two large rocks."
+      "He was excommunicated for his controversial views.",
+      "The bishop can excommunicate members of the church."
     ]
   },
   {
     "id": 126070210,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The engineer _____ serious _____ about the new design.",
-    "translation": "Mühendis, yeni tasarımla ilgili ciddi güvenlik endişelerini dile getirdi.",
-    "context": "Bir konu hakkında endişelerini, şüphelerini veya kaygılarını dile getirmek, bildirmek anlamında 'raise concerns' deyimini kullanırız. İş hayatında, bir proje veya durumla ilgili potansiyel sorunları belirtmek için çok yaygın kullanılır. 'Manager who raised safety concerns' haberi gibi.",
-    "options": [
-      "expressed, agreements",
-      "ignored, ideas",
-      "raised, concerns",
-      "dismissed, issues"
-    ],
-    "correctAnswer": "raised, concerns",
-    "category": "BUSINESS",
-    "variations": [
-      "Employees often _____ ethical _____ about company policies.",
-      "She _____ financial _____ before the investment."
-    ]
-  },
-  {
-    "id": 126070211,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "'High humidity' ifadesindeki 'humidity' kelimesi neye işaret eder?",
-    "translation": "Havada bulunan su buharı miktarı.",
-    "context": "Havada ne kadar su buharı olduğunu gösteren şeye 'humidity' yani nem denir. 'Extreme heat and high humidity' birleşince, yapış yapış ve boğucu bir hava olur ki bu da 'bunaltıcı' hissettirir. Saçların kabarması da cabası!",
+    "phrase": "What is 'insider trading' in the financial market?",
+    "translation": "Finans piyasasında 'içeriden öğrenenlerin ticareti' (insider trading) nedir?",
+    "context": "'Insider trading', bir kişinin halka açık olmayan, gizli bilgilere dayanarak şirket hisselerini alıp satmasıdır. Yani, 'içeriden bilgi sızdırmak' ve bu bilgiyi haksız kazanç sağlamak için kullanmaktır. Bu yasa dışıdır ve etik dışıdır çünkü diğer yatırımcıları dezavantajlı duruma sokar. 'Kopya çekip sınava girmek' gibi düşünebilirsin, ama çok daha büyük sonuçları var!",
     "options": [
-      "The amount of wind in the air",
-      "The level of atmospheric pressure",
-      "The measure of water vapor in the air",
-      "The intensity of sunlight"
+      "trading with confidential information",
+      "buying stocks publicly",
+      "selling company products",
+      "investing in new startups"
     ],
-    "correctAnswer": "The measure of water vapor in the air",
-    "category": "CASUAL",
+    "correctAnswer": "trading with confidential information",
+    "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126070212,
+    "id": 126070211,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The country launched a _____ _____ on enemy forces.",
-    "translation": "Ülke, düşman güçlerine karşı büyük bir saldırı başlattı.",
-    "context": "'Massive attack', çok büyük ve geniş çaplı bir saldırı veya hücum anlamına gelir. Sadece askeri değil, örneğin bir bilgisayar korsanlığı saldırısı için de kullanılabilir. Genellikle yıkıcı sonuçları olan bir eylemi ifade eder.",
+    "phrase": "The large cargo ship got _____ in the narrow strait.",
+    "translation": "Büyük kargo gemisi dar boğazda sıkışıp kaldı.",
+    "context": "'Got stuck' demek, bir şeyin bir yerde hareket edemez hale gelmesi, 'takılıp kalması' veya 'sıkışması' demektir. Bir trafikte kalmak gibi basit bir durumdan, bir geminin boğazda mahsur kalması gibi büyük olaylara kadar kullanılabilir. 'My car got stuck in the mud!' (Arabam çamura saplandı!) diyebilirsin.",
     "options": [
-      "small, defense",
-      "minor, raid",
-      "massive, attack",
-      "gentle, push"
+      "stuck",
+      "launched",
+      "sailed",
+      "anchored"
     ],
-    "correctAnswer": "massive, attack",
-    "category": "MIXED",
+    "correctAnswer": "stuck",
+    "category": "TRAVEL",
     "variations": [
-      "They prepared for a _____ cyber _____ on their systems.",
-      "The news reported a _____ military _____ at dawn."
+      "The door got stuck and wouldn't open.",
+      "I got stuck in traffic for two hours."
     ]
+  },
+  {
+    "id": 126070212,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "What does it mean to 'face charges' in a legal context?",
+    "translation": "Hukuki bir bağlamda 'suçlamalarla yüzleşmek' ne anlama gelir?",
+    "context": "'Face charges' demek, bir suç işlediği iddiasıyla resmen itham edilmek, 'suçlamalarla karşılaşmak' demektir. Yani, 'mahkemeye çıkmak' ve yapılan iddialara karşı kendini savunmak zorunda kalmak. Bu, genellikle bir polis soruşturması sonrası olan bir durumdur. 'Gözaltına alınıp suçlamalarla yüzleşmek' gibi düşünebilirsin.",
+    "options": [
+      "to be formally accused of a crime",
+      "to pay a fine willingly",
+      "to win a legal case",
+      "to make a public statement"
+    ],
+    "correctAnswer": "to be formally accused of a crime",
+    "category": "MIXED",
+    "variations": []
   }
 ]
