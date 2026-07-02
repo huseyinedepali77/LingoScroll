@@ -710,7 +710,7 @@ fun ChunkMechanicView(
             modifier = Modifier.padding(bottom = 12.dp)
         )
 
-        // Birleştirilen Kelimeler
+        // Birleştirilen Kelimeler (FlowRow ile sığmayanlar alt satıra geçer)
         Box(
             modifier = Modifier
                 .fillMaxWidth()
@@ -720,14 +720,15 @@ fun ChunkMechanicView(
                 .padding(12.dp),
             contentAlignment = Alignment.CenterStart
         ) {
-            LazyRow(
+            FlowRow(
                 modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.spacedBy(6.dp),
-                verticalAlignment = Alignment.CenterVertically
+                horizontalArrangement = Arrangement.Start,
+                verticalArrangement = Arrangement.spacedBy(6.dp)
             ) {
-                items(state.clickedChunks) { chunk ->
+                state.clickedChunks.forEach { chunk ->
                     Box(
                         modifier = Modifier
+                            .padding(4.dp)
                             .background(SurvivalPrimary, RoundedCornerShape(8.dp))
                             .clickable { if (!state.isAnswerEvaluated) onClickChunk(chunk) }
                             .padding(horizontal = 12.dp, vertical = 6.dp)
@@ -737,7 +738,9 @@ fun ChunkMechanicView(
                             text = chunk,
                             color = Color.White,
                             fontWeight = FontWeight.Bold,
-                            fontSize = 14.sp
+                            fontSize = 14.sp,
+                            maxLines = 1,
+                            softWrap = false
                         )
                     }
                 }
