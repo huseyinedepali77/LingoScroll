@@ -3,227 +3,227 @@
     "id": 126070201,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "A small boy died of rabies after a _____ bit him.",
-    "translation": "Küçük bir çocuk, bir yarasa onu ısırdıktan sonra kuduzdan öldü.",
-    "context": "'Bat' dediğimiz yarasa, özellikle akşamları uçuşan, bazı kültürlerde korkulan ama ekosistem için çok önemli bir canlıdır. Haberlerdeki gibi bazen tehlikeli hastalıklar taşıyabilirler. Aman dikkat!",
+    "phrase": "A dangerous _____ is expected to hit the US.",
+    "translation": "Tehlikeli bir sıcak hava dalgasının ABD'yi vurması bekleniyor.",
+    "context": "'Heatwave' demek, hava sıcaklığının uzun bir süre boyunca ortalamanın çok üzerinde seyretmesi demek. Yani, 'Oh be, sonunda yaz geldi!' diye sevinirken, 'Bu ne sıcak böyle, eriyorum!' diye hayıflandığımız günler silsilesi! Özellikle tatil planları yaparken dikkatli olmalı, bol su içmeli ve serin yerlerde kalmalıyız. Yoksa tatilin tadı kaçabilir, aman dikkat!",
     "options": [
-      "cat",
-      "bat",
-      "dog",
-      "bird"
+      "heatwave",
+      "cold front",
+      "storm",
+      "mild breeze"
     ],
-    "correctAnswer": "bat",
-    "category": "CASUAL",
+    "correctAnswer": "heatwave",
+    "category": "TRAVEL",
     "variations": [
-      "Watch out for the bat flying above!",
-      "The bat flew quickly into the cave."
+      "The country is preparing for a major heatwave.",
+      "The heatwave made us stay indoors."
     ]
   },
   {
     "id": 126070202,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Tesla saw a massive _____ in the second quarter.",
-    "translation": "Tesla, ikinci çeyrekte büyük bir satış artışı yaşadı.",
-    "context": "'Sales jump' demek, satışların bir anda fırlaması, patlaması demek. Özellikle iş dünyasında, bir ürün çok popüler olduğunda ya da büyük bir kampanya yapıldığında 'sales jump' yaşanır ve patronlar bayram eder!",
+    "phrase": "The company's CFO is _____ as part of a shakeup.",
+    "translation": "Şirketin finans direktörü, bir yapılanma kapsamında görevden alındı.",
+    "context": "'Is out' ifadesi, birinin bir pozisyondan ayrıldığını veya görevden alındığını anlatmak için kullanılır. Pat diye söylersin, herkes anlar. Hani bazen bir sporcu takımdan ayrılır, 'He's out!' dersin ya, aynen öyle! İş dünyasında da özellikle üst düzey yöneticiler görevden alınınca bu ifade sıkça kullanılır. 'Shakeup' da bir şirkette köklü değişiklikler ve yeni atamalar olduğunda kullanılan havalı bir kelimedir.",
     "options": [
-      "sales run",
-      "sales fall",
-      "sales jump",
-      "sales drop"
+      "out",
+      "in",
+      "up",
+      "down"
     ],
-    "correctAnswer": "sales jump",
+    "correctAnswer": "out",
     "category": "BUSINESS",
     "variations": [
-      "The new phone caused a big sales jump.",
-      "We expect a sales jump next month."
+      "He is out of the team.",
+      "Our manager is out of the office today."
     ]
   },
   {
     "id": 126070203,
-    "type": "QUIZ_COMPLETION",
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "England experienced a historic _____ last month.",
-    "translation": "İngiltere geçen ay tarihi bir sıcak hava dalgası yaşadı.",
-    "context": "'Heatwave', yani 'sıcak hava dalgası', havanın günlerce ortalamanın çok üzerinde seyretmesi durumudur. Genellikle yazın görürüz ve herkes serinlemek için denizlere, havuzlara koşar. Aman sıcaklarda bol su içmeyi unutmayın!",
+    "phrase": "Which animal caused the boy's death?",
+    "translation": "Yarasa, çocuğun ölümüne sebep oldu.",
+    "context": "'Bat' tabii ki gece uçuşan, mağaralarda yaşayan o sevimli ama bazen tehlikeli hayvan. Haberlerdeki gibi, bazen yaramazlık yapıp insanları ısırabilirler ve kuduz gibi ciddi hastalıklar bulaştırabilirler. Genellikle yarasalar insanlardan uzak durur ama eğer bir yarasa size yaklaşırsa veya evinize girerse, kesinlikle dokunmamalı ve yetkililere haber vermelisiniz. Uçan memelilerin de kendi sınırları var, değil mi?",
     "options": [
-      "cold spell",
-      "snowstorm",
-      "heatwave",
-      "rainstorm"
+      "Dog",
+      "Cat",
+      "Bat",
+      "Bird"
     ],
-    "correctAnswer": "heatwave",
-    "category": "TRAVEL",
-    "variations": [
-      "A dangerous heatwave will hit the US.",
-      "The heatwave made everyone tired."
-    ]
+    "correctAnswer": "Bat",
+    "category": "CASUAL",
+    "variations": []
   },
   {
     "id": 126070204,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "A massive _____ on the city killed many people.",
-    "translation": "Şehre düzenlenen büyük bir saldırıda birçok insan hayatını kaybetti.",
-    "context": "'Attack' kelimesi, bir şeye veya birine yönelik şiddetli bir saldırıyı ifade eder. Haberlerde sıkça karşımıza çıkar ve genellikle kötü sonuçları olur. Keşke sadece bilgisayar oyunlarında kalsalar!",
+    "phrase": "Children were _____ from the Ohio home.",
+    "translation": "Çocuklar Ohio'daki evden kurtarıldı.",
+    "context": "'Rescued' kelimesi, birinin tehlikeli bir durumdan kurtarılması anlamına gelir. Hani filmlerde kahramanlar birilerini kurtarır ya, işte tam olarak o! Yangından, selden veya bu haberdeki gibi kötü koşullardan birini kurtardığınızda 'rescued' dersiniz. Bu kelimeyi duyunca içimiz bir nebze rahatlar çünkü birileri güvene alınmış demektir.",
     "options": [
-      "party",
-      "concert",
-      "attack",
-      "festival"
+      "rescued",
+      "lost",
+      "hidden",
+      "found"
     ],
-    "correctAnswer": "attack",
+    "correctAnswer": "rescued",
     "category": "MIXED",
     "variations": [
-      "The army launched a surprise attack.",
-      "They defended against the enemy attack."
+      "The climber was rescued from the mountain.",
+      "They rescued the dog from the river."
     ]
   },
   {
     "id": 126070205,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "'Yep, we're using OpenClaw to date now' cümlesindeki 'to date' ifadesi ne anlama gelir?",
-    "translation": "Flört etmek, biriyle çıkmak",
-    "context": "'To date' kelimesi İngilizcede birçok anlama gelebilir. Bir fiil olarak kullanıldığında, 'biriyle çıkmak', yani romantik bir ilişki başlatmak ya da flört etmek anlamına gelir. Haberdeki gibi yeni bir uygulama ile 'date' etmek, bayağı popüler oldu!",
+    "phrase": "The people smuggler was found _____ asylum in the UK.",
+    "translation": "İnsan kaçakçısı, Birleşik Krallık'ta iltica talebinde bulunurken yakalandı.",
+    "context": "'Seeking asylum' demek, bir ülkeye sığınma veya iltica talebinde bulunmak demektir. Yani, kendi ülkesinde tehlikede hisseden veya zulüm gören birinin başka bir ülkeden koruma istemesi durumu. Bu, genellikle zorlu bir süreçtir ve yasal başvurularla ilerler. Haberlerde genellikle zor durumdaki insanların hikayeleriyle birlikte karşımıza çıkar. Birinin sığınma arayışı içinde olduğunu anlatmak için kullanırız.",
     "options": [
-      "Çıkmak, flört etmek",
-      "Tarih belirlemek",
-      "Güncel tutmak",
-      "Veri girişi yapmak"
+      "seeking",
+      "finding",
+      "giving",
+      "losing"
     ],
-    "correctAnswer": "Çıkmak, flört etmek",
-    "category": "CASUAL",
-    "variations": []
+    "correctAnswer": "seeking",
+    "category": "TRAVEL",
+    "variations": [
+      "Many people are seeking asylum from war.",
+      "He's seeking asylum for political reasons."
+    ]
   },
   {
     "id": 126070206,
-    "type": "QUIZ_COMPLETION",
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Rivian raises EV sales _____ for the next quarter.",
-    "translation": "Rivian, bir sonraki çeyrek için elektrikli araç satış tahminlerini yükseltti.",
-    "context": "'Forecast' kelimesi, gelecek hakkında tahmin veya öngörüde bulunmak demektir. Hava durumunu tahmin edenlere 'weather forecast' denir, iş dünyasında ise satışları veya karı 'forecast' ederler. Geleceği bilmek gibisi yok, di mi?",
+    "phrase": "What kind of company did Microsoft launch?",
+    "translation": "Microsoft, yapay zeka dağıtım şirketi kurdu.",
+    "context": "'AI deployment company' tam olarak adı üstünde: yapay zeka (Artificial Intelligence) çözümlerini geliştiren ve bunları farklı sektörlerde, farklı şirketlerde hayata geçiren bir şirket. Yani, yapay zekayı sadece kodlayıp bırakmıyorlar, aynı zamanda onun gerçek dünyada nasıl kullanılacağını planlayıp uyguluyorlar. Microsoft'un bu büyük yatırımı, gelecekte yapay zekanın hayatımızın daha fazla alanına yayılacağının güçlü bir işareti!",
     "options": [
-      "past",
-      "history",
-      "forecast",
-      "review"
+      "A gaming company.",
+      "An AI deployment company.",
+      "A social media platform.",
+      "A hardware manufacturer."
     ],
-    "correctAnswer": "forecast",
+    "correctAnswer": "An AI deployment company.",
     "category": "BUSINESS",
-    "variations": [
-      "The economic forecast is positive.",
-      "Can you give me the sales forecast?"
-    ]
+    "variations": []
   },
   {
     "id": 126070207,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "A foreign ship got stuck in the narrow _____ of Hormuz.",
-    "translation": "Yabancı bir gemi Hürmüz Boğazı'nda sıkışıp kaldı.",
-    "context": "'Strait' (boğaz) kelimesi, iki büyük kara parçasını ayıran ve iki denizi veya okyanusu birbirine bağlayan dar bir su yoludur. Çanakkale ve İstanbul Boğazı da böyledir! Gemiler için önemli geçiş noktalarıdır ama bazen haberdeki gibi 'stuck' kalabilirler.",
+    "phrase": "The couple who scaled the building now _____ charges.",
+    "translation": "Binayı tırmanan çift şimdi suçlamalarla karşı karşıya.",
+    "context": "'Face charges' deyimi, birinin yasal suçlamalarla karşı karşıya kalması, hakkında dava açılması anlamına gelir. Hani olur ya, 'Hop, dur bakalım, bunun bir cezası var!' denilen durumlar. Empire State Binası'na tırmanmak gibi 'sıradışı' eylemlerin genellikle ciddi yasal sonuçları olur. Bu ifade, genellikle hukuki süreçlerde, bir eylemin sonuçlarını belirtmek için kullanılır.",
     "options": [
-      "ocean",
-      "river",
-      "strait",
-      "lake"
+      "face",
+      "escape",
+      "drop",
+      "avoid"
     ],
-    "correctAnswer": "strait",
-    "category": "TRAVEL",
+    "correctAnswer": "face",
+    "category": "CASUAL",
     "variations": [
-      "The ship sailed through the narrow strait.",
-      "They crossed the strait by ferry."
+      "He will face charges for theft.",
+      "They must face the consequences of their actions."
     ]
   },
   {
     "id": 126070208,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "'Couple who scaled Empire State Building' cümlesindeki 'scaled' fiili ne anlama gelir?",
-    "translation": "Tırmanmak",
-    "context": "'To scale' fiili, bir şeye tırmanmak, özellikle de yüksek bir şeye merdiven veya özel ekipman kullanarak çıkmak anlamına gelir. Haberlerdeki gibi bir binaya tırmananlar genellikle yasaları 'scale' etmeye çalışır ve başları belaya girer!",
-    "options": [
-      "Ölçeklendirmek",
-      "Tartmak",
-      "Tırmanmak",
-      "Derisini yüzmek"
-    ],
-    "correctAnswer": "Tırmanmak",
-    "category": "MIXED",
-    "variations": []
-  },
-  {
-    "id": 126070209,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Last month was the warmest June _____ in England.",
-    "translation": "Geçen ay İngiltere'de kaydedilen en sıcak Haziran ayıydı.",
-    "context": "'On record' ifadesi, bir şeyin kayıt altına alındığı tarihten bu yana en yüksek, en düşük, en sıcak vb. olduğunu belirtir. Yani, eldeki tüm verilere göre bir ilk yaşanmış demektir. Bilim insanları bu 'records'ları dikkatle takip eder!",
+    "level": "INTERMEDIATE",
+    "phrase": "The _____ attack on Kyiv killed many people.",
+    "translation": "Kiev'e yapılan büyük saldırı birçok insanı öldürdü.",
+    "context": "'Massive' kelimesi, bir şeyin çok büyük, devasa veya kapsamlı olduğunu ifade eder. Bir saldırı için kullanıldığında, çok yıkıcı ve geniş çaplı olduğu anlamına gelir. Hani bazen bir konserde 'massive crowd' (devasa kalabalık) dersin ya da büyük bir projeyi anlatırken 'massive project' dersin, işte aynen öyle! Bu kelime, bir olayın büyüklüğünü ve etkisini vurgulamak için sıkça kullanılır.",
     "options": [
-      "on paper",
-      "on the book",
-      "on record",
-      "on the list"
+      "massive",
+      "tiny",
+      "gentle",
+      "minor"
     ],
-    "correctAnswer": "on record",
-    "category": "CASUAL",
+    "correctAnswer": "massive",
+    "category": "MIXED",
     "variations": [
-      "It was the coldest winter on record.",
-      "This year's profits are the highest on record."
+      "There was a massive explosion.",
+      "The company made a massive investment."
     ]
   },
   {
-    "id": 126070210,
+    "id": 126070209,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "'Rivian raises EV sales forecast as Q2 production ramps up' cümlesindeki 'ramps up' ifadesi ne anlama gelir?",
-    "translation": "Artırmak, hızlandırmak",
-    "context": "'To ramp up' fiili, bir şeyin miktarını veya hızını artırmak, genellikle hızla ve önemli ölçüde yükseltmek anlamına gelir. Fabrikalar üretimlerini, şirketler hizmetlerini 'ramp up' yapabilir. Özellikle yeni ürün lansmanlarında sıkça duyarsın!",
+    "phrase": "What does 'on record' mean in 'warmest June on record'?",
+    "translation": "'Kayıtlara geçen en sıcak Haziran'daki 'on record' ne anlama geliyor?",
+    "context": "'On record' ifadesi, bir şeyin istatistiksel verilerin tutulmaya başlandığı zamandan beri en yüksek, en düşük, en uzun gibi bir 'rekor' kırdığını belirtir. Yani, bilinen tarihler içinde bu seviyede bir şey yaşanmadığını gösterir. İngiltere'nin bu yıl yaşadığı Haziran sıcağı, meteoroloji kayıtları tutulmaya başlandığından beri en sıcak Haziran'mış. Düşünsene, büyük büyük dedelerimizin bile böyle bir sıcak görmediği anlamına geliyor! Bu, iklim değişikliği gibi konuların ciddiyetini vurgulamak için kullanılır.",
     "options": [
-      "Düşürmek, yavaşlatmak",
-      "Durdurmak, bitirmek",
-      "Artırmak, hızlandırmak",
-      "Ayarlamak, dengelemek"
+      "For the current year only.",
+      "According to personal opinion.",
+      "Since data collection began.",
+      "Within the last decade."
     ],
-    "correctAnswer": "Artırmak, hızlandırmak",
-    "category": "BUSINESS",
+    "correctAnswer": "Since data collection began.",
+    "category": "TRAVEL",
     "variations": []
+  },
+  {
+    "id": 126070210,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The CEO decided on a leadership _____ to improve performance.",
+    "translation": "CEO, performansı artırmak için bir liderlik değişikliği yapmaya karar verdi.",
+    "context": "'Leadership shakeup' terimi, bir organizasyonun üst yönetiminde kapsamlı ve genellikle ani değişiklikler yapılmasını ifade eder. Yani, tepedeki koltuklar sallanıyor, bazıları değişiyor, yenileri geliyor. Genellikle şirketin performansını artırmak, yeni bir vizyon getirmek veya kötü giden şeyleri düzeltmek amacıyla yapılır. Lucid Motors'daki gibi durumlarda, yeni bir CEO'nun kendi ekibini kurması veya şirketin stratejisini değiştirmesiyle sıkça görülür. Kısacası, patronun 'sil baştan' deme şekli!",
+    "options": [
+      "shakeup",
+      "fix",
+      "calm",
+      "standstill"
+    ],
+    "correctAnswer": "shakeup",
+    "category": "BUSINESS",
+    "variations": [
+      "The company announced a major management shakeup.",
+      "A shakeup in the cabinet is expected soon."
+    ]
   },
   {
     "id": 126070211,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "A dangerous heatwave is expected to _____ the eastern US.",
-    "translation": "Tehlikeli bir sıcak hava dalgasının ABD'nin doğusunu kasıp kavurması bekleniyor.",
-    "context": "'To sweep across' ifadesi, bir şeyin (genellikle hava durumu, hastalık, moda gibi bir olgunun) hızlıca ve geniş bir alanı kaplaması, yayılması anlamına gelir. Rüzgarın süpürmesi gibi, bir anda her yeri etkisi altına alır. Aman dikkat!",
+    "phrase": "The court's decision _____ civil liberties.",
+    "translation": "Mahkemenin kararı sivil özgürlükleri zayıflattı.",
+    "context": "'Undermined' fiili, bir şeyin gücünü, etkinliğini veya temelini yavaşça ve sinsice zayıflatmak, baltalamak anlamına gelir. Hani bir binanın temeline gizlice zarar vermek gibi. Hukuki veya politik bağlamlarda kullanıldığında, mevcut hakların veya prensiplerin değerini düşürmek, altını oymak anlamında kullanılır. Yargıç Gorsuch'un 'civil liberties' (sivil özgürlükler) hakkındaki yorumları da tam olarak bu tür 'zayıflatıcı' kararlardan bahsediyor. Yani, 'göz göre göre bir şeyleri kaybetmek' gibi.",
     "options": [
-      "stand by",
-      "sweep across",
-      "hold up",
-      "move away"
+      "undermined",
+      "supported",
+      "strengthened",
+      "upheld"
     ],
-    "correctAnswer": "sweep across",
-    "category": "TRAVEL",
+    "correctAnswer": "undermined",
+    "category": "CASUAL",
     "variations": [
-      "The storm will sweep across the region.",
-      "New trends often sweep across the globe quickly."
+      "His continuous criticism undermined her confidence.",
+      "The scandal undermined public trust in the government."
     ]
   },
   {
     "id": 126070212,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "'Wrong Turns That Undermined Civil Liberties' başlığındaki 'undermined' fiili ne anlama gelir?",
-    "translation": "Zayıflatmak, baltalamak",
-    "context": "'To undermine' fiili, bir şeyin (otorite, güven, sistem vb.) temelini yavaş yavaş veya gizlice zayıflatmak, baltalamak veya yıkmak anlamına gelir. Sanki altından kum çekiyormuş gibi düşün. Genellikle kötü niyetli veya olumsuz bir eylemi anlatır.",
+    "phrase": "What does a 'record-breaking move' refer to in sports?",
+    "translation": "Sporda 'rekor kıran bir transfer' ne anlama geliyor?",
+    "context": "'Record-breaking move' ifadesi, özellikle spor transferlerinde kullanılır ve o güne kadar yapılmış en yüksek bonservis bedeliyle gerçekleşen transferi ifade eder. Yani, bir futbolcu için kulüpler arasında ödenen para, daha önceki tüm rekorları kırmış demektir. Anderson'ın Manchester City'e 116 milyon sterlinlik transferi de tam olarak böyle bir 'rekor kıran' anlaşma. Bu tür transferler genellikle hem oyuncunun değerini hem de kulübün finansal gücünü gösterir. Fanlar için heyecan verici, kulüp yöneticileri içinse bazen baş ağrıtıcı olabilir!",
     "options": [
-      "Güçlendirmek, desteklemek",
-      "Yeniden inşa etmek",
-      "Zayıflatmak, baltalamak",
-      "Korumak, savunmak"
+      "A player breaking a scoring record.",
+      "The highest transfer fee ever paid for a player.",
+      "A team moving to a new stadium.",
+      "A new player joining a team for free."
     ],
-    "correctAnswer": "Zayıflatmak, baltalamak",
+    "correctAnswer": "The highest transfer fee ever paid for a player.",
     "category": "MIXED",
     "variations": []
   }
