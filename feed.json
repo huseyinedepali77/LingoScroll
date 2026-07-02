@@ -3,16 +3,16 @@
     "id": 126070201,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "Which animal is known to carry rabies and can fly?",
-    "translation": "Kuduz taşıdığı bilinen ve uçabilen hayvan hangisidir?",
-    "context": "'Bat' (yarasa), gece uçuşan, meyve veya böcek yiyen ilginç bir memeli. Ama dikkat! Haberlerde de gördüğün gibi, bazen kuduz taşıyabiliyorlar. Bir gece yatakta uyurken aniden yüzünde bir yarasa uyanmak istemezsin, değil mi? Hayvanlara yaklaşırken her zaman temkinli ol!",
+    "phrase": "Uyurken yüzünüze konan bir _____ türü hayvan, eğer kuduz taşıyorsa tehlikeli olabilir.",
+    "translation": "Yarasa",
+    "context": "Biliyorum, rüyaların en kötüsü! 'Bat' aslında yarasa demek. Bu küçük uçan memeliler genellikle gece ortaya çıkar ve bazen pek de masum olmayan sürprizler yaşatabilir. Haberlerdeki çocuk için üzücü bir durum, o yüzden ormanlık alanlarda dikkatli olmakta fayda var.",
     "options": [
-      "bat",
-      "dog",
-      "cat",
-      "bird"
+      "Spider",
+      "Bat",
+      "Snake",
+      "Mouse"
     ],
-    "correctAnswer": "bat",
+    "correctAnswer": "Bat",
     "category": "CASUAL",
     "variations": []
   },
@@ -20,130 +20,130 @@
     "id": 126070202,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The player will _____ to a new team next season.",
-    "translation": "Oyuncu gelecek sezon yeni bir takıma geçecek.",
-    "context": "'Move', hareket etmek, taşınmak anlamına gelir. Futbolda veya herhangi bir işte takım/şirket değiştirdiğinde 'move to a new team/company' dersin. Yani, 'Yeni bir eve mi taşındın?' demek için 'Did you move to a new house?' diyebilirsin. Hayat bazen sürekli bir 'move' hali!",
+    "phrase": "He decided to _____ his money on a new AI project.",
+    "translation": "Parasını riske atmak, bahse girmek",
+    "context": "'Bet' kelimesi, bir şeye para yatırmak veya riske atmak anlamına gelir. Kumarhanede de kullanırsın, iş dünyasında da. Hintli milyarder gibi, bazen büyük bir risk alıp 'bet' yaparak büyük kazanabilirsin. Ama dikkatli ol, her zaman kazanan sen olmayabilirsin!",
     "options": [
-      "move",
-      "stay",
-      "play",
-      "sign"
+      "invest",
+      "lose",
+      "bet",
+      "save"
     ],
-    "correctAnswer": "move",
+    "correctAnswer": "bet",
     "category": "BUSINESS",
     "variations": [
-      "He decided to move to another city.",
-      "I need to move my car from here."
+      "I'll bet you ten dollars it rains today.",
+      "He made a huge bet on the horse race."
     ]
   },
   {
     "id": 126070203,
-    "type": "QUIZ_COMPLETION",
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "We are expecting a big _____ this week. Stay cool!",
-    "translation": "Bu hafta büyük bir sıcak hava dalgası bekliyoruz. Serin kalın!",
-    "context": "'Heatwave' (sıcak hava dalgası), özellikle yaz aylarında havanın günlerce normalden çok daha sıcak olması durumudur. Bu dönemlerde dışarı çıkarken şapka tak, su içmeyi unutma ve mümkünse serin yerlerde kal. 'Heatwave' uyarısı varsa, planlarını değiştirmek iyi bir fikir olabilir!",
+    "phrase": "İngiltere'de kaydedilen en sıcak Haziran ayına neden olan hava olayının adı nedir?",
+    "translation": "Sıcak hava dalgası",
+    "context": "'Heatwave', yani 'sıcak hava dalgası', havanın günlerce ortalamadan çok daha sıcak olduğu dönemlere denir. Özellikle yaz aylarında bunaltıcı olabilir. İngiltere'yi bile kavurmuş, düşünün! Yanında hep su bulundurmayı unutma.",
     "options": [
-      "heatwave",
-      "cold front",
-      "rainstorm",
-      "snowfall"
+      "Snowstorm",
+      "Rainfall",
+      "Heatwave",
+      "Hurricane"
     ],
-    "correctAnswer": "heatwave",
+    "correctAnswer": "Heatwave",
     "category": "TRAVEL",
-    "variations": [
-      "The country is currently experiencing a severe heatwave.",
-      "The heatwave is causing forest fires."
-    ]
+    "variations": []
   },
   {
     "id": 126070204,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "Apple is preparing for the new product ____.",
-    "translation": "Apple yeni ürünün piyasaya sürülmesi için hazırlanıyor.",
-    "context": "'Release' (piyasaya sürmek, çıkarmak) teknoloji dünyasında yeni bir ürünün, filmin ya da albümün piyasaya çıkması anlamına gelir. Yeni bir iPhone veya favori grubunun yeni şarkısı çıktığında 'The new album was released today!' diyebilirsin. Beklentiler tavan yapar, değil mi?",
-    "options": [
-      "release",
-      "delay",
-      "recall",
-      "sale"
-    ],
-    "correctAnswer": "release",
-    "category": "MIXED",
-    "variations": []
-  },
-  {
-    "id": 126070205,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Many people seek _____ in other countries due to war.",
-    "translation": "Birçok insan savaş nedeniyle başka ülkelerde sığınma arar.",
-    "context": "'Asylum' (sığınma), bir ülkenin, zulümden veya savaştan kaçan kişilere koruma sağlamasıdır. Bu, onların yeni bir ülkede güvende ve özgürce yaşama şansı bulmaları demek. Bazen insanlar, korkunç durumlardan kaçmak için çok uzun ve tehlikeli yollar kat ederler.",
+    "level": "BEGINNER",
+    "phrase": "The football player decided to _____ to a new club.",
+    "translation": "Başka bir takıma transfer olmak",
+    "context": "Spora meraklıysan bu kelimeye aşinasındır! Bir futbolcunun bir takımdan başka bir takıma geçmesine 'move' denir. Yani, iş değiştirir gibi. Futbolda transfer dönemleri hep heyecanlı olur, bakalım kim nereye 'move' edecek!",
     "options": [
-      "asylum",
-      "vacation",
-      "residence",
-      "passport"
+      "jump",
+      "stay",
+      "move",
+      "run"
     ],
-    "correctAnswer": "asylum",
-    "category": "TRAVEL",
+    "correctAnswer": "move",
+    "category": "MIXED",
     "variations": [
-      "She applied for political asylum in Canada.",
-      "Seeking asylum is a human right."
+      "He made a good career move last year.",
+      "Are you planning to move to another city soon?"
     ]
   },
   {
-    "id": 126070206,
+    "id": 126070205,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "The company's stock price _____ after the positive news.",
-    "translation": "Olumlu haberlerin ardından şirketin hisse senedi fiyatı fırladı.",
-    "context": "'Surge' (ani yükseliş, fırlama), genellikle piyasa değerleri, fiyatlar veya kalabalıklar gibi şeylerin hızla ve aniden artması durumudur. Bir şirketin hisseleri aniden fırladığında ya da bir konsere biletler bir anda tükendiğinde 'surge' kelimesini kullanabilirsin. Adeta bir dalga gibi yükselir!",
+    "phrase": "Empire State Binası'na tırmanarak pankart açan çift hakkında hangi fiil kullanılmıştır?",
+    "translation": "Tırmanmak, ölçeklendirmek",
+    "context": "'Scale', bir şeye tırmanmak, yükselmek anlamına gelir. Özellikle büyük ve zorlu bir yapıyı tırmanırken kullanılır. O çift gibi, bazen dikkat çekmek için yüksek yerleri 'scale' etmeye çalışabilirsin, ama unutma, cezası ağır olabilir!",
     "options": [
-      "surged",
-      "dropped",
-      "stalled",
-      "collapsed"
+      "Jumped",
+      "Fell",
+      "Scaled",
+      "Walked"
     ],
-    "correctAnswer": "surged",
-    "category": "BUSINESS",
+    "correctAnswer": "Scaled",
+    "category": "CASUAL",
     "variations": []
+  },
+  {
+    "id": 126070206,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The company's stock price will _____ after the good news.",
+    "translation": "Hızla artmak, fırlamak",
+    "context": "Bir şirketin hisse senedi fiyatı ya da satışları aniden ve hızlıca yükseldiğinde 'surge' kelimesini kullanırız. Bending Spoons gibi, bazen piyasa kötü gitse bile, doğru stratejilerle 'surge' yapmak mümkün! İşte buna piyango derler.",
+    "options": [
+      "decrease",
+      "plateau",
+      "surge",
+      "decline"
+    ],
+    "correctAnswer": "surge",
+    "category": "BUSINESS",
+    "variations": [
+      "There was a sudden surge in demand for the product.",
+      "Electricity surged through the wires."
+    ]
   },
   {
     "id": 126070207,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The climbers managed to _____ the difficult mountain.",
-    "translation": "Dağcılar zorlu dağı tırmanmayı başardılar.",
-    "context": "'Scale' (tırmanmak, ölçeklendirmek), burada bir şeye tırmanmak anlamında kullanılmış. Haberlerde Empire State Binası'na tırmanan çift gibi, zorlu bir engeli aşmak veya bir yüksekliğe çıkmak için 'scale' diyebiliriz. Ama yasa dışı tırmanışlar, 'Don't try this at home!' kategorisinde.",
+    "phrase": "The ship was stuck in the narrow _____ of Hormuz.",
+    "translation": "Boğaz, dar geçit",
+    "context": "'Strait', iki büyük su kütlesini birbirine bağlayan dar su geçidine denir, yani boğaz. Boğazlar genellikle stratejik öneme sahiptir. Haberlerdeki gibi, bazen gemiler buralarda 'stuck' kalabilir. Seyahat ederken coğrafya bilgini konuştur!",
     "options": [
-      "scale",
-      "descend",
-      "avoid",
-      "pass"
+      "ocean",
+      "lake",
+      "strait",
+      "river"
     ],
-    "correctAnswer": "scale",
-    "category": "CASUAL",
+    "correctAnswer": "strait",
+    "category": "TRAVEL",
     "variations": [
-      "They scaled the wall to escape.",
-      "The company is trying to scale up its operations."
+      "The Strait of Gibraltar connects the Atlantic and Mediterranean.",
+      "Navigating a narrow strait requires skill."
     ]
   },
   {
     "id": 126070208,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "What is the term for a major international motor race?",
-    "translation": "Büyük bir uluslararası motor yarışı için kullanılan terim nedir?",
-    "context": "'Grand Prix' (Büyük Ödül), Formula 1 gibi büyük motor sporları yarışlarına verilen genel isimdir. Bu yarışlar, genellikle büyük bir heyecan fırtınası estirir ve dünya genelinde milyonlarca insan tarafından izlenir. Arabaların Lego versiyonlarını görmüş olmak ise bu heyecana komik bir tat katıyor, değil mi?",
+    "phrase": "Bir ülkenin siyasi sığınma talebinde bulunan kişilere sağladığı korumanın adı nedir?",
+    "translation": "Sığınma, iltica",
+    "context": "'Asylum', bir ülkenin, kendi ülkesinde zulüm gören veya tehlikede olan kişilere sağladığı resmi korumadır. Haberdeki 'smuggler' bile bunu aramış! Yani, yeni bir hayat kurmak için güvenli bir liman arayışı gibi düşünebilirsin.",
     "options": [
-      "Grand Prix",
-      "Marathon",
-      "Sprint",
-      "Rally"
+      "Visa",
+      "Citizenship",
+      "Asylum",
+      "Permit"
     ],
-    "correctAnswer": "Grand Prix",
+    "correctAnswer": "Asylum",
     "category": "MIXED",
     "variations": []
   },
@@ -151,36 +151,36 @@
     "id": 126070209,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The city skyline was dominated by several shining _____.",
-    "translation": "Şehir silüeti, birkaç parlayan gökdelenle çevriliydi.",
-    "context": "'Skyscraper' (gökdelen), devasa yüksek binalara denir. New York, Dubai gibi büyük şehirlerin simgesidirler ve bulutlara kadar uzanırlar. Bir gün bu dev binaların tepesinden şehri izlemek istersen, mutlaka bir 'skyscraper'ın gözlem katına çıkmalısın. Manzara nefes kesici olur!",
+    "phrase": "The pilot crashed his plane into a tall _____.",
+    "translation": "Gökdelen",
+    "context": "'Skyscraper', adı üstünde 'gök-delen', yani bulutlara kadar yükselen çok katlı binalara denir. New York, Dubai gibi şehirlerin simgeleridir. Uçakların çarptığı haberleri ise maalesef her zaman şok edici olur.",
     "options": [
-      "skyscrapers",
-      "bungalows",
-      "cottages",
-      "shacks"
+      "house",
+      "hut",
+      "skyscraper",
+      "shed"
     ],
-    "correctAnswer": "skyscrapers",
-    "category": "TRAVEL",
+    "correctAnswer": "skyscraper",
+    "category": "CASUAL",
     "variations": [
-      "Modern cities are often filled with towering skyscrapers.",
-      "Architects compete to design the tallest skyscraper."
+      "New York City is famous for its iconic skyscrapers.",
+      "Building a new skyscraper takes many years."
     ]
   },
   {
     "id": 126070210,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "What is a wealthy and powerful business person, especially in one industry, called?",
-    "translation": "Özellikle bir sektörde, varlıklı ve güçlü bir iş insanına ne ad verilir?",
-    "context": "'Tycoon' (kodaman, iş devi), genellikle çok varlıklı ve kendi işinde büyük etkiye sahip bir iş insanını tanımlar. Teknoloji, medya veya emlak gibi sektörlerde kendi imparatorluklarını kurmuş kişiler için kullanılır. 'Tech tycoon' kelimesini duyduğunda, aklına Elon Musk veya Bill Gates gibi isimler gelebilir! Onlar sektörlerinin kralları gibi.",
+    "phrase": "Bir şeyi mümkün olan en düşük seviyeye indirmek veya azaltmak fiili nedir?",
+    "translation": "En aza indirmek",
+    "context": "'Minimize', bir şeyi en düşük seviyeye indirmek veya etkisini azaltmak demektir. İş dünyasında riskleri 'minimize' etmek çok önemlidir. Şansını 'minimize' ederek başarıya ulaşan kurucu gibi, kontrol edebildiğin şeylere odaklanmak her zaman daha iyidir.",
     "options": [
-      "Tycoon",
-      "Intern",
-      "Clerk",
-      "Apprentice"
+      "Maximize",
+      "Optimize",
+      "Eliminate",
+      "Minimize"
     ],
-    "correctAnswer": "Tycoon",
+    "correctAnswer": "Minimize",
     "category": "BUSINESS",
     "variations": []
   },
@@ -188,36 +188,36 @@
     "id": 126070211,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "His previous research was largely _____ after new evidence emerged.",
-    "translation": "Önceki araştırması, yeni kanıtlar ortaya çıktıktan sonra büyük ölçüde gözden düştü.",
-    "context": "'Discredited' (itibarsızlaştırılmış, gözden düşmüş), bir fikrin, politikanın veya kişinin güvenilirliğinin veya geçerliliğinin sorgulanması ve hatta ortadan kaldırılması anlamına gelir. Bir teori çürütüldüğünde veya bir politika işe yaramadığı kanıtlandığında, 'discredited' hale gelir. Yani, 'Artık kimse ona inanmıyor!' demek gibi.",
+    "phrase": "The storm is expected to _____ the entire region quickly.",
+    "translation": "Hızla yayılmak, tüm alanı kaplamak",
+    "context": "'Sweep across', bir şeyin (genellikle bir olay, hava durumu gibi) hızla ve geniş bir alana yayılması anlamına gelir. Haberlerdeki gibi sıcak hava dalgaları da 'sweep across' ederek tüm bölgeyi etkileyebilir. Hazırlıklı olmakta fayda var!",
     "options": [
-      "discredited",
-      "confirmed",
-      "supported",
-      "validated"
+      "stay in",
+      "sweep across",
+      "stop at",
+      "retreat from"
     ],
-    "correctAnswer": "discredited",
-    "category": "CASUAL",
+    "correctAnswer": "sweep across",
+    "category": "TRAVEL",
     "variations": [
-      "The witness's testimony was discredited by the defense lawyer.",
-      "The old medical remedies have been largely discredited."
+      "A new trend is sweeping across the nation.",
+      "The forest fire swept across the dry fields."
     ]
   },
   {
     "id": 126070212,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Which natural disaster is characterized by a prolonged period of abnormally low rainfall?",
-    "translation": "Anormal derecede düşük yağışın uzun bir süre devam etmesiyle karakterize olan doğal afet hangisidir?",
-    "context": "'Drought' (kuraklık), uzun süreli yağışsızlık nedeniyle su kaynaklarının tükenmesi ve ciddi su kıtlığı yaşanması durumudur. Çiftçiler için en büyük kabuslardan biridir çünkü ekinler kurur ve hayvanlar susuz kalır. İklim değişikliğiyle birlikte, bu tür haberleri daha sık duyuyoruz. Su israf etmeyelim!",
+    "phrase": "Hukuki olarak bir suçla itham edilmek anlamına gelen ifade nedir?",
+    "translation": "Suçlamalarla yüzleşmek, itham edilmek",
+    "context": "'Face charges', bir suçla itham edilmek, yani hakkında dava açılması demektir. Empire State Binası'na tırmanan çift gibi, bazen yaptığın şeylerin ciddi sonuçları olabilir ve 'charges' ile yüzleşmek zorunda kalırsın. Yasalara uymak önemli!",
     "options": [
-      "Drought",
-      "Flood",
-      "Earthquake",
-      "Tornado"
+      "Pay fines",
+      "Avoid trouble",
+      "Face charges",
+      "Get warnings"
     ],
-    "correctAnswer": "Drought",
+    "correctAnswer": "Face charges",
     "category": "MIXED",
     "variations": []
   }
