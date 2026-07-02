@@ -31,6 +31,7 @@ import com.example.lingoscroll.theme.*
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import kotlin.OptIn
+import kotlinx.coroutines.delay
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.foundation.text.BasicTextField
@@ -589,9 +590,14 @@ fun SkeletonMechanicView(
 
     val focusRequester = remember { FocusRequester() }
     
-    // Soru değiştiğinde klavyeyi otomatik odakla
+    // Soru değiştiğinde klavyeyi otomatik odakla (Gecikmeli ve try-catch korumalı)
     LaunchedEffect(state.currentItem.id) {
-        focusRequester.requestFocus()
+        delay(100L)
+        try {
+            focusRequester.requestFocus()
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
     }
 
     val haptic = LocalHapticFeedback.current
@@ -610,17 +616,23 @@ fun SkeletonMechanicView(
     Column(
         modifier = Modifier
             .fillMaxWidth()
-            .clickable { focusRequester.requestFocus() } // Tıklandığında klavyeyi aç/odakla
+            .clickable { 
+                try {
+                    focusRequester.requestFocus()
+                } catch (e: Exception) {
+                    e.printStackTrace()
+                }
+            } // Tıklandığında klavyeyi aç/odakla
             .padding(8.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        // Görünmez Klavye Giriş Alanı (Hayalet Klavye)
+        // Görünmez Klavye Giriş Alanı (Hayalet Klavye) - Genişlik ve yükseklik 1.dp yapılarak çökme engellendi
         BasicTextField(
             value = state.userInput,
             onValueChange = onInputChange,
             modifier = Modifier
                 .focusRequester(focusRequester)
-                .size(0.dp)
+                .size(1.dp)
                 .alpha(0f),
             enabled = !state.isAnswerEvaluated
         )
