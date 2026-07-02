@@ -1533,6 +1533,13 @@ fun RedCodeSurvivalScreen(
         }
     }
 
+    LaunchedEffect(state.showSummary) {
+        if (state.showSummary) {
+            focusManager.clearFocus()
+            keyboardController?.hide()
+        }
+    }
+
     Box(
         modifier = Modifier
             .fillMaxSize()

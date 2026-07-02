@@ -21,7 +21,9 @@ class FirebaseLeaderboardRepository : LeaderboardRepository {
 
     override suspend fun submitScore(entry: LeaderboardEntry): Boolean {
         return try {
-            database.child(entry.uid).setValue(entry).await()
+            kotlinx.coroutines.withTimeout(5000L) {
+                database.child(entry.uid).setValue(entry).await()
+            }
             true
         } catch (e: Exception) {
             false
@@ -30,17 +32,19 @@ class FirebaseLeaderboardRepository : LeaderboardRepository {
 
     override suspend fun getTopScores(limit: Int): List<LeaderboardEntry> {
         return try {
-            val snapshot = database.orderByChild("score").limitToLast(limit).get().await()
-            val entries = mutableListOf<LeaderboardEntry>()
-            for (child in snapshot.children) {
-                val entry = child.getValue(LeaderboardEntry::class.java)
-                if (entry != null) {
-                    entries.add(entry)
+            kotlinx.coroutines.withTimeout(5000L) {
+                val snapshot = database.orderByChild("score").limitToLast(limit).get().await()
+                val entries = mutableListOf<LeaderboardEntry>()
+                for (child in snapshot.children) {
+                    val entry = child.getValue(LeaderboardEntry::class.java)
+                    if (entry != null) {
+                        entries.add(entry)
+                    }
                 }
+                // Realtime Database outputs ascending order, we reverse it to display descending (highest score first)
+                entries.reverse()
+                entries
             }
-            // Realtime Database outputs ascending order, we reverse it to display descending (highest score first)
-            entries.reverse()
-            entries
         } catch (e: Exception) {
             emptyList()
         }
