@@ -23,7 +23,7 @@ class SyncWorker(
         Log.d("SyncWorker", "Arka plan senkronizasyonu başlatıldı (Wi-Fi)")
         
         return try {
-            val urlString = "https://raw.githubusercontent.com/mock-repo/lingoscroll-data/main/survival_cards.json"
+            val urlString = "https://raw.githubusercontent.com/huseyinedepali77/LingoScroll/main/app/src/main/assets/survival_questions.json"
             val newCards = fetchWordsFromServer(urlString)
             
             val db = AppDatabase.getDatabase(applicationContext, CoroutineScope(Dispatchers.IO))
@@ -66,6 +66,15 @@ class SyncWorker(
                 val jsonArray = JSONArray(response.toString())
                 for (i in 0 until jsonArray.length()) {
                     val obj = jsonArray.getJSONObject(i)
+                    
+                    val optionsArray = obj.optJSONArray("options")
+                    val optionsList = mutableListOf<String>()
+                    if (optionsArray != null) {
+                        for (j in 0 until optionsArray.length()) {
+                            optionsList.add(optionsArray.getString(j))
+                        }
+                    }
+                    
                     cardsList.add(
                         SurvivalCard(
                             id = obj.getInt("id"),
@@ -73,7 +82,7 @@ class SyncWorker(
                             mechanicType = obj.getString("mechanicType"),
                             scenarioTr = obj.getString("scenarioTr"),
                             targetEn = obj.getString("targetEn"),
-                            optionsRaw = obj.optString("optionsRaw", ""),
+                            optionsRaw = optionsList.joinToString("|"),
                             difficulty = obj.optInt("difficulty", 3),
                             nextReviewDate = 0L
                         )

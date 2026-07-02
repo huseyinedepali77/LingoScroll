@@ -173,7 +173,7 @@ class PreferencesManager(context: Context) {
 
     // Özel Akış URL'si (Senkronizasyon Bağlantısı)
     fun getCustomFeedUrl(): String {
-        return prefs.getString("custom_feed_url", "https://raw.githubusercontent.com/huseyinedepali77/LingoScroll/main/feed.json") ?: "https://raw.githubusercontent.com/huseyinedepali77/LingoScroll/main/feed.json"
+        return prefs.getString("custom_feed_url", "https://raw.githubusercontent.com/huseyinedepali77/LingoScroll/main/app/src/main/assets/survival_questions.json") ?: "https://raw.githubusercontent.com/huseyinedepali77/LingoScroll/main/app/src/main/assets/survival_questions.json"
     }
 
     fun setCustomFeedUrl(url: String) {

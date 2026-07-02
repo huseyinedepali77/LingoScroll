@@ -163,6 +163,12 @@ class MainScreenViewModel(context: Context) : ViewModel() {
             prefs.setSavedBuildTime(currentBuildTime)
         }
 
+        // Eski feed.json senkronizasyon adresini yeni assets/survival_questions.json adresi ile değiştir
+        val currentFeedUrl = prefs.getCustomFeedUrl()
+        if (currentFeedUrl.contains("feed.json")) {
+            prefs.setCustomFeedUrl("https://raw.githubusercontent.com/huseyinedepali77/LingoScroll/main/app/src/main/assets/survival_questions.json")
+        }
+
         tts.setSpeechRate(prefs.getTtsSpeechRate())
         triggerForegroundSync()
         scheduleBackgroundSync(context)
