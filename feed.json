@@ -3,128 +3,131 @@
     "id": 126070201,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The boy died of _____ after a bat bit him.",
-    "translation": "Çocuk, bir yarasa ısırmasından sonra kuduzdan öldü.",
-    "context": "Kuduz (rabies), genellikle hayvan ısırıklarıyla bulaşan, tehlikeli bir hastalık. Özellikle yarasa gibi vahşi hayvanlarla temasta dikkatli olmak lazım. 'Get a rabies shot' dediğinde, kuduz aşısı olman gerektiğini anlarsın. Umarım hiç denk gelmezsin!",
+    "phrase": "Tesla saw a massive _____ jump last quarter.",
+    "translation": "Satışlar",
+    "context": "'Sales' kelimesi, bir şirketin ürün veya hizmetlerinin satışı anlamına gelir. Tesla'nın 'sales jump' yapması, satışlarının birdenbire çok artması demek. Yani kasa doldu, patron mutlu!",
     "options": [
-      "rabies",
-      "flu",
-      "fever",
-      "allergy"
+      "sales",
+      "profit",
+      "price",
+      "stock"
     ],
-    "correctAnswer": "rabies",
-    "category": "CASUAL",
+    "correctAnswer": "sales",
+    "category": "BUSINESS",
     "variations": [
-      "He got sick with _____ after touching the stray dog.",
-      "A quick _____ diagnosis saved his life."
+      "The new product helped boost company sales.",
+      "Our team needs to improve sales figures quickly."
     ]
   },
   {
     "id": 126070202,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Rivian's EV sales _____ shows growth in Q2. (What is the best word to complete the sentence?)",
-    "translation": "Rivian'ın elektrikli araç satış tahmini, 2. çeyrekte büyüme olduğunu gösteriyor.",
-    "context": "İş dünyasında 'forecast' kelimesini sıkça duyarsın. Bir şirketin gelecek satışlarını, kârını veya ekonomik durumu tahmin ettiğinde bu kelimeyi kullanırsın. 'The weather forecast' ise hava tahmini demek. Yani kısaca, ne olacağını öngörmek!",
+    "phrase": "The boy died of _____ after a bat bite.",
+    "translation": "Kuduz",
+    "context": "'Rabies' (kuduz), hayvanlardan insanlara bulaşan çok tehlikeli bir hastalık. Genellikle ısırma yoluyla geçer ve hemen tedavi edilmezse ölümcül olabilir. Yani, yarasaya dikkat!",
     "options": [
-      "forecast",
-      "problem",
-      "solution",
-      "report"
+      "rabies",
+      "allergy",
+      "flu",
+      "fever"
     ],
-    "correctAnswer": "forecast",
-    "category": "BUSINESS",
-    "variations": []
+    "correctAnswer": "rabies",
+    "category": "CASUAL",
+    "variations": [
+      "Dogs can carry rabies if not vaccinated.",
+      "A vaccine can prevent rabies if given soon."
+    ]
   },
   {
     "id": 126070203,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
     "phrase": "A dangerous _____ will hit the US this weekend.",
-    "translation": "Bu hafta sonu ABD'yi tehlikeli bir sıcak hava dalgası vuracak.",
-    "context": "Yaz aylarında sıcaklıklar tavan yaptığında 'heatwave' diye bağırmaya başlarız! Bu, aşırı sıcakların olduğu ve birkaç gün süren bir dönem demek. 'Stay hydrated during the heatwave!' dersen, sıcak hava dalgasında bol su içmeyi hatırlatmış olursun. Havuz kenarı seni bekler!",
+    "translation": "Sıcak hava dalgası",
+    "context": "'Heatwave', yani 'sıcak hava dalgası', birkaç gün veya daha uzun süren aşırı sıcak havalar için kullanılır. Yazın tatil planı yaparken hava durumunu kontrol etmek şart!",
     "options": [
-      "storm",
       "heatwave",
-      "rain",
-      "blizzard"
+      "blizzard",
+      "downpour",
+      "earthquake"
     ],
     "correctAnswer": "heatwave",
     "category": "TRAVEL",
     "variations": [
-      "Europe is experiencing a record-breaking _____.",
-      "Remember to protect yourself from the _____."
+      "We are experiencing a prolonged heatwave.",
+      "The heatwave is making outdoor activities difficult."
     ]
   },
   {
     "id": 126070204,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Which event is the British _____?",
-    "translation": "İngiliz Grand Prix'si hangi etkinliktir?",
-    "context": "'GP' kısaltması genellikle motor sporlarında, özellikle Formula 1'de karşına çıkar. 'Grand Prix' anlamına gelir ve bir yarış haftasını ifade eder. 'British GP' dediğinde, İngiltere'deki büyük Formula 1 yarışını kastedersin. Arabalar hızla yanından geçerken 'What a thrilling GP!' diyebilirsin.",
+    "phrase": "Anderson's £116m move to Man City was a record _____",
+    "translation": "Transfer",
+    "context": "Futbolda 'transfer', bir oyuncunun bir kulüpten diğerine geçmesi işlemine denir. Milyonlarca sterlinlik transferler, taraftarlar için heyecan verici bir gelişmedir!",
     "options": [
-      "Grand Prix",
-      "General Practice",
-      "Great Party",
-      "Global Problem"
+      "transfer",
+      "goal",
+      "victory",
+      "stadium"
     ],
-    "correctAnswer": "Grand Prix",
-    "category": "MIXED",
-    "variations": []
+    "correctAnswer": "transfer",
+    "category": "BUSINESS",
+    "variations": [
+      "The player requested a transfer to a bigger club.",
+      "Many transfers happen during the summer window."
+    ]
   },
   {
     "id": 126070205,
-    "type": "QUIZ_COMPLETION",
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "The couple tried to _____ the Empire State Building.",
-    "translation": "Çift, Empire State Binası'na tırmanmaya çalıştı.",
-    "context": "'Scale' kelimesinin birçok anlamı var, ama burada 'tırmanmak' demek! Özellikle büyük ve yüksek bir şeye, bir dağa, bir duvara veya bir gökdelene tırmanmak için kullanılır. 'He scaled the mountain in three hours.' dediğinde, dağa üç saatte tırmandığını anlatırsın. Sakın yüksek binalara tırmanmayı deneme, çok tehlikeli!",
+    "phrase": "Which word means 'to invest a large amount of money in something, often with risk'?",
+    "translation": "Büyük miktarda para yatırmak veya risk almak",
+    "context": "'Bet' kelimesi normalde iddia etmek veya bahse girmek anlamına gelirken, iş dünyasında bir projeye veya girişime risk alarak büyük yatırım yapmak için de kullanılır. Bu, bir şirketin geleceğine 'bahis oynamak' gibidir.",
     "options": [
-      "scale",
-      "jump",
-      "paint",
-      "fly"
+      "claim",
+      "bet",
+      "owe",
+      "lend"
     ],
-    "correctAnswer": "scale",
-    "category": "CASUAL",
-    "variations": [
-      "Mountain climbers often _____ difficult peaks.",
-      "It's illegal to _____ a public monument."
-    ]
+    "correctAnswer": "bet",
+    "category": "BUSINESS",
+    "variations": []
   },
   {
     "id": 126070206,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "An Indian tech _____ bets big on AI.",
-    "translation": "Bir Hint teknoloji patronu yapay zekaya büyük yatırım yapıyor.",
-    "context": "'Tycoon' kelimesi, iş dünyasında çok güçlü, zengin ve başarılı kişiler için kullanılır. Genellikle kendi sektörlerinde imparatorluk kurmuş, büyük işadamları veya işkadınları için kullanılır. 'A real estate tycoon' dediğinde, emlak sektörünün dev isimlerinden birini kastetmiş olursun. Belki sen de bir gün bir 'tech tycoon' olursun, kim bilir!",
+    "phrase": "The couple was charged after they _____ the Empire State Building.",
+    "translation": "Tırmandılar",
+    "context": "'Scale' kelimesi tırmanmak, özellikle yüksek bir şeye merdiven veya halat kullanmadan zorlu bir şekilde tırmanmak anlamına gelir. Empire State Binası'nı 'scale' etmek bayağı havalı ama bir o kadar da yasa dışı bir hareket!",
     "options": [
-      "tycoon",
-      "intern",
-      "assistant",
-      "seller"
+      "scaled",
+      "painted",
+      "entered",
+      "flew"
     ],
-    "correctAnswer": "tycoon",
-    "category": "BUSINESS",
+    "correctAnswer": "scaled",
+    "category": "CASUAL",
     "variations": [
-      "He became a shipping _____ after years of hard work.",
-      "The media _____ owned several major newspapers."
+      "Mountaineers often scale steep cliffs.",
+      "They tried to scale the wall to escape."
     ]
   },
   {
     "id": 126070207,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "People seeking _____ often face many challenges. (What are these people seeking?)",
-    "translation": "Sığınma arayan insanlar genellikle birçok zorlukla karşılaşır.",
-    "context": "'Asylum' kelimesi, özellikle zulüm veya savaş gibi nedenlerle kendi ülkesini terk etmek zorunda kalan kişilerin başka bir ülkede aradığı yasal korumayı ifade eder. 'Political asylum' ise siyasi sığınma demek. Bu insanlar yeni bir başlangıç ve güvenlik arayışındadır.",
+    "phrase": "People fleeing war often seek _____ in safer countries.",
+    "translation": "Sığınma",
+    "context": "'Asylum', yani 'sığınma', başka bir ülkede zulümden korunmak için resmi koruma talep etme durumudur. Sığınmacılar, genellikle güvenlik arayışı içindeki insanlardır.",
     "options": [
       "asylum",
-      "vacation",
-      "job",
-      "education"
+      "visa",
+      "passport",
+      "permit"
     ],
     "correctAnswer": "asylum",
     "category": "TRAVEL",
@@ -132,93 +135,96 @@
   },
   {
     "id": 126070208,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "The president urged to _____ the secret documents. (What did he want to do with the documents?)",
-    "translation": "Başkan, gizli belgelerin gizliliğini kaldırmaya çağırdı.",
-    "context": "'Declassify' kelimesi, özellikle hükümet veya askeri belgelerdeki 'gizlilik' statüsünü kaldırmak anlamına gelir. Yani bu belgeler artık halka açık hale gelir. Bir belge 'classified' ise gizlidir, 'declassified' ise artık gizli değildir. Böylece herkes ne olduğunu öğrenebilir!",
-    "options": [
-      "declassify",
-      "classify",
-      "destroy",
-      "copy"
-    ],
-    "correctAnswer": "declassify",
-    "category": "MIXED",
-    "variations": []
-  },
-  {
-    "id": 126070209,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Yep, we’re using OpenClaw _____ now.",
-    "translation": "Evet, artık OpenClaw'ı randevulaşmak için kullanıyoruz.",
-    "context": "'To date' deyiminin birçok anlamı var! Buradaki anlamı, 'randevulaşmak' veya 'biriyle romantik bir ilişki içinde olmak'. Mesela, 'He's dating my sister' dediğinde, kız kardeşimle çıktığını söylersin. Ama 'to date' aynı zamanda 'şu ana kadar' anlamına da gelebilir ('This is the best movie to date'). Cümledeki kullanımına dikkat!",
+    "level": "INTERMEDIATE",
+    "phrase": "Pollock remains on the _____ for the next game.",
+    "translation": "Yedek kulübesi",
+    "context": "Sporda 'bench', yedek oyuncuların oturduğu alanı ifade eder. Oyuncunun 'on the bench' kalması, yedek kulübesinde oturduğu ve maça başlamadığı anlamına gelir. Umarım bir sonraki maçta ilk 11'e girer!",
     "options": [
-      "to date",
-      "to meet",
-      "to talk",
-      "to greet"
+      "bench",
+      "field",
+      "stand",
+      "goal"
     ],
-    "correctAnswer": "to date",
-    "category": "CASUAL",
+    "correctAnswer": "bench",
+    "category": "BUSINESS",
     "variations": [
-      "Are you still trying _____ her?",
-      "They decided _____ after knowing each other for months."
+      "The coach decided to keep the star player on the bench.",
+      "He was angry about being left on the bench."
     ]
   },
   {
-    "id": 126070210,
+    "id": 126070209,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Spurs' record _____ is not done yet. (What kind of activity is this?)",
-    "translation": "Spurs'ün rekor harcama çılgınlığı henüz bitmedi.",
-    "context": "'Spending spree' deyimi, kısa bir süre içinde çok fazla para harcamak, adeta bir 'harcama çılgınlığı' yaşamak anlamına gelir. Özellikle spor kulüpleri yeni oyuncular alırken veya bir şirket büyük yatırımlar yaparken kullanılır. 'She went on a shopping spree' dediğinde, alışverişe doymadığını anlarsın. Cüzdanına dikkat!",
+    "phrase": "Which term describes a prolonged period of abnormally low rainfall?",
+    "translation": "Kuraklık",
+    "context": "'Drought', yani 'kuraklık', uzun süreli ve anormal derecede az yağış alan dönemdir. Özellikle tarım ve su kaynakları için ciddi sorunlar yaratır. Çiftçiler için kâbus gibidir.",
     "options": [
-      "spending spree",
-      "budget cut",
-      "fundraising campaign",
-      "profit margin"
+      "flood",
+      "drought",
+      "monsoon",
+      "blizzard"
     ],
-    "correctAnswer": "spending spree",
+    "correctAnswer": "drought",
     "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126070211,
+    "id": 126070210,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "India records its _____ June in over a decade.",
-    "translation": "Hindistan, on yıldan uzun süredir en kurak Haziran ayını kaydetti.",
-    "context": "'Driest on record' veya 'warmest on record' gibi ifadeler, genellikle hava durumu veya iklimle ilgili geçmiş verilerle kıyaslandığında bir şeyin en uç noktada olduğunu belirtir. 'On record', kayıtların tutulmaya başlandığından beri demek. Yani 'kaydedilen en kurak', 'kaydedilen en sıcak' gibi durumlar için kullanılır. Ciddi iklim değişikliklerini vurgular.",
+    "phrase": "Trump urged the spy chief to _____ sensitive records.",
+    "translation": "Gizliliğini kaldırmak",
+    "context": "'Declassify' kelimesi, devlet sırrı olarak gizli tutulan belgelerin veya bilgilerin gizlilik statüsünü kaldırmak ve kamuoyuna açmak anlamına gelir. 'Top secret' belgelerin üzerindeki mühürü kaldırmak gibi düşünebiliriz!",
     "options": [
-      "driest",
-      "wettest",
-      "coldest",
-      "hottest"
+      "declassify",
+      "classify",
+      "shred",
+      "photocopy"
     ],
-    "correctAnswer": "driest",
-    "category": "TRAVEL",
+    "correctAnswer": "declassify",
+    "category": "CASUAL",
     "variations": [
-      "This summer has been the _____ in my memory.",
-      "They are experiencing the _____ period in their history."
+      "The government decided to declassify old war documents.",
+      "It takes years to declassify some historical files."
     ]
   },
   {
-    "id": 126070212,
+    "id": 126070211,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Two wrong turns _____ civil liberties. (What did they do to civil liberties?)",
-    "translation": "İki yanlış adım sivil özgürlükleri zayıflattı.",
-    "context": "'Undermine' fiili, bir şeyin temelini zayıflatmak, altını oymak, gücünü veya etkinliğini azaltmak anlamına gelir. Genellikle görünmez veya sinsi bir şekilde yapılan eylemler için kullanılır. 'His constant criticism undermined her confidence.' dersen, sürekli eleştirisinin kadının özgüvenini sarstığını anlatırsın. Bir şeyi yavaş yavaş etkisiz hale getirmek gibi düşün.",
+    "phrase": "What is a narrow passage of water connecting two seas?",
+    "translation": "Boğaz",
+    "context": "'Strait' (boğaz), iki büyük su kütlesini birbirine bağlayan dar su yoludur. Hürmüz Boğazı gibi yerler, uluslararası gemi trafiği için kritik öneme sahiptir. Haritaları incelerken sıkça karşımıza çıkar.",
     "options": [
-      "undermine",
-      "strengthen",
-      "protect",
-      "establish"
+      "canal",
+      "gulf",
+      "fjord",
+      "strait"
     ],
-    "correctAnswer": "undermine",
-    "category": "MIXED",
+    "correctAnswer": "strait",
+    "category": "TRAVEL",
     "variations": []
+  },
+  {
+    "id": 126070212,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The PM's former top _____ resigned due to scandal.",
+    "translation": "Yardımcısı/Danışmanı",
+    "context": "'Aide' kelimesi, genellikle önemli bir politikacıya veya lidere yardımcı olan, danışmanlık yapan kişidir. Yani, bir nevi sağ kolu gibi düşünebiliriz. Bazen skandallara karışabilirler!",
+    "options": [
+      "aide",
+      "enemy",
+      "friend",
+      "janitor"
+    ],
+    "correctAnswer": "aide",
+    "category": "CASUAL",
+    "variations": [
+      "She works as a senior aide to the president.",
+      "His aide helped him prepare for the debate."
+    ]
   }
 ]
