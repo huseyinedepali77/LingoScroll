@@ -1035,14 +1035,10 @@ fun SkeletonMechanicView(
             color = SurvivalDanger
         )
         Spacer(modifier = Modifier.height(16.dp))
-        Text(
-            text = annotatedSkeleton,
-            fontSize = 24.sp, // Harflerin rahatça okunabilmesi için en az 24.sp yapıldı
-            fontWeight = FontWeight.Bold,
-            color = SurvivalText,
-            textAlign = TextAlign.Center,
-            letterSpacing = 4.sp, // Karakterlerin ayrışması için geniş aralık
+        Box(
             modifier = Modifier
+                .fillMaxWidth()
+                .heightIn(min = 96.dp)
                 .clickable {
                     try {
                         focusRequester.requestFocus()
@@ -1050,8 +1046,18 @@ fun SkeletonMechanicView(
                     } catch (e: Exception) {
                         e.printStackTrace()
                     }
-                } // Metne tıklandığında da klavyeyi aç
-        )
+                },
+            contentAlignment = Alignment.Center
+        ) {
+            Text(
+                text = annotatedSkeleton,
+                fontSize = 24.sp,
+                fontWeight = FontWeight.Bold,
+                color = SurvivalText,
+                textAlign = TextAlign.Center,
+                letterSpacing = 4.sp
+            )
+        }
         
         Spacer(modifier = Modifier.height(24.dp))
         
