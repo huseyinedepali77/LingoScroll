@@ -43,6 +43,8 @@ import androidx.compose.ui.focus.focusRequester
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
+import androidx.compose.ui.text.input.TextFieldValue
+import androidx.compose.ui.text.TextRange
 
 
 @Composable
@@ -397,13 +399,22 @@ fun PracticeScreen(
         }
     }
 
-    // Klavye kapanıp ekran boyutu genişlediğinde/değiştiğinde scroll'u anında sıfırla
+    // Klavye kapanıp açıldığında veya ekran boyutu değiştiğinde scroll'u yönet
     LaunchedEffect(scrollState.maxValue, state.isAnswerEvaluated) {
         if (state.isAnswerEvaluated) {
             try {
                 scrollState.scrollTo(0)
             } catch (e: Exception) {
                 e.printStackTrace()
+            }
+        } else {
+            // Kullanıcı çözüyorken klavye açılırsa (yani maxValue > 0 olursa) otomatik olarak en alta kaydırıp butonları göster
+            if (scrollState.maxValue > 0) {
+                try {
+                    scrollState.animateScrollTo(scrollState.maxValue)
+                } catch (e: Exception) {
+                    e.printStackTrace()
+                }
             }
         }
     }
@@ -634,6 +645,11 @@ fun SkeletonMechanicView(
 
     val focusRequester = remember { FocusRequester() }
     val keyboardController = LocalSoftwareKeyboardController.current
+
+    // Klavye giriş hafızasını sıfırlayan ve peş peşe aynı harflerin yutulmasını önleyen yerel durum
+    var textState by remember(state.currentItem.id) {
+        mutableStateOf(TextFieldValue(""))
+    }
     
     // Soru değiştiğinde klavyeyi otomatik odakla (Gecikmeli ve try-catch korumalı)
     LaunchedEffect(state.currentItem.id) {
@@ -697,16 +713,6 @@ fun SkeletonMechanicView(
             .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        // Görünmez Klavye Giriş Alanı (Hayalet Klavye) - Genişlik ve yükseklik 1.dp yapılarak çökme engellendi
-        BasicTextField(
-            value = state.userInput,
-            onValueChange = onInputChange,
-            modifier = Modifier
-                .focusRequester(focusRequester)
-                .size(1.dp)
-                .alpha(0f)
-        )
-
         Text(
             text = "İskelet Cümle (Yazmaya Başlayın):",
             fontSize = 12.sp,
@@ -755,6 +761,24 @@ fun SkeletonMechanicView(
                 color = if (state.jokerCount >= 3) SurvivalDanger else SurvivalTextSecondary
             )
         }
+
+        // Görünmez Klavye Giriş Alanı (Hayalet Klavye) - Odaklandığında sayfanın en altına kaydırılması için alta konumlandırıldı
+        BasicTextField(
+            value = textState,
+            onValueChange = { newValue ->
+                textState = newValue
+                val char = newValue.text.lastOrNull()
+                if (char != null) {
+                    onInputChange(newValue.text)
+                    // Klavyenin dahili composing/hafıza tamponunu anında sıfırla (aynı harfin yutulmasını kesinlikle engeller!)
+                    textState = TextFieldValue(text = "", selection = TextRange.Zero, composition = null)
+                }
+            },
+            modifier = Modifier
+                .focusRequester(focusRequester)
+                .size(1.dp)
+                .alpha(0f)
+        )
     }
 }
 
