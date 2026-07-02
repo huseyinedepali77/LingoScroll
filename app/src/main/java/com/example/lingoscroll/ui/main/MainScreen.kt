@@ -543,7 +543,11 @@ fun InteractiveMechanicCard(
                     SwipeMechanicView(state = state, onAnswer = { viewModel.answerPracticeQuestion(it) })
                 }
                 "CHUNK" -> {
-                    ChunkMechanicView(state = state, onClickChunk = { viewModel.clickChunk(it) })
+                    ChunkMechanicView(
+                        state = state,
+                        onClickChunk = { viewModel.clickChunk(it) },
+                        onClearChunks = { viewModel.clearClickedChunks() }
+                    )
                 }
                 "ERROR_FIND" -> {
                     ErrorFindMechanicView(state = state, onClickWord = { viewModel.clickErrorWord(it) })
@@ -697,7 +701,8 @@ fun SwipeMechanicView(
 @Composable
 fun ChunkMechanicView(
     state: MainScreenUiState.Practice,
-    onClickChunk: (String) -> Unit
+    onClickChunk: (String) -> Unit,
+    onClearChunks: () -> Unit
 ) {
     Column(
         modifier = Modifier.fillMaxWidth(),
@@ -710,41 +715,33 @@ fun ChunkMechanicView(
             modifier = Modifier.padding(bottom = 12.dp)
         )
 
-        // Birleştirilen Kelimeler (FlowRow ile sığmayanlar alt satıra geçer)
+        // Birleştirilen Kelimeler (Tekil Metin Alanı / Unified Sentence Box)
+        val joinedSentence = remember(state.clickedChunks) {
+            state.clickedChunks.joinToString(" ")
+        }
+
         Box(
             modifier = Modifier
                 .fillMaxWidth()
-                .heightIn(min = 60.dp)
-                .background(SurvivalBg, RoundedCornerShape(10.dp))
-                .border(1.dp, SurvivalBorder, RoundedCornerShape(10.dp))
-                .padding(12.dp),
-            contentAlignment = Alignment.CenterStart
+                .heightIn(min = 68.dp)
+                .background(SurvivalSurface, RoundedCornerShape(12.dp))
+                .border(1.dp, SurvivalBorder, RoundedCornerShape(12.dp))
+                .clickable(enabled = !state.isAnswerEvaluated) { onClearChunks() }
+                .padding(16.dp),
+            contentAlignment = Alignment.Center
         ) {
-            FlowRow(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.Start,
-                verticalArrangement = Arrangement.spacedBy(6.dp)
-            ) {
-                state.clickedChunks.forEach { chunk ->
-                    Box(
-                        modifier = Modifier
-                            .padding(4.dp)
-                            .background(SurvivalPrimary, RoundedCornerShape(8.dp))
-                            .clickable { if (!state.isAnswerEvaluated) onClickChunk(chunk) }
-                            .padding(horizontal = 12.dp, vertical = 6.dp)
-                            .wrapContentWidth()
-                    ) {
-                        Text(
-                            text = chunk,
-                            color = Color.White,
-                            fontWeight = FontWeight.Bold,
-                            fontSize = 14.sp,
-                            maxLines = 1,
-                            softWrap = false
-                        )
-                    }
-                }
-            }
+            Text(
+                text = if (joinedSentence.isEmpty()) "Parçaları birleştirmek için aşağıya dokunun..." else joinedSentence,
+                color = if (joinedSentence.isEmpty()) SurvivalTextSecondary else SurvivalText,
+                fontWeight = FontWeight.Bold,
+                fontSize = when {
+                    joinedSentence.length > 40 -> 13.sp
+                    joinedSentence.length > 25 -> 15.sp
+                    else -> 18.sp
+                },
+                textAlign = TextAlign.Center,
+                modifier = Modifier.fillMaxWidth()
+            )
         }
 
         Spacer(modifier = Modifier.height(20.dp))

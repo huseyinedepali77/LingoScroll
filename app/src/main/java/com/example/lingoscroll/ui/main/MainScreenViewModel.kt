@@ -436,6 +436,13 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         }
     }
 
+    // Seçilen blokları tamamen sıfırlama (baştan dizmek için)
+    fun clearClickedChunks() {
+        val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
+        if (currentState.isAnswerEvaluated) return
+        _uiState.value = currentState.copy(clickedChunks = emptyList())
+    }
+
     // Error Find Kelimesine Tıklama
     fun clickErrorWord(word: String) {
         val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
