@@ -1,223 +1,226 @@
 [
   {
     "id": 126070201,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "A serious illness from an animal bite is _____.",
-    "translation": "Bir hayvan ısırığından kaynaklanan ciddi bir hastalık kuduzdur.",
-    "context": "Aman dikkat! Özellikle yarasalar veya sokak hayvanları tarafından ısırılırsan, kuduz (rabies) kapma riskin var. Hemen doktora gitmen çok önemli. Seyahat ederken hayvanlara yaklaşmaktan kaçınmak en iyisi. Yoksa tatilin yarasız bitebilir!",
+    "phrase": "Many people plan to travel during the long _____.",
+    "translation": "Uzun tatil hafta sonu boyunca birçok kişi seyahat etmeyi planlar.",
+    "context": "Şimdi bir düşün! Önünde uzun bir hafta sonu var, belki bayram, belki resmi tatil... İşte o zaman kaçış planları yaparız. 'Holiday weekend', işlerin durduğu, seyahatlerin başladığı o büyülü zaman dilimi demek! İster denize git, ister dağlara tırman, ister evde pijama partisi yap; bu, resmen izinli 'kafa dinleme' zamanı.",
     "options": [
-      "flu",
-      "rabies",
-      "allergy",
-      "cold"
+      "weekend",
+      "weekday",
+      "workday",
+      "vacation"
     ],
-    "correctAnswer": "rabies",
+    "correctAnswer": "weekend",
     "category": "TRAVEL",
-    "variations": []
+    "variations": [
+      "Are you excited for the upcoming holiday _____?",
+      "I'm looking forward to the next holiday _____ to relax."
+    ]
   },
   {
     "id": 126070202,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "IPO means that a company sells its shares to the _____.",
-    "translation": "IPO, bir şirketin hisselerini halka satması demektir.",
-    "context": "Bir şirket büyüyüp halka açılmaya karar verdiğinde, hisselerini ilk kez satmasına IPO (Initial Public Offering) denir. İşte o zaman herkes şirkete ortak olabilir. Bu, finans dünyasında 'Büyük Çıkış' anlamına geliyor!",
+    "phrase": "Apple is planning new product _____ next year.",
+    "translation": "Apple yeni ürün piyasaya sürmeyi planlıyor.",
+    "context": "Yeni bir telefon, yeni bir tablet, yeni bir bilgisayar... Şirketler piyasaya sürülecek yeni bir üründen bahsettiğinde, işte bu 'releases' kelimesi devreye girer. Adeta yeni bir film vizyona girer gibi, yeni bir ürün de pazara 'çıkar'. Teknoloji tutkunları için nefes kesen bekleyişin adı bu!",
     "options": [
-      "government",
-      "public",
-      "owner",
-      "bank"
+      "sales",
+      "updates",
+      "releases",
+      "meetings"
     ],
-    "correctAnswer": "public",
+    "correctAnswer": "releases",
     "category": "BUSINESS",
-    "variations": []
+    "variations": [
+      "The company announced several new software _____.",
+      "Exciting new game _____ are expected next month."
+    ]
   },
   {
     "id": 126070203,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The summer heatwave can be dangerous, so stay hydrated and avoid the _____ sun.",
-    "translation": "Yaz sıcağı tehlikeli olabilir, bu yüzden bol su iç ve doğrudan güneşten kaçın.",
-    "context": "Yaz geldi, sıcak hava dalgası (heatwave) tüm ülkeyi etkisi altına aldı! Güneş çarpmasından korunmak için öğle saatlerinde direkt güneşe çıkmamaya çalış. Bol su iç, şapkanı tak ve serin kalmayı unutma!",
+    "phrase": "I had a strange dream after _____ a noise.",
+    "translation": "Bir sese uyandıktan sonra garip bir rüya gördüm.",
+    "context": "Sabahları uyanmak hepimizin yaptığı bir şey, değil mi? Ama bazen bir ses, bir alarm ya da güneşin yüzüne vurmasıyla aniden 'uyanırız'. 'Waking to' işte tam da böyle, bir şeye karşı uyanma durumunu anlatır. Mesela, en sevdiğin şarkının alarm sesiyle uyanmak gibisi yok!",
     "options": [
-      "direct",
-      "fast",
-      "small",
-      "cold"
+      "sleeping to",
+      "waking to",
+      "dreaming to",
+      "thinking to"
     ],
-    "correctAnswer": "direct",
+    "correctAnswer": "waking to",
     "category": "CASUAL",
     "variations": [
-      "Stay out of the 'direct' sun during a heatwave.",
-      "Always use sunscreen under 'direct' sunlight."
+      "She spent the night _____ the sound of rain.",
+      "He was _____ the smell of coffee."
     ]
   },
   {
     "id": 126070204,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Be careful when driving to avoid a car _____.",
-    "translation": "Araba kazası yaşamamak için dikkatli sürüş yap.",
-    "context": "Trafikte her zaman dikkatli olmak gerekir. Çünkü bir anlık dalgınlık, büyük bir araba kazasına (car crash) yol açabilir. Emniyet kemerini takmayı ve hız limitlerine uymayı unutma!",
-    "options": [
-      "trip",
-      "crash",
-      "drive",
-      "park"
-    ],
-    "correctAnswer": "crash",
-    "category": "MIXED",
-    "variations": [
-      "The roads are slippery, so watch out for a 'crash'!",
-      "A sudden brake caused a minor 'crash' on the highway."
-    ]
-  },
-  {
-    "id": 126070205,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "When people seek asylum, they ask another country for _____.",
-    "translation": "İnsanlar sığınma aradığında, başka bir ülkeden korunma isterler.",
-    "context": "Savaşlardan veya zulümden kaçan insanlar, güvenli bir ülke bulmak için sığınma (asylum) hakkı isterler. Bu, onlara uluslararası koruma sağlayan bir yasal süreçtir. Kimse istemeden evini terk etmez.",
+    "level": "BEGINNER",
+    "phrase": "Aşırı sıcak havalar için hangi kelime kullanılır?",
+    "translation": "Heatwave: Sıcak hava dalgası",
+    "context": "Vay canına, hava çok sıcak! Güneş tepeden inmiyor, terden yapış yapış olduk... İşte tam bu durumun adı 'heatwave'! Yaz aylarında sıkça duyduğumuz bu kelime, 'normalden daha uzun süren ve daha sıcak olan hava dalgası' anlamına gelir. Klima olmadan yaşamak adeta bir macera olur bu zamanlarda!",
     "options": [
-      "money",
-      "protection",
-      "a job",
-      "a visa"
+      "Blizzard",
+      "Heatwave",
+      "Hailstorm",
+      "Fog"
     ],
-    "correctAnswer": "protection",
-    "category": "TRAVEL",
+    "correctAnswer": "Heatwave",
+    "category": "MIXED",
     "variations": []
   },
   {
-    "id": 126070206,
+    "id": 126070205,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Many companies are looking for an AI _____ to do tasks faster.",
-    "translation": "Birçok şirket görevleri daha hızlı yapmak için bir yapay zeka alternatifi arıyor.",
-    "context": "Microsoft Office'e karşı yeni bir yapay zeka alternatifi (AI alternative) mi geliyor? Teknoloji dünyası hızla değişiyor ve yapay zeka her yerde karşımıza çıkıyor. Ofis işlerini kolaylaştıracak yeni bir çözüm, harika olmaz mıydı!",
+    "phrase": "Many people seek _____ in another country for safety.",
+    "translation": "Birçok insan güvenlik için başka bir ülkede sığınma hakkı arar.",
+    "context": "Hayat bazen zorlayıcı olabilir ve insanlar kendi ülkelerinde güvende hissetmeyebilir. İşte o zaman 'asylum' devreye girer. Bu kelime, bir ülkenin başka bir ülkeden gelen ve tehlikede olan kişilere sunduğu 'sığınma hakkı' anlamına gelir. Tıpkı bir liman gibi, sığınmacılara yeni bir başlangıç umudu sunar.",
     "options": [
-      "solution",
-      "alternative",
-      "method",
-      "tool"
+      "refuge",
+      "residence",
+      "asylum",
+      "citizenship"
     ],
-    "correctAnswer": "alternative",
-    "category": "BUSINESS",
+    "correctAnswer": "asylum",
+    "category": "TRAVEL",
     "variations": [
-      "We need an 'alternative' payment method.",
-      "Is there a healthy food 'alternative' for fast food?"
+      "She applied for political _____ after facing threats.",
+      "The family was granted _____ in Canada."
     ]
+  },
+  {
+    "id": 126070206,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Büyük ve başarılı bir işadamını tanımlamak için en uygun kelime hangisidir?",
+    "translation": "Tycoon: Büyük ve başarılı işadamı, patron.",
+    "context": "Düşünsene, milyon dolarlar kazanmış, şirketler kurmuş, ekonomiye yön veren birisi... İşte tam da bu 'tycoon' oluyor! Genellikle büyük iş imparatorlukları kuran, zengin ve güçlü iş insanları için kullanılır. Sanki kendi krallığını kurmuş bir 'iş kralı' gibi düşün!",
+    "options": [
+      "Employee",
+      "Tycoon",
+      "Intern",
+      "Clerk"
+    ],
+    "correctAnswer": "Tycoon",
+    "category": "BUSINESS",
+    "variations": []
   },
   {
     "id": 126070207,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The criminal was _____ of his crimes and sent to prison.",
-    "translation": "Suçlu, işlediği suçlardan dolayı mahkum edildi ve hapse gönderildi.",
-    "context": "Bir kişi mahkeme tarafından suçlu bulunduğunda, bu 'convicted' olmak demektir. Yani artık yasal olarak suçu sabitlenmiştir. Yasa dışı işlere bulaşmamak en iyisi, değil mi?",
+    "phrase": "The rock climber successfully _____ the steep mountain.",
+    "translation": "Dağcı dik dağı başarıyla tırmandı.",
+    "context": "Bir binayı veya dağı tırmanmak, bazen de yasal olmayan yollarla bir yere 'çıkmak'... İşte bu durumlarda 'scaled' kelimesi kullanılır. Sadece fiziksel tırmanmayı değil, bazen bir engeli aşmayı da ifade edebilir. Tıpkı örümcek adam gibi, bir yerlere 'tırmanıp' çıkmak gibi düşünebilirsin!",
     "options": [
-      "found",
-      "judged",
-      "convicted",
-      "charged"
+      "ran down",
+      "scaled",
+      "jumped off",
+      "fell from"
     ],
-    "correctAnswer": "convicted",
+    "correctAnswer": "scaled",
     "category": "CASUAL",
     "variations": [
-      "He was 'convicted' of fraud last year.",
-      "Despite strong evidence, she was not 'convicted'."
+      "They tried to _____ the wall without permission.",
+      "She has always wanted to _____ Mount Everest."
     ]
   },
   {
     "id": 126070208,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "He quit his job for personal reasons, so he didn't share the _____.",
-    "translation": "Kişisel nedenlerden dolayı işinden ayrıldı, bu yüzden detayları paylaşmadı.",
-    "context": "Bazı şeyler özeldir ve başkalarıyla paylaşmak istemeyiz, işte bu durumlarda 'personal reasons' (kişisel nedenler) ifadesini kullanırız. Herkesin kendine sakladığı sırlar, özel düşünceler ve kararlar vardır.",
+    "phrase": "Bir şeyin 'kayıtlara geçmiş en iyisi/kötüsü' olduğunu belirtmek için hangi ifade kullanılır?",
+    "translation": "On record: Kayıtlara geçmiş, bilinen en...",
+    "context": "Hani derler ya, 'Bu, şimdiye kadarki en iyi konserdi!' veya 'Bu yıl, gelmiş geçmiş en sıcak yaz!' İşte 'on record' tam da bu anlama gelir. Mevcut tüm kayıtlar, belgeler ve veriler içinde 'bir benzeri daha olmayan' veya 'zirveye yerleşen' durumu ifade eder. Resmen tarihi bir 'rekor'dan bahsediyoruz!",
     "options": [
-      "details",
-      "money",
-      "time",
-      "plans"
+      "Out of control",
+      "On record",
+      "Under wraps",
+      "Behind schedule"
     ],
-    "correctAnswer": "details",
+    "correctAnswer": "On record",
     "category": "MIXED",
     "variations": []
   },
   {
     "id": 126070209,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "A historic heatwave means the weather is unusually hot, impacting travel and _____.",
-    "translation": "Tarihi bir sıcak hava dalgası, havanın alışılmadık derecede sıcak olduğu ve seyahati ve günlük yaşamı etkilediği anlamına gelir.",
-    "context": "'Historic heatwave' ifadesi, daha önce kaydedilen sıcaklık rekorlarını kıran, olağanüstü sıcak bir hava dalgasını tanımlar. Böyle bir durumda seyahat planları aksayabilir, hatta sağlık açısından riskler oluşabilir. Küresel iklim değişikliğinin acı gerçeklerinden biri!",
+    "phrase": "The police arrested a notorious _____ at the border.",
+    "translation": "Polis, kötü şöhretli bir kaçakçıyı sınırda tutukladı.",
+    "context": "Filmlerde sıkça gördüğümüz, yasa dışı yollarla insan, mal veya uyuşturucu taşıyan o karanlık karakterler... İşte onlara 'smuggler' denir! Sınırları aşan, gizli işler çeviren bu kişiler, bazen macera arayan, bazen de kötü niyetli 'kaçakçılar'dır. Hatta bazen, ne yazık ki insanları tehlikeli yolculuklara sürüklerler.",
     "options": [
-      "economy",
-      "infrastructure",
-      "daily life",
-      "politics"
+      "tourist",
+      "guide",
+      "smuggler",
+      "customs officer"
     ],
-    "correctAnswer": "daily life",
+    "correctAnswer": "smuggler",
     "category": "TRAVEL",
-    "variations": []
+    "variations": [
+      "Customs officials caught a drug _____ trying to enter the country.",
+      "The art _____ was finally caught after years."
+    ]
   },
   {
     "id": 126070210,
-    "type": "QUIZ_COMPLETION",
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "The company managed to _____ the market slump with strong sales.",
-    "translation": "Şirket, güçlü satışlarla piyasa gerilemesine meydan okumayı başardı.",
-    "context": "'Defy' fiili, bir şeye karşı çıkmak, meydan okumak veya ona uymamak anlamına gelir. Bir şirket piyasadaki genel bir düşüşe (slump) rağmen büyüdüğünde, bu durumu 'defy the slump' olarak ifade ederiz. Yani herkese inat, kendi yolunda ilerler!",
+    "phrase": "Bir şeyin beklentilerin veya kuralların aksine hareket ettiğini belirtmek için en uygun kelime hangisidir?",
+    "translation": "Defies: Karşı gelmek, meydan okumak, beklenenin aksine olmak.",
+    "context": "Düşünsene, herkes bir şeyin kötüye gideceğini beklerken, o tam tersi müthiş bir başarı yakalıyor! İşte bu duruma 'defies' denir. Kurallara, beklentilere veya olumsuz koşullara 'meydan okumak', hatta 'karşı gelmek' anlamına gelir. Tıpkı 'krizlere rağmen yükselen' bir şirket gibi, kalıpları yıkan durumlar için birebir!",
     "options": [
-      "face",
-      "defy",
-      "meet",
-      "avoid"
+      "Follows",
+      "Supports",
+      "Defies",
+      "Agrees"
     ],
-    "correctAnswer": "defy",
+    "correctAnswer": "Defies",
     "category": "BUSINESS",
-    "variations": [
-      "He decided to 'defy' his parents' wishes and travel the world.",
-      "Her courage allowed her to 'defy' expectations."
-    ]
+    "variations": []
   },
   {
     "id": 126070211,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The local police force _____ to manage the large crowd at the event.",
-    "translation": "Yerel polis gücü, etkinlikteki büyük kalabalığı yönetmek için seferber oldu.",
-    "context": "Bir topluluğun veya kuvvetin belirli bir amaç için bir araya gelmesi veya harekete geçmesi durumuna 'mobilize olmak' denir. Genellikle büyük ölçekli olaylar, acil durumlar veya askeri operasyonlar için kullanılır. Hazırlan ve harekete geç, çünkü görev seni bekliyor!",
+    "phrase": "They tried to _____ the small fire with their feet.",
+    "translation": "Küçük yangını ayaklarıyla söndürmeye çalıştılar.",
+    "context": "Küçük bir yangın çıktığında, panik yapmadan hızlıca ayaklarımızla üzerine basıp söndürmeye çalışırız, değil mi? İşte 'stomp out' tam da bunu anlatır: bir şeyi 'ayakla ezerek söndürmek' ya da daha geniş anlamıyla bir sorunu 'hızla ve kesin bir şekilde ortadan kaldırmak'. Hani 'kökünü kazımak' deriz ya, işte o hesap!",
     "options": [
-      "gathered",
-      "organized",
-      "mobilized",
-      "prepared"
+      "light up",
+      "put off",
+      "stomp out",
+      "let burn"
     ],
-    "correctAnswer": "mobilized",
+    "correctAnswer": "stomp out",
     "category": "CASUAL",
     "variations": [
-      "The army was 'mobilized' for a sudden attack.",
-      "Volunteers 'mobilized' to help after the earthquake."
+      "The new policies aim to _____ corruption.",
+      "We need to _____ prejudice in our society."
     ]
   },
   {
     "id": 126070212,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "After new evidence, the scientific theory was completely _____.",
-    "translation": "Yeni kanıtlar sonrası, bilimsel teori tamamen itibarsızlaştırıldı.",
-    "context": "Bir fikir, teori veya politika 'discredited' olduğunda, güvenilirliğini, geçerliliğini veya saygınlığını yitirmiş demektir. Yani artık ona inanılmaz, kabul görmez. Bilim dünyasında bu, yeni kanıtlar eskilerini çürüttüğünde sıkça yaşanır. Eskimiş fikirlerin pabucu dama atıldı!",
+    "phrase": "Bir teorinin veya kişinin 'itibarını yitirmesine' ne denir?",
+    "translation": "Discredited: İtibarı sarsılmış, güvenilirliğini kaybetmiş.",
+    "context": "Bir zamanlar herkesin inandığı bir fikir veya saygı duyduğu bir kişi düşün. Sonra ne olduysa, o fikrin yanlış olduğu ortaya çıktı veya o kişi güvenilmez davrandı. İşte bu duruma 'discredited' denir! Yani 'itibarını kaybetmiş', 'güvenilirliğini yitirmiş' demektir. Eskiden parlayan bir yıldızın sönmesi gibi!",
     "options": [
-      "believed",
-      "confirmed",
-      "discredited",
-      "accepted"
+      "Validated",
+      "Proven",
+      "Discredited",
+      "Confirmed"
     ],
-    "correctAnswer": "discredited",
+    "correctAnswer": "Discredited",
     "category": "MIXED",
     "variations": []
   }
