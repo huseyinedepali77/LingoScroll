@@ -18,9 +18,13 @@ import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.hapticfeedback.HapticFeedbackType
 import androidx.compose.ui.platform.LocalHapticFeedback
+import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.withStyle
+import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -584,17 +588,21 @@ fun SkeletonMechanicView(
     onInputChange: (String) -> Unit,
     onUseJoker: () -> Unit
 ) {
-    val dynamicSkeleton = remember(state.currentItem.targetEn, state.userInput, state.revealedIndices) {
-        toDynamicSkeletonText(state.currentItem.targetEn, state.userInput, state.revealedIndices)
+    val firstHiddenIndex = remember(state.currentItem.targetEn, state.revealedIndices, state.typedIndices) {
+        state.currentItem.targetEn.indices.firstOrNull { i ->
+            state.currentItem.targetEn[i].isLetterOrDigit() && i !in (state.revealedIndices + state.typedIndices)
+        }
     }
 
     val focusRequester = remember { FocusRequester() }
+    val keyboardController = LocalSoftwareKeyboardController.current
     
     // Soru değiştiğinde klavyeyi otomatik odakla (Gecikmeli ve try-catch korumalı)
     LaunchedEffect(state.currentItem.id) {
         delay(100L)
         try {
             focusRequester.requestFocus()
+            keyboardController?.show()
         } catch (e: Exception) {
             e.printStackTrace()
         }
@@ -613,12 +621,38 @@ fun SkeletonMechanicView(
         label = "ErrorAlpha"
     )
 
+    val annotatedSkeleton = remember(state.currentItem.targetEn, state.userInput, state.revealedIndices, state.typedIndices, state.showErrorAnimation, state.wrongLetter, errorAlpha, firstHiddenIndex) {
+        buildAnnotatedString {
+            val target = state.currentItem.targetEn
+            val activeRevealed = state.revealedIndices + state.typedIndices
+            for (i in target.indices) {
+                val char = target[i]
+                if (i < state.userInput.length || i in activeRevealed) {
+                    append(char)
+                } else if (i == firstHiddenIndex && state.showErrorAnimation) {
+                    // Yanlış harfi kırmızı renkte ve azalan alpha ile tam yerinde (in-place) çiz!
+                    withStyle(SpanStyle(color = SurvivalDanger.copy(alpha = errorAlpha), fontWeight = FontWeight.Bold)) {
+                        append(state.wrongLetter.firstOrNull() ?: '_')
+                    }
+                } else {
+                    if (char.isLetterOrDigit()) {
+                        append('_')
+                    } else {
+                        append(char)
+                    }
+                }
+            }
+        }
+    }
+
     Column(
         modifier = Modifier
             .fillMaxWidth()
+            .imePadding() // Klavye açıldığında içeriği yukarı itmek için imePadding
             .clickable { 
                 try {
                     focusRequester.requestFocus()
+                    keyboardController?.show()
                 } catch (e: Exception) {
                     e.printStackTrace()
                 }
@@ -645,7 +679,7 @@ fun SkeletonMechanicView(
         )
         Spacer(modifier = Modifier.height(16.dp))
         Text(
-            text = dynamicSkeleton,
+            text = annotatedSkeleton,
             fontSize = 22.sp,
             fontWeight = FontWeight.Bold,
             color = SurvivalText,
@@ -653,23 +687,6 @@ fun SkeletonMechanicView(
             letterSpacing = 4.sp // Karakterlerin ayrışması için geniş aralık
         )
         
-        Spacer(modifier = Modifier.height(20.dp))
-
-        // Hata Geri Bildirim Metni (Görsel Animasyonlu)
-        if (state.showErrorAnimation || errorAlpha > 0.01f) {
-            Text(
-                text = "Hatalı Tuş: ${state.wrongLetter}",
-                color = SurvivalDanger,
-                fontWeight = FontWeight.Bold,
-                fontSize = 14.sp,
-                modifier = Modifier
-                    .graphicsLayer(alpha = errorAlpha)
-            )
-        } else {
-            // Boşlukta hizalama bozulmasın diye görünmez yer tutucu
-            Spacer(modifier = Modifier.height(20.dp))
-        }
-
         Spacer(modifier = Modifier.height(24.dp))
         
         Row(

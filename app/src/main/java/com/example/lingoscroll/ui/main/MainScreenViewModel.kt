@@ -62,6 +62,7 @@ sealed interface MainScreenUiState {
         val wrongLetter: String = "",
         val showErrorAnimation: Boolean = false,
         val revealedIndices: Set<Int> = emptySet(),
+        val typedIndices: Set<Int> = emptySet(),
         // Chunk mechanic fields
         val clickedChunks: List<String> = emptyList(),
         val shuffledChunks: List<String> = emptyList(),
@@ -331,6 +332,7 @@ class MainScreenViewModel(context: Context) : ViewModel() {
             wrongLetter = "",
             showErrorAnimation = false,
             revealedIndices = calculateRevealedIndices(chosenItem.targetEn, chosenItem.difficulty),
+            typedIndices = emptySet(),
             clickedChunks = clickedChunks,
             shuffledChunks = shuffledChunks,
             tappedErrorWord = null,
@@ -367,43 +369,53 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         tts.speak(currentState.currentItem.targetEn)
     }
 
-    // Skeleton Giriş Alanı Değişimi (Hayalet Klavye Mantığı)
+    // Skeleton Giriş Alanı Değişimi (Single Key Interception ve Hayalet Klavye)
     fun onSkeletonInputChange(newInput: String) {
         val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
         if (currentState.isAnswerEvaluated) return
         
-        val currentInput = currentState.userInput
+        // Sadece son basılan karakteri yakala
+        val typedChar = newInput.lastOrNull()
+        if (typedChar == null) {
+            _uiState.value = currentState.copy(userInput = "")
+            return
+        }
+        
         val target = currentState.currentItem.targetEn
         
-        if (newInput.length < currentInput.length) {
-            // Silme işlemine doğrudan izin ver
-            _uiState.value = currentState.copy(userInput = newInput)
-            checkSkeletonMatch(newInput, target, currentState.jokerCount)
-        } else if (newInput.length > currentInput.length) {
-            val typedChar = newInput.last()
-            if (currentInput.length < target.length) {
-                val expectedChar = target[currentInput.length]
-                if (typedChar.lowercaseChar() == expectedChar.lowercaseChar()) {
-                    // Doğru harf girildi
-                    val correctInput = currentInput + expectedChar
-                    _uiState.value = currentState.copy(userInput = correctInput)
-                    checkSkeletonMatch(correctInput, target, currentState.jokerCount)
-                } else {
-                    // Yanlış harf basıldı (Hayalet Klavye Hatası)
-                    _uiState.value = currentState.copy(
-                        wrongLetter = typedChar.toString(),
-                        showErrorAnimation = true
+        // Henüz açılmamış ilk harfi bul (First Hidden Index)
+        val firstHiddenIndex = target.indices.firstOrNull { i ->
+            target[i].isLetterOrDigit() && i !in (currentState.revealedIndices + currentState.typedIndices)
+        }
+        
+        if (firstHiddenIndex != null) {
+            val expectedChar = target[firstHiddenIndex]
+            if (typedChar.lowercaseChar() == expectedChar.lowercaseChar()) {
+                // Doğru harf basıldı, bu indeksi aç ve BasicTextField'ı sıfırla
+                val newTypedIndices = currentState.typedIndices + firstHiddenIndex
+                _uiState.value = currentState.copy(
+                    userInput = "",
+                    typedIndices = newTypedIndices
+                )
+                checkSkeletonFinished(newTypedIndices, target, currentState.jokerCount)
+            } else {
+                // Yanlış harf basıldı, hata animasyonunu bu ilk görünmeyen indekste tetikle
+                _uiState.value = currentState.copy(
+                    userInput = "",
+                    wrongLetter = typedChar.toString(),
+                    showErrorAnimation = true
+                )
+                viewModelScope.launch(Dispatchers.Main) {
+                    delay(400L)
+                    val latestState = _uiState.value as? MainScreenUiState.Practice ?: return@launch
+                    _uiState.value = latestState.copy(
+                        wrongLetter = "",
+                        showErrorAnimation = false
                     )
-                    viewModelScope.launch(Dispatchers.Main) {
-                        delay(400L)
-                        val latestState = _uiState.value as? MainScreenUiState.Practice ?: return@launch
-                        _uiState.value = latestState.copy(
-                            wrongLetter = "",
-                            showErrorAnimation = false
-                        )
-                    }
                 }
             }
+        } else {
+            _uiState.value = currentState.copy(userInput = "")
         }
     }
 
@@ -413,29 +425,33 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         if (currentState.isAnswerEvaluated) return
         
         val target = currentState.currentItem.targetEn
-        val currentInput = currentState.userInput
-        if (currentInput.length < target.length) {
-            val nextChar = target[currentInput.length]
-            val newInput = currentInput + nextChar
+        val firstHiddenIndex = target.indices.firstOrNull { i ->
+            target[i].isLetterOrDigit() && i !in (currentState.revealedIndices + currentState.typedIndices)
+        }
+        
+        if (firstHiddenIndex != null) {
+            val newTypedIndices = currentState.typedIndices + firstHiddenIndex
             val newJokerCount = currentState.jokerCount + 1
             
             _uiState.value = currentState.copy(
-                userInput = newInput,
+                typedIndices = newTypedIndices,
                 jokerCount = newJokerCount
             )
             
-            checkSkeletonMatch(newInput, target, newJokerCount)
+            checkSkeletonFinished(newTypedIndices, target, newJokerCount)
         }
     }
 
-    // Otonom Eşleşme ve Leitner Değerlendirmesi
-    private fun checkSkeletonMatch(input: String, target: String, jokerCount: Int) {
+    // Otonom Tamamlanma Kontrolü ve Leitner Değerlendirmesi
+    private fun checkSkeletonFinished(typedIndices: Set<Int>, target: String, jokerCount: Int) {
         val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
-        val cleanInput = input.lowercase().replace(Regex("[.,!?]"), "").trim()
-        val cleanTarget = target.lowercase().replace(Regex("[.,!?]"), "").trim()
         
-        if (cleanInput == cleanTarget) {
-            // jokerCount >= 3 ise AGAIN (Bilemedim - false), aksi halde HARD/EASY (Başarılı - true)
+        val nextHidden = target.indices.firstOrNull { i ->
+            target[i].isLetterOrDigit() && i !in (currentState.revealedIndices + typedIndices)
+        }
+        
+        if (nextHidden == null) {
+            // Tamamlandı!
             val isCorrect = jokerCount < 3
             prefs.incrementQuestionsStats(isCorrect)
             updateFailCount(currentState.currentItem.id, isCorrect)
@@ -450,7 +466,7 @@ class MainScreenViewModel(context: Context) : ViewModel() {
             }
             
             _uiState.value = currentState.copy(
-                userInput = target, // tam doğru cümleyi kutuya yazdır
+                userInput = "",
                 jokerCount = jokerCount,
                 isAnswerEvaluated = true,
                 isAnswerCorrect = isCorrect,
