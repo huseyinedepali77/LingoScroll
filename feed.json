@@ -3,227 +3,230 @@
     "id": 126070201,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "A dangerous _____ is expected to hit the US.",
-    "translation": "Tehlikeli bir sıcak hava dalgasının ABD'yi vurması bekleniyor.",
-    "context": "'Heatwave' demek, hava sıcaklığının uzun bir süre boyunca ortalamanın çok üzerinde seyretmesi demek. Yani, 'Oh be, sonunda yaz geldi!' diye sevinirken, 'Bu ne sıcak böyle, eriyorum!' diye hayıflandığımız günler silsilesi! Özellikle tatil planları yaparken dikkatli olmalı, bol su içmeli ve serin yerlerde kalmalıyız. Yoksa tatilin tadı kaçabilir, aman dikkat!",
+    "phrase": "A strong _____ hit the city last night, causing significant damage.",
+    "translation": "Geçen gece şehri büyük bir deprem vurdu, önemli hasara yol açtı.",
+    "context": "Quake kelimesi, 'deprem' anlamına gelir ve özellikle haberlerde veya günlük konuşmalarda 'earthquake' yerine kısaltma olarak sıklıkla kullanılır. Aman dikkat! Eğer büyük bir titreme hissettiysen, hemen güvenli bir yere geçip, LingoScroll'u açıp 'quake' kelimesini tekrar etmelisin!",
     "options": [
-      "heatwave",
-      "cold front",
-      "storm",
-      "mild breeze"
+      "quake",
+      "strike",
+      "blast",
+      "wave"
     ],
-    "correctAnswer": "heatwave",
-    "category": "TRAVEL",
+    "correctAnswer": "quake",
+    "category": "CASUAL",
     "variations": [
-      "The country is preparing for a major heatwave.",
-      "The heatwave made us stay indoors."
+      "The building was damaged by the quake.",
+      "Many people were affected by the recent quake."
     ]
   },
   {
     "id": 126070202,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The company's CFO is _____ as part of a shakeup.",
-    "translation": "Şirketin finans direktörü, bir yapılanma kapsamında görevden alındı.",
-    "context": "'Is out' ifadesi, birinin bir pozisyondan ayrıldığını veya görevden alındığını anlatmak için kullanılır. Pat diye söylersin, herkes anlar. Hani bazen bir sporcu takımdan ayrılır, 'He's out!' dersin ya, aynen öyle! İş dünyasında da özellikle üst düzey yöneticiler görevden alınınca bu ifade sıkça kullanılır. 'Shakeup' da bir şirkette köklü değişiklikler ve yeni atamalar olduğunda kullanılan havalı bir kelimedir.",
+    "phrase": "Our old system is _____ as we transition to a new one.",
+    "translation": "Yeni bir sisteme geçerken eski sistemimiz kapanıyor.",
+    "context": "'Shutting down', bir sistemin, uygulamanın veya işin tamamen kapanması, faaliyetini durdurması anlamına gelir. Tıpkı favori TV dizilerini takip ettiğin uygulamanın 'ben artık yokum' demesi gibi... Çok üzücü olabilir, biliyorum!",
     "options": [
-      "out",
-      "in",
-      "up",
-      "down"
+      "shutting down",
+      "closing out",
+      "finishing up",
+      "turning off"
     ],
-    "correctAnswer": "out",
+    "correctAnswer": "shutting down",
     "category": "BUSINESS",
     "variations": [
-      "He is out of the team.",
-      "Our manager is out of the office today."
+      "The factory is shutting down next month.",
+      "They are shutting down the old server."
     ]
   },
   {
     "id": 126070203,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Which animal caused the boy's death?",
-    "translation": "Yarasa, çocuğun ölümüne sebep oldu.",
-    "context": "'Bat' tabii ki gece uçuşan, mağaralarda yaşayan o sevimli ama bazen tehlikeli hayvan. Haberlerdeki gibi, bazen yaramazlık yapıp insanları ısırabilirler ve kuduz gibi ciddi hastalıklar bulaştırabilirler. Genellikle yarasalar insanlardan uzak durur ama eğer bir yarasa size yaklaşırsa veya evinize girerse, kesinlikle dokunmamalı ve yetkililere haber vermelisiniz. Uçan memelilerin de kendi sınırları var, değil mi?",
+    "phrase": "Despite the difficult conditions, she proved to be a true _____.",
+    "translation": "Zorlu koşullara rağmen, o gerçek bir hayatta kalan olduğunu kanıtladı.",
+    "context": "Survivor, 'hayatta kalan' demektir. Yani zorlu bir durumdan, kazadan veya felaketten sağ çıkmış kişi! Survivor yarışmasında 'açlık adası'nda bir hafta geçiren de, yolda kaybolduktan sonra doğru yolu bulan da bir survivor'dır. Her zaman umut vardır!",
     "options": [
-      "Dog",
-      "Cat",
-      "Bat",
-      "Bird"
+      "survivor",
+      "traveler",
+      "explorer",
+      "visitor"
     ],
-    "correctAnswer": "Bat",
-    "category": "CASUAL",
-    "variations": []
+    "correctAnswer": "survivor",
+    "category": "TRAVEL",
+    "variations": [
+      "He was the only survivor of the accident.",
+      "The plant is a survivor in harsh climates."
+    ]
   },
   {
     "id": 126070204,
-    "type": "QUIZ_COMPLETION",
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "Children were _____ from the Ohio home.",
-    "translation": "Çocuklar Ohio'daki evden kurtarıldı.",
-    "context": "'Rescued' kelimesi, birinin tehlikeli bir durumdan kurtarılması anlamına gelir. Hani filmlerde kahramanlar birilerini kurtarır ya, işte tam olarak o! Yangından, selden veya bu haberdeki gibi kötü koşullardan birini kurtardığınızda 'rescued' dersiniz. Bu kelimeyi duyunca içimiz bir nebze rahatlar çünkü birileri güvene alınmış demektir.",
+    "phrase": "What does 'heatwave' mean in Turkish?",
+    "translation": "Sıcak hava dalgası",
+    "context": "Heatwave, 'sıcak hava dalgası' anlamına gelir. Hani o bunaltıcı günlerde, dışarı çıktığında sanki fırın kapağı açılmış gibi hissedersin ya, işte tam olarak o! İngiltere'nin rekor kıran Haziran'ı veya ABD'yi vuran tehlikeli sıcaklar tam da bu durumun örnekleri.",
     "options": [
-      "rescued",
-      "lost",
-      "hidden",
-      "found"
+      "Sıcak hava dalgası",
+      "Soğuk cephe",
+      "Hava kirliliği",
+      "Şiddetli rüzgar"
     ],
-    "correctAnswer": "rescued",
+    "correctAnswer": "Sıcak hava dalgası",
     "category": "MIXED",
-    "variations": [
-      "The climber was rescued from the mountain.",
-      "They rescued the dog from the river."
-    ]
+    "variations": []
   },
   {
     "id": 126070205,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The people smuggler was found _____ asylum in the UK.",
-    "translation": "İnsan kaçakçısı, Birleşik Krallık'ta iltica talebinde bulunurken yakalandı.",
-    "context": "'Seeking asylum' demek, bir ülkeye sığınma veya iltica talebinde bulunmak demektir. Yani, kendi ülkesinde tehlikede hisseden veya zulüm gören birinin başka bir ülkeden koruma istemesi durumu. Bu, genellikle zorlu bir süreçtir ve yasal başvurularla ilerler. Haberlerde genellikle zor durumdaki insanların hikayeleriyle birlikte karşımıza çıkar. Birinin sığınma arayışı içinde olduğunu anlatmak için kullanırız.",
+    "phrase": "The team is expected to _____ the competition easily this season.",
+    "translation": "Takımın bu sezon rekabeti kolayca domine etmesi bekleniyor.",
+    "context": "Dominate kelimesi, 'bir şeye hükmetmek', 'üstün gelmek' veya 'ezici bir şekilde lider olmak' anlamına gelir. Tıpkı spor müsabakalarında bir takımın rakiplerine karşı açık ara önde olması veya arkadaş grubunda esprileriyle herkesi güldüren kişinin sohbeti 'domine etmesi' gibi!",
     "options": [
-      "seeking",
-      "finding",
-      "giving",
-      "losing"
+      "dominate",
+      "participate",
+      "follow",
+      "watch"
     ],
-    "correctAnswer": "seeking",
-    "category": "TRAVEL",
+    "correctAnswer": "dominate",
+    "category": "CASUAL",
     "variations": [
-      "Many people are seeking asylum from war.",
-      "He's seeking asylum for political reasons."
+      "Our company aims to dominate the market.",
+      "She dominates every conversation with her knowledge."
     ]
   },
   {
     "id": 126070206,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "What kind of company did Microsoft launch?",
-    "translation": "Microsoft, yapay zeka dağıtım şirketi kurdu.",
-    "context": "'AI deployment company' tam olarak adı üstünde: yapay zeka (Artificial Intelligence) çözümlerini geliştiren ve bunları farklı sektörlerde, farklı şirketlerde hayata geçiren bir şirket. Yani, yapay zekayı sadece kodlayıp bırakmıyorlar, aynı zamanda onun gerçek dünyada nasıl kullanılacağını planlayıp uyguluyorlar. Microsoft'un bu büyük yatırımı, gelecekte yapay zekanın hayatımızın daha fazla alanına yayılacağının güçlü bir işareti!",
+    "phrase": "Following the merger, the company went through a major _____.",
+    "translation": "Birleşmenin ardından şirket büyük bir liderlik değişikliği yaşadı.",
+    "context": "Leadership shakeup, 'yönetim kadrosunda köklü değişiklikler' veya 'liderlik sarsıntısı' anlamına gelir. Yeni bir CEO geldiğinde veya şirket büyük bir dönüşüm geçirdiğinde, bazı yöneticilerin değişmesi, yeni isimlerin gelmesi çok doğal. Tıpkı bir orkestrada yeni bir şefin baton alması gibi!",
     "options": [
-      "A gaming company.",
-      "An AI deployment company.",
-      "A social media platform.",
-      "A hardware manufacturer."
+      "leadership shakeup",
+      "staff meeting",
+      "team building",
+      "project review"
     ],
-    "correctAnswer": "An AI deployment company.",
+    "correctAnswer": "leadership shakeup",
     "category": "BUSINESS",
-    "variations": []
+    "variations": [
+      "The recent scandal led to a leadership shakeup.",
+      "Investors demanded a leadership shakeup for better results."
+    ]
   },
   {
     "id": 126070207,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The couple who scaled the building now _____ charges.",
-    "translation": "Binayı tırmanan çift şimdi suçlamalarla karşı karşıya.",
-    "context": "'Face charges' deyimi, birinin yasal suçlamalarla karşı karşıya kalması, hakkında dava açılması anlamına gelir. Hani olur ya, 'Hop, dur bakalım, bunun bir cezası var!' denilen durumlar. Empire State Binası'na tırmanmak gibi 'sıradışı' eylemlerin genellikle ciddi yasal sonuçları olur. Bu ifade, genellikle hukuki süreçlerde, bir eylemin sonuçlarını belirtmek için kullanılır.",
+    "phrase": "They successfully _____ the mountain peak after a long climb.",
+    "translation": "Uzun bir tırmanışın ardından dağ zirvesine başarıyla tırmandılar (scaled).",
+    "context": "Scale kelimesi burada 'tırmanmak', 'yükselmek' anlamında kullanılır. Tıpkı o çılgın çiftin Empire State Binası'na tırmanması gibi, ya da dağcıların yüksek bir zirveye çıkması gibi. Genellikle büyük ve yüksek bir yere tırmanmaktan bahsederken kullanılır. Hadi sen de kendi 'zirvene' tırman!",
     "options": [
-      "face",
-      "escape",
-      "drop",
-      "avoid"
+      "scaled",
+      "walked",
+      "ran",
+      "drove"
     ],
-    "correctAnswer": "face",
-    "category": "CASUAL",
+    "correctAnswer": "scaled",
+    "category": "TRAVEL",
     "variations": [
-      "He will face charges for theft.",
-      "They must face the consequences of their actions."
+      "The climbers scaled the rock face carefully.",
+      "He scaled the wall to reach the garden."
     ]
   },
   {
     "id": 126070208,
-    "type": "QUIZ_COMPLETION",
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "The _____ attack on Kyiv killed many people.",
-    "translation": "Kiev'e yapılan büyük saldırı birçok insanı öldürdü.",
-    "context": "'Massive' kelimesi, bir şeyin çok büyük, devasa veya kapsamlı olduğunu ifade eder. Bir saldırı için kullanıldığında, çok yıkıcı ve geniş çaplı olduğu anlamına gelir. Hani bazen bir konserde 'massive crowd' (devasa kalabalık) dersin ya da büyük bir projeyi anlatırken 'massive project' dersin, işte aynen öyle! Bu kelime, bir olayın büyüklüğünü ve etkisini vurgulamak için sıkça kullanılır.",
+    "phrase": "Which term describes requesting protection in another country due to persecution?",
+    "translation": "Zulüm nedeniyle başka bir ülkede koruma isteme terimi nedir?",
+    "context": "Asylum, 'sığınma' veya 'iltica' anlamına gelir. Bir ülke, başka bir ülkeden gelen ve kendi ülkesinde zulüm görme riski olan kişilere koruma sağladığında bu terim kullanılır. Tıpkı kötü bir durumdan kaçıp daha güvenli bir limana sığınmak gibi. Bu, uluslararası hukukun önemli bir parçasıdır.",
     "options": [
-      "massive",
-      "tiny",
-      "gentle",
-      "minor"
+      "Asylum",
+      "Visa",
+      "Citizenship",
+      "Residency"
     ],
-    "correctAnswer": "massive",
+    "correctAnswer": "Asylum",
     "category": "MIXED",
-    "variations": [
-      "There was a massive explosion.",
-      "The company made a massive investment."
-    ]
+    "variations": []
   },
   {
     "id": 126070209,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "What does 'on record' mean in 'warmest June on record'?",
-    "translation": "'Kayıtlara geçen en sıcak Haziran'daki 'on record' ne anlama geliyor?",
-    "context": "'On record' ifadesi, bir şeyin istatistiksel verilerin tutulmaya başlandığı zamandan beri en yüksek, en düşük, en uzun gibi bir 'rekor' kırdığını belirtir. Yani, bilinen tarihler içinde bu seviyede bir şey yaşanmadığını gösterir. İngiltere'nin bu yıl yaşadığı Haziran sıcağı, meteoroloji kayıtları tutulmaya başlandığından beri en sıcak Haziran'mış. Düşünsene, büyük büyük dedelerimizin bile böyle bir sıcak görmediği anlamına geliyor! Bu, iklim değişikliği gibi konuların ciddiyetini vurgulamak için kullanılır.",
+    "phrase": "If caught, they could _____ for vandalism.",
+    "translation": "Yakalanırlarsa, vandalizmden suçlamalarla karşılaşabilirler.",
+    "context": "Face charges, 'suçlamalarla yüzleşmek' veya 'hakkında dava açılmak' demektir. Hani o Empire State'e tırmanan çift gibi, yasa dışı bir iş yaptığında polisle, mahkemeyle başın belaya girebilir. Yani yaptığının bedelini ödemek zorunda kalmak! O yüzden kurallara uy, başın belaya girmesin!",
     "options": [
-      "For the current year only.",
-      "According to personal opinion.",
-      "Since data collection began.",
-      "Within the last decade."
+      "face charges",
+      "make calls",
+      "take photos",
+      "write reports"
     ],
-    "correctAnswer": "Since data collection began.",
-    "category": "TRAVEL",
-    "variations": []
+    "correctAnswer": "face charges",
+    "category": "CASUAL",
+    "variations": [
+      "He might face charges for reckless driving.",
+      "The company will face charges for environmental pollution."
+    ]
   },
   {
     "id": 126070210,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The CEO decided on a leadership _____ to improve performance.",
-    "translation": "CEO, performansı artırmak için bir liderlik değişikliği yapmaya karar verdi.",
-    "context": "'Leadership shakeup' terimi, bir organizasyonun üst yönetiminde kapsamlı ve genellikle ani değişiklikler yapılmasını ifade eder. Yani, tepedeki koltuklar sallanıyor, bazıları değişiyor, yenileri geliyor. Genellikle şirketin performansını artırmak, yeni bir vizyon getirmek veya kötü giden şeyleri düzeltmek amacıyla yapılır. Lucid Motors'daki gibi durumlarda, yeni bir CEO'nun kendi ekibini kurması veya şirketin stratejisini değiştirmesiyle sıkça görülür. Kısacası, patronun 'sil baştan' deme şekli!",
+    "phrase": "The startup offered a small percentage of its _____ to early investors.",
+    "translation": "Startup, erken yatırımcılara kendi öz sermayesinin küçük bir yüzdesini teklif etti.",
+    "context": "Equity, bir şirketteki 'öz sermaye' veya 'hisse' anlamına gelir. Yani şirketin sahibine ait olan değerin bir parçası. Eğer bir şirkette equity sahibiysen, o şirketin bir kısmına sahipsin demektir. Tıpkı bir pasta dilimi gibi, ne kadar çok equity'n varsa, o kadar büyük bir dilim senin demektir!",
     "options": [
-      "shakeup",
-      "fix",
-      "calm",
-      "standstill"
+      "equity",
+      "debt",
+      "revenue",
+      "salary"
     ],
-    "correctAnswer": "shakeup",
+    "correctAnswer": "equity",
     "category": "BUSINESS",
     "variations": [
-      "The company announced a major management shakeup.",
-      "A shakeup in the cabinet is expected soon."
+      "He sold his equity in the business.",
+      "The company's equity value increased significantly."
     ]
   },
   {
     "id": 126070211,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The court's decision _____ civil liberties.",
-    "translation": "Mahkemenin kararı sivil özgürlükleri zayıflattı.",
-    "context": "'Undermined' fiili, bir şeyin gücünü, etkinliğini veya temelini yavaşça ve sinsice zayıflatmak, baltalamak anlamına gelir. Hani bir binanın temeline gizlice zarar vermek gibi. Hukuki veya politik bağlamlarda kullanıldığında, mevcut hakların veya prensiplerin değerini düşürmek, altını oymak anlamında kullanılır. Yargıç Gorsuch'un 'civil liberties' (sivil özgürlükler) hakkındaki yorumları da tam olarak bu tür 'zayıflatıcı' kararlardan bahsediyor. Yani, 'göz göre göre bir şeyleri kaybetmek' gibi.",
+    "phrase": "The travel restrictions will _____ next month, allowing more flights.",
+    "translation": "Seyahat kısıtlamaları gelecek ay planlandığı gibi sona erecek ve daha fazla uçuşa izin verecek.",
+    "context": "Expire as scheduled, 'planlandığı gibi süresi dolmak' veya 'zamanında sona ermek' demektir. Tıpkı vizenin, pasaportunun veya bir anlaşmanın belirli bir tarihte geçerliliğini yitirmesi gibi. Eğer bir seyahat planın varsa, biletlerinin veya vizelerinin 'expire as scheduled' olmadığından emin olmalısın!",
     "options": [
-      "undermined",
-      "supported",
-      "strengthened",
-      "upheld"
+      "expire as scheduled",
+      "begin promptly",
+      "continue indefinitely",
+      "change unexpectedly"
     ],
-    "correctAnswer": "undermined",
-    "category": "CASUAL",
+    "correctAnswer": "expire as scheduled",
+    "category": "TRAVEL",
     "variations": [
-      "His continuous criticism undermined her confidence.",
-      "The scandal undermined public trust in the government."
+      "The contract will expire as scheduled at year-end.",
+      "Make sure your driver's license doesn't expire as scheduled."
     ]
   },
   {
     "id": 126070212,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "What does a 'record-breaking move' refer to in sports?",
-    "translation": "Sporda 'rekor kıran bir transfer' ne anlama geliyor?",
-    "context": "'Record-breaking move' ifadesi, özellikle spor transferlerinde kullanılır ve o güne kadar yapılmış en yüksek bonservis bedeliyle gerçekleşen transferi ifade eder. Yani, bir futbolcu için kulüpler arasında ödenen para, daha önceki tüm rekorları kırmış demektir. Anderson'ın Manchester City'e 116 milyon sterlinlik transferi de tam olarak böyle bir 'rekor kıran' anlaşma. Bu tür transferler genellikle hem oyuncunun değerini hem de kulübün finansal gücünü gösterir. Fanlar için heyecan verici, kulüp yöneticileri içinse bazen baş ağrıtıcı olabilir!",
+    "phrase": "What does 'undermined civil liberties' mean?",
+    "translation": "Sivil özgürlükleri zayıflatmak",
+    "context": "Undermine, 'zayıflatmak', 'temelini sarsmak' veya 'baltalamak' anlamına gelir. Civil liberties ise 'sivil özgürlükler' demektir. Yani 'undermined civil liberties' ifadesi, insanların temel hak ve özgürlüklerinin kısıtlandığı veya tehlikeye atıldığı durumları anlatır. Tıpkı bir duvarın temelini yavaş yavaş aşındırmak gibi, görünmez bir şekilde haklarını kısıtlamak! Bu tür durumlar genellikle yasal ve politik tartışmaların konusu olur.",
     "options": [
-      "A player breaking a scoring record.",
-      "The highest transfer fee ever paid for a player.",
-      "A team moving to a new stadium.",
-      "A new player joining a team for free."
+      "Sivil özgürlükleri zayıflatmak",
+      "Sivil özgürlükleri güçlendirmek",
+      "Sivil özgürlükleri korumak",
+      "Sivil hakları tartışmak"
     ],
-    "correctAnswer": "The highest transfer fee ever paid for a player.",
+    "correctAnswer": "Sivil özgürlükleri zayıflatmak",
     "category": "MIXED",
     "variations": []
   }
