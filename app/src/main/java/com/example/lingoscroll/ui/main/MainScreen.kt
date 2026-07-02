@@ -8,6 +8,7 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -377,6 +378,18 @@ fun PracticeScreen(
     viewModel: MainScreenViewModel
 ) {
     val haptic = LocalHapticFeedback.current
+    val scrollState = rememberScrollState()
+
+    // Cevap değerlendirildiğinde (klavye kapandığında) ekranı otomatik en üste kaydır
+    LaunchedEffect(state.isAnswerEvaluated) {
+        if (state.isAnswerEvaluated) {
+            try {
+                scrollState.animateScrollTo(0)
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
+        }
+    }
 
     Scaffold(
         bottomBar = {
@@ -395,19 +408,20 @@ fun PracticeScreen(
                 .padding(16.dp)
         ) {
             Column(
-                modifier = Modifier.fillMaxSize(),
-                verticalArrangement = Arrangement.SpaceBetween,
+                modifier = Modifier
+                    .fillMaxSize()
+                    .verticalScroll(scrollState),
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 // Header (Progress Bar, Streak, Seconds Saved)
                 PracticeHeader(state = state)
+                Spacer(modifier = Modifier.height(16.dp))
 
                 // Active Scenario Card
                 Box(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .weight(1f)
-                        .padding(vertical = 16.dp),
+                        .padding(vertical = 8.dp),
                     contentAlignment = Alignment.Center
                 ) {
                     Column(

@@ -451,25 +451,26 @@ class MainScreenViewModel(context: Context) : ViewModel() {
         }
         
         if (nextHidden == null) {
-            // Tamamlandı!
-            val isCorrect = jokerCount < 3
-            prefs.incrementQuestionsStats(isCorrect)
-            updateFailCount(currentState.currentItem.id, isCorrect)
+            // Tamamlandı! Leitner sistemi için joker sayısına göre değerlendir (3 veya daha fazla joker kullanıldıysa başarısız say)
+            val isLeitnerCorrect = jokerCount < 3
+            prefs.incrementQuestionsStats(isLeitnerCorrect)
+            updateFailCount(currentState.currentItem.id, isLeitnerCorrect)
             
             viewModelScope.launch(Dispatchers.IO) {
-                repository.updateCardProgress(currentState.currentItem.id, isCorrect)
+                repository.updateCardProgress(currentState.currentItem.id, isLeitnerCorrect)
             }
             
-            if (isCorrect) {
+            if (isLeitnerCorrect) {
                 val reward = if (jokerCount == 0) 25L else 10L
                 prefs.addSecondsSaved(reward)
             }
             
+            // Kullanıcı cümleyi eksiksiz tamamladığı için arayüzde HER ZAMAN başarılı/doğru göster
             _uiState.value = currentState.copy(
                 userInput = "",
                 jokerCount = jokerCount,
                 isAnswerEvaluated = true,
-                isAnswerCorrect = isCorrect,
+                isAnswerCorrect = true,
                 secondsSaved = prefs.getTotalSecondsSaved()
             )
             
