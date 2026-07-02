@@ -704,8 +704,14 @@ fun PracticeScreen(
                                                         )
                                                         Spacer(modifier = Modifier.width(4.dp))
                                                         Column {
+                                                            val shortId = if (entry.uid.length >= 4) entry.uid.takeLast(4).uppercase() else "0000"
                                                             Text(
-                                                                text = entry.name,
+                                                                text = buildAnnotatedString {
+                                                                    append(entry.name)
+                                                                    withStyle(SpanStyle(color = Color.Gray, fontSize = 11.sp, fontWeight = FontWeight.Normal)) {
+                                                                        append(" #$shortId")
+                                                                    }
+                                                                },
                                                                 fontWeight = FontWeight.Bold,
                                                                 fontSize = 14.sp,
                                                                 color = Color.White
@@ -1952,8 +1958,14 @@ fun RedCodeSurvivalScreen(
                                                 )
                                                 Spacer(modifier = Modifier.width(4.dp))
                                                 Column {
+                                                    val shortId = if (entry.uid.length >= 4) entry.uid.takeLast(4).uppercase() else "0000"
                                                     Text(
-                                                        text = entry.name,
+                                                        text = buildAnnotatedString {
+                                                            append(entry.name)
+                                                            withStyle(SpanStyle(color = Color.Gray, fontSize = 11.sp, fontWeight = FontWeight.Normal)) {
+                                                                append(" #$shortId")
+                                                            }
+                                                        },
                                                         fontWeight = FontWeight.Bold,
                                                         fontSize = 14.sp,
                                                         color = Color.White
