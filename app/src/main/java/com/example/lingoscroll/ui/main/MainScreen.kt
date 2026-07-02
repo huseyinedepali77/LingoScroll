@@ -43,8 +43,12 @@ import androidx.compose.ui.focus.focusRequester
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.text.TextRange
+import com.example.lingoscroll.data.repository.LeaderboardEntry
 
 
 @Composable
@@ -397,6 +401,7 @@ fun PracticeScreen(
 
     var showSettingsDialog by remember { mutableStateOf(false) }
     var showResetConfirmation by remember { mutableStateOf(false) }
+    var showLeaderboardDialog by remember { mutableStateOf(false) }
 
     // Cevap değerlendirildiğinde (klavye kapanıp ekran boyutu genişlediğinde) odağı temizle ve 300ms gecikmeyle üste kaydır
     LaunchedEffect(state.isAnswerEvaluated) {
@@ -557,7 +562,20 @@ fun PracticeScreen(
                                         colors = SwitchDefaults.colors(checkedThumbColor = SurvivalPrimary)
                                     )
                                 }
-                                Spacer(modifier = Modifier.height(24.dp))
+                                Spacer(modifier = Modifier.height(16.dp))
+                                Button(
+                                    onClick = {
+                                        viewModel.fetchLeaderboard()
+                                        showLeaderboardDialog = true
+                                        showSettingsDialog = false
+                                    },
+                                    colors = ButtonDefaults.buttonColors(containerColor = SurvivalPrimary),
+                                    modifier = Modifier.fillMaxWidth(),
+                                    shape = RoundedCornerShape(10.dp)
+                                ) {
+                                    Text("🏆 Liderlik Tablosu", color = Color.White, fontWeight = FontWeight.Bold)
+                                }
+                                Spacer(modifier = Modifier.height(12.dp))
                                 Button(
                                     onClick = { showResetConfirmation = true },
                                     colors = ButtonDefaults.buttonColors(containerColor = SurvivalDanger),
@@ -605,6 +623,120 @@ fun PracticeScreen(
                             }
                         },
                         containerColor = SurvivalSurface,
+                        shape = RoundedCornerShape(20.dp)
+                    )
+                }
+
+                if (showLeaderboardDialog) {
+                    val leaderboardEntries by viewModel.leaderboardState.collectAsState()
+                    val myUid = viewModel.getCurrentUserUid()
+
+                    AlertDialog(
+                        onDismissRequest = { showLeaderboardDialog = false },
+                        title = {
+                            Row(
+                                modifier = Modifier.fillMaxWidth(),
+                                horizontalArrangement = Arrangement.SpaceBetween,
+                                verticalAlignment = Alignment.CenterVertically
+                            ) {
+                                Text("Küresel Liderlik Tablosu", fontWeight = FontWeight.Bold, color = Color.White, fontSize = 18.sp)
+                                IconButton(
+                                    onClick = { viewModel.fetchLeaderboard() },
+                                    modifier = Modifier.size(24.dp)
+                                ) {
+                                    Text("🔄", fontSize = 16.sp)
+                                }
+                            }
+                        },
+                        text = {
+                            Box(
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .height(350.dp)
+                            ) {
+                                if (leaderboardEntries.isEmpty()) {
+                                    Box(
+                                        modifier = Modifier.fillMaxSize(),
+                                        contentAlignment = Alignment.Center
+                                    ) {
+                                        Text("Yükleniyor veya henüz skor yok...", color = Color.LightGray)
+                                    }
+                                } else {
+                                    LazyColumn(
+                                        modifier = Modifier.fillMaxSize(),
+                                        verticalArrangement = Arrangement.spacedBy(8.dp)
+                                    ) {
+                                        itemsIndexed(leaderboardEntries) { index, entry ->
+                                            val isMe = entry.uid == myUid
+                                            val borderStroke = if (isMe) {
+                                                androidx.compose.foundation.BorderStroke(1.5.dp, Color(0xFFFBC02D))
+                                            } else {
+                                                androidx.compose.foundation.BorderStroke(0.5.dp, Color(0xFF332222))
+                                            }
+                                            val medal = when (index) {
+                                                0 -> "🥇 "
+                                                1 -> "🥈 "
+                                                2 -> "🥉 "
+                                                else -> "${index + 1}. "
+                                            }
+
+                                            Card(
+                                                modifier = Modifier.fillMaxWidth(),
+                                                colors = CardDefaults.cardColors(
+                                                    containerColor = if (isMe) Color(0xFF2B2211) else Color(0xFF1E1414)
+                                                ),
+                                                shape = RoundedCornerShape(10.dp),
+                                                border = borderStroke
+                                            ) {
+                                                Row(
+                                                    modifier = Modifier
+                                                        .fillMaxWidth()
+                                                        .padding(horizontal = 12.dp, vertical = 8.dp),
+                                                    horizontalArrangement = Arrangement.SpaceBetween,
+                                                    verticalAlignment = Alignment.CenterVertically
+                                                ) {
+                                                    Row(verticalAlignment = Alignment.CenterVertically) {
+                                                        Text(
+                                                            text = medal,
+                                                            fontWeight = FontWeight.Bold,
+                                                            fontSize = 16.sp,
+                                                            color = if (isMe) Color(0xFFFBC02D) else Color.White
+                                                        )
+                                                        Spacer(modifier = Modifier.width(4.dp))
+                                                        Column {
+                                                            Text(
+                                                                text = entry.name,
+                                                                fontWeight = FontWeight.Bold,
+                                                                fontSize = 14.sp,
+                                                                color = Color.White
+                                                            )
+                                                            Text(
+                                                                text = entry.rank,
+                                                                fontSize = 11.sp,
+                                                                color = Color.Gray
+                                                            )
+                                                        }
+                                                    }
+
+                                                    Text(
+                                                        text = "${entry.score} Pts",
+                                                        fontWeight = FontWeight.Black,
+                                                        fontSize = 14.sp,
+                                                        color = if (isMe) Color(0xFFFBC02D) else Color(0xFF81C784)
+                                                    )
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        confirmButton = {
+                            TextButton(onClick = { showLeaderboardDialog = false }) {
+                                Text("Kapat", color = SurvivalPrimary, fontWeight = FontWeight.Bold)
+                            }
+                        },
+                        containerColor = Color(0xFF160E0E),
                         shape = RoundedCornerShape(20.dp)
                     )
                 }
@@ -1366,6 +1498,10 @@ fun RedCodeSurvivalScreen(
     val focusManager = androidx.compose.ui.platform.LocalFocusManager.current
     val keyboardController = androidx.compose.ui.platform.LocalSoftwareKeyboardController.current
 
+    var showNameDialog by remember { mutableStateOf(false) }
+    var codeName by remember { mutableStateOf("") }
+    var showLeaderboardDialog by remember { mutableStateOf(false) }
+
     LaunchedEffect(state.isAnswerEvaluated) {
         if (state.isAnswerEvaluated) {
             focusManager.clearFocus()
@@ -1626,6 +1762,53 @@ fun RedCodeSurvivalScreen(
                         
                         Spacer(modifier = Modifier.height(28.dp))
                         
+                        // Skor Gönder & Liderlik Tablosu Bölümü
+                        if (state.totalScore > 0) {
+                            val uploadSuccess by viewModel.scoreUploadSuccess.collectAsState()
+                            val isUploading by viewModel.isUploadingScore.collectAsState()
+
+                            Spacer(modifier = Modifier.height(16.dp))
+                            when {
+                                uploadSuccess == true -> {
+                                    Text("Skor Başarıyla Gönderildi! ✅", color = Color(0xFF81C784), fontWeight = FontWeight.Bold, fontSize = 14.sp)
+                                }
+                                isUploading -> {
+                                    Text("Skor Gönderiliyor... ⏳", color = Color.Yellow, fontWeight = FontWeight.Bold, fontSize = 14.sp)
+                                }
+                                else -> {
+                                    Button(
+                                        onClick = { showNameDialog = true },
+                                        colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFE5A93C)),
+                                        shape = RoundedCornerShape(12.dp),
+                                        modifier = Modifier
+                                            .fillMaxWidth()
+                                            .height(48.dp)
+                                    ) {
+                                        Text("Skoru Gönder 🏆", color = Color.White, fontWeight = FontWeight.Bold)
+                                    }
+                                }
+                            }
+                        }
+
+                        Spacer(modifier = Modifier.height(8.dp))
+
+                        Button(
+                            onClick = {
+                                viewModel.fetchLeaderboard()
+                                showLeaderboardDialog = true
+                            },
+                            colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF332222)),
+                            shape = RoundedCornerShape(12.dp),
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .height(48.dp)
+                                .border(1.dp, Color(0xFFFF5252).copy(alpha = 0.5f), RoundedCornerShape(12.dp))
+                        ) {
+                            Text("Liderlik Tablosu 🏅", color = Color.White, fontWeight = FontWeight.Bold)
+                        }
+
+                        Spacer(modifier = Modifier.height(16.dp))
+                        
                         Button(
                             onClick = { viewModel.retryRedCodeMode() },
                             colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFFF5252)),
@@ -1648,6 +1831,162 @@ fun RedCodeSurvivalScreen(
                     }
                 }
             }
+        }
+
+        // Dialogs for name entry and leaderboard display inside RedCodeSurvivalScreen
+        if (showNameDialog) {
+            AlertDialog(
+                onDismissRequest = { showNameDialog = false },
+                title = { Text("Kod Adınızı Girin", fontWeight = FontWeight.Bold, color = Color.White) },
+                text = {
+                    OutlinedTextField(
+                        value = codeName,
+                        onValueChange = { codeName = it },
+                        placeholder = { Text("Örn: Ajan_007", color = Color.Gray) },
+                        singleLine = true,
+                        colors = OutlinedTextFieldDefaults.colors(
+                            focusedTextColor = Color.White,
+                            unfocusedTextColor = Color.White,
+                            focusedBorderColor = SurvivalPrimary,
+                            unfocusedBorderColor = Color.Gray
+                        )
+                    )
+                },
+                confirmButton = {
+                    Button(
+                        onClick = {
+                            if (codeName.isNotBlank()) {
+                                viewModel.submitLeaderboardScore(codeName, state.totalScore)
+                                showNameDialog = false
+                            }
+                        },
+                        colors = ButtonDefaults.buttonColors(containerColor = SurvivalPrimary)
+                    ) {
+                        Text("Gönder", color = Color.White)
+                    }
+                },
+                dismissButton = {
+                    TextButton(onClick = { showNameDialog = false }) {
+                        Text("İptal", color = Color.LightGray)
+                    }
+                },
+                containerColor = Color(0xFF1D1414),
+                shape = RoundedCornerShape(20.dp)
+            )
+        }
+
+        if (showLeaderboardDialog) {
+            val leaderboardEntries by viewModel.leaderboardState.collectAsState()
+            val myUid = viewModel.getCurrentUserUid()
+
+            AlertDialog(
+                onDismissRequest = { showLeaderboardDialog = false },
+                title = {
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Text("Küresel Liderlik Tablosu", fontWeight = FontWeight.Bold, color = Color.White, fontSize = 18.sp)
+                        IconButton(
+                            onClick = { viewModel.fetchLeaderboard() },
+                            modifier = Modifier.size(24.dp)
+                        ) {
+                            Text("🔄", fontSize = 16.sp)
+                        }
+                    }
+                },
+                text = {
+                    Box(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(350.dp)
+                    ) {
+                        if (leaderboardEntries.isEmpty()) {
+                            Box(
+                                modifier = Modifier.fillMaxSize(),
+                                contentAlignment = Alignment.Center
+                            ) {
+                                Text("Yükleniyor veya henüz skor yok...", color = Color.LightGray)
+                            }
+                        } else {
+                            LazyColumn(
+                                modifier = Modifier.fillMaxSize(),
+                                verticalArrangement = Arrangement.spacedBy(8.dp)
+                            ) {
+                                itemsIndexed(leaderboardEntries) { index, entry ->
+                                    val isMe = entry.uid == myUid
+                                    val borderStroke = if (isMe) {
+                                        androidx.compose.foundation.BorderStroke(1.5.dp, Color(0xFFFBC02D))
+                                    } else {
+                                        androidx.compose.foundation.BorderStroke(0.5.dp, Color(0xFF332222))
+                                    }
+                                    val medal = when (index) {
+                                        0 -> "🥇 "
+                                        1 -> "🥈 "
+                                        2 -> "🥉 "
+                                        else -> "${index + 1}. "
+                                    }
+
+                                    Card(
+                                        modifier = Modifier.fillMaxWidth(),
+                                        colors = CardDefaults.cardColors(
+                                            containerColor = if (isMe) Color(0xFF2B2211) else Color(0xFF1E1414)
+                                        ),
+                                        shape = RoundedCornerShape(10.dp),
+                                        border = borderStroke
+                                    ) {
+                                        Row(
+                                            modifier = Modifier
+                                                .fillMaxWidth()
+                                                .padding(horizontal = 12.dp, vertical = 8.dp),
+                                            horizontalArrangement = Arrangement.SpaceBetween,
+                                            verticalAlignment = Alignment.CenterVertically
+                                        ) {
+                                            Row(verticalAlignment = Alignment.CenterVertically) {
+                                                Text(
+                                                    text = medal,
+                                                    fontWeight = FontWeight.Bold,
+                                                    fontSize = 16.sp,
+                                                    color = if (isMe) Color(0xFFFBC02D) else Color.White
+                                                )
+                                                Spacer(modifier = Modifier.width(4.dp))
+                                                Column {
+                                                    Text(
+                                                        text = entry.name,
+                                                        fontWeight = FontWeight.Bold,
+                                                        fontSize = 14.sp,
+                                                        color = Color.White
+                                                    )
+                                                    Text(
+                                                        text = entry.rank,
+                                                        fontSize = 11.sp,
+                                                        color = Color.Gray
+                                                    )
+                                                }
+                                            }
+
+                                            Text(
+                                                text = "${entry.score} Pts",
+                                                fontWeight = FontWeight.Black,
+                                                fontSize = 14.sp,
+                                                color = if (isMe) Color(0xFFFBC02D) else Color(0xFF81C784)
+                                            )
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                confirmButton = {
+                    TextButton(onClick = { showLeaderboardDialog = false }) {
+                        Text("Kapat", color = SurvivalPrimary, fontWeight = FontWeight.Bold)
+                    }
+                },
+                containerColor = Color(0xFF160E0E),
+                shape = RoundedCornerShape(20.dp)
+            )
         }
     }
 }

@@ -9,6 +9,8 @@ import com.example.lingoscroll.data.local.SurvivalCard
 import com.example.lingoscroll.data.Level
 import com.example.lingoscroll.data.PreferencesManager
 import com.example.lingoscroll.data.repository.CardRepository
+import com.example.lingoscroll.data.repository.FirebaseLeaderboardRepository
+import com.example.lingoscroll.data.repository.LeaderboardEntry
 import com.example.lingoscroll.data.tts.NativeTtsManager
 import com.example.lingoscroll.data.tts.TtsManager
 import kotlinx.coroutines.Dispatchers
@@ -120,6 +122,15 @@ class MainScreenViewModel(private val context: Context) : ViewModel() {
     private var redCodeTimerJob: kotlinx.coroutines.Job? = null
     private val redCodeQueue = mutableListOf<SurvivalCard>()
     private var currentRedCodeIndex = 0
+
+    // --- Aşama 4: Liderlik Tablosu Alanları ---
+    private val leaderboardRepository = FirebaseLeaderboardRepository()
+    private val _leaderboardState = MutableStateFlow<List<LeaderboardEntry>>(emptyList())
+    val leaderboardState: StateFlow<List<LeaderboardEntry>> = _leaderboardState.asStateFlow()
+    private val _isUploadingScore = MutableStateFlow(false)
+    val isUploadingScore: StateFlow<Boolean> = _isUploadingScore.asStateFlow()
+    private val _scoreUploadSuccess = MutableStateFlow<Boolean?>(null)
+    val scoreUploadSuccess: StateFlow<Boolean?> = _scoreUploadSuccess.asStateFlow()
 
     private fun updateFailCount(cardId: Int, isCorrect: Boolean) {
         if (isCorrect) {
@@ -1177,6 +1188,47 @@ class MainScreenViewModel(private val context: Context) : ViewModel() {
 
     fun retryRedCodeMode() {
         startRedCodeMode()
+    }
+
+    // --- Aşama 4: Liderlik Tablosu Fonksiyonları ---
+
+    fun getCurrentUserUid(): String {
+        return authManager.getCurrentUser()?.uid ?: "anonymous_user"
+    }
+
+    fun submitLeaderboardScore(name: String, score: Int) {
+        val uid = getCurrentUserUid()
+        val rank = prefs.getUserRank(prefs.getUserXp())
+        
+        _isUploadingScore.value = true
+        _scoreUploadSuccess.value = null
+        
+        viewModelScope.launch(Dispatchers.IO) {
+            val entry = LeaderboardEntry(
+                uid = uid,
+                name = name,
+                score = score,
+                rank = rank,
+                timestamp = System.currentTimeMillis()
+            )
+            val success = leaderboardRepository.submitScore(entry)
+            viewModelScope.launch(Dispatchers.Main) {
+                _isUploadingScore.value = false
+                _scoreUploadSuccess.value = success
+                if (success) {
+                    fetchLeaderboard()
+                }
+            }
+        }
+    }
+
+    fun fetchLeaderboard() {
+        viewModelScope.launch(Dispatchers.IO) {
+            val topScores = leaderboardRepository.getTopScores(50)
+            viewModelScope.launch(Dispatchers.Main) {
+                _leaderboardState.value = topScores
+            }
+        }
     }
 }
 
