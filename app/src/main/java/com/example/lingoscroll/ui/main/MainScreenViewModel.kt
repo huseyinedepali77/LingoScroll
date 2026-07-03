@@ -587,11 +587,15 @@ class MainScreenViewModel(private val context: Context) : ViewModel() {
         }
     }
 
-    // Seçilen blokları tamamen sıfırlama (baştan dizmek için)
-    fun clearClickedChunks() {
+    // Seçilen en son bloğu silme
+    fun removeLastClickedChunk() {
         val currentState = _uiState.value as? MainScreenUiState.Practice ?: return
         if (currentState.isAnswerEvaluated) return
-        _uiState.value = currentState.copy(clickedChunks = emptyList())
+        val newClicked = currentState.clickedChunks.toMutableList()
+        if (newClicked.isNotEmpty()) {
+            newClicked.removeAt(newClicked.lastIndex)
+        }
+        _uiState.value = currentState.copy(clickedChunks = newClicked)
     }
 
     // Error Find Kelimesine Tıklama

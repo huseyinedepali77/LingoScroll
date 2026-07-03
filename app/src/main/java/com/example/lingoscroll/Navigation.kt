@@ -24,7 +24,7 @@ fun MainNavigation(viewModel: MainScreenViewModel) {
           MainScreen(
             onItemClick = { navKey -> backStack.add(navKey) },
             viewModel = viewModel,
-            modifier = Modifier.safeDrawingPadding().padding(16.dp)
+            modifier = Modifier
           )
         }
       },

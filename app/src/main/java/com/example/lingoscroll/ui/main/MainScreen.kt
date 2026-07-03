@@ -909,7 +909,7 @@ fun InteractiveMechanicCard(
                     ChunkMechanicView(
                         state = state,
                         onClickChunk = { viewModel.clickChunk(it) },
-                        onClearChunks = { viewModel.clearClickedChunks() }
+                        onClearChunks = { viewModel.removeLastClickedChunk() }
                     )
                 }
                 "ERROR_FIND" -> {
