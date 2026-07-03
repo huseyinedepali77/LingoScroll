@@ -3,36 +3,36 @@
     "id": 126070301,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The city is getting ready to _____ for the summer heatwave.",
-    "translation": "hazırlanmak",
-    "context": "'Brace for', olumsuz bir duruma karşı hazırlıklı olmak demek. Mesela 'Brace for impact!' (Çarpışmaya hazırlanın!) filmlerde çok duyarsın. Kötü bir hava durumu ya da yoğun bir trafik bekleniyorsa da kullanışlı bir ifade. Hazırlan, sıkı dur!",
+    "phrase": "Europe _____ for more extreme weather.",
+    "translation": "Hazırlanıyor",
+    "context": "'Brace yourself!' derken bu kelimeyi kullanırsın. Bir şeye hazırlanmak, kendini sıkı tutmak anlamına gelir. Genellikle olumsuz bir duruma karşı önlem alırken duyulur. Hava durumu tahminlerinde de sıkça karşımıza çıkar.",
     "options": [
-      "hope",
-      "wait",
-      "stand",
-      "brace"
+      "waits",
+      "prepares",
+      "braces",
+      "hopes"
     ],
-    "correctAnswer": "brace",
+    "correctAnswer": "braces",
     "category": "TRAVEL",
     "variations": [
-      "We must brace for the upcoming storm.",
-      "The market is bracing for new regulations."
+      "The country _____ for a tough winter season.",
+      "She _____ herself for the upcoming exam results."
     ]
   },
   {
     "id": 126070302,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "Which word describes a new company just starting out?",
-    "translation": "Yeni şirket, girişim",
-    "context": "Bir startup, tıpkı yeni doğmuş bir bebek gibi! Büyük hedefleri olan, genellikle teknoloji odaklı, hızlı büyümeyi hedefleyen genç şirketlere denir. Silikon Vadisi'nde her köşe başında bir startup hikayesi duyman mümkün.",
+    "phrase": "Yeni bir şirketin büyümesi için para toplama sürecine ne ad verilir?",
+    "translation": "Finansman Turu (Yatırımcı bulma süreci)",
+    "context": "Girişimcilik dünyasında, bir şirketin büyümesi ve ürünlerini geliştirmesi için yatırımcılardan sermaye toplama sürecine 'funding round' denir. Unicorn şirketler de bu turlar sayesinde büyür!",
     "options": [
-      "Corporation",
-      "Startup",
-      "Enterprise",
-      "Conglomerate"
+      "Cash flow",
+      "Debt collection",
+      "Funding round",
+      "Market share"
     ],
-    "correctAnswer": "Startup",
+    "correctAnswer": "Funding round",
     "category": "BUSINESS",
     "variations": []
   },
@@ -40,56 +40,53 @@
     "id": 126070303,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "My phone was _____ by someone last night.",
-    "translation": "hacklendi",
-    "context": "Telefonun ya da bilgisayarın 'hack'lenmesi, iznin olmadan başkalarının sistemine girip bilgilerini alması demek. 'Ayvayı yemek' gibi bir şey! Sosyal medya hesabın hack'lenirse, 'Eyvah, biri profilimden garip şeyler paylaşıyor!' diyebilirsin.",
+    "phrase": "A survivor was _____ out alive after eight days.",
+    "translation": "Canlı çıkarıldı",
+    "context": "'Pull out', birini zor bir durumdan, bir enkazın altından çıkarmak veya kurtarmak anlamına gelir. Bir dişin çekilmesi gibi fiziksel bir çekme eylemi için de kullanılır.",
     "options": [
-      "checked",
-      "fixed",
-      "hacked",
-      "cleaned"
+      "brought",
+      "pulled",
+      "taken",
+      "lifted"
     ],
-    "correctAnswer": "hacked",
+    "correctAnswer": "pulled",
     "category": "CASUAL",
     "variations": [
-      "Their website was hacked by a group of activists.",
-      "Be careful not to get your account hacked."
+      "The dentist will _____ out your wisdom tooth.",
+      "They had to _____ out of the race due to injury."
     ]
   },
   {
     "id": 126070304,
-    "type": "QUIZ_COMPLETION",
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "NASA launched a new space _____ to Mars.",
-    "translation": "görev",
-    "context": "'Mission', genellikle zorlu ve önemli bir görevi ifade eder. Hem uzay araştırmaları gibi bilimsel işlerde, hem de 'gizli ajan' filmlerinde çok duyarsın. 'Bu, imkansız bir görevdi!' demek gibi.",
+    "phrase": "Spor haberlerinde, favori takımın beklenmedik bir şekilde kaybetmesi durumunu ne ifade eder?",
+    "translation": "Beklenmedik Mağlubiyet/Hayal Kırıklığı",
+    "context": "Spor dünyasında 'upset', genellikle daha güçlü veya favori gösterilen bir takımın, kendisinden zayıf görünen bir rakibe karşı yenilmesini ifade eder. Bu durum çoğu zaman büyük şaşkınlık yaratır!",
     "options": [
-      "trip",
-      "journey",
-      "mission",
-      "travel"
+      "Victory",
+      "Draw",
+      "Upset",
+      "Triumph"
     ],
-    "correctAnswer": "mission",
+    "correctAnswer": "Upset",
     "category": "MIXED",
-    "variations": [
-      "The team's mission is to finish the project on time.",
-      "She accepted the secret mission."
-    ]
+    "variations": []
   },
   {
     "id": 126070305,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Which term describes a period of unusually hot weather?",
-    "translation": "Sıcak hava dalgası",
-    "context": "Bir 'heatwave' geldiğinde, havuz başı keyfi yapmayanlar için hayat çekilmez olabilir! Termometrelerin tavan yaptığı, klimanın hayat kurtarıcı olduğu, herkesin 'Çok sıcak!' diye şikayet ettiği o dönemdir.",
+    "phrase": "Gemilerin geçtiği dar su yolu ve bölgesel gerilimlerle anılan stratejik bir boğazın İngilizce ismi nedir?",
+    "translation": "Hürmüz Boğazı",
+    "context": "'Strait', iki büyük su kütlesini birleştiren dar su geçidine verilen isimdir, yani boğaz. 'Strait of Hormuz' ise Basra Körfezi'nin girişinde yer alan ve uluslararası deniz ticareti için hayati öneme sahip stratejik bir noktadır.",
     "options": [
-      "Cold spell",
-      "Heatwave",
-      "Mild weather",
-      "Breeze"
+      "Ocean current",
+      "Strait of Hormuz",
+      "Sea lane",
+      "Canal path"
     ],
-    "correctAnswer": "Heatwave",
+    "correctAnswer": "Strait of Hormuz",
     "category": "TRAVEL",
     "variations": []
   },
@@ -97,131 +94,131 @@
     "id": 126070306,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Mark Zuckerberg said AI agents hadn't _____ as quickly as he hoped.",
-    "translation": "ilerlemişti",
-    "context": "'Progress' etmek, bir konuda adım adım ileri gitmek, gelişmek demektir. Bir projede ilerleme kaydetmek gibi, ya da 'Hayatta iyi bir ilerleme kaydettin!' demek gibi. Sabır, azim ve çalışma gerektirir.",
+    "phrase": "Many companies try to protect their data from cyber-attacks and _____.",
+    "translation": "Casus yazılım",
+    "context": "'Spyware', bilgisayarına veya telefonuna sızıp kişisel bilgilerini (şifreler, kredi kartı bilgileri, gezinme alışkanlıkları) izinsiz toplayan kötü niyetli yazılımlardır. Dijital dünyada her an tetikte olmak lazım!",
     "options": [
-      "slowed",
-      "paused",
-      "progressed",
-      "failed"
+      "viruses",
+      "adware",
+      "spyware",
+      "malware"
     ],
-    "correctAnswer": "progressed",
+    "correctAnswer": "spyware",
     "category": "BUSINESS",
     "variations": [
-      "The negotiations progressed smoothly.",
-      "We need to see more progress on this issue."
+      "Be careful not to download any suspicious _____.",
+      "His phone was hacked with advanced _____."
     ]
   },
   {
     "id": 126070307,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "What does it mean when a sports team 'upsets' a stronger opponent?",
-    "translation": "Favori olmayan takımın kazanması",
-    "context": "Bir spor maçında 'upset', herkesin beklediğinin aksine zayıf görülen bir takımın favoriyi yenmesi demektir. Tam bir 'Davut ve Golyat' hikayesi! 'Vay canına, kimse beklemiyordu!' nidaları arasında yaşanır.",
+    "phrase": "Scotland's first gull ranger wants to _____ their image.",
+    "translation": "Geliştirmek / Yükseltmek",
+    "context": "'Boost', bir şeyi geliştirmek, yükseltmek, güçlendirmek veya artırmak anlamına gelir. Motive etmek, moral vermek için de kullanılabilir. Örneğin, bir enerji içeceği 'enerjini boost eder'!",
     "options": [
-      "To lose expectedly to a weaker opponent.",
-      "To tie the game with an equal opponent.",
-      "To win unexpectedly against a favored opponent.",
-      "To withdraw from the competition."
+      "damage",
+      "hide",
+      "harm",
+      "boost"
     ],
-    "correctAnswer": "To win unexpectedly against a favored opponent.",
+    "correctAnswer": "boost",
     "category": "CASUAL",
-    "variations": []
+    "variations": [
+      "This new strategy will _____ our sales figures.",
+      "She needs something to _____ her confidence before the presentation."
+    ]
   },
   {
     "id": 126070308,
-    "type": "QUIZ_COMPLETION",
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "After the earthquake, a _____ was pulled out alive.",
-    "translation": "kurtulan",
-    "context": "Bir 'survivor', zor bir durumdan, kazadan, felaketten canlı kurtulan kişi demek. Adeta bir kahraman! 'Survivor' kelimesi bize hayatta kalma gücünü ve umudu hatırlatır. Bazen de televizyondaki adadan kimin sağ çıkacağını merak ettiğimiz o program.",
+    "phrase": "Bir uzay teleskobunu düşmekten kurtarmak için başlatılan eyleme ne denir?",
+    "translation": "Görev",
+    "context": "'Mission', genellikle önemli ve özel bir amacı olan planlı bir görevi veya operasyonu ifade eder. Uzay araştırmaları, askeri operasyonlar veya bir şirketin hedefleri için kullanılır. 'Mission Impossible' filmini düşün!",
     "options": [
-      "victim",
-      "patient",
-      "survivor",
-      "rescued"
+      "Journey",
+      "Excursion",
+      "Tour",
+      "Mission"
     ],
-    "correctAnswer": "survivor",
+    "correctAnswer": "Mission",
     "category": "MIXED",
-    "variations": [
-      "She is a cancer survivor.",
-      "Many survivors shared their stories."
-    ]
+    "variations": []
   },
   {
     "id": 126070309,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "What is an 'uneasy calm' primarily used to describe?",
-    "translation": "Gergin bir sükunet, kırılgan barış",
-    "context": "'Uneasy calm', dışarıdan her şey yolundaymış gibi görünse de içeride bir gerginliğin kol gezdiği durumu anlatır. Tıpkı fırtına öncesi sessizlik gibi; her an her şey patlayabilir. Bir 'bıçak sırtı' durumudur.",
+    "phrase": "The heatwave caused 2,025 _____ deaths at its peak.",
+    "translation": "Beklenenden fazla ölüm",
+    "context": "'Excess deaths', beklenenden daha yüksek ölüm oranlarını ifade eder. Bir felaket, salgın veya olağanüstü hava durumu gibi sıra dışı olaylar sonucu, normalde beklenenden daha fazla kişinin hayatını kaybetmesi durumunda kullanılır. Medyada sıkça duyarsın.",
     "options": [
-      "A peaceful and relaxed atmosphere.",
-      "A tense situation where peace could be broken at any moment.",
-      "A period of complete silence and tranquility.",
-      "A sudden and unexpected outbreak of conflict."
+      "additional",
+      "extra",
+      "excess",
+      "surplus"
     ],
-    "correctAnswer": "A tense situation where peace could be broken at any moment.",
+    "correctAnswer": "excess",
     "category": "TRAVEL",
-    "variations": []
+    "variations": [
+      "The report highlighted a significant _____ mortality rate.",
+      "There was an _____ amount of rainfall last month."
+    ]
   },
   {
     "id": 126070310,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The politician refused to _____ his sources to the reporter.",
-    "translation": "ifşa etmek",
-    "context": "'Divulge' etmek, genellikle gizli kalması gereken bir bilgiyi açıklamak, ifşa etmek demektir. Tıpkı 'dedikoduyu yaymak' ama daha ciddi bir tonla! Bir sırrı yanlışlıkla 'divulge' edersen, başın belaya girebilir.",
-    "options": [
-      "hide",
-      "keep",
-      "divulge",
-      "share"
-    ],
-    "correctAnswer": "divulge",
-    "category": "BUSINESS",
-    "variations": [
-      "He wouldn't divulge the details of the secret project.",
-      "Please don't divulge any personal information."
-    ]
-  },
-  {
-    "id": 126070311,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "What does it mean to 'scale a building'?",
-    "translation": "Bir binanın tepesine tırmanmak",
-    "context": "Bir binayı 'scale' etmek, örümcek adam gibi yukarı tırmanmak demektir! Genellikle izinsiz, tehlikeli ve 'macera' arayışında olanlar yapar. Sonuç genellikle ya alkış ya da karakol olur.",
+    "phrase": "'Raising doubts over data' ifadesi, bildirilen satış verileri hakkında ne anlama gelir?",
+    "translation": "Verilerin doğru olmayabileceği veya şüpheli olduğu",
+    "context": "'Raise doubts', bir şeyin doğruluğu, geçerliliği veya dürüstlüğü hakkında şüphe uyandırmak, soru işaretleri yaratmak demektir. Özellikle iş dünyasında veya araştırma sonuçlarında bir veri seti sorgulandığında kullanılır.",
     "options": [
-      "To measure the size of a building.",
-      "To draw a detailed plan of a building.",
-      "To climb to the top of a building.",
-      "To demolish a building safely."
+      "It confirms their accuracy",
+      "It proves their validity",
+      "It implies they are unreliable",
+      "It supports the claims"
     ],
-    "correctAnswer": "To climb to the top of a building.",
-    "category": "CASUAL",
+    "correctAnswer": "It implies they are unreliable",
+    "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126070312,
+    "id": 126070311,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "His name is high on the transfer _____ for the new season.",
-    "translation": "kısa liste",
-    "context": "Bir 'shortlist', birçok aday arasından yapılan ilk elemeyle seçilmiş, az sayıda kişinin yer aldığı kısa listedir. Yani, finale yakınsın demektir! İş başvurularında ya da transfer dönemlerinde çok duyarsın. 'Son düzlüğe girdik!' gibi düşünebilirsin.",
+    "phrase": "The couple who _____ the building with a banner now face charges.",
+    "translation": "Tırmandı",
+    "context": "'Scale' fiili, bir şeye tırmanmak, özellikle de yüksek bir yapıya (duvar, dağ, bina) tırmanmak anlamına gelir. Dağcılar bir zirveye 'scale' eder. Mecazi olarak da bir zorluğun üstesinden gelmek için kullanılabilir.",
     "options": [
-      "longlist",
-      "candidate list",
-      "shortlist",
-      "reserve list"
+      "jumped",
+      "walked",
+      "climbed",
+      "scaled"
     ],
-    "correctAnswer": "shortlist",
-    "category": "MIXED",
+    "correctAnswer": "scaled",
+    "category": "CASUAL",
     "variations": [
-      "The candidate made it onto the interview shortlist.",
-      "She was on the shortlist for the award."
+      "They managed to _____ the high wall despite the difficulties.",
+      "The company aims to _____ new heights in market share."
     ]
+  },
+  {
+    "id": 126070312,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Mark Zuckerberg'in 'AI agents haven't progressed as quickly as hoped' ifadesindeki 'progressed' kelimesi ne anlama gelir?",
+    "translation": "İlerleme kaydetmek, gelişmek",
+    "context": "'Progress', bir konuda ilerleme kaydetmek, gelişmek, daha iyi bir seviyeye ulaşmak anlamına gelir. Hem teknolojik gelişmelerde hem de kişisel gelişimde sıkça kullanılır. 'Progress report' (ilerleme raporu) da buradan gelir.",
+    "options": [
+      "Stopped",
+      "Declined",
+      "Regressed",
+      "Progressed"
+    ],
+    "correctAnswer": "Progressed",
+    "category": "MIXED",
+    "variations": []
   }
 ]
