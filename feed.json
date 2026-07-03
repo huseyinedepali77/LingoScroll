@@ -1,227 +1,242 @@
 [
   {
-    "id": 126070201,
+    "id": 126070301,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "After the earthquake, a brave _____ was pulled out alive.",
-    "translation": "Depremden sonra cesur bir kurtulan canlı olarak çıkarıldı.",
-    "context": "Bu kelime 'kurtulan' veya 'hayatta kalan kişi' demek. Genellikle doğal afetler, kazalar veya zorlu durumlar sonrası kullanılır. Mesela, 'That cat is a real survivor, it fell from the third floor!' (O kedi tam bir kurtulan, üçüncü kattan düştü!) diyebilirsin.",
+    "phrase": "The ship needs to pass through the narrow _____",
+    "translation": "Boğaz (Dar geçit)",
+    "context": "Dünya haritasına baktığında karaların arasından incecik bir su yolu görürsün; işte o yerlere 'strait' denir. Gemilerin bazen bu dar yollardan geçmesi gerekir. Boğaz geçitleri stratejik ve önemli yerlerdir, tıpkı İstanbul Boğazı gibi!",
     "options": [
-      "survivor",
-      "visitor",
-      "worker",
-      "student"
+      "strait",
+      "mountain",
+      "desert",
+      "forest"
     ],
-    "correctAnswer": "survivor",
-    "category": "CASUAL",
+    "correctAnswer": "strait",
+    "category": "TRAVEL",
     "variations": [
-      "The survivor told us his amazing story.",
-      "She is a strong survivor after the flood."
+      "The Strait of Hormuz is a crucial waterway.",
+      "They sailed across the strait to the next island."
     ]
   },
   {
-    "id": 126070202,
+    "id": 126070302,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Meta quietly _____ a new gaming app called Pocket.",
-    "translation": "Meta sessizce Pocket adlı yeni bir oyun uygulamasını piyasaya sürdü.",
-    "context": "Bir şirketin yeni bir ürün veya hizmeti 'piyasaya sürmesi', 'hizmete açması' anlamına gelir. 'Launch' kelimesi aynı zamanda uzaya roket fırlatmak için de kullanılır, tıpkı SpaceX'in yaptığı gibi!",
-    "options": [
-      "launched",
-      "bought",
-      "closed",
-      "fixed"
-    ],
-    "correctAnswer": "launched",
-    "category": "BUSINESS",
-    "variations": [
-      "They plan to launch a new product next month.",
-      "The company will launch its website soon."
-    ]
-  },
-  {
-    "id": 126070203,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "Which of these words refers to a period of unusually hot weather?",
-    "translation": "Bu kelimelerden hangisi alışılmadık derecede sıcak bir hava dönemini ifade eder?",
-    "context": "'Heatwave' dediğimizde, termometrelerin patlayacak gibi olduğu, klimasız evde yaşamanın bir eziyet olduğu, bunaltıcı sıcak hava dalgasından bahsediyoruz! Özellikle yaz aylarında tatil planlarını alt üst edebilir, aman dikkat!",
+    "phrase": "We're expecting a major _____ this week.",
+    "translation": "Sıcak hava dalgası",
+    "context": "Yazın bunaltıcı sıcaklar peş peşe geldiğinde, hani böyle nefes almanın bile zorlaştığı o günler olur ya, işte o duruma 'heatwave' deriz. Klimaları sonuna kadar açma zamanı!",
     "options": [
       "heatwave",
-      "snowstorm",
-      "rainy day",
-      "gentle breeze"
+      "cold spell",
+      "rainy season",
+      "windy day"
     ],
     "correctAnswer": "heatwave",
-    "category": "TRAVEL",
-    "variations": []
+    "category": "CASUAL",
+    "variations": [
+      "France recorded many deaths during the recent heatwave.",
+      "A heatwave can be dangerous for elderly people."
+    ]
   },
   {
-    "id": 126070204,
+    "id": 126070303,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "She was the only player _____ after a long match.",
-    "translation": "Uzun bir maçtan sonra kalan tek oyuncu oydu.",
-    "context": "'Last standing' demek, bir gruptan veya yarışmadan geriye kalan tek kişi veya şey olmak demek. Film sahnelerinde kahramanımız tüm düşmanları alt ettiğinde 'He was the last man standing!' diye bağırabilirsin!",
+    "phrase": "Don't forget to _____ for the job by Friday.",
+    "translation": "Başvurmak",
+    "context": "Yeni bir iş, okul bursu, hatta bir yarışma için form doldurup 'ben buradayım!' dediğin o hareketin İngilizcesi 'apply'. Son başvuru tarihini kaçırma, yoksa treni kaçırırsın!",
     "options": [
-      "standing",
-      "sitting",
-      "walking",
-      "running"
+      "apply",
+      "ignore",
+      "cancel",
+      "delay"
     ],
-    "correctAnswer": "standing",
-    "category": "MIXED",
-    "variations": [
-      "Who is the last one standing in the competition?",
-      "He was the last man standing on the island."
-    ]
-  },
-  {
-    "id": 126070205,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The city suffered a _____ attack, causing widespread damage.",
-    "translation": "Şehir yaygın hasara neden olan büyük bir saldırı yaşadı.",
-    "context": "'Massive' kelimesi, 'çok büyük', 'devasa' veya 'çok etkili' anlamlarına gelir. Bir saldırı için kullanıldığında, büyüklüğünü ve yıkıcılığını vurgular. Aynı zamanda 'Bugün massive bir kahvaltı yaptım!' diyerek çok büyük bir kahvaltıyı da anlatabilirsin!",
-    "options": [
-      "massive",
-      "tiny",
-      "light",
-      "small"
-    ],
-    "correctAnswer": "massive",
-    "category": "CASUAL",
-    "variations": [
-      "The company made a massive investment.",
-      "They built a massive bridge over the river."
-    ]
-  },
-  {
-    "id": 126070206,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "What does 'AI hype' refer to in the business world?",
-    "translation": "İş dünyasında 'AI hype' neyi ifade eder?",
-    "context": "'AI hype', yapay zekanın (AI) potansiyeli hakkında bazen abartılı beklentilerin veya heyecanın olduğu durumu anlatır. Herkes AI'dan bahseder, her şeye AI katılır ama gerçek faydaları bazen bu 'hype'ın gerisinde kalabilir. 'Abartı' diyebiliriz yani!",
-    "options": [
-      "overblown excitement about AI",
-      "fear of AI's future",
-      "actual development of AI",
-      "lack of interest in AI"
-    ],
-    "correctAnswer": "overblown excitement about AI",
+    "correctAnswer": "apply",
     "category": "BUSINESS",
-    "variations": []
+    "variations": [
+      "Applications for the startup battle close soon.",
+      "You should apply for a new passport."
+    ]
   },
   {
-    "id": 126070207,
+    "id": 126070304,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The travel app had to pay a large _____ due to hidden fees.",
-    "translation": "Seyahat uygulaması, gizli ücretler nedeniyle büyük bir uzlaşma bedeli ödemek zorunda kaldı.",
-    "context": "'Settlement' kelimesi, genellikle yasal bir anlaşmazlıkta tarafların mahkemeye gitmeden uzlaşarak bir sonuca varması demektir. Ortada bir 'hata' varsa, bunun bedelini ödemeyi kabul etmektir. Bir nevi 'sulh olmak' gibi düşünebilirsin.",
+    "level": "BEGINNER",
+    "phrase": "Nasa launched a special _____ to save the telescope.",
+    "translation": "Görev",
+    "context": "Bir hedefe ulaşmak için yapılan planlı, önemli işlere 'mission' deriz. Uzaya fırlatılan roketlerden tut, bir projeyi tamamlamaya kadar her şey bir 'mission' olabilir. Senin günün görevi ne?",
     "options": [
-      "settlement",
+      "mission",
       "vacation",
-      "bonus",
-      "discount"
+      "party",
+      "meeting"
     ],
-    "correctAnswer": "settlement",
-    "category": "TRAVEL",
+    "correctAnswer": "mission",
+    "category": "MIXED",
     "variations": [
-      "They reached a settlement after long negotiations.",
-      "The company offered a settlement to the customers."
+      "Their mission is to explore Mars.",
+      "The team completed its mission successfully."
     ]
   },
   {
-    "id": 126070208,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "id": 126070305,
+    "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "What does it mean when a team 'stutters' in a game?",
-    "translation": "Bir takımın bir oyunda 'tökezlemesi' ne anlama gelir?",
-    "context": "'Stutter' kelimesi, genellikle konuşurken takılmak veya kekelemek anlamına gelir. Ama sporda kullanıldığında, bir takımın iyi gitmezken 'sendelemesi', 'performansının düşmesi' veya 'takılıp kalması' demektir. Mesela favori takımın beklenmedik bir şekilde puan kaybederse 'They started to stutter!' diyebilirsin.",
+    "phrase": "Europe must _____ more extreme weather.",
+    "translation": "Hazırlıklı olmak, karşılamaya hazırlanmak",
+    "context": "Bir fırtına mı geliyor, yoksa zorlu bir sınav mı? Kötü bir şeyin geleceğini bildiğin zaman kendini zihnen veya fiziksel olarak hazırlamaya 'brace for' denir. Kemerleri bağla ve sağlam dur!",
     "options": [
-      "They perform poorly or hesitate.",
-      "They score many points quickly.",
-      "They dominate the game easily.",
-      "They win the game smoothly."
+      "brace for",
+      "ignore",
+      "forget about",
+      "relax from"
     ],
-    "correctAnswer": "They perform poorly or hesitate.",
+    "correctAnswer": "brace for",
     "category": "MIXED",
-    "variations": []
+    "variations": [
+      "We must brace for a difficult economic period.",
+      "The city is bracing for a major snowstorm."
+    ]
   },
   {
-    "id": 126070209,
+    "id": 126070306,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The church decided to _____ the rebellious members from its community.",
-    "translation": "Kilise, asi üyeleri cemaatinden aforoz etmeye karar verdi.",
-    "context": "'Excommunicate' kelimesi, özellikle dini bir kurumun (genellikle Kilise) bir kişiyi veya grubu, kurallara uymadığı için topluluğundan resmen çıkarması, 'aforoz etmesi' demektir. Bu, o kişi veya grubun artık o topluluğun bir parçası olmadığı anlamına gelir. Çok ciddi bir yaptırımdır!",
+    "level": "INTERMEDIATE",
+    "phrase": "His phone was _____ with Pegasus spyware.",
+    "translation": "Hacklendi",
+    "context": "Telefonun, bilgisayarın veya herhangi bir dijital cihazın izinsizce ele geçirilip bilgilerinin çalınmasına 'hacked' olmak denir. Sanki biri kapalı kapıyı kırıp içeri girmiş gibi. Dikkatli ol, parolalarını güçlü tut!",
     "options": [
-      "excommunicate",
-      "welcome",
-      "invite",
-      "promote"
+      "hacked",
+      "repaired",
+      "updated",
+      "charged"
     ],
-    "correctAnswer": "excommunicate",
+    "correctAnswer": "hacked",
+    "category": "BUSINESS",
+    "variations": [
+      "Many companies face the risk of being hacked.",
+      "Their social media account was hacked last night."
+    ]
+  },
+  {
+    "id": 126070307,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The survivor was _____ alive after eight days.",
+    "translation": "Çıkarıldı (canlı olarak)",
+    "context": "Bir enkazdan, zor bir durumdan veya sıkışık bir yerden birini kurtarıp dışarı çıkarmaya 'pull out' denir. Özellikle kurtarma operasyonlarında sıkça duyarsın. Düşünsene, 8 gün sonra canlı çıkmak ne mucize!",
+    "options": [
+      "pulled out",
+      "pushed in",
+      "thrown away",
+      "left behind"
+    ],
+    "correctAnswer": "pulled out",
     "category": "CASUAL",
     "variations": [
-      "He was excommunicated for his controversial views.",
-      "The bishop can excommunicate members of the church."
+      "Rescue teams pulled out many people from the rubble.",
+      "He pulled out a chair for her."
     ]
   },
   {
-    "id": 126070210,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "What is 'insider trading' in the financial market?",
-    "translation": "Finans piyasasında 'içeriden öğrenenlerin ticareti' (insider trading) nedir?",
-    "context": "'Insider trading', bir kişinin halka açık olmayan, gizli bilgilere dayanarak şirket hisselerini alıp satmasıdır. Yani, 'içeriden bilgi sızdırmak' ve bu bilgiyi haksız kazanç sağlamak için kullanmaktır. Bu yasa dışıdır ve etik dışıdır çünkü diğer yatırımcıları dezavantajlı duruma sokar. 'Kopya çekip sınava girmek' gibi düşünebilirsin, ama çok daha büyük sonuçları var!",
-    "options": [
-      "trading with confidential information",
-      "buying stocks publicly",
-      "selling company products",
-      "investing in new startups"
-    ],
-    "correctAnswer": "trading with confidential information",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126070211,
+    "id": 126070308,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The large cargo ship got _____ in the narrow strait.",
-    "translation": "Büyük kargo gemisi dar boğazda sıkışıp kaldı.",
-    "context": "'Got stuck' demek, bir şeyin bir yerde hareket edemez hale gelmesi, 'takılıp kalması' veya 'sıkışması' demektir. Bir trafikte kalmak gibi basit bir durumdan, bir geminin boğazda mahsur kalması gibi büyük olaylara kadar kullanılabilir. 'My car got stuck in the mud!' (Arabam çamura saplandı!) diyebilirsin.",
+    "level": "INTERMEDIATE",
+    "phrase": "Several ships were _____ in the Strait of Hormuz.",
+    "translation": "El konuldu, zapt edildi",
+    "context": "Bir şeye devlet gücüyle veya yasa dışı yollarla el konulmasına, zapt edilmesine 'seized' denir. Haberlerde gümrük kaçakçılığı ya da korsanlık olaylarında çokça duyarsın. O gemi artık senin değil!",
     "options": [
-      "stuck",
+      "seized",
       "launched",
-      "sailed",
-      "anchored"
+      "docked",
+      "repaired"
     ],
-    "correctAnswer": "stuck",
+    "correctAnswer": "seized",
     "category": "TRAVEL",
     "variations": [
-      "The door got stuck and wouldn't open.",
-      "I got stuck in traffic for two hours."
+      "Police seized a large amount of illegal goods.",
+      "The government seized assets of the corrupt official."
     ]
   },
   {
-    "id": 126070212,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "id": 126070309,
+    "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "What does it mean to 'face charges' in a legal context?",
-    "translation": "Hukuki bir bağlamda 'suçlamalarla yüzleşmek' ne anlama gelir?",
-    "context": "'Face charges' demek, bir suç işlediği iddiasıyla resmen itham edilmek, 'suçlamalarla karşılaşmak' demektir. Yani, 'mahkemeye çıkmak' ve yapılan iddialara karşı kendini savunmak zorunda kalmak. Bu, genellikle bir polis soruşturması sonrası olan bir durumdur. 'Gözaltına alınıp suçlamalarla yüzleşmek' gibi düşünebilirsin.",
+    "phrase": "Scotland's gull ranger wants to _____ their image.",
+    "translation": "Geliştirmek, artırmak, imajını iyileştirmek",
+    "context": "Bir şeyin seviyesini, miktarını veya itibarını yukarı çekmek, daha iyi hale getirmek anlamına gelir. Tıpkı bir sporcunun moralini 'boost' etmek gibi, ya da martıların halk arasındaki 'imajını boost' etmek gibi! Küçük bir dokunuşla büyük fark yaratmak.",
     "options": [
-      "to be formally accused of a crime",
-      "to pay a fine willingly",
-      "to win a legal case",
-      "to make a public statement"
+      "boost",
+      "diminish",
+      "ignore",
+      "maintain"
     ],
-    "correctAnswer": "to be formally accused of a crime",
+    "correctAnswer": "boost",
+    "category": "CASUAL",
+    "variations": [
+      "This new policy will boost the economy.",
+      "The company launched a campaign to boost sales."
+    ]
+  },
+  {
+    "id": 126070310,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The reporter refused to _____ his sources.",
+    "translation": "Açıklamak, ifşa etmek",
+    "context": "Gizli kalması gereken bir bilgiyi, sırrı veya kaynağı başkalarıyla paylaşmaya 'divulge' denir. Özellikle gazetecilikte 'kaynağını ifşa etmemek' önemli bir ilkedir. Bazen ağzından kaçırırsın ya da kasten açıklarsın, ikisi de 'divulge' olabilir!",
+    "options": [
+      "divulge",
+      "conceal",
+      "protect",
+      "hide"
+    ],
+    "correctAnswer": "divulge",
     "category": "MIXED",
-    "variations": []
+    "variations": [
+      "The report did not divulge any sensitive information.",
+      "She promised not to divulge the secret."
+    ]
+  },
+  {
+    "id": 126070311,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Tchouameni is on Man Utd's midfield _____",
+    "translation": "Kısa liste, aday listesi",
+    "context": "Bir işe alım sürecinde, bir ödül için aday seçiminde veya bir sporcu transferinde, başvuran ya da düşünülen birçok kişi arasından en uygun görülen ve üzerinde durulan kişilerin listesine 'shortlist' denir. Yani finale kalanlar!",
+    "options": [
+      "shortlist",
+      "longlist",
+      "discard",
+      "reject"
+    ],
+    "correctAnswer": "shortlist",
+    "category": "BUSINESS",
+    "variations": [
+      "She was on the shortlist for the CEO position.",
+      "The committee drew up a shortlist of candidates."
+    ]
+  },
+  {
+    "id": 126070312,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The couple _____ the Empire State Building.",
+    "translation": "Tırmandı, ölçeklendirdi (burada 'tırmandı' anlamında)",
+    "context": "Bir duvar, dağ veya yüksek bir bina gibi dikey bir yüzeye tırmanmak eylemine 'scale' denir. Yani normal yoldan gitmeyip, riskli bir şekilde yukarı çıkmak. Empire State Binası'na tırmanmak mı? Vay canına, gerçekten cesurca!",
+    "options": [
+      "scaled",
+      "descended",
+      "avoided",
+      "walked around"
+    ],
+    "correctAnswer": "scaled",
+    "category": "TRAVEL",
+    "variations": [
+      "They scaled the mountain peak in record time.",
+      "The climber scaled the cliff face with ease."
+    ]
   }
 ]
