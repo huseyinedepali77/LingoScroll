@@ -23,8 +23,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // Durum çubuğunu (status bar) kalıcı olarak gizlemek için Fullscreen bayrağı ekle
-        window.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
+        enableEdgeToEdge()
         
         // Tam ekran yapmak için üst bildirim barını gizliyoruz
         val controller = WindowCompat.getInsetsController(window, window.decorView)
