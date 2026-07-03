@@ -403,6 +403,7 @@ fun PracticeScreen(
     var showSettingsDialog by remember { mutableStateOf(false) }
     var showResetConfirmation by remember { mutableStateOf(false) }
     var showLeaderboardDialog by remember { mutableStateOf(false) }
+    var showCategorySelector by remember { mutableStateOf(false) }
 
     val isImeVisible = WindowInsets.isImeVisible
     LaunchedEffect(isImeVisible) {
@@ -441,10 +442,13 @@ fun PracticeScreen(
 
     Scaffold(
         bottomBar = {
-            if (!isImeVisible) {
+            if (showCategorySelector && !isImeVisible) {
                 SurvivalBottomNavigation(
                     activeCategory = state.currentCategory,
-                    onCategoryChange = { viewModel.changeCategory(it) }
+                    onCategoryChange = { 
+                        viewModel.changeCategory(it)
+                        showCategorySelector = false
+                    }
                 )
             }
         }
@@ -469,7 +473,8 @@ fun PracticeScreen(
                     state = state,
                     xp = viewModel.getUserXp(),
                     rank = viewModel.getUserRank(),
-                    onSettingsClick = { showSettingsDialog = true }
+                    onSettingsClick = { showSettingsDialog = true },
+                    onCategoryToggleClick = { showCategorySelector = !showCategorySelector }
                 )
                 Spacer(modifier = Modifier.height(16.dp))
 
@@ -487,7 +492,7 @@ fun PracticeScreen(
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
                         Text(
-                            text = "Senaryo (${state.currentItem.category})",
+                            text = "Senaryo",
                             fontSize = 13.sp,
                             fontWeight = FontWeight.Bold,
                             color = SurvivalDanger,
@@ -756,7 +761,8 @@ fun PracticeHeader(
     state: MainScreenUiState.Practice,
     xp: Int,
     rank: String,
-    onSettingsClick: () -> Unit
+    onSettingsClick: () -> Unit,
+    onCategoryToggleClick: () -> Unit
 ) {
     Column(
         modifier = Modifier.fillMaxWidth(),
@@ -830,6 +836,14 @@ fun PracticeHeader(
                     fontWeight = FontWeight.Bold,
                     color = SurvivalPrimary
                 )
+                Spacer(modifier = Modifier.width(12.dp))
+                // Kategori Seçimi Menüsü Butonu
+                IconButton(
+                    onClick = onCategoryToggleClick,
+                    modifier = Modifier.size(24.dp)
+                ) {
+                    Text("🧭", fontSize = 18.sp)
+                }
                 Spacer(modifier = Modifier.width(12.dp))
                 // Ayarlar Çark Butonu
                 IconButton(
@@ -1009,7 +1023,7 @@ fun SkeletonMechanicView(
         Box(
             modifier = Modifier
                 .fillMaxWidth()
-                .heightIn(min = 96.dp)
+                .heightIn(min = 110.dp)
                 .clickable {
                     try {
                         focusRequester.requestFocus()
@@ -1026,7 +1040,8 @@ fun SkeletonMechanicView(
                 fontWeight = FontWeight.Bold,
                 color = SurvivalText,
                 textAlign = TextAlign.Center,
-                letterSpacing = 4.sp
+                letterSpacing = 4.sp,
+                lineHeight = 36.sp
             )
         }
         
