@@ -337,6 +337,13 @@ class MainScreenViewModel(private val context: Context) : ViewModel() {
     // Test Sonrası Eğitime Başla
     fun startLearningAfterStressTest() {
         val category = prefs.getUserStyle()
+        val stage = prefs.getCurrentStage()
+        if (stage > 1) {
+            val catchUpXp = (stage - 1) * 90
+            val catchUpScore = (stage - 1) * 800
+            prefs.addXp(catchUpXp)
+            prefs.addCumulativeScore(catchUpScore)
+        }
         startStageSession(category)
     }
 
@@ -833,6 +840,13 @@ class MainScreenViewModel(private val context: Context) : ViewModel() {
     }
 
     fun resetProgress() {
+        val savedNickname = prefs.getUserNickname()
+        if (savedNickname != null) {
+            viewModelScope.launch(Dispatchers.IO) {
+                leaderboardRepository.deleteScore(savedNickname)
+            }
+        }
+
         prefs.clearUserProgress()
         prefs.clearRecentSeenIds()
         pendingCardUpdates.clear()
@@ -848,6 +862,10 @@ class MainScreenViewModel(private val context: Context) : ViewModel() {
     }
 
     // --- Aşama 2: Titreşim ve Oyunlaştırma Getters/Setters ---
+    fun getCumulativeScore(): Int {
+        return prefs.getCumulativeScore()
+    }
+
     fun isHapticEnabled(): Boolean {
         return prefs.isHapticEnabled()
     }
@@ -1010,6 +1028,17 @@ class MainScreenViewModel(private val context: Context) : ViewModel() {
         }
     }
 
+    private fun finalizeQuiz(finalScore: Int, finalCorrectCount: Int) {
+        val isPassed = finalCorrectCount >= 5
+        if (isPassed) {
+            prefs.addCumulativeScore(finalScore)
+            val savedNickname = prefs.getUserNickname()
+            if (savedNickname != null) {
+                submitLeaderboardScore(savedNickname, prefs.getCumulativeScore())
+            }
+        }
+    }
+
     private fun startRedCodeTimer() {
         redCodeTimerJob?.cancel()
         redCodeTimerJob = viewModelScope.launch(Dispatchers.Main) {
@@ -1027,14 +1056,7 @@ class MainScreenViewModel(private val context: Context) : ViewModel() {
                         showSummary = true
                     )
                     
-                    // Otomatik skor gönderme mantığı:
-                    // Eğer 5 veya daha fazla doğru yapıldıysa ve önceden kaydedilmiş kullanıcı adı varsa arka planda otomatik gönder
-                    if (finalCorrect >= 5) {
-                        val savedNickname = prefs.getUserNickname()
-                        if (savedNickname != null) {
-                            submitLeaderboardScore(savedNickname, finalScore)
-                        }
-                    }
+                    finalizeQuiz(finalScore, finalCorrect)
                     break
                 } else {
                     _uiState.value = currentState.copy(timeLeftSeconds = nextTime)
@@ -1177,12 +1199,14 @@ class MainScreenViewModel(private val context: Context) : ViewModel() {
             val secondsLeft = currentState.timeLeftSeconds
             val timeBonus = secondsLeft * 20
             val finalScore = currentState.totalScore + timeBonus
+            val finalCorrect = currentState.correctCount
             
             _uiState.value = currentState.copy(
                 totalScore = finalScore,
                 showSummary = true
             )
             redCodeTimerJob?.cancel()
+            finalizeQuiz(finalScore, finalCorrect)
             return
         }
         
@@ -1237,7 +1261,7 @@ class MainScreenViewModel(private val context: Context) : ViewModel() {
             val entry = LeaderboardEntry(
                 uid = uid,
                 name = name,
-                score = score,
+                score = prefs.getCumulativeScore(),
                 rank = rank,
                 timestamp = System.currentTimeMillis()
             )

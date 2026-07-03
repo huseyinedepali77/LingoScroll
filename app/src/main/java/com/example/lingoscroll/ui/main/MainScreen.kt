@@ -1747,24 +1747,32 @@ fun RedCodeSurvivalScreen(
                         )
                         Spacer(modifier = Modifier.height(16.dp))
                         Text(
-                            text = "Toplam Skor:",
+                            text = "Toplam Kümülatif Skor:",
                             fontSize = 14.sp,
                             color = Color.LightGray
                         )
                         Text(
-                            text = "${state.totalScore} Puan",
+                            text = "${viewModel.getCumulativeScore()} Puan",
                             fontSize = 28.sp,
                             fontWeight = FontWeight.Black,
                             color = Color(0xFF81C784)
                         )
-                        if (state.timeLeftSeconds > 0) {
+                        if (isPassed) {
                             Text(
-                                text = "(Süre Bonusu: +${state.timeLeftSeconds * 20} Puan ⏱️)",
+                                text = "Bu Sınavdan: +${state.totalScore} Puan",
                                 fontSize = 12.sp,
-                                color = Color(0xFF81C784),
-                                fontWeight = FontWeight.Bold,
+                                color = Color.Gray,
                                 modifier = Modifier.padding(top = 4.dp)
                             )
+                            if (state.timeLeftSeconds > 0) {
+                                Text(
+                                    text = "(Süre Bonusu: +${state.timeLeftSeconds * 20} Puan ⏱️)",
+                                    fontSize = 12.sp,
+                                    color = Color(0xFF81C784),
+                                    fontWeight = FontWeight.Bold,
+                                    modifier = Modifier.padding(top = 2.dp)
+                                )
+                            }
                         }
                         Spacer(modifier = Modifier.height(16.dp))
                         

@@ -14,6 +14,7 @@ data class LeaderboardEntry(
 interface LeaderboardRepository {
     suspend fun submitScore(entry: LeaderboardEntry): Boolean
     suspend fun getTopScores(limit: Int): List<LeaderboardEntry>
+    suspend fun deleteScore(nickname: String): Boolean
 }
 
 class FirebaseLeaderboardRepository : LeaderboardRepository {
@@ -22,6 +23,15 @@ class FirebaseLeaderboardRepository : LeaderboardRepository {
     override suspend fun submitScore(entry: LeaderboardEntry): Boolean {
         return try {
             database.child(entry.name).setValue(entry)
+            true
+        } catch (e: Exception) {
+            false
+        }
+    }
+
+    override suspend fun deleteScore(nickname: String): Boolean {
+        return try {
+            database.child(nickname).removeValue().await()
             true
         } catch (e: Exception) {
             false

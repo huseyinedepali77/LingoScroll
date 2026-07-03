@@ -264,6 +264,19 @@ class PreferencesManager(context: Context) {
         prefs.edit().putString("user_nickname", name).apply()
     }
 
+    fun getCumulativeScore(): Int {
+        return prefs.getInt("total_survival_score", 0)
+    }
+
+    fun addCumulativeScore(score: Int) {
+        val current = getCumulativeScore()
+        prefs.edit().putInt("total_survival_score", current + score).apply()
+    }
+
+    fun resetCumulativeScore() {
+        prefs.edit().remove("total_survival_score").apply()
+    }
+
     fun getDeviceUid(): String {
         var uid = prefs.getString("device_uid", null)
         if (uid == null) {
