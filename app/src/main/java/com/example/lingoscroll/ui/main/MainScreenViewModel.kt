@@ -1174,7 +1174,12 @@ class MainScreenViewModel(private val context: Context) : ViewModel() {
         currentRedCodeIndex++
         if (currentRedCodeIndex >= redCodeQueue.size) {
             // Sınavdaki tüm sorular bitti! Sınavı başarıyla sonlandır ve özet ekranını aç.
+            val secondsLeft = currentState.timeLeftSeconds
+            val timeBonus = secondsLeft * 20
+            val finalScore = currentState.totalScore + timeBonus
+            
             _uiState.value = currentState.copy(
+                totalScore = finalScore,
                 showSummary = true
             )
             redCodeTimerJob?.cancel()

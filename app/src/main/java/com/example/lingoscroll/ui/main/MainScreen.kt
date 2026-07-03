@@ -1757,6 +1757,15 @@ fun RedCodeSurvivalScreen(
                             fontWeight = FontWeight.Black,
                             color = Color(0xFF81C784)
                         )
+                        if (state.timeLeftSeconds > 0) {
+                            Text(
+                                text = "(Süre Bonusu: +${state.timeLeftSeconds * 20} Puan ⏱️)",
+                                fontSize = 12.sp,
+                                color = Color(0xFF81C784),
+                                fontWeight = FontWeight.Bold,
+                                modifier = Modifier.padding(top = 4.dp)
+                            )
+                        }
                         Spacer(modifier = Modifier.height(16.dp))
                         
                         Row(
