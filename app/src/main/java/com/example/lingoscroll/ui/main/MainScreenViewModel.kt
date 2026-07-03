@@ -970,7 +970,9 @@ class MainScreenViewModel(private val context: Context) : ViewModel() {
 
     fun startRedCodeMode() {
         viewModelScope.launch(Dispatchers.IO) {
-            val questions = repository.getRedCodeCards().shuffled()
+            val category = prefs.getUserStyle() ?: "MIXED"
+            val stage = prefs.getCurrentStage()
+            val questions = repository.getStageQuizPackage(category, stage)
             if (questions.isNotEmpty()) {
                 viewModelScope.launch(Dispatchers.Main) {
                     redCodeQueue.clear()
@@ -1086,10 +1088,12 @@ class MainScreenViewModel(private val context: Context) : ViewModel() {
         
         if (typedChar == expectedChar) {
             val newTyped = currentState.typedIndices + firstHiddenIndex
+            val newTime = currentState.timeLeftSeconds + 1
             _uiState.value = currentState.copy(
                 userInput = "",
                 typedIndices = newTyped,
-                showErrorAnimation = false
+                showErrorAnimation = false,
+                timeLeftSeconds = newTime
             )
             
             checkRedCodeSkeletonFinished(newTyped, target, currentState.jokerCount)
@@ -1169,7 +1173,6 @@ class MainScreenViewModel(private val context: Context) : ViewModel() {
         
         currentRedCodeIndex++
         if (currentRedCodeIndex >= redCodeQueue.size) {
-            redCodeQueue.shuffle()
             currentRedCodeIndex = 0
         }
         

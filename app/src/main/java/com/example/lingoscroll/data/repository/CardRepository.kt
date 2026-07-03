@@ -95,7 +95,46 @@ class CardRepository(private val cardDao: SurvivalCardDao) {
         return combined.take(15)
     }
 
-    suspend fun getRedCodeCards(): List<SurvivalCard> {
-        return cardDao.getRedCodeCards()
+    // 12 Soruluk Sınav Paketi (8 Yeni Zorlaşan Soru + 4 Tekrar Sorusu)
+    suspend fun getStageQuizPackage(category: String, stage: Int): List<SurvivalCard> {
+        val allQuizCards = cardDao.getCardsByCategory(category)
+            .filter { it.mechanicType in listOf("SKELETON", "SWIPE") }
+            .sortedWith(compareBy({ it.difficulty }, { it.id }))
+
+        if (allQuizCards.isEmpty()) return emptyList()
+
+        // 8 Adet Mevcut Aşama Zorluğunda Soru
+        val currentStageStartIndex = ((stage - 1) * 8) % allQuizCards.size
+        val currentStageQuestions = mutableListOf<SurvivalCard>()
+        for (i in 0 until 8) {
+            val idx = (currentStageStartIndex + i) % allQuizCards.size
+            currentStageQuestions.add(allQuizCards[idx])
+        }
+
+        // 4 Adet Tekrar Sorusu (Önceki Aşamaların Soruları)
+        val reviewQuestions = mutableListOf<SurvivalCard>()
+        if (stage == 1) {
+            // Aşama 1 için bir sonraki 4 soruyu alıyoruz
+            for (i in 0 until 4) {
+                val idx = (currentStageStartIndex + 8 + i) % allQuizCards.size
+                reviewQuestions.add(allQuizCards[idx])
+            }
+        } else {
+            // Önceki aşamaların ilk sorularından seçiyoruz
+            val prevStage1Index = ((stage - 2) * 8) % allQuizCards.size
+            reviewQuestions.add(allQuizCards[prevStage1Index])
+            reviewQuestions.add(allQuizCards[(prevStage1Index + 1) % allQuizCards.size])
+
+            val prevStage2Index = if (stage > 2) {
+                ((stage - 3) * 8) % allQuizCards.size
+            } else {
+                ((stage - 1) * 8 + 8) % allQuizCards.size
+            }
+            reviewQuestions.add(allQuizCards[prevStage2Index])
+            reviewQuestions.add(allQuizCards[(prevStage2Index + 1) % allQuizCards.size])
+        }
+
+        // Deterministic birleşim (karıştırma olmadan, sıralı!)
+        return (currentStageQuestions + reviewQuestions).distinctBy { it.id }.take(12)
     }
 }
