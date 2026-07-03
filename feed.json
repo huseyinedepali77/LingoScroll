@@ -3,73 +3,76 @@
     "id": 126070301,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Europe is bracing for more extreme weather and a new _____",
+    "phrase": "A severe _____ hit Europe last month.",
     "translation": "Sıcak hava dalgası",
-    "context": "Avrupa'da rekor kıran sıcaklar ve 'heatwave' haberleri gündemde! Plajda serinlerken veya güneşe çıkarken bu kelimeyi sıkça duyabilirsin. Cümlenin anlamı: 'Avrupa, daha aşırı hava koşullarına ve yeni bir sıcak hava dalgasına hazırlanıyor.'",
+    "context": "'Heatwave', yani 'sıcak hava dalgası' veya 'cehennem sıcağı'! Bu terimi duyduğunda aklına hemen bunaltıcı, terleten, 'klima açık kalmalı' bir hava durumu gelsin. Yazın en popüler kelimelerinden biridir.",
     "options": [
-      "cold front",
       "heatwave",
-      "blizzard",
-      "downpour"
+      "cold spell",
+      "rainy season",
+      "windstorm"
     ],
     "correctAnswer": "heatwave",
-    "category": "TRAVEL",
+    "category": "CASUAL",
     "variations": [
-      "A severe _____ hit the region last week.",
-      "We need to prepare for the upcoming _____."
+      "The heatwave caused many problems.",
+      "Stay indoors during a heatwave."
     ]
   },
   {
     "id": 126070302,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Which term refers to a newly established business, often with innovative ideas?",
-    "translation": "Yeni kurulmuş, yenilikçi fikirleri olan bir işletmeye verilen isim.",
-    "context": "Yeni bir iş fikrin mi var? Belki senin de bir 'startup'ın olur! Özellikle teknoloji dünyasında hızla büyüyen, genç şirketlere denir. Silikon Vadisi'nden çıkıp tüm dünyayı değiştiren birçok şirket, zamanında birer 'startup'tı.",
+    "phrase": "They found a _____ after the accident.",
+    "translation": "Hayatta kalan kişi",
+    "context": "'Survivor' kelimesi, yani 'hayatta kalan kişi'. Bir felaketten, kazadan ya da zorlu bir durumdan sapasağlam çıkmayı başaran kişiye denir. Gerçek bir kahraman!",
     "options": [
-      "Corporation",
-      "Startup",
-      "Franchise",
-      "Conglomerate"
+      "survivor",
+      "victim",
+      "helper",
+      "passerby"
     ],
-    "correctAnswer": "Startup",
-    "category": "BUSINESS",
-    "variations": []
+    "correctAnswer": "survivor",
+    "category": "TRAVEL",
+    "variations": [
+      "She is a survivor of the earthquake.",
+      "He felt lucky to be a survivor."
+    ]
   },
   {
     "id": 126070303,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Nasa launched a mission to save the falling _____",
-    "translation": "Uzay teleskobu",
-    "context": "Nasa'nın harika görevlerinden biri! 'Space telescope' sayesinde uzayın derinliklerini, yıldızları ve galaksileri inceliyoruz. Gökyüzüne baktığında belki de 'space telescope'lar sana göz kırpıyordur!",
+    "phrase": "You should _____ for the job by Friday.",
+    "translation": "Başvurmak",
+    "context": "'Apply', yani 'başvurmak' veya 'uygulamak'. İş, üniversite, vize... Kısacası bir yere resmi olarak istekte bulunmak istediğinde bu fiili kullanırsın. 'Hadi başvur, belki kabul edilirsin!' derken akla gelir.",
     "options": [
-      "satellite",
-      "space telescope",
-      "drone",
-      "rocket"
+      "apply",
+      "finish",
+      "watch",
+      "forget"
     ],
-    "correctAnswer": "space telescope",
-    "category": "CASUAL",
+    "correctAnswer": "apply",
+    "category": "BUSINESS",
     "variations": [
-      "The Hubble _____ has revealed stunning images.",
-      "Scientists use a powerful _____ to study distant planets."
+      "Did you apply for the new position?",
+      "Many students apply for scholarships."
     ]
   },
   {
     "id": 126070304,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "What does 'pulled out alive' mean in the context of a rescue operation?",
-    "translation": "Kurtarma operasyonunda 'pulled out alive' ifadesinin anlamı.",
-    "context": "Umutların tükenmeye başladığı anlarda, birinin enkazdan veya zor bir durumdan 'pulled out alive' haberi gerçekten mucizevi olur. Venezuelalı depremzede gibi, hayata tutunmanın güçlü bir göstergesi!",
+    "phrase": "Bu haber başlığında Lewis Hamilton'ın Silverstone'da en hızlı olduğunu anlatan kelime hangisidir?",
+    "translation": "Fastest (En Hızlı)",
+    "context": "'Fastest' demek, 'en hızlı' demek! Lewis Hamilton gibi rüzgar gibi esen sporcular için biçilmiş kaftan. Sadece yarışlarda değil, bir internet bağlantısının hızı için de 'the fastest connection' diyebilirsin.",
     "options": [
-      "Was found dead",
-      "Was rescued injured",
-      "Was safely extracted",
-      "Was left behind"
+      "Flying",
+      "Qualifying",
+      "Fastest",
+      "Sprint"
     ],
-    "correctAnswer": "Was safely extracted",
+    "correctAnswer": "Fastest",
     "category": "MIXED",
     "variations": []
   },
@@ -77,148 +80,154 @@
     "id": 126070305,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "On the Strait of Hormuz, BBC finds _____ and shark fishermen.",
-    "translation": "El konulan gemiler",
-    "context": "Hürmüz Boğazı gibi stratejik bölgelerde 'seized ships' haberleri maalesef sıkça karşımıza çıkıyor. Bu, uluslararası sularda veya limanlarda gemilere yasal olmayan yollarla el konulması durumunu anlatır. Diplomatik gerilimlerin bir parçası olabilir.",
+    "phrase": "There was an _____ feeling in the room.",
+    "translation": "Huzursuz",
+    "context": "'Uneasy' kelimesi, 'huzursuz', 'tedirgin' veya 'rahatsız' anlamına gelir. Gergin bir bekleyiş anında, içten içe bir sıkıntı hissettiğinde kullanabileceğin bir kelime. Otoparkta arabayı yanlış yere park ettiğini düşündüğünde hissettiğin gibi!",
     "options": [
-      "cruise liners",
-      "fishing boats",
-      "seized ships",
-      "luxury yachts"
+      "uneasy",
+      "peaceful",
+      "joyful",
+      "calm"
     ],
-    "correctAnswer": "seized ships",
-    "category": "TRAVEL",
+    "correctAnswer": "uneasy",
+    "category": "CASUAL",
     "variations": [
-      "Authorities often _____ carrying illegal goods.",
-      "The navy intervened to free the _____."
+      "She felt uneasy about the situation.",
+      "An uneasy silence fell over them."
     ]
   },
   {
     "id": 126070306,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "A politician's phone was 'hacked with Pegasus spyware.' What does this imply?",
-    "translation": "'Pegasus casus yazılımıyla hacklendi' ifadesinin anlamı.",
-    "context": "'Pegasus spyware' günümüzün en tehlikeli siber tehditlerinden biri. Telefonuna bulaştığında, tüm özel bilgilerine, mesajlarına ve hatta mikrofonuna bile erişim sağlanabilir. Casus filmlerindeki gibi değil mi? İşte bu yüzden dikkatli olmalısın!",
+    "phrase": "His social media account was _____ last night.",
+    "translation": "Ele geçirilmiş (hacklenmiş)",
+    "context": "'Hacked', yani 'hesabı ele geçirilmiş' veya 'sızılmış'. Bilgisayar korsanlarının işi! Kötü niyetli kişiler birinin dijital bilgilerine veya cihazlarına izinsiz girdiğinde bu kelimeyi kullanırız. Telefonuna dikkat et, 'hacked' olmasın!",
     "options": [
-      "It was stolen",
-      "Its battery died",
-      "Its software was updated",
-      "It was secretly infiltrated"
+      "hacked",
+      "fixed",
+      "updated",
+      "secured"
     ],
-    "correctAnswer": "It was secretly infiltrated",
+    "correctAnswer": "hacked",
     "category": "BUSINESS",
-    "variations": []
+    "variations": [
+      "Their company network was hacked by criminals.",
+      "He worried his email might be hacked."
+    ]
   },
   {
     "id": 126070307,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Scotland's first _____ wants to boost their image.",
-    "translation": "Martı korucusu",
-    "context": "Martılarla ilgili algın değişebilir! İskoçya'nın ilk 'gull ranger'ı, bu kuşların imajını düzeltmek için çalışıyor. Belki de bir sonraki seyahatinde martılara daha farklı gözle bakarsın. Sadece simit kapmak için orada değiller, ekosistemin önemli bir parçasılar!",
+    "phrase": "They are planning a new _____ flight.",
+    "translation": "Yörüngesel",
+    "context": "'Orbital' demek, 'yörüngeye ait' demek. Uzay mekikleri, uydular ve gezegenler yörüngede dönerler. Yani, bir şey dünyanın veya başka bir gök cisminin etrafında dönüyorsa, bu kelimeyi kullanırız. Uzaylılar bile 'orbital' takılıyordur kim bilir!",
     "options": [
-      "bird watcher",
-      "gull ranger",
-      "marine biologist",
-      "wildlife photographer"
+      "orbital",
+      "ground",
+      "underwater",
+      "indoor"
     ],
-    "correctAnswer": "gull ranger",
-    "category": "CASUAL",
+    "correctAnswer": "orbital",
+    "category": "MIXED",
     "variations": [
-      "He works as a _____ in a coastal town.",
-      "Being a _____ requires patience and dedication."
+      "The satellite completed its orbital path.",
+      "An orbital space station is being built."
     ]
   },
   {
     "id": 126070308,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "The ex-reporter refused to 'divulge sources,' meaning they would not _____",
-    "translation": "Eski muhabir 'kaynaklarını açıklamayı' reddetti, yani şunu yapmadı.",
-    "context": "Gazetecilikte 'kaynaklarını ifşa etmek' (divulge sources) çok hassas bir konudur. Muhabirler, bilgilerinin gizli kalması sözü verdikleri kişileri korumak zorundadırlar, aksi takdirde güvenilirliğini kaybederler. Bu, bazen büyük yasal sonuçları da beraberinde getirebilir.",
+    "phrase": "Yangın veya sel gibi tehlikeli durumlarda insanların güvenli bir yere taşınmasını anlatan kelime hangisidir?",
+    "translation": "Evacuations (Tahliyeler)",
+    "context": "'Evacuations', yani 'tahliyeler' veya 'boşaltmalar'. Bir bölgedeki insanlar, tehlike (yangın, sel, deprem vb.) nedeniyle güvenli bir yere götürülürken bu kelime kullanılır. 'Hemen eşyalarını topla, tahliye zamanı!' denir.",
     "options": [
-      "Protect their contacts",
-      "Reveal their informants",
-      "Write new stories",
-      "Fabricate information"
+      "Evacuations",
+      "Celebrations",
+      "Meditations",
+      "Donations"
     ],
-    "correctAnswer": "Reveal their informants",
-    "category": "MIXED",
+    "correctAnswer": "Evacuations",
+    "category": "TRAVEL",
     "variations": []
   },
   {
     "id": 126070309,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The couple who _____ the Empire State Building now faces 8 charges.",
-    "translation": "Empire State Binası'na tırmanan çift şimdi 8 suçlamayla karşı karşıya.",
-    "context": "'Scaled' kelimesi, bir şeye tırmanmak, ölçeklendirmek veya bir dağa çıkmak gibi anlamlarda kullanılır. Empire State Binası'na tırmanmak (scaled) ise 'yasa dışı ve tehlikeli bir maceraya atılmak' anlamına gelir. Sakın denemeyin, sonra 'charges' (suçlamalar) ile uğraşmak zorunda kalırsınız!",
+    "phrase": "The crowd _____ into cheers after the goal.",
+    "translation": "Coşkuyla ses çıkarmak (Patlamak)",
+    "context": "'Erupts', yani 'birdenbire patlamak', 'coşkuyla ses çıkarmak'. Bir yanardağ patladığında veya coşkulu bir kalabalık aniden tezahürata başladığında bu fiili kullanırız. Hamilton'ın rekor kırdığı an stadyumun 'erupt' ettiğini hayal et!",
     "options": [
-      "visited",
-      "climbed over",
-      "scaled",
-      "flew past"
+      "erupts",
+      "calms",
+      "sleeps",
+      "whispers"
     ],
-    "correctAnswer": "scaled",
-    "category": "TRAVEL",
+    "correctAnswer": "erupts",
+    "category": "CASUAL",
     "variations": [
-      "Mount Everest was first _____ in 1953.",
-      "The climbers successfully _____ the treacherous rock face."
+      "Laughter erupted from the audience.",
+      "The volcano erupted after years of inactivity."
     ]
   },
   {
     "id": 126070310,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "USDA's report is 'raising doubts over data.' What's the best interpretation?",
-    "translation": "USDA'nın raporu 'veriler hakkında şüphe uyandırıyor.' En iyi yorum nedir?",
-    "context": "'Raising doubts over data' ifadesi, sunulan bilgilerin doğruluğu veya güvenilirliği konusunda soru işaretleri olduğunu belirtir. Özellikle iş dünyasında veya bilimde, verilerin şüphe uyandırması kararların ertelenmesine veya yeniden incelenmesine neden olabilir. Bir nevi 'Bu işte bir iş var!' demek gibi.",
-    "options": [
-      "Confirming data accuracy",
-      "Highlighting data inconsistencies",
-      "Providing clear data insights",
-      "Deleting all data records"
-    ],
-    "correctAnswer": "Highlighting data inconsistencies",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126070311,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "On the Strait of Hormuz, an _____ returns after tensions.",
-    "translation": "Hürmüz Boğazı'nda gerginliklerin ardından 'tedirgin bir sakinlik' geri döndü.",
-    "context": "'Uneasy calm' ifadesi, görünüşte sakin olan bir durumun altında yatan gerilimi veya potansiyel tehlikeyi anlatır. Yani, her şey yolunda gibi görünse de, alttan alta bir huzursuzluk ve beklenmedik olay riski vardır. Adı üstünde, 'tedirgin' bir sakinlik!",
+    "phrase": "The project has _____ well in the last month.",
+    "translation": "İlerlemiş",
+    "context": "'Progressed', yani 'ilerlemiş', 'gelişmiş'. Bir şeyin aşama kaydettiğini, daha iyiye gittiğini anlatırken kullanılır. Çalışmaların veya bir işin 'progress' etmesi, harika bir haberdir.",
     "options": [
-      "perfect peace",
-      "tense atmosphere",
-      "uneasy calm",
-      "complete silence"
+      "progressed",
+      "stalled",
+      "stopped",
+      "failed"
     ],
-    "correctAnswer": "uneasy calm",
-    "category": "CASUAL",
+    "correctAnswer": "progressed",
+    "category": "BUSINESS",
     "variations": [
-      "There was an _____ in the room before the announcement.",
-      "Despite the ceasefire, an _____ prevailed in the region."
+      "His condition progressed rapidly.",
+      "Technology has progressed quickly."
     ]
   },
   {
-    "id": 126070312,
+    "id": 126070311,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "France recorded 2,025 'excess deaths' at the peak of the heatwave. What does this term mean?",
-    "translation": "Fransa, sıcak hava dalgasının zirvesinde 2.025 'fazladan ölüm' kaydetti. Bu terim ne anlama geliyor?",
-    "context": "'Excess deaths' (fazla ölümler), belirli bir dönemde normalde beklenen ölüm sayısının üzerinde gerçekleşen ölüm sayısını ifade eder. Genellikle doğal afetler, salgınlar veya aşırı hava olayları gibi kriz durumlarında ortaya çıkar ve olayın ciddiyetini gösterir. İstatistiksel bir terim ama insani bir boyutu var.",
+    "phrase": "Bir spor yarışmasında favori olmayan bir takımın veya sporcunun beklenmedik bir şekilde kazanması durumunu en iyi anlatan kelime hangisidir?",
+    "translation": "Upset (Beklenmedik galibiyet)",
+    "context": "'Upset' kelimesi, normalde 'üzgün' anlamına gelir ama spor bahislerinde bambaşka bir anlamı var: 'beklenmedik galibiyet' veya 'sürpriz zafer'! Favori atın değil de, adı sanı duyulmamış 'A Boy Named Susie' adlı atın kazanması tam bir 'upset' olurdu. Bahisçiler için hem şok hem de büyük bir kazanç kapısı!",
     "options": [
-      "Deaths due to old age",
-      "Deaths above the expected average",
-      "Deaths caused by accidents only",
-      "Deaths below the seasonal average"
+      "Victory",
+      "Defeat",
+      "Tie",
+      "Upset"
     ],
-    "correctAnswer": "Deaths above the expected average",
+    "correctAnswer": "Upset",
     "category": "MIXED",
     "variations": []
+  },
+  {
+    "id": 126070312,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "They _____ the mountain in just two days.",
+    "translation": "Tırmanmış",
+    "context": "'Scaled', yani 'tırmanmış', 'ölçeklemiş'. Bir dağa tırmanmak, bir duvara tırmanmak gibi fiziksel bir yükselişi anlatırken kullanılır. Empire State Binası'na çıkan o cesur çift gibi! Aynı zamanda bir şeyin boyutunu ayarlamak veya ölçeklendirmek için de 'scale' kelimesini kullanırız ama burada tırmanmak anlamında.",
+    "options": [
+      "scaled",
+      "fell",
+      "crossed",
+      "ignored"
+    ],
+    "correctAnswer": "scaled",
+    "category": "TRAVEL",
+    "variations": [
+      "The climbers scaled the rock face.",
+      "He scaled the wall to escape."
+    ]
   }
 ]
