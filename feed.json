@@ -3,96 +3,96 @@
     "id": 126070301,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The ship sailed through the narrow _____ to reach the open sea.",
-    "translation": "Gemi açık denize ulaşmak için dar boğazdan geçti.",
-    "context": "'Strait' kelimesi hem denizdeki dar geçitler hem de insanların boynundaki kısım için kullanılır. Mesela, İstanbul Boğazı'ndan bahsederken 'Bosphorus Strait' deriz. Balıkçı teknesiyle boğazdan geçmek epey heyecanlı olabilir!",
+    "phrase": "The ship was _____ in the harbor.",
+    "translation": "Gemi limanda el konuldu/alıkonuldu.",
+    "context": "Seyahatte veya ticarette bir geminin, malzemenin 'el konulması' veya 'alıkonulması' durumunu ifade eder. Mesela, liman yetkilileri kurallara uymayan bir gemiye el koyabilir. Senin de bavuluna havaalanında 'el konulmasın' diye kurallara dikkat et!",
     "options": [
-      "bay",
-      "strait",
-      "lake",
-      "river"
+      "arrived",
+      "seized",
+      "departed",
+      "parked"
     ],
-    "correctAnswer": "strait",
+    "correctAnswer": "seized",
     "category": "TRAVEL",
     "variations": [
-      "The boat passed through the 'strait' quickly.",
-      "Navigating the 'strait' can be challenging."
+      "Authorities _____ the illegal goods.",
+      "The police _____ the car."
     ]
   },
   {
     "id": 126070302,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "You should _____ for that job opening before the deadline.",
-    "translation": "Son teslim tarihinden önce o iş ilanına başvurmalısın.",
-    "context": "'Apply' kelimesi bir işe, bir okula veya bir programa başvurmak anlamına gelir. 'Application' ise başvuru formu demek. İş arayışında olanlar için çok kritik bir kelime! Unutma, 'apply for' deriz.",
+    "phrase": "Our startup needs to _____ new ideas.",
+    "translation": "Girişimimizin yeni fikirler 'piyasaya sürmesi' gerekiyor.",
+    "context": "Yeni bir ürün, şirket ya da girişimi piyasaya sürmek, başlatmak anlamına gelir. Roket fırlatmak gibi düşün, bir anda herkes seni konuşmaya başlar! 'Launch' partilerine katılarak network'ünü genişletebilirsin.",
     "options": [
-      "apply",
-      "finish",
-      "start",
-      "leave"
+      "destroy",
+      "hide",
+      "launch",
+      "forget"
     ],
-    "correctAnswer": "apply",
+    "correctAnswer": "launch",
     "category": "BUSINESS",
     "variations": [
-      "Don't forget to 'apply' for the new grant.",
-      "She will 'apply' to several universities."
+      "They plan to _____ a new product next month.",
+      "The company will _____ a new marketing campaign."
     ]
   },
   {
     "id": 126070303,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The forecast says a big _____ is coming next week.",
-    "translation": "Hava tahmini, gelecek hafta büyük bir sıcak hava dalgasının geleceğini söylüyor.",
-    "context": "'Heatwave' dediğimizde, hava sıcaklığının uzun süre normalin üzerinde seyretmesi durumunu anlarız. Özellikle yaz aylarında sıkça duyduğumuz, bunaltıcı sıcaklıkları ifade eden bir kelime. Serinletici bir içecek şart!",
+    "phrase": "It's very hot; we are having a _____.",
+    "translation": "Çok sıcak; bir 'sıcak hava dalgası' yaşıyoruz.",
+    "context": "Hava durumuyla ilgili en sık duyduğun kelimelerden biri! Aşırı sıcakların yaşandığı dönem demektir. Sıcakta bunalıp 'Off, yine mi heatwave!' demek yerine, serin bir şeyler içip klimalı ortamda takılabilirsin.",
     "options": [
-      "snowstorm",
-      "rainstorm",
+      "cold front",
       "heatwave",
-      "blizzard"
+      "blizzard",
+      "rainstorm"
     ],
     "correctAnswer": "heatwave",
     "category": "CASUAL",
     "variations": [
-      "We need to prepare for the upcoming 'heatwave'.",
-      "The city is experiencing a severe 'heatwave'."
+      "The city is suffering from a severe _____.",
+      "Don't forget to drink water during the _____."
     ]
   },
   {
     "id": 126070304,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The heroes went on a _____ to save the city from danger.",
-    "translation": "Kahramanlar şehri tehlikeden kurtarmak için bir göreve çıktı.",
-    "context": "'Mission' kelimesi özel bir görev veya amaç için yapılan planlı bir hareketi ifade eder. NASA uzay görevlerine 'space missions' der. Görevin başarısı bazen tüm gezegenin kaderini değiştirebilir!",
+    "phrase": "To _____ something means to keep it safe.",
+    "translation": "Bir şeyi 'kurtarmak', onu güvende tutmak demektir.",
+    "context": "Bir şeyi kurtarmak, korumak veya biriktirmek gibi birçok anlamı var. Mesela, 'Save the environment!' diyebilirsin veya 'Save money!' diyerek paranı biriktirebilirsin. Bir de tabii 'save game' yaparak oyununu kaydetmek var, çok önemli!",
     "options": [
-      "party",
-      "vacation",
-      "mission",
-      "meeting"
+      "lose",
+      "break",
+      "save",
+      "waste"
     ],
-    "correctAnswer": "mission",
+    "correctAnswer": "save",
     "category": "MIXED",
     "variations": [
-      "Our 'mission' is to explore new planets.",
-      "He completed his secret 'mission' successfully."
+      "Can you _____ me a seat?",
+      "We need to _____ the date for the party."
     ]
   },
   {
     "id": 126070305,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Bir binayı izinsiz olarak tırmanan kişileri tarif etmek için en uygun kelime hangisidir?",
-    "translation": "The most suitable word to describe people who climb a building without permission.",
-    "context": "'Trespasser', başkasının mülküne izinsiz giren kişi demektir. Empire State Binası'na tırmanmak ne kadar maceralı görünse de, yasalara aykırı olduğu için 'trespasser' olursun ve ciddi suçlamalarla karşılaşırsın.",
+    "phrase": "What does 'uneasy calm' refer to?",
+    "translation": "'Uneasy calm' ne anlama gelir?",
+    "context": "Dışarıdan bakıldığında her şey normal, ama içeride gerginliğin kol gezdiği bir durumu anlatır. Sanki fırtına öncesi sessizlik gibi, her an bir şeyler patlayabilir. Özellikle uluslararası ilişkilerde bu terime çok rastlarsın.",
     "options": [
-      "explorer",
-      "climber",
-      "trespasser",
-      "adventurer"
+      "A very peaceful and quiet environment.",
+      "A situation where everyone is happy and relaxed.",
+      "A tense situation where things seem quiet but could explode anytime.",
+      "A calm sea with no waves."
     ],
-    "correctAnswer": "trespasser",
+    "correctAnswer": "A tense situation where things seem quiet but could explode anytime.",
     "category": "TRAVEL",
     "variations": []
   },
@@ -100,56 +100,56 @@
     "id": 126070306,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "His phone was _____ with malicious software last night.",
-    "translation": "Dün gece telefonu kötü amaçlı yazılımlarla hacklendi.",
-    "context": "'Hack' kelimesi, bilgisayar sistemlerine veya telefonlara izinsiz olarak girmek, bilgileri çalmak veya manipüle etmek anlamına gelir. Güvenliğimiz için güçlü şifreler ve dikkatli internet kullanımı şart!",
+    "phrase": "The politician's phone was _____ with spyware.",
+    "translation": "Siyasetçinin telefonu 'casus yazılımla ele geçirildi'.",
+    "context": "Dijital dünyada en çok duyduğun kelimelerden biri! Birinin izni olmadan bilgisayar, telefon veya sisteme yasa dışı yollarla girmek anlamına gelir. Sakın şifrelerini kimseyle paylaşma, 'hacklenmek' istemezsin!",
     "options": [
-      "upgraded",
+      "fixed",
+      "cleaned",
       "hacked",
-      "repaired",
-      "charged"
+      "upgraded"
     ],
     "correctAnswer": "hacked",
     "category": "BUSINESS",
     "variations": [
-      "The company's database was 'hacked' by cybercriminals.",
-      "He realized his account had been 'hacked'."
+      "His account was _____ last night.",
+      "They tried to _____ the company's servers."
     ]
   },
   {
     "id": 126070307,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "They managed to _____ the cat from under the car safely.",
-    "translation": "Kediyi arabanın altından güvenli bir şekilde çıkarmayı başardılar.",
-    "context": "'Pull out' bir şeyi bir yerden çekip çıkarmak anlamına gelir. Mesela, bir depremzedeyi enkazdan kurtarmak için de bu ifadeyi kullanabiliriz. Zor durumlarda hayat kurtarmak için elinden geleni yapmak çok değerli!",
+    "phrase": "The new campaign aims to _____ the company's image.",
+    "translation": "Yeni kampanya, şirketin imajını 'güçlendirmeyi' amaçlıyor.",
+    "context": "Bir şeyi artırmak, yükseltmek veya güçlendirmek demektir. Mesela, bir arkadaşının moralini 'boost' edebilirsin ya da satışları 'boost' etmek için yeni stratejiler geliştirebilirsin. Adeta bir enerji içeceği gibi etki yaratır!",
     "options": [
-      "push in",
-      "pull out",
-      "leave off",
-      "take down"
+      "damage",
+      "maintain",
+      "boost",
+      "ignore"
     ],
-    "correctAnswer": "pull out",
+    "correctAnswer": "boost",
     "category": "CASUAL",
     "variations": [
-      "The rescue team will try to 'pull out' survivors.",
-      "We need to 'pull out' the old fence posts."
+      "Good news can _____ morale.",
+      "We need to _____ our online presence."
     ]
   },
   {
     "id": 126070308,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Bir felaket veya olay sırasında beklenen sayının üzerinde meydana gelen ölümleri ifade eden terim hangisidir?",
-    "translation": "Which term refers to deaths that occur above the expected number during a disaster or event?",
-    "context": "'Excess deaths', belirli bir dönemde normalde beklenen ölüm sayısının üzerinde gerçekleşen ölümleri ifade eder. Sıcak hava dalgası gibi olaylar bu sayıyı artırabilir. Kulağa biraz ağır gelse de, önemli bir istatistiksel terimdir.",
+    "phrase": "What does 'excess deaths' mean?",
+    "translation": "'Excess deaths' ne anlama gelir?",
+    "context": "Bir dönemde beklenen ölüm sayısının üzerinde gerçekleşen ölümleri ifade eder. Genellikle doğal afetler, salgın hastalıklar veya aşırı hava olayları gibi sıra dışı durumlarla ilişkilidir. Umarım hiç denk gelmezsin!",
     "options": [
-      "total deaths",
-      "average deaths",
-      "excess deaths",
-      "natural deaths"
+      "Fewer deaths than expected.",
+      "The normal number of deaths.",
+      "More deaths than expected during a specific period.",
+      "Deaths caused by old age."
     ],
-    "correctAnswer": "excess deaths",
+    "correctAnswer": "More deaths than expected during a specific period.",
     "category": "MIXED",
     "variations": []
   },
@@ -157,73 +157,76 @@
     "id": 126070309,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "After the storm, an _____ calm settled over the sea.",
-    "translation": "Fırtınadan sonra denizin üzerine huzursuz bir sakinlik çöktü.",
-    "context": "'Uneasy calm', görünüşte sakin ama altında gerginlik veya endişe barındıran bir durumu ifade eder. Boğazdaki olaylar sonrası yaşanan bu durum, her an her şeyin değişebileceği hissini verir. Tıpkı bir fırtına öncesi sessizlik gibi...",
+    "phrase": "The climbers successfully _____ the mountain.",
+    "translation": "Dağcılar dağı başarıyla 'tırmandılar'.",
+    "context": "Genellikle bir dağa veya yüksek bir yapıya tırmanmak anlamında kullanılır. Bu fiil, zorlu bir yükselişi başarıyla tamamlamayı ifade eder. Mesela, Empire State Binası'na 'scaled' diyebiliriz ama sen deneme, tutuklanırsın!",
     "options": [
-      "perfect",
-      "uneasy",
-      "peaceful",
-      "total"
+      "descended",
+      "avoided",
+      "scaled",
+      "ran"
     ],
-    "correctAnswer": "uneasy",
+    "correctAnswer": "scaled",
     "category": "TRAVEL",
     "variations": [
-      "There was an 'uneasy' silence in the room.",
-      "The city experienced an 'uneasy' peace after the protests."
+      "They plan to _____ the wall.",
+      "It's difficult to _____ such a tall building."
     ]
   },
   {
     "id": 126070310,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Bir bilginin veya verinin doğruluğu hakkında şüphe uyandıran bir durumu anlatmak için kullanılan fiil kalıbı hangisidir?",
-    "translation": "Which verb phrase is used to describe a situation that raises doubts about the accuracy of information or data?",
-    "context": "'Raise doubts', bir şeyin doğruluğu veya geçerliliği hakkında şüphe uyandırmak anlamına gelir. Büyük bir şirketin finansal verileri tartışmalı hale gelince, bu durum piyasada 'doubts' (şüpheler) yaratır. Her zaman dikkatli olmakta fayda var!",
+    "phrase": "The journalist refused to _____ her sources.",
+    "translation": "Gazeteci kaynaklarını 'açıklamayı' reddetti.",
+    "context": "Gizli veya özel bilgileri ifşa etmek, açığa vurmak anlamına gelir. Genellikle gazetecilik ve hukuk gibi alanlarda çok kullanılır. 'Sırrını divulged etme' derler ya, işte tam da o!",
     "options": [
-      "confirming doubts",
-      "clearing doubts",
-      "raising doubts",
-      "settling doubts"
+      "protect",
+      "divulge",
+      "hide",
+      "verify"
     ],
-    "correctAnswer": "raising doubts",
+    "correctAnswer": "divulge",
     "category": "BUSINESS",
-    "variations": []
+    "variations": [
+      "He wouldn't _____ the secret.",
+      "The company plans to _____ its new strategy soon."
+    ]
   },
   {
     "id": 126070311,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The underdog team managed to _____ the favorites in the final.",
-    "translation": "Favori görülmeyen takım, finalde favorileri mağlup etmeyi başardı.",
-    "context": "Spor dünyasında 'upset' kelimesi, beklenenin aksine zayıf görünen bir tarafın güçlü olanı yenmesi durumunda kullanılır. Bu durum, maçları çok daha heyecanlı hale getirir! Favori takımın yenilmesi taraftarları üzse de, sürprizler her zaman konuşulur.",
+    "phrase": "The government decided to _____ its resources.",
+    "translation": "Hükümet kaynaklarını 'seferber etmeye' karar verdi.",
+    "context": "Kaynakları, insanları veya güçleri belirli bir amaç doğrultusunda harekete geçirmek, seferber etmek demektir. Bir organizasyonu veya ülkeyi bir kriz anında 'mobilize' edebilirsin. Adeta herkesi bir araya getirip 'Hadi bakalım, iş başına!' demek gibi.",
     "options": [
-      "support",
-      "upset",
-      "encourage",
-      "assist"
+      "waste",
+      "hide",
+      "mobilize",
+      "ignore"
     ],
-    "correctAnswer": "upset",
+    "correctAnswer": "mobilize",
     "category": "CASUAL",
     "variations": [
-      "The small company hopes to 'upset' the market leader.",
-      "It would be a huge 'upset' if they lost this game."
+      "The army was ordered to _____.",
+      "They need to _____ their volunteers quickly."
     ]
   },
   {
     "id": 126070312,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Uzayda bir yörünge etrafında dönen veya o yörüngeye ait olan durumları tanımlayan kelime hangisidir?",
-    "translation": "Which word describes situations revolving around or belonging to an orbit in space?",
-    "context": "'Orbital', uzayda bir gezegenin veya uydunun yörüngesiyle ilgili her şeyi ifade eder. Bir uzay aracı Dünya'nın yörüngesine girdiğinde 'orbital' bir görevi tamamlamış olur. Sanki sonsuz bir dans gibi, uzayda sürekli dönüp duran her şeye 'orbital' diyebiliriz.",
+    "phrase": "In sports, what does it mean to 'upset' an opponent?",
+    "translation": "Sporda, bir rakibi 'upset etmek' ne anlama gelir?",
+    "context": "Genellikle sporda, güçlü bir favorinin beklenmedik bir şekilde daha zayıf bir rakibe yenilmesi durumunu ifade eder. Taraftarlar için büyük bir şok, zayıf takım içinse büyük bir zaferdir! 'Maçta büyük bir upset yaşandı!' diye yorumlar duyabilirsin.",
     "options": [
-      "terrestrial",
-      "celestial",
-      "astral",
-      "orbital"
+      "To make the opponent angry.",
+      "When a stronger team defeats a weaker one.",
+      "To play very aggressively against the opponent.",
+      "When a weaker team/player unexpectedly defeats a stronger one."
     ],
-    "correctAnswer": "orbital",
+    "correctAnswer": "When a weaker team/player unexpectedly defeats a stronger one.",
     "category": "MIXED",
     "variations": []
   }
