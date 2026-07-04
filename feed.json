@@ -1,233 +1,227 @@
 [
   {
-    "id": 126070301,
+    "id": 126070401,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "A severe _____ hit Europe last month.",
-    "translation": "Sıcak hava dalgası",
-    "context": "'Heatwave', yani 'sıcak hava dalgası' veya 'cehennem sıcağı'! Bu terimi duyduğunda aklına hemen bunaltıcı, terleten, 'klima açık kalmalı' bir hava durumu gelsin. Yazın en popüler kelimelerinden biridir.",
+    "phrase": "The couple had a star-_____ ceremony.",
+    "translation": "Çiftin yıldızlarla dolu bir töreni vardı.",
+    "context": "'Star-studded' dediğimizde, bir etkinliğin veya buluşmanın ünlü, popüler ve tanınmış kişilerle dolu olduğunu anlatırız. Düğünler, galalar, ödül törenleri gibi havalı yerlerde bu ifadeyi bolca duyarsın. Düşünsene, her köşeden bir ünlü çıkıyor!",
     "options": [
-      "heatwave",
-      "cold spell",
-      "rainy season",
-      "windstorm"
+      "studded",
+      "shining",
+      "glittered",
+      "sparkling"
     ],
-    "correctAnswer": "heatwave",
+    "correctAnswer": "studded",
     "category": "CASUAL",
     "variations": [
-      "The heatwave caused many problems.",
-      "Stay indoors during a heatwave."
+      "They organized a star-studded wedding reception.",
+      "The movie premiere was a star-studded event."
     ]
   },
   {
-    "id": 126070302,
+    "id": 126070402,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "They found a _____ after the accident.",
-    "translation": "Hayatta kalan kişi",
-    "context": "'Survivor' kelimesi, yani 'hayatta kalan kişi'. Bir felaketten, kazadan ya da zorlu bir durumdan sapasağlam çıkmayı başaran kişiye denir. Gerçek bir kahraman!",
+    "phrase": "Brutal heat _____ Fourth of July events.",
+    "translation": "Acımasız sıcaklar Dört Temmuz etkinliklerini iptal ediyor.",
+    "context": "Bir etkinliğin, randevunun veya planın tamamen iptal edildiğini anlatmak için 'cancel' deriz. Olumsuz hava koşulları, beklenmedik durumlar veya yeterli katılım olmaması gibi birçok nedenle bir şey 'cancel' edilebilir. Mesela, arkadaşınla buluşacaksın ama son dakika bir işi çıktı, 'Sorry, I have to cancel!' diyebilir.",
     "options": [
-      "survivor",
-      "victim",
-      "helper",
-      "passerby"
+      "cancels",
+      "stops",
+      "postpones",
+      "halts"
     ],
-    "correctAnswer": "survivor",
+    "correctAnswer": "cancels",
     "category": "TRAVEL",
     "variations": [
-      "She is a survivor of the earthquake.",
-      "He felt lucky to be a survivor."
+      "The bad weather often cancels our flights.",
+      "They had to cancel the picnic due to rain."
     ]
   },
   {
-    "id": 126070303,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "You should _____ for the job by Friday.",
-    "translation": "Başvurmak",
-    "context": "'Apply', yani 'başvurmak' veya 'uygulamak'. İş, üniversite, vize... Kısacası bir yere resmi olarak istekte bulunmak istediğinde bu fiili kullanırsın. 'Hadi başvur, belki kabul edilirsin!' derken akla gelir.",
-    "options": [
-      "apply",
-      "finish",
-      "watch",
-      "forget"
-    ],
-    "correctAnswer": "apply",
-    "category": "BUSINESS",
-    "variations": [
-      "Did you apply for the new position?",
-      "Many students apply for scholarships."
-    ]
-  },
-  {
-    "id": 126070304,
+    "id": 126070403,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "Bu haber başlığında Lewis Hamilton'ın Silverstone'da en hızlı olduğunu anlatan kelime hangisidir?",
-    "translation": "Fastest (En Hızlı)",
-    "context": "'Fastest' demek, 'en hızlı' demek! Lewis Hamilton gibi rüzgar gibi esen sporcular için biçilmiş kaftan. Sadece yarışlarda değil, bir internet bağlantısının hızı için de 'the fastest connection' diyebilirsin.",
+    "phrase": "Chevy'nin elektrikli kamyoneti neden çok satmıyor?",
+    "translation": "Kimse onu almıyor.",
+    "context": "Bir ürünün piyasada beklenen ilgiyi görmemesi veya satışlarının düşük olması durumunu 'nobody is buying it' olarak ifade ederiz. Yani millet onu alıcı gözle bakmıyor, raflarda kalıyor. Belki fiyatı pahalıdır, belki reklamı iyi yapılmamıştır, kim bilir! İş dünyasında 'başarısız satış' denince akla gelen ilk cümlelerden.",
     "options": [
-      "Flying",
-      "Qualifying",
-      "Fastest",
-      "Sprint"
+      "everyone is buying it",
+      "nobody is buying it",
+      "it is selling well",
+      "it is too cheap"
     ],
-    "correctAnswer": "Fastest",
-    "category": "MIXED",
+    "correctAnswer": "nobody is buying it",
+    "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126070305,
+    "id": 126070404,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "There was an _____ feeling in the room.",
-    "translation": "Huzursuz",
-    "context": "'Uneasy' kelimesi, 'huzursuz', 'tedirgin' veya 'rahatsız' anlamına gelir. Gergin bir bekleyiş anında, içten içe bir sıkıntı hissettiğinde kullanabileceğin bir kelime. Otoparkta arabayı yanlış yere park ettiğini düşündüğünde hissettiğin gibi!",
+    "level": "BEGINNER",
+    "phrase": "The scientist is _____ peatland to fight climate change.",
+    "translation": "Bilim insanı, iklim değişikliğiyle mücadele etmek için turbalıkları restore ediyor.",
+    "context": "'Restore' kelimesi, bir şeyi eski, orijinal veya daha iyi durumuna getirmek anlamına gelir. Bazen tarihi bir eseri 'restore' edersin, bazen de doğayı. İklim değişikliğiyle mücadelede, bozulmuş doğal alanları eski haline getirmek büyük önem taşır. Yani bir nevi 'yeniden canlandırmak' gibi düşünebilirsin.",
     "options": [
-      "uneasy",
-      "peaceful",
-      "joyful",
-      "calm"
+      "restoring",
+      "repairing",
+      "fixing",
+      "building"
     ],
-    "correctAnswer": "uneasy",
-    "category": "CASUAL",
-    "variations": [
-      "She felt uneasy about the situation.",
-      "An uneasy silence fell over them."
-    ]
-  },
-  {
-    "id": 126070306,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "His social media account was _____ last night.",
-    "translation": "Ele geçirilmiş (hacklenmiş)",
-    "context": "'Hacked', yani 'hesabı ele geçirilmiş' veya 'sızılmış'. Bilgisayar korsanlarının işi! Kötü niyetli kişiler birinin dijital bilgilerine veya cihazlarına izinsiz girdiğinde bu kelimeyi kullanırız. Telefonuna dikkat et, 'hacked' olmasın!",
-    "options": [
-      "hacked",
-      "fixed",
-      "updated",
-      "secured"
-    ],
-    "correctAnswer": "hacked",
-    "category": "BUSINESS",
-    "variations": [
-      "Their company network was hacked by criminals.",
-      "He worried his email might be hacked."
-    ]
-  },
-  {
-    "id": 126070307,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "They are planning a new _____ flight.",
-    "translation": "Yörüngesel",
-    "context": "'Orbital' demek, 'yörüngeye ait' demek. Uzay mekikleri, uydular ve gezegenler yörüngede dönerler. Yani, bir şey dünyanın veya başka bir gök cisminin etrafında dönüyorsa, bu kelimeyi kullanırız. Uzaylılar bile 'orbital' takılıyordur kim bilir!",
-    "options": [
-      "orbital",
-      "ground",
-      "underwater",
-      "indoor"
-    ],
-    "correctAnswer": "orbital",
+    "correctAnswer": "restoring",
     "category": "MIXED",
     "variations": [
-      "The satellite completed its orbital path.",
-      "An orbital space station is being built."
+      "The project aims to restore historical buildings.",
+      "They are restoring peace in the region."
     ]
   },
   {
-    "id": 126070308,
+    "id": 126070405,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Yangın veya sel gibi tehlikeli durumlarda insanların güvenli bir yere taşınmasını anlatan kelime hangisidir?",
-    "translation": "Evacuations (Tahliyeler)",
-    "context": "'Evacuations', yani 'tahliyeler' veya 'boşaltmalar'. Bir bölgedeki insanlar, tehlike (yangın, sel, deprem vb.) nedeniyle güvenli bir yere götürülürken bu kelime kullanılır. 'Hemen eşyalarını topla, tahliye zamanı!' denir.",
+    "phrase": "Monaco'daki bombalı saldırı sonrası aranan Ukraynalı şüpheli ne şekildeydi?",
+    "translation": "Erkek kılığındaydı.",
+    "context": "'Disguised as' ifadesi, birinin kimliğini veya görünümünü değiştirmek için başka bir şey veya kişi gibi davrandığını, giyindiğini anlatır. Özellikle suç olaylarında veya casusluk filmlerinde sıkça duyarsın. Yani bildiğin 'kılık değiştirme' durumu. Bazen de eğlence için kostüm partilerinde 'disguised as a superhero' olabilirsin!",
     "options": [
-      "Evacuations",
-      "Celebrations",
-      "Meditations",
-      "Donations"
+      "wearing a disguise",
+      "disguised as a man",
+      "looking like a woman",
+      "wearing a uniform"
     ],
-    "correctAnswer": "Evacuations",
+    "correctAnswer": "disguised as a man",
     "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126070309,
+    "id": 126070406,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The crowd _____ into cheers after the goal.",
-    "translation": "Coşkuyla ses çıkarmak (Patlamak)",
-    "context": "'Erupts', yani 'birdenbire patlamak', 'coşkuyla ses çıkarmak'. Bir yanardağ patladığında veya coşkulu bir kalabalık aniden tezahürata başladığında bu fiili kullanırız. Hamilton'ın rekor kırdığı an stadyumun 'erupt' ettiğini hayal et!",
+    "level": "INTERMEDIATE",
+    "phrase": "This is the only AI _____ you'll need.",
+    "translation": "Bu, ihtiyacın olacak tek yapay zeka sözlüğüdür.",
+    "context": "'Glossary' dediğimizde, belirli bir konuyla ilgili, genellikle alfabetik sıraya göre düzenlenmiş terimler ve onların açıklamalarının bulunduğu bir liste veya sözlükçeyi anlarız. Kitapların sonunda ya da teknik raporlarda çok işine yarar. Kısacası, bilmediğin kelimeleri hızlıca anlamana yardımcı olan mini bir rehber!",
     "options": [
-      "erupts",
-      "calms",
-      "sleeps",
-      "whispers"
+      "glossary",
+      "dictionary",
+      "handbook",
+      "guide"
     ],
-    "correctAnswer": "erupts",
-    "category": "CASUAL",
-    "variations": [
-      "Laughter erupted from the audience.",
-      "The volcano erupted after years of inactivity."
-    ]
-  },
-  {
-    "id": 126070310,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The project has _____ well in the last month.",
-    "translation": "İlerlemiş",
-    "context": "'Progressed', yani 'ilerlemiş', 'gelişmiş'. Bir şeyin aşama kaydettiğini, daha iyiye gittiğini anlatırken kullanılır. Çalışmaların veya bir işin 'progress' etmesi, harika bir haberdir.",
-    "options": [
-      "progressed",
-      "stalled",
-      "stopped",
-      "failed"
-    ],
-    "correctAnswer": "progressed",
+    "correctAnswer": "glossary",
     "category": "BUSINESS",
     "variations": [
-      "His condition progressed rapidly.",
-      "Technology has progressed quickly."
+      "The book includes a useful glossary of terms.",
+      "I often check the glossary for definitions."
     ]
   },
   {
-    "id": 126070311,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Bir spor yarışmasında favori olmayan bir takımın veya sporcunun beklenmedik bir şekilde kazanması durumunu en iyi anlatan kelime hangisidir?",
-    "translation": "Upset (Beklenmedik galibiyet)",
-    "context": "'Upset' kelimesi, normalde 'üzgün' anlamına gelir ama spor bahislerinde bambaşka bir anlamı var: 'beklenmedik galibiyet' veya 'sürpriz zafer'! Favori atın değil de, adı sanı duyulmamış 'A Boy Named Susie' adlı atın kazanması tam bir 'upset' olurdu. Bahisçiler için hem şok hem de büyük bir kazanç kapısı!",
+    "id": 126070407,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Weather could still _____ kick-off for the match.",
+    "translation": "Hava, maçın başlama vuruşunu hala etkileyebilir.",
+    "context": "'Affect' fiili, bir şeyi etkilemek, üzerinde bir değişiklik veya sonuç yaratmak anlamına gelir. Futbol maçlarında havanın kötü olması, oyunun başlama saatini veya kalitesini 'affect' edebilir. Genellikle bir durumun başka bir durum üzerindeki doğrudan etkisini anlatırız. Dikkat et, 'effect' isim halidir!",
     "options": [
-      "Victory",
-      "Defeat",
-      "Tie",
-      "Upset"
+      "affect",
+      "effect",
+      "impact",
+      "influence"
     ],
-    "correctAnswer": "Upset",
+    "correctAnswer": "affect",
+    "category": "CASUAL",
+    "variations": [
+      "His mood can affect everyone around him.",
+      "Does caffeine affect your sleep quality?"
+    ]
+  },
+  {
+    "id": 126070408,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Uzmanlar, El Niño'nun hızla güçlendiği konusunda ne yapıyorlar?",
+    "translation": "Hava tahmincileri uyarıyor.",
+    "context": "'Forecaster' hava durumu gibi gelecekteki olayları tahmin eden kişi veya kurum demektir. 'Warn' ise bir tehlikeye karşı uyarıda bulunmak anlamına gelir. Yani bu ikili bir araya gelince, hava tahmincileri bir şeyin kötüye gidebileceği konusunda bizi bilgilendiriyor demek. Mesela, 'forecasters warn of heavy rain' gibi. Ciddiye almak lazım!",
+    "options": [
+      "forecasters predict",
+      "forecasters warn",
+      "forecasters suggest",
+      "forecasters hope"
+    ],
+    "correctAnswer": "forecasters warn",
     "category": "MIXED",
     "variations": []
   },
   {
-    "id": 126070312,
+    "id": 126070409,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Rüzgar türbinleri neden sürdürülebilir ürünlere dönüşüyor?",
+    "translation": "Sürdürülebilir ürünler.",
+    "context": "'Sustainable products', üretiminden tüketimine ve atık yönetimine kadar çevreye zarar vermeyen, doğal kaynakları koruyan ve gelecek nesillerin ihtiyaçlarını karşılayabilen ürünlerdir. Yani hem doğayı düşünen, hem de uzun ömürlü ve yeniden kullanılabilir ürünler. Bu, özellikle günümüz iş dünyasında ve yeşil ekonomide çok kritik bir kavram.",
+    "options": [
+      "cheap products",
+      "recycled products",
+      "sustainable products",
+      "expensive products"
+    ],
+    "correctAnswer": "sustainable products",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126070410,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "They _____ the mountain in just two days.",
-    "translation": "Tırmanmış",
-    "context": "'Scaled', yani 'tırmanmış', 'ölçeklemiş'. Bir dağa tırmanmak, bir duvara tırmanmak gibi fiziksel bir yükselişi anlatırken kullanılır. Empire State Binası'na çıkan o cesur çift gibi! Aynı zamanda bir şeyin boyutunu ayarlamak veya ölçeklendirmek için de 'scale' kelimesini kullanırız ama burada tırmanmak anlamında.",
+    "phrase": "The overcrowded bus _____ into a ravine.",
+    "translation": "Aşırı kalabalık otobüs bir vadiye yuvarlandı.",
+    "context": "'Plunge' kelimesi, bir şeyin aniden ve hızla aşağıya doğru düşmesi veya batması anlamına gelir. Özellikle dramatik ve tehlikeli düşüşler için kullanılır. Mesela, bir otobüsün dereye yuvarlanması veya bir hisse senedinin değerinin aniden çakılması gibi durumları anlatmak için idealdir. Sanki boşluğa atlar gibi!",
     "options": [
-      "scaled",
-      "fell",
-      "crossed",
-      "ignored"
+      "plunges",
+      "falls",
+      "drops",
+      "sinks"
     ],
-    "correctAnswer": "scaled",
+    "correctAnswer": "plunges",
     "category": "TRAVEL",
     "variations": [
-      "The climbers scaled the rock face.",
-      "He scaled the wall to escape."
+      "The car plunged into the lake.",
+      "He plunged his hands into his pockets."
     ]
+  },
+  {
+    "id": 126070411,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The browser wars aren’t about _____ anymore.",
+    "translation": "Tarayıcı savaşları artık arama hakkında değil.",
+    "context": "'Search' dediğimizde, genellikle internet üzerindeki bilgi arayışımızı veya spesifik bir şeyi bulma eylemimizi kastederiz. Web tarayıcıları arasındaki rekabetin (browser wars) artık sadece en iyi arama motoru olmakla ilgili olmadığını anlatır. Artık gizlilik, hız, eklentiler gibi daha gelişmiş özellikler ön planda.",
+    "options": [
+      "search",
+      "browsing",
+      "internet",
+      "websites"
+    ],
+    "correctAnswer": "search",
+    "category": "CASUAL",
+    "variations": [
+      "The internet search engine market is very competitive.",
+      "I use Google for my daily search needs."
+    ]
+  },
+  {
+    "id": 126070412,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Fransa'da sıcak hava dalgasının zirvesinde 2.025 'excess deaths' kaydedildi. Bu ne anlama geliyor?",
+    "translation": "Normalde beklenenden fazla ölüm.",
+    "context": "'Excess deaths' terimi, belirli bir dönemde normalde beklenen ölüm sayısının üzerinde gerçekleşen ölüm miktarını ifade eder. Genellikle salgın hastalıklar, doğal afetler veya şiddetli sıcak hava dalgaları gibi olağanüstü olaylar sırasında ortaya çıkar. Bu, bir krizin veya olumsuz durumun toplum sağlığı üzerindeki gerçek etkisini ölçmek için önemli bir göstergedir.",
+    "options": [
+      "Sadece yaşlı ölümleri.",
+      "Sadece genç ölümleri.",
+      "Normalde beklenenden fazla ölüm.",
+      "Yaz mevsiminde yaşanan ölüm sayısı."
+    ],
+    "correctAnswer": "Normalde beklenenden fazla ölüm.",
+    "category": "MIXED",
+    "variations": []
   }
 ]
