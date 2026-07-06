@@ -1,236 +1,224 @@
 [
   {
-    "id": 126070501,
+    "id": 126070601,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The city celebrated its birthday with colorful _____ in the sky.",
-    "translation": "Havai fişekler",
-    "context": "Partilerde, kutlamalarda ya da özel günlerde gece gökyüzünü rengarenk ışıklarla aydınlatan bu patlayıcılara 'fireworks' deriz. ABD'nin 250. doğum günü kutlamalarında da bolca kullanılmış!",
+    "phrase": "The cat was _____ under the fallen tree for hours.",
+    "translation": "Kedi düşen ağacın altında saatlerce mahsur kalmıştı.",
+    "context": "'Trapped under', bir şeyin altında sıkışıp kalmak, mahsur olmak demek. Haberlerde deprem sonrası enkaz altında kalanlardan bahsederken sıkça görürsün. Günlük hayatta da anahtarlarını yatağın altında unutup oraya sıkışırsan veya bir eşyanın altında kalırsan kullanabilirsin. Umarım hiç mahsur kalmazsın!",
     "options": [
-      "fireworks",
-      "sunsets",
-      "clouds",
-      "birds"
+      "trapped",
+      "free",
+      "saved",
+      "running"
     ],
-    "correctAnswer": "fireworks",
-    "category": "CASUAL",
-    "variations": [
-      "'We watched the spectacular fireworks show last night.'",
-      "'The festival ended with a dazzling display of fireworks.'"
-    ]
-  },
-  {
-    "id": 126070502,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Our company has many dedicated _____ working hard every day.",
-    "translation": "Çalışanlar",
-    "context": "Bir şirketin veya kurumun işlerini yürüten kişilere 'employees' yani 'çalışanlar' denir. Alibaba'nın da çalışanlarına bazı AI araçlarını yasaklaması gündemdeymiş, yani çalışanlar şirketin en değerli varlığı!",
-    "options": [
-      "employees",
-      "customers",
-      "managers",
-      "competitors"
-    ],
-    "correctAnswer": "employees",
-    "category": "BUSINESS",
-    "variations": [
-      "'All employees must attend the training session.'",
-      "'She is one of our most valued employees.'"
-    ]
-  },
-  {
-    "id": 126070503,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "We spent our vacation at a beautiful beach _____ with a big pool.",
-    "translation": "Tatil köyü / Tatil yeri",
-    "context": "Tatil yapmak, dinlenmek veya eğlenmek için gittiğimiz, genellikle konaklama, yemek ve aktiviteleri bir arada sunan yerlere 'resort' deriz. Rusya'daki yakıt sıkıntısı nedeniyle Cossack'ların benzin istasyonlarını koruduğu bir tatil beldesinde yaşanmış, ilginç bir durum!",
-    "options": [
-      "resort",
-      "airport",
-      "hospital",
-      "factory"
-    ],
-    "correctAnswer": "resort",
+    "correctAnswer": "trapped",
     "category": "TRAVEL",
     "variations": [
-      "'The ski resort is very popular in winter.'",
-      "'This luxury resort offers spa services.'"
+      "She felt _____ under pressure.",
+      "The miners were _____ under tons of rock."
     ]
   },
   {
-    "id": 126070504,
+    "id": 126070602,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "Which technology can write texts and create images automatically?",
-    "translation": "Yapay zeka",
-    "context": "Yapay zeka, yani 'Artificial Intelligence'ın kısaltması olan 'AI', bilgisayarların insan benzeri düşünme ve öğrenme yetenekleri kazanmasını sağlayan teknolojidir. Google bile bağımsızlık bildirisini AI ile yazmayı hayal ediyormuş, bayağı havalı değil mi?",
+    "phrase": "Bir şirketin değerinin belirlenmesi anlamına gelen İngilizce kelime hangisidir?",
+    "translation": "What is the English word for determining a company's worth?",
+    "context": "'Valuation', özellikle teknoloji ve start-up dünyasında bir şirketin ne kadar değerli olduğunu belirleme sürecidir. Yatırımcılar bir şirkete para yatırmadan önce onun 'valuation'ına bakarlar. Senin de gelecekte kurduğun şirketin 'valuation'ı milyarlarca dolar olabilir, kim bilir!",
     "options": [
-      "AI",
-      "VPN",
-      "GPS",
-      "DVD"
+      "Revenue",
+      "Profit",
+      "Valuation",
+      "Expense"
     ],
-    "correctAnswer": "AI",
-    "category": "MIXED",
-    "variations": []
-  },
-  {
-    "id": 126070505,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The favorite player sadly _____ of the tournament in the first round.",
-    "translation": "Turnuvadan elenmek / Erken ayrılmak",
-    "context": "Bir sporcu veya takımın bir turnuvadan beklenenden erken elenmesi, yenilmesi ve yarışma dışı kalması durumuna 'crash out' denir. Wimbledon'da favori şampiyon Swiatek'in elenmesi gibi, bazen büyük sürprizler yaşanır!",
-    "options": [
-      "crashes out",
-      "plays in",
-      "wins through",
-      "advances quickly"
-    ],
-    "correctAnswer": "crashes out",
-    "category": "CASUAL",
-    "variations": [
-      "'Our team crashed out of the cup in the semi-finals.'",
-      "'He crashed out of the race after a bad fall.'"
-    ]
-  },
-  {
-    "id": 126070506,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Our main _____ just launched a new product, so we need to innovate.",
-    "translation": "Rakip",
-    "context": "İş dünyasında, aynı pazarda benzer ürün veya hizmetleri sunan ve müşteriler için rekabet eden şirketlere veya kişilere 'competitor' yani 'rakip' denir. Mistral AI, OpenAI'ın önemli bir rakibi olarak öne çıkıyor, teknoloji savaşları her zaman heyecanlıdır!",
-    "options": [
-      "competitor",
-      "partner",
-      "employee",
-      "customer"
-    ],
-    "correctAnswer": "competitor",
-    "category": "BUSINESS",
-    "variations": [
-      "'They are a strong competitor in the smartphone market.'",
-      "'We always keep an eye on our competitors' strategies.'"
-    ]
-  },
-  {
-    "id": 126070507,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The car lost control and unfortunately _____ down the steep hill.",
-    "translation": "Vadiye yuvarlanmak / Uçuruma düşmek",
-    "context": "Bir aracın veya kişinin kontrolü kaybederek derin bir vadiye veya uçuruma düşmesi durumunu anlatır. Pakistan'da bir otobüsün vadiye yuvarlanması çok acı bir olaymış, seyahat ederken her zaman dikkatli olmak gerekir.",
-    "options": [
-      "plunged into a ravine",
-      "drove carefully",
-      "stopped suddenly",
-      "parked safely"
-    ],
-    "correctAnswer": "plunged into a ravine",
-    "category": "TRAVEL",
-    "variations": [
-      "'The explorer almost plunged into a ravine during the hike.'",
-      "'Witnesses saw the truck plunge into the ravine below.'"
-    ]
-  },
-  {
-    "id": 126070508,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Families often _____ special occasions like birthdays with a big meal.",
-    "translation": "Kutlamak / Anmak",
-    "context": "Bir olayı veya özel bir günü kutlamak, anmak ya da işaret etmek anlamında kullanılan bu kelime, ABD'nin 250. doğum gününü 'mark' etmesi gibi durumlarda karşımıza çıkar. Yani özel bir günü vurgulamak demektir.",
-    "options": [
-      "mark",
-      "forget",
-      "ignore",
-      "miss"
-    ],
-    "correctAnswer": "mark",
-    "category": "MIXED",
-    "variations": [
-      "'They will mark their anniversary with a quiet dinner.'",
-      "'The monument marks the spot of the historic battle.'"
-    ]
-  },
-  {
-    "id": 126070509,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "He was disqualified from the game after making serious _____ against his opponent.",
-    "translation": "Hile yaptığına dair yorumlar / İmalar",
-    "context": "Bir kişinin bir başkasının hile yaptığını ima eden veya doğrudan suçlayan sözlerine 'cheating remarks' denir. Eski satranç şampiyonu Kramnik'in bu tür yorumlar yüzünden yasaklanması, spor dünyasında etik değerlerin ne kadar önemli olduğunu gösteriyor.",
-    "options": [
-      "cheating remarks",
-      "complimentary comments",
-      "friendly suggestions",
-      "neutral observations"
-    ],
-    "correctAnswer": "cheating remarks",
-    "category": "CASUAL",
-    "variations": [
-      "'His cheating remarks caused a huge controversy.'",
-      "'The coach warned the player about making cheating remarks.'"
-    ]
-  },
-  {
-    "id": 126070510,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Which phrase best describes items designed to minimize environmental impact and last longer?",
-    "translation": "Sürdürülebilir ürünler",
-    "context": "Çevreye zarar vermeden üretilen, uzun ömürlü, geri dönüştürülebilir veya yenilenebilir kaynaklardan elde edilen ürünlere 'sustainable products' deriz. Rüzgar türbinlerinden sürdürülebilir ürünler üretilmesi, geleceğimiz için harika bir adım!",
-    "options": [
-      "Sustainable products",
-      "Disposable goods",
-      "Luxury items",
-      "Mass-produced goods"
-    ],
-    "correctAnswer": "Sustainable products",
+    "correctAnswer": "Valuation",
     "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126070511,
+    "id": 126070603,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Environmental groups are working on _____ to help preserve biodiversity and fight climate change.",
-    "translation": "Turbalık alanları restore etmek / Yenilemek",
-    "context": "Peatland (turbalık), karbon depolayan ve biyoçeşitliliğe ev sahipliği yapan sulak alanlardır. Bu alanları eski doğal hallerine döndürmek, yani 'restoring peatland', iklim değişikliğiyle mücadelede çok kritik bir rol oynar. 'Bogfather' lakaplı bilim insanı da bu önemli görevi üstlenmiş!",
+    "level": "BEGINNER",
+    "phrase": "The politician was criticized for sharing a _____ photo.",
+    "translation": "Siyasetçi, sahte bir fotoğraf paylaştığı için eleştirildi.",
+    "context": "'Doctored photo', yani üzerinde oynanmış, değiştirilmiş fotoğraf demek. Günümüzde Photoshop veya diğer düzenleme araçlarıyla gerçek gibi görünen ama aslında gerçeği yansıtmayan görseller çok kolay üretilebiliyor. Özellikle sosyal medyada neye inanıp neye inanmayacağımıza dikkat etmekte fayda var. Gözüne takılan her şeyi sorgula!",
     "options": [
-      "restoring peatland",
-      "building new factories",
-      "developing more roads",
-      "increasing deforestation"
+      "fake",
+      "original",
+      "clear",
+      "new"
     ],
-    "correctAnswer": "restoring peatland",
-    "category": "TRAVEL",
+    "correctAnswer": "fake",
+    "category": "CASUAL",
     "variations": [
-      "'Restoring peatland is essential for our planet's health.'",
-      "'The project focuses on restoring peatland ecosystems.'"
+      "This image looks like a _____ version.",
+      "He admitted it was a _____ picture."
     ]
   },
   {
-    "id": 126070512,
+    "id": 126070604,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "'Saldırı' veya 'grev' gibi anlamlara gelebilen İngilizce kelime hangisidir?",
+    "translation": "Which English word can mean 'attack' or 'strike' (as in industrial action)?",
+    "context": "'Strike' kelimesi haberlerde çok farklı anlamlarda karşımıza çıkabilir. Bir ülkeye yapılan 'hava saldırısı' olabilir ya da işçilerin haklarını aramak için yaptıkları 'grev' olabilir. Sporcuların topa 'vurması' da bir 'strike'tır. Anlamı bağlama göre değişir, o yüzden dikkatli olmak lazım!",
+    "options": [
+      "Storm",
+      "Strike",
+      "Flight",
+      "Journey"
+    ],
+    "correctAnswer": "Strike",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126070605,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The hurricane is expected to _____ late tonight.",
+    "translation": "Kasırganın bu gece geç saatlerde karaya ulaşması bekleniyor.",
+    "context": "'Makes landfall' deyimi, özellikle tayfun, kasırga gibi büyük fırtınaların denizden karaya ulaşması, yani karayla temas etmesi durumunda kullanılır. Bu terimi duyduğunda, genelde büyük bir olayın yaklaştığını anlarsın. Seyahat ediyorsan veya o bölgede yaşıyorsan, hazırlıklı olmakta fayda var!",
+    "options": [
+      "arrive",
+      "depart",
+      "landfall",
+      "pass by"
+    ],
+    "correctAnswer": "landfall",
+    "category": "TRAVEL",
+    "variations": [
+      "The storm will _____ on the coast.",
+      "It's predicted to _____ in Florida."
+    ]
+  },
+  {
+    "id": 126070606,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "İşler yolunda giderken karşılaşılan beklenmedik bir engel veya aksilik için kullanılan deyim hangisidir?",
+    "translation": "Which idiom is used for an unexpected obstacle or setback when things are going well?",
+    "context": "'Hit a speed bump' deyimi, yolunuzda her şey sorunsuz giderken aniden karşınıza çıkan küçük bir engeli veya zorluğu ifade eder. Gerçek bir 'hız tümseği' gibi, sizi yavaşlatır ama genellikle durdurmaz. İş dünyasında, proje yönetiminde veya kişisel hedeflerinizde bu tür 'speed bump'larla karşılaşmak çok normaldir. Sakin kalıp çözüme odaklanmak gerek!",
+    "options": [
+      "Hit a home run",
+      "Hit a speed bump",
+      "Hit the road",
+      "Hit the books"
+    ],
+    "correctAnswer": "Hit a speed bump",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126070607,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "He had to _____ his rude behavior.",
+    "translation": "Kaba davranışı için özür dilemek zorunda kaldı.",
+    "context": "'Apologise for', bir hata yaptığında, birini üzdüğünde veya uygunsuz bir şey söylediğinde 'özür dilemek' anlamına gelir. Özellikle kamuya mal olmuş kişiler veya liderler, yanlış bir açıklama yaptıklarında hemen 'apologise for' ederler. Unutma, özür dilemek bir zayıflık değil, aksine olgunluğun ve sorumluluk bilincinin göstergesidir!",
+    "options": [
+      "explain",
+      "apologize",
+      "defend",
+      "ignore"
+    ],
+    "correctAnswer": "apologize",
+    "category": "CASUAL",
+    "variations": [
+      "The company must _____ the delay.",
+      "She will _____ her absence."
+    ]
+  },
+  {
+    "id": 126070608,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Özellikle spor veya filmlerde heyecan dolu ve nefes kesici bir maç ya da olay için kullanılan kelime hangisidir?",
+    "translation": "Which word is used for an exciting and breathtaking match or event, especially in sports or movies?",
+    "context": "'Thriller', özellikle spor müsabakalarında veya filmlerde kullanılan, son dakikaya kadar heyecanın hiç dinmediği, izleyiciyi koltuğuna kilitleyen olayları tanımlamak için harika bir kelime. O kadar heyecanlıdır ki, sanki bir gerilim filmi izliyormuş gibi hissedersin. İngiltere'nin çeyrek finale yükseldiği maç da tam bir 'thriller'dı!",
+    "options": [
+      "Boring",
+      "Thriller",
+      "Routine",
+      "Quiet"
+    ],
+    "correctAnswer": "Thriller",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126070609,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The boxing champion trained hard to _____ in the upcoming title match.",
-    "translation": "Şampiyonluğunu korumak / Tacını savunmak",
-    "context": "Bir sporcunun veya takımın daha önceki bir turnuvada veya ligde kazandığı şampiyonluğu yeni bir yarışmada korumak için mücadele etmesine 'defend crown' denir. Grand Prix'de Calandagan'ın unvanını korumaya çalışması gibi, spor dünyasında bu ifade çok kullanılır!",
+    "phrase": "Rescuers searched through the _____ for survivors.",
+    "translation": "Kurtarma ekipleri hayatta kalanları bulmak için enkazı aradı.",
+    "context": "'Rubble', deprem, savaş veya yıkım sonrası binalardan geriye kalan moloz, yıkıntı ve enkaz yığınıdır. Bu kelimeyi duyduğunda aklına hemen felaket sahneleri gelebilir. Ama aynı zamanda, eski bir binanın yıkımından sonra oluşan 'rubble' da olabilir. Umarım hayatında hiç 'rubble' ile karşılaşmazsın!",
     "options": [
-      "defend his crown",
-      "lose his title",
-      "give up the fight",
-      "challenge a new opponent"
+      "debris",
+      "forest",
+      "water",
+      "sand"
     ],
-    "correctAnswer": "defend his crown",
-    "category": "MIXED",
+    "correctAnswer": "debris",
+    "category": "TRAVEL",
     "variations": [
-      "'She hopes to defend her crown at the next Olympics.'",
-      "'The team's goal is to defend their league crown this season.'"
+      "The city was reduced to _____ after the bombing.",
+      "They cleared the _____ from the street."
     ]
+  },
+  {
+    "id": 126070610,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Bir şirketin hisselerini ilk kez halka arz etmesi ve borsada işlem görmeye başlaması sürecine ne ad verilir?",
+    "translation": "What is the process called when a company first offers its shares to the public and starts trading on the stock exchange?",
+    "context": "'Going public' veya 'halka arz', bir şirketin özel statüden çıkıp hisselerini herkese açık olarak satmaya başlamasıdır. Kısaca 'IPO' (Initial Public Offering) olarak da bilinir. Bu, genellikle şirketler için büyük bir kilometre taşıdır ve daha fazla sermaye toplamalarına olanak tanır. Yani, bir şirket 'going public' olduğunda, sen de o şirketin küçük bir parçasına sahip olabilirsin!",
+    "options": [
+      "Bankruptcy",
+      "Merger",
+      "Acquisition",
+      "Going Public"
+    ],
+    "correctAnswer": "Going Public",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126070611,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The discussion became very _____ after someone mentioned the election.",
+    "translation": "Birisi seçimden bahsedince tartışma çok politik bir hal aldı.",
+    "context": "'Politically charged', bir konunun, ifadenin veya durumun politik olarak hassas, yüklü veya tartışmalı olduğu anlamına gelir. Yani, bu tür konular hakkında konuşurken veya davranırken dikkatli olmak gerekir çünkü kolayca tartışmalara yol açabilir veya insanları kutuplaştırabilir. Politik içerikli bayraklar taşıyan geminin paradan çıkarılması da buna güzel bir örnek. Her ortamda her konuyu konuşmak bazen riskli olabilir, unutma!",
+    "options": [
+      "neutral",
+      "political",
+      "friendly",
+      "calm"
+    ],
+    "correctAnswer": "political",
+    "category": "CASUAL",
+    "variations": [
+      "His speech was full of _____ language.",
+      "Avoid _____ topics at dinner."
+    ]
+  },
+  {
+    "id": 126070612,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "İklim değişikliğiyle mücadele etmek için bataklık alanları eski haline getirme çabalarına ne ad verilir?",
+    "translation": "What is the term for efforts to restore wetland areas to their original state to combat climate change?",
+    "context": "'Restoring peatland' veya 'bataklık alanlarını restore etmek', iklim değişikliğiyle mücadelede oldukça önemli bir stratejidir. Bataklıklar, atmosferdeki karbondioksiti depolayan devasa 'karbon yutağı' gibidir. 'Bogfather' lakaplı bilim insanının yaptığı gibi, bu alanları korumak ve iyileştirmek, gezegenimiz için adeta bir süper kahramanlık görevi! Doğayı korumak sadece ağaç dikmekle olmaz, bataklıklar da çok değerli!",
+    "options": [
+      "Deforestation",
+      "Urbanization",
+      "Peatland Restoration",
+      "Industrialization"
+    ],
+    "correctAnswer": "Peatland Restoration",
+    "category": "MIXED",
+    "variations": []
   }
 ]
