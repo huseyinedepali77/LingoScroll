@@ -1,242 +1,239 @@
 [
   {
-    "id": 126070801,
+    "id": 126070901,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The UK is experiencing a severe _____ this summer.",
-    "translation": "İngiltere bu yaz şiddetli bir sıcak hava dalgası yaşıyor.",
-    "context": "'Heatwave' demek, hava sıcaklığının uzun süre normalin üzerinde seyretmesi. İngiltere'de şu an acayip bir sıcak hava dalgası varmış, resmen yanıyorlar! Tatil planlarken gideceğin yerin hava durumunu mutlaka kontrol et, yoksa sıcaktan bunalabilirsin!",
+    "phrase": "After a long career, the athlete announced her _____.",
+    "translation": "Emeklilik",
+    "context": "Bir sporcu kariyerini sonlandırdığında 'retirement' (emeklilik) durumuna geçer. Genelde alkışlarla sahneden inerler, ama sen istersen evde televizyon karşısında da 'retired' olabilirsin! Sadece ciddiye alma, o kadar da değil. :)",
+    "options": [
+      "career",
+      "achievement",
+      "retirement",
+      "training"
+    ],
+    "correctAnswer": "retirement",
+    "category": "CASUAL",
+    "variations": [
+      "She decided on early retirement after years of hard work.",
+      "Many people dream of a comfortable retirement."
+    ]
+  },
+  {
+    "id": 126070902,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The startup aims to _____ its valuation in the next year.",
+    "translation": "İkiye katlamak",
+    "context": "Bir şirketin değerini ikiye katlaması durumunda 'double its valuation' denir. Yani, dün 100 milyon dolar olan şirket bugün 200 milyon dolar olursa, işte bu 'double' etmektir. Patronlara güzel haber!",
+    "options": [
+      "halve",
+      "double",
+      "stop",
+      "lower"
+    ],
+    "correctAnswer": "double",
+    "category": "BUSINESS",
+    "variations": [
+      "The company plans to double its profits next quarter.",
+      "Can we double the order for tomorrow?"
+    ]
+  },
+  {
+    "id": 126070903,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "We expect a long _____ this summer.",
+    "translation": "Sıcak hava dalgası",
+    "context": "'Heatwave' günlerce süren aşırı sıcak hava dalgası demek. Eğer 'heatwave' varsa, denize koş, klimalı bir yere kaç ya da dondurma stoku yap! Sakın öğlen güneşi altında koşmaya çalışma, erirsin!",
     "options": [
       "heatwave",
-      "cold snap",
-      "rainstorm",
-      "blizzard"
+      "cold front",
+      "rain",
+      "breeze"
     ],
     "correctAnswer": "heatwave",
     "category": "TRAVEL",
     "variations": [
-      "The city is under a heatwave warning.",
-      "I hope this heatwave ends soon."
+      "The city is bracing for a severe heatwave.",
+      "Stay indoors during the peak of the heatwave."
     ]
   },
   {
-    "id": 126070802,
+    "id": 126070904,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The startup managed to _____ $1 billion in funding.",
-    "translation": "Startup 1 milyar dolar fon toplamayı başardı.",
-    "context": "'Raise' kelimesi, bir şirket veya proje için para toplamak, yatırım almak anlamında kullanılır. SambaNova gibi teknoloji şirketleri, büyümek ve yeni ürünler geliştirmek için sürekli yatırım 'raise' etmeye çalışır. 'Bir milyar dolar toplamışlar, helal olsun!' deriz biz de.",
+    "phrase": "Military forces launched more _____ in the region.",
+    "translation": "Askeri saldırılar",
+    "context": "Buradaki 'strikes', askeri saldırılar veya operasyonlar anlamına gelir. Normalde 'strike' bir şeyi vurmak demek ama haberlerde geçtiğinde genelde askeri bir eylemi anlatır. Yani bir şeyin başına kötü bir şey gelmesi!",
     "options": [
-      "raise",
-      "drop",
-      "lose",
-      "spend"
-    ],
-    "correctAnswer": "raise",
-    "category": "BUSINESS",
-    "variations": [
-      "They need to raise more funds.",
-      "We must raise awareness for this cause."
-    ]
-  },
-  {
-    "id": 126070803,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "England _____ India in the exciting cricket match.",
-    "translation": "İngiltere heyecanlı kriket maçında Hindistan'ı ezdi.",
-    "context": "'Thump' fiili, birini veya bir takımı 'ezici bir şekilde yenmek, darmadağın etmek' anlamında kullanılır. İngilizler Hindistan'ı krikette öyle bir 'thumped' ki, skor tabelası görünce 'Oha!' demişlerdir. Kötü bir yenilgi sonrası 'Resmen bizi ezdiler!' dersin ya, işte o!",
-    "options": [
-      "thumped",
-      "tied",
-      "lost",
-      "drew"
-    ],
-    "correctAnswer": "thumped",
-    "category": "CASUAL",
-    "variations": [
-      "Our team thumped the rivals.",
-      "He thumped his fist on the table."
-    ]
-  },
-  {
-    "id": 126070804,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "US and Iran traded _____ in the Strait of Hormuz.",
-    "translation": "ABD ve İran Hürmüz Boğazı'nda karşılıklı saldırılar yaptı.",
-    "context": "'Strike' kelimesinin birden çok anlamı var ama burada askeri bir terim olarak 'saldırı' veya 'karşılıklı darbe' anlamına geliyor. ABD ve İran'ın Hürmüz Boğazı'nda karşılıklı 'strikes' takas etmesi gerginliği tırmandırıyor. 'Greve gitmek' için de 'go on strike' denir, ama buradaki durum farklı, daha çok aksiyon filmlerindeki gibi!",
-    "options": [
-      "strikes",
-      "gifts",
+      "celebrations",
       "talks",
-      "apologies"
+      "strikes",
+      "meetings"
     ],
     "correctAnswer": "strikes",
     "category": "MIXED",
     "variations": [
-      "The workers went on strike today.",
-      "He made a surprise strike against the enemy."
+      "The government condemned the latest strikes.",
+      "A series of strikes hit the region last night."
     ]
   },
   {
-    "id": 126070805,
-    "type": "QUIZ_COMPLETION",
+    "id": 126070905,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "The typhoon triggered widespread _____ and rare tornadoes.",
-    "translation": "Tayfun geniş çaplı sellere ve nadir kasırgalara neden oldu.",
-    "context": "'Trigger' tetiklemek, başlatmak demek, 'floods' da seller. Bir tayfunun 'trigger widespread floods' yapması, çok geniş bir alanda sel felaketine yol açması demek. 'Yağmur sel baskınlarını tetikledi' deriz, bu da onun İngilizcesi. Doğa olayları maalesef bazen beklenmedik felaketleri 'trigger' edebiliyor.",
+    "phrase": "Who are 'first responders'?",
+    "translation": "Paramedik ve itfaiyeciler gibi acil durum personeli.",
+    "context": "'First responders' acil durumlarda olay yerine ilk ulaşan kahramanlardır! İtfaiyeciler, ambulans ekipleri, polisler... Hani filmde bir yere bir şey olunca hemen sirenlerle gelenler var ya, işte onlar! Onlar olmasa halimiz duman.",
     "options": [
-      "floods",
-      "droughts",
-      "wildfires",
-      "blizzards"
+      "People who call 911 first.",
+      "Emergency personnel like paramedics and firefighters.",
+      "People who arrive first at a party.",
+      "Journalists reporting from the scene."
     ],
-    "correctAnswer": "floods",
-    "category": "TRAVEL",
-    "variations": [
-      "His speech triggered a debate.",
-      "Heavy rain caused severe floods in the area."
-    ]
+    "correctAnswer": "Emergency personnel like paramedics and firefighters.",
+    "category": "CASUAL",
+    "variations": []
   },
   {
-    "id": 126070806,
+    "id": 126070906,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The company achieved an $11 billion _____ after a new investment.",
-    "translation": "Şirket yeni bir yatırım sonrası 11 milyar dolarlık bir değerlemeye ulaştı.",
-    "context": "'Valuation' kelimesi, bir şirketin finansal değerlemesi, yani piyasada ne kadar ettiğinin belirlenmesi anlamına gelir. SambaNova gibi startup'lar yatırım alırken 'valuation'ları yükselir. 'O şirketin değeri 11 milyar dolara ulaştı' demek, işte tam da bu! Bir startup'ın değeri, onun potansiyelini ve başarısını gösterir.",
+    "phrase": "The candidate decided to _____ his election campaign.",
+    "translation": "Askıya almak",
+    "context": "Bir 'campaign'i (kampanya) 'suspend' etmek, onu geçici olarak durdurmak veya askıya almak demek. Sanki film izlerken 'pause' tuşuna basmak gibi. Bazen kötü bir olay yüzünden bazen de stratejik sebeplerle yapılır.",
     "options": [
-      "valuation",
-      "debt",
-      "loss",
-      "discount"
+      "continue",
+      "expand",
+      "suspend",
+      "launch"
     ],
-    "correctAnswer": "valuation",
+    "correctAnswer": "suspend",
     "category": "BUSINESS",
     "variations": [
-      "The new valuation surprised everyone.",
-      "Analysts reassessed the company's valuation."
+      "The court decided to suspend his driving license.",
+      "We had to suspend operations due to bad weather."
     ]
   },
   {
-    "id": 126070807,
+    "id": 126070907,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The biohacker received an alarming _____ about his unique health condition.",
-    "translation": "Biohacker, benzersiz sağlık durumu hakkında endişe verici bir teşhis aldı.",
-    "context": "'Diagnosis', bir hastalığın teşhisi veya tanısıdır. Biohacker'ın 'alarming diagnosis' alması, onun için endişe verici bir teşhis konulduğu anlamına geliyor. 'Doktor bana kötü bir teşhis koydu' dediğimizde, İngilizce'de 'The doctor gave me a bad diagnosis' denir. Kulağa hoş gelmiyor, değil mi?",
+    "phrase": "The President decided to _____ planes for the long trip.",
+    "translation": "Değiştirmek",
+    "context": "'Switch' bir şeyden diğerine geçmek, değiştirmek demek. Telefonunu 'switch' edebilirsin, oturduğun yeri 'switch' edebilirsin veya burada olduğu gibi uçağını 'switch' edip daha konforlusuna binebilirsin. Keşke biz de öyle yapabilsek!",
     "options": [
-      "diagnosis",
-      "remedy",
-      "prescription",
-      "treatment"
+      "repair",
+      "clean",
+      "buy",
+      "switch"
     ],
-    "correctAnswer": "diagnosis",
-    "category": "CASUAL",
-    "variations": [
-      "Early diagnosis can save lives.",
-      "The doctor's diagnosis was unexpected."
-    ]
-  },
-  {
-    "id": 126070808,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The leader remained _____ after the controversial court's ruling.",
-    "translation": "Lider, tartışmalı mahkeme kararına rağmen meydan okuyucu kaldı.",
-    "context": "'Defiant', meydan okuyan, boyun eğmeyen, kafa tutan anlamlarına gelir. Le Pen'in mahkeme kararına rağmen 'defiant' kalması, karar ne olursa olsun duruşunu değiştirmemesi ve direnmeye devam etmesi demek. 'Bana ne dersen de, ben bildiğimi okurum!' diyen bir karakter düşün, işte o 'defiant'.",
-    "options": [
-      "defiant",
-      "compliant",
-      "apologetic",
-      "hesitant"
-    ],
-    "correctAnswer": "defiant",
-    "category": "MIXED",
-    "variations": [
-      "He was defiant in the face of danger.",
-      "Her defiant attitude surprised them all."
-    ]
-  },
-  {
-    "id": 126070809,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The marine heatwave is expected to have severe ecological _____ globally.",
-    "translation": "Denizdeki sıcak hava dalgasının küresel olarak ciddi ekolojik sonuçları olması bekleniyor.",
-    "context": "'Ramifications' kelimesi, bir olayın dallanıp budaklanan, genellikle olumsuz sonuçları veya etkileri anlamına gelir. 'Marine heatwave' yani denizdeki sıcak hava dalgasının 'severe ecological ramifications' olması, deniz ekosistemi üzerinde çok ciddi ve yaygın sonuçları olacağı demek. 'Bu kararın geniş çaplı sonuçları olacak' derken, 'This decision will have wide ramifications' dersin. Ciddi durumlar için kullanılır.",
-    "options": [
-      "ramifications",
-      "benefits",
-      "improvements",
-      "advantages"
-    ],
-    "correctAnswer": "ramifications",
+    "correctAnswer": "switch",
     "category": "TRAVEL",
     "variations": [
-      "The new policy could have unexpected ramifications.",
-      "We must consider the long-term ramifications."
+      "I need to switch my flight to an earlier time.",
+      "Let's switch seats so you can see better."
     ]
   },
   {
-    "id": 126070810,
+    "id": 126070908,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Will Putin _____ in the Ukraine war due to ongoing fuel shortages?",
-    "translation": "Putin, süregelen yakıt sıkıntıları nedeniyle Ukrayna savaşında strateji değiştirecek mi?",
-    "context": "'Change tack', rotayı değiştirmek, strateji veya yaklaşımını farklılaştırmak anlamına gelen denizcilik kökenli bir deyimdir. Putin'in yakıt sıkıntıları yüzünden Ukrayna savaşında 'change tack' yapıp yapmayacağı merak ediliyor. Yani, 'tutumunu değiştirecek mi?' demek. İş hayatında da 'Pazarlama stratejimizi değiştirmemiz gerekiyor' derken 'We need to change tack on our marketing strategy' diyebilirsin.",
+    "level": "INTERMEDIATE",
+    "phrase": "Jansen is set for his team _____ in the big game.",
+    "translation": "İlk çıkışı",
+    "context": "'Debut', bir kişinin bir alanda ilk kez sahneye çıkması, ilk performansını sergilemesi demek. Sahneye ilk kez çıktığında heyecanlanır, kalbin pırpır eder ya, işte o an 'debut' anındır! Başarılar dileriz!",
     "options": [
-      "change tack",
-      "accelerate",
-      "escalate",
-      "double down"
+      "retirement",
+      "victory",
+      "training",
+      "debut"
     ],
-    "correctAnswer": "change tack",
-    "category": "BUSINESS",
-    "variations": [
-      "The company decided to change tack after poor sales.",
-      "It's time for us to change tack and innovate."
-    ]
-  },
-  {
-    "id": 126070811,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The aide severely _____ on ABC executives after 'The View' host's remarks.",
-    "translation": "Yardımcı, 'The View' sunucusunun sözleri üzerine ABC yöneticilerine ağır eleştiriler yöneltti.",
-    "context": "'Unload on someone' deyimi, birine çok sert eleştiriler yöneltmek, içini dökmek, bütün öfkesini kusmak anlamına gelir. Mamdani'nin yardımcısının ABC yöneticilerine 'unloaded' yapması, The View'daki yorumlar yüzünden onlara ağzına geleni söylemesi demek. 'Patronuna içini döktü' derken 'He unloaded on his boss' diyebiliriz. Oldukça gergin bir durum!",
-    "options": [
-      "unloaded",
-      "complimented",
-      "praised",
-      "agreed"
-    ],
-    "correctAnswer": "unloaded",
-    "category": "CASUAL",
-    "variations": [
-      "She unloaded on her friend after a bad day.",
-      "He felt the need to unload on someone about his problems."
-    ]
-  },
-  {
-    "id": 126070812,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The Supreme Court won't _____ Texas from enforcing its age verification law.",
-    "translation": "Yüksek Mahkeme, Texas'ı yaş doğrulama yasasını uygulamaktan engellemeyecek.",
-    "context": "'Block', engellemek, önüne geçmek anlamına gelir. Yüksek Mahkeme'nin Texas'ı 'block' etmemesi, eyaletin yaş doğrulama yasasını uygulamaya devam etmesine izin verdiği anlamına geliyor. 'Birinin yolunu kesmek' veya 'bir kararı engellemek' için kullanılır. Sosyal medyada birini 'block'lamak gibi, ama bu daha hukuki bir durum.",
-    "options": [
-      "block",
-      "allow",
-      "assist",
-      "encourage"
-    ],
-    "correctAnswer": "block",
+    "correctAnswer": "debut",
     "category": "MIXED",
     "variations": [
-      "They tried to block the new construction project.",
-      "Security personnel blocked access to the building."
+      "Her debut album was a big success.",
+      "He made a brilliant debut as a leading actor."
+    ]
+  },
+  {
+    "id": 126070909,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Despite a serious assault _____, the investigation continued.",
+    "translation": "Suçlama, iddia",
+    "context": "'Allegation', resmi kanıtlanmamış olsa da birine karşı yapılan ciddi bir suçlama veya iddiadır. Dedikodu gibi düşün ama biraz daha resmi. Hani arkadaşın 'Sen benim çikolatamı yedin!' diye seni suçlar ya, işte o da bir 'allegation' sayılır (kanıtlayana kadar!).",
+    "options": [
+      "compliment",
+      "excuse",
+      "allegation",
+      "confession"
+    ],
+    "correctAnswer": "allegation",
+    "category": "CASUAL",
+    "variations": [
+      "The police are investigating an allegation of fraud.",
+      "She denied all allegations against her."
+    ]
+  },
+  {
+    "id": 126070910,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Despite some initial _____, the judge approved the deal.",
+    "translation": "Endişeler, şüpheler",
+    "context": "'Misgivings', bir şey hakkında hissettiğin şüpheler, endişeler veya kötü hislerdir. İçine sinmeyen bir durum olduğunda 'misgivings' duyarsın. Sanki kahveye şeker yerine tuz atmışsın gibi bir his, bir yanlışlık var dersin.",
+    "options": [
+      "excitement",
+      "misgivings",
+      "certainty",
+      "agreement"
+    ],
+    "correctAnswer": "misgivings",
+    "category": "BUSINESS",
+    "variations": [
+      "He had serious misgivings about the new business proposal.",
+      "Despite my misgivings, I agreed to the plan."
+    ]
+  },
+  {
+    "id": 126070911,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The bad news could _____ the team's hopes for the championship.",
+    "translation": "Azaltmak, söndürmek",
+    "context": "Birinin umutlarını veya coşkusunu 'dampen' etmek, onu azaltmak, söndürmek veya moralini bozmak demektir. Hani pikniğe gideceksin, hava güneşli ama birden yağmur başladı. İşte o yağmur senin piknik umutlarını 'dampen' eder.",
+    "options": [
+      "boost",
+      "strengthen",
+      "dampen",
+      "ignite"
+    ],
+    "correctAnswer": "dampen",
+    "category": "TRAVEL",
+    "variations": [
+      "Don't let one failure dampen your enthusiasm.",
+      "The cold weather did not dampen our spirits."
+    ]
+  },
+  {
+    "id": 126070912,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The debate exposed deep _____ within the political party.",
+    "translation": "Derin ayrılıklar, çatlaklar",
+    "context": "'Rifts', derin ayrılıklar, fikir ayrılıkları veya çatlaklar anlamına gelir. Bir grup içinde görüş ayrılıkları çok büyük olduğunda 'rifts' oluşur. Hani iki arkadaş birbirine küser de aralarına dağlar girer gibi olur ya, işte o 'rift'tir.",
+    "options": [
+      "unity",
+      "agreements",
+      "rifts",
+      "collaborations"
+    ],
+    "correctAnswer": "rifts",
+    "category": "MIXED",
+    "variations": [
+      "Political rifts within the party grew wider.",
+      "The scandal created deep rifts in the community."
     ]
   }
 ]
