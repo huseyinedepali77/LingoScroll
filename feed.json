@@ -1,239 +1,242 @@
 [
   {
-    "id": 126070901,
+    "id": 126071001,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "After a long career, the athlete announced her _____.",
-    "translation": "Emeklilik",
-    "context": "Bir sporcu kariyerini sonlandırdığında 'retirement' (emeklilik) durumuna geçer. Genelde alkışlarla sahneden inerler, ama sen istersen evde televizyon karşısında da 'retired' olabilirsin! Sadece ciddiye alma, o kadar da değil. :)",
+    "phrase": "The forest is burning because of a big _____.",
+    "translation": "'Wildfire' orman yangını demektir.",
+    "context": "Yangın, özellikle ormanlık alanlarda hızla yayılan büyük bir ateştir. 'Wildfire' derler. Yazın hava çok kuruyken bir anda çıkan yangınları düşün! Korkutucu ve yıkıcı olabilir.",
     "options": [
-      "career",
-      "achievement",
-      "retirement",
-      "training"
+      "flood",
+      "earthquake",
+      "wildfire",
+      "storm"
     ],
-    "correctAnswer": "retirement",
+    "correctAnswer": "wildfire",
     "category": "CASUAL",
     "variations": [
-      "She decided on early retirement after years of hard work.",
-      "Many people dream of a comfortable retirement."
+      "A large wildfire quickly spread through the dry area.",
+      "They tried to control the wildfire for days."
     ]
   },
   {
-    "id": 126070902,
+    "id": 126071002,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The startup aims to _____ its valuation in the next year.",
-    "translation": "İkiye katlamak",
-    "context": "Bir şirketin değerini ikiye katlaması durumunda 'double its valuation' denir. Yani, dün 100 milyon dolar olan şirket bugün 200 milyon dolar olursa, işte bu 'double' etmektir. Patronlara güzel haber!",
+    "phrase": "The president will fly home in his private _____.",
+    "translation": "'Jet' hızlı ve güçlü bir uçaktır.",
+    "context": "Jet, hızlı ve güçlü bir uçak türüdür. Özellikle uzun mesafeli seyahatler için tercih edilir. 'Air Force One' dünyanın en ünlü jetlerinden biridir!",
     "options": [
-      "halve",
-      "double",
-      "stop",
-      "lower"
+      "train",
+      "bus",
+      "jet",
+      "boat"
     ],
-    "correctAnswer": "double",
+    "correctAnswer": "jet",
+    "category": "TRAVEL",
+    "variations": [
+      "I love traveling by jet for business trips.",
+      "The new fighter jet is very fast."
+    ]
+  },
+  {
+    "id": 126071003,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The worker was _____ for saying bad things to customers.",
+    "translation": "'Fired' işten kovulmak anlamına gelir.",
+    "context": "'Fired' olmak, işinden kovulmak demek! Patronunun 'Artık seninle çalışmıyoruz!' dediği o kötü an... Bir daha iş aramaya başla!",
+    "options": [
+      "hired",
+      "promoted",
+      "retired",
+      "fired"
+    ],
+    "correctAnswer": "fired",
     "category": "BUSINESS",
     "variations": [
-      "The company plans to double its profits next quarter.",
-      "Can we double the order for tomorrow?"
+      "He was fired from his job last week.",
+      "If you don't do your work, you might get fired."
     ]
   },
   {
-    "id": 126070903,
+    "id": 126071004,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "We expect a long _____ this summer.",
-    "translation": "Sıcak hava dalgası",
-    "context": "'Heatwave' günlerce süren aşırı sıcak hava dalgası demek. Eğer 'heatwave' varsa, denize koş, klimalı bir yere kaç ya da dondurma stoku yap! Sakın öğlen güneşi altında koşmaya çalışma, erirsin!",
+    "phrase": "We are having a terrible _____ this summer; it's so hot!",
+    "translation": "'Heatwave' sıcak hava dalgasıdır.",
+    "context": "'Heatwave' dediğimizde, uzun süreli ve bunaltıcı sıcak hava dalgasından bahsediyoruz. Herkesin kendini gölgelik bir yere attığı, dondurma yediği günler!",
     "options": [
-      "heatwave",
       "cold front",
-      "rain",
-      "breeze"
+      "heatwave",
+      "blizzard",
+      "rainstorm"
     ],
     "correctAnswer": "heatwave",
-    "category": "TRAVEL",
-    "variations": [
-      "The city is bracing for a severe heatwave.",
-      "Stay indoors during the peak of the heatwave."
-    ]
-  },
-  {
-    "id": 126070904,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Military forces launched more _____ in the region.",
-    "translation": "Askeri saldırılar",
-    "context": "Buradaki 'strikes', askeri saldırılar veya operasyonlar anlamına gelir. Normalde 'strike' bir şeyi vurmak demek ama haberlerde geçtiğinde genelde askeri bir eylemi anlatır. Yani bir şeyin başına kötü bir şey gelmesi!",
-    "options": [
-      "celebrations",
-      "talks",
-      "strikes",
-      "meetings"
-    ],
-    "correctAnswer": "strikes",
     "category": "MIXED",
     "variations": [
-      "The government condemned the latest strikes.",
-      "A series of strikes hit the region last night."
+      "The heatwave broke many temperature records.",
+      "Stay hydrated during the heatwave."
     ]
   },
   {
-    "id": 126070905,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Who are 'first responders'?",
-    "translation": "Paramedik ve itfaiyeciler gibi acil durum personeli.",
-    "context": "'First responders' acil durumlarda olay yerine ilk ulaşan kahramanlardır! İtfaiyeciler, ambulans ekipleri, polisler... Hani filmde bir yere bir şey olunca hemen sirenlerle gelenler var ya, işte onlar! Onlar olmasa halimiz duman.",
-    "options": [
-      "People who call 911 first.",
-      "Emergency personnel like paramedics and firefighters.",
-      "People who arrive first at a party.",
-      "Journalists reporting from the scene."
-    ],
-    "correctAnswer": "Emergency personnel like paramedics and firefighters.",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126070906,
+    "id": 126071005,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The candidate decided to _____ his election campaign.",
-    "translation": "Askıya almak",
-    "context": "Bir 'campaign'i (kampanya) 'suspend' etmek, onu geçici olarak durdurmak veya askıya almak demek. Sanki film izlerken 'pause' tuşuna basmak gibi. Bazen kötü bir olay yüzünden bazen de stratejik sebeplerle yapılır.",
+    "phrase": "Doctors _____ people to be careful with new health trends.",
+    "translation": "'Urge caution' dikkatli olunmasını tavsiye etmek demektir.",
+    "context": "'Urge caution' bir konuda dikkatli olmayı tavsiye etmek demektir. 'Aman ha dikkat edin!' demek gibi. Özellikle haberlerde uzmanlar, 'Bu konuda acele etmeyin, temkinli olun' derken kullanırlar.",
     "options": [
-      "continue",
-      "expand",
-      "suspend",
-      "launch"
+      "ignore risks",
+      "urge caution",
+      "promote danger",
+      "forget safety"
     ],
-    "correctAnswer": "suspend",
-    "category": "BUSINESS",
-    "variations": [
-      "The court decided to suspend his driving license.",
-      "We had to suspend operations due to bad weather."
-    ]
-  },
-  {
-    "id": 126070907,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The President decided to _____ planes for the long trip.",
-    "translation": "Değiştirmek",
-    "context": "'Switch' bir şeyden diğerine geçmek, değiştirmek demek. Telefonunu 'switch' edebilirsin, oturduğun yeri 'switch' edebilirsin veya burada olduğu gibi uçağını 'switch' edip daha konforlusuna binebilirsin. Keşke biz de öyle yapabilsek!",
-    "options": [
-      "repair",
-      "clean",
-      "buy",
-      "switch"
-    ],
-    "correctAnswer": "switch",
-    "category": "TRAVEL",
-    "variations": [
-      "I need to switch my flight to an earlier time.",
-      "Let's switch seats so you can see better."
-    ]
-  },
-  {
-    "id": 126070908,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Jansen is set for his team _____ in the big game.",
-    "translation": "İlk çıkışı",
-    "context": "'Debut', bir kişinin bir alanda ilk kez sahneye çıkması, ilk performansını sergilemesi demek. Sahneye ilk kez çıktığında heyecanlanır, kalbin pırpır eder ya, işte o an 'debut' anındır! Başarılar dileriz!",
-    "options": [
-      "retirement",
-      "victory",
-      "training",
-      "debut"
-    ],
-    "correctAnswer": "debut",
-    "category": "MIXED",
-    "variations": [
-      "Her debut album was a big success.",
-      "He made a brilliant debut as a leading actor."
-    ]
-  },
-  {
-    "id": 126070909,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Despite a serious assault _____, the investigation continued.",
-    "translation": "Suçlama, iddia",
-    "context": "'Allegation', resmi kanıtlanmamış olsa da birine karşı yapılan ciddi bir suçlama veya iddiadır. Dedikodu gibi düşün ama biraz daha resmi. Hani arkadaşın 'Sen benim çikolatamı yedin!' diye seni suçlar ya, işte o da bir 'allegation' sayılır (kanıtlayana kadar!).",
-    "options": [
-      "compliment",
-      "excuse",
-      "allegation",
-      "confession"
-    ],
-    "correctAnswer": "allegation",
+    "correctAnswer": "urge caution",
     "category": "CASUAL",
     "variations": [
-      "The police are investigating an allegation of fraud.",
-      "She denied all allegations against her."
+      "Police urge caution when driving in the fog.",
+      "They urged caution about the investment's risks."
     ]
   },
   {
-    "id": 126070910,
+    "id": 126071006,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Despite some initial _____, the judge approved the deal.",
-    "translation": "Endişeler, şüpheler",
-    "context": "'Misgivings', bir şey hakkında hissettiğin şüpheler, endişeler veya kötü hislerdir. İçine sinmeyen bir durum olduğunda 'misgivings' duyarsın. Sanki kahveye şeker yerine tuz atmışsın gibi bir his, bir yanlışlık var dersin.",
+    "level": "INTERMEDIATE",
+    "phrase": "The CEO decided to _____ from her position last month.",
+    "translation": "'Step down' görevden ayrılmak veya istifa etmek anlamına gelir.",
+    "context": "'Step down' bir görevden veya pozisyondan istifa etmek, ayrılmak demektir. Yani koltuğunu başkasına bırakmak. Bazen yorgunluktan, bazen yeni fırsatlar için yapılır.",
     "options": [
-      "excitement",
-      "misgivings",
-      "certainty",
-      "agreement"
+      "step up",
+      "step down",
+      "step aside",
+      "step over"
     ],
-    "correctAnswer": "misgivings",
+    "correctAnswer": "step down",
     "category": "BUSINESS",
     "variations": [
-      "He had serious misgivings about the new business proposal.",
-      "Despite my misgivings, I agreed to the plan."
+      "He stepped down after 10 years as manager.",
+      "The minister chose to step down from her role."
     ]
   },
   {
-    "id": 126070911,
+    "id": 126071007,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The bad news could _____ the team's hopes for the championship.",
-    "translation": "Azaltmak, söndürmek",
-    "context": "Birinin umutlarını veya coşkusunu 'dampen' etmek, onu azaltmak, söndürmek veya moralini bozmak demektir. Hani pikniğe gideceksin, hava güneşli ama birden yağmur başladı. İşte o yağmur senin piknik umutlarını 'dampen' eder.",
+    "level": "INTERMEDIATE",
+    "phrase": "Many people are still _____ after the terrible flood.",
+    "translation": "'Missing' kayıp demektir.",
+    "context": "'Missing' kayıp demek! Birini bulamayınca, 'Where is he? He's missing!' dersin. Haberlerde felaket sonrası kayıp kişilerden bahsederken çok kullanılır. Umarım çabucak bulunurlar!",
     "options": [
-      "boost",
-      "strengthen",
-      "dampen",
-      "ignite"
+      "found",
+      "present",
+      "missing",
+      "safe"
     ],
-    "correctAnswer": "dampen",
+    "correctAnswer": "missing",
     "category": "TRAVEL",
     "variations": [
-      "Don't let one failure dampen your enthusiasm.",
-      "The cold weather did not dampen our spirits."
+      "The child has been missing since yesterday.",
+      "They are searching for the missing hikers."
     ]
   },
   {
-    "id": 126070912,
+    "id": 126071008,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The debate exposed deep _____ within the political party.",
-    "translation": "Derin ayrılıklar, çatlaklar",
-    "context": "'Rifts', derin ayrılıklar, fikir ayrılıkları veya çatlaklar anlamına gelir. Bir grup içinde görüş ayrılıkları çok büyük olduğunda 'rifts' oluşur. Hani iki arkadaş birbirine küser de aralarına dağlar girer gibi olur ya, işte o 'rift'tir.",
+    "level": "INTERMEDIATE",
+    "phrase": "The city wants to become _____ by using more electric cars.",
+    "translation": "'Greener' daha çevreci anlamına gelir.",
+    "context": "'Greener' olmak, çevreye daha az zarar veren, daha çevreci yöntemler kullanmak demektir. Daha az kirlilik, daha temiz hava, daha mutlu ağaçlar!",
     "options": [
-      "unity",
-      "agreements",
-      "rifts",
-      "collaborations"
+      "louder",
+      "greener",
+      "faster",
+      "bigger"
     ],
-    "correctAnswer": "rifts",
+    "correctAnswer": "greener",
     "category": "MIXED",
     "variations": [
-      "Political rifts within the party grew wider.",
-      "The scandal created deep rifts in the community."
+      "We need to find greener energy solutions.",
+      "Using less plastic makes us greener."
+    ]
+  },
+  {
+    "id": 126071009,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The team must _____ early in the game to win.",
+    "translation": "'Impose themselves' kendini kabul ettirmek, üstünlük kurmak demektir.",
+    "context": "'Impose themselves' bir ortamda varlığını veya gücünü hissettirmek, kendini kabul ettirmek demektir. Özellikle spor veya tartışmalarda rakibe üstünlük kurmak için kullanılır. 'Ben buradayım, beni hafife alma!' der gibi.",
+    "options": [
+      "hide away",
+      "withdraw",
+      "impose themselves",
+      "blend in"
+    ],
+    "correctAnswer": "impose themselves",
+    "category": "CASUAL",
+    "variations": [
+      "The new leader quickly imposed herself on the meeting.",
+      "We need to impose our will on the opponent."
+    ]
+  },
+  {
+    "id": 126071010,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "India's smartphone _____ continues with new partnerships.",
+    "translation": "'Manufacturing boom' üretim patlaması demektir.",
+    "context": "'Manufacturing boom' bir sektörde üretimin hızla artması, patlama yapması demektir. Ekonomi çarkları hızlı dönüyor, fabrikalar harıl harıl çalışıyor! Ülke için güzel haber!",
+    "options": [
+      "manufacturing decline",
+      "production fall",
+      "manufacturing boom",
+      "export crisis"
+    ],
+    "correctAnswer": "manufacturing boom",
+    "category": "BUSINESS",
+    "variations": [
+      "The economy is experiencing a construction boom.",
+      "A tech boom led to many new jobs."
+    ]
+  },
+  {
+    "id": 126071011,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The politician's speech showed a _____ on trade issues.",
+    "translation": "'Softened rhetoric' daha yumuşak bir söylem anlamına gelir.",
+    "context": "'Softened rhetoric' bir konuda kullanılan sert, agresif dilin yumuşaması, daha ılımlı bir tona bürünmesi demektir. Eskiden 'kavga çıkarırım!' derken, şimdi 'gelin konuşalım' demeye başlamak gibi.",
+    "options": [
+      "aggressive tone",
+      "harsh language",
+      "softened rhetoric",
+      "strong statements"
+    ],
+    "correctAnswer": "softened rhetoric",
+    "category": "TRAVEL",
+    "variations": [
+      "His softened rhetoric eased tensions between the countries.",
+      "They noted the diplomat's softened rhetoric."
+    ]
+  },
+  {
+    "id": 126071012,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Many rare animals are now _____ due to climate change.",
+    "translation": "'At risk of extinction' yok olma tehlikesi altında demektir.",
+    "context": "'At risk of extinction' bir canlı türünün yok olma tehlikesi altında olması demektir. Yani dünyadan tamamen silinme ihtimali var. Onları korumak için bir şeyler yapmalıyız!",
+    "options": [
+      "flourishing",
+      "thriving",
+      "multiplying",
+      "at risk of extinction"
+    ],
+    "correctAnswer": "at risk of extinction",
+    "category": "MIXED",
+    "variations": [
+      "The panda is an animal at risk of extinction.",
+      "This rare plant is at risk of extinction."
     ]
   }
 ]
