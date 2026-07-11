@@ -1,242 +1,227 @@
 [
   {
-    "id": 126071001,
+    "id": 126071101,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The forest is burning because of a big _____.",
-    "translation": "'Wildfire' orman yangını demektir.",
-    "context": "Yangın, özellikle ormanlık alanlarda hızla yayılan büyük bir ateştir. 'Wildfire' derler. Yazın hava çok kuruyken bir anda çıkan yangınları düşün! Korkutucu ve yıkıcı olabilir.",
+    "phrase": "The country is experiencing a severe _____. (sıcak hava dalgası)",
+    "translation": "Ülke şiddetli bir sıcak hava dalgası yaşıyor.",
+    "context": "'Heatwave' dediğimizde, hava durumunun gerçekten de insanı bunaltacak kadar sıcak olduğu, klimaların harıl harıl çalıştığı o bunaltıcı günleri kastediyoruz. Dışarı çıkıp 'Hava çok sıcak!' demek yerine, biraz daha havalı bir ifadeyle 'Bir heatwave yaşıyoruz!' diyebilirsin. Mesela, 'Bu heatwave yüzünden dışarı çıkamıyorum!' gibi.",
     "options": [
-      "flood",
-      "earthquake",
-      "wildfire",
-      "storm"
-    ],
-    "correctAnswer": "wildfire",
-    "category": "CASUAL",
-    "variations": [
-      "A large wildfire quickly spread through the dry area.",
-      "They tried to control the wildfire for days."
-    ]
-  },
-  {
-    "id": 126071002,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The president will fly home in his private _____.",
-    "translation": "'Jet' hızlı ve güçlü bir uçaktır.",
-    "context": "Jet, hızlı ve güçlü bir uçak türüdür. Özellikle uzun mesafeli seyahatler için tercih edilir. 'Air Force One' dünyanın en ünlü jetlerinden biridir!",
-    "options": [
-      "train",
-      "bus",
-      "jet",
-      "boat"
-    ],
-    "correctAnswer": "jet",
-    "category": "TRAVEL",
-    "variations": [
-      "I love traveling by jet for business trips.",
-      "The new fighter jet is very fast."
-    ]
-  },
-  {
-    "id": 126071003,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The worker was _____ for saying bad things to customers.",
-    "translation": "'Fired' işten kovulmak anlamına gelir.",
-    "context": "'Fired' olmak, işinden kovulmak demek! Patronunun 'Artık seninle çalışmıyoruz!' dediği o kötü an... Bir daha iş aramaya başla!",
-    "options": [
-      "hired",
-      "promoted",
-      "retired",
-      "fired"
-    ],
-    "correctAnswer": "fired",
-    "category": "BUSINESS",
-    "variations": [
-      "He was fired from his job last week.",
-      "If you don't do your work, you might get fired."
-    ]
-  },
-  {
-    "id": 126071004,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "We are having a terrible _____ this summer; it's so hot!",
-    "translation": "'Heatwave' sıcak hava dalgasıdır.",
-    "context": "'Heatwave' dediğimizde, uzun süreli ve bunaltıcı sıcak hava dalgasından bahsediyoruz. Herkesin kendini gölgelik bir yere attığı, dondurma yediği günler!",
-    "options": [
-      "cold front",
       "heatwave",
-      "blizzard",
-      "rainstorm"
+      "cold snap",
+      "downpour",
+      "breeze"
     ],
     "correctAnswer": "heatwave",
-    "category": "MIXED",
-    "variations": [
-      "The heatwave broke many temperature records.",
-      "Stay hydrated during the heatwave."
-    ]
-  },
-  {
-    "id": 126071005,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Doctors _____ people to be careful with new health trends.",
-    "translation": "'Urge caution' dikkatli olunmasını tavsiye etmek demektir.",
-    "context": "'Urge caution' bir konuda dikkatli olmayı tavsiye etmek demektir. 'Aman ha dikkat edin!' demek gibi. Özellikle haberlerde uzmanlar, 'Bu konuda acele etmeyin, temkinli olun' derken kullanırlar.",
-    "options": [
-      "ignore risks",
-      "urge caution",
-      "promote danger",
-      "forget safety"
-    ],
-    "correctAnswer": "urge caution",
     "category": "CASUAL",
     "variations": [
-      "Police urge caution when driving in the fog.",
-      "They urged caution about the investment's risks."
+      "We had a long heatwave last summer.",
+      "Don't forget water during a heatwave."
     ]
   },
   {
-    "id": 126071006,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The CEO decided to _____ from her position last month.",
-    "translation": "'Step down' görevden ayrılmak veya istifa etmek anlamına gelir.",
-    "context": "'Step down' bir görevden veya pozisyondan istifa etmek, ayrılmak demektir. Yani koltuğunu başkasına bırakmak. Bazen yorgunluktan, bazen yeni fırsatlar için yapılır.",
+    "id": 126071102,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "Which natural disaster is a strong tropical storm?",
+    "translation": "Şiddetli tropikal fırtına olan doğal afet hangisidir?",
+    "context": "'Typhoon' dendiğinde aklına Güneydoğu Asya'yı vuran o devasa, rüzgarlı ve yağmurlu fırtınalar gelsin. Tıpkı Karayipler'deki 'hurricane' veya Hint Okyanusu'ndaki 'cyclone' gibi, bunlar da denizden enerji alıp karaya doğru ilerleyen devasa hava olaylarıdır. Seyahatinizi planlarken bu bölgelerde 'typhoon season' olup olmadığını kontrol etmek hayat kurtarabilir!",
     "options": [
-      "step up",
-      "step down",
-      "step aside",
-      "step over"
+      "Earthquake",
+      "Tsunami",
+      "Typhoon",
+      "Volcano"
     ],
-    "correctAnswer": "step down",
+    "correctAnswer": "Typhoon",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126071103,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "She was appointed as the new _____ of the company. (CEO)",
+    "translation": "Şirketin yeni CEO'su olarak atandı.",
+    "context": "'CEO' (Chief Executive Officer), bir şirketin en tepe yöneticisidir. Hani filmlerde o havalı, takım elbiseli, büyük kararlar veren kişi olur ya, işte o! Şirketin genel stratejisinden, vizyonundan ve büyük resimden o sorumludur. Yani o, geminin kaptanı! 'Kim bu şirketin CEO'su?' diye sorarak önemli bir bilgiye ulaşabilirsin.",
+    "options": [
+      "CEO",
+      "assistant",
+      "intern",
+      "janitor"
+    ],
+    "correctAnswer": "CEO",
     "category": "BUSINESS",
     "variations": [
-      "He stepped down after 10 years as manager.",
-      "The minister chose to step down from her role."
+      "Our CEO announced the new project.",
+      "The CEO will hold a press conference."
     ]
   },
   {
-    "id": 126071007,
+    "id": 126071104,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Many people are still _____ after the terrible flood.",
-    "translation": "'Missing' kayıp demektir.",
-    "context": "'Missing' kayıp demek! Birini bulamayınca, 'Where is he? He's missing!' dersin. Haberlerde felaket sonrası kayıp kişilerden bahsederken çok kullanılır. Umarım çabucak bulunurlar!",
+    "level": "BEGINNER",
+    "phrase": "Large cargo _____ sail across the ocean. (gemileri)",
+    "translation": "Büyük kargo gemileri okyanuslarda yelken açar.",
+    "context": "'Ships' dediğimizde aklına kocaman gemiler gelsin, hani okyanusları aşan, konteynerler taşıyan, bazen de turist dolu kruvaziyer gemileri... Küçük botlar veya feribotlar değil, daha büyük ve uzun mesafeli yolculuklar için kullanılan deniz taşıtlarıdır. 'Gemi seyahati harika bir tatil şekli olabilir!' gibi bir cümlede kullanabilirsin.",
     "options": [
-      "found",
-      "present",
-      "missing",
-      "safe"
+      "ships",
+      "cars",
+      "planes",
+      "trains"
     ],
-    "correctAnswer": "missing",
-    "category": "TRAVEL",
-    "variations": [
-      "The child has been missing since yesterday.",
-      "They are searching for the missing hikers."
-    ]
-  },
-  {
-    "id": 126071008,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The city wants to become _____ by using more electric cars.",
-    "translation": "'Greener' daha çevreci anlamına gelir.",
-    "context": "'Greener' olmak, çevreye daha az zarar veren, daha çevreci yöntemler kullanmak demektir. Daha az kirlilik, daha temiz hava, daha mutlu ağaçlar!",
-    "options": [
-      "louder",
-      "greener",
-      "faster",
-      "bigger"
-    ],
-    "correctAnswer": "greener",
+    "correctAnswer": "ships",
     "category": "MIXED",
     "variations": [
-      "We need to find greener energy solutions.",
-      "Using less plastic makes us greener."
+      "Many ships carry goods worldwide.",
+      "The ship will depart in an hour."
     ]
   },
   {
-    "id": 126071009,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The team must _____ early in the game to win.",
-    "translation": "'Impose themselves' kendini kabul ettirmek, üstünlük kurmak demektir.",
-    "context": "'Impose themselves' bir ortamda varlığını veya gücünü hissettirmek, kendini kabul ettirmek demektir. Özellikle spor veya tartışmalarda rakibe üstünlük kurmak için kullanılır. 'Ben buradayım, beni hafife alma!' der gibi.",
+    "id": 126071105,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "What do you call someone who is often unsuccessful or defeated?",
+    "translation": "Genellikle başarısız veya yenilmiş olan birine ne denir?",
+    "context": "'Loser' kelimesi günlük dilde biraz ağır bir tabirdir ve genellikle birini 'kaybeden', 'başarısız' veya 'beceriksiz' olarak tanımlamak için kullanılır. Genellikle espri amaçlı veya abartılı durumlarda kullanılır, ancak dikkatli olmak gerekir çünkü bazen kırıcı olabilir. Mesela, maçta kötü oynayan bir arkadaşına şakayla karışık 'Bugün tam bir losersın!' diyebilirsin, ama gerçek hayatta birine böyle demeden önce iki kere düşün!",
     "options": [
-      "hide away",
-      "withdraw",
-      "impose themselves",
-      "blend in"
+      "Winner",
+      "Champion",
+      "Victor",
+      "Loser"
     ],
-    "correctAnswer": "impose themselves",
+    "correctAnswer": "Loser",
     "category": "CASUAL",
-    "variations": [
-      "The new leader quickly imposed herself on the meeting.",
-      "We need to impose our will on the opponent."
-    ]
+    "variations": []
   },
   {
-    "id": 126071010,
+    "id": 126071106,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "India's smartphone _____ continues with new partnerships.",
-    "translation": "'Manufacturing boom' üretim patlaması demektir.",
-    "context": "'Manufacturing boom' bir sektörde üretimin hızla artması, patlama yapması demektir. Ekonomi çarkları hızlı dönüyor, fabrikalar harıl harıl çalışıyor! Ülke için güzel haber!",
+    "level": "INTERMEDIATE",
+    "phrase": "Firefighters are trying to extinguish the spreading _____. (orman yangınlarını)",
+    "translation": "İtfaiyeciler yayılan orman yangınlarını söndürmeye çalışıyor.",
+    "context": "'Wildfires' dediğimizde, kontrol dışına çıkmış, genellikle kuru ormanlık alanlarda veya çalılıklarda çıkan o büyük ve yıkıcı yangınlardan bahsediyoruz. Sadece ağaçları değil, evleri ve tüm doğal yaşamı da tehdit ederler. Yaz aylarında kuru otluk alanlarda piknik yaparken dikkatli ol, bir 'wildfire' başlaması an meselesi olabilir!",
     "options": [
-      "manufacturing decline",
-      "production fall",
-      "manufacturing boom",
-      "export crisis"
+      "wildfires",
+      "bonfires",
+      "campfires",
+      "firecrackers"
     ],
-    "correctAnswer": "manufacturing boom",
-    "category": "BUSINESS",
-    "variations": [
-      "The economy is experiencing a construction boom.",
-      "A tech boom led to many new jobs."
-    ]
-  },
-  {
-    "id": 126071011,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The politician's speech showed a _____ on trade issues.",
-    "translation": "'Softened rhetoric' daha yumuşak bir söylem anlamına gelir.",
-    "context": "'Softened rhetoric' bir konuda kullanılan sert, agresif dilin yumuşaması, daha ılımlı bir tona bürünmesi demektir. Eskiden 'kavga çıkarırım!' derken, şimdi 'gelin konuşalım' demeye başlamak gibi.",
-    "options": [
-      "aggressive tone",
-      "harsh language",
-      "softened rhetoric",
-      "strong statements"
-    ],
-    "correctAnswer": "softened rhetoric",
+    "correctAnswer": "wildfires",
     "category": "TRAVEL",
     "variations": [
-      "His softened rhetoric eased tensions between the countries.",
-      "They noted the diplomat's softened rhetoric."
+      "Many homes were destroyed by the wildfires.",
+      "Preventing wildfires is crucial for nature."
     ]
   },
   {
-    "id": 126071012,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Many rare animals are now _____ due to climate change.",
-    "translation": "'At risk of extinction' yok olma tehlikesi altında demektir.",
-    "context": "'At risk of extinction' bir canlı türünün yok olma tehlikesi altında olması demektir. Yani dünyadan tamamen silinme ihtimali var. Onları korumak için bir şeyler yapmalıyız!",
+    "id": 126071107,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "What describes someone who holds enormous wealth in digital currencies?",
+    "translation": "Dijital para birimlerinde muazzam servete sahip birini ne tanımlar?",
+    "context": "'Crypto billionaires', adından da anlaşılacağı gibi, servetlerini kripto para birimleri (Bitcoin, Ethereum vb.) üzerinden kazanmış ve bu alanda milyarlarca dolara ulaşmış kişilerdir. Bu terim, modern finans dünyasının en yeni ve en dikkat çekici figürlerini ifade eder. 'Şu adam bir crypto billionaire olmuş, inanabiliyor musun?' diyerek arkadaşlarınla sohbet edebilirsin.",
     "options": [
-      "flourishing",
-      "thriving",
-      "multiplying",
-      "at risk of extinction"
+      "Tech moguls",
+      "Crypto billionaires",
+      "Oil tycoons",
+      "Real estate agents"
     ],
-    "correctAnswer": "at risk of extinction",
+    "correctAnswer": "Crypto billionaires",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126071108,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "SpaceX is famous for its _____ technology. (yeniden kullanılabilir roket)",
+    "translation": "SpaceX, yeniden kullanılabilir roket teknolojisiyle ünlüdür.",
+    "context": "'Reusable rocket' denilince, fırlatıldıktan sonra Dünya'ya geri dönüp tekrar kullanılabilen, yani tek kullanımlık olmayan roketler aklına gelmeli. Bu teknoloji, uzay yolculuklarını çok daha uygun maliyetli ve sürdürülebilir hale getiriyor. 'Gelecekte uzaya tatile gitmek, bu reusable rocketler sayesinde belki de çok ucuzlayacak!' diye hayal kurabilirsin.",
+    "options": [
+      "reusable rocket",
+      "disposable rocket",
+      "liquid rocket",
+      "solid rocket"
+    ],
+    "correctAnswer": "reusable rocket",
     "category": "MIXED",
     "variations": [
-      "The panda is an animal at risk of extinction.",
-      "This rare plant is at risk of extinction."
+      "The company successfully landed its reusable rocket.",
+      "Reusable rockets reduce space travel costs."
     ]
+  },
+  {
+    "id": 126071109,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "What does 'face no action' mean in the context of a potential penalty?",
+    "translation": "'Face no action' potansiyel bir ceza bağlamında ne anlama gelir?",
+    "context": "'Face no action' demek, bir durumla ilgili olarak herhangi bir soruşturma, ceza veya yaptırım uygulanmaması, yani kişi veya kurumun 'aklanması' anlamına gelir. Tıpkı bir sınavda kopya çektiğin düşünüldüğü halde kanıt bulunamadığı için hiçbir ceza almamak gibi. 'Tüm suçlamalara rağmen, sonunda yüzüne hiçbir işlem uygulanmadı!' diyerek rahat bir nefes alabilirsin.",
+    "options": [
+      "Receive a penalty",
+      "Be investigated",
+      "Avoid punishment",
+      "Face a trial"
+    ],
+    "correctAnswer": "Avoid punishment",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126071110,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The oil tankers must pass through the strategic _____. (Hürmüz Boğazı)",
+    "translation": "Petrol tankerleri stratejik Hürmüz Boğazı'ndan geçmek zorundadır.",
+    "context": "'Strait of Hormuz', haritada küçücük görünse de dünya ticaretinde devasa bir öneme sahip olan, Basra Körfezi ile Umman Denizi'ni birbirine bağlayan dar bir su geçididir. Özellikle petrol taşımacılığı için kritik bir nokta. Buradan geçen gemiler, küresel ekonominin can damarıdır desek yeridir. 'Hürmüz Boğazı'ndaki gerilim, petrol fiyatlarını etkileyebilir' gibi haberlerde sıkça duyarsın.",
+    "options": [
+      "Strait of Hormuz",
+      "Panama Canal",
+      "Suez Canal",
+      "Bosphorus Strait"
+    ],
+    "correctAnswer": "Strait of Hormuz",
+    "category": "TRAVEL",
+    "variations": [
+      "Many ships use the Strait of Hormuz.",
+      "The Strait of Hormuz is vital for oil trade."
+    ]
+  },
+  {
+    "id": 126071111,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The company was accused of taking fraudulent _____. (bağlı kuruluş kredisi)",
+    "translation": "Şirket hileli bağlı kuruluş kredisi almakla suçlandı.",
+    "context": "'Affiliate credit', özellikle online pazarlamada, bir satışı veya yönlendirmeyi gerçekleştiren kişiye veya kuruluşa ödenen komisyonu veya hakkı ifade eder. Yani, sen bir ürün linki paylaşırsın, biri o linkten satın alır ve sana 'affiliate credit' yani komisyon yazılır. Ama 'cookie stuffing' gibi yollarla bu krediyi hak etmediğin halde almak, dijital dünyanın kirli yüzlerinden biridir. 'Bu ay kaç affiliate credit kazandın?' diye sorarak arkadaşlarınla şakalaşabilirsin.",
+    "options": [
+      "affiliate credit",
+      "bank loan",
+      "tax refund",
+      "stock dividend"
+    ],
+    "correctAnswer": "affiliate credit",
+    "category": "BUSINESS",
+    "variations": [
+      "They lost their affiliate credit due to fraud.",
+      "Earning affiliate credit requires valid sales."
+    ]
+  },
+  {
+    "id": 126071112,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Which sport uses a 'pitch' with a specific length for batting and bowling?",
+    "translation": "Hangi sporda, vuruş ve atış için belirli bir uzunlukta 'pitch' kullanılır?",
+    "context": "'Cricket pitch', kriket oyununda topun atılıp vurulduğu, tam 22 yard (yaklaşık 20 metre) uzunluğundaki dikdörtgen alanın adıdır. Kriket sahasının merkezidir. 'Dinozorun boynu bir kriket sahası kadar uzundu' benzetmesi, o dinozorun ne kadar devasa olduğunu gözünde canlandırmak için harika bir yoldur. Eğer kriketle ilgili bir haber okuyorsan, 'pitch' kelimesiyle sıkça karşılaşırsın!",
+    "options": [
+      "Basketball",
+      "Football",
+      "Cricket",
+      "Tennis"
+    ],
+    "correctAnswer": "Cricket",
+    "category": "MIXED",
+    "variations": []
   }
 ]
