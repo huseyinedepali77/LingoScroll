@@ -1,226 +1,229 @@
 [
   {
-    "id": 126071101,
+    "id": 126071401,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The country is experiencing a severe _____. (sıcak hava dalgası)",
-    "translation": "Ülke şiddetli bir sıcak hava dalgası yaşıyor.",
-    "context": "'Heatwave' dediğimizde, hava durumunun gerçekten de insanı bunaltacak kadar sıcak olduğu, klimaların harıl harıl çalıştığı o bunaltıcı günleri kastediyoruz. Dışarı çıkıp 'Hava çok sıcak!' demek yerine, biraz daha havalı bir ifadeyle 'Bir heatwave yaşıyoruz!' diyebilirsin. Mesela, 'Bu heatwave yüzünden dışarı çıkamıyorum!' gibi.",
+    "phrase": "She travelled across Europe as a _____.",
+    "translation": "Sırt çantalı gezgin.",
+    "context": "Gezgin ruhlu, sırt çantalı kişiler için kullanılan bu kelime, genelde gençlerin veya maceraperestlerin çok tercih ettiği, az eşya ile yollara düşüp dünyayı keşfetme şeklini anlatır. Bütçe dostu ve özgür ruhlu gezginler için harika bir seçenektir!",
     "options": [
-      "heatwave",
-      "cold snap",
-      "downpour",
-      "breeze"
+      "backpacker",
+      "businessman",
+      "student",
+      "tourist guide"
     ],
-    "correctAnswer": "heatwave",
-    "category": "CASUAL",
+    "correctAnswer": "backpacker",
+    "category": "TRAVEL",
     "variations": [
-      "We had a long heatwave last summer.",
-      "Don't forget water during a heatwave."
+      "He decided to be a _____ after university.",
+      "Many young people enjoy being a _____."
     ]
   },
   {
-    "id": 126071102,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "Which natural disaster is a strong tropical storm?",
-    "translation": "Şiddetli tropikal fırtına olan doğal afet hangisidir?",
-    "context": "'Typhoon' dendiğinde aklına Güneydoğu Asya'yı vuran o devasa, rüzgarlı ve yağmurlu fırtınalar gelsin. Tıpkı Karayipler'deki 'hurricane' veya Hint Okyanusu'ndaki 'cyclone' gibi, bunlar da denizden enerji alıp karaya doğru ilerleyen devasa hava olaylarıdır. Seyahatinizi planlarken bu bölgelerde 'typhoon season' olup olmadığını kontrol etmek hayat kurtarabilir!",
-    "options": [
-      "Earthquake",
-      "Tsunami",
-      "Typhoon",
-      "Volcano"
-    ],
-    "correctAnswer": "Typhoon",
-    "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126071103,
+    "id": 126071402,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "She was appointed as the new _____ of the company. (CEO)",
-    "translation": "Şirketin yeni CEO'su olarak atandı.",
-    "context": "'CEO' (Chief Executive Officer), bir şirketin en tepe yöneticisidir. Hani filmlerde o havalı, takım elbiseli, büyük kararlar veren kişi olur ya, işte o! Şirketin genel stratejisinden, vizyonundan ve büyük resimden o sorumludur. Yani o, geminin kaptanı! 'Kim bu şirketin CEO'su?' diye sorarak önemli bir bilgiye ulaşabilirsin.",
+    "phrase": "Her dream is to launch her own tech _____.",
+    "translation": "Yeni kurulan şirket.",
+    "context": "Genellikle yenilikçi fikirlerle ortaya çıkan, hızlı büyümeyi hedefleyen genç şirketlere 'startup' denir. Silikon Vadisi ruhunu temsil eder ve dünya çapında başarı hikayeleri yazan birçok markanın başlangıç noktasıdır!",
     "options": [
-      "CEO",
-      "assistant",
-      "intern",
-      "janitor"
+      "startup",
+      "factory",
+      "shop",
+      "office"
     ],
-    "correctAnswer": "CEO",
+    "correctAnswer": "startup",
     "category": "BUSINESS",
     "variations": [
-      "Our CEO announced the new project.",
-      "The CEO will hold a press conference."
+      "The new _____ got a lot of investment.",
+      "That _____ is developing amazing apps."
     ]
   },
   {
-    "id": 126071104,
+    "id": 126071403,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Large cargo _____ sail across the ocean. (gemileri)",
-    "translation": "Büyük kargo gemileri okyanuslarda yelken açar.",
-    "context": "'Ships' dediğimizde aklına kocaman gemiler gelsin, hani okyanusları aşan, konteynerler taşıyan, bazen de turist dolu kruvaziyer gemileri... Küçük botlar veya feribotlar değil, daha büyük ve uzun mesafeli yolculuklar için kullanılan deniz taşıtlarıdır. 'Gemi seyahati harika bir tatil şekli olabilir!' gibi bir cümlede kullanabilirsin.",
+    "phrase": "After weeks of training, I feel really _____.",
+    "translation": "Zinde, sağlıklı.",
+    "context": "Spor yaptıktan sonra veya sağlıklı beslenmeyle kazandığımız o harika fiziksel duruma 'fit' denir. Kendini iyi hissetme ve enerjik olma halini anlatmak için birebir! 'Formda olmak' da diyebiliriz.",
     "options": [
-      "ships",
-      "cars",
-      "planes",
-      "trains"
+      "fit",
+      "tired",
+      "sad",
+      "hungry"
     ],
-    "correctAnswer": "ships",
+    "correctAnswer": "fit",
+    "category": "CASUAL",
+    "variations": [
+      "He is very _____ for his age.",
+      "Are you _____ enough to run a marathon?"
+    ]
+  },
+  {
+    "id": 126071404,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The police had to _____ the building quickly.",
+    "translation": "Tahliye etmek.",
+    "context": "Yangın, deprem veya herhangi bir tehlike durumunda bir binayı, şehri veya alanı boşaltmak anlamına gelir. Güvenliğimiz için bazen şarttır ve anonslarla 'Lütfen binayı tahliye edin!' diye duyurulur.",
+    "options": [
+      "evacuate",
+      "decorate",
+      "construct",
+      "renovate"
+    ],
+    "correctAnswer": "evacuate",
     "category": "MIXED",
     "variations": [
-      "Many ships carry goods worldwide.",
-      "The ship will depart in an hour."
+      "They ordered residents to _____ the area.",
+      "We need to _____ before the storm hits."
     ]
   },
   {
-    "id": 126071105,
+    "id": 126071405,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "What do you call someone who is often unsuccessful or defeated?",
-    "translation": "Genellikle başarısız veya yenilmiş olan birine ne denir?",
-    "context": "'Loser' kelimesi günlük dilde biraz ağır bir tabirdir ve genellikle birini 'kaybeden', 'başarısız' veya 'beceriksiz' olarak tanımlamak için kullanılır. Genellikle espri amaçlı veya abartılı durumlarda kullanılır, ancak dikkatli olmak gerekir çünkü bazen kırıcı olabilir. Mesela, maçta kötü oynayan bir arkadaşına şakayla karışık 'Bugün tam bir losersın!' diyebilirsin, ama gerçek hayatta birine böyle demeden önce iki kere düşün!",
+    "phrase": "Which word best describes a large area of natural scenery, like mountains or forests?",
+    "translation": "Manzara, doğal görünüm.",
+    "context": "Doğa ana'nın bize sunduğu o muhteşem dağlar, ormanlar, göller... Hepsi birer 'landscape' örneği. Seyahat ederken çektiğimiz fotoğrafların çoğunun ana konusu, adeta göz banyosu yaptıran görsellerdir!",
     "options": [
-      "Winner",
-      "Champion",
-      "Victor",
-      "Loser"
+      "Cityscape",
+      "Landscape",
+      "Seascape",
+      "Astroscape"
     ],
-    "correctAnswer": "Loser",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126071106,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Firefighters are trying to extinguish the spreading _____. (orman yangınlarını)",
-    "translation": "İtfaiyeciler yayılan orman yangınlarını söndürmeye çalışıyor.",
-    "context": "'Wildfires' dediğimizde, kontrol dışına çıkmış, genellikle kuru ormanlık alanlarda veya çalılıklarda çıkan o büyük ve yıkıcı yangınlardan bahsediyoruz. Sadece ağaçları değil, evleri ve tüm doğal yaşamı da tehdit ederler. Yaz aylarında kuru otluk alanlarda piknik yaparken dikkatli ol, bir 'wildfire' başlaması an meselesi olabilir!",
-    "options": [
-      "wildfires",
-      "bonfires",
-      "campfires",
-      "firecrackers"
-    ],
-    "correctAnswer": "wildfires",
+    "correctAnswer": "Landscape",
     "category": "TRAVEL",
-    "variations": [
-      "Many homes were destroyed by the wildfires.",
-      "Preventing wildfires is crucial for nature."
-    ]
-  },
-  {
-    "id": 126071107,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "What describes someone who holds enormous wealth in digital currencies?",
-    "translation": "Dijital para birimlerinde muazzam servete sahip birini ne tanımlar?",
-    "context": "'Crypto billionaires', adından da anlaşılacağı gibi, servetlerini kripto para birimleri (Bitcoin, Ethereum vb.) üzerinden kazanmış ve bu alanda milyarlarca dolara ulaşmış kişilerdir. Bu terim, modern finans dünyasının en yeni ve en dikkat çekici figürlerini ifade eder. 'Şu adam bir crypto billionaire olmuş, inanabiliyor musun?' diyerek arkadaşlarınla sohbet edebilirsin.",
-    "options": [
-      "Tech moguls",
-      "Crypto billionaires",
-      "Oil tycoons",
-      "Real estate agents"
-    ],
-    "correctAnswer": "Crypto billionaires",
-    "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126071108,
+    "id": 126071406,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "SpaceX is famous for its _____ technology. (yeniden kullanılabilir roket)",
-    "translation": "SpaceX, yeniden kullanılabilir roket teknolojisiyle ünlüdür.",
-    "context": "'Reusable rocket' denilince, fırlatıldıktan sonra Dünya'ya geri dönüp tekrar kullanılabilen, yani tek kullanımlık olmayan roketler aklına gelmeli. Bu teknoloji, uzay yolculuklarını çok daha uygun maliyetli ve sürdürülebilir hale getiriyor. 'Gelecekte uzaya tatile gitmek, bu reusable rocketler sayesinde belki de çok ucuzlayacak!' diye hayal kurabilirsin.",
+    "phrase": "The company's _____ soared after the new funding round.",
+    "translation": "Değerleme, piyasa değeri.",
+    "context": "Bir şirketin veya varlığın ne kadar para ettiğini gösteren ekonomik değeri. Özellikle 'startup' dünyasında çok konuşulur; yatırımcılar bu değere bakar ve şirketin gelecekteki potansiyeli hakkında fikir edinirler.",
     "options": [
-      "reusable rocket",
-      "disposable rocket",
-      "liquid rocket",
-      "solid rocket"
+      "valuation",
+      "expense",
+      "debt",
+      "salary"
     ],
-    "correctAnswer": "reusable rocket",
+    "correctAnswer": "valuation",
+    "category": "BUSINESS",
+    "variations": [
+      "Experts estimated the _____ of the property.",
+      "A high _____ attracts more investors."
+    ]
+  },
+  {
+    "id": 126071407,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Can you just _____ the settings a little?",
+    "translation": "Ayar yapmak, ince ayar çekmek.",
+    "context": "Bir şeyi daha iyi hale getirmek için yapılan küçük, hassas ayarlamalara denir. Telefonunuzun parlaklığını ayarlarken, bilgisayarınızın sesini kısarken veya bir yemeğin tadını iyileştirirken bile 'tweak' yaparsınız!",
+    "options": [
+      "tweak",
+      "destroy",
+      "ignore",
+      "replace"
+    ],
+    "correctAnswer": "tweak",
+    "category": "CASUAL",
+    "variations": [
+      "She made a few small _____s to her speech.",
+      "The chef _____ed the recipe for better taste."
+    ]
+  },
+  {
+    "id": 126071408,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "What does it mean to have special protection from something, like legal prosecution or disease?",
+    "translation": "Dokunulmazlık, muafiyet.",
+    "context": "Hukukta bir ayrıcalık, tıpta ise hastalıklara karşı direnç anlamına gelir. Bazen politikacılar belirli suçlamalara karşı 'immunity' kazanır, bazen de aşılar bize enfeksiyonlara karşı 'immunity' sağlar. Çok yönlü bir kelimedir!",
+    "options": [
+      "Responsibility",
+      "Vulnerability",
+      "Immunity",
+      "Liability"
+    ],
+    "correctAnswer": "Immunity",
     "category": "MIXED",
-    "variations": [
-      "The company successfully landed its reusable rocket.",
-      "Reusable rockets reduce space travel costs."
-    ]
-  },
-  {
-    "id": 126071109,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "What does 'face no action' mean in the context of a potential penalty?",
-    "translation": "'Face no action' potansiyel bir ceza bağlamında ne anlama gelir?",
-    "context": "'Face no action' demek, bir durumla ilgili olarak herhangi bir soruşturma, ceza veya yaptırım uygulanmaması, yani kişi veya kurumun 'aklanması' anlamına gelir. Tıpkı bir sınavda kopya çektiğin düşünüldüğü halde kanıt bulunamadığı için hiçbir ceza almamak gibi. 'Tüm suçlamalara rağmen, sonunda yüzüne hiçbir işlem uygulanmadı!' diyerek rahat bir nefes alabilirsin.",
-    "options": [
-      "Receive a penalty",
-      "Be investigated",
-      "Avoid punishment",
-      "Face a trial"
-    ],
-    "correctAnswer": "Avoid punishment",
-    "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126071110,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The oil tankers must pass through the strategic _____. (Hürmüz Boğazı)",
-    "translation": "Petrol tankerleri stratejik Hürmüz Boğazı'ndan geçmek zorundadır.",
-    "context": "'Strait of Hormuz', haritada küçücük görünse de dünya ticaretinde devasa bir öneme sahip olan, Basra Körfezi ile Umman Denizi'ni birbirine bağlayan dar bir su geçididir. Özellikle petrol taşımacılığı için kritik bir nokta. Buradan geçen gemiler, küresel ekonominin can damarıdır desek yeridir. 'Hürmüz Boğazı'ndaki gerilim, petrol fiyatlarını etkileyebilir' gibi haberlerde sıkça duyarsın.",
-    "options": [
-      "Strait of Hormuz",
-      "Panama Canal",
-      "Suez Canal",
-      "Bosphorus Strait"
-    ],
-    "correctAnswer": "Strait of Hormuz",
-    "category": "TRAVEL",
-    "variations": [
-      "Many ships use the Strait of Hormuz.",
-      "The Strait of Hormuz is vital for oil trade."
-    ]
-  },
-  {
-    "id": 126071111,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The company was accused of taking fraudulent _____. (bağlı kuruluş kredisi)",
-    "translation": "Şirket hileli bağlı kuruluş kredisi almakla suçlandı.",
-    "context": "'Affiliate credit', özellikle online pazarlamada, bir satışı veya yönlendirmeyi gerçekleştiren kişiye veya kuruluşa ödenen komisyonu veya hakkı ifade eder. Yani, sen bir ürün linki paylaşırsın, biri o linkten satın alır ve sana 'affiliate credit' yani komisyon yazılır. Ama 'cookie stuffing' gibi yollarla bu krediyi hak etmediğin halde almak, dijital dünyanın kirli yüzlerinden biridir. 'Bu ay kaç affiliate credit kazandın?' diye sorarak arkadaşlarınla şakalaşabilirsin.",
-    "options": [
-      "affiliate credit",
-      "bank loan",
-      "tax refund",
-      "stock dividend"
-    ],
-    "correctAnswer": "affiliate credit",
-    "category": "BUSINESS",
-    "variations": [
-      "They lost their affiliate credit due to fraud.",
-      "Earning affiliate credit requires valid sales."
-    ]
-  },
-  {
-    "id": 126071112,
+    "id": 126071409,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Which sport uses a 'pitch' with a specific length for batting and bowling?",
-    "translation": "Hangi sporda, vuruş ve atış için belirli bir uzunlukta 'pitch' kullanılır?",
-    "context": "'Cricket pitch', kriket oyununda topun atılıp vurulduğu, tam 22 yard (yaklaşık 20 metre) uzunluğundaki dikdörtgen alanın adıdır. Kriket sahasının merkezidir. 'Dinozorun boynu bir kriket sahası kadar uzundu' benzetmesi, o dinozorun ne kadar devasa olduğunu gözünde canlandırmak için harika bir yoldur. Eğer kriketle ilgili bir haber okuyorsan, 'pitch' kelimesiyle sıkça karşılaşırsın!",
+    "phrase": "Which word means 'on purpose' or 'intentionally'?",
+    "translation": "Kasten, bilerek.",
+    "context": "Bir şeyi tesadüfen değil, özellikle isteyerek ve planlayarak yaptığınızda kullanırsınız. Bazen kötü niyetli eylemler için kullanılır (örneğin bir orman yangını 'deliberately' çıkarmak), bazen de bir şeyi özenle ve düşünerek yapmak için. Niyetin önemini vurgular!",
     "options": [
-      "Basketball",
-      "Football",
-      "Cricket",
-      "Tennis"
+      "Accidentally",
+      "Spontaneously",
+      "Deliberately",
+      "Unintentionally"
     ],
-    "correctAnswer": "Cricket",
+    "correctAnswer": "Deliberately",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126071410,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Entrepreneurs are often _____ hard to achieve their goals.",
+    "translation": "Çok sıkı çalışmak.",
+    "context": "Tıpkı bir değirmen gibi, durmadan, yorulmadan, çok fazla enerji harcayarak çalışmak demek. Özellikle 'startup' dünyasında veya büyük hedefleri olan kişiler için kullanılan bir tabirdir. Başarı için 'grind' etmek şart, 'çaba göstermek'ten öte bir yoğunluktur!",
+    "options": [
+      "grinding",
+      "relaxing",
+      "sleeping",
+      "playing"
+    ],
+    "correctAnswer": "grinding",
+    "category": "BUSINESS",
+    "variations": [
+      "He's been _____ away at his project for months.",
+      "The team is _____ to meet the deadline."
+    ]
+  },
+  {
+    "id": 126071411,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "A _____ revealed the company's illegal activities.",
+    "translation": "Muhbir, ihbarcı (özellikle yolsuzluk vb. durumları ifşa eden kişi).",
+    "context": "Bir kurum içindeki yolsuzlukları, yasa dışı veya etik dışı eylemleri kamuoyuna veya yetkililere ifşa eden kişiye 'whistleblower' denir. Bazen kahraman, bazen 'istenmeyen adam' olabilirler ama cesurca gerçeği ortaya çıkarırlar.",
+    "options": [
+      "whistleblower",
+      "manager",
+      "customer",
+      "shareholder"
+    ],
+    "correctAnswer": "whistleblower",
+    "category": "CASUAL",
+    "variations": [
+      "The government promised to protect the _____.",
+      "He acted as a _____ to expose fraud."
+    ]
+  },
+  {
+    "id": 126071412,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "What does a judge do when they declare a contract or agreement no longer valid?",
+    "translation": "İptal etmek, geçersiz kılmak.",
+    "context": "Mahkemelerin veya yetkili mercilerin bir anlaşmayı, kararı veya yasayı 'yok hükmünde' saymasıdır. Yani, artık geçerli değildir, hükümsüzdür. Bir anlaşmayı feshetmek veya iptal etmek için kullanılan resmi bir terimdir.",
+    "options": [
+      "Validates",
+      "Enforces",
+      "Voids",
+      "Confirms"
+    ],
+    "correctAnswer": "Voids",
     "category": "MIXED",
     "variations": []
   }
