@@ -1,242 +1,233 @@
 [
   {
-    "id": 126071501,
+    "id": 126071601,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The ship sailed through the narrow _____ between two landmasses.",
-    "translation": "Boğaz (İki kara parçası arasındaki dar su geçidi)",
-    "context": "'Strait' kelimesi, özellikle iki büyük kara parçasını birbirine bağlayan dar deniz geçitlerini tanımlamak için kullanılır. 'Strait of Hormuz' haberde de geçtiği gibi, dünya ticaretinde çok stratejik bir boğazdır. Seyahat ederken coğrafi bölgeleri anlatmak için bu kelimeyi sıkça duyabilirsin. Mesela, 'Cebelitarık Boğazı' da bunlardan biridir!",
+    "phrase": "The new monkey _____ was found in a remote forest.",
+    "translation": "Yeni maymun türü, uzak bir ormanda bulundu.",
+    "context": "Dünyada daha keşfedilmeyi bekleyen ne çok şey var! 'Species' kelimesi biyolojideki tür anlamına gelir. Yani bu cümlede, daha önce görülmemiş yeni bir maymun türünden bahsediyoruz. Belki de sana en yakın parkta bile minik bir böcek 'species'i saklanıyordur!",
     "options": [
-      "strait",
-      "lake",
-      "river",
-      "ocean"
+      "species",
+      "plants",
+      "rocks",
+      "cars"
     ],
-    "correctAnswer": "strait",
-    "category": "TRAVEL",
-    "variations": [
-      "Many ships navigate the busy _____.",
-      "The _____ connects these two seas."
-    ]
-  },
-  {
-    "id": 126071502,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The company plans to _____ its new product next month.",
-    "translation": "Piyasaya sürmek, başlatmak",
-    "context": "Bir ürün, hizmet veya hatta bir roket! Hepsi 'launch' edilebilir. Haberlerde yapay zeka startup'ının yeni bir projeyi başlatmasından bahsediliyor. Yeni bir iş kurmak, yeni bir kampanyaya başlamak veya bir markayı tanıtmak için 'launch' kelimesini sıkça kullanırız. 'Yeni kitabını ne zaman lansman yapacaklar?' gibi.",
-    "options": [
-      "launch",
-      "close",
-      "stop",
-      "delay"
-    ],
-    "correctAnswer": "launch",
-    "category": "BUSINESS",
-    "variations": [
-      "They hope to _____ the app soon.",
-      "We need to _____ this project quickly."
-    ]
-  },
-  {
-    "id": 126071503,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "We must stay _____ during the wildfire season.",
-    "translation": "Teyakkuzda, dikkatli",
-    "context": "'Vigilant', bir tehlikeye karşı gözlerini dört açmak, tetikte olmak demektir. Haberlerdeki orman yangını riski gibi durumlarda 'stay vigilant' demek, 'dikkatli olalım, gözümüz açık olsun' anlamına gelir. Günlük hayatta da, 'Çocuğunla dışarıdayken çok dikkatli olmalısın' derken kullanabilirsin.",
-    "options": [
-      "vigilant",
-      "careless",
-      "sleepy",
-      "relaxed"
-    ],
-    "correctAnswer": "vigilant",
+    "correctAnswer": "species",
     "category": "CASUAL",
     "variations": [
-      "Parents should be _____ about online safety.",
-      "The security guards remained _____ all night."
+      "A rare bird _____ lives only on this island.",
+      "Scientists discovered a new _____ of butterfly."
     ]
   },
   {
-    "id": 126071504,
+    "id": 126071602,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "He faced a difficult _____ about his career path.",
-    "translation": "İkilem, çıkmaz",
-    "context": "'Dilemma', iki kötü seçenekten birini seçmek zorunda kalmak gibi zor bir durumu ifade eder. Haberdeki petrol çıkarma kararı gibi, her iki seçeneğin de dezavantajları olduğunda 'ikilemde kalmak' durumu oluşur. 'Bugün burger mi pizza mı yesem ikilemde kaldım!' gibi günlük ama daha hafif durumlar için de kullanılabilir.",
+    "phrase": "Lululemon _____ the new recycling company with a big investment.",
+    "translation": "Lululemon, yeni geri dönüşüm şirketini büyük bir yatırımla destekledi.",
+    "context": "'Backs' fiili, birini veya bir şeyi finansal olarak ya da genel olarak desteklemek anlamına gelir. Tıpkı bir patronun yeni projesini 'back'lemesi gibi. Lululemon da bu startup'a inanmış ve arkasında durmuş, süper bir iş birliği!",
     "options": [
-      "dilemma",
-      "solution",
-      "choice",
-      "comfort"
+      "backs",
+      "makes",
+      "eats",
+      "runs"
     ],
-    "correctAnswer": "dilemma",
-    "category": "MIXED",
-    "variations": [
-      "She was in a _____ whether to move or stay.",
-      "The team had a tough _____ to make."
-    ]
-  },
-  {
-    "id": 126071505,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The intense _____ made outdoor activities impossible.",
-    "translation": "Sıcak hava dalgası",
-    "context": "'Heatwave', genellikle uzun süren ve normalden çok daha yüksek sıcaklıkları ifade eden aşırı sıcak hava durumudur. Haberlerdeki gibi 'UK heatwave' İngiltere'nin alışkın olmadığı bir sıcaklığı anlatıyor. Seyahat ederken bir bölgenin hava durumu tahminlerinde sıkça karşımıza çıkar. 'Tatilimizde sıcak hava dalgası bekliyorlar, bol bol yüzebiliriz!'",
-    "options": [
-      "heatwave",
-      "blizzard",
-      "downpour",
-      "breeze"
-    ],
-    "correctAnswer": "heatwave",
-    "category": "TRAVEL",
-    "variations": [
-      "We experienced a severe _____ last summer.",
-      "The city suffered from a week-long _____."
-    ]
-  },
-  {
-    "id": 126071506,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Many young entrepreneurs dream of building a successful _____.",
-    "translation": "Yeni kurulan şirket, girişim",
-    "context": "'Startup', yeni kurulmuş, genellikle yenilikçi bir iş fikri olan ve hızlı büyüme potansiyeli taşıyan genç şirketlere denir. Haberdeki yapay zeka şirketi gibi, genelde teknoloji odaklı olurlar. Silikon Vadisi, 'startup' cenneti olarak bilinir. 'Arkadaşım geçen ay bir teknoloji startup'ı kurdu, çok heyecanlı!'",
-    "options": [
-      "startup",
-      "corporation",
-      "monopoly",
-      "subsidiary"
-    ],
-    "correctAnswer": "startup",
+    "correctAnswer": "backs",
     "category": "BUSINESS",
     "variations": [
-      "His new _____ aims to revolutionize education.",
-      "The government supports small _____ businesses."
+      "The investors _____ the innovative tech startup.",
+      "Our team _____ the manager's decision to expand."
     ]
   },
   {
-    "id": 126071507,
+    "id": 126071603,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Rising rents really _____ the budget of many families.",
-    "translation": "Sıkıştırmak, zorlamak (ekonomik anlamda)",
-    "context": "'Squeeze' kelimesi normalde sıkmak anlamına gelse de, haberdeki gibi 'squeezing the middle class' gibi ifadelerde birinin finansal olarak zorlanması, baskı altına alınması anlamında kullanılır. 'Yüksek faturalar bizi iyice sıkıştırıyor' derken tam da bu durumu anlatırız.",
+    "level": "BEGINNER",
+    "phrase": "The fire made a lot of _____ that drifted towards the city.",
+    "translation": "Yangın, şehre doğru sürüklenen çok fazla duman çıkardı.",
+    "context": "Orman yangınlarında veya mangal partilerinde gözümüzü yakan o gri şeye 'smoke' diyoruz. Bu cümlede de Kanada'daki yangınlardan çıkan ve şehre doğru giden dumandan bahsediliyor. Rüzgarın etkisiyle bir yerlerden 'smoke' gelir, dikkatli olmak lazım!",
     "options": [
-      "squeeze",
-      "expand",
-      "release",
-      "inflate"
+      "smoke",
+      "water",
+      "light",
+      "air"
     ],
-    "correctAnswer": "squeeze",
-    "category": "CASUAL",
-    "variations": [
-      "The new taxes will _____ small businesses.",
-      "Don't let pressure _____ you into a bad decision."
-    ]
-  },
-  {
-    "id": 126071508,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Several parties formed a _____ to win the election.",
-    "translation": "Koalisyon, ittifak",
-    "context": "'Coalition', farklı grupların veya ülkelerin ortak bir amaç için bir araya gelerek oluşturduğu bir ittifaktır. Haberdeki ülkelerin füze savunması için oluşturduğu gibi, siyasi partiler de seçimleri kazanmak için koalisyon kurabilir. 'Bu projeyi bitirmek için farklı departmanlar bir koalisyon oluşturdu.'",
-    "options": [
-      "coalition",
-      "division",
-      "conflict",
-      "rivalry"
-    ],
-    "correctAnswer": "coalition",
-    "category": "MIXED",
-    "variations": [
-      "The _____ aims to address climate change.",
-      "They entered a _____ government after the vote."
-    ]
-  },
-  {
-    "id": 126071509,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The _____ rain ruined our vacation plans for the beach.",
-    "translation": "Sürekli, inatçı, ısrarcı",
-    "context": "'Persistent', bir şeyin sürekli, aralıksız ve ısrarcı bir şekilde devam ettiğini anlatır. Haberdeki 'persistent 30C temperatures' sürekli yüksek sıcaklıklar demek. Seyahatte hava durumu tahminlerini kontrol ederken 'persistent fog' (sürekli sis) veya 'persistent winds' (sürekli rüzgarlar) gibi ifadelerle karşılaşabilirsin. Bazen olumlu ('persistent effort' - ısrarlı çaba), bazen olumsuz ('persistent cough' - sürekli öksürük) anlamda kullanılır.",
-    "options": [
-      "persistent",
-      "intermittent",
-      "sporadic",
-      "temporary"
-    ],
-    "correctAnswer": "persistent",
+    "correctAnswer": "smoke",
     "category": "TRAVEL",
     "variations": [
-      "We noticed a _____ buzzing sound from the engine.",
-      "Her _____ dedication led to success."
+      "There was thick _____ coming from the old chimney.",
+      "The forest fire created a huge cloud of _____."
     ]
   },
   {
-    "id": 126071510,
+    "id": 126071604,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The new manager had a full _____ on his first day.",
-    "translation": "Yapılacaklar listesi, görev sepeti",
-    "context": "'In-tray', İngilizce'de genellikle bir yöneticinin veya çalışanın masasında duran ve acil dikkat gerektiren belgeleri veya yapılacak işleri içeren bir sepeti ifade eder. Mecazi olarak da, yeni bir göreve başlayan kişinin önündeki öncelikli işleri, görevleri ve çözülmesi gereken sorunları anlatmak için kullanılır. Haberdeki yeni koçun önündeki görevler gibi. 'Onun in-tray'inde çözülmesi gereken çok önemli bir müşteri şikayeti var.'",
+    "level": "BEGINNER",
+    "phrase": "The army launched new _____ on enemy positions.",
+    "translation": "Ordu, düşman mevzilerine yeni saldırılar başlattı.",
+    "context": "'Strikes' kelimesi, bir şeye vurmak veya askeri bağlamda saldırılar düzenlemek anlamına gelir. Bu cümlede de bir askeri harekat, yani 'strikes'lar söz konusu. Umarım hep barışçıl 'strikes'lar yaparız, mesela bowlingde 'strike' yapmak gibi!",
     "options": [
-      "in-tray",
-      "out-box",
-      "archive",
-      "database"
+      "strikes",
+      "dances",
+      "talks",
+      "laughs"
     ],
-    "correctAnswer": "in-tray",
-    "category": "BUSINESS",
-    "variations": [
-      "Fixing morale was at the top of her _____.",
-      "He delegated some tasks from his heavy _____."
-    ]
-  },
-  {
-    "id": 126071511,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The crowd began to _____ in cheers after the goal.",
-    "translation": "Patlak vermek, aniden başlamak (duygusal patlama, olay)",
-    "context": "'Erupt', bir volkanın patlaması gibi ani ve şiddetli bir çıkışı ifade eder. Haberdeki gibi bir tartışmanın veya kalabalığın aniden coşkuyla veya öfkeyle patlaması durumlarında kullanılır. 'Partinin tartışmaları aniden patlak verdi ve herkes şaşırdı.' Hem fiziksel olaylar (volkan, sivilceler) hem de duygusal veya sosyal olaylar (öfke, sevinç, protesto) için kullanılabilir.",
-    "options": [
-      "erupt",
-      "calm",
-      "subside",
-      "settle"
-    ],
-    "correctAnswer": "erupt",
-    "category": "CASUAL",
-    "variations": [
-      "Tensions might _____ into open conflict.",
-      "Laughter would often _____ during their meetings."
-    ]
-  },
-  {
-    "id": 126071512,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Enemy aircraft were successfully _____ by defense systems.",
-    "translation": "Düşürülen, etkisiz hale getirilen",
-    "context": "'Downed', özellikle havadaki bir uçağın, dronun veya helikopterin vurularak düşürüldüğünü veya etkisiz hale getirildiğini belirtir. Haberdeki insansız hava araçlarının düşürülmesi gibi askeri terimlerde sıkça karşımıza çıkar. Ayrıca bir internet sitesinin veya sunucunun da 'down' olması, yani çalışmaması anlamında da kullanılır.",
-    "options": [
-      "downed",
-      "launched",
-      "repaired",
-      "detected"
-    ],
-    "correctAnswer": "downed",
+    "correctAnswer": "strikes",
     "category": "MIXED",
     "variations": [
-      "The pilot successfully _____ the damaged drone.",
-      "Many trees were _____ during the severe storm."
+      "Air _____ hit several military targets.",
+      "The workers went on _____ for better wages."
+    ]
+  },
+  {
+    "id": 126071605,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "After many years, the families finally _____ the verdict.",
+    "translation": "Yıllar sonra aileler nihayet kararı bekliyordu.",
+    "context": "Mahkeme salonlarında veya heyecanlı bir yarışmanın sonucunu beklerken hissettiğimiz o sabırsız duruma 'await' denir. Genoa'daki köprü faciasının kurbanlarının aileleri de yıllarca bu 'verdict'i, yani kararı beklemiş. Beklemek zor iş, değil mi?",
+    "options": [
+      "await",
+      "refuse",
+      "ignore",
+      "cancel"
+    ],
+    "correctAnswer": "await",
+    "category": "CASUAL",
+    "variations": [
+      "We eagerly _____ the arrival of our guests.",
+      "She had to _____ the results of her medical test."
+    ]
+  },
+  {
+    "id": 126071606,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "My manager told me to avoid _____ competitors' products.",
+    "translation": "Yöneticim bana rakiplerin ürünlerini kötülemekten kaçınmamı söyledi.",
+    "context": "'Talk down' deyimi, birini veya bir şeyi küçük görmek, değerini düşürmek veya eleştirmek anlamına gelir. Microsoft'un rakiplerini 'talk down' etmeye çalıştığı söyleniyor, ama bence her ürün kendi kalitesiyle konuşmalı! 😉",
+    "options": [
+      "talking down",
+      "talking up",
+      "talking over",
+      "talking in"
+    ],
+    "correctAnswer": "talking down",
+    "category": "BUSINESS",
+    "variations": [
+      "Don't let anyone _____ your ideas.",
+      "It's unprofessional to _____ other companies' services."
+    ]
+  },
+  {
+    "id": 126071607,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The wildfire smoke began to _____ the city.",
+    "translation": "Orman yangını dumanı şehre doğru sürüklenmeye başladı.",
+    "context": "'Drift towards' yavaşça, bir yöne doğru sürüklenmek demektir. Tıpkı bulutların rüzgarla sürüklenmesi gibi. Kanada'daki yangın dumanı da öylece şehirlere doğru 'drift towards' etmiş, bazen doğa kontrol edilemez olabiliyor.",
+    "options": [
+      "drift towards",
+      "fly away from",
+      "run past",
+      "jump over"
+    ],
+    "correctAnswer": "drift towards",
+    "category": "TRAVEL",
+    "variations": [
+      "The boat began to _____ the shore.",
+      "Loose leaves _____ the garden path in autumn."
+    ]
+  },
+  {
+    "id": 126071608,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Eğer bir ülke müttefikine sırtını dönerse ne olur?",
+    "translation": "If a country 'turns its back on' its ally, what happens?",
+    "context": "'Turn its back on' deyimi, birine veya bir şeye destek vermeyi bırakmak, ihanet etmek veya onu terk etmek anlamına gelir. Fetterman'ın dediği gibi, siyasette 'sırtını dönmek' ilişkileri derinden sarsabilir. Arkadaşlarına asla sırtını dönme, dostum!",
+    "options": [
+      "turns its back on",
+      "stands by",
+      "supports fully",
+      "engages with"
+    ],
+    "correctAnswer": "turns its back on",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126071609,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "'Making a dream start' ne anlama gelir?",
+    "translation": "'Making a dream start' means starting exceptionally well.",
+    "context": "MacIntyre'ın The Open'da 'dream start' yapması gibi, hayallerdeki gibi bir başlangıç yapmak demektir. İş görüşmesi, yeni bir proje veya ilk buluşma... Her şeyin tıkırında gittiği, harika bir başlangıca 'dream start' denir. Bu hissi bir kez yakalayınca, devamı da rüya gibi olur!",
+    "options": [
+      "starting exceptionally well",
+      "having a bad beginning",
+      "dreaming about the start",
+      "finishing the race"
+    ],
+    "correctAnswer": "starting exceptionally well",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126071610,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The company _____ its spending to avoid further debt.",
+    "translation": "Şirket, daha fazla borçlanmaktan kaçınmak için harcamalarını sınırladı.",
+    "context": "'Capped' kelimesi, bir şeyi belirli bir limitin üzerine çıkarmamak, sınırlamak anlamına gelir. Greylock'un fonunu 'capped' etmesi gibi, bazen büyük bir potansiyel olsa bile, stratejik olarak bir sınır koymak en iyisidir. Bütçeni 'cap'lemek sana da iyi gelebilir!",
+    "options": [
+      "capped",
+      "increased",
+      "expanded",
+      "prolonged"
+    ],
+    "correctAnswer": "capped",
+    "category": "BUSINESS",
+    "variations": [
+      "The government _____ the number of new licenses.",
+      "Our budget is _____ at $500 for this event."
+    ]
+  },
+  {
+    "id": 126071611,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Acil durum ekipleri halkı 'stay vigilant' olmaya çağırıyor. Bu ne anlama geliyor?",
+    "translation": "Emergency teams are urging the public to 'stay vigilant.' What does this mean?",
+    "context": "'Stay vigilant', özellikle tehlikeli veya dikkat gerektiren durumlarda, uyanık ve tetikte olmak anlamına gelir. İskoçya'daki yangın riski gibi. Sokakta yürürken veya internette gezinirken bile 'vigilant' olmak bazen faydalı olabilir, gözünü dört aç!",
+    "options": [
+      "Be very careful and watchful",
+      "Go on a vacation immediately",
+      "Ignore the warnings",
+      "Stay indoors and sleep"
+    ],
+    "correctAnswer": "Be very careful and watchful",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126071612,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The new health program will _____ certain medical conditions.",
+    "translation": "Yeni sağlık programı, belirli tıbbi durumlar için tarama yapacak.",
+    "context": "'Screen for' deyimi, bir hastalığın veya durumun varlığını tespit etmek için testler yapmak veya incelemek anlamına gelir. ABD ordusunun 'testosterone deficiency' için 'screen' yapması gibi. Erken teşhis hayat kurtarır, o yüzden 'screen' olmak önemli!",
+    "options": [
+      "screen for",
+      "ignore from",
+      "create with",
+      "delete after"
+    ],
+    "correctAnswer": "screen for",
+    "category": "MIXED",
+    "variations": [
+      "Doctors regularly _____ signs of early diabetes.",
+      "The software is designed to _____ anomalies in data."
     ]
   }
 ]
