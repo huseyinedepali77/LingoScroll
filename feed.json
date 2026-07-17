@@ -1,233 +1,233 @@
 [
   {
-    "id": 126071601,
+    "id": 126071701,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The new monkey _____ was found in a remote forest.",
-    "translation": "Yeni maymun türü, uzak bir ormanda bulundu.",
-    "context": "Dünyada daha keşfedilmeyi bekleyen ne çok şey var! 'Species' kelimesi biyolojideki tür anlamına gelir. Yani bu cümlede, daha önce görülmemiş yeni bir maymun türünden bahsediyoruz. Belki de sana en yakın parkta bile minik bir böcek 'species'i saklanıyordur!",
+    "phrase": "The UK is experiencing a severe _____.",
+    "translation": "İngiltere şiddetli bir sıcak hava dalgası yaşıyor.",
+    "context": "'Heatwave', yaz aylarında hava sıcaklıklarının uzun süre normalin çok üzerinde seyretmesi durumunu anlatır. Klima olmayan bir otobüs yolculuğunda terlemek gibi düşün, ama her yer öyle! Güneş kremini unutma!",
     "options": [
-      "species",
-      "plants",
-      "rocks",
-      "cars"
+      "storm",
+      "heatwave",
+      "blizzard",
+      "drought"
     ],
-    "correctAnswer": "species",
+    "correctAnswer": "heatwave",
     "category": "CASUAL",
     "variations": [
-      "A rare bird _____ lives only on this island.",
-      "Scientists discovered a new _____ of butterfly."
+      "The country is facing a major heatwave.",
+      "A heatwave warning has been issued."
     ]
   },
   {
-    "id": 126071602,
+    "id": 126071702,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Lululemon _____ the new recycling company with a big investment.",
-    "translation": "Lululemon, yeni geri dönüşüm şirketini büyük bir yatırımla destekledi.",
-    "context": "'Backs' fiili, birini veya bir şeyi finansal olarak ya da genel olarak desteklemek anlamına gelir. Tıpkı bir patronun yeni projesini 'back'lemesi gibi. Lululemon da bu startup'a inanmış ve arkasında durmuş, süper bir iş birliği!",
+    "phrase": "More than 500 people _____ at sea.",
+    "translation": "500'den fazla kişi denizde kayboldu.",
+    "context": "'Vanished at sea', denizde kaybolmak anlamına gelir. Pusulanı unutup ıssız bir adada kalmak gibi tatsız bir sürpriz! Bu kelime, birinin veya bir şeyin ansızın ortadan kaybolduğunu anlatmak için kullanılır.",
     "options": [
-      "backs",
-      "makes",
-      "eats",
-      "runs"
+      "arrived",
+      "vanished",
+      "departed",
+      "swam"
     ],
-    "correctAnswer": "backs",
-    "category": "BUSINESS",
-    "variations": [
-      "The investors _____ the innovative tech startup.",
-      "Our team _____ the manager's decision to expand."
-    ]
-  },
-  {
-    "id": 126071603,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The fire made a lot of _____ that drifted towards the city.",
-    "translation": "Yangın, şehre doğru sürüklenen çok fazla duman çıkardı.",
-    "context": "Orman yangınlarında veya mangal partilerinde gözümüzü yakan o gri şeye 'smoke' diyoruz. Bu cümlede de Kanada'daki yangınlardan çıkan ve şehre doğru giden dumandan bahsediliyor. Rüzgarın etkisiyle bir yerlerden 'smoke' gelir, dikkatli olmak lazım!",
-    "options": [
-      "smoke",
-      "water",
-      "light",
-      "air"
-    ],
-    "correctAnswer": "smoke",
+    "correctAnswer": "vanished",
     "category": "TRAVEL",
     "variations": [
-      "There was thick _____ coming from the old chimney.",
-      "The forest fire created a huge cloud of _____."
+      "Many ships have vanished in the Bermuda Triangle.",
+      "My keys just vanished from the table!"
     ]
   },
   {
-    "id": 126071604,
+    "id": 126071703,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The army launched new _____ on enemy positions.",
-    "translation": "Ordu, düşman mevzilerine yeni saldırılar başlattı.",
-    "context": "'Strikes' kelimesi, bir şeye vurmak veya askeri bağlamda saldırılar düzenlemek anlamına gelir. Bu cümlede de bir askeri harekat, yani 'strikes'lar söz konusu. Umarım hep barışçıl 'strikes'lar yaparız, mesela bowlingde 'strike' yapmak gibi!",
+    "phrase": "Coca-Cola has _____ production at its dairy.",
+    "translation": "Coca-Cola süt ürünleri tesisindeki üretimi durdurdu.",
+    "context": "Bir iş yerinde 'suspended production' demek, üretimin geçici olarak durdurulması demek. Tıpkı okulda derslerin tatil edilmesi gibi, ama bu sefer sebep genelde teknik bir sorun veya kötü bir siber saldırı olabilir.",
     "options": [
-      "strikes",
-      "dances",
-      "talks",
-      "laughs"
-    ],
-    "correctAnswer": "strikes",
-    "category": "MIXED",
-    "variations": [
-      "Air _____ hit several military targets.",
-      "The workers went on _____ for better wages."
-    ]
-  },
-  {
-    "id": 126071605,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "After many years, the families finally _____ the verdict.",
-    "translation": "Yıllar sonra aileler nihayet kararı bekliyordu.",
-    "context": "Mahkeme salonlarında veya heyecanlı bir yarışmanın sonucunu beklerken hissettiğimiz o sabırsız duruma 'await' denir. Genoa'daki köprü faciasının kurbanlarının aileleri de yıllarca bu 'verdict'i, yani kararı beklemiş. Beklemek zor iş, değil mi?",
-    "options": [
-      "await",
-      "refuse",
-      "ignore",
-      "cancel"
-    ],
-    "correctAnswer": "await",
-    "category": "CASUAL",
-    "variations": [
-      "We eagerly _____ the arrival of our guests.",
-      "She had to _____ the results of her medical test."
-    ]
-  },
-  {
-    "id": 126071606,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "My manager told me to avoid _____ competitors' products.",
-    "translation": "Yöneticim bana rakiplerin ürünlerini kötülemekten kaçınmamı söyledi.",
-    "context": "'Talk down' deyimi, birini veya bir şeyi küçük görmek, değerini düşürmek veya eleştirmek anlamına gelir. Microsoft'un rakiplerini 'talk down' etmeye çalıştığı söyleniyor, ama bence her ürün kendi kalitesiyle konuşmalı! 😉",
-    "options": [
-      "talking down",
-      "talking up",
-      "talking over",
-      "talking in"
-    ],
-    "correctAnswer": "talking down",
-    "category": "BUSINESS",
-    "variations": [
-      "Don't let anyone _____ your ideas.",
-      "It's unprofessional to _____ other companies' services."
-    ]
-  },
-  {
-    "id": 126071607,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The wildfire smoke began to _____ the city.",
-    "translation": "Orman yangını dumanı şehre doğru sürüklenmeye başladı.",
-    "context": "'Drift towards' yavaşça, bir yöne doğru sürüklenmek demektir. Tıpkı bulutların rüzgarla sürüklenmesi gibi. Kanada'daki yangın dumanı da öylece şehirlere doğru 'drift towards' etmiş, bazen doğa kontrol edilemez olabiliyor.",
-    "options": [
-      "drift towards",
-      "fly away from",
-      "run past",
-      "jump over"
-    ],
-    "correctAnswer": "drift towards",
-    "category": "TRAVEL",
-    "variations": [
-      "The boat began to _____ the shore.",
-      "Loose leaves _____ the garden path in autumn."
-    ]
-  },
-  {
-    "id": 126071608,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Eğer bir ülke müttefikine sırtını dönerse ne olur?",
-    "translation": "If a country 'turns its back on' its ally, what happens?",
-    "context": "'Turn its back on' deyimi, birine veya bir şeye destek vermeyi bırakmak, ihanet etmek veya onu terk etmek anlamına gelir. Fetterman'ın dediği gibi, siyasette 'sırtını dönmek' ilişkileri derinden sarsabilir. Arkadaşlarına asla sırtını dönme, dostum!",
-    "options": [
-      "turns its back on",
-      "stands by",
-      "supports fully",
-      "engages with"
-    ],
-    "correctAnswer": "turns its back on",
-    "category": "MIXED",
-    "variations": []
-  },
-  {
-    "id": 126071609,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "'Making a dream start' ne anlama gelir?",
-    "translation": "'Making a dream start' means starting exceptionally well.",
-    "context": "MacIntyre'ın The Open'da 'dream start' yapması gibi, hayallerdeki gibi bir başlangıç yapmak demektir. İş görüşmesi, yeni bir proje veya ilk buluşma... Her şeyin tıkırında gittiği, harika bir başlangıca 'dream start' denir. Bu hissi bir kez yakalayınca, devamı da rüya gibi olur!",
-    "options": [
-      "starting exceptionally well",
-      "having a bad beginning",
-      "dreaming about the start",
-      "finishing the race"
-    ],
-    "correctAnswer": "starting exceptionally well",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126071610,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The company _____ its spending to avoid further debt.",
-    "translation": "Şirket, daha fazla borçlanmaktan kaçınmak için harcamalarını sınırladı.",
-    "context": "'Capped' kelimesi, bir şeyi belirli bir limitin üzerine çıkarmamak, sınırlamak anlamına gelir. Greylock'un fonunu 'capped' etmesi gibi, bazen büyük bir potansiyel olsa bile, stratejik olarak bir sınır koymak en iyisidir. Bütçeni 'cap'lemek sana da iyi gelebilir!",
-    "options": [
-      "capped",
       "increased",
-      "expanded",
-      "prolonged"
+      "started",
+      "suspended",
+      "continued"
     ],
-    "correctAnswer": "capped",
+    "correctAnswer": "suspended",
     "category": "BUSINESS",
     "variations": [
-      "The government _____ the number of new licenses.",
-      "Our budget is _____ at $500 for this event."
+      "The factory suspended operations due to a power cut.",
+      "The project was suspended for further review."
     ]
   },
   {
-    "id": 126071611,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Acil durum ekipleri halkı 'stay vigilant' olmaya çağırıyor. Bu ne anlama geliyor?",
-    "translation": "Emergency teams are urging the public to 'stay vigilant.' What does this mean?",
-    "context": "'Stay vigilant', özellikle tehlikeli veya dikkat gerektiren durumlarda, uyanık ve tetikte olmak anlamına gelir. İskoçya'daki yangın riski gibi. Sokakta yürürken veya internette gezinirken bile 'vigilant' olmak bazen faydalı olabilir, gözünü dört aç!",
+    "id": 126071704,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The mayor wants to impose _____ rules for traffic.",
+    "translation": "Belediye başkanı trafik için daha sıkı kurallar getirmek istiyor.",
+    "context": "'Tougher rules', daha sıkı kurallar demek. Tıpkı annenin sokağa çıkma saatine koyduğu yeni kural gibi. Genellikle bir sorunu çözmek için getirilirler. San Francisco'daki trafik sorununa çözüm arıyorlar!",
     "options": [
-      "Be very careful and watchful",
-      "Go on a vacation immediately",
-      "Ignore the warnings",
-      "Stay indoors and sleep"
+      "easier",
+      "tougher",
+      "flexible",
+      "older"
     ],
-    "correctAnswer": "Be very careful and watchful",
-    "category": "TRAVEL",
+    "correctAnswer": "tougher",
+    "category": "MIXED",
+    "variations": [
+      "We need tougher laws to prevent cyber crime.",
+      "The teacher implemented tougher grading standards."
+    ]
+  },
+  {
+    "id": 126071705,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Which term describes a cyber-attack that blocks access to a computer system until a sum of money is paid?",
+    "translation": "Bir bilgisayar sistemine erişimi para ödenene kadar engelleyen siber saldırı türü nedir?",
+    "context": "'Ransomware attack', bilgisayarını ele geçiren ve açmak için senden fidye isteyen kötü yazılımlar demek. Tıpkı bilgisayarının sana kilitlenip 'Parayı ver, anahtar senin!' demesi gibi. Maalesef, Fairlife'ın başına bu gelmiş.",
+    "options": [
+      "Phishing scam",
+      "Ransomware attack",
+      "Data breach",
+      "DDoS attack"
+    ],
+    "correctAnswer": "Ransomware attack",
+    "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126071612,
+    "id": 126071706,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The new health program will _____ certain medical conditions.",
-    "translation": "Yeni sağlık programı, belirli tıbbi durumlar için tarama yapacak.",
-    "context": "'Screen for' deyimi, bir hastalığın veya durumun varlığını tespit etmek için testler yapmak veya incelemek anlamına gelir. ABD ordusunun 'testosterone deficiency' için 'screen' yapması gibi. Erken teşhis hayat kurtarır, o yüzden 'screen' olmak önemli!",
+    "level": "INTERMEDIATE",
+    "phrase": "Will the Pumas _____ back against England in rugby?",
+    "translation": "Pumalar ragbide İngiltere'ye karşı misilleme yapacak mı?",
+    "context": "'Bite back', bir şeye veya birine karşı misilleme yapmak, karşılık vermek anlamına gelir. Tıpkı sinirlendiğin bir arkadaşına laf sokmak gibi, ama daha rekabetçi bir ortamda. Spor karşılaşmalarında 'rövanş almak' anlamında çok kullanılır.",
     "options": [
-      "screen for",
-      "ignore from",
-      "create with",
-      "delete after"
+      "run",
+      "bite",
+      "kick",
+      "jump"
     ],
-    "correctAnswer": "screen for",
+    "correctAnswer": "bite",
+    "category": "CASUAL",
+    "variations": [
+      "The team is ready to bite back after last week's loss.",
+      "She bit back with a sharp comment."
+    ]
+  },
+  {
+    "id": 126071707,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "SpaceX suddenly _____ its Starship launch after ignition.",
+    "translation": "SpaceX, ateşlemeden sonra Starship fırlatmasını aniden iptal etti.",
+    "context": "'Abort a launch', bir roket fırlatışını son anda, genellikle güvenlik endişeleri yüzünden iptal etmek demektir. Tıpkı tam yola çıkacakken anahtarı evde unuttuğunu fark etmek gibi, ama bunun maliyeti çok daha yüksek!",
+    "options": [
+      "continued",
+      "launched",
+      "delayed",
+      "aborted"
+    ],
+    "correctAnswer": "aborted",
     "category": "MIXED",
     "variations": [
-      "Doctors regularly _____ signs of early diabetes.",
-      "The software is designed to _____ anomalies in data."
+      "NASA aborted the mission due to a technical glitch.",
+      "The pilot aborted the landing attempt."
     ]
+  },
+  {
+    "id": 126071708,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Texas floods are _____ the same area where campers died.",
+    "translation": "Texas'taki seller, kampçıların öldüğü aynı bölgeyi harap ediyor.",
+    "context": "'Ravaging' kelimesi, bir yerin büyük bir yıkıma uğraması veya harap olması anlamına gelir. Tıpkı bir tsunaminin sahili alıp götürmesi gibi düşünebilirsin, doğanın acımasız yüzünü gösterdiği anlar için kullanılır. Çok korkunç bir durum!",
+    "options": [
+      "saving",
+      "visiting",
+      "helping",
+      "ravaging"
+    ],
+    "correctAnswer": "ravaging",
+    "category": "TRAVEL",
+    "variations": [
+      "The hurricane ravaged the coastal town.",
+      "A disease is ravaging the local deer population."
+    ]
+  },
+  {
+    "id": 126071709,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "The US strikes reportedly hit _____ in Iran.",
+    "translation": "ABD saldırılarının İran'daki hangi tür altyapıyı vurduğu bildiriliyor?",
+    "context": "'Civilian infrastructure', sivil halkın kullandığı binalar ve tesisler demektir. Köprüler, yollar, elektrik santralleri gibi günlük yaşamın olmazsa olmazları. Bir savaştan en çok etkilenen yerler genellikle burası olur, bu da durumu daha vahim yapar.",
+    "options": [
+      "Military bases",
+      "Oil refineries",
+      "Civilian infrastructure",
+      "Government buildings"
+    ],
+    "correctAnswer": "Civilian infrastructure",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126071710,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Serrano is fighting for world _____ in a TikTok first boxing match.",
+    "translation": "Serrano, TikTok'ta bir ilk olan boks maçında dünya şampiyonlukları için mücadele ediyor.",
+    "context": "'World titles', dünya şampiyonluğu veya unvanı anlamına gelir. Tıpkı bir bilgisayar oyununda en yüksek seviyeye ulaşmak gibi, ama bu gerçek hayatta ve çok daha fazla ter ve gözyaşı gerektiriyor! TikTok'ta yapılması da olayı viral hale getiriyor.",
+    "options": [
+      "medals",
+      "honors",
+      "titles",
+      "trophies"
+    ],
+    "correctAnswer": "titles",
+    "category": "CASUAL",
+    "variations": [
+      "She has won several world titles in swimming.",
+      "He defended his heavyweight title successfully."
+    ]
+  },
+  {
+    "id": 126071711,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The Justice Dept cannot provide _____ Epstein files.",
+    "translation": "Adalet Bakanlığı, Epstein dosyalarını karartılmamış (sansürsüz) olarak sağlayamıyor.",
+    "context": "'Unredacted files', gizli veya hassas bilgileri karartılmamış, yani tamamen açık ve okunabilir belgeler anlamına gelir. Tıpkı bir dedektif filmlerinde o sansürlü belgenin orijinal halini bulmak gibi bir şey, 'tüm gerçekler burada' dedirten cinsten. Merak uyandırıcı, değil mi?",
+    "options": [
+      "redacted",
+      "classified",
+      "unredacted",
+      "archived"
+    ],
+    "correctAnswer": "unredacted",
+    "category": "MIXED",
+    "variations": [
+      "The journalist demanded the unredacted report.",
+      "We hope to see the unredacted documents soon."
+    ]
+  },
+  {
+    "id": 126071712,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Japan relaxed some of its royal _____ rules.",
+    "translation": "Japonya, kraliyet kurallarından bazılarını gevşetti.",
+    "context": "'Royal succession rules', kraliyet ailesinde tahtın kime geçeceğini belirleyen kurallar demektir. Tıpkı bir aile şirketinde mirasın kime kalacağını belirleyen yasa gibi, ama çok daha eski ve geleneksel. Japonya'daki bu kurallar, yüzyıllardır süren bir mirasın güncellenmesi anlamına geliyor.",
+    "options": [
+      "Etiquette",
+      "Marriage",
+      "Succession",
+      "Protocol"
+    ],
+    "correctAnswer": "Succession",
+    "category": "TRAVEL",
+    "variations": []
   }
 ]
