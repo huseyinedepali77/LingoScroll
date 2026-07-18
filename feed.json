@@ -1,233 +1,224 @@
 [
   {
-    "id": 126071701,
+    "id": 126071801,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The UK is experiencing a severe _____.",
-    "translation": "İngiltere şiddetli bir sıcak hava dalgası yaşıyor.",
-    "context": "'Heatwave', yaz aylarında hava sıcaklıklarının uzun süre normalin çok üzerinde seyretmesi durumunu anlatır. Klima olmayan bir otobüs yolculuğunda terlemek gibi düşün, ama her yer öyle! Güneş kremini unutma!",
+    "phrase": "The wildfire smoke made the air outside feel very _____.",
+    "translation": "Kirli hava",
+    "context": "Piknik planın vardı ama dışarıdaki hava o kadar 'filthy' ki (yani kirli ki), sanki bir bacanın içinde yaşamaya çalışıyorsun! 'Filthy' sadece kirden değil, aynı zamanda iğrenç veya çok kötü anlamında da kullanılır. 'This room is filthy!' dersen, odanın aşırı pis olduğunu anlatırsın.",
     "options": [
-      "storm",
+      "dirty",
+      "fresh",
+      "clear",
+      "filthy"
+    ],
+    "correctAnswer": "filthy",
+    "category": "CASUAL",
+    "variations": [
+      "The pollution from the factory made the river _____.",
+      "After the storm, the streets were completely _____."
+    ]
+  },
+  {
+    "id": 126071802,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "Bir şirketin piyasa değerini veya tahmini değerini ifade eden terim nedir?",
+    "translation": "Değerleme",
+    "context": "Bir şirketin 'valuation'ı, tıpkı bir evin piyasa değeri gibi düşün. Yatırımcılar bir şirketin ne kadar değerli olduğunu anlamak için 'valuation'a bakar. Databricks gibi teknoloji devleri, bazen milyarlarca dolarlık 'valuation'lara ulaşarak herkesi şaşırtır!",
+    "options": [
+      "Innovation",
+      "Acquisition",
+      "Valuation",
+      "Marketing"
+    ],
+    "correctAnswer": "Valuation",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126071803,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "We are expecting a severe _____ next week. Don't forget your sunscreen!",
+    "translation": "Sıcak hava dalgası",
+    "context": "Tatil planı yaparken hava durumuna bakmak şart! Eğer bir 'heatwave' geliyorsa, yani aşırı sıcak bir hava dalgası bekleniyorsa, şapkanı ve bol su şişeni yanından ayırma. Plajda serinlemek güzel ama bunaltıcı sıcaklara yakalanmak istemezsin!",
+    "options": [
+      "cold snap",
       "heatwave",
-      "blizzard",
-      "drought"
+      "snowfall",
+      "thunderstorm"
     ],
     "correctAnswer": "heatwave",
-    "category": "CASUAL",
-    "variations": [
-      "The country is facing a major heatwave.",
-      "A heatwave warning has been issued."
-    ]
-  },
-  {
-    "id": 126071702,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "More than 500 people _____ at sea.",
-    "translation": "500'den fazla kişi denizde kayboldu.",
-    "context": "'Vanished at sea', denizde kaybolmak anlamına gelir. Pusulanı unutup ıssız bir adada kalmak gibi tatsız bir sürpriz! Bu kelime, birinin veya bir şeyin ansızın ortadan kaybolduğunu anlatmak için kullanılır.",
-    "options": [
-      "arrived",
-      "vanished",
-      "departed",
-      "swam"
-    ],
-    "correctAnswer": "vanished",
     "category": "TRAVEL",
     "variations": [
-      "Many ships have vanished in the Bermuda Triangle.",
-      "My keys just vanished from the table!"
+      "The city suffered from a long _____, causing many problems.",
+      "During the _____, staying indoors with AC is the best option."
     ]
   },
   {
-    "id": 126071703,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Coca-Cola has _____ production at its dairy.",
-    "translation": "Coca-Cola süt ürünleri tesisindeki üretimi durdurdu.",
-    "context": "Bir iş yerinde 'suspended production' demek, üretimin geçici olarak durdurulması demek. Tıpkı okulda derslerin tatil edilmesi gibi, ama bu sefer sebep genelde teknik bir sorun veya kötü bir siber saldırı olabilir.",
-    "options": [
-      "increased",
-      "started",
-      "suspended",
-      "continued"
-    ],
-    "correctAnswer": "suspended",
-    "category": "BUSINESS",
-    "variations": [
-      "The factory suspended operations due to a power cut.",
-      "The project was suspended for further review."
-    ]
-  },
-  {
-    "id": 126071704,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The mayor wants to impose _____ rules for traffic.",
-    "translation": "Belediye başkanı trafik için daha sıkı kurallar getirmek istiyor.",
-    "context": "'Tougher rules', daha sıkı kurallar demek. Tıpkı annenin sokağa çıkma saatine koyduğu yeni kural gibi. Genellikle bir sorunu çözmek için getirilirler. San Francisco'daki trafik sorununa çözüm arıyorlar!",
-    "options": [
-      "easier",
-      "tougher",
-      "flexible",
-      "older"
-    ],
-    "correctAnswer": "tougher",
-    "category": "MIXED",
-    "variations": [
-      "We need tougher laws to prevent cyber crime.",
-      "The teacher implemented tougher grading standards."
-    ]
-  },
-  {
-    "id": 126071705,
+    "id": 126071804,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Which term describes a cyber-attack that blocks access to a computer system until a sum of money is paid?",
-    "translation": "Bir bilgisayar sistemine erişimi para ödenene kadar engelleyen siber saldırı türü nedir?",
-    "context": "'Ransomware attack', bilgisayarını ele geçiren ve açmak için senden fidye isteyen kötü yazılımlar demek. Tıpkı bilgisayarının sana kilitlenip 'Parayı ver, anahtar senin!' demesi gibi. Maalesef, Fairlife'ın başına bu gelmiş.",
+    "level": "BEGINNER",
+    "phrase": "Bir şeyden dolayı çok öfkeli veya aşırı sinirli olmak anlamına gelen kelime nedir?",
+    "translation": "Öfkeli, çileden çıkmış",
+    "context": "Askerler, savunma bakanının görevden alınmasına 'outraged' kaldıysa, bu demek ki durumdan hiç memnun değiller, hatta çileden çıkmış durumdalar! Bir şeye 'outraged' olmak, sana yapılan bir haksızlığa karşı duyduğun güçlü öfkeyi anlatır. Mesela, en sevdiğin dondurmayı senin yerine yediklerinde sen de 'outraged' olabilirsin!",
     "options": [
-      "Phishing scam",
-      "Ransomware attack",
-      "Data breach",
-      "DDoS attack"
+      "Delighted",
+      "Content",
+      "Outraged",
+      "Amused"
     ],
-    "correctAnswer": "Ransomware attack",
-    "category": "BUSINESS",
+    "correctAnswer": "Outraged",
+    "category": "MIXED",
     "variations": []
   },
   {
-    "id": 126071706,
+    "id": 126071805,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Will the Pumas _____ back against England in rugby?",
-    "translation": "Pumalar ragbide İngiltere'ye karşı misilleme yapacak mı?",
-    "context": "'Bite back', bir şeye veya birine karşı misilleme yapmak, karşılık vermek anlamına gelir. Tıpkı sinirlendiğin bir arkadaşına laf sokmak gibi, ama daha rekabetçi bir ortamda. Spor karşılaşmalarında 'rövanş almak' anlamında çok kullanılır.",
+    "phrase": "The government might impose new _____ on imported goods.",
+    "translation": "Gümrük vergileri",
+    "context": "Ticarette 'tariffs' demek, ithal edilen mallara uygulanan vergiler demektir. Trump'ın Kanada'ya 'tariffs' tehdidi, ticari bir anlaşmazlığı gösteriyor. Sanki 'Benim havamı kirletirsen, senin ürünlerine fazladan vergi koyarım!' demek gibi. Bu, ülkeler arası ticari oyunların önemli bir parçasıdır.",
     "options": [
-      "run",
-      "bite",
-      "kick",
-      "jump"
+      "subsidies",
+      "tariffs",
+      "discounts",
+      "quotas"
     ],
-    "correctAnswer": "bite",
-    "category": "CASUAL",
-    "variations": [
-      "The team is ready to bite back after last week's loss.",
-      "She bit back with a sharp comment."
-    ]
-  },
-  {
-    "id": 126071707,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "SpaceX suddenly _____ its Starship launch after ignition.",
-    "translation": "SpaceX, ateşlemeden sonra Starship fırlatmasını aniden iptal etti.",
-    "context": "'Abort a launch', bir roket fırlatışını son anda, genellikle güvenlik endişeleri yüzünden iptal etmek demektir. Tıpkı tam yola çıkacakken anahtarı evde unuttuğunu fark etmek gibi, ama bunun maliyeti çok daha yüksek!",
-    "options": [
-      "continued",
-      "launched",
-      "delayed",
-      "aborted"
-    ],
-    "correctAnswer": "aborted",
-    "category": "MIXED",
-    "variations": [
-      "NASA aborted the mission due to a technical glitch.",
-      "The pilot aborted the landing attempt."
-    ]
-  },
-  {
-    "id": 126071708,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Texas floods are _____ the same area where campers died.",
-    "translation": "Texas'taki seller, kampçıların öldüğü aynı bölgeyi harap ediyor.",
-    "context": "'Ravaging' kelimesi, bir yerin büyük bir yıkıma uğraması veya harap olması anlamına gelir. Tıpkı bir tsunaminin sahili alıp götürmesi gibi düşünebilirsin, doğanın acımasız yüzünü gösterdiği anlar için kullanılır. Çok korkunç bir durum!",
-    "options": [
-      "saving",
-      "visiting",
-      "helping",
-      "ravaging"
-    ],
-    "correctAnswer": "ravaging",
-    "category": "TRAVEL",
-    "variations": [
-      "The hurricane ravaged the coastal town.",
-      "A disease is ravaging the local deer population."
-    ]
-  },
-  {
-    "id": 126071709,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "The US strikes reportedly hit _____ in Iran.",
-    "translation": "ABD saldırılarının İran'daki hangi tür altyapıyı vurduğu bildiriliyor?",
-    "context": "'Civilian infrastructure', sivil halkın kullandığı binalar ve tesisler demektir. Köprüler, yollar, elektrik santralleri gibi günlük yaşamın olmazsa olmazları. Bir savaştan en çok etkilenen yerler genellikle burası olur, bu da durumu daha vahim yapar.",
-    "options": [
-      "Military bases",
-      "Oil refineries",
-      "Civilian infrastructure",
-      "Government buildings"
-    ],
-    "correctAnswer": "Civilian infrastructure",
+    "correctAnswer": "tariffs",
     "category": "BUSINESS",
+    "variations": [
+      "Higher _____ could increase the price of foreign cars.",
+      "The country is considering removing some _____ to boost trade."
+    ]
+  },
+  {
+    "id": 126071806,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Bir ülkenin uzaya yönelik hedeflerini ve programlarını ifade eden terim nedir?",
+    "translation": "Uzay hedefleri/arzuları",
+    "context": "Hindistan'ın 'space ambitions'ı, yani uzaydaki hedefleri, tıpkı taksiye binip uzaya gitmek kadar iddialı! 'Cab to orbit' deyimi, uzay seyahatinin günlük bir ulaşım haline gelmesi hayalini anlatıyor. Gelecekte belki de işe 'orbit'e giderek başlayacağız, kim bilir!",
+    "options": [
+      "Earth missions",
+      "Space ambitions",
+      "Orbital dreams",
+      "Sky excursions"
+    ],
+    "correctAnswer": "Space ambitions",
+    "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126071710,
+    "id": 126071807,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Serrano is fighting for world _____ in a TikTok first boxing match.",
-    "translation": "Serrano, TikTok'ta bir ilk olan boks maçında dünya şampiyonlukları için mücadele ediyor.",
-    "context": "'World titles', dünya şampiyonluğu veya unvanı anlamına gelir. Tıpkı bir bilgisayar oyununda en yüksek seviyeye ulaşmak gibi, ama bu gerçek hayatta ve çok daha fazla ter ve gözyaşı gerektiriyor! TikTok'ta yapılması da olayı viral hale getiriyor.",
+    "level": "INTERMEDIATE",
+    "phrase": "The politician tried to _____ direct questions from reporters.",
+    "translation": "Sorulardan kaçmak",
+    "context": "Bir siyasetçi bir konudan bahsetmek istemiyorsa, sorulardan 'dodge' yapmaya çalışır, yani kaçar. Tıpkı yağmurdan kaçmak gibi, ama kelimelerle! Bazen bir arkadaşın ne yaptığını sorduğunda, konuyu değiştirmeye çalışırsın ya, işte o da bir nevi 'dodging questions'dır.",
     "options": [
-      "medals",
-      "honors",
-      "titles",
-      "trophies"
+      "answer",
+      "welcome",
+      "dodge",
+      "embrace"
     ],
-    "correctAnswer": "titles",
+    "correctAnswer": "dodge",
     "category": "CASUAL",
     "variations": [
-      "She has won several world titles in swimming.",
-      "He defended his heavyweight title successfully."
+      "She always _____ difficult questions during interviews.",
+      "He tried to _____ his responsibilities, but failed."
     ]
   },
   {
-    "id": 126071711,
+    "id": 126071808,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Sakatlıklar ve hastalıklar nedeniyle gücünü kaybetmiş veya eksik kalmış bir takımı tanımlamak için hangi kelime kullanılır?",
+    "translation": "Eksik kadrolu, gücü azalmış",
+    "context": "All Blacks gibi güçlü bir rugby takımının 'depleted' olması, yani eksik kadrolu ve gücünün azalmış olması, rakip İrlanda için büyük bir avantaj olabilir! Tıpkı pillerin bitmek üzere olması gibi, bir takımın enerjisi veya oyuncu sayısı azaldığında 'depleted' olur.",
+    "options": [
+      "Enhanced",
+      "Depleted",
+      "Reinforced",
+      "Bolstered"
+    ],
+    "correctAnswer": "Depleted",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126071809,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The Justice Dept cannot provide _____ Epstein files.",
-    "translation": "Adalet Bakanlığı, Epstein dosyalarını karartılmamış (sansürsüz) olarak sağlayamıyor.",
-    "context": "'Unredacted files', gizli veya hassas bilgileri karartılmamış, yani tamamen açık ve okunabilir belgeler anlamına gelir. Tıpkı bir dedektif filmlerinde o sansürlü belgenin orijinal halini bulmak gibi bir şey, 'tüm gerçekler burada' dedirten cinsten. Merak uyandırıcı, değil mi?",
+    "phrase": "Neil Rimer suggests that the _____ in AI might be slowing down.",
+    "translation": "Yatırım",
+    "context": "Teknoloji dünyasında 'investment' rüzgarları sürekli yön değiştirir. Neil Rimer'ın dediğine göre, yapay zeka alanındaki 'investment'lar (yatırımlar) yavaşlamaya başlamış. Bu, 'AI bubble'ın (Yapay zeka balonunun) söndüğüne dair bir işaret olabilir. Yani, para muslukları eskisi gibi gürül gürül akmıyor!",
     "options": [
-      "redacted",
-      "classified",
-      "unredacted",
-      "archived"
+      "consumption",
+      "investment",
+      "production",
+      "innovation"
     ],
-    "correctAnswer": "unredacted",
-    "category": "MIXED",
+    "correctAnswer": "investment",
+    "category": "BUSINESS",
     "variations": [
-      "The journalist demanded the unredacted report.",
-      "We hope to see the unredacted documents soon."
+      "The company is seeking foreign _____ for its new project.",
+      "Good _____ decisions are crucial for a startup's success."
     ]
   },
   {
-    "id": 126071712,
+    "id": 126071810,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Japan relaxed some of its royal _____ rules.",
-    "translation": "Japonya, kraliyet kurallarından bazılarını gevşetti.",
-    "context": "'Royal succession rules', kraliyet ailesinde tahtın kime geçeceğini belirleyen kurallar demektir. Tıpkı bir aile şirketinde mirasın kime kalacağını belirleyen yasa gibi, ama çok daha eski ve geleneksel. Japonya'daki bu kurallar, yüzyıllardır süren bir mirasın güncellenmesi anlamına geliyor.",
+    "phrase": "Askeri veya stratejik olarak önemli bir konumda bulunmak veya hedef haline gelmek anlamına gelen ifade hangisidir?",
+    "translation": "Hedef tahtasında olmak, mercek altında olmak",
+    "context": "Hürmüz Boğazı'ndaki adaların 'in the crosshairs' olması, yani hedef tahtasında olması, buranın ne kadar stratejik ve tehlikeli bir bölge olduğunu gösteriyor. Tıpkı bir nişancının dürbünündeki hedef gibi, bu adalar da askeri bir harekatın olası odak noktası demek. Seyahat ederken böyle yerlerden uzak durmak en iyisi!",
     "options": [
-      "Etiquette",
-      "Marriage",
-      "Succession",
-      "Protocol"
+      "In plain sight",
+      "Off the map",
+      "In the crosshairs",
+      "On the sidelines"
     ],
-    "correctAnswer": "Succession",
+    "correctAnswer": "In the crosshairs",
     "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126071811,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The newspaper published a _____ report about the senator.",
+    "translation": "Şok edici, bomba etkisi yaratan",
+    "context": "Bir 'bombshell report' demek, tam anlamıyla 'bomba gibi' bir haber demek! Ortaya çıktığında herkesi şok eden, gündemi sarsan ve büyük yankı uyandıran bir ifşaat gibi düşün. Senatör hakkındaki bu rapor da, tıpkı Hollywood filmlerindeki gibi, büyük bir sürpriz etkisi yaratmış olmalı.",
+    "options": [
+      "trivial",
+      "minor",
+      "bombshell",
+      "bland"
+    ],
+    "correctAnswer": "bombshell",
+    "category": "CASUAL",
+    "variations": [
+      "Her resignation was a _____ announcement for the company.",
+      "The detective uncovered a _____ secret during the investigation."
+    ]
+  },
+  {
+    "id": 126071812,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Bir çatışmaya veya anlaşmazlığa istemeden dahil olmak anlamına gelen deyim hangisidir?",
+    "translation": "Bir çatışmaya sürüklenmek/dahil olmak",
+    "context": "Pakistan'ın ABD-İran çatışmasına 'drawn into' olmak (yani sürüklenmekten) endişe etmesi, hiç de şaşırtıcı değil. Komşu ülkeler arasındaki gerilimler bazen seni de istemeden olayın içine çekebilir. Tıpkı iki arkadaşının kavgasının ortasında kalmak gibi, kimse durduk yere kendini bir krizin içinde bulmak istemez!",
+    "options": [
+      "Stay out of",
+      "Steer clear of",
+      "Be drawn into",
+      "Remain neutral"
+    ],
+    "correctAnswer": "Be drawn into",
+    "category": "MIXED",
     "variations": []
   }
 ]
