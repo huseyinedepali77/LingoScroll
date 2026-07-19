@@ -1,223 +1,223 @@
 [
   {
-    "id": 126071801,
-    "type": "QUIZ_COMPLETION",
+    "id": 126071901,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "The wildfire smoke made the air outside feel very _____.",
-    "translation": "Kirli hava",
-    "context": "Piknik planın vardı ama dışarıdaki hava o kadar 'filthy' ki (yani kirli ki), sanki bir bacanın içinde yaşamaya çalışıyorsun! 'Filthy' sadece kirden değil, aynı zamanda iğrenç veya çok kötü anlamında da kullanılır. 'This room is filthy!' dersen, odanın aşırı pis olduğunu anlatırsın.",
+    "phrase": "Which word means 'to end someone's life'?",
+    "translation": "'Birinin hayatına son vermek' anlamına gelen kelime hangisidir?",
+    "context": "Ne yazık ki, çatışmalar ve üzücü olaylar nedeniyle insanlar hayatlarını kaybedebiliyor. 'Killed' kelimesi, birinin ölümüne neden olmak anlamına gelir. Haberlerde askerlerin 'killed' olması gibi kötü olayları anlatırken kullanılır. Umarım bu kelimeyi sadece hikayelerde kullanırsın!",
     "options": [
-      "dirty",
-      "fresh",
-      "clear",
-      "filthy"
+      "killed",
+      "helped",
+      "saved",
+      "started"
     ],
-    "correctAnswer": "filthy",
+    "correctAnswer": "killed",
     "category": "CASUAL",
-    "variations": [
-      "The pollution from the factory made the river _____.",
-      "After the storm, the streets were completely _____."
-    ]
-  },
-  {
-    "id": 126071802,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "Bir şirketin piyasa değerini veya tahmini değerini ifade eden terim nedir?",
-    "translation": "Değerleme",
-    "context": "Bir şirketin 'valuation'ı, tıpkı bir evin piyasa değeri gibi düşün. Yatırımcılar bir şirketin ne kadar değerli olduğunu anlamak için 'valuation'a bakar. Databricks gibi teknoloji devleri, bazen milyarlarca dolarlık 'valuation'lara ulaşarak herkesi şaşırtır!",
-    "options": [
-      "Innovation",
-      "Acquisition",
-      "Valuation",
-      "Marketing"
-    ],
-    "correctAnswer": "Valuation",
-    "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126071803,
+    "id": 126071902,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "We are expecting a severe _____ next week. Don't forget your sunscreen!",
-    "translation": "Sıcak hava dalgası",
-    "context": "Tatil planı yaparken hava durumuna bakmak şart! Eğer bir 'heatwave' geliyorsa, yani aşırı sıcak bir hava dalgası bekleniyorsa, şapkanı ve bol su şişeni yanından ayırma. Plajda serinlemek güzel ama bunaltıcı sıcaklara yakalanmak istemezsin!",
+    "phrase": "Many products are stored in _____ warehouses before shipping.",
+    "translation": "Pek çok ürün, gönderilmeden önce _____ depolarda saklanır.",
+    "context": "Evine gelen paketler var ya? İşte o paketlerin içindeki ürünler, genellikle büyük 'retail' (perakende) depolarda bekler. Yani, mağazalara veya direkt sana satılacak ürünlerin ilk durağı bu depolar! Sürekli yeni şeyler geldiği için buralar hep hareketli olur.",
     "options": [
-      "cold snap",
-      "heatwave",
-      "snowfall",
-      "thunderstorm"
+      "retail",
+      "school",
+      "hospital",
+      "park"
     ],
-    "correctAnswer": "heatwave",
-    "category": "TRAVEL",
+    "correctAnswer": "retail",
+    "category": "BUSINESS",
     "variations": [
-      "The city suffered from a long _____, causing many problems.",
-      "During the _____, staying indoors with AC is the best option."
+      "Our local _____ store has everything we need.",
+      "She works in the _____ industry, selling clothes."
     ]
   },
   {
-    "id": 126071804,
+    "id": 126071903,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "Bir şeyden dolayı çok öfkeli veya aşırı sinirli olmak anlamına gelen kelime nedir?",
-    "translation": "Öfkeli, çileden çıkmış",
-    "context": "Askerler, savunma bakanının görevden alınmasına 'outraged' kaldıysa, bu demek ki durumdan hiç memnun değiller, hatta çileden çıkmış durumdalar! Bir şeye 'outraged' olmak, sana yapılan bir haksızlığa karşı duyduğun güçlü öfkeyi anlatır. Mesela, en sevdiğin dondurmayı senin yerine yediklerinde sen de 'outraged' olabilirsin!",
+    "phrase": "What describes air that is dirty and harmful?",
+    "translation": "Kirli ve zararlı havayı ne tanımlar?",
+    "context": "Bazen haberlerde şehirlerin havasının 'polluted' olduğunu duyarız. 'Polluted' demek, havanın veya suyun kirlilik yüzünden sağlığımıza zarar verecek kadar pis olması demek. Keşke tüm dünyada tertemiz havamız olsa da bu kelimeye hiç ihtiyacımız kalmasa!",
     "options": [
-      "Delighted",
-      "Content",
-      "Outraged",
-      "Amused"
+      "clean",
+      "fresh",
+      "polluted",
+      "clear"
     ],
-    "correctAnswer": "Outraged",
-    "category": "MIXED",
+    "correctAnswer": "polluted",
+    "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126071805,
+    "id": 126071904,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "You can _____ the TikTok app on your phone.",
+    "translation": "Telefonuna TikTok uygulamasını _____ yapabilirsin.",
+    "context": "Yeni bir uygulama mı denemek istiyorsun? Ya da eski bir oyunu mu geri yükleyeceksin? İşte o zaman 'download' edersin! Tıpkı federal çalışanların TikTok'u iş telefonlarına 'download' etmesine izin verilmesi gibi. Bedava film 'download' etmek için kullanma ama, aman dikkat!",
+    "options": [
+      "download",
+      "upload",
+      "delete",
+      "watch"
+    ],
+    "correctAnswer": "download",
+    "category": "MIXED",
+    "variations": [
+      "Please _____ the file from the internet.",
+      "I need to _____ this update to my computer."
+    ]
+  },
+  {
+    "id": 126071905,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "What are official accusations made against someone in court?",
+    "translation": "Birine mahkemede yapılan resmi suçlamalar nelerdir?",
+    "context": "Bir suç işlendiğinde, yetkililer zanlılara karşı 'charges' yani suçlamalar getirir. Mesela, Andrew Tate'e karşı yeni 'charges' getirildiği haberlerde yer alıyor. Bu, mahkemede 'haksızsın' deme şekli gibi düşünebilirsin. Herkesin kendini savunma hakkı olduğunu unutma!",
+    "options": [
+      "payments",
+      "praises",
+      "charges",
+      "rewards"
+    ],
+    "correctAnswer": "charges",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126071906,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The government might impose new _____ on imported goods.",
-    "translation": "Gümrük vergileri",
-    "context": "Ticarette 'tariffs' demek, ithal edilen mallara uygulanan vergiler demektir. Trump'ın Kanada'ya 'tariffs' tehdidi, ticari bir anlaşmazlığı gösteriyor. Sanki 'Benim havamı kirletirsen, senin ürünlerine fazladan vergi koyarım!' demek gibi. Bu, ülkeler arası ticari oyunların önemli bir parçasıdır.",
+    "phrase": "The conflict put a huge _____ on the country's economy.",
+    "translation": "Çatışma, ülkenin ekonomisi üzerinde büyük bir _____ yarattı.",
+    "context": "Bir şeye çok fazla yük bindiğinde veya zorlandığında 'strain' hissedersin. Tıpkı savaş zamanı ekonomilerin yaşadığı gibi. Bu, gerginlik, baskı veya zorlanma anlamına gelir. Umarım hayatında çok 'strain' yaşamazsın, rahatına bak!",
+    "options": [
+      "strain",
+      "relief",
+      "boost",
+      "comfort"
+    ],
+    "correctAnswer": "strain",
+    "category": "BUSINESS",
+    "variations": [
+      "Working long hours puts a lot of _____ on employees.",
+      "The economic crisis caused a severe _____."
+    ]
+  },
+  {
+    "id": 126071907,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "If a service has 'resumed', what does it mean?",
+    "translation": "Bir hizmet 'resumed' ise, bu ne anlama gelir?",
+    "context": "Diyelim ki otobüs seferleri kötü hava yüzünden durduruldu. Sonra hava düzeldi ve seferler 'resumed' oldu. Yani, kaldığı yerden devam etti! Waymo'nun San Francisco'daki hizmetinin bir saatlik aradan sonra 'resumed' etmesi gibi. Hayat durur, ama sonra devam eder, tıpkı bu kelime gibi!",
+    "options": [
+      "It stopped completely.",
+      "It started again.",
+      "It never began.",
+      "It became more popular."
+    ],
+    "correctAnswer": "It started again.",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126071908,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The football match was a real _____, with many goals.",
+    "translation": "Futbol maçı, birçok golle gerçek bir _____ idi.",
+    "context": "Heyecan dolu, nefes kesen, yüreğini ağzına getiren bir spor karşılaşması veya film mi izledin? İşte o bir 'thriller'! 10 gollü bir maç gibi. Adrenalin pompalar, kalbin küt küt atar, tam bir 'thriller' deneyimi yaşarsın. Unutulmaz anlar için 'thriller' arayışında ol!",
+    "options": [
+      "thriller",
+      "bore",
+      "nap",
+      "fail"
+    ],
+    "correctAnswer": "thriller",
+    "category": "MIXED",
+    "variations": [
+      "Her new book is a psychological _____.",
+      "We watched a movie that was a real _____."
+    ]
+  },
+  {
+    "id": 126071909,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "His political career was marked by acts of _____, often saying one thing and doing another.",
+    "translation": "Siyasi kariyeri, sık sık bir şey söyleyip başka bir şey yapma _____ eylemleriyle damgalanmıştı.",
+    "context": "'Duplicity' kelimesi, ikiyüzlülük, hilekarlık veya samimiyetsizlik anlamına gelir. Yani, bir kişi bir yandan sana gülümseyip, diğer yandan arkandan iş çeviriyorsa, işte o kişinin hareketleri 'duplicity' ile doludur. Politika dünyasında maalesef bazen böyle durumlarla karşılaşılır. Umarım etrafındaki insanlar 'duplicity'den uzak durur!",
+    "options": [
+      "duplicity",
+      "honesty",
+      "integrity",
+      "transparency"
+    ],
+    "correctAnswer": "duplicity",
+    "category": "CASUAL",
+    "variations": [
+      "The spy's _____ made it hard to trust him.",
+      "She was accused of _____ in her business dealings."
+    ]
+  },
+  {
+    "id": 126071910,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "What are taxes placed on imported goods to make them more expensive?",
+    "translation": "İthal edilen malları daha pahalı hale getirmek için uygulanan vergiler nelerdir?",
+    "context": "Ekonomi haberlerinde sıkça duyduğun 'tariffs' kelimesi, yabancı ülkelerden gelen ürünlere uygulanan ek vergiler demek. Trump'ın Kanada'ya 'tariffs' tehdidi gibi. Amaç genellikle yerli üretimi korumak veya bir ülkeyi 'cezalandırmak'. Cebinden çıkan her kuruşu etkileyebilir!",
     "options": [
       "subsidies",
       "tariffs",
-      "discounts",
-      "quotas"
+      "grants",
+      "rebates"
     ],
     "correctAnswer": "tariffs",
     "category": "BUSINESS",
-    "variations": [
-      "Higher _____ could increase the price of foreign cars.",
-      "The country is considering removing some _____ to boost trade."
-    ]
+    "variations": []
   },
   {
-    "id": 126071806,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Bir ülkenin uzaya yönelik hedeflerini ve programlarını ifade eden terim nedir?",
-    "translation": "Uzay hedefleri/arzuları",
-    "context": "Hindistan'ın 'space ambitions'ı, yani uzaydaki hedefleri, tıpkı taksiye binip uzaya gitmek kadar iddialı! 'Cab to orbit' deyimi, uzay seyahatinin günlük bir ulaşım haline gelmesi hayalini anlatıyor. Gelecekte belki de işe 'orbit'e giderek başlayacağız, kim bilir!",
+    "id": 126071911,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "India's space program has bold _____ to send more rockets into orbit.",
+    "translation": "Hindistan'ın uzay programı, yörüngeye daha fazla roket göndermek için cesur _____lara sahip.",
+    "context": "Hayallerin, büyük hedeflerin veya ulaşmak istediğin yüksek amaçların mı var? İşte bunlar senin 'ambitions'! Tıpkı Hindistan'ın uzay programının 'cab to orbit' gibi büyük 'ambitions'ları olduğu gibi. Uzağa bakmak, büyük düşünmek, 'ambitions' budur! Gökyüzü bile sınır değil!",
     "options": [
-      "Earth missions",
-      "Space ambitions",
-      "Orbital dreams",
-      "Sky excursions"
+      "ambitions",
+      "hesitations",
+      "doubts",
+      "restrictions"
     ],
-    "correctAnswer": "Space ambitions",
+    "correctAnswer": "ambitions",
     "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126071807,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The politician tried to _____ direct questions from reporters.",
-    "translation": "Sorulardan kaçmak",
-    "context": "Bir siyasetçi bir konudan bahsetmek istemiyorsa, sorulardan 'dodge' yapmaya çalışır, yani kaçar. Tıpkı yağmurdan kaçmak gibi, ama kelimelerle! Bazen bir arkadaşın ne yaptığını sorduğunda, konuyu değiştirmeye çalışırsın ya, işte o da bir nevi 'dodging questions'dır.",
-    "options": [
-      "answer",
-      "welcome",
-      "dodge",
-      "embrace"
-    ],
-    "correctAnswer": "dodge",
-    "category": "CASUAL",
     "variations": [
-      "She always _____ difficult questions during interviews.",
-      "He tried to _____ his responsibilities, but failed."
+      "She has strong career _____.",
+      "His _____ drove him to achieve great success."
     ]
   },
   {
-    "id": 126071808,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Sakatlıklar ve hastalıklar nedeniyle gücünü kaybetmiş veya eksik kalmış bir takımı tanımlamak için hangi kelime kullanılır?",
-    "translation": "Eksik kadrolu, gücü azalmış",
-    "context": "All Blacks gibi güçlü bir rugby takımının 'depleted' olması, yani eksik kadrolu ve gücünün azalmış olması, rakip İrlanda için büyük bir avantaj olabilir! Tıpkı pillerin bitmek üzere olması gibi, bir takımın enerjisi veya oyuncu sayısı azaldığında 'depleted' olur.",
-    "options": [
-      "Enhanced",
-      "Depleted",
-      "Reinforced",
-      "Bolstered"
-    ],
-    "correctAnswer": "Depleted",
-    "category": "MIXED",
-    "variations": []
-  },
-  {
-    "id": 126071809,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Neil Rimer suggests that the _____ in AI might be slowing down.",
-    "translation": "Yatırım",
-    "context": "Teknoloji dünyasında 'investment' rüzgarları sürekli yön değiştirir. Neil Rimer'ın dediğine göre, yapay zeka alanındaki 'investment'lar (yatırımlar) yavaşlamaya başlamış. Bu, 'AI bubble'ın (Yapay zeka balonunun) söndüğüne dair bir işaret olabilir. Yani, para muslukları eskisi gibi gürül gürül akmıyor!",
-    "options": [
-      "consumption",
-      "investment",
-      "production",
-      "innovation"
-    ],
-    "correctAnswer": "investment",
-    "category": "BUSINESS",
-    "variations": [
-      "The company is seeking foreign _____ for its new project.",
-      "Good _____ decisions are crucial for a startup's success."
-    ]
-  },
-  {
-    "id": 126071810,
+    "id": 126071912,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Askeri veya stratejik olarak önemli bir konumda bulunmak veya hedef haline gelmek anlamına gelen ifade hangisidir?",
-    "translation": "Hedef tahtasında olmak, mercek altında olmak",
-    "context": "Hürmüz Boğazı'ndaki adaların 'in the crosshairs' olması, yani hedef tahtasında olması, buranın ne kadar stratejik ve tehlikeli bir bölge olduğunu gösteriyor. Tıpkı bir nişancının dürbünündeki hedef gibi, bu adalar da askeri bir harekatın olası odak noktası demek. Seyahat ederken böyle yerlerden uzak durmak en iyisi!",
+    "phrase": "If something is described as an 'obscure clause', what does 'obscure' mean?",
+    "translation": "Eğer bir şey 'obscure clause' olarak tanımlanıyorsa, 'obscure' ne anlama gelir?",
+    "context": "Bazen çok eski veya az bilinen bir kural, yasa maddesi veya bilgi karşına çıkar. İşte ona 'obscure' deriz. Yani, herkesin bilmediği, biraz gizemli veya anlaşılması zor bir şey. Tıpkı federal yargıcın Trump yönetiminin kullandığı 'obscure clause'u engellemesi gibi. Kimi zaman bu 'obscure' detaylar hayatımızı değiştirebilir!",
     "options": [
-      "In plain sight",
-      "Off the map",
-      "In the crosshairs",
-      "On the sidelines"
+      "very well-known",
+      "easily understood",
+      "unclear or not well-known",
+      "newly created"
     ],
-    "correctAnswer": "In the crosshairs",
-    "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126071811,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The newspaper published a _____ report about the senator.",
-    "translation": "Şok edici, bomba etkisi yaratan",
-    "context": "Bir 'bombshell report' demek, tam anlamıyla 'bomba gibi' bir haber demek! Ortaya çıktığında herkesi şok eden, gündemi sarsan ve büyük yankı uyandıran bir ifşaat gibi düşün. Senatör hakkındaki bu rapor da, tıpkı Hollywood filmlerindeki gibi, büyük bir sürpriz etkisi yaratmış olmalı.",
-    "options": [
-      "trivial",
-      "minor",
-      "bombshell",
-      "bland"
-    ],
-    "correctAnswer": "bombshell",
-    "category": "CASUAL",
-    "variations": [
-      "Her resignation was a _____ announcement for the company.",
-      "The detective uncovered a _____ secret during the investigation."
-    ]
-  },
-  {
-    "id": 126071812,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Bir çatışmaya veya anlaşmazlığa istemeden dahil olmak anlamına gelen deyim hangisidir?",
-    "translation": "Bir çatışmaya sürüklenmek/dahil olmak",
-    "context": "Pakistan'ın ABD-İran çatışmasına 'drawn into' olmak (yani sürüklenmekten) endişe etmesi, hiç de şaşırtıcı değil. Komşu ülkeler arasındaki gerilimler bazen seni de istemeden olayın içine çekebilir. Tıpkı iki arkadaşının kavgasının ortasında kalmak gibi, kimse durduk yere kendini bir krizin içinde bulmak istemez!",
-    "options": [
-      "Stay out of",
-      "Steer clear of",
-      "Be drawn into",
-      "Remain neutral"
-    ],
-    "correctAnswer": "Be drawn into",
+    "correctAnswer": "unclear or not well-known",
     "category": "MIXED",
     "variations": []
   }
