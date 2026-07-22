@@ -1,224 +1,242 @@
 [
   {
-    "id": 126071901,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "Which word means 'to end someone's life'?",
-    "translation": "'Birinin hayatına son vermek' anlamına gelen kelime hangisidir?",
-    "context": "Ne yazık ki, çatışmalar ve üzücü olaylar nedeniyle insanlar hayatlarını kaybedebiliyor. 'Killed' kelimesi, birinin ölümüne neden olmak anlamına gelir. Haberlerde askerlerin 'killed' olması gibi kötü olayları anlatırken kullanılır. Umarım bu kelimeyi sadece hikayelerde kullanırsın!",
-    "options": [
-      "killed",
-      "helped",
-      "saved",
-      "started"
-    ],
-    "correctAnswer": "killed",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126071902,
+    "id": 126072201,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Many products are stored in _____ warehouses before shipping.",
-    "translation": "Pek çok ürün, gönderilmeden önce _____ depolarda saklanır.",
-    "context": "Evine gelen paketler var ya? İşte o paketlerin içindeki ürünler, genellikle büyük 'retail' (perakende) depolarda bekler. Yani, mağazalara veya direkt sana satılacak ürünlerin ilk durağı bu depolar! Sürekli yeni şeyler geldiği için buralar hep hareketli olur.",
+    "phrase": "France wants to ____ social media for young teens.",
+    "translation": "Yasaklamak",
+    "context": "'Ban' kelimesi, bir şeyi yasaklamak, izin vermemek anlamına gelir. Fransa'nın gençleri sosyal medyadan 'ban'laması, onları korumak için alınan bir karar. Düşünsene, en sevdiğin oyunu oynarken bir anda 'bu oyun banlandı!' haberi gelse... İşte öyle bir durum!",
     "options": [
-      "retail",
-      "school",
-      "hospital",
-      "park"
+      "ban",
+      "allow",
+      "create",
+      "promote"
     ],
-    "correctAnswer": "retail",
-    "category": "BUSINESS",
+    "correctAnswer": "ban",
+    "category": "TRAVEL",
     "variations": [
-      "Our local _____ store has everything we need.",
-      "She works in the _____ industry, selling clothes."
+      "The government decided to ban smoking in public places.",
+      "They will ban that harmful chemical soon."
     ]
   },
   {
-    "id": 126071903,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "id": 126072202,
+    "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "What describes air that is dirty and harmful?",
-    "translation": "Kirli ve zararlı havayı ne tanımlar?",
-    "context": "Bazen haberlerde şehirlerin havasının 'polluted' olduğunu duyarız. 'Polluted' demek, havanın veya suyun kirlilik yüzünden sağlığımıza zarar verecek kadar pis olması demek. Keşke tüm dünyada tertemiz havamız olsa da bu kelimeye hiç ihtiyacımız kalmasa!",
+    "phrase": "Wildberries is an online ____.",
+    "translation": "Perakendeci",
+    "context": "'Retailer', ürünleri doğrudan tüketicilere satan bir şirket veya kişidir. Yani, online alışveriş yaptığınız o kocaman platformlar veya mahallenizdeki küçük dükkanlar birer 'retailer'. Wildberries de online ürün satan dev bir 'retailer'.",
     "options": [
+      "retailer",
+      "farmer",
+      "doctor",
+      "teacher"
+    ],
+    "correctAnswer": "retailer",
+    "category": "BUSINESS",
+    "variations": [
+      "This new clothes retailer has great prices.",
+      "She worked as a bookseller for a big retailer."
+    ]
+  },
+  {
+    "id": 126072203,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Great Apes like to kiss and ____.",
+    "translation": "Sarılmak, kucaklamak",
+    "context": "'Cuddle', birine sevgiyle sarılmak, kucaklaşmak demektir. Tıpkı sevimli maymunların barışı sağlamak için yaptığı gibi! Yağmurlu bir günde battaniyenin altında film izlerken en iyi arkadaşınla 'cuddle' yapmak gibisi yok!",
+    "options": [
+      "cuddle",
+      "fight",
+      "shout",
+      "dance"
+    ],
+    "correctAnswer": "cuddle",
+    "category": "CASUAL",
+    "variations": [
+      "My cat loves to cuddle with me on the couch.",
+      "The children asked for a last cuddle before bed."
+    ]
+  },
+  {
+    "id": 126072204,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Zelensky ____ his top army commander.",
+    "translation": "Kovdu, görevden aldı",
+    "context": "'Sack', birini işten çıkarmak, görevden almak anlamına gelir. Genelde patronlar çalışanlarını 'sack' edebilirler. Zelensky de komutanını 'sack' etmiş. Aman dikkat, iş yerinde iyi geçinin yoksa siz de 'sacked' olabilirsiniz!",
+    "options": [
+      "sacks",
+      "promotes",
+      "hires",
+      "visits"
+    ],
+    "correctAnswer": "sacks",
+    "category": "MIXED",
+    "variations": [
+      "The manager had to sack two employees last week.",
+      "He was sacked for poor performance."
+    ]
+  },
+  {
+    "id": 126072205,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Farmers can help clean Wales' ____ rivers.",
+    "translation": "Kirlenmiş, kirli",
+    "context": "'Polluted', hava, su veya toprak gibi doğal çevrenin kirletilmiş veya zararlı maddelerle dolu olması anlamına gelir. Yani o masmavi denizin içine atılan çöplerle 'polluted' hale gelmesi gibi. Biz de doğayı 'polluted' etmemeliyiz!",
+    "options": [
+      "polluted",
       "clean",
       "fresh",
-      "polluted",
       "clear"
     ],
     "correctAnswer": "polluted",
     "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126071904,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "You can _____ the TikTok app on your phone.",
-    "translation": "Telefonuna TikTok uygulamasını _____ yapabilirsin.",
-    "context": "Yeni bir uygulama mı denemek istiyorsun? Ya da eski bir oyunu mu geri yükleyeceksin? İşte o zaman 'download' edersin! Tıpkı federal çalışanların TikTok'u iş telefonlarına 'download' etmesine izin verilmesi gibi. Bedava film 'download' etmek için kullanma ama, aman dikkat!",
-    "options": [
-      "download",
-      "upload",
-      "delete",
-      "watch"
-    ],
-    "correctAnswer": "download",
-    "category": "MIXED",
     "variations": [
-      "Please _____ the file from the internet.",
-      "I need to _____ this update to my computer."
+      "The city air became heavily polluted after the fire.",
+      "We need solutions for our polluted oceans."
     ]
   },
   {
-    "id": 126071905,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "What are official accusations made against someone in court?",
-    "translation": "Birine mahkemede yapılan resmi suçlamalar nelerdir?",
-    "context": "Bir suç işlendiğinde, yetkililer zanlılara karşı 'charges' yani suçlamalar getirir. Mesela, Andrew Tate'e karşı yeni 'charges' getirildiği haberlerde yer alıyor. Bu, mahkemede 'haksızsın' deme şekli gibi düşünebilirsin. Herkesin kendini savunma hakkı olduğunu unutma!",
-    "options": [
-      "payments",
-      "praises",
-      "charges",
-      "rewards"
-    ],
-    "correctAnswer": "charges",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126071906,
+    "id": 126072206,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The conflict put a huge _____ on the country's economy.",
-    "translation": "Çatışma, ülkenin ekonomisi üzerinde büyük bir _____ yarattı.",
-    "context": "Bir şeye çok fazla yük bindiğinde veya zorlandığında 'strain' hissedersin. Tıpkı savaş zamanı ekonomilerin yaşadığı gibi. Bu, gerginlik, baskı veya zorlanma anlamına gelir. Umarım hayatında çok 'strain' yaşamazsın, rahatına bak!",
+    "phrase": "Dimension Capital's new ____ is worth $800M.",
+    "translation": "Fon, sermaye",
+    "context": "'Fund', genellikle belirli bir amaç için ayrılmış para miktarı veya birikim demektir. Girişimciler işlerini büyütmek için yatırımcılardan 'fund' ararlar. Bu haberdeki gibi büyük bir 'fund' da dev projeleri destekliyor!",
     "options": [
-      "strain",
-      "relief",
-      "boost",
-      "comfort"
+      "fund",
+      "loan",
+      "debt",
+      "invoice"
     ],
-    "correctAnswer": "strain",
+    "correctAnswer": "fund",
     "category": "BUSINESS",
     "variations": [
-      "Working long hours puts a lot of _____ on employees.",
-      "The economic crisis caused a severe _____."
+      "The charity set up a special fund for disaster relief.",
+      "They raised a fund to start their new business."
     ]
   },
   {
-    "id": 126071907,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "If a service has 'resumed', what does it mean?",
-    "translation": "Bir hizmet 'resumed' ise, bu ne anlama gelir?",
-    "context": "Diyelim ki otobüs seferleri kötü hava yüzünden durduruldu. Sonra hava düzeldi ve seferler 'resumed' oldu. Yani, kaldığı yerden devam etti! Waymo'nun San Francisco'daki hizmetinin bir saatlik aradan sonra 'resumed' etmesi gibi. Hayat durur, ama sonra devam eder, tıpkı bu kelime gibi!",
-    "options": [
-      "It stopped completely.",
-      "It started again.",
-      "It never began.",
-      "It became more popular."
-    ],
-    "correctAnswer": "It started again.",
-    "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126071908,
+    "id": 126072207,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The football match was a real _____, with many goals.",
-    "translation": "Futbol maçı, birçok golle gerçek bir _____ idi.",
-    "context": "Heyecan dolu, nefes kesen, yüreğini ağzına getiren bir spor karşılaşması veya film mi izledin? İşte o bir 'thriller'! 10 gollü bir maç gibi. Adrenalin pompalar, kalbin küt küt atar, tam bir 'thriller' deneyimi yaşarsın. Unutulmaz anlar için 'thriller' arayışında ol!",
+    "phrase": "Some women called it 'leg ____ harassment'.",
+    "translation": "Tüy, kıl",
+    "context": "'Hair', bildiğin saç, kıl veya tüy anlamına gelir. Ama bu haberde 'leg hair harassment' deyince biraz garip olmuş! Toplumun bazı konulardaki hassasiyetini gösteriyor. Sen yine de 'bad hair day' (kötü saç günü) diye bir deyimi unutma, bu daha yaygın!",
     "options": [
-      "thriller",
-      "bore",
-      "nap",
-      "fail"
+      "hair",
+      "skin",
+      "muscle",
+      "bone"
     ],
-    "correctAnswer": "thriller",
-    "category": "MIXED",
-    "variations": [
-      "Her new book is a psychological _____.",
-      "We watched a movie that was a real _____."
-    ]
-  },
-  {
-    "id": 126071909,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "His political career was marked by acts of _____, often saying one thing and doing another.",
-    "translation": "Siyasi kariyeri, sık sık bir şey söyleyip başka bir şey yapma _____ eylemleriyle damgalanmıştı.",
-    "context": "'Duplicity' kelimesi, ikiyüzlülük, hilekarlık veya samimiyetsizlik anlamına gelir. Yani, bir kişi bir yandan sana gülümseyip, diğer yandan arkandan iş çeviriyorsa, işte o kişinin hareketleri 'duplicity' ile doludur. Politika dünyasında maalesef bazen böyle durumlarla karşılaşılır. Umarım etrafındaki insanlar 'duplicity'den uzak durur!",
-    "options": [
-      "duplicity",
-      "honesty",
-      "integrity",
-      "transparency"
-    ],
-    "correctAnswer": "duplicity",
+    "correctAnswer": "hair",
     "category": "CASUAL",
     "variations": [
-      "The spy's _____ made it hard to trust him.",
-      "She was accused of _____ in her business dealings."
+      "He has very curly red hair.",
+      "My dog sheds a lot of hair."
     ]
   },
   {
-    "id": 126071910,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "What are taxes placed on imported goods to make them more expensive?",
-    "translation": "İthal edilen malları daha pahalı hale getirmek için uygulanan vergiler nelerdir?",
-    "context": "Ekonomi haberlerinde sıkça duyduğun 'tariffs' kelimesi, yabancı ülkelerden gelen ürünlere uygulanan ek vergiler demek. Trump'ın Kanada'ya 'tariffs' tehdidi gibi. Amaç genellikle yerli üretimi korumak veya bir ülkeyi 'cezalandırmak'. Cebinden çıkan her kuruşu etkileyebilir!",
+    "id": 126072208,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The app is for people with no ____.",
+    "translation": "Hayal gücü",
+    "context": "'Imagination', hayal gücü demektir. Yeni şeyler düşünme, yaratıcı olma yeteneği. Meta'nın bu uygulaması, hayal gücü kuruyanlara 'bedtime stories' (yatma vakti hikayeleri) ile yardımcı olacak. Çocukken 'hayal et bakalım ne görüyorsun?' oyununu hatırladın mı? İşte o 'imagination'dan bahsediyoruz!",
     "options": [
-      "subsidies",
-      "tariffs",
-      "grants",
-      "rebates"
+      "imagination",
+      "money",
+      "friends",
+      "time"
     ],
-    "correctAnswer": "tariffs",
-    "category": "BUSINESS",
-    "variations": []
+    "correctAnswer": "imagination",
+    "category": "MIXED",
+    "variations": [
+      "Her vivid imagination helped her write amazing stories.",
+      "Children often have a boundless imagination."
+    ]
   },
   {
-    "id": 126071911,
+    "id": 126072209,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "India's space program has bold _____ to send more rockets into orbit.",
-    "translation": "Hindistan'ın uzay programı, yörüngeye daha fazla roket göndermek için cesur _____lara sahip.",
-    "context": "Hayallerin, büyük hedeflerin veya ulaşmak istediğin yüksek amaçların mı var? İşte bunlar senin 'ambitions'! Tıpkı Hindistan'ın uzay programının 'cab to orbit' gibi büyük 'ambitions'ları olduğu gibi. Uzağa bakmak, büyük düşünmek, 'ambitions' budur! Gökyüzü bile sınır değil!",
+    "phrase": "The wind farm will have larger ____.",
+    "translation": "Türbinler",
+    "context": "'Turbine', rüzgar veya su gibi akışkan bir maddenin enerjisini dönme hareketine çeviren bir makinedir. Yani rüzgar enerjisiyle elektrik üreten o dev pervaneler aslında birer 'turbine'. Yenilenebilir enerji için çok önemliler!",
     "options": [
-      "ambitions",
-      "hesitations",
-      "doubts",
-      "restrictions"
+      "turbines",
+      "engines",
+      "generators",
+      "panels"
     ],
-    "correctAnswer": "ambitions",
+    "correctAnswer": "turbines",
     "category": "TRAVEL",
     "variations": [
-      "She has strong career _____.",
-      "His _____ drove him to achieve great success."
+      "Wind turbines generate clean electricity.",
+      "The dam uses water turbines to produce power."
     ]
   },
   {
-    "id": 126071912,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "id": 126072210,
+    "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "If something is described as an 'obscure clause', what does 'obscure' mean?",
-    "translation": "Eğer bir şey 'obscure clause' olarak tanımlanıyorsa, 'obscure' ne anlama gelir?",
-    "context": "Bazen çok eski veya az bilinen bir kural, yasa maddesi veya bilgi karşına çıkar. İşte ona 'obscure' deriz. Yani, herkesin bilmediği, biraz gizemli veya anlaşılması zor bir şey. Tıpkı federal yargıcın Trump yönetiminin kullandığı 'obscure clause'u engellemesi gibi. Kimi zaman bu 'obscure' detaylar hayatımızı değiştirebilir!",
+    "phrase": "The ____ of science and compute is booming.",
+    "translation": "Kesişim noktası, birleşimi",
+    "context": "'Intersection', iki veya daha fazla şeyin birleştiği veya kesiştiği nokta demektir. Bir yol ağzındaki 'intersection' gibi düşünebilirsin. Bu haberde ise bilim ve teknolojinin birleşerek harikalar yarattığı o 'intersection'dan bahsediliyor. Fırsatlar orada gizli!",
     "options": [
-      "very well-known",
-      "easily understood",
-      "unclear or not well-known",
-      "newly created"
+      "intersection",
+      "division",
+      "separation",
+      "disjunction"
     ],
-    "correctAnswer": "unclear or not well-known",
+    "correctAnswer": "intersection",
+    "category": "BUSINESS",
+    "variations": [
+      "We met at the intersection of Main Street and Oak Avenue.",
+      "Her work lies at the intersection of art and technology."
+    ]
+  },
+  {
+    "id": 126072211,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Kelly promises to ____ in the fight.",
+    "translation": "Kendini serbest bırakmak, coşmak",
+    "context": "'Let loose', genellikle kendini kısıtlamadan eğlenmek, enerjini dışarı vurmak veya bir konuda tüm gücünle saldırmak anlamına gelir. Tıpkı bir partide dans ederek 'let loose' olmak veya sporcunun tüm hünerlerini sergileyerek 'let loose' olması gibi!",
+    "options": [
+      "let loose",
+      "hold back",
+      "give up",
+      "hide away"
+    ],
+    "correctAnswer": "let loose",
+    "category": "CASUAL",
+    "variations": [
+      "After exams, we decided to let loose and go dancing.",
+      "The coach told them to let loose and play their best."
+    ]
+  },
+  {
+    "id": 126072212,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The rumor is ____ AI Twitter.",
+    "translation": "Karıştırıyor, çalkalıyor",
+    "context": "'Roiling', bir şeyi çok fazla çalkalamak, karıştırmak veya rahatsız etmek anlamına gelir. Tıpkı kaynayan suyun 'roiling' olması gibi, bu haberdeki dedikodu da AI Twitter'ı bayağı 'roiling' etmiş, yani ortalığı karıştırmış!",
+    "options": [
+      "roiling",
+      "calming",
+      "stabilizing",
+      "pleasing"
+    ],
+    "correctAnswer": "roiling",
     "category": "MIXED",
-    "variations": []
+    "variations": [
+      "The waves were roiling the small fishing boat.",
+      "Political unrest was roiling the entire nation."
+    ]
   }
 ]
