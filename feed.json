@@ -1,242 +1,233 @@
 [
   {
-    "id": 126072201,
+    "id": 126072301,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "France wants to ____ social media for young teens.",
-    "translation": "Yasaklamak",
-    "context": "'Ban' kelimesi, bir şeyi yasaklamak, izin vermemek anlamına gelir. Fransa'nın gençleri sosyal medyadan 'ban'laması, onları korumak için alınan bir karar. Düşünsene, en sevdiğin oyunu oynarken bir anda 'bu oyun banlandı!' haberi gelse... İşte öyle bir durum!",
+    "phrase": "The man was _____ by a bison in Yellowstone.",
+    "translation": "'Tossed' kelimesi 'fırlatılmak' anlamına gelir.",
+    "context": "'Tossed' kelimesi, bir şeyin hızla ve kontrolsüzce fırlatılması anlamına gelir. Parklarda vahşi hayvanlara çok yaklaşmamak gerektiğini bu olaydan anlayabiliriz!",
     "options": [
-      "ban",
-      "allow",
-      "create",
-      "promote"
+      "tossed",
+      "greeted",
+      "pushed",
+      "carried"
     ],
-    "correctAnswer": "ban",
-    "category": "TRAVEL",
-    "variations": [
-      "The government decided to ban smoking in public places.",
-      "They will ban that harmful chemical soon."
-    ]
-  },
-  {
-    "id": 126072202,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Wildberries is an online ____.",
-    "translation": "Perakendeci",
-    "context": "'Retailer', ürünleri doğrudan tüketicilere satan bir şirket veya kişidir. Yani, online alışveriş yaptığınız o kocaman platformlar veya mahallenizdeki küçük dükkanlar birer 'retailer'. Wildberries de online ürün satan dev bir 'retailer'.",
-    "options": [
-      "retailer",
-      "farmer",
-      "doctor",
-      "teacher"
-    ],
-    "correctAnswer": "retailer",
-    "category": "BUSINESS",
-    "variations": [
-      "This new clothes retailer has great prices.",
-      "She worked as a bookseller for a big retailer."
-    ]
-  },
-  {
-    "id": 126072203,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Great Apes like to kiss and ____.",
-    "translation": "Sarılmak, kucaklamak",
-    "context": "'Cuddle', birine sevgiyle sarılmak, kucaklaşmak demektir. Tıpkı sevimli maymunların barışı sağlamak için yaptığı gibi! Yağmurlu bir günde battaniyenin altında film izlerken en iyi arkadaşınla 'cuddle' yapmak gibisi yok!",
-    "options": [
-      "cuddle",
-      "fight",
-      "shout",
-      "dance"
-    ],
-    "correctAnswer": "cuddle",
+    "correctAnswer": "tossed",
     "category": "CASUAL",
     "variations": [
-      "My cat loves to cuddle with me on the couch.",
-      "The children asked for a last cuddle before bed."
+      "He was tossed into the air by the animal.",
+      "The angry bull tossed the car."
     ]
   },
   {
-    "id": 126072204,
+    "id": 126072302,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Zelensky ____ his top army commander.",
-    "translation": "Kovdu, görevden aldı",
-    "context": "'Sack', birini işten çıkarmak, görevden almak anlamına gelir. Genelde patronlar çalışanlarını 'sack' edebilirler. Zelensky de komutanını 'sack' etmiş. Aman dikkat, iş yerinde iyi geçinin yoksa siz de 'sacked' olabilirsiniz!",
+    "phrase": "Google has a _____ cloud business.",
+    "translation": "'Booming' kelimesi 'hızla büyüyen, patlayan' anlamına gelir.",
+    "context": "'Booming', hızla büyüyen, canlanan veya başarılı anlamına gelir. İş dünyasında bir şirket çok iyi gidiyorsa, 'işleri patlıyor' der gibi düşünebilirsin!",
     "options": [
-      "sacks",
-      "promotes",
-      "hires",
-      "visits"
+      "booming",
+      "sleeping",
+      "slow",
+      "calm"
     ],
-    "correctAnswer": "sacks",
-    "category": "MIXED",
-    "variations": [
-      "The manager had to sack two employees last week.",
-      "He was sacked for poor performance."
-    ]
-  },
-  {
-    "id": 126072205,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Farmers can help clean Wales' ____ rivers.",
-    "translation": "Kirlenmiş, kirli",
-    "context": "'Polluted', hava, su veya toprak gibi doğal çevrenin kirletilmiş veya zararlı maddelerle dolu olması anlamına gelir. Yani o masmavi denizin içine atılan çöplerle 'polluted' hale gelmesi gibi. Biz de doğayı 'polluted' etmemeliyiz!",
-    "options": [
-      "polluted",
-      "clean",
-      "fresh",
-      "clear"
-    ],
-    "correctAnswer": "polluted",
-    "category": "TRAVEL",
-    "variations": [
-      "The city air became heavily polluted after the fire.",
-      "We need solutions for our polluted oceans."
-    ]
-  },
-  {
-    "id": 126072206,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Dimension Capital's new ____ is worth $800M.",
-    "translation": "Fon, sermaye",
-    "context": "'Fund', genellikle belirli bir amaç için ayrılmış para miktarı veya birikim demektir. Girişimciler işlerini büyütmek için yatırımcılardan 'fund' ararlar. Bu haberdeki gibi büyük bir 'fund' da dev projeleri destekliyor!",
-    "options": [
-      "fund",
-      "loan",
-      "debt",
-      "invoice"
-    ],
-    "correctAnswer": "fund",
+    "correctAnswer": "booming",
     "category": "BUSINESS",
     "variations": [
-      "The charity set up a special fund for disaster relief.",
-      "They raised a fund to start their new business."
+      "Our company's sales are booming this year.",
+      "The economy is in a booming period."
     ]
   },
   {
-    "id": 126072207,
+    "id": 126072303,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Some women called it 'leg ____ harassment'.",
-    "translation": "Tüy, kıl",
-    "context": "'Hair', bildiğin saç, kıl veya tüy anlamına gelir. Ama bu haberde 'leg hair harassment' deyince biraz garip olmuş! Toplumun bazı konulardaki hassasiyetini gösteriyor. Sen yine de 'bad hair day' (kötü saç günü) diye bir deyimi unutma, bu daha yaygın!",
+    "level": "BEGINNER",
+    "phrase": "Tankers made sharp _____ after the threat.",
+    "translation": "'U-turns' kelimesi 'U dönüşleri' anlamına gelir.",
+    "context": "'U-turn', özellikle trafikte, bir aracın yolun tersine dönmesi anlamına gelir. Hayatta ani bir karar değişikliği yaparsak da 'I made a U-turn in my career path' diyebiliriz!",
     "options": [
-      "hair",
-      "skin",
-      "muscle",
-      "bone"
+      "U-turns",
+      "circles",
+      "swerves",
+      "loops"
     ],
-    "correctAnswer": "hair",
-    "category": "CASUAL",
-    "variations": [
-      "He has very curly red hair.",
-      "My dog sheds a lot of hair."
-    ]
-  },
-  {
-    "id": 126072208,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The app is for people with no ____.",
-    "translation": "Hayal gücü",
-    "context": "'Imagination', hayal gücü demektir. Yeni şeyler düşünme, yaratıcı olma yeteneği. Meta'nın bu uygulaması, hayal gücü kuruyanlara 'bedtime stories' (yatma vakti hikayeleri) ile yardımcı olacak. Çocukken 'hayal et bakalım ne görüyorsun?' oyununu hatırladın mı? İşte o 'imagination'dan bahsediyoruz!",
-    "options": [
-      "imagination",
-      "money",
-      "friends",
-      "time"
-    ],
-    "correctAnswer": "imagination",
-    "category": "MIXED",
-    "variations": [
-      "Her vivid imagination helped her write amazing stories.",
-      "Children often have a boundless imagination."
-    ]
-  },
-  {
-    "id": 126072209,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The wind farm will have larger ____.",
-    "translation": "Türbinler",
-    "context": "'Turbine', rüzgar veya su gibi akışkan bir maddenin enerjisini dönme hareketine çeviren bir makinedir. Yani rüzgar enerjisiyle elektrik üreten o dev pervaneler aslında birer 'turbine'. Yenilenebilir enerji için çok önemliler!",
-    "options": [
-      "turbines",
-      "engines",
-      "generators",
-      "panels"
-    ],
-    "correctAnswer": "turbines",
+    "correctAnswer": "U-turns",
     "category": "TRAVEL",
     "variations": [
-      "Wind turbines generate clean electricity.",
-      "The dam uses water turbines to produce power."
+      "The driver made a quick U-turn.",
+      "He decided to make a U-turn and go back."
     ]
   },
   {
-    "id": 126072210,
+    "id": 126072304,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The ____ of science and compute is booming.",
-    "translation": "Kesişim noktası, birleşimi",
-    "context": "'Intersection', iki veya daha fazla şeyin birleştiği veya kesiştiği nokta demektir. Bir yol ağzındaki 'intersection' gibi düşünebilirsin. Bu haberde ise bilim ve teknolojinin birleşerek harikalar yarattığı o 'intersection'dan bahsediliyor. Fırsatlar orada gizli!",
+    "level": "BEGINNER",
+    "phrase": "Is your area _____ by the hosepipe ban?",
+    "translation": "'Affected' kelimesi 'etkilenmiş' anlamına gelir.",
+    "context": "'Affected', bir şeyden etkilenmek, etki altında kalmak anlamına gelir. 'Bu haberden çok etkilendim' derken 'I was very affected by this news' diyebilirsin.",
     "options": [
-      "intersection",
-      "division",
-      "separation",
-      "disjunction"
+      "affected",
+      "infected",
+      "effected",
+      "perfected"
     ],
-    "correctAnswer": "intersection",
-    "category": "BUSINESS",
-    "variations": [
-      "We met at the intersection of Main Street and Oak Avenue.",
-      "Her work lies at the intersection of art and technology."
-    ]
-  },
-  {
-    "id": 126072211,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Kelly promises to ____ in the fight.",
-    "translation": "Kendini serbest bırakmak, coşmak",
-    "context": "'Let loose', genellikle kendini kısıtlamadan eğlenmek, enerjini dışarı vurmak veya bir konuda tüm gücünle saldırmak anlamına gelir. Tıpkı bir partide dans ederek 'let loose' olmak veya sporcunun tüm hünerlerini sergileyerek 'let loose' olması gibi!",
-    "options": [
-      "let loose",
-      "hold back",
-      "give up",
-      "hide away"
-    ],
-    "correctAnswer": "let loose",
-    "category": "CASUAL",
-    "variations": [
-      "After exams, we decided to let loose and go dancing.",
-      "The coach told them to let loose and play their best."
-    ]
-  },
-  {
-    "id": 126072212,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The rumor is ____ AI Twitter.",
-    "translation": "Karıştırıyor, çalkalıyor",
-    "context": "'Roiling', bir şeyi çok fazla çalkalamak, karıştırmak veya rahatsız etmek anlamına gelir. Tıpkı kaynayan suyun 'roiling' olması gibi, bu haberdeki dedikodu da AI Twitter'ı bayağı 'roiling' etmiş, yani ortalığı karıştırmış!",
-    "options": [
-      "roiling",
-      "calming",
-      "stabilizing",
-      "pleasing"
-    ],
-    "correctAnswer": "roiling",
+    "correctAnswer": "affected",
     "category": "MIXED",
     "variations": [
-      "The waves were roiling the small fishing boat.",
-      "Political unrest was roiling the entire nation."
+      "Many people were affected by the storm.",
+      "His mood was affected by the rain."
     ]
+  },
+  {
+    "id": 126072305,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Russia's businesses are _____ strain from attacks.",
+    "translation": "'Under strain' ifadesi 'baskı altında, zor durumda' anlamına gelir.",
+    "context": "'Under strain', baskı altında, zor durumda olmak anlamına gelir. Bir işin ya da kişinin çok fazla stresle karşı karşıya kaldığını anlatmak için ideal bir kalıptır. Hayat bazen bizi 'under strain' bırakır, değil mi?",
+    "options": [
+      "under",
+      "above",
+      "over",
+      "through"
+    ],
+    "correctAnswer": "under",
+    "category": "BUSINESS",
+    "variations": [
+      "The bridge is under strain from the heavy traffic.",
+      "She's been under a lot of strain lately."
+    ]
+  },
+  {
+    "id": 126072306,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Miami Heat admitted the LeBron video was posted by _____.",
+    "translation": "'By mistake' ifadesi 'yanlışlıkla' anlamına gelir.",
+    "context": "'By mistake', yanlışlıkla, kaza eseri anlamına gelir. Bir e-postayı yanlışlıkla başka birine gönderdiysen 'I sent the email to him by mistake' diyebilirsin. Hepimizin yaptığı hatalar!",
+    "options": [
+      "mistake",
+      "accident",
+      "error",
+      "fault"
+    ],
+    "correctAnswer": "mistake",
+    "category": "CASUAL",
+    "variations": [
+      "I took your umbrella by mistake.",
+      "She left the door unlocked by mistake."
+    ]
+  },
+  {
+    "id": 126072307,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "River levels approach an _____ low.",
+    "translation": "'All-time low' ifadesi 'tüm zamanların en düşüğü' anlamına gelir.",
+    "context": "'All-time low/high', şimdiye kadarki en düşük/yüksek seviye anlamına gelir. Mesela 'hava sıcaklığı rekor kırdı' derken 'The temperature reached an all-time high' diyebilirsin.",
+    "options": [
+      "all-time",
+      "any-time",
+      "every-time",
+      "some-time"
+    ],
+    "correctAnswer": "all-time",
+    "category": "TRAVEL",
+    "variations": [
+      "The stock market hit an all-time high yesterday.",
+      "His popularity is at an all-time low."
+    ]
+  },
+  {
+    "id": 126072308,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Which word means 'to state something is true, often without proof'?",
+    "translation": "'Claim' kelimesi 'iddia etmek' anlamına gelir.",
+    "context": "'Claim' kelimesi, bir şeyi iddia etmek, sahiplenmek veya hak iddia etmek anlamına gelir. Mesela bir haberde 'Houthis claimed responsibility for the attack' derken, saldırıyı kendilerinin yaptığını iddia ettiklerini anlarız.",
+    "options": [
+      "claim",
+      "deny",
+      "confirm",
+      "suggest"
+    ],
+    "correctAnswer": "claim",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126072309,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Which word means 'official orders or laws stopping trade or communication with another country, as a punishment'?",
+    "translation": "'Sanctions' kelimesi 'yaptırımlar' anlamına gelir.",
+    "context": "'Sanctions', uluslararası ilişkilerde bir ülkeyi cezalandırmak veya baskılamak amacıyla uygulanan ekonomik veya siyasi kısıtlamalardır. Bu, genellikle ticareti, seyahati veya finansal işlemleri durdurmayı içerir. İş dünyasında ciddiye alınan bir kelime!",
+    "options": [
+      "sanctions",
+      "subsidies",
+      "bonuses",
+      "exemptions"
+    ],
+    "correctAnswer": "sanctions",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126072310,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The mayor had _____ an assassination attempt before.",
+    "translation": "'Survived' kelimesi 'hayatta kalmak, kurtulmak' anlamına gelir.",
+    "context": "'Survived', bir tehlikeden veya zor durumdan sağ çıkmak, kurtulmak anlamına gelir. 'Hayatta kalmak' gibi düşünebilirsin. Bu kelime, zorlu bir maceradan sonra kendini anlatırken veya birinin güçlü olduğunu vurgularken çok işine yarar!",
+    "options": [
+      "survived",
+      "witnessed",
+      "escaped",
+      "experienced"
+    ],
+    "correctAnswer": "survived",
+    "category": "CASUAL",
+    "variations": [
+      "She survived the plane crash.",
+      "The plants can survive in harsh conditions."
+    ]
+  },
+  {
+    "id": 126072311,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "A drought announcement _____ as river levels drop.",
+    "translation": "'Looms' kelimesi 'yaklaşmak, belirmek' anlamına gelir.",
+    "context": "'Looms', genellikle olumsuz bir durumun yaklaştığını, kapıda olduğunu ve kaçınılmaz göründüğünü ifade eder. Bazen de gizemli bir şekilde bir şeyin belirmesi anlamında kullanılır. 'Kara bulutlar yaklaşıyor' der gibi!",
+    "options": [
+      "looms",
+      "fades",
+      "retreats",
+      "disappears"
+    ],
+    "correctAnswer": "looms",
+    "category": "TRAVEL",
+    "variations": [
+      "A crisis looms over the company.",
+      "Dark clouds loomed on the horizon."
+    ]
+  },
+  {
+    "id": 126072312,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Which word describes a very important or significant event or achievement?",
+    "translation": "'Landmark' kelimesi 'dönüm noktası' anlamına gelir.",
+    "context": "'Landmark' kelimesi, dönüm noktası niteliğinde, çok önemli veya tarihi bir olayı ya da yapıyı ifade eder. 'Bu anlaşma bir dönüm noktasıydı' derken 'This agreement was a landmark deal' diyebiliriz.",
+    "options": [
+      "landmark",
+      "ordinary",
+      "minor",
+      "trivial"
+    ],
+    "correctAnswer": "landmark",
+    "category": "MIXED",
+    "variations": []
   }
 ]
