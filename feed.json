@@ -1,232 +1,223 @@
 [
   {
-    "id": 126072301,
+    "id": 126072401,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The man was _____ by a bison in Yellowstone.",
-    "translation": "'Tossed' kelimesi 'fırlatılmak' anlamına gelir.",
-    "context": "'Tossed' kelimesi, bir şeyin hızla ve kontrolsüzce fırlatılması anlamına gelir. Parklarda vahşi hayvanlara çok yaklaşmamak gerektiğini bu olaydan anlayabiliriz!",
+    "phrase": "Many residents had to _____ from the wildfire by boat.",
+    "translation": "Kaçmak",
+    "context": "Yangın, sel gibi tehlikeli durumlardan hızla uzaklaşmak için kullanılır. 'Evden kaçmak' veya 'korkudan kaçmak' gibi günlük durumlarda da duyabilirsin. Adrenalin dolu bir kelime!",
     "options": [
-      "tossed",
-      "greeted",
-      "pushed",
-      "carried"
+      "flee",
+      "stay",
+      "arrive",
+      "wait"
     ],
-    "correctAnswer": "tossed",
+    "correctAnswer": "flee",
     "category": "CASUAL",
     "variations": [
-      "He was tossed into the air by the animal.",
-      "The angry bull tossed the car."
+      "People decided to _____ to safety from the burning building.",
+      "We must _____ the city before the storm hits."
     ]
   },
   {
-    "id": 126072302,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Google has a _____ cloud business.",
-    "translation": "'Booming' kelimesi 'hızla büyüyen, patlayan' anlamına gelir.",
-    "context": "'Booming', hızla büyüyen, canlanan veya başarılı anlamına gelir. İş dünyasında bir şirket çok iyi gidiyorsa, 'işleri patlıyor' der gibi düşünebilirsin!",
-    "options": [
-      "booming",
-      "sleeping",
-      "slow",
-      "calm"
-    ],
-    "correctAnswer": "booming",
-    "category": "BUSINESS",
-    "variations": [
-      "Our company's sales are booming this year.",
-      "The economy is in a booming period."
-    ]
-  },
-  {
-    "id": 126072303,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Tankers made sharp _____ after the threat.",
-    "translation": "'U-turns' kelimesi 'U dönüşleri' anlamına gelir.",
-    "context": "'U-turn', özellikle trafikte, bir aracın yolun tersine dönmesi anlamına gelir. Hayatta ani bir karar değişikliği yaparsak da 'I made a U-turn in my career path' diyebiliriz!",
-    "options": [
-      "U-turns",
-      "circles",
-      "swerves",
-      "loops"
-    ],
-    "correctAnswer": "U-turns",
-    "category": "TRAVEL",
-    "variations": [
-      "The driver made a quick U-turn.",
-      "He decided to make a U-turn and go back."
-    ]
-  },
-  {
-    "id": 126072304,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Is your area _____ by the hosepipe ban?",
-    "translation": "'Affected' kelimesi 'etkilenmiş' anlamına gelir.",
-    "context": "'Affected', bir şeyden etkilenmek, etki altında kalmak anlamına gelir. 'Bu haberden çok etkilendim' derken 'I was very affected by this news' diyebilirsin.",
-    "options": [
-      "affected",
-      "infected",
-      "effected",
-      "perfected"
-    ],
-    "correctAnswer": "affected",
-    "category": "MIXED",
-    "variations": [
-      "Many people were affected by the storm.",
-      "His mood was affected by the rain."
-    ]
-  },
-  {
-    "id": 126072305,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Russia's businesses are _____ strain from attacks.",
-    "translation": "'Under strain' ifadesi 'baskı altında, zor durumda' anlamına gelir.",
-    "context": "'Under strain', baskı altında, zor durumda olmak anlamına gelir. Bir işin ya da kişinin çok fazla stresle karşı karşıya kaldığını anlatmak için ideal bir kalıptır. Hayat bazen bizi 'under strain' bırakır, değil mi?",
-    "options": [
-      "under",
-      "above",
-      "over",
-      "through"
-    ],
-    "correctAnswer": "under",
-    "category": "BUSINESS",
-    "variations": [
-      "The bridge is under strain from the heavy traffic.",
-      "She's been under a lot of strain lately."
-    ]
-  },
-  {
-    "id": 126072306,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Miami Heat admitted the LeBron video was posted by _____.",
-    "translation": "'By mistake' ifadesi 'yanlışlıkla' anlamına gelir.",
-    "context": "'By mistake', yanlışlıkla, kaza eseri anlamına gelir. Bir e-postayı yanlışlıkla başka birine gönderdiysen 'I sent the email to him by mistake' diyebilirsin. Hepimizin yaptığı hatalar!",
-    "options": [
-      "mistake",
-      "accident",
-      "error",
-      "fault"
-    ],
-    "correctAnswer": "mistake",
-    "category": "CASUAL",
-    "variations": [
-      "I took your umbrella by mistake.",
-      "She left the door unlocked by mistake."
-    ]
-  },
-  {
-    "id": 126072307,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "River levels approach an _____ low.",
-    "translation": "'All-time low' ifadesi 'tüm zamanların en düşüğü' anlamına gelir.",
-    "context": "'All-time low/high', şimdiye kadarki en düşük/yüksek seviye anlamına gelir. Mesela 'hava sıcaklığı rekor kırdı' derken 'The temperature reached an all-time high' diyebilirsin.",
-    "options": [
-      "all-time",
-      "any-time",
-      "every-time",
-      "some-time"
-    ],
-    "correctAnswer": "all-time",
-    "category": "TRAVEL",
-    "variations": [
-      "The stock market hit an all-time high yesterday.",
-      "His popularity is at an all-time low."
-    ]
-  },
-  {
-    "id": 126072308,
+    "id": 126072402,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Which word means 'to state something is true, often without proof'?",
-    "translation": "'Claim' kelimesi 'iddia etmek' anlamına gelir.",
-    "context": "'Claim' kelimesi, bir şeyi iddia etmek, sahiplenmek veya hak iddia etmek anlamına gelir. Mesela bir haberde 'Houthis claimed responsibility for the attack' derken, saldırıyı kendilerinin yaptığını iddia ettiklerini anlarız.",
+    "level": "BEGINNER",
+    "phrase": "Bir ülkenin ithal edilen mallara uyguladığı vergilere ne ad verilir?",
+    "translation": "Gümrük vergileri",
+    "context": "'Tariffs', yani gümrük vergileri, ülkelerin ithal ürünleri daha pahalı hale getirmek için uyguladığı ekstra vergilerdir. Amaç genellikle yerli üretimi korumaktır. Ekonomik haberlerde sıkça duyarsın.",
     "options": [
-      "claim",
-      "deny",
-      "confirm",
-      "suggest"
+      "Subsidies",
+      "Tariffs",
+      "Bonds",
+      "Grants"
     ],
-    "correctAnswer": "claim",
-    "category": "MIXED",
-    "variations": []
-  },
-  {
-    "id": 126072309,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Which word means 'official orders or laws stopping trade or communication with another country, as a punishment'?",
-    "translation": "'Sanctions' kelimesi 'yaptırımlar' anlamına gelir.",
-    "context": "'Sanctions', uluslararası ilişkilerde bir ülkeyi cezalandırmak veya baskılamak amacıyla uygulanan ekonomik veya siyasi kısıtlamalardır. Bu, genellikle ticareti, seyahati veya finansal işlemleri durdurmayı içerir. İş dünyasında ciddiye alınan bir kelime!",
-    "options": [
-      "sanctions",
-      "subsidies",
-      "bonuses",
-      "exemptions"
-    ],
-    "correctAnswer": "sanctions",
+    "correctAnswer": "Tariffs",
     "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126072310,
+    "id": 126072403,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The mayor had _____ an assassination attempt before.",
-    "translation": "'Survived' kelimesi 'hayatta kalmak, kurtulmak' anlamına gelir.",
-    "context": "'Survived', bir tehlikeden veya zor durumdan sağ çıkmak, kurtulmak anlamına gelir. 'Hayatta kalmak' gibi düşünebilirsin. Bu kelime, zorlu bir maceradan sonra kendini anlatırken veya birinin güçlü olduğunu vurgularken çok işine yarar!",
+    "level": "BEGINNER",
+    "phrase": "They ordered an evacuation of the coastal _____.",
+    "translation": "Yarımada",
+    "context": "Üç tarafı sularla çevrili, bir tarafı karaya bağlı olan toprak parçasına 'peninsula' denir. Haritalara bakarken çok görürsün! Türkiye'deki Çeşme ya da Bodrum gibi yerler aslında birer yarımada.",
     "options": [
-      "survived",
-      "witnessed",
-      "escaped",
-      "experienced"
+      "island",
+      "peninsula",
+      "continent",
+      "valley"
     ],
-    "correctAnswer": "survived",
-    "category": "CASUAL",
-    "variations": [
-      "She survived the plane crash.",
-      "The plants can survive in harsh conditions."
-    ]
-  },
-  {
-    "id": 126072311,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "A drought announcement _____ as river levels drop.",
-    "translation": "'Looms' kelimesi 'yaklaşmak, belirmek' anlamına gelir.",
-    "context": "'Looms', genellikle olumsuz bir durumun yaklaştığını, kapıda olduğunu ve kaçınılmaz göründüğünü ifade eder. Bazen de gizemli bir şekilde bir şeyin belirmesi anlamında kullanılır. 'Kara bulutlar yaklaşıyor' der gibi!",
-    "options": [
-      "looms",
-      "fades",
-      "retreats",
-      "disappears"
-    ],
-    "correctAnswer": "looms",
+    "correctAnswer": "peninsula",
     "category": "TRAVEL",
     "variations": [
-      "A crisis looms over the company.",
-      "Dark clouds loomed on the horizon."
+      "The resort is located on a beautiful _____.",
+      "We drove around the entire _____ during our trip."
     ]
   },
   {
-    "id": 126072312,
+    "id": 126072404,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "Ohio Nehri'nde bir grup insanın suya batarak hayatını kaybetmesini anlatan doğru kelime hangisidir?",
+    "translation": "Boğulmak (suya batarak ölmek)",
+    "context": "'Drowned', yani suya batıp boğularak hayatını kaybetmek anlamına gelir. Maalesef üzücü haberlerde ya da filmlerde karşımıza çıkabilir. Su güvenliğinin ne kadar önemli olduğunu hatırlatır.",
+    "options": [
+      "Swam",
+      "Drowned",
+      "Fell",
+      "Floated"
+    ],
+    "correctAnswer": "Drowned",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126072405,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Everyone wants to invest in the next _____ startup.",
+    "translation": "Çıkış yapan, hızla büyüyen yeni şirket",
+    "context": "'Breakout startup', yani 'çıkış yapan yeni şirket' demek! Henüz küçükken potansiyelini gösterip hızla büyüyen, herkesin dikkatini çeken şirketler için kullanılır. Geleceğin teknoloji devlerini bu şekilde tanımlarız.",
+    "options": [
+      "stagnant",
+      "declining",
+      "breakout",
+      "failing"
+    ],
+    "correctAnswer": "breakout",
+    "category": "BUSINESS",
+    "variations": [
+      "That company is considered a _____ startup in the AI sector.",
+      "Their product helped them become a _____ startup."
+    ]
+  },
+  {
+    "id": 126072406,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Uzun süreli ve aşırı sıcak hava dalgasına ne ad verilir?",
+    "translation": "Sıcak hava dalgası",
+    "context": "'Heatwave', yani 'sıcak hava dalgası' demek! Yaz aylarında bunaltıcı, alışılmadık derecede yüksek sıcaklıkların günlerce sürmesi durumudur. Klimaların vazgeçilmez olduğu zamanlar!",
+    "options": [
+      "Cold front",
+      "Heatwave",
+      "Rainstorm",
+      "Snowfall"
+    ],
+    "correctAnswer": "Heatwave",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126072407,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Acil bir durumda bir bölgenin boşaltılması işlemine ne denir?",
+    "translation": "Tahliye, boşaltma",
+    "context": "'Evacuation', yani 'tahliye' ya da 'boşaltma' demektir. Deprem, yangın, sel gibi tehlikeli durumlarda insanların güvenli bir yere taşınmasıdır. Tatildeyken duyduğunda bavulunu topla hemen!",
+    "options": [
+      "Arrival",
+      "Departure",
+      "Evacuation",
+      "Immigration"
+    ],
+    "correctAnswer": "Evacuation",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126072408,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The president decided to replace the _____ minister.",
+    "translation": "Görevden uzaklaştırılmış",
+    "context": "'Ousted', yani 'görevden uzaklaştırılmış' veya 'devrilmiş' demek. Genellikle bir makamdan, güçten veya pozisyondan zorla veya siyasi baskıyla çıkarılmayı ifade eder. Siyaset haberlerinde bolca karşına çıkar.",
+    "options": [
+      "appointed",
+      "promoted",
+      "ousted",
+      "hired"
+    ],
+    "correctAnswer": "ousted",
+    "category": "MIXED",
+    "variations": [
+      "He was _____ from his position after the scandal.",
+      "The former leader was _____ by a public vote."
+    ]
+  },
+  {
+    "id": 126072409,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Which word describes a very important or significant event or achievement?",
-    "translation": "'Landmark' kelimesi 'dönüm noktası' anlamına gelir.",
-    "context": "'Landmark' kelimesi, dönüm noktası niteliğinde, çok önemli veya tarihi bir olayı ya da yapıyı ifade eder. 'Bu anlaşma bir dönüm noktasıydı' derken 'This agreement was a landmark deal' diyebiliriz.",
+    "phrase": "Yapay zeka sistemlerinin güvenli ve etik sınırlar içinde kalmasını sağlayan kontrol mekanizmalarına ne ad verilir?",
+    "translation": "Yapay zeka güvenlik kısıtlamaları",
+    "context": "'AI guardrails', yapay zeka sistemlerinin tehlikeli veya etik olmayan davranışlardan kaçınmasını sağlayan kurallar ve mekanizmalardır. Tren raylarının kenarındaki bariyerler gibi düşünebilirsin; AI'yı doğru yolda tutuyorlar!",
     "options": [
-      "landmark",
-      "ordinary",
-      "minor",
-      "trivial"
+      "AI enhancements",
+      "AI guardrails",
+      "AI frameworks",
+      "AI breakthroughs"
     ],
-    "correctAnswer": "landmark",
+    "correctAnswer": "AI guardrails",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126072410,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The rainforest displayed a _____ diversity of plants.",
+    "translation": "Muhteşem çeşitlilik",
+    "context": "'Spectacular diversity', yani 'muhteşem çeşitlilik' demek! Bir yerdeki veya konudaki inanılmaz zenginlik ve farklılıkları ifade etmek için kullanılır. Doğanın büyüleyici güzelliklerini anlatırken harika bir ifadedir!",
+    "options": [
+      "minimal",
+      "narrow",
+      "spectacular",
+      "limited"
+    ],
+    "correctAnswer": "spectacular",
+    "category": "CASUAL",
+    "variations": [
+      "The city is known for its _____ diversity of cultures.",
+      "We observed a _____ diversity of fish in the coral reef."
+    ]
+  },
+  {
+    "id": 126072411,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Many people are illegally _____ across borders every year.",
+    "translation": "Yasa dışı olarak kaçırılmış/ticareti yapılmış",
+    "context": "'Trafficked', yani 'yasa dışı yollarla kaçırılmış' veya 'ticareti yapılmış' anlamına gelir. Maalesef insan kaçakçılığı gibi ciddi suçları ifade etmek için kullanılır. Seyahat özgürlüğünün kötüye kullanıldığı üzücü bir durumdur.",
+    "options": [
+      "transported",
+      "legally moved",
+      "trafficked",
+      "relocated"
+    ],
+    "correctAnswer": "trafficked",
+    "category": "TRAVEL",
+    "variations": [
+      "The authorities are fighting against people being _____ for labor.",
+      "Stories of children being _____ shock the world."
+    ]
+  },
+  {
+    "id": 126072412,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Birinin başarısını veya yöntemlerini taklit etmeye veya ondan feyz almaya ne denir?",
+    "translation": "Örnek almak, taklit etmek",
+    "context": "'Emulate', yani 'örnek almak' veya 'taklit etmek' demek. Birinin başarısını, tarzını veya yöntemlerini o kadar beğenirsin ki, sen de aynısını yapmaya çalışırsın. Başarılı olmak isteyenler için iyi bir motivasyon kaynağıdır!",
+    "options": [
+      "Criticize",
+      "Emulate",
+      "Ignore",
+      "Reject"
+    ],
+    "correctAnswer": "Emulate",
     "category": "MIXED",
     "variations": []
   }
