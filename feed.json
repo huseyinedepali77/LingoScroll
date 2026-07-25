@@ -1,224 +1,242 @@
 [
   {
-    "id": 126072401,
+    "id": 126072501,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Many residents had to _____ from the wildfire by boat.",
-    "translation": "Kaçmak",
-    "context": "Yangın, sel gibi tehlikeli durumlardan hızla uzaklaşmak için kullanılır. 'Evden kaçmak' veya 'korkudan kaçmak' gibi günlük durumlarda da duyabilirsin. Adrenalin dolu bir kelime!",
+    "phrase": "The family had to _____ their home due to the approaching wildfires.",
+    "translation": "Aile, yaklaşan orman yangınları yüzünden evlerini tahliye etmek zorunda kaldı.",
+    "context": "Yangın, sel, deprem gibi doğal afetlerde veya tehlikeli durumlarda bir yerden güvenli bir yere taşınmak anlamına gelir. 'Evacuate' kelimesiyle karşılaştığında hemen akla 'acil durum' ve 'güvenlik' gelmeli! 'Hadi oradan kaçalım!' demenin biraz daha resmi ama aynı derecede önemli bir yolu.",
     "options": [
-      "flee",
-      "stay",
-      "arrive",
-      "wait"
+      "evacuate",
+      "decorate",
+      "celebrate",
+      "relocate"
     ],
-    "correctAnswer": "flee",
-    "category": "CASUAL",
-    "variations": [
-      "People decided to _____ to safety from the burning building.",
-      "We must _____ the city before the storm hits."
-    ]
-  },
-  {
-    "id": 126072402,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "Bir ülkenin ithal edilen mallara uyguladığı vergilere ne ad verilir?",
-    "translation": "Gümrük vergileri",
-    "context": "'Tariffs', yani gümrük vergileri, ülkelerin ithal ürünleri daha pahalı hale getirmek için uyguladığı ekstra vergilerdir. Amaç genellikle yerli üretimi korumaktır. Ekonomik haberlerde sıkça duyarsın.",
-    "options": [
-      "Subsidies",
-      "Tariffs",
-      "Bonds",
-      "Grants"
-    ],
-    "correctAnswer": "Tariffs",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126072403,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "They ordered an evacuation of the coastal _____.",
-    "translation": "Yarımada",
-    "context": "Üç tarafı sularla çevrili, bir tarafı karaya bağlı olan toprak parçasına 'peninsula' denir. Haritalara bakarken çok görürsün! Türkiye'deki Çeşme ya da Bodrum gibi yerler aslında birer yarımada.",
-    "options": [
-      "island",
-      "peninsula",
-      "continent",
-      "valley"
-    ],
-    "correctAnswer": "peninsula",
+    "correctAnswer": "evacuate",
     "category": "TRAVEL",
     "variations": [
-      "The resort is located on a beautiful _____.",
-      "We drove around the entire _____ during our trip."
+      "Thousands of people were evacuated from the danger zone.",
+      "The emergency teams helped to evacuate the village."
     ]
   },
   {
-    "id": 126072404,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "id": 126072502,
+    "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Ohio Nehri'nde bir grup insanın suya batarak hayatını kaybetmesini anlatan doğru kelime hangisidir?",
-    "translation": "Boğulmak (suya batarak ölmek)",
-    "context": "'Drowned', yani suya batıp boğularak hayatını kaybetmek anlamına gelir. Maalesef üzücü haberlerde ya da filmlerde karşımıza çıkabilir. Su güvenliğinin ne kadar önemli olduğunu hatırlatır.",
+    "phrase": "A new AI lab is looking to _____ $100M for its projects.",
+    "translation": "Yeni bir yapay zeka laboratuvarı, projeleri için 100 milyon dolar toplamayı hedefliyor.",
+    "context": "Para veya kaynak toplamak, özellikle bir iş veya proje için sermaye sağlamak anlamına gelir. 'Raise' kelimesi, bir konuda fon sağlamak veya bir şeyi yukarı çekmek gibi çeşitli anlamlara gelebilir. İş dünyasında 'para toplamak' veya 'fon bulmak' anlamına gelir, yani hayallerini gerçekleştirmek için ceplerini doldurmak gibi düşünebilirsin!",
     "options": [
-      "Swam",
-      "Drowned",
-      "Fell",
-      "Floated"
+      "raise",
+      "lose",
+      "spend",
+      "borrow"
     ],
-    "correctAnswer": "Drowned",
+    "correctAnswer": "raise",
+    "category": "BUSINESS",
+    "variations": [
+      "Companies often raise capital to expand their operations.",
+      "They need to raise funds to complete the research."
+    ]
+  },
+  {
+    "id": 126072503,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "SpaceX experienced a _____ during its latest rocket launch.",
+    "translation": "SpaceX, son roket fırlatmasında bir başarısızlık yaşadı.",
+    "context": "Bir şeyin beklenen sonucu vermemesi, başarısız olması durumu. Genelde olumsuz bir durumu ifade eder. 'Eyvah, olmadı!' veya 'Tüh, başaramadık!' gibi durumlarda kullanılır. Ama unutma, bazen başarısızlıklar yeni dersler öğrenmek için bir fırsattır!",
+    "options": [
+      "failure",
+      "success",
+      "delay",
+      "landing"
+    ],
+    "correctAnswer": "failure",
+    "category": "CASUAL",
+    "variations": [
+      "Despite the failure, the team learned valuable lessons.",
+      "The mission ended in a partial failure."
+    ]
+  },
+  {
+    "id": 126072504,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "You can see many new drones at the _____ next week.",
+    "translation": "Gelecek hafta sergide birçok yeni drone görebilirsin.",
+    "context": "Bir şeyleri sergilemek, göstermek için düzenlenen etkinlik veya fuar. Sanat eserlerinden teknolojik ürünlere kadar birçok farklı şeyin gösterildiği yerdir. Sanki herkesin gelip 'Vay canına, ne güzel şeyler var!' dediği büyük bir vitrin gibi.",
+    "options": [
+      "exhibition",
+      "kitchen",
+      "station",
+      "vacation"
+    ],
+    "correctAnswer": "exhibition",
     "category": "MIXED",
-    "variations": []
-  },
-  {
-    "id": 126072405,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Everyone wants to invest in the next _____ startup.",
-    "translation": "Çıkış yapan, hızla büyüyen yeni şirket",
-    "context": "'Breakout startup', yani 'çıkış yapan yeni şirket' demek! Henüz küçükken potansiyelini gösterip hızla büyüyen, herkesin dikkatini çeken şirketler için kullanılır. Geleceğin teknoloji devlerini bu şekilde tanımlarız.",
-    "options": [
-      "stagnant",
-      "declining",
-      "breakout",
-      "failing"
-    ],
-    "correctAnswer": "breakout",
-    "category": "BUSINESS",
     "variations": [
-      "That company is considered a _____ startup in the AI sector.",
-      "Their product helped them become a _____ startup."
+      "The museum is hosting a new art exhibition.",
+      "Don't miss the technology exhibition this year."
     ]
   },
   {
-    "id": 126072406,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Uzun süreli ve aşırı sıcak hava dalgasına ne ad verilir?",
-    "translation": "Sıcak hava dalgası",
-    "context": "'Heatwave', yani 'sıcak hava dalgası' demek! Yaz aylarında bunaltıcı, alışılmadık derecede yüksek sıcaklıkların günlerce sürmesi durumudur. Klimaların vazgeçilmez olduğu zamanlar!",
-    "options": [
-      "Cold front",
-      "Heatwave",
-      "Rainstorm",
-      "Snowfall"
-    ],
-    "correctAnswer": "Heatwave",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126072407,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Acil bir durumda bir bölgenin boşaltılması işlemine ne denir?",
-    "translation": "Tahliye, boşaltma",
-    "context": "'Evacuation', yani 'tahliye' ya da 'boşaltma' demektir. Deprem, yangın, sel gibi tehlikeli durumlarda insanların güvenli bir yere taşınmasıdır. Tatildeyken duyduğunda bavulunu topla hemen!",
-    "options": [
-      "Arrival",
-      "Departure",
-      "Evacuation",
-      "Immigration"
-    ],
-    "correctAnswer": "Evacuation",
-    "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126072408,
+    "id": 126072505,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The president decided to replace the _____ minister.",
-    "translation": "Görevden uzaklaştırılmış",
-    "context": "'Ousted', yani 'görevden uzaklaştırılmış' veya 'devrilmiş' demek. Genellikle bir makamdan, güçten veya pozisyondan zorla veya siyasi baskıyla çıkarılmayı ifade eder. Siyaset haberlerinde bolca karşına çıkar.",
+    "phrase": "A nun was _____ by ICE while walking to Mass in Texas.",
+    "translation": "Teksas'ta ayine giderken bir rahibe ICE tarafından alıkonuldu.",
+    "context": "Birini kısa bir süreliğine, genellikle resmi bir soruşturma veya prosedür için, alıkoymak veya gözaltında tutmak anlamına gelir. Bir yere gitmene izin verilmemesi, 'Dur bakalım, nereye gidiyorsun?' denilip bekletilmen gibi düşünebilirsin. Bazen ciddi bir nedeni olabilir, bazen de sadece bir yanlış anlaşılma.",
     "options": [
+      "detained",
+      "welcomed",
+      "escorted",
+      "freed"
+    ],
+    "correctAnswer": "detained",
+    "category": "TRAVEL",
+    "variations": [
+      "The police detained the suspect for questioning.",
+      "He was detained at the border for several hours."
+    ]
+  },
+  {
+    "id": 126072506,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The startup's high operating costs led to a significant _____.",
+    "translation": "Startup'ın yüksek işletme maliyetleri önemli bir 'nakit erimesine' yol açtı.",
+    "context": "Bir şirketin, özellikle yeni başlayan (startup) şirketlerin, gelirlerinden daha fazla para harcaması durumu. Cebindeki paranın hızla erimesi gibi düşünebilirsin. Genellikle büyüme ve yatırım dönemlerinde görülür ama kontrol edilmezse kötü sonuçlar doğurabilir. 'Paramız su gibi akıyor!' demenin havalı iş dünyası versiyonu.",
+    "options": [
+      "cash burn",
+      "profit",
+      "investment",
+      "dividend"
+    ],
+    "correctAnswer": "cash burn",
+    "category": "BUSINESS",
+    "variations": [
+      "New companies often experience high cash burn in their early stages.",
+      "Without new funding, the company's cash burn will be unsustainable."
+    ]
+  },
+  {
+    "id": 126072507,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Fans were very unhappy and _____ by not attending the games.",
+    "translation": "Taraftarlar çok mutsuzdu ve maçlara katılmayarak 'ayaklarıyla oy kullandılar'.",
+    "context": "Bir eylemi veya kararı onaylamadığını göstermek için bir yerden ayrılmak veya bir etkinliğe katılmamak anlamına gelir. 'Ben bu işten memnun değilim, gidiyorum!' demenin sessiz ama etkili bir yolu. Yani insanlar sadece konuşmak yerine, fiziki olarak oradan uzaklaşarak tepkilerini gösterirler. Bir nevi ayaklarıyla oy kullanmak gibi.",
+    "options": [
+      "voted with their feet",
+      "clapped their hands",
+      "raised their voices",
+      "held their breath"
+    ],
+    "correctAnswer": "voted with their feet",
+    "category": "CASUAL",
+    "variations": [
+      "If you don't like the service, vote with your feet and go elsewhere.",
+      "The customers voted with their feet, choosing a different store."
+    ]
+  },
+  {
+    "id": 126072508,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The new AI keypad was fun for some coders, but _____ to others.",
+    "translation": "Yeni yapay zeka klavyesi bazı kodlayıcılar için eğlenceliydi ama diğerleri için kafa karıştırıcıydı.",
+    "context": "Bir şeyi anlamayı zorlaştıran, kafa karıştırıcı veya gizemli yapan durum. 'Ne oluyor burada?' diye düşünürken kendini kaybolmuş hissetmek gibi. Bazen bir teknolojik ürün o kadar yenilikçi olur ki, ne işe yaradığını anlamak için bir kullanım kılavuzuna ihtiyaç duyarsın!",
+    "options": [
+      "mystifying",
+      "simplifying",
+      "satisfying",
+      "clarifying"
+    ],
+    "correctAnswer": "mystifying",
+    "category": "MIXED",
+    "variations": [
+      "The ancient ruins were quite mystifying to the archaeologists.",
+      "Her sudden disappearance remains a mystifying event."
+    ]
+  },
+  {
+    "id": 126072509,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "SpaceX's Starship had a successful test flight and _____.",
+    "translation": "SpaceX'in Starship'i başarılı bir deneme uçuşu ve suya iniş gerçekleştirdi.",
+    "context": "Bir uzay aracının veya kapsülün, genellikle bir okyanusa veya denize inmesi durumu. Havalı bir iniş tekniği! Hollywood filmlerindeki gibi, uzaydan dönen astronotların okyanusa iniş anı. Uzay yolculuğunun heyecanlı finali diyebiliriz.",
+    "options": [
+      "splashdown",
+      "takeoff",
+      "orbital flight",
+      "re-entry"
+    ],
+    "correctAnswer": "splashdown",
+    "category": "TRAVEL",
+    "variations": [
+      "After a long journey, the capsule made a safe splashdown.",
+      "The crew celebrated their successful splashdown in the Pacific Ocean."
+    ]
+  },
+  {
+    "id": 126072510,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Ukraine's _____ defense minister rejected the offer of a new role.",
+    "translation": "Ukrayna'nın görevden alınan savunma bakanı yeni bir rol teklifini reddetti.",
+    "context": "Bir kişiyi önemli bir görevden, genellikle zorla veya baskıyla, uzaklaştırmak anlamına gelir. 'İşine son verildi!' veya 'Görevinden alındı!' demenin biraz daha sert ve resmi bir yolu. Bazen politik çatışmaların veya önemli kararların sonucu olarak ortaya çıkar.",
+    "options": [
+      "ousted",
       "appointed",
       "promoted",
-      "ousted",
-      "hired"
+      "retained"
     ],
     "correctAnswer": "ousted",
-    "category": "MIXED",
+    "category": "BUSINESS",
     "variations": [
-      "He was _____ from his position after the scandal.",
-      "The former leader was _____ by a public vote."
+      "The corrupt official was finally ousted from his position.",
+      "The board voted to oust the CEO after the scandal."
     ]
   },
   {
-    "id": 126072409,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Yapay zeka sistemlerinin güvenli ve etik sınırlar içinde kalmasını sağlayan kontrol mekanizmalarına ne ad verilir?",
-    "translation": "Yapay zeka güvenlik kısıtlamaları",
-    "context": "'AI guardrails', yapay zeka sistemlerinin tehlikeli veya etik olmayan davranışlardan kaçınmasını sağlayan kurallar ve mekanizmalardır. Tren raylarının kenarındaki bariyerler gibi düşünebilirsin; AI'yı doğru yolda tutuyorlar!",
-    "options": [
-      "AI enhancements",
-      "AI guardrails",
-      "AI frameworks",
-      "AI breakthroughs"
-    ],
-    "correctAnswer": "AI guardrails",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126072410,
+    "id": 126072511,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The rainforest displayed a _____ diversity of plants.",
-    "translation": "Muhteşem çeşitlilik",
-    "context": "'Spectacular diversity', yani 'muhteşem çeşitlilik' demek! Bir yerdeki veya konudaki inanılmaz zenginlik ve farklılıkları ifade etmek için kullanılır. Doğanın büyüleyici güzelliklerini anlatırken harika bir ifadedir!",
+    "phrase": "GOP officials were quick to _____ Trump's claims of election threats.",
+    "translation": "GOP yetkilileri, Trump'ın seçim tehdidi iddialarını hızla eleştirdi.",
+    "context": "Bir şeyi sert bir şekilde eleştirmek, beğenmediğini açıkça belirtmek anlamına gelir. 'Resmen yerden yere vurdular!' demenin daha kısa ve vurucu bir yolu. Genellikle kamuoyuna açık eleştirilerde veya bir şeyin çok kötü olduğunu belirtirken kullanılır.",
     "options": [
-      "minimal",
-      "narrow",
-      "spectacular",
-      "limited"
+      "pan",
+      "praise",
+      "endorse",
+      "support"
     ],
-    "correctAnswer": "spectacular",
+    "correctAnswer": "pan",
     "category": "CASUAL",
     "variations": [
-      "The city is known for its _____ diversity of cultures.",
-      "We observed a _____ diversity of fish in the coral reef."
+      "Critics widely panned the new movie for its poor script.",
+      "The restaurant was panned by food reviewers for its service."
     ]
   },
   {
-    "id": 126072411,
+    "id": 126072512,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Many people are illegally _____ across borders every year.",
-    "translation": "Yasa dışı olarak kaçırılmış/ticareti yapılmış",
-    "context": "'Trafficked', yani 'yasa dışı yollarla kaçırılmış' veya 'ticareti yapılmış' anlamına gelir. Maalesef insan kaçakçılığı gibi ciddi suçları ifade etmek için kullanılır. Seyahat özgürlüğünün kötüye kullanıldığı üzücü bir durumdur.",
+    "phrase": "The packaging of the popular cocktail was criticized for being _____.",
+    "translation": "Popüler kokteylin ambalajı, geri dönüştürülemez olduğu için eleştirildi.",
+    "context": "Geri dönüştürülemeyen, yani atık olarak doğaya karışan malzeme. 'Çevre dostu' olmanın tam tersi bir durum. Geleceğimizi düşünüyorsak, mümkün olduğunca bu tür ürünlerden kaçınmalıyız. 'Çöp kutusuna bile girse, orada bile ayrı bir vicdan azabı yaratır!' gibi düşünebilirsin.",
     "options": [
-      "transported",
-      "legally moved",
-      "trafficked",
-      "relocated"
+      "unrecyclable",
+      "recyclable",
+      "biodegradable",
+      "compostable"
     ],
-    "correctAnswer": "trafficked",
-    "category": "TRAVEL",
-    "variations": [
-      "The authorities are fighting against people being _____ for labor.",
-      "Stories of children being _____ shock the world."
-    ]
-  },
-  {
-    "id": 126072412,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Birinin başarısını veya yöntemlerini taklit etmeye veya ondan feyz almaya ne denir?",
-    "translation": "Örnek almak, taklit etmek",
-    "context": "'Emulate', yani 'örnek almak' veya 'taklit etmek' demek. Birinin başarısını, tarzını veya yöntemlerini o kadar beğenirsin ki, sen de aynısını yapmaya çalışırsın. Başarılı olmak isteyenler için iyi bir motivasyon kaynağıdır!",
-    "options": [
-      "Criticize",
-      "Emulate",
-      "Ignore",
-      "Reject"
-    ],
-    "correctAnswer": "Emulate",
+    "correctAnswer": "unrecyclable",
     "category": "MIXED",
-    "variations": []
+    "variations": [
+      "Many plastic products are still unfortunately unrecyclable.",
+      "We must find alternatives to unrecyclable materials."
+    ]
   }
 ]
