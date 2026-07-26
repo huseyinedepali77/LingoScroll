@@ -1,242 +1,224 @@
 [
   {
-    "id": 126072501,
+    "id": 126072601,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The family had to _____ their home due to the approaching wildfires.",
-    "translation": "Aile, yaklaşan orman yangınları yüzünden evlerini tahliye etmek zorunda kaldı.",
-    "context": "Yangın, sel, deprem gibi doğal afetlerde veya tehlikeli durumlarda bir yerden güvenli bir yere taşınmak anlamına gelir. 'Evacuate' kelimesiyle karşılaştığında hemen akla 'acil durum' ve 'güvenlik' gelmeli! 'Hadi oradan kaçalım!' demenin biraz daha resmi ama aynı derecede önemli bir yolu.",
+    "phrase": "Many people had to _____ from the wildfires in France.",
+    "translation": "Yangınlardan kaçmak",
+    "context": "Yangınlar, seller veya savaş gibi durumlarda, bir yerden hızla ve korkuyla ayrılmak 'flee' kelimesiyle anlatılır. 'Flee' dediğinde, sadece gitmek değil, bir tehlikeden kaçmak akla gelir. Tıpkı Fransızların orman yangınlarından kaçması gibi!",
     "options": [
-      "evacuate",
-      "decorate",
-      "celebrate",
-      "relocate"
+      "flee",
+      "stay",
+      "walk",
+      "drive"
     ],
-    "correctAnswer": "evacuate",
+    "correctAnswer": "flee",
     "category": "TRAVEL",
     "variations": [
-      "Thousands of people were evacuated from the danger zone.",
-      "The emergency teams helped to evacuate the village."
+      "They decided to _____ the city due to the rising floodwaters.",
+      "The deer tried to _____ from the hunter."
     ]
   },
   {
-    "id": 126072502,
-    "type": "QUIZ_COMPLETION",
+    "id": 126072602,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "A new AI lab is looking to _____ $100M for its projects.",
-    "translation": "Yeni bir yapay zeka laboratuvarı, projeleri için 100 milyon dolar toplamayı hedefliyor.",
-    "context": "Para veya kaynak toplamak, özellikle bir iş veya proje için sermaye sağlamak anlamına gelir. 'Raise' kelimesi, bir konuda fon sağlamak veya bir şeyi yukarı çekmek gibi çeşitli anlamlara gelebilir. İş dünyasında 'para toplamak' veya 'fon bulmak' anlamına gelir, yani hayallerini gerçekleştirmek için ceplerini doldurmak gibi düşünebilirsin!",
+    "phrase": "Elon Musk's company is currently _____ funding for its new projects.",
+    "translation": "Para toplamak",
+    "context": "Bir şirket yeni bir proje için sermaye arayışındaysa, yani yatırımcılardan para topluyorsa buna 'raise funding' denir. Yeni bir startup kurarken ya da büyük bir işe girişirken hep 'funding' ararız!",
     "options": [
-      "raise",
-      "lose",
-      "spend",
-      "borrow"
+      "raising",
+      "losing",
+      "spending",
+      "counting"
     ],
-    "correctAnswer": "raise",
+    "correctAnswer": "raising",
     "category": "BUSINESS",
-    "variations": [
-      "Companies often raise capital to expand their operations.",
-      "They need to raise funds to complete the research."
-    ]
+    "variations": []
   },
   {
-    "id": 126072503,
+    "id": 126072603,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "SpaceX experienced a _____ during its latest rocket launch.",
-    "translation": "SpaceX, son roket fırlatmasında bir başarısızlık yaşadı.",
-    "context": "Bir şeyin beklenen sonucu vermemesi, başarısız olması durumu. Genelde olumsuz bir durumu ifade eder. 'Eyvah, olmadı!' veya 'Tüh, başaramadık!' gibi durumlarda kullanılır. Ama unutma, bazen başarısızlıklar yeni dersler öğrenmek için bir fırsattır!",
+    "phrase": "Look! The _____ Moon is so bright in the sky tonight.",
+    "translation": "Dolunay",
+    "context": "Ay'ın tam ve yuvarlak hali 'full Moon' olarak adlandırılır. Dolunay zamanı gökyüzüne baktığında sanki büyük bir top gibi parlar ve birçok kültüre göre özel bir enerjisi vardır!",
     "options": [
-      "failure",
-      "success",
-      "delay",
-      "landing"
+      "full",
+      "half",
+      "new",
+      "dark"
     ],
-    "correctAnswer": "failure",
+    "correctAnswer": "full",
     "category": "CASUAL",
     "variations": [
-      "Despite the failure, the team learned valuable lessons.",
-      "The mission ended in a partial failure."
+      "We can see the _____ Moon clearly from our window.",
+      "The wolf howled at the _____ Moon."
     ]
   },
   {
-    "id": 126072504,
-    "type": "QUIZ_COMPLETION",
+    "id": 126072604,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "You can see many new drones at the _____ next week.",
-    "translation": "Gelecek hafta sergide birçok yeni drone görebilirsin.",
-    "context": "Bir şeyleri sergilemek, göstermek için düzenlenen etkinlik veya fuar. Sanat eserlerinden teknolojik ürünlere kadar birçok farklı şeyin gösterildiği yerdir. Sanki herkesin gelip 'Vay canına, ne güzel şeyler var!' dediği büyük bir vitrin gibi.",
+    "phrase": "Liverpool _____ Sunderland with a score of 3-1.",
+    "translation": "Yenmek",
+    "context": "Sporda bir takımı veya kişiyi mağlup etmek, yenmek anlamına gelir. 'Beat' kelimesi sadece sporda değil, birini bir tartışmada alt etmek veya bir zorluğu yenmek için de kullanılabilir. Tıpkı Liverpool'un Sunderland'ı yenmesi gibi!",
     "options": [
-      "exhibition",
-      "kitchen",
-      "station",
-      "vacation"
+      "lost",
+      "tied",
+      "beat",
+      "joined"
     ],
-    "correctAnswer": "exhibition",
+    "correctAnswer": "beat",
     "category": "MIXED",
-    "variations": [
-      "The museum is hosting a new art exhibition.",
-      "Don't miss the technology exhibition this year."
-    ]
+    "variations": []
   },
   {
-    "id": 126072505,
-    "type": "QUIZ_COMPLETION",
+    "id": 126072605,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "A nun was _____ by ICE while walking to Mass in Texas.",
-    "translation": "Teksas'ta ayine giderken bir rahibe ICE tarafından alıkonuldu.",
-    "context": "Birini kısa bir süreliğine, genellikle resmi bir soruşturma veya prosedür için, alıkoymak veya gözaltında tutmak anlamına gelir. Bir yere gitmene izin verilmemesi, 'Dur bakalım, nereye gidiyorsun?' denilip bekletilmen gibi düşünebilirsin. Bazen ciddi bir nedeni olabilir, bazen de sadece bir yanlış anlaşılma.",
+    "phrase": "Due to the severe fires, 55,000 people had to be _____.",
+    "translation": "Tahliye edildi",
+    "context": "Bir doğal afet, tehlike veya acil durum nedeniyle insanları güvenli bir yere taşımak 'evacuate' fiiliyle ifade edilir. Özellikle yangın, sel gibi durumlarda 'evacuation' haberlerini çok duyarız. Güvenlik önce gelir!",
     "options": [
-      "detained",
+      "visited",
+      "evacuated",
       "welcomed",
-      "escorted",
-      "freed"
+      "sheltered"
     ],
-    "correctAnswer": "detained",
+    "correctAnswer": "evacuated",
     "category": "TRAVEL",
-    "variations": [
-      "The police detained the suspect for questioning.",
-      "He was detained at the border for several hours."
-    ]
+    "variations": []
   },
   {
-    "id": 126072506,
+    "id": 126072606,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The startup's high operating costs led to a significant _____.",
-    "translation": "Startup'ın yüksek işletme maliyetleri önemli bir 'nakit erimesine' yol açtı.",
-    "context": "Bir şirketin, özellikle yeni başlayan (startup) şirketlerin, gelirlerinden daha fazla para harcaması durumu. Cebindeki paranın hızla erimesi gibi düşünebilirsin. Genellikle büyüme ve yatırım dönemlerinde görülür ama kontrol edilmezse kötü sonuçlar doğurabilir. 'Paramız su gibi akıyor!' demenin havalı iş dünyası versiyonu.",
+    "phrase": "The company announced massive _____ due to the shift to AI technology.",
+    "translation": "İşten çıkarmalar",
+    "context": "Şirketler ekonomik sıkıntılar, yeniden yapılanma veya otomasyon gibi nedenlerle çalışanlarını işten çıkarmak zorunda kaldığında, bu duruma 'layoffs' denir. Kulağa hoş gelmese de iş dünyasında sıkça karşılaşılan bir durumdur.",
     "options": [
-      "cash burn",
-      "profit",
-      "investment",
-      "dividend"
+      "promotions",
+      "hires",
+      "layoffs",
+      "bonuses"
     ],
-    "correctAnswer": "cash burn",
+    "correctAnswer": "layoffs",
     "category": "BUSINESS",
     "variations": [
-      "New companies often experience high cash burn in their early stages.",
-      "Without new funding, the company's cash burn will be unsustainable."
+      "Many workers fear new _____ in the coming months.",
+      "The factory had some serious _____ last year."
     ]
   },
   {
-    "id": 126072507,
-    "type": "QUIZ_COMPLETION",
+    "id": 126072607,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Fans were very unhappy and _____ by not attending the games.",
-    "translation": "Taraftarlar çok mutsuzdu ve maçlara katılmayarak 'ayaklarıyla oy kullandılar'.",
-    "context": "Bir eylemi veya kararı onaylamadığını göstermek için bir yerden ayrılmak veya bir etkinliğe katılmamak anlamına gelir. 'Ben bu işten memnun değilim, gidiyorum!' demenin sessiz ama etkili bir yolu. Yani insanlar sadece konuşmak yerine, fiziki olarak oradan uzaklaşarak tepkilerini gösterirler. Bir nevi ayaklarıyla oy kullanmak gibi.",
+    "phrase": "The protest was finally _____ after the minister resigned.",
+    "translation": "İptal edildi, sonlandırıldı",
+    "context": "Bir etkinliği, toplantıyı veya planı iptal etmek, sonlandırmak anlamına gelir. 'Call off' genellikle bir dış etken veya alınan bir karar sonucu bir şeyin gerçekleşmeyeceğini belirtmek için kullanılır. Tıpkı Hindistan'daki protestonun iptal edilmesi gibi.",
     "options": [
-      "voted with their feet",
-      "clapped their hands",
-      "raised their voices",
-      "held their breath"
+      "started",
+      "called on",
+      "called off",
+      "continued"
     ],
-    "correctAnswer": "voted with their feet",
+    "correctAnswer": "called off",
     "category": "CASUAL",
-    "variations": [
-      "If you don't like the service, vote with your feet and go elsewhere.",
-      "The customers voted with their feet, choosing a different store."
-    ]
+    "variations": []
   },
   {
-    "id": 126072508,
+    "id": 126072608,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The new AI keypad was fun for some coders, but _____ to others.",
-    "translation": "Yeni yapay zeka klavyesi bazı kodlayıcılar için eğlenceliydi ama diğerleri için kafa karıştırıcıydı.",
-    "context": "Bir şeyi anlamayı zorlaştıran, kafa karıştırıcı veya gizemli yapan durum. 'Ne oluyor burada?' diye düşünürken kendini kaybolmuş hissetmek gibi. Bazen bir teknolojik ürün o kadar yenilikçi olur ki, ne işe yaradığını anlamak için bir kullanım kılavuzuna ihtiyaç duyarsın!",
+    "phrase": "That new cocktail is really starting to _____ young drinkers by storm.",
+    "translation": "Bir anda çok popüler olmak",
+    "context": "Bir şeyin bir anda çok popüler olması, hızla yayılması ve büyük ilgi görmesi durumunda 'take by storm' deyimi kullanılır. Tıpkı yeni bir ürünün, müziğin veya bir trendin ortalığı kasıp kavurması gibi! Herkes ondan bahsediyor!",
     "options": [
-      "mystifying",
-      "simplifying",
-      "satisfying",
-      "clarifying"
+      "take",
+      "give",
+      "bring",
+      "pull"
     ],
-    "correctAnswer": "mystifying",
+    "correctAnswer": "take",
     "category": "MIXED",
     "variations": [
-      "The ancient ruins were quite mystifying to the archaeologists.",
-      "Her sudden disappearance remains a mystifying event."
+      "Her new album is expected to _____ the charts by storm.",
+      "The band's performance will _____ the city by storm."
     ]
   },
   {
-    "id": 126072509,
+    "id": 126072609,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "SpaceX's Starship had a successful test flight and _____.",
-    "translation": "SpaceX'in Starship'i başarılı bir deneme uçuşu ve suya iniş gerçekleştirdi.",
-    "context": "Bir uzay aracının veya kapsülün, genellikle bir okyanusa veya denize inmesi durumu. Havalı bir iniş tekniği! Hollywood filmlerindeki gibi, uzaydan dönen astronotların okyanusa iniş anı. Uzay yolculuğunun heyecanlı finali diyebiliriz.",
+    "phrase": "Firefighters bravely battled the fire _____ in the forests of France.",
+    "translation": "Ateş hortumları",
+    "context": "Rüzgarın dairesel hareketiyle oluşan ve genellikle toz, kum veya ateş gibi şeyleri havaya kaldıran burgaçlara 'whirlwind' denir. Özellikle şiddetli yangınlarda oluşan bu 'ateş hortumları' hem korkutucu hem de doğanın gücünü gösterir.",
     "options": [
-      "splashdown",
-      "takeoff",
-      "orbital flight",
-      "re-entry"
+      "rain",
+      "whirlwinds",
+      "showers",
+      "breezes"
     ],
-    "correctAnswer": "splashdown",
+    "correctAnswer": "whirlwinds",
     "category": "TRAVEL",
     "variations": [
-      "After a long journey, the capsule made a safe splashdown.",
-      "The crew celebrated their successful splashdown in the Pacific Ocean."
+      "He felt caught in a _____ of emotions.",
+      "The dust _____ spun across the desert road."
     ]
   },
   {
-    "id": 126072510,
-    "type": "QUIZ_COMPLETION",
+    "id": 126072610,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Ukraine's _____ defense minister rejected the offer of a new role.",
-    "translation": "Ukrayna'nın görevden alınan savunma bakanı yeni bir rol teklifini reddetti.",
-    "context": "Bir kişiyi önemli bir görevden, genellikle zorla veya baskıyla, uzaklaştırmak anlamına gelir. 'İşine son verildi!' veya 'Görevinden alındı!' demenin biraz daha sert ve resmi bir yolu. Bazen politik çatışmaların veya önemli kararların sonucu olarak ortaya çıkar.",
+    "phrase": "The lawsuit claims Amazon was illegally _____ executives from Warner Bros.",
+    "translation": "Yönetici avlamak, kaçırmak",
+    "context": "Başka bir şirketin değerli ve yetenekli çalışanlarını (özellikle yöneticileri) kendi bünyesine çekmek için agresif bir şekilde teklif götürmeye 'poaching executives' denir. Bu, genellikle rekabetin kızıştığı sektörlerde şirketler arasında gerilime neden olabilir. Biraz 'gizli operasyon' gibi düşünebilirsin!",
     "options": [
-      "ousted",
-      "appointed",
-      "promoted",
-      "retained"
+      "hiring",
+      "poaching",
+      "firing",
+      "training"
     ],
-    "correctAnswer": "ousted",
+    "correctAnswer": "poaching",
     "category": "BUSINESS",
-    "variations": [
-      "The corrupt official was finally ousted from his position.",
-      "The board voted to oust the CEO after the scandal."
-    ]
+    "variations": []
   },
   {
-    "id": 126072511,
+    "id": 126072611,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "GOP officials were quick to _____ Trump's claims of election threats.",
-    "translation": "GOP yetkilileri, Trump'ın seçim tehdidi iddialarını hızla eleştirdi.",
-    "context": "Bir şeyi sert bir şekilde eleştirmek, beğenmediğini açıkça belirtmek anlamına gelir. 'Resmen yerden yere vurdular!' demenin daha kısa ve vurucu bir yolu. Genellikle kamuoyuna açık eleştirilerde veya bir şeyin çok kötü olduğunu belirtirken kullanılır.",
+    "phrase": "He often _____ at his political rivals in his speeches.",
+    "translation": "Laf sokmak, iğnelemek",
+    "context": "Birine karşı eleştirel, alaycı veya sert sözler söylemek, bir nevi 'laf sokmak' anlamına gelir. 'Take swipes at' deyimi, genellikle kamuoyu önünde yapılan eleştiriler veya iğneleyici yorumlar için kullanılır. Tıpkı politikacıların rakiplerine yaptıkları gibi!",
     "options": [
-      "pan",
-      "praise",
-      "endorse",
-      "support"
+      "takes photos",
+      "takes notes",
+      "takes swipes",
+      "takes breaks"
     ],
-    "correctAnswer": "pan",
+    "correctAnswer": "takes swipes",
     "category": "CASUAL",
     "variations": [
-      "Critics widely panned the new movie for its poor script.",
-      "The restaurant was panned by food reviewers for its service."
+      "The comedian loved to _____ at current events.",
+      "She always _____ at my cooking, but it's just a joke."
     ]
   },
   {
-    "id": 126072512,
-    "type": "QUIZ_COMPLETION",
+    "id": 126072612,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "The packaging of the popular cocktail was criticized for being _____.",
-    "translation": "Popüler kokteylin ambalajı, geri dönüştürülemez olduğu için eleştirildi.",
-    "context": "Geri dönüştürülemeyen, yani atık olarak doğaya karışan malzeme. 'Çevre dostu' olmanın tam tersi bir durum. Geleceğimizi düşünüyorsak, mümkün olduğunca bu tür ürünlerden kaçınmalıyız. 'Çöp kutusuna bile girse, orada bile ayrı bir vicdan azabı yaratır!' gibi düşünebilirsin.",
+    "phrase": "Real Madrid is in _____ to sign the talented player.",
+    "translation": "En avantajlı konumda",
+    "context": "Bir yarışta veya rekabette kazanmaya en yakın, en avantajlı konumda olmak anlamına gelir. 'Pole position' terimi aslında motor sporlarından gelir, yarışa en önde başlama hakkını ifade eder. Ama sporda veya iş hayatında da bir şeye ulaşmaya en yakın kişi veya şirket için kullanılır. 'En iyi aday' sensin demenin havalı yolu!",
     "options": [
-      "unrecyclable",
-      "recyclable",
-      "biodegradable",
-      "compostable"
+      "last place",
+      "pole position",
+      "offside position",
+      "defense position"
     ],
-    "correctAnswer": "unrecyclable",
+    "correctAnswer": "pole position",
     "category": "MIXED",
-    "variations": [
-      "Many plastic products are still unfortunately unrecyclable.",
-      "We must find alternatives to unrecyclable materials."
-    ]
+    "variations": []
   }
 ]
