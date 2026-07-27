@@ -1,224 +1,236 @@
 [
   {
-    "id": 126072601,
+    "id": 126072701,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Many people had to _____ from the wildfires in France.",
-    "translation": "Yangınlardan kaçmak",
-    "context": "Yangınlar, seller veya savaş gibi durumlarda, bir yerden hızla ve korkuyla ayrılmak 'flee' kelimesiyle anlatılır. 'Flee' dediğinde, sadece gitmek değil, bir tehlikeden kaçmak akla gelir. Tıpkı Fransızların orman yangınlarından kaçması gibi!",
+    "phrase": "The news reported that _____ are spreading rapidly in the Amazon.",
+    "translation": "Haberlerde Amazon'da orman yangınlarının hızla yayıldığı belirtildi.",
+    "context": "'Wildfires' orman yangınları demek. Özellikle yaz aylarında sıcak ve kuru havalarda çıkan, büyük alanları etkisi altına alan yangınlar için kullanılır. Tatil planları yaparken bu haberlere dikkat etmek lazım! Aman dikkat, doğayı koruyalım!",
     "options": [
-      "flee",
-      "stay",
-      "walk",
-      "drive"
+      "wildfires",
+      "seasides",
+      "cityscapes",
+      "snowfalls"
     ],
-    "correctAnswer": "flee",
+    "correctAnswer": "wildfires",
     "category": "TRAVEL",
     "variations": [
-      "They decided to _____ the city due to the rising floodwaters.",
-      "The deer tried to _____ from the hunter."
+      "Local authorities are battling severe _____ in the region.",
+      "Climate change contributes to the increase in global _____."
     ]
   },
   {
-    "id": 126072602,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "Elon Musk's company is currently _____ funding for its new projects.",
-    "translation": "Para toplamak",
-    "context": "Bir şirket yeni bir proje için sermaye arayışındaysa, yani yatırımcılardan para topluyorsa buna 'raise funding' denir. Yeni bir startup kurarken ya da büyük bir işe girişirken hep 'funding' ararız!",
-    "options": [
-      "raising",
-      "losing",
-      "spending",
-      "counting"
-    ],
-    "correctAnswer": "raising",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126072603,
+    "id": 126072702,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Look! The _____ Moon is so bright in the sky tonight.",
-    "translation": "Dolunay",
-    "context": "Ay'ın tam ve yuvarlak hali 'full Moon' olarak adlandırılır. Dolunay zamanı gökyüzüne baktığında sanki büyük bir top gibi parlar ve birçok kültüre göre özel bir enerjisi vardır!",
+    "phrase": "The company management held a _____ to discuss the financial issues.",
+    "translation": "Şirket yönetimi finansal sorunları görüşmek üzere bir kriz toplantısı yaptı.",
+    "context": "'Crisis meeting', bir şirket ya da organizasyon içinde ani ve ciddi bir problem çıktığında acil toplanılan toplantı demek. Genellikle önemli kararlar almak ya da duruma çözüm bulmak için yapılır. 'Hemen bir 'crisis meeting' ayarlayalım!' dedi CEO, kağıtlar havada uçuşurken.",
     "options": [
-      "full",
-      "half",
-      "new",
-      "dark"
+      "crisis meeting",
+      "coffee break",
+      "team building",
+      "brainstorm session"
     ],
-    "correctAnswer": "full",
-    "category": "CASUAL",
-    "variations": [
-      "We can see the _____ Moon clearly from our window.",
-      "The wolf howled at the _____ Moon."
-    ]
-  },
-  {
-    "id": 126072604,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "Liverpool _____ Sunderland with a score of 3-1.",
-    "translation": "Yenmek",
-    "context": "Sporda bir takımı veya kişiyi mağlup etmek, yenmek anlamına gelir. 'Beat' kelimesi sadece sporda değil, birini bir tartışmada alt etmek veya bir zorluğu yenmek için de kullanılabilir. Tıpkı Liverpool'un Sunderland'ı yenmesi gibi!",
-    "options": [
-      "lost",
-      "tied",
-      "beat",
-      "joined"
-    ],
-    "correctAnswer": "beat",
-    "category": "MIXED",
-    "variations": []
-  },
-  {
-    "id": 126072605,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Due to the severe fires, 55,000 people had to be _____.",
-    "translation": "Tahliye edildi",
-    "context": "Bir doğal afet, tehlike veya acil durum nedeniyle insanları güvenli bir yere taşımak 'evacuate' fiiliyle ifade edilir. Özellikle yangın, sel gibi durumlarda 'evacuation' haberlerini çok duyarız. Güvenlik önce gelir!",
-    "options": [
-      "visited",
-      "evacuated",
-      "welcomed",
-      "sheltered"
-    ],
-    "correctAnswer": "evacuated",
-    "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126072606,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The company announced massive _____ due to the shift to AI technology.",
-    "translation": "İşten çıkarmalar",
-    "context": "Şirketler ekonomik sıkıntılar, yeniden yapılanma veya otomasyon gibi nedenlerle çalışanlarını işten çıkarmak zorunda kaldığında, bu duruma 'layoffs' denir. Kulağa hoş gelmese de iş dünyasında sıkça karşılaşılan bir durumdur.",
-    "options": [
-      "promotions",
-      "hires",
-      "layoffs",
-      "bonuses"
-    ],
-    "correctAnswer": "layoffs",
+    "correctAnswer": "crisis meeting",
     "category": "BUSINESS",
     "variations": [
-      "Many workers fear new _____ in the coming months.",
-      "The factory had some serious _____ last year."
+      "The CEO called a _____ after the sudden drop in sales.",
+      "Governments often hold _____ during natural disasters."
     ]
   },
   {
-    "id": 126072607,
+    "id": 126072703,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "The protest was finally _____ after the minister resigned.",
-    "translation": "İptal edildi, sonlandırıldı",
-    "context": "Bir etkinliği, toplantıyı veya planı iptal etmek, sonlandırmak anlamına gelir. 'Call off' genellikle bir dış etken veya alınan bir karar sonucu bir şeyin gerçekleşmeyeceğini belirtmek için kullanılır. Tıpkı Hindistan'daki protestonun iptal edilmesi gibi.",
+    "level": "BEGINNER",
+    "phrase": "Aşağıdaki kelimelerden hangisi 'polis operasyonu' anlamına gelmektedir?",
+    "translation": "'Police operation', emniyet güçlerinin bir suçu önlemek veya çözmek amacıyla yaptığı planlı müdahale veya eylem anlamına gelir. Haberlerde sıkça duyduğumuz, genelde suçluların yakalandığı veya olayların kontrol altına alındığı durumlar için kullanılır.",
+    "context": "Suçluların peşine düşmek, kayıp kişileri aramak veya şüphelileri yakalamak için polislerin yaptığı planlı ve organize çalışmalara 'police operation' deriz. Bazen filmlerde gördüğümüz o nefes kesici sahneler, işte bunlar 'police operation'lar!",
     "options": [
-      "started",
-      "called on",
-      "called off",
-      "continued"
+      "Police operation",
+      "Daily patrol",
+      "Safety check",
+      "Traffic control"
     ],
-    "correctAnswer": "called off",
+    "correctAnswer": "Police operation",
     "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126072608,
+    "id": 126072704,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Future technology may involve wearing _____ for daily tasks.",
+    "translation": "Gelecekteki teknoloji, günlük işler için akıllı gözlükler takmayı içerebilir.",
+    "context": "'Smart glasses' akıllı gözlükler demek. Tıpkı akıllı telefonlar gibi, bildirimleri gösterme, fotoğraf çekme veya navigasyon sağlama gibi özelliklere sahip gözlükler. Henüz çok yaygın olmasa da, bilim kurgu filmlerinden fırlamış gibi havalı bir teknoloji! 'Baksana, adam 'smart glasses' takmış, havaya bakıp mesaj yazıyor!'",
+    "options": [
+      "smart glasses",
+      "sunglasses",
+      "reading glasses",
+      "safety glasses"
+    ],
+    "correctAnswer": "smart glasses",
+    "category": "MIXED",
+    "variations": [
+      "Many companies are investing in the development of _____.",
+      "Wearing _____ could change how we interact with digital information."
+    ]
+  },
+  {
+    "id": 126072705,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "That new cocktail is really starting to _____ young drinkers by storm.",
-    "translation": "Bir anda çok popüler olmak",
-    "context": "Bir şeyin bir anda çok popüler olması, hızla yayılması ve büyük ilgi görmesi durumunda 'take by storm' deyimi kullanılır. Tıpkı yeni bir ürünün, müziğin veya bir trendin ortalığı kasıp kavurması gibi! Herkes ondan bahsediyor!",
+    "phrase": "Thousands had to _____ their homes due to the spreading fires.",
+    "translation": "Binlerce kişi yayılan yangınlar nedeniyle evlerinden kaçmak zorunda kaldı.",
+    "context": "'Flee' kelimesi, bir yerden hızla kaçmak veya uzaklaşmak anlamına gelir, genellikle tehlikeli veya rahatsız edici bir durumdan kurtulmak için. 'Wildfires' ise orman yangınları demek. Yani 'flee wildfires', orman yangınlarından kaçmak anlamına geliyor. Film sahnelerindeki gibi, canını kurtarmak için hızla uzaklaşmak!",
     "options": [
-      "take",
-      "give",
-      "bring",
-      "pull"
+      "flee wildfires",
+      "enjoy views",
+      "settle down",
+      "explore areas"
     ],
-    "correctAnswer": "take",
-    "category": "MIXED",
-    "variations": [
-      "Her new album is expected to _____ the charts by storm.",
-      "The band's performance will _____ the city by storm."
-    ]
-  },
-  {
-    "id": 126072609,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Firefighters bravely battled the fire _____ in the forests of France.",
-    "translation": "Ateş hortumları",
-    "context": "Rüzgarın dairesel hareketiyle oluşan ve genellikle toz, kum veya ateş gibi şeyleri havaya kaldıran burgaçlara 'whirlwind' denir. Özellikle şiddetli yangınlarda oluşan bu 'ateş hortumları' hem korkutucu hem de doğanın gücünü gösterir.",
-    "options": [
-      "rain",
-      "whirlwinds",
-      "showers",
-      "breezes"
-    ],
-    "correctAnswer": "whirlwinds",
+    "correctAnswer": "flee wildfires",
     "category": "TRAVEL",
     "variations": [
-      "He felt caught in a _____ of emotions.",
-      "The dust _____ spun across the desert road."
+      "The villagers decided to _____ the approaching floods.",
+      "Many refugees are forced to _____ their war-torn countries."
     ]
   },
   {
-    "id": 126072610,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "The lawsuit claims Amazon was illegally _____ executives from Warner Bros.",
-    "translation": "Yönetici avlamak, kaçırmak",
-    "context": "Başka bir şirketin değerli ve yetenekli çalışanlarını (özellikle yöneticileri) kendi bünyesine çekmek için agresif bir şekilde teklif götürmeye 'poaching executives' denir. Bu, genellikle rekabetin kızıştığı sektörlerde şirketler arasında gerilime neden olabilir. Biraz 'gizli operasyon' gibi düşünebilirsin!",
+    "id": 126072706,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The two companies decided to _____ to finalize the merger agreement.",
+    "translation": "İki şirket, birleşme anlaşmasını sonuçlandırmak için ileri görüşmeler yapmaya karar verdi.",
+    "context": "'Hold talks' veya 'hold further talks', bir konuda görüşmeler yapmak veya ek görüşmeler düzenlemek demektir. Özellikle iş dünyasında, anlaşmalar, transferler veya stratejik ortaklıklar gibi konularda taraflar arasında yapılan müzakereleri ifade eder. 'İki taraf, bir sonraki adımı belirlemek için bu hafta yeniden 'talks' yapacaklar.'",
     "options": [
-      "hiring",
-      "poaching",
-      "firing",
-      "training"
+      "hold further talks",
+      "cancel meetings",
+      "postpone decisions",
+      "avoid negotiations"
     ],
-    "correctAnswer": "poaching",
+    "correctAnswer": "hold further talks",
     "category": "BUSINESS",
+    "variations": [
+      "Diplomats are expected to _____ next month on the peace treaty.",
+      "The clubs will _____ over the player's transfer fee."
+    ]
+  },
+  {
+    "id": 126072707,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "'Privacy threat' ifadesinin Türkçe karşılığı nedir?",
+    "translation": "'Privacy threat', gizliliğin tehlike altında olması veya gizliliği ihlal edebilecek bir durum anlamına gelir. Özellikle teknoloji ve sosyal medya çağında kişisel verilerin korunmasıyla ilgili önemli bir kavramdır. 'Bu uygulamanın 'privacy threat' oluşturup oluşturmadığına dikkat etmeliyiz.'",
+    "context": "Günümüzde internette paylaştığımız her şeyin gizliliği önemli. Bilgilerimizin çalınma veya kötüye kullanılma riskine 'privacy threat' deriz. 'Şu yeni uygulamanın gizlilik ayarları zayıf, bence bu bir 'privacy threat' yaratabilir!'",
+    "options": [
+      "Gizlilik tehdidi",
+      "Genel güvenlik",
+      "Açıklık politikası",
+      "Siber avantaj"
+    ],
+    "correctAnswer": "Gizlilik tehdidi",
+    "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126072611,
+    "id": 126072708,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "It's hard to _____ all the conflicting information about the new policy.",
+    "translation": "Yeni politika hakkındaki çelişkili tüm bilgileri anlamlandırmak zor.",
+    "context": "'Make sense of' bir şeyi anlamak, kavramak veya mantıklı bir şekilde açıklamak anlamına gelir. Genellikle karmaşık, kafa karıştırıcı veya çelişkili durumlar için kullanılır. 'Bu denklemin çözümünü 'make sense of' etmeye çalışıyorum ama beynim yandı!'",
+    "options": [
+      "make sense of",
+      "ignore feelings",
+      "create confusion",
+      "lose track of"
+    ],
+    "correctAnswer": "make sense of",
+    "category": "MIXED",
+    "variations": [
+      "Can you _____ these instructions for me? They're quite confusing.",
+      "He struggled to _____ his dream after waking up."
+    ]
+  },
+  {
+    "id": 126072709,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "He often _____ at his political rivals in his speeches.",
-    "translation": "Laf sokmak, iğnelemek",
-    "context": "Birine karşı eleştirel, alaycı veya sert sözler söylemek, bir nevi 'laf sokmak' anlamına gelir. 'Take swipes at' deyimi, genellikle kamuoyu önünde yapılan eleştiriler veya iğneleyici yorumlar için kullanılır. Tıpkı politikacıların rakiplerine yaptıkları gibi!",
+    "phrase": "The long working hours eventually started to _____ on his health.",
+    "translation": "Uzun çalışma saatleri sonunda sağlığı üzerinde ağır bedeller ödetmeye başladı.",
+    "context": "'Take a toll' bir şeyin (genellikle olumsuz) bir etki bırakması, zarar vermesi veya ağır sonuçlar doğurması anlamına gelir. Genellikle stres, hastalık veya zorlu koşulların uzun vadeli etkileri için kullanılır. 'Bu pandemi herkesin psikolojisinde 'take a toll' bıraktı.'",
     "options": [
-      "takes photos",
-      "takes notes",
-      "takes swipes",
-      "takes breaks"
+      "take a toll",
+      "boost morale",
+      "improve conditions",
+      "offer benefits"
     ],
-    "correctAnswer": "takes swipes",
-    "category": "CASUAL",
+    "correctAnswer": "take a toll",
+    "category": "TRAVEL",
     "variations": [
-      "The comedian loved to _____ at current events.",
-      "She always _____ at my cooking, but it's just a joke."
+      "The severe drought continues to _____ on local farmers.",
+      "Years of political instability have _____ on the economy."
     ]
   },
   {
-    "id": 126072612,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "id": 126072710,
+    "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Real Madrid is in _____ to sign the talented player.",
-    "translation": "En avantajlı konumda",
-    "context": "Bir yarışta veya rekabette kazanmaya en yakın, en avantajlı konumda olmak anlamına gelir. 'Pole position' terimi aslında motor sporlarından gelir, yarışa en önde başlama hakkını ifade eder. Ama sporda veya iş hayatında da bir şeye ulaşmaya en yakın kişi veya şirket için kullanılır. 'En iyi aday' sensin demenin havalı yolu!",
+    "phrase": "The politician was accused of _____ through his inflammatory speeches.",
+    "translation": "Politikacı, kışkırtıcı konuşmalarıyla nefreti körüklemekle suçlandı.",
+    "context": "'Fomenting hate', nefreti kışkırtmak, körüklemek veya yaymak anlamına gelir. Genellikle politik veya sosyal bağlamlarda, bir grup insana karşı düşmanlığı veya ayrımcılığı teşvik eden eylemler için kullanılır. Bu tür ifadeler, kamuoyunda hassas ve tartışmalı konuları ifade eder.",
     "options": [
-      "last place",
-      "pole position",
-      "offside position",
-      "defense position"
+      "fomenting hate",
+      "promoting peace",
+      "building bridges",
+      "fostering unity"
     ],
-    "correctAnswer": "pole position",
+    "correctAnswer": "fomenting hate",
+    "category": "BUSINESS",
+    "variations": [
+      "His comments were seen as _____ racial tensions.",
+      "The leader's rhetoric was blamed for _____ violence."
+    ]
+  },
+  {
+    "id": 126072711,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Divers are warned about the dangerous _____ near the shipwreck.",
+    "translation": "Dalgıçlar, batık gemi yakınındaki tehlikeli 'çamaşır makinesi' akıntıları hakkında uyarıldı.",
+    "context": "'Washing machine currents' ifadesi, bir çamaşır makinesinin içindeki gibi şiddetli, girdaplı ve tahmin edilemez su akıntılarını tanımlamak için kullanılır. Denizcilikte veya yüzücüler için çok tehlikeli durumları anlatır. 'Okyanusta 'washing machine currents' var, aman dikkat!'",
+    "options": [
+      "washing machine currents",
+      "calm waters",
+      "gentle waves",
+      "steady flows"
+    ],
+    "correctAnswer": "washing machine currents",
+    "category": "CASUAL",
+    "variations": [
+      "Swimmers should be aware of the strong _____ in this area.",
+      "The kayaker got caught in _____ and struggled to get free."
+    ]
+  },
+  {
+    "id": 126072712,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Our team _____ in the final match, thanks to their stronger defense.",
+    "translation": "Takımımız, daha güçlü savunmaları sayesinde final maçında avantajlıydı.",
+    "context": "'Have the edge' veya 'has the edge', bir şeye veya birine karşı avantajlı veya üstün olmak anlamına gelir. Rekabetçi durumlarda, spor müsabakalarında veya iş görüşmelerinde sıkça kullanılır. 'Onun deneyimi sayesinde rakiplerine karşı bir 'edge'i var.'",
+    "options": [
+      "had the edge",
+      "faced defeat",
+      "lost control",
+      "gave up hope"
+    ],
+    "correctAnswer": "had the edge",
     "category": "MIXED",
-    "variations": []
+    "variations": [
+      "She _____ over other candidates because of her extensive experience.",
+      "The company _____ in the market with its innovative product."
+    ]
   }
 ]
