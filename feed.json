@@ -1,236 +1,230 @@
 [
   {
-    "id": 126072701,
+    "id": 126072801,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The news reported that _____ are spreading rapidly in the Amazon.",
-    "translation": "Haberlerde Amazon'da orman yangınlarının hızla yayıldığı belirtildi.",
-    "context": "'Wildfires' orman yangınları demek. Özellikle yaz aylarında sıcak ve kuru havalarda çıkan, büyük alanları etkisi altına alan yangınlar için kullanılır. Tatil planları yaparken bu haberlere dikkat etmek lazım! Aman dikkat, doğayı koruyalım!",
+    "phrase": "The famous singer will go on _____ for a serious crime.",
+    "translation": "Ünlü şarkıcı ciddi bir suçtan dolayı mahkemeye çıkacak.",
+    "context": "Biri yargılanacağı zaman 'go on trial' deriz. Bu ifade, kişinin mahkemeye çıkıp suçlamalara karşı kendini savunacağı anlamına gelir. Yani işin ciddiyeti büyük! Bu durumda genelde bir avukata ihtiyacın olur.",
     "options": [
-      "wildfires",
-      "seasides",
-      "cityscapes",
-      "snowfalls"
+      "trial",
+      "concert",
+      "holiday",
+      "practice"
     ],
-    "correctAnswer": "wildfires",
-    "category": "TRAVEL",
+    "correctAnswer": "trial",
+    "category": "CASUAL",
     "variations": [
-      "Local authorities are battling severe _____ in the region.",
-      "Climate change contributes to the increase in global _____."
+      "She went on trial for theft.",
+      "The suspect will go on trial next month."
     ]
   },
   {
-    "id": 126072702,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The company management held a _____ to discuss the financial issues.",
-    "translation": "Şirket yönetimi finansal sorunları görüşmek üzere bir kriz toplantısı yaptı.",
-    "context": "'Crisis meeting', bir şirket ya da organizasyon içinde ani ve ciddi bir problem çıktığında acil toplanılan toplantı demek. Genellikle önemli kararlar almak ya da duruma çözüm bulmak için yapılır. 'Hemen bir 'crisis meeting' ayarlayalım!' dedi CEO, kağıtlar havada uçuşurken.",
-    "options": [
-      "crisis meeting",
-      "coffee break",
-      "team building",
-      "brainstorm session"
-    ],
-    "correctAnswer": "crisis meeting",
-    "category": "BUSINESS",
-    "variations": [
-      "The CEO called a _____ after the sudden drop in sales.",
-      "Governments often hold _____ during natural disasters."
-    ]
-  },
-  {
-    "id": 126072703,
+    "id": 126072802,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "Aşağıdaki kelimelerden hangisi 'polis operasyonu' anlamına gelmektedir?",
-    "translation": "'Police operation', emniyet güçlerinin bir suçu önlemek veya çözmek amacıyla yaptığı planlı müdahale veya eylem anlamına gelir. Haberlerde sıkça duyduğumuz, genelde suçluların yakalandığı veya olayların kontrol altına alındığı durumlar için kullanılır.",
-    "context": "Suçluların peşine düşmek, kayıp kişileri aramak veya şüphelileri yakalamak için polislerin yaptığı planlı ve organize çalışmalara 'police operation' deriz. Bazen filmlerde gördüğümüz o nefes kesici sahneler, işte bunlar 'police operation'lar!",
+    "phrase": "Which word means to formally resolve a legal dispute, often by agreement?",
+    "translation": "Hukuki bir anlaşmazlığı, genellikle anlaşma yoluyla resmi olarak çözmek anlamına gelen kelime nedir?",
+    "context": "Hukuki bir sorun veya anlaşmazlık çıktığında, mahkemeye gitmeden önce ya da giderken anlaşmaya varmak için 'settle' fiilini kullanırız. Şirketler bazen davaları uzatmamak için bu yolu seçer. Mesela bir anlaşmazlık olduğunda, 'Hadi şu işi tatlıya bağlayalım, settled' diyebilirsin!",
     "options": [
-      "Police operation",
-      "Daily patrol",
-      "Safety check",
-      "Traffic control"
+      "Settle",
+      "Launch",
+      "Produce",
+      "Discuss"
     ],
-    "correctAnswer": "Police operation",
+    "correctAnswer": "Settle",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126072803,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "It's very hot; a new _____ is coming to Europe.",
+    "translation": "Çok sıcak; Avrupa'ya yeni bir sıcak hava dalgası geliyor.",
+    "context": "Hava durumu raporlarında sıkça duyacağın 'heatwave', yani 'sıcak hava dalgası' demek. Yaz aylarında bunaltıcı sıcaklıklar art arda günlerce devam ettiğinde bu terimi kullanırız. Güneş kremini ve şapkanı unutma!",
+    "options": [
+      "heatwave",
+      "cold wave",
+      "storm",
+      "breeze"
+    ],
+    "correctAnswer": "heatwave",
+    "category": "TRAVEL",
+    "variations": [
+      "Last summer, we had a terrible heatwave.",
+      "Stay hydrated during a heatwave."
+    ]
+  },
+  {
+    "id": 126072804,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The police are trying to fight local _____ in the city.",
+    "translation": "Polis, şehirdeki yerel çetelerle savaşmaya çalışıyor.",
+    "context": "Genellikle kötü işler yapan, bir araya gelmiş insan gruplarına 'gang' yani 'çete' denir. Haberlerde sıklıkla suç örgütleri veya sokak çeteleri bağlamında karşımıza çıkar. Güvenliğimiz için önemli bir kelime!",
+    "options": [
+      "gangs",
+      "clubs",
+      "teams",
+      "parties"
+    ],
+    "correctAnswer": "gangs",
+    "category": "MIXED",
+    "variations": [
+      "A new gang started operating in the area.",
+      "The police broke up the gang."
+    ]
+  },
+  {
+    "id": 126072805,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "If you are 'pissed off' about something, what does it mean?",
+    "translation": "'Pissed off' olmak ne anlama gelir?",
+    "context": "Bu ifade biraz argo ama günlük dilde, özellikle biri bir şeye gerçekten çok sinirlendiğinde kullanılır. Mesela, en sevdiğin dizi yayından kalkarsa 'I'm so pissed off!' diyebilirsin. Dikkat et, resmi durumlarda kullanmak pek iyi kaçmaz!",
+    "options": [
+      "To be very angry",
+      "To be very happy",
+      "To be very tired",
+      "To be very surprised"
+    ],
+    "correctAnswer": "To be very angry",
     "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126072704,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Future technology may involve wearing _____ for daily tasks.",
-    "translation": "Gelecekteki teknoloji, günlük işler için akıllı gözlükler takmayı içerebilir.",
-    "context": "'Smart glasses' akıllı gözlükler demek. Tıpkı akıllı telefonlar gibi, bildirimleri gösterme, fotoğraf çekme veya navigasyon sağlama gibi özelliklere sahip gözlükler. Henüz çok yaygın olmasa da, bilim kurgu filmlerinden fırlamış gibi havalı bir teknoloji! 'Baksana, adam 'smart glasses' takmış, havaya bakıp mesaj yazıyor!'",
-    "options": [
-      "smart glasses",
-      "sunglasses",
-      "reading glasses",
-      "safety glasses"
-    ],
-    "correctAnswer": "smart glasses",
-    "category": "MIXED",
-    "variations": [
-      "Many companies are investing in the development of _____.",
-      "Wearing _____ could change how we interact with digital information."
-    ]
-  },
-  {
-    "id": 126072705,
+    "id": 126072806,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Thousands had to _____ their homes due to the spreading fires.",
-    "translation": "Binlerce kişi yayılan yangınlar nedeniyle evlerinden kaçmak zorunda kaldı.",
-    "context": "'Flee' kelimesi, bir yerden hızla kaçmak veya uzaklaşmak anlamına gelir, genellikle tehlikeli veya rahatsız edici bir durumdan kurtulmak için. 'Wildfires' ise orman yangınları demek. Yani 'flee wildfires', orman yangınlarından kaçmak anlamına geliyor. Film sahnelerindeki gibi, canını kurtarmak için hızla uzaklaşmak!",
+    "phrase": "The tech company is planning a big _____ of a smaller startup.",
+    "translation": "Teknoloji şirketi küçük bir start-up'ı büyük bir satın alma işlemiyle bünyesine katmayı planlıyor.",
+    "context": "Bir şirketin başka bir şirketi satın almasına 'acquisition' denir. Yani, büyük balık küçük balığı yutar gibi düşünebilirsin! Özellikle iş dünyası haberlerinde ve finans piyasalarında çok sık duyulan bir terimdir. Eğer bir gün kendi şirketini kurarsan, umarım iyi bir 'acquisition' teklifi alırsın!",
     "options": [
-      "flee wildfires",
-      "enjoy views",
-      "settle down",
-      "explore areas"
+      "acquisition",
+      "promotion",
+      "merger",
+      "partnership"
     ],
-    "correctAnswer": "flee wildfires",
-    "category": "TRAVEL",
-    "variations": [
-      "The villagers decided to _____ the approaching floods.",
-      "Many refugees are forced to _____ their war-torn countries."
-    ]
-  },
-  {
-    "id": 126072706,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The two companies decided to _____ to finalize the merger agreement.",
-    "translation": "İki şirket, birleşme anlaşmasını sonuçlandırmak için ileri görüşmeler yapmaya karar verdi.",
-    "context": "'Hold talks' veya 'hold further talks', bir konuda görüşmeler yapmak veya ek görüşmeler düzenlemek demektir. Özellikle iş dünyasında, anlaşmalar, transferler veya stratejik ortaklıklar gibi konularda taraflar arasında yapılan müzakereleri ifade eder. 'İki taraf, bir sonraki adımı belirlemek için bu hafta yeniden 'talks' yapacaklar.'",
-    "options": [
-      "hold further talks",
-      "cancel meetings",
-      "postpone decisions",
-      "avoid negotiations"
-    ],
-    "correctAnswer": "hold further talks",
+    "correctAnswer": "acquisition",
     "category": "BUSINESS",
     "variations": [
-      "Diplomats are expected to _____ next month on the peace treaty.",
-      "The clubs will _____ over the player's transfer fee."
+      "The company made a strategic acquisition last year.",
+      "This acquisition will expand our market share."
     ]
   },
   {
-    "id": 126072707,
+    "id": 126072807,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "A large _____ is moving closer to the city, causing evacuations.",
+    "translation": "Büyük bir orman yangını şehre doğru ilerliyor ve tahliyelere neden oluyor.",
+    "context": "Özellikle yaz aylarında ve kurak bölgelerde ormanlık alanlarda çıkan büyük yangınlara 'wildfire' denir. Kontrol altına alınması zor olduğu için ciddi tehlike arz eder. Haberlerde 'Yangın yayılıyor!' veya 'Evler tahliye ediliyor!' gibi bağlamlarda karşılaşabilirsin.",
+    "options": [
+      "wildfire",
+      "flood",
+      "earthquake",
+      "tornado"
+    ],
+    "correctAnswer": "wildfire",
+    "category": "TRAVEL",
+    "variations": [
+      "The wildfire destroyed thousands of acres.",
+      "Firefighters are battling the wildfire."
+    ]
+  },
+  {
+    "id": 126072808,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "'Privacy threat' ifadesinin Türkçe karşılığı nedir?",
-    "translation": "'Privacy threat', gizliliğin tehlike altında olması veya gizliliği ihlal edebilecek bir durum anlamına gelir. Özellikle teknoloji ve sosyal medya çağında kişisel verilerin korunmasıyla ilgili önemli bir kavramdır. 'Bu uygulamanın 'privacy threat' oluşturup oluşturmadığına dikkat etmeliyiz.'",
-    "context": "Günümüzde internette paylaştığımız her şeyin gizliliği önemli. Bilgilerimizin çalınma veya kötüye kullanılma riskine 'privacy threat' deriz. 'Şu yeni uygulamanın gizlilik ayarları zayıf, bence bu bir 'privacy threat' yaratabilir!'",
+    "phrase": "What does 'AI' stand for in technology discussions?",
+    "translation": "Teknoloji tartışmalarında 'AI' ne anlama gelir?",
+    "context": "Günümüzün en popüler konularından biri! 'AI', yani 'Artificial Intelligence', makinelerin insan gibi düşünmesini ve öğrenmesini sağlayan teknoloji demek. Telefonundaki sesli asistandan tut, otonom araçlara kadar hayatımızın her yerinde. Gelecekte daha da fazla duyacağız bu terimi, şimdiden öğrenmek süper olur!",
     "options": [
-      "Gizlilik tehdidi",
-      "Genel güvenlik",
-      "Açıklık politikası",
-      "Siber avantaj"
+      "Artificial Intelligence",
+      "Automatic Information",
+      "Advanced Integration",
+      "Actual Idea"
     ],
-    "correctAnswer": "Gizlilik tehdidi",
-    "category": "CASUAL",
+    "correctAnswer": "Artificial Intelligence",
+    "category": "MIXED",
     "variations": []
   },
   {
-    "id": 126072708,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "It's hard to _____ all the conflicting information about the new policy.",
-    "translation": "Yeni politika hakkındaki çelişkili tüm bilgileri anlamlandırmak zor.",
-    "context": "'Make sense of' bir şeyi anlamak, kavramak veya mantıklı bir şekilde açıklamak anlamına gelir. Genellikle karmaşık, kafa karıştırıcı veya çelişkili durumlar için kullanılır. 'Bu denklemin çözümünü 'make sense of' etmeye çalışıyorum ama beynim yandı!'",
-    "options": [
-      "make sense of",
-      "ignore feelings",
-      "create confusion",
-      "lose track of"
-    ],
-    "correctAnswer": "make sense of",
-    "category": "MIXED",
-    "variations": [
-      "Can you _____ these instructions for me? They're quite confusing.",
-      "He struggled to _____ his dream after waking up."
-    ]
-  },
-  {
-    "id": 126072709,
+    "id": 126072809,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The long working hours eventually started to _____ on his health.",
-    "translation": "Uzun çalışma saatleri sonunda sağlığı üzerinde ağır bedeller ödetmeye başladı.",
-    "context": "'Take a toll' bir şeyin (genellikle olumsuz) bir etki bırakması, zarar vermesi veya ağır sonuçlar doğurması anlamına gelir. Genellikle stres, hastalık veya zorlu koşulların uzun vadeli etkileri için kullanılır. 'Bu pandemi herkesin psikolojisinde 'take a toll' bıraktı.'",
+    "phrase": "He developed a strong _____ on fame after his first movie role.",
+    "translation": "İlk film rolünden sonra şöhrete karşı güçlü bir takıntı geliştirdi.",
+    "context": "Bir şeye 'fixation' demek, ona karşı aşırı bir ilgi veya takıntı duymak anlamına gelir. Bazen olumlu bazen olumsuz kullanılabilir. Mesela, bir bilim insanının bir problem üzerine 'fixation'ı onu büyük bir keşfe götürebilir ama bir kişinin ünlü olmaya 'fixation'ı onu yanlış yollara sürükleyebilir. Yani 'kafasını bozmak' gibi düşünebilirsin!",
     "options": [
-      "take a toll",
-      "boost morale",
-      "improve conditions",
-      "offer benefits"
+      "fixation",
+      "dislike",
+      "indifference",
+      "preference"
     ],
-    "correctAnswer": "take a toll",
-    "category": "TRAVEL",
-    "variations": [
-      "The severe drought continues to _____ on local farmers.",
-      "Years of political instability have _____ on the economy."
-    ]
-  },
-  {
-    "id": 126072710,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The politician was accused of _____ through his inflammatory speeches.",
-    "translation": "Politikacı, kışkırtıcı konuşmalarıyla nefreti körüklemekle suçlandı.",
-    "context": "'Fomenting hate', nefreti kışkırtmak, körüklemek veya yaymak anlamına gelir. Genellikle politik veya sosyal bağlamlarda, bir grup insana karşı düşmanlığı veya ayrımcılığı teşvik eden eylemler için kullanılır. Bu tür ifadeler, kamuoyunda hassas ve tartışmalı konuları ifade eder.",
-    "options": [
-      "fomenting hate",
-      "promoting peace",
-      "building bridges",
-      "fostering unity"
-    ],
-    "correctAnswer": "fomenting hate",
-    "category": "BUSINESS",
-    "variations": [
-      "His comments were seen as _____ racial tensions.",
-      "The leader's rhetoric was blamed for _____ violence."
-    ]
-  },
-  {
-    "id": 126072711,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Divers are warned about the dangerous _____ near the shipwreck.",
-    "translation": "Dalgıçlar, batık gemi yakınındaki tehlikeli 'çamaşır makinesi' akıntıları hakkında uyarıldı.",
-    "context": "'Washing machine currents' ifadesi, bir çamaşır makinesinin içindeki gibi şiddetli, girdaplı ve tahmin edilemez su akıntılarını tanımlamak için kullanılır. Denizcilikte veya yüzücüler için çok tehlikeli durumları anlatır. 'Okyanusta 'washing machine currents' var, aman dikkat!'",
-    "options": [
-      "washing machine currents",
-      "calm waters",
-      "gentle waves",
-      "steady flows"
-    ],
-    "correctAnswer": "washing machine currents",
+    "correctAnswer": "fixation",
     "category": "CASUAL",
     "variations": [
-      "Swimmers should be aware of the strong _____ in this area.",
-      "The kayaker got caught in _____ and struggled to get free."
+      "Her fixation on perfection made her stressed.",
+      "He has a strange fixation with old cars."
     ]
   },
   {
-    "id": 126072712,
+    "id": 126072810,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Our team _____ in the final match, thanks to their stronger defense.",
-    "translation": "Takımımız, daha güçlü savunmaları sayesinde final maçında avantajlıydı.",
-    "context": "'Have the edge' veya 'has the edge', bir şeye veya birine karşı avantajlı veya üstün olmak anlamına gelir. Rekabetçi durumlarda, spor müsabakalarında veya iş görüşmelerinde sıkça kullanılır. 'Onun deneyimi sayesinde rakiplerine karşı bir 'edge'i var.'",
+    "phrase": "The company received a large federal _____ to fund their innovative project.",
+    "translation": "Şirket, yenilikçi projelerini finanse etmek için büyük bir federal hibe aldı.",
+    "context": "Devlet veya bir kurum tarafından belirli bir proje veya amaç için verilen karşılıksız paraya 'grant' yani 'hibe' denir. Özellikle bilim, araştırma veya sanat gibi alanlarda projeleri desteklemek için kullanılır. Bu parayı geri ödemen gerekmez, harika bir fırsat!",
     "options": [
-      "had the edge",
-      "faced defeat",
-      "lost control",
-      "gave up hope"
+      "grant",
+      "loan",
+      "debt",
+      "fine"
     ],
-    "correctAnswer": "had the edge",
+    "correctAnswer": "grant",
+    "category": "BUSINESS",
+    "variations": [
+      "They applied for a research grant.",
+      "The university secured a substantial grant."
+    ]
+  },
+  {
+    "id": 126072811,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "What does 'on the front line' mean in a conflict context?",
+    "translation": "Bir çatışma bağlamında 'on the front line' ne anlama gelir?",
+    "context": "Aslında savaş veya çatışma durumlarında en öndeki, en tehlikeli bölgeyi ifade eder. Ama sadece fiziki savaşta değil, mecazi olarak da kullanılır. Mesela, bir hastalığa karşı savaşan sağlık çalışanları 'on the front line' diyebiliriz. Yani, işin en zorlu ve kritik yerinde olmak demek!",
+    "options": [
+      "In the most dangerous or active area of a conflict",
+      "Behind the main battle area, in safety",
+      "In a neutral zone between opposing forces",
+      "Observing the conflict from a distance"
+    ],
+    "correctAnswer": "In the most dangerous or active area of a conflict",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126072812,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Many unique _____ are fighting for survival due to climate change.",
+    "translation": "Birçok eşsiz tür, iklim değişikliği nedeniyle hayatta kalmak için mücadele ediyor.",
+    "context": "Biyolojide 'species' bir türü ifade eder. Yani, ortak özellikleri olan ve birbiriyle üreyebilen canlıların oluşturduğu gruba denir. Örneğin, insan 'Homo sapiens' türündendir. Bilim ve çevre haberlerinde sıkça karşımıza çıkar, özellikle nesli tükenmekte olan hayvanlardan bahsederken kullanılır.",
+    "options": [
+      "species",
+      "objects",
+      "concepts",
+      "structures"
+    ],
+    "correctAnswer": "species",
     "category": "MIXED",
     "variations": [
-      "She _____ over other candidates because of her extensive experience.",
-      "The company _____ in the market with its innovative product."
+      "This new species of bird was discovered recently.",
+      "Protecting endangered species is crucial."
     ]
   }
 ]
