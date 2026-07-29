@@ -1,230 +1,242 @@
 [
   {
-    "id": 126072801,
+    "id": 126072901,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The famous singer will go on _____ for a serious crime.",
-    "translation": "Ünlü şarkıcı ciddi bir suçtan dolayı mahkemeye çıkacak.",
-    "context": "Biri yargılanacağı zaman 'go on trial' deriz. Bu ifade, kişinin mahkemeye çıkıp suçlamalara karşı kendini savunacağı anlamına gelir. Yani işin ciddiyeti büyük! Bu durumda genelde bir avukata ihtiyacın olur.",
+    "phrase": "Many people were _____ beneath the rubble after the quake.",
+    "translation": "Depremden sonra birçok insan enkaz altında mahsur kaldı.",
+    "context": "Bir felaket sonrası enkaz altında kalmak veya bir yerde sıkışıp kalmak için 'trapped' kelimesini kullanırız. Film izlerken ya da haberleri takip ederken sık sık duyabileceğin bu kelime, 'mahsur kalmak' anlamına gelir. Umarım kimse bu durumu yaşamaz!",
     "options": [
-      "trial",
-      "concert",
-      "holiday",
-      "practice"
+      "lost",
+      "stuck",
+      "trapped",
+      "hidden"
     ],
-    "correctAnswer": "trial",
+    "correctAnswer": "trapped",
     "category": "CASUAL",
     "variations": [
-      "She went on trial for theft.",
-      "The suspect will go on trial next month."
+      "Rescuers found people trapped in the building.",
+      "Don't get trapped in a bad situation."
     ]
   },
   {
-    "id": 126072802,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "Which word means to formally resolve a legal dispute, often by agreement?",
-    "translation": "Hukuki bir anlaşmazlığı, genellikle anlaşma yoluyla resmi olarak çözmek anlamına gelen kelime nedir?",
-    "context": "Hukuki bir sorun veya anlaşmazlık çıktığında, mahkemeye gitmeden önce ya da giderken anlaşmaya varmak için 'settle' fiilini kullanırız. Şirketler bazen davaları uzatmamak için bu yolu seçer. Mesela bir anlaşmazlık olduğunda, 'Hadi şu işi tatlıya bağlayalım, settled' diyebilirsin!",
-    "options": [
-      "Settle",
-      "Launch",
-      "Produce",
-      "Discuss"
-    ],
-    "correctAnswer": "Settle",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126072803,
+    "id": 126072902,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "It's very hot; a new _____ is coming to Europe.",
-    "translation": "Çok sıcak; Avrupa'ya yeni bir sıcak hava dalgası geliyor.",
-    "context": "Hava durumu raporlarında sıkça duyacağın 'heatwave', yani 'sıcak hava dalgası' demek. Yaz aylarında bunaltıcı sıcaklıklar art arda günlerce devam ettiğinde bu terimi kullanırız. Güneş kremini ve şapkanı unutma!",
+    "phrase": "South Korea ordered residents to _____ after a leak at the base.",
+    "translation": "Güney Kore, üste yaşanan sızıntı sonrası sakinlerin tahliye edilmesini emretti.",
+    "context": "Bir tehlike anında, örneğin bir yangın veya kimyasal sızıntı durumunda, insanların güvenli bir yere gitmesini istemeye 'evacuate' denir. Yani 'tahliye etmek' demek. Seyahat ederken böyle bir durumla karşılaşmaman dileğiyle!",
     "options": [
-      "heatwave",
-      "cold wave",
-      "storm",
-      "breeze"
+      "stay",
+      "gather",
+      "wait",
+      "evacuate"
     ],
-    "correctAnswer": "heatwave",
+    "correctAnswer": "evacuate",
     "category": "TRAVEL",
     "variations": [
-      "Last summer, we had a terrible heatwave.",
-      "Stay hydrated during a heatwave."
+      "We had to evacuate the hotel due to a fire.",
+      "The police evacuated the area quickly."
     ]
   },
   {
-    "id": 126072804,
+    "id": 126072903,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The police are trying to fight local _____ in the city.",
-    "translation": "Polis, şehirdeki yerel çetelerle savaşmaya çalışıyor.",
-    "context": "Genellikle kötü işler yapan, bir araya gelmiş insan gruplarına 'gang' yani 'çete' denir. Haberlerde sıklıkla suç örgütleri veya sokak çeteleri bağlamında karşımıza çıkar. Güvenliğimiz için önemli bir kelime!",
+    "phrase": "The new bot-detection _____ nabs $200M from Insight.",
+    "translation": "Yeni bot algılama girişimi Insight'tan 200 milyon dolar kaptı.",
+    "context": "Yepisyeni bir iş fikriyle yola çıkan, genellikle teknoloji odaklı şirketlere 'startup' denir. Hani o ilk zamanlardaki heves, sınırsız enerji ve büyümeye açlık hali... İş dünyasında bu kelimeyi çok duyarsın. Belki senin de bir gün bir 'startup'ın olur, kim bilir?",
     "options": [
-      "gangs",
-      "clubs",
-      "teams",
-      "parties"
+      "company",
+      "startup",
+      "firm",
+      "business"
     ],
-    "correctAnswer": "gangs",
-    "category": "MIXED",
-    "variations": [
-      "A new gang started operating in the area.",
-      "The police broke up the gang."
-    ]
-  },
-  {
-    "id": 126072805,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "If you are 'pissed off' about something, what does it mean?",
-    "translation": "'Pissed off' olmak ne anlama gelir?",
-    "context": "Bu ifade biraz argo ama günlük dilde, özellikle biri bir şeye gerçekten çok sinirlendiğinde kullanılır. Mesela, en sevdiğin dizi yayından kalkarsa 'I'm so pissed off!' diyebilirsin. Dikkat et, resmi durumlarda kullanmak pek iyi kaçmaz!",
-    "options": [
-      "To be very angry",
-      "To be very happy",
-      "To be very tired",
-      "To be very surprised"
-    ],
-    "correctAnswer": "To be very angry",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126072806,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The tech company is planning a big _____ of a smaller startup.",
-    "translation": "Teknoloji şirketi küçük bir start-up'ı büyük bir satın alma işlemiyle bünyesine katmayı planlıyor.",
-    "context": "Bir şirketin başka bir şirketi satın almasına 'acquisition' denir. Yani, büyük balık küçük balığı yutar gibi düşünebilirsin! Özellikle iş dünyası haberlerinde ve finans piyasalarında çok sık duyulan bir terimdir. Eğer bir gün kendi şirketini kurarsan, umarım iyi bir 'acquisition' teklifi alırsın!",
-    "options": [
-      "acquisition",
-      "promotion",
-      "merger",
-      "partnership"
-    ],
-    "correctAnswer": "acquisition",
+    "correctAnswer": "startup",
     "category": "BUSINESS",
     "variations": [
-      "The company made a strategic acquisition last year.",
-      "This acquisition will expand our market share."
+      "Many startups fail in their first year.",
+      "She works for a tech startup."
     ]
   },
   {
-    "id": 126072807,
+    "id": 126072904,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "A large _____ is moving closer to the city, causing evacuations.",
-    "translation": "Büyük bir orman yangını şehre doğru ilerliyor ve tahliyelere neden oluyor.",
-    "context": "Özellikle yaz aylarında ve kurak bölgelerde ormanlık alanlarda çıkan büyük yangınlara 'wildfire' denir. Kontrol altına alınması zor olduğu için ciddi tehlike arz eder. Haberlerde 'Yangın yayılıyor!' veya 'Evler tahliye ediliyor!' gibi bağlamlarda karşılaşabilirsin.",
+    "level": "BEGINNER",
+    "phrase": "How to see July's full _____ Moon as it rises.",
+    "translation": "Temmuz ayının yükselen dolunayını ('Buck Moon') nasıl görebilirsin.",
+    "context": "Her dolunayın bir adı var, tıpkı Temmuz dolunayı 'Buck Moon' gibi. Bu isimler genelde yerli kültürlerden veya mevsimsel olaylardan gelir. Gökyüzüne bakmayı seviyorsan bu tip terimler senin için harika bir bilgi kaynağı olabilir!",
     "options": [
-      "wildfire",
-      "flood",
-      "earthquake",
-      "tornado"
+      "Blue",
+      "Red",
+      "Buck",
+      "Hunter's"
     ],
-    "correctAnswer": "wildfire",
-    "category": "TRAVEL",
-    "variations": [
-      "The wildfire destroyed thousands of acres.",
-      "Firefighters are battling the wildfire."
-    ]
-  },
-  {
-    "id": 126072808,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "What does 'AI' stand for in technology discussions?",
-    "translation": "Teknoloji tartışmalarında 'AI' ne anlama gelir?",
-    "context": "Günümüzün en popüler konularından biri! 'AI', yani 'Artificial Intelligence', makinelerin insan gibi düşünmesini ve öğrenmesini sağlayan teknoloji demek. Telefonundaki sesli asistandan tut, otonom araçlara kadar hayatımızın her yerinde. Gelecekte daha da fazla duyacağız bu terimi, şimdiden öğrenmek süper olur!",
-    "options": [
-      "Artificial Intelligence",
-      "Automatic Information",
-      "Advanced Integration",
-      "Actual Idea"
-    ],
-    "correctAnswer": "Artificial Intelligence",
+    "correctAnswer": "Buck",
     "category": "MIXED",
-    "variations": []
+    "variations": [
+      "The full moon is often called the Buck Moon.",
+      "Have you seen the Buck Moon tonight?"
+    ]
   },
   {
-    "id": 126072809,
+    "id": 126072905,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "He developed a strong _____ on fame after his first movie role.",
-    "translation": "İlk film rolünden sonra şöhrete karşı güçlü bir takıntı geliştirdi.",
-    "context": "Bir şeye 'fixation' demek, ona karşı aşırı bir ilgi veya takıntı duymak anlamına gelir. Bazen olumlu bazen olumsuz kullanılabilir. Mesela, bir bilim insanının bir problem üzerine 'fixation'ı onu büyük bir keşfe götürebilir ama bir kişinin ünlü olmaya 'fixation'ı onu yanlış yollara sürükleyebilir. Yani 'kafasını bozmak' gibi düşünebilirsin!",
+    "level": "INTERMEDIATE",
+    "phrase": "Mexican drug cartels have _____ meth labs to Nigeria.",
+    "translation": "Meksikalı uyuşturucu kartelleri metamfetamin laboratuvarlarını Nijerya'ya taşeron olarak verdiler.",
+    "context": "Bir işin, görevin veya üretimin başka bir şirkete veya ülkeye yaptırılmasına 'outsourced' denir. Yani 'taşeronluk yapmak' veya 'dış kaynak kullanmak'. Günümüz iş dünyasında, özellikle maliyet düşürme veya uzmanlık arayışı gibi nedenlerle çok yaygın bir pratik!",
     "options": [
-      "fixation",
-      "dislike",
-      "indifference",
-      "preference"
+      "moved",
+      "sent",
+      "outsourced",
+      "exported"
     ],
-    "correctAnswer": "fixation",
+    "correctAnswer": "outsourced",
     "category": "CASUAL",
     "variations": [
-      "Her fixation on perfection made her stressed.",
-      "He has a strange fixation with old cars."
+      "Many companies outsource their customer service.",
+      "We decided to outsource our IT department."
     ]
   },
   {
-    "id": 126072810,
+    "id": 126072906,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The company received a large federal _____ to fund their innovative project.",
-    "translation": "Şirket, yenilikçi projelerini finanse etmek için büyük bir federal hibe aldı.",
-    "context": "Devlet veya bir kurum tarafından belirli bir proje veya amaç için verilen karşılıksız paraya 'grant' yani 'hibe' denir. Özellikle bilim, araştırma veya sanat gibi alanlarda projeleri desteklemek için kullanılır. Bu parayı geri ödemen gerekmez, harika bir fırsat!",
+    "level": "INTERMEDIATE",
+    "phrase": "Drone footage showed extensive _____ _____ in Wisconsin.",
+    "translation": "Drone görüntüleri Wisconsin'deki geniş hortum hasarını gösterdi.",
+    "context": "Bir hortum (tornado) gibi doğal afetlerin yol açtığı yıkıma 'tornado damage' denir. Maalesef dünya genelinde sıkça rastlanan bu durum, evleri, binaları ve doğal yaşam alanlarını etkileyebilir. Seyahat ederken hava durumu raporlarına dikkat etmekte fayda var!",
     "options": [
-      "grant",
-      "loan",
-      "debt",
-      "fine"
+      "windy destruction",
+      "storm effects",
+      "tornado damage",
+      "weather impact"
     ],
-    "correctAnswer": "grant",
+    "correctAnswer": "tornado damage",
+    "category": "TRAVEL",
+    "variations": [
+      "The town suffered severe tornado damage.",
+      "Cleaning up after tornado damage is hard work."
+    ]
+  },
+  {
+    "id": 126072907,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Cyera agrees to _____ Oasis Security for $1B.",
+    "translation": "Cyera, Oasis Security'i 1 milyar dolara satın almayı kabul etti.",
+    "context": "Bir şirketin başka bir şirketi satın almasına 'acquire' denir. Genellikle daha büyük bir şirket, daha küçük veya stratejik bir şirketi bünyesine katarak pazar payını artırır veya yeni teknolojilere erişir. İş dünyasında sürekli karşına çıkacak bir terim!",
+    "options": [
+      "sell",
+      "merge",
+      "acquire",
+      "partner"
+    ],
+    "correctAnswer": "acquire",
     "category": "BUSINESS",
     "variations": [
-      "They applied for a research grant.",
-      "The university secured a substantial grant."
+      "Our company plans to acquire a competitor.",
+      "They hoped to acquire new talent by this deal."
     ]
   },
   {
-    "id": 126072811,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "What does 'on the front line' mean in a conflict context?",
-    "translation": "Bir çatışma bağlamında 'on the front line' ne anlama gelir?",
-    "context": "Aslında savaş veya çatışma durumlarında en öndeki, en tehlikeli bölgeyi ifade eder. Ama sadece fiziki savaşta değil, mecazi olarak da kullanılır. Mesela, bir hastalığa karşı savaşan sağlık çalışanları 'on the front line' diyebiliriz. Yani, işin en zorlu ve kritik yerinde olmak demek!",
-    "options": [
-      "In the most dangerous or active area of a conflict",
-      "Behind the main battle area, in safety",
-      "In a neutral zone between opposing forces",
-      "Observing the conflict from a distance"
-    ],
-    "correctAnswer": "In the most dangerous or active area of a conflict",
-    "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126072812,
+    "id": 126072908,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Many unique _____ are fighting for survival due to climate change.",
-    "translation": "Birçok eşsiz tür, iklim değişikliği nedeniyle hayatta kalmak için mücadele ediyor.",
-    "context": "Biyolojide 'species' bir türü ifade eder. Yani, ortak özellikleri olan ve birbiriyle üreyebilen canlıların oluşturduğu gruba denir. Örneğin, insan 'Homo sapiens' türündendir. Bilim ve çevre haberlerinde sıkça karşımıza çıkar, özellikle nesli tükenmekte olan hayvanlardan bahsederken kullanılır.",
+    "level": "INTERMEDIATE",
+    "phrase": "Mysterious deaths of elephants prompted an urgent _____.",
+    "translation": "Fillerin gizemli ölümleri acil bir soruşturmayı tetikledi.",
+    "context": "Bir olayın nedenini anlamak için yapılan detaylı araştırma veya soruşturmaya 'inquiry' denir. Genellikle resmi bir kurum tarafından başlatılır. Haberlerde sıkça duyabileceğin bu kelime, 'sorgulama' veya 'araştırma' anlamına gelir.",
     "options": [
-      "species",
-      "objects",
-      "concepts",
-      "structures"
+      "report",
+      "meeting",
+      "inquiry",
+      "protest"
     ],
-    "correctAnswer": "species",
+    "correctAnswer": "inquiry",
     "category": "MIXED",
     "variations": [
-      "This new species of bird was discovered recently.",
-      "Protecting endangered species is crucial."
+      "The police opened an inquiry into the accident.",
+      "A public inquiry was held to discuss the issue."
+    ]
+  },
+  {
+    "id": 126072909,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Four women _____ Jared Leto of criminal sexual conduct.",
+    "translation": "Dört kadın Jared Leto'yu cinsel tacizle suçladı.",
+    "context": "Birini yasal olarak suçlamak veya bir suçu işlediğini iddia etmek için 'accuse' kelimesini kullanırız. Genellikle ciddi iddialarda veya mahkeme süreçlerinde karşımıza çıkar. Haberlerde 'suçlamak' anlamında sıkça duyarsın.",
+    "options": [
+      "blamed",
+      "said",
+      "accused",
+      "criticized"
+    ],
+    "correctAnswer": "accused",
+    "category": "CASUAL",
+    "variations": [
+      "He was accused of stealing company secrets.",
+      "The witness accused the man of lying."
+    ]
+  },
+  {
+    "id": 126072910,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Japan is in a _____ against time to rescue quake victims.",
+    "translation": "Japonya, depremzedeleri kurtarmak için zamanla yarışıyor.",
+    "context": "'Zamanla yarışmak' deyimi, bir işi çok hızlı ve kısıtlı bir sürede tamamlamaya çalışmak anlamına gelir. Haberlerde, özellikle afet ve kurtarma operasyonlarında bu ifadeyi çok duyarsın. Hayatta bazen hepimiz 'race against time' durumuna düşeriz, değil mi?",
+    "options": [
+      "game",
+      "sprint",
+      "race",
+      "match"
+    ],
+    "correctAnswer": "race",
+    "category": "TRAVEL",
+    "variations": [
+      "Doctors were in a race against time to save his life.",
+      "The team is in a race against time to finish the project."
+    ]
+  },
+  {
+    "id": 126072911,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Runlayer _____ Rippling of stealing its product idea.",
+    "translation": "Runlayer, Rippling'i ürün fikrini çalmakla suçluyor.",
+    "context": "Bu kelime 'accused' ile benzer anlama gelir ama 'accuses' şimdiki zaman veya genel bir durumu ifade eder. Özellikle şirketler arası anlaşmazlıklarda, fikri mülkiyet hırsızlığı gibi konularda sıkça kullanılır. İş dünyası rekabeti bazen böyle iddialara yol açabilir.",
+    "options": [
+      "claims",
+      "accuses",
+      "blames",
+      "reports"
+    ],
+    "correctAnswer": "accuses",
+    "category": "BUSINESS",
+    "variations": [
+      "The company accuses its rival of patent infringement.",
+      "She often accuses her brother of eating her snacks."
+    ]
+  },
+  {
+    "id": 126072912,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Fauci's diary showed he _____ the COVID-19 death rate lower.",
+    "translation": "Fauci'nin günlüğü, COVID-19 ölüm oranını daha düşük tahmin ettiğini gösterdi.",
+    "context": "Bir şeyin değerini, miktarını veya boyutunu kabaca hesaplamak veya tahmin etmek için 'estimate' fiilini kullanırız. Genellikle eldeki verilere dayanarak yapılan bir 'tahmin' anlamına gelir. Bilimsel raporlarda, ekonomi haberlerinde veya günlük planlamada sıkça karşına çıkar.",
+    "options": [
+      "knew",
+      "stated",
+      "estimated",
+      "calculated"
+    ],
+    "correctAnswer": "estimated",
+    "category": "MIXED",
+    "variations": [
+      "We estimated the cost of the project at $10,000.",
+      "Can you estimate how long it will take?"
     ]
   }
 ]
