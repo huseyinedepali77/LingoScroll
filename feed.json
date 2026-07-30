@@ -1,242 +1,233 @@
 [
   {
-    "id": 126072901,
+    "id": 126073001,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Many people were _____ beneath the rubble after the quake.",
-    "translation": "Depremden sonra birçok insan enkaz altında mahsur kaldı.",
-    "context": "Bir felaket sonrası enkaz altında kalmak veya bir yerde sıkışıp kalmak için 'trapped' kelimesini kullanırız. Film izlerken ya da haberleri takip ederken sık sık duyabileceğin bu kelime, 'mahsur kalmak' anlamına gelir. Umarım kimse bu durumu yaşamaz!",
+    "phrase": "The 'firefighters' worked hard to control the _____.",
+    "translation": "İtfaiyeciler, orman yangınını kontrol altına almak için çok çalıştılar.",
+    "context": "Yazları haberlerde sıkça duyduğumuz, kocaman bir alanı yakan 'orman yangını' işte bu kelimeyle anlatılır. Maalesef son zamanlarda birçok ülkenin baş belası. İtfaiyeciler (firefighters) tam da bununla mücadele eder!",
     "options": [
-      "lost",
-      "stuck",
-      "trapped",
-      "hidden"
+      "wildfire",
+      "rain",
+      "flood",
+      "blizzard"
     ],
-    "correctAnswer": "trapped",
-    "category": "CASUAL",
-    "variations": [
-      "Rescuers found people trapped in the building.",
-      "Don't get trapped in a bad situation."
-    ]
-  },
-  {
-    "id": 126072902,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "South Korea ordered residents to _____ after a leak at the base.",
-    "translation": "Güney Kore, üste yaşanan sızıntı sonrası sakinlerin tahliye edilmesini emretti.",
-    "context": "Bir tehlike anında, örneğin bir yangın veya kimyasal sızıntı durumunda, insanların güvenli bir yere gitmesini istemeye 'evacuate' denir. Yani 'tahliye etmek' demek. Seyahat ederken böyle bir durumla karşılaşmaman dileğiyle!",
-    "options": [
-      "stay",
-      "gather",
-      "wait",
-      "evacuate"
-    ],
-    "correctAnswer": "evacuate",
+    "correctAnswer": "wildfire",
     "category": "TRAVEL",
     "variations": [
-      "We had to evacuate the hotel due to a fire.",
-      "The police evacuated the area quickly."
+      "Many regions are battling a huge _____.",
+      "We must protect our forests from _____."
     ]
   },
   {
-    "id": 126072903,
+    "id": 126073002,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The new bot-detection _____ nabs $200M from Insight.",
-    "translation": "Yeni bot algılama girişimi Insight'tan 200 milyon dolar kaptı.",
-    "context": "Yepisyeni bir iş fikriyle yola çıkan, genellikle teknoloji odaklı şirketlere 'startup' denir. Hani o ilk zamanlardaki heves, sınırsız enerji ve büyümeye açlık hali... İş dünyasında bu kelimeyi çok duyarsın. Belki senin de bir gün bir 'startup'ın olur, kim bilir?",
+    "phrase": "Microsoft is _____ with other tech giants.",
+    "translation": "Microsoft, diğer teknoloji devleriyle rekabet ediyor.",
+    "context": "İş dünyasında her zaman bir 'rekabet' vardır! Firmalar daha iyi ürünler sunmak için birbirleriyle yarışır. Eğer bir şirket başka bir şirketle yarışıyorsa, 'competing' diyebiliriz.",
     "options": [
-      "company",
-      "startup",
-      "firm",
-      "business"
+      "competing",
+      "collaborating",
+      "cooperating",
+      "agreeing"
     ],
-    "correctAnswer": "startup",
+    "correctAnswer": "competing",
     "category": "BUSINESS",
     "variations": [
-      "Many startups fail in their first year.",
-      "She works for a tech startup."
+      "They are _____ for market share.",
+      "Many brands are _____ for customers."
     ]
   },
   {
-    "id": 126072904,
+    "id": 126073003,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "How to see July's full _____ Moon as it rises.",
-    "translation": "Temmuz ayının yükselen dolunayını ('Buck Moon') nasıl görebilirsin.",
-    "context": "Her dolunayın bir adı var, tıpkı Temmuz dolunayı 'Buck Moon' gibi. Bu isimler genelde yerli kültürlerden veya mevsimsel olaylardan gelir. Gökyüzüne bakmayı seviyorsan bu tip terimler senin için harika bir bilgi kaynağı olabilir!",
+    "phrase": "A long _____ can cause water shortages.",
+    "translation": "Uzun süreli bir sıcak hava dalgası su kıtlığına neden olabilir.",
+    "context": "Yazın kavurucu sıcaklarını hepimiz biliriz! Hava sıcaklığının normalden çok daha yüksek seyrettiği uzun dönemlere 'heatwave' denir. Bu durum bazen su sıkıntısı ('drought') bile yaratabilir.",
     "options": [
-      "Blue",
-      "Red",
-      "Buck",
-      "Hunter's"
+      "heatwave",
+      "cold spell",
+      "breeze",
+      "storm"
     ],
-    "correctAnswer": "Buck",
-    "category": "MIXED",
-    "variations": [
-      "The full moon is often called the Buck Moon.",
-      "Have you seen the Buck Moon tonight?"
-    ]
-  },
-  {
-    "id": 126072905,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Mexican drug cartels have _____ meth labs to Nigeria.",
-    "translation": "Meksikalı uyuşturucu kartelleri metamfetamin laboratuvarlarını Nijerya'ya taşeron olarak verdiler.",
-    "context": "Bir işin, görevin veya üretimin başka bir şirkete veya ülkeye yaptırılmasına 'outsourced' denir. Yani 'taşeronluk yapmak' veya 'dış kaynak kullanmak'. Günümüz iş dünyasında, özellikle maliyet düşürme veya uzmanlık arayışı gibi nedenlerle çok yaygın bir pratik!",
-    "options": [
-      "moved",
-      "sent",
-      "outsourced",
-      "exported"
-    ],
-    "correctAnswer": "outsourced",
+    "correctAnswer": "heatwave",
     "category": "CASUAL",
     "variations": [
-      "Many companies outsource their customer service.",
-      "We decided to outsource our IT department."
+      "The city is experiencing a severe _____.",
+      "We are facing another _____ this summer."
     ]
   },
   {
-    "id": 126072906,
+    "id": 126073004,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "'Bir pozisyon için favori aday' anlamındaki İngilizce kelime hangisidir?",
+    "translation": "Frontrunner: Bir yarışta, seçimde veya bir pozisyon için en şanslı, en önde giden aday.",
+    "context": "Bir koşu yarışında en önde giden at, bir seçimde anketlerde önde olan siyasetçi veya bir iş pozisyonu için en güçlü aday... İşte bunların hepsi 'frontrunner' olarak adlandırılabilir! Yani 'favori' sensin!",
+    "options": [
+      "outsider",
+      "follower",
+      "frontrunner",
+      "underdog"
+    ],
+    "correctAnswer": "frontrunner",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126073005,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Drone footage showed extensive _____ _____ in Wisconsin.",
-    "translation": "Drone görüntüleri Wisconsin'deki geniş hortum hasarını gösterdi.",
-    "context": "Bir hortum (tornado) gibi doğal afetlerin yol açtığı yıkıma 'tornado damage' denir. Maalesef dünya genelinde sıkça rastlanan bu durum, evleri, binaları ve doğal yaşam alanlarını etkileyebilir. Seyahat ederken hava durumu raporlarına dikkat etmekte fayda var!",
+    "phrase": "Saudi Arabia faces a _____ trying to avoid war.",
+    "translation": "Suudi Arabistan, savaştan kaçınmaya çalışırken bir ikilemle karşı karşıya.",
+    "context": "Zorlu bir karar vermen gerektiğinde, her iki seçeneğin de hoşuna gitmediği bir durumda kaldığında işte bu 'ikilemi' yaşarsın. Yani 'iki ucu pis değnek' durumu!",
     "options": [
-      "windy destruction",
-      "storm effects",
-      "tornado damage",
-      "weather impact"
+      "solution",
+      "dilemma",
+      "opportunity",
+      "agreement"
     ],
-    "correctAnswer": "tornado damage",
+    "correctAnswer": "dilemma",
     "category": "TRAVEL",
     "variations": [
-      "The town suffered severe tornado damage.",
-      "Cleaning up after tornado damage is hard work."
+      "She was in a _____ about whether to stay or go.",
+      "It's a common _____ for many students."
     ]
   },
   {
-    "id": 126072907,
+    "id": 126073006,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Cyera agrees to _____ Oasis Security for $1B.",
-    "translation": "Cyera, Oasis Security'i 1 milyar dolara satın almayı kabul etti.",
-    "context": "Bir şirketin başka bir şirketi satın almasına 'acquire' denir. Genellikle daha büyük bir şirket, daha küçük veya stratejik bir şirketi bünyesine katarak pazar payını artırır veya yeni teknolojilere erişir. İş dünyasında sürekli karşına çıkacak bir terim!",
+    "phrase": "Zuckerberg predicts billions will have personal AI _____.",
+    "translation": "Zuckerberg, milyarlarca kişinin kişisel yapay zeka ajanlarına sahip olacağını tahmin ediyor.",
+    "context": "Yapay zeka asistanları gelecekte hayatımızın ayrılmaz bir parçası olacak gibi duruyor. Sana özel görevleri yerine getiren, senin adına işler yapan bu akıllı programlara 'agent' yani 'ajan' deniyor. Kulağa bilim kurgu filmlerinden fırlamış gibi değil mi?",
     "options": [
-      "sell",
-      "merge",
-      "acquire",
-      "partner"
+      "devices",
+      "agents",
+      "robots",
+      "programs"
     ],
-    "correctAnswer": "acquire",
+    "correctAnswer": "agents",
     "category": "BUSINESS",
     "variations": [
-      "Our company plans to acquire a competitor.",
-      "They hoped to acquire new talent by this deal."
+      "These AI _____ can simplify daily tasks.",
+      "We need more autonomous _____ to manage data."
     ]
   },
   {
-    "id": 126072908,
+    "id": 126073007,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Mysterious deaths of elephants prompted an urgent _____.",
-    "translation": "Fillerin gizemli ölümleri acil bir soruşturmayı tetikledi.",
-    "context": "Bir olayın nedenini anlamak için yapılan detaylı araştırma veya soruşturmaya 'inquiry' denir. Genellikle resmi bir kurum tarafından başlatılır. Haberlerde sıkça duyabileceğin bu kelime, 'sorgulama' veya 'araştırma' anlamına gelir.",
+    "phrase": "The brewery's alcohol permit was _____ after the controversial offer.",
+    "translation": "Birahanenin alkol ruhsatı, tartışmalı tekliften sonra iptal edildi.",
+    "context": "Eğer bir yetkin varsa ve bu yetkinin elinden alındığını düşünüyorsan, işte o zaman 'revoke' kelimesi aklına gelsin. Tıpkı bir sürücü belgesinin, bir lisansın veya iznin iptal edilmesi gibi.",
     "options": [
-      "report",
-      "meeting",
-      "inquiry",
-      "protest"
+      "granted",
+      "extended",
+      "revoked",
+      "approved"
     ],
-    "correctAnswer": "inquiry",
-    "category": "MIXED",
-    "variations": [
-      "The police opened an inquiry into the accident.",
-      "A public inquiry was held to discuss the issue."
-    ]
-  },
-  {
-    "id": 126072909,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Four women _____ Jared Leto of criminal sexual conduct.",
-    "translation": "Dört kadın Jared Leto'yu cinsel tacizle suçladı.",
-    "context": "Birini yasal olarak suçlamak veya bir suçu işlediğini iddia etmek için 'accuse' kelimesini kullanırız. Genellikle ciddi iddialarda veya mahkeme süreçlerinde karşımıza çıkar. Haberlerde 'suçlamak' anlamında sıkça duyarsın.",
-    "options": [
-      "blamed",
-      "said",
-      "accused",
-      "criticized"
-    ],
-    "correctAnswer": "accused",
+    "correctAnswer": "revoked",
     "category": "CASUAL",
     "variations": [
-      "He was accused of stealing company secrets.",
-      "The witness accused the man of lying."
+      "His license was _____ for reckless driving.",
+      "They plan to _____ the controversial law."
     ]
   },
   {
-    "id": 126072910,
+    "id": 126073008,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "'Değeri veya önemi yeterince anlaşılmayan' anlamındaki İngilizce kelime hangisidir?",
+    "translation": "Underappreciated: Hak ettiği değeri veya önemi yeterince görmeyen, kıymeti bilinmeyen.",
+    "context": "Bazen çok faydalı şeyler ya da çok iyi insanlar olur ama kimse onların değerini bilmez, hakkını teslim etmez. İşte o zaman 'underappreciated' deriz. Belki de senin de kıymeti bilinmeyen bir yeteneğin vardır, kim bilir!",
+    "options": [
+      "overrated",
+      "valued",
+      "appreciated",
+      "underappreciated"
+    ],
+    "correctAnswer": "underappreciated",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126073009,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Japan is in a _____ against time to rescue quake victims.",
-    "translation": "Japonya, depremzedeleri kurtarmak için zamanla yarışıyor.",
-    "context": "'Zamanla yarışmak' deyimi, bir işi çok hızlı ve kısıtlı bir sürede tamamlamaya çalışmak anlamına gelir. Haberlerde, özellikle afet ve kurtarma operasyonlarında bu ifadeyi çok duyarsın. Hayatta bazen hepimiz 'race against time' durumuna düşeriz, değil mi?",
+    "phrase": "Authorities are trying to _____ the devastating wildfires.",
+    "translation": "Yetkililer yıkıcı orman yangınlarıyla başa çıkmaya çalışıyor.",
+    "context": "Büyük ve zorlu bir sorunla karşılaştığında, onu çözmek veya onunla mücadele etmek için 'tackle' kelimesini kullanabilirsin. Bir rugby oyuncusunun rakibini yere indirmesi gibi, sorunları da 'tackle' ederiz! 'Devastating' ise 'yıkıcı, harap edici' demek.",
     "options": [
-      "game",
-      "sprint",
-      "race",
-      "match"
+      "ignore",
+      "avoid",
+      "tackle",
+      "create"
     ],
-    "correctAnswer": "race",
+    "correctAnswer": "tackle",
     "category": "TRAVEL",
     "variations": [
-      "Doctors were in a race against time to save his life.",
-      "The team is in a race against time to finish the project."
+      "The government needs to _____ climate change.",
+      "We must _____ the issue of plastic waste."
     ]
   },
   {
-    "id": 126072911,
+    "id": 126073010,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Runlayer _____ Rippling of stealing its product idea.",
-    "translation": "Runlayer, Rippling'i ürün fikrini çalmakla suçluyor.",
-    "context": "Bu kelime 'accused' ile benzer anlama gelir ama 'accuses' şimdiki zaman veya genel bir durumu ifade eder. Özellikle şirketler arası anlaşmazlıklarda, fikri mülkiyet hırsızlığı gibi konularda sıkça kullanılır. İş dünyası rekabeti bazen böyle iddialara yol açabilir.",
+    "phrase": "The investment was a '_____', with both good and bad results.",
+    "translation": "Yatırım, hem iyi hem kötü sonuçları olan 'karışık bir durumdu'.",
+    "context": "Hayatta bazen her şey istediğin gibi gitmez. Bir durumun veya projenin hem olumlu hem olumsuz yönleri varsa, o zaman bu durumu 'mixed bag' yani 'karışık bir torba' olarak nitelendirebilirsin. İçinden ne çıkacağı belli olmayan sürprizli bir çanta gibi düşün!",
     "options": [
-      "claims",
-      "accuses",
-      "blames",
-      "reports"
+      "success",
+      "mixed bag",
+      "disaster",
+      "pure profit"
     ],
-    "correctAnswer": "accuses",
+    "correctAnswer": "mixed bag",
     "category": "BUSINESS",
     "variations": [
-      "The company accuses its rival of patent infringement.",
-      "She often accuses her brother of eating her snacks."
+      "The job was a '_____', with good and bad aspects.",
+      "His performance was a '_____', sometimes great, sometimes poor."
     ]
   },
   {
-    "id": 126072912,
+    "id": 126073011,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Fauci's diary showed he _____ the COVID-19 death rate lower.",
-    "translation": "Fauci'nin günlüğü, COVID-19 ölüm oranını daha düşük tahmin ettiğini gösterdi.",
-    "context": "Bir şeyin değerini, miktarını veya boyutunu kabaca hesaplamak veya tahmin etmek için 'estimate' fiilini kullanırız. Genellikle eldeki verilere dayanarak yapılan bir 'tahmin' anlamına gelir. Bilimsel raporlarda, ekonomi haberlerinde veya günlük planlamada sıkça karşına çıkar.",
+    "phrase": "He warned that changes could _____ the state's delicate balance.",
+    "translation": "Değişikliklerin eyaletin hassas dengesini bozabileceği konusunda uyardı.",
+    "context": "Bir şeyi tamamen bozmak, mahvetmek veya harap etmek istediğinde 'wreck' kelimesini kullanabilirsin. Bir arabanın hurdaya dönmesi veya bir planın suya düşmesi gibi durumlarda çok uygun. 'Delicate balance' ise 'hassas denge' demek.",
     "options": [
-      "knew",
-      "stated",
-      "estimated",
-      "calculated"
+      "improve",
+      "wreck",
+      "maintain",
+      "enhance"
     ],
-    "correctAnswer": "estimated",
-    "category": "MIXED",
+    "correctAnswer": "wreck",
+    "category": "CASUAL",
     "variations": [
-      "We estimated the cost of the project at $10,000.",
-      "Can you estimate how long it will take?"
+      "The storm might _____ our carefully planned picnic.",
+      "Don't _____ your chances by being late."
     ]
+  },
+  {
+    "id": 126073012,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "'Şampiyonluğunu korumak' anlamındaki İngilizce ifade hangisidir?",
+    "translation": "Retain his title: Kazandığı şampiyonluğu veya unvanı muhafaza etmek, kaybetmemek.",
+    "context": "Bir sporcu veya takım, bir önceki sezon kazandığı şampiyonluğu tekrar kazanırsa, yani unvanını korursa, işte o zaman 'retain the title' yapmış olur. Yani kemerini kimseye kaptırmamak gibi!",
+    "options": [
+      "lose his title",
+      "win a new title",
+      "retain his title",
+      "give up his title"
+    ],
+    "correctAnswer": "retain his title",
+    "category": "MIXED",
+    "variations": []
   }
 ]
