@@ -1,232 +1,232 @@
 [
   {
-    "id": 126073001,
+    "id": 126080101,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The 'firefighters' worked hard to control the _____.",
-    "translation": "İtfaiyeciler, orman yangınını kontrol altına almak için çok çalıştılar.",
-    "context": "Yazları haberlerde sıkça duyduğumuz, kocaman bir alanı yakan 'orman yangını' işte bu kelimeyle anlatılır. Maalesef son zamanlarda birçok ülkenin baş belası. İtfaiyeciler (firefighters) tam da bununla mücadele eder!",
+    "phrase": "The recent _____ caused damage to the city.",
+    "translation": "Son saldırı şehre zarar verdi.",
+    "context": "'Strike' kelimesi sadece grev anlamına gelmez, aynı zamanda bir askeri saldırı veya hava saldırısı için de kullanılır. Haberlerde 'air strike' veya 'missile strike' olarak sıkça duyabilirsin. Düşün ki bir oyun oynuyorsun ve düşmana 'strike' yaptın!",
     "options": [
-      "wildfire",
-      "rain",
-      "flood",
-      "blizzard"
+      "strike",
+      "sleep",
+      "eat",
+      "play"
     ],
-    "correctAnswer": "wildfire",
-    "category": "TRAVEL",
-    "variations": [
-      "Many regions are battling a huge _____.",
-      "We must protect our forests from _____."
-    ]
-  },
-  {
-    "id": 126073002,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Microsoft is _____ with other tech giants.",
-    "translation": "Microsoft, diğer teknoloji devleriyle rekabet ediyor.",
-    "context": "İş dünyasında her zaman bir 'rekabet' vardır! Firmalar daha iyi ürünler sunmak için birbirleriyle yarışır. Eğer bir şirket başka bir şirketle yarışıyorsa, 'competing' diyebiliriz.",
-    "options": [
-      "competing",
-      "collaborating",
-      "cooperating",
-      "agreeing"
-    ],
-    "correctAnswer": "competing",
-    "category": "BUSINESS",
-    "variations": [
-      "They are _____ for market share.",
-      "Many brands are _____ for customers."
-    ]
-  },
-  {
-    "id": 126073003,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "A long _____ can cause water shortages.",
-    "translation": "Uzun süreli bir sıcak hava dalgası su kıtlığına neden olabilir.",
-    "context": "Yazın kavurucu sıcaklarını hepimiz biliriz! Hava sıcaklığının normalden çok daha yüksek seyrettiği uzun dönemlere 'heatwave' denir. Bu durum bazen su sıkıntısı ('drought') bile yaratabilir.",
-    "options": [
-      "heatwave",
-      "cold spell",
-      "breeze",
-      "storm"
-    ],
-    "correctAnswer": "heatwave",
+    "correctAnswer": "strike",
     "category": "CASUAL",
     "variations": [
-      "The city is experiencing a severe _____.",
-      "We are facing another _____ this summer."
+      "The army launched a new strike.",
+      "A sudden strike hit the area."
     ]
   },
   {
-    "id": 126073004,
+    "id": 126080102,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The company decided to _____ the old project.",
+    "translation": "Şirket eski projeyi iptal etmeye karar verdi.",
+    "context": "'Scrap' bir şeyi hurdaya çıkarmak, iptal etmek veya vazgeçmek anlamına gelir. Mesela eski arabayı hurdaya çıkarırsın (scrap the car) ya da kötü bir fikri iptal edersin (scrap the idea). İş dünyasında sıkça 'planı scrap etmek' şeklinde kullanılır.",
+    "options": [
+      "scrap",
+      "keep",
+      "start",
+      "approve"
+    ],
+    "correctAnswer": "scrap",
+    "category": "BUSINESS",
+    "variations": [
+      "They will scrap the old rules.",
+      "Let's scrap this bad idea."
+    ]
+  },
+  {
+    "id": 126080103,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "We will _____ our destination by noon.",
+    "translation": "Öğlene kadar hedefimize ulaşacağız.",
+    "context": "'Reach' bir yere ulaşmak, erişmek demektir. Otobüsle mi gidiyorsun? 'When will we reach there?' diye sorabilirsin. Yüksek bir raftaki kitaba uzanırken de 'Can you reach that book?' diyebilirsin. Varış noktana ulaşırken hissettiğin o tatlı yorgunluk hissi gibi!",
+    "options": [
+      "reach",
+      "leave",
+      "fail",
+      "miss"
+    ],
+    "correctAnswer": "reach",
+    "category": "TRAVEL",
+    "variations": [
+      "Did you reach the summit?",
+      "He tried to reach the top."
+    ]
+  },
+  {
+    "id": 126080104,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "'Bir pozisyon için favori aday' anlamındaki İngilizce kelime hangisidir?",
-    "translation": "Frontrunner: Bir yarışta, seçimde veya bir pozisyon için en şanslı, en önde giden aday.",
-    "context": "Bir koşu yarışında en önde giden at, bir seçimde anketlerde önde olan siyasetçi veya bir iş pozisyonu için en güçlü aday... İşte bunların hepsi 'frontrunner' olarak adlandırılabilir! Yani 'favori' sensin!",
+    "phrase": "'Mystery' kelimesinin Türkçe karşılığı nedir?",
+    "translation": "Gizem",
+    "context": "'Mystery' çözülmeyi bekleyen bir sır, bir gizem demektir. Dedektif romanları 'mystery novel' diye geçer. Eğer bir şeyin nedenini anlamadıysan, 'It's a complete mystery to me!' diyebilirsin. Pembe zebra deniz yosunu da tam bir gizemmiş!",
     "options": [
-      "outsider",
-      "follower",
-      "frontrunner",
-      "underdog"
+      "Sır",
+      "Bilim",
+      "Çözüm",
+      "Haber"
     ],
-    "correctAnswer": "frontrunner",
+    "correctAnswer": "Sır",
     "category": "MIXED",
     "variations": []
   },
   {
-    "id": 126073005,
+    "id": 126080105,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Saudi Arabia faces a _____ trying to avoid war.",
-    "translation": "Suudi Arabistan, savaştan kaçınmaya çalışırken bir ikilemle karşı karşıya.",
-    "context": "Zorlu bir karar vermen gerektiğinde, her iki seçeneğin de hoşuna gitmediği bir durumda kaldığında işte bu 'ikilemi' yaşarsın. Yani 'iki ucu pis değnek' durumu!",
+    "phrase": "He was _____ of stealing the money.",
+    "translation": "Parayı çalmakla suçlandı.",
+    "context": "'Accused' birini suçlamak demektir, genellikle resmi bir suçlama anlamına gelir. Polis birini bir suçla 'accuse' edebilir. Ama dikkat, 'accused' olmak suçlu olmak demek değildir, sadece suçlandın demektir. Tıpkı bir filmdeki masum karakter gibi!",
     "options": [
-      "solution",
-      "dilemma",
-      "opportunity",
-      "agreement"
+      "accused",
+      "praised",
+      "helped",
+      "thanked"
     ],
-    "correctAnswer": "dilemma",
-    "category": "TRAVEL",
-    "variations": [
-      "She was in a _____ about whether to stay or go.",
-      "It's a common _____ for many students."
-    ]
-  },
-  {
-    "id": 126073006,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Zuckerberg predicts billions will have personal AI _____.",
-    "translation": "Zuckerberg, milyarlarca kişinin kişisel yapay zeka ajanlarına sahip olacağını tahmin ediyor.",
-    "context": "Yapay zeka asistanları gelecekte hayatımızın ayrılmaz bir parçası olacak gibi duruyor. Sana özel görevleri yerine getiren, senin adına işler yapan bu akıllı programlara 'agent' yani 'ajan' deniyor. Kulağa bilim kurgu filmlerinden fırlamış gibi değil mi?",
-    "options": [
-      "devices",
-      "agents",
-      "robots",
-      "programs"
-    ],
-    "correctAnswer": "agents",
-    "category": "BUSINESS",
-    "variations": [
-      "These AI _____ can simplify daily tasks.",
-      "We need more autonomous _____ to manage data."
-    ]
-  },
-  {
-    "id": 126073007,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The brewery's alcohol permit was _____ after the controversial offer.",
-    "translation": "Birahanenin alkol ruhsatı, tartışmalı tekliften sonra iptal edildi.",
-    "context": "Eğer bir yetkin varsa ve bu yetkinin elinden alındığını düşünüyorsan, işte o zaman 'revoke' kelimesi aklına gelsin. Tıpkı bir sürücü belgesinin, bir lisansın veya iznin iptal edilmesi gibi.",
-    "options": [
-      "granted",
-      "extended",
-      "revoked",
-      "approved"
-    ],
-    "correctAnswer": "revoked",
+    "correctAnswer": "accused",
     "category": "CASUAL",
     "variations": [
-      "His license was _____ for reckless driving.",
-      "They plan to _____ the controversial law."
+      "She was accused of cheating.",
+      "The suspect was accused."
     ]
   },
   {
-    "id": 126073008,
+    "id": 126080106,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The new AI models started to _____ and caused problems.",
+    "translation": "Yeni yapay zeka modelleri çığırından çıkmaya başladı ve sorunlara neden oldu.",
+    "context": "'Run amok' veya 'ran amok' (geçmiş zamanı) bir şeyin kontrolden çıkması, delice hareket etmesi anlamına gelir. Mesela bir parti çok gürültülü olduğunda 'the party ran amok' diyebilirsin. Robotların kontrolden çıktığını düşün, işte tam da bu! Aman dikkat, teknoloji de bazen yaramazlık yapabilir.",
+    "options": [
+      "run amok",
+      "stay calm",
+      "work well",
+      "improve fast"
+    ],
+    "correctAnswer": "run amok",
+    "category": "BUSINESS",
+    "variations": [
+      "The crowd ran amok after the concert.",
+      "The kids ran amok in the store."
+    ]
+  },
+  {
+    "id": 126080107,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The team is _____ a big victory this season.",
+    "translation": "Takım bu sezon büyük bir zafer için doğru yolda.",
+    "context": "'On course for' bir hedefe doğru ilerlemek, o hedefe ulaşması muhtemel olmak demektir. Bir gemi hedefine doğru 'on course' gidebilir ya da bir proje 'on course for completion' (tamamlanmak üzere) olabilir. Başarılı bir yolculuk için kullanışlı bir ifade! Hedefine kilitlenmiş bir roket gibi düşünebilirsin.",
+    "options": [
+      "on course for",
+      "off track for",
+      "away from",
+      "far from"
+    ],
+    "correctAnswer": "on course for",
+    "category": "TRAVEL",
+    "variations": [
+      "We are on course for a record year.",
+      "The project is on course."
+    ]
+  },
+  {
+    "id": 126080108,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "'Değeri veya önemi yeterince anlaşılmayan' anlamındaki İngilizce kelime hangisidir?",
-    "translation": "Underappreciated: Hak ettiği değeri veya önemi yeterince görmeyen, kıymeti bilinmeyen.",
-    "context": "Bazen çok faydalı şeyler ya da çok iyi insanlar olur ama kimse onların değerini bilmez, hakkını teslim etmez. İşte o zaman 'underappreciated' deriz. Belki de senin de kıymeti bilinmeyen bir yeteneğin vardır, kim bilir!",
+    "phrase": "Spor müsabakalarında kazanılan en değerli madalyaya ne ad verilir?",
+    "translation": "Altın madalya",
+    "context": "Olimpiyatlar veya Commonwealth Games gibi büyük spor etkinliklerinde birinci olan sporculara 'gold medal' (altın madalya) verilir. İkinciye 'silver' (gümüş), üçüncüye 'bronze' (bronz) verilir. Kazanmak gibisi yok! O madalyayı boynuna taktığında tüm emeklerin taçlanır.",
     "options": [
-      "overrated",
-      "valued",
-      "appreciated",
-      "underappreciated"
+      "Gold",
+      "Silver",
+      "Bronze",
+      "Platinum"
     ],
-    "correctAnswer": "underappreciated",
+    "correctAnswer": "Gold",
     "category": "MIXED",
     "variations": []
   },
   {
-    "id": 126073009,
+    "id": 126080109,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Authorities are trying to _____ the devastating wildfires.",
-    "translation": "Yetkililer yıkıcı orman yangınlarıyla başa çıkmaya çalışıyor.",
-    "context": "Büyük ve zorlu bir sorunla karşılaştığında, onu çözmek veya onunla mücadele etmek için 'tackle' kelimesini kullanabilirsin. Bir rugby oyuncusunun rakibini yere indirmesi gibi, sorunları da 'tackle' ederiz! 'Devastating' ise 'yıkıcı, harap edici' demek.",
+    "phrase": "His actions were not _____ given the circumstances.",
+    "translation": "Eylemleri, koşullar göz önüne alındığında haklı değildi.",
+    "context": "'Justified' bir şeyin haklı, makul veya mantıklı olduğunu göstermek demektir. Birinin yaptığı kötü bir eylemi savunmak için 'It was justified because...' diyebilirler. Ama her zaman 'justified' olduğunu düşündüğün şey başkasınınkiyle aynı olmayabilir. Bir avukatın müvekkilini savunması gibi düşünebilirsin.",
     "options": [
-      "ignore",
-      "avoid",
-      "tackle",
-      "create"
+      "justified",
+      "criticized",
+      "supported",
+      "ignored"
     ],
-    "correctAnswer": "tackle",
-    "category": "TRAVEL",
-    "variations": [
-      "The government needs to _____ climate change.",
-      "We must _____ the issue of plastic waste."
-    ]
-  },
-  {
-    "id": 126073010,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The investment was a '_____', with both good and bad results.",
-    "translation": "Yatırım, hem iyi hem kötü sonuçları olan 'karışık bir durumdu'.",
-    "context": "Hayatta bazen her şey istediğin gibi gitmez. Bir durumun veya projenin hem olumlu hem olumsuz yönleri varsa, o zaman bu durumu 'mixed bag' yani 'karışık bir torba' olarak nitelendirebilirsin. İçinden ne çıkacağı belli olmayan sürprizli bir çanta gibi düşün!",
-    "options": [
-      "success",
-      "mixed bag",
-      "disaster",
-      "pure profit"
-    ],
-    "correctAnswer": "mixed bag",
-    "category": "BUSINESS",
-    "variations": [
-      "The job was a '_____', with good and bad aspects.",
-      "His performance was a '_____', sometimes great, sometimes poor."
-    ]
-  },
-  {
-    "id": 126073011,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "He warned that changes could _____ the state's delicate balance.",
-    "translation": "Değişikliklerin eyaletin hassas dengesini bozabileceği konusunda uyardı.",
-    "context": "Bir şeyi tamamen bozmak, mahvetmek veya harap etmek istediğinde 'wreck' kelimesini kullanabilirsin. Bir arabanın hurdaya dönmesi veya bir planın suya düşmesi gibi durumlarda çok uygun. 'Delicate balance' ise 'hassas denge' demek.",
-    "options": [
-      "improve",
-      "wreck",
-      "maintain",
-      "enhance"
-    ],
-    "correctAnswer": "wreck",
+    "correctAnswer": "justified",
     "category": "CASUAL",
     "variations": [
-      "The storm might _____ our carefully planned picnic.",
-      "Don't _____ your chances by being late."
+      "Is his anger justified?",
+      "The decision was fully justified."
     ]
   },
   {
-    "id": 126073012,
+    "id": 126080110,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The company's _____ started it in their garage.",
+    "translation": "Şirketin kurucuları onu garajlarında başlattı.",
+    "context": "'Founder' bir şirketi, kuruluşu veya şehri kuran kişidir. Mesela Google'ın 'founders'ı Larry Page ve Sergey Brin'dir. Silikon Vadisi, genç 'founders'ların başarı hikayelerini çok sever! Kendi işini kurmak istiyorsan sen de bir 'founder' olabilirsin. Hayallerinin peşinden koşan o cesur kişi!",
+    "options": [
+      "founders",
+      "employees",
+      "customers",
+      "investors"
+    ],
+    "correctAnswer": "founders",
+    "category": "BUSINESS",
+    "variations": [
+      "She is a co-founder of the startup.",
+      "The founders shared their vision."
+    ]
+  },
+  {
+    "id": 126080111,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "We traveled far to witness the rare ____.",
+    "translation": "Nadir güneş tutulmasına tanıklık etmek için uzağa seyahat ettik.",
+    "context": "'Solar eclipse' Türkçe'de 'güneş tutulması' demektir. Ay, Güneş ile Dünya arasına girdiğinde Güneş'i kapatır ve bu harika doğa olayını izlemek için insanlar bazen dünyanın dört bir yanına seyahat eder. Güneş gözlüğü takmayı unutma! Gökyüzünün en büyüleyici şovlarından biri!",
+    "options": [
+      "solar eclipse",
+      "full moon",
+      "meteor shower",
+      "northern lights"
+    ],
+    "correctAnswer": "solar eclipse",
+    "category": "TRAVEL",
+    "variations": [
+      "A total solar eclipse is a unique event.",
+      "We observed the solar eclipse safely."
+    ]
+  },
+  {
+    "id": 126080112,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "'Şampiyonluğunu korumak' anlamındaki İngilizce ifade hangisidir?",
-    "translation": "Retain his title: Kazandığı şampiyonluğu veya unvanı muhafaza etmek, kaybetmemek.",
-    "context": "Bir sporcu veya takım, bir önceki sezon kazandığı şampiyonluğu tekrar kazanırsa, yani unvanını korursa, işte o zaman 'retain the title' yapmış olur. Yani kemerini kimseye kaptırmamak gibi!",
+    "phrase": "'Open to' ifadesi ne anlama gelir?",
+    "translation": "Bir şeye açık olmak, göz önünde bulundurmaya istekli olmak",
+    "context": "'Open to' bir fikre, duruma veya olasılığa açık olmak, onu değerlendirmeye istekli olmak demektir. Mesela yeni fikirlere 'open to' olabilirsin. Real Madrid'in Vinicius Jr'ın ayrılığına 'open to' olması, bu ihtimali değerlendirecekleri anlamına geliyor. Karşılıklı diyaloglara açık bir beyin gibi düşün!",
     "options": [
-      "lose his title",
-      "win a new title",
-      "retain his title",
-      "give up his title"
+      "Kabul etmeye istekli olmak",
+      "Kesinlikle reddetmek",
+      "Bilgi sahibi olmamak",
+      "Anlaşmaya kapalı olmak"
     ],
-    "correctAnswer": "retain his title",
+    "correctAnswer": "Kabul etmeye istekli olmak",
     "category": "MIXED",
     "variations": []
   }
