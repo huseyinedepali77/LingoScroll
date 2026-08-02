@@ -1,232 +1,223 @@
 [
   {
-    "id": 126080101,
+    "id": 126080201,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The recent _____ caused damage to the city.",
-    "translation": "Son saldırı şehre zarar verdi.",
-    "context": "'Strike' kelimesi sadece grev anlamına gelmez, aynı zamanda bir askeri saldırı veya hava saldırısı için de kullanılır. Haberlerde 'air strike' veya 'missile strike' olarak sıkça duyabilirsin. Düşün ki bir oyun oynuyorsun ve düşmana 'strike' yaptın!",
+    "phrase": "He built a floating pub just _____.",
+    "translation": "Sadece eğlence olsun diye",
+    "context": "'For a bit of fun' demek, bir şeyi sadece eğlence olsun diye yapmak! Mesela, 'Canım sıkıldı, kendime bir robot süpürge aldım, just for a bit of fun!' diye arkadaşına hava atabilirsin. Yani, öyle büyük bir amacı yok, keyif için!",
     "options": [
-      "strike",
-      "sleep",
-      "eat",
-      "play"
+      "for fun",
+      "for a bit of fun",
+      "for good fun",
+      "for the fun"
     ],
-    "correctAnswer": "strike",
+    "correctAnswer": "for a bit of fun",
     "category": "CASUAL",
     "variations": [
-      "The army launched a new strike.",
-      "A sudden strike hit the area."
+      "She learned to juggle just for a bit of fun.",
+      "I started painting just for a bit of fun on weekends."
     ]
   },
   {
-    "id": 126080102,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The company decided to _____ the old project.",
-    "translation": "Şirket eski projeyi iptal etmeye karar verdi.",
-    "context": "'Scrap' bir şeyi hurdaya çıkarmak, iptal etmek veya vazgeçmek anlamına gelir. Mesela eski arabayı hurdaya çıkarırsın (scrap the car) ya da kötü bir fikri iptal edersin (scrap the idea). İş dünyasında sıkça 'planı scrap etmek' şeklinde kullanılır.",
-    "options": [
-      "scrap",
-      "keep",
-      "start",
-      "approve"
-    ],
-    "correctAnswer": "scrap",
-    "category": "BUSINESS",
-    "variations": [
-      "They will scrap the old rules.",
-      "Let's scrap this bad idea."
-    ]
-  },
-  {
-    "id": 126080103,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "We will _____ our destination by noon.",
-    "translation": "Öğlene kadar hedefimize ulaşacağız.",
-    "context": "'Reach' bir yere ulaşmak, erişmek demektir. Otobüsle mi gidiyorsun? 'When will we reach there?' diye sorabilirsin. Yüksek bir raftaki kitaba uzanırken de 'Can you reach that book?' diyebilirsin. Varış noktana ulaşırken hissettiğin o tatlı yorgunluk hissi gibi!",
-    "options": [
-      "reach",
-      "leave",
-      "fail",
-      "miss"
-    ],
-    "correctAnswer": "reach",
-    "category": "TRAVEL",
-    "variations": [
-      "Did you reach the summit?",
-      "He tried to reach the top."
-    ]
-  },
-  {
-    "id": 126080104,
+    "id": 126080202,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "'Mystery' kelimesinin Türkçe karşılığı nedir?",
-    "translation": "Gizem",
-    "context": "'Mystery' çözülmeyi bekleyen bir sır, bir gizem demektir. Dedektif romanları 'mystery novel' diye geçer. Eğer bir şeyin nedenini anlamadıysan, 'It's a complete mystery to me!' diyebilirsin. Pembe zebra deniz yosunu da tam bir gizemmiş!",
+    "phrase": "Which phrase means a warning for very hot weather?",
+    "translation": "Aşırı sıcak hava uyarısı",
+    "context": "'Heat alert' tam da İtalya'daki gibi aşırı sıcaklar için verilen bir uyarı. Tatil planları yaparken bu 'alert'leri takip etmek, bronzlaşmak yerine erimemek için önemli! Telefonuna sıcaklık uyarısı geldiğinde 'Heat alert!' diye bağırma, ama içinden geçirebilirsin.",
     "options": [
-      "Sır",
-      "Bilim",
-      "Çözüm",
-      "Haber"
+      "cold warning",
+      "weather watch",
+      "heat alert",
+      "storm notice"
     ],
-    "correctAnswer": "Sır",
+    "correctAnswer": "heat alert",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126080203,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The bank _____ due to unusual activity.",
+    "translation": "Bankanın hesapları kapattığını gösterir",
+    "context": "Bir banka 'hesapları kapatmak' yani 'closed accounts' dediğinde, genellikle ortada tuhaf bir şeyler dönüyor demektir. Senin hesabın kapanırsa paniğe kapılma hemen, belki sadece yanlış şifre girdin çok kez! Ama büyük şirketler için bu, 'Para aklama soruşturması' gibi ciddi şeylerin işareti olabilir.",
+    "options": [
+      "opened accounts",
+      "closed accounts",
+      "checked accounts",
+      "reviewed accounts"
+    ],
+    "correctAnswer": "closed accounts",
+    "category": "BUSINESS",
+    "variations": [
+      "They decided to close all accounts. They're not doing business anymore.",
+      "The company closed its accounts after the merger."
+    ]
+  },
+  {
+    "id": 126080204,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "What do we call people moving across borders?",
+    "translation": "Sınırlar arası hareket eden insanları ifade eder",
+    "context": "'Migrant crossings' ifadesi, insanların bir ülkeden diğerine geçiş yapması anlamına gelir, özellikle de zorlu veya yasa dışı yollarla. Göçmenler, yeni bir hayat kurmak için sınırlar ötesine geçerken birçok zorlukla karşılaşabilir. 'Sınır geçişleri' diye düşünebilirsin.",
+    "options": [
+      "tourist trips",
+      "border patrols",
+      "migrant crossings",
+      "traveler routes"
+    ],
+    "correctAnswer": "migrant crossings",
     "category": "MIXED",
     "variations": []
   },
   {
-    "id": 126080105,
+    "id": 126080205,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "He was _____ of stealing the money.",
-    "translation": "Parayı çalmakla suçlandı.",
-    "context": "'Accused' birini suçlamak demektir, genellikle resmi bir suçlama anlamına gelir. Polis birini bir suçla 'accuse' edebilir. Ama dikkat, 'accused' olmak suçlu olmak demek değildir, sadece suçlandın demektir. Tıpkı bir filmdeki masum karakter gibi!",
+    "phrase": "The startup culture often leads to _____. ",
+    "translation": "Şirket kurucusunun aşırı çalışmaktan tükenmesi",
+    "context": "'Founder burnout' demek, bir şirketin kurucusunun aşırı çalışma ve stres yüzünden tükenmesi demek. Silikon Vadisi'nde bu çok yaygın. 'Biraz daha uyusam, bir şeyler icat edebilirim' diyen girişimci arkadaşlarını düşün, onlar potansiyel 'burnout' adayı!",
     "options": [
-      "accused",
-      "praised",
-      "helped",
-      "thanked"
+      "founder success",
+      "founder innovation",
+      "founder burnout",
+      "founder growth"
     ],
-    "correctAnswer": "accused",
-    "category": "CASUAL",
-    "variations": [
-      "She was accused of cheating.",
-      "The suspect was accused."
-    ]
-  },
-  {
-    "id": 126080106,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The new AI models started to _____ and caused problems.",
-    "translation": "Yeni yapay zeka modelleri çığırından çıkmaya başladı ve sorunlara neden oldu.",
-    "context": "'Run amok' veya 'ran amok' (geçmiş zamanı) bir şeyin kontrolden çıkması, delice hareket etmesi anlamına gelir. Mesela bir parti çok gürültülü olduğunda 'the party ran amok' diyebilirsin. Robotların kontrolden çıktığını düşün, işte tam da bu! Aman dikkat, teknoloji de bazen yaramazlık yapabilir.",
-    "options": [
-      "run amok",
-      "stay calm",
-      "work well",
-      "improve fast"
-    ],
-    "correctAnswer": "run amok",
+    "correctAnswer": "founder burnout",
     "category": "BUSINESS",
     "variations": [
-      "The crowd ran amok after the concert.",
-      "The kids ran amok in the store."
+      "Working too many hours can cause severe burnout.",
+      "To avoid burnout, leaders should prioritize self-care."
     ]
   },
   {
-    "id": 126080107,
-    "type": "QUIZ_COMPLETION",
+    "id": 126080206,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "The team is _____ a big victory this season.",
-    "translation": "Takım bu sezon büyük bir zafer için doğru yolda.",
-    "context": "'On course for' bir hedefe doğru ilerlemek, o hedefe ulaşması muhtemel olmak demektir. Bir gemi hedefine doğru 'on course' gidebilir ya da bir proje 'on course for completion' (tamamlanmak üzere) olabilir. Başarılı bir yolculuk için kullanışlı bir ifade! Hedefine kilitlenmiş bir roket gibi düşünebilirsin.",
+    "phrase": "Which idiom means 'likely to achieve or experience something'?",
+    "translation": "Bir şeyi başarmak ya da deneyimlemek yolunda olmak anlamına gelir",
+    "context": "'On course for' ifadesi, 'bir şeyi başarmak veya deneyimlemek yolunda olmak' demektir. Mesela, 'Türkiye, bu yıl rekor turizm geliri elde etme yolunda ilerliyor' derken 'Turkey is on course for record tourism revenue' diyebiliriz. Yani, belirlenen hedefe doğru emin adımlarla gitmek!",
     "options": [
+      "off track from",
       "on course for",
-      "off track for",
-      "away from",
-      "far from"
+      "behind schedule for",
+      "away from"
     ],
     "correctAnswer": "on course for",
     "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126080207,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The witness decided to _____ during the hearing.",
+    "translation": "Susma hakkını kullanmak",
+    "context": "'Plead the Fifth', Amerika'da yasal bir terimdir. Kendini suçlayıcı bir ifade vermemek için 5. Anayasa değişikliğine dayanarak sessiz kalma hakkını kullanmak anlamına gelir. Türkçe'de 'susma hakkını kullanmak' gibi düşünebilirsin. Mahkemede köşeye sıkışınca 'Fifth Amendment!' diye bağırmak cool durabilir ama işe yaramayabilir, sadece bir hatırlatma!",
+    "options": [
+      "testify fully",
+      "plead the Fifth",
+      "answer all questions",
+      "reveal everything"
+    ],
+    "correctAnswer": "plead the Fifth",
+    "category": "CASUAL",
     "variations": [
-      "We are on course for a record year.",
-      "The project is on course."
+      "He chose to plead the Fifth to avoid self-incrimination.",
+      "No one can force a person to plead the Fifth."
     ]
   },
   {
-    "id": 126080108,
+    "id": 126080208,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Spor müsabakalarında kazanılan en değerli madalyaya ne ad verilir?",
-    "translation": "Altın madalya",
-    "context": "Olimpiyatlar veya Commonwealth Games gibi büyük spor etkinliklerinde birinci olan sporculara 'gold medal' (altın madalya) verilir. İkinciye 'silver' (gümüş), üçüncüye 'bronze' (bronz) verilir. Kazanmak gibisi yok! O madalyayı boynuna taktığında tüm emeklerin taçlanır.",
+    "phrase": "What does 'give back' mean when helping a community or environment?",
+    "translation": "Topluma veya çevreye destek olmak, iyilik yapmak",
+    "context": "'Give back' demek, topluma veya çevreye karşı bir nevi 'borcunu ödemek', iyilik yapmak ya da destek olmak demek. Mesela, okyanus sana huzur verdiyse, sen de 'give back' yapıp plastik toplamaya gönüllü olabilirsin. Yani, aldığın şeylerin karşılığını iyilikle geri vermek.",
     "options": [
-      "Gold",
-      "Silver",
-      "Bronze",
-      "Platinum"
+      "return an item",
+      "repay a loan",
+      "give back",
+      "hand over"
     ],
-    "correctAnswer": "Gold",
+    "correctAnswer": "give back",
     "category": "MIXED",
     "variations": []
   },
   {
-    "id": 126080109,
+    "id": 126080209,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "His actions were not _____ given the circumstances.",
-    "translation": "Eylemleri, koşullar göz önüne alındığında haklı değildi.",
-    "context": "'Justified' bir şeyin haklı, makul veya mantıklı olduğunu göstermek demektir. Birinin yaptığı kötü bir eylemi savunmak için 'It was justified because...' diyebilirler. Ama her zaman 'justified' olduğunu düşündüğün şey başkasınınkiyle aynı olmayabilir. Bir avukatın müvekkilini savunması gibi düşünebilirsin.",
+    "phrase": "The judge _____ to block the new regulation.",
+    "translation": "Talebi reddetti",
+    "context": "'Denies a request', bir talebi 'reddetmek' anlamına gelir. Özellikle yasal veya resmi durumlarda sıkça kullanılır. Bir şirketin bir yasağı kaldırma isteğinin reddedilmesi gibi... Yani, 'Hayır, isteğin kabul edilmedi, kapıdan geri dön' demenin daha resmi yolu.",
     "options": [
-      "justified",
-      "criticized",
-      "supported",
-      "ignored"
+      "granted a request",
+      "approved a request",
+      "denies a request",
+      "considered a request"
     ],
-    "correctAnswer": "justified",
-    "category": "CASUAL",
-    "variations": [
-      "Is his anger justified?",
-      "The decision was fully justified."
-    ]
-  },
-  {
-    "id": 126080110,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The company's _____ started it in their garage.",
-    "translation": "Şirketin kurucuları onu garajlarında başlattı.",
-    "context": "'Founder' bir şirketi, kuruluşu veya şehri kuran kişidir. Mesela Google'ın 'founders'ı Larry Page ve Sergey Brin'dir. Silikon Vadisi, genç 'founders'ların başarı hikayelerini çok sever! Kendi işini kurmak istiyorsan sen de bir 'founder' olabilirsin. Hayallerinin peşinden koşan o cesur kişi!",
-    "options": [
-      "founders",
-      "employees",
-      "customers",
-      "investors"
-    ],
-    "correctAnswer": "founders",
+    "correctAnswer": "denies a request",
     "category": "BUSINESS",
     "variations": [
-      "She is a co-founder of the startup.",
-      "The founders shared their vision."
+      "The court denied her request for an appeal.",
+      "The board denies all requests without proper documentation."
     ]
   },
   {
-    "id": 126080111,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "We traveled far to witness the rare ____.",
-    "translation": "Nadir güneş tutulmasına tanıklık etmek için uzağa seyahat ettik.",
-    "context": "'Solar eclipse' Türkçe'de 'güneş tutulması' demektir. Ay, Güneş ile Dünya arasına girdiğinde Güneş'i kapatır ve bu harika doğa olayını izlemek için insanlar bazen dünyanın dört bir yanına seyahat eder. Güneş gözlüğü takmayı unutma! Gökyüzünün en büyüleyici şovlarından biri!",
-    "options": [
-      "solar eclipse",
-      "full moon",
-      "meteor shower",
-      "northern lights"
-    ],
-    "correctAnswer": "solar eclipse",
-    "category": "TRAVEL",
-    "variations": [
-      "A total solar eclipse is a unique event.",
-      "We observed the solar eclipse safely."
-    ]
-  },
-  {
-    "id": 126080112,
+    "id": 126080210,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "'Open to' ifadesi ne anlama gelir?",
-    "translation": "Bir şeye açık olmak, göz önünde bulundurmaya istekli olmak",
-    "context": "'Open to' bir fikre, duruma veya olasılığa açık olmak, onu değerlendirmeye istekli olmak demektir. Mesela yeni fikirlere 'open to' olabilirsin. Real Madrid'in Vinicius Jr'ın ayrılığına 'open to' olması, bu ihtimali değerlendirecekleri anlamına geliyor. Karşılıklı diyaloglara açık bir beyin gibi düşün!",
+    "phrase": "Which word describes something difficult to find or catch?",
+    "translation": "Bulunması veya yakalanması zor olan",
+    "context": "'Elusive', bulunması veya yakalanması zor, ele avuca sığmaz şeyler için kullanılır. Okyanusun derinliklerindeki 'pembe zebra yosunu' gibi... Sanki saklambaç oynayan hayalet gibi bir şey! Eğer aradığın otel bir türlü çıkmıyorsa haritada, 'It's so elusive!' diye sızlanabilirsin.",
     "options": [
-      "Kabul etmeye istekli olmak",
-      "Kesinlikle reddetmek",
-      "Bilgi sahibi olmamak",
-      "Anlaşmaya kapalı olmak"
+      "common",
+      "obvious",
+      "elusive",
+      "accessible"
     ],
-    "correctAnswer": "Kabul etmeye istekli olmak",
+    "correctAnswer": "elusive",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126080211,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Social media _____ a political storm.",
+    "translation": "Hızlı ve yoğun bir şekilde bir fırtına başlattı",
+    "context": "'Whip up' ifadesi, bir şeyi hızlıca ve yoğun bir şekilde 'ortaya çıkarmak', 'kışkırtmak' veya 'canlandırmak' anlamına gelir. Fırtına gibi, duyguları, tartışmaları veya siyasi olayları aniden alevlendirmek. Mesela, 'Dedikodular tüm kasabayı bir anda karıştırdı!' derken 'Rumors whipped up the whole town!' diyebilirsin.",
+    "options": [
+      "calmed down",
+      "whipped up",
+      "smoothed over",
+      "toned down"
+    ],
+    "correctAnswer": "whipped up",
+    "category": "CASUAL",
+    "variations": [
+      "The chef can whip up a delicious meal in minutes.",
+      "His speech whipped up a lot of enthusiasm among the crowd."
+    ]
+  },
+  {
+    "id": 126080212,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "What describes a performance showing great superiority and control in a game?",
+    "translation": "Bir oyunda büyük üstünlük ve kontrol gösteren bir performansı tanımlar",
+    "context": "'Dominant display' demek, bir spor karşılaşmasında bir takımın veya sporcunun rakibine karşı açık ara üstünlük sağlaması, oyunu tamamen kontrol etmesi demektir. 'Ezici bir performans' diye çevirebiliriz. Futbol maçında rakibi sahadan sildiğinde 'What a dominant display!' diyebilirsin.",
+    "options": [
+      "poor showing",
+      "dominant display",
+      "mediocre effort",
+      "average game"
+    ],
+    "correctAnswer": "dominant display",
     "category": "MIXED",
     "variations": []
   }
