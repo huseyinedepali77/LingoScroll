@@ -1,224 +1,227 @@
 [
   {
-    "id": 126080201,
+    "id": 126080301,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "He built a floating pub just _____.",
-    "translation": "Sadece eğlence olsun diye",
-    "context": "'For a bit of fun' demek, bir şeyi sadece eğlence olsun diye yapmak! Mesela, 'Canım sıkıldı, kendime bir robot süpürge aldım, just for a bit of fun!' diye arkadaşına hava atabilirsin. Yani, öyle büyük bir amacı yok, keyif için!",
+    "phrase": "Many European cities are on the highest heat _____.",
+    "translation": "'Alert' kelimesi 'uyarı' anlamına gelir.",
+    "context": "Yazın Avrupa'da tatil yaparken hava durumu uyarılarına dikkat! 'Heat alert' veya 'heatwave' terimleri sıcak hava dalgalarını ifade eder. Güneş kremini unutma!",
     "options": [
-      "for fun",
-      "for a bit of fun",
-      "for good fun",
-      "for the fun"
+      "alert",
+      "cold",
+      "rain",
+      "snow"
     ],
-    "correctAnswer": "for a bit of fun",
-    "category": "CASUAL",
+    "correctAnswer": "alert",
+    "category": "TRAVEL",
     "variations": [
-      "She learned to juggle just for a bit of fun.",
-      "I started painting just for a bit of fun on weekends."
+      "Italy put major cities on highest heat _____.",
+      "Travelers should check for heat _____ before going."
     ]
   },
   {
-    "id": 126080202,
+    "id": 126080302,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "Which phrase means a warning for very hot weather?",
-    "translation": "Aşırı sıcak hava uyarısı",
-    "context": "'Heat alert' tam da İtalya'daki gibi aşırı sıcaklar için verilen bir uyarı. Tatil planları yaparken bu 'alert'leri takip etmek, bronzlaşmak yerine erimemek için önemli! Telefonuna sıcaklık uyarısı geldiğinde 'Heat alert!' diye bağırma, ama içinden geçirebilirsin.",
+    "phrase": "Malaysia is reportedly shutting down a private school. Which word means to close a business permanently?",
+    "translation": "Bir işi veya kurumu kalıcı olarak kapatmak.",
+    "context": "Bir iş yeri, okul veya kurum 'shut down' olduğunda, kapılarına kilit vurulur. Kötü bir haber genelde ama bazen de yeni bir başlangıç için olur, kim bilir?",
     "options": [
-      "cold warning",
-      "weather watch",
-      "heat alert",
-      "storm notice"
+      "open up",
+      "grow up",
+      "shut down",
+      "speed up"
     ],
-    "correctAnswer": "heat alert",
-    "category": "TRAVEL",
+    "correctAnswer": "shut down",
+    "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126080203,
+    "id": 126080303,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The bank _____ due to unusual activity.",
-    "translation": "Bankanın hesapları kapattığını gösterir",
-    "context": "Bir banka 'hesapları kapatmak' yani 'closed accounts' dediğinde, genellikle ortada tuhaf bir şeyler dönüyor demektir. Senin hesabın kapanırsa paniğe kapılma hemen, belki sadece yanlış şifre girdin çok kez! Ama büyük şirketler için bu, 'Para aklama soruşturması' gibi ciddi şeylerin işareti olabilir.",
+    "phrase": "Aung San Suu Kyi made her first _____ contact in years.",
+    "translation": "'Outside' kelimesi 'dışarıda' veya 'dış' anlamına gelir.",
+    "context": "Biri uzun süre dış dünyayla bağlantı kuramadığında, 'outside contact' terimi kullanılır. Sanki mağarada yaşamış gibi, dünya ile yeniden buluşmak!",
     "options": [
-      "opened accounts",
-      "closed accounts",
-      "checked accounts",
-      "reviewed accounts"
+      "outside",
+      "inside",
+      "secret",
+      "phone"
     ],
-    "correctAnswer": "closed accounts",
-    "category": "BUSINESS",
+    "correctAnswer": "outside",
+    "category": "CASUAL",
     "variations": [
-      "They decided to close all accounts. They're not doing business anymore.",
-      "The company closed its accounts after the merger."
+      "She had no _____ contact with the world for a long time.",
+      "The report confirmed her first _____ contact in 2.5 years."
     ]
   },
   {
-    "id": 126080204,
+    "id": 126080304,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "What do we call people moving across borders?",
-    "translation": "Sınırlar arası hareket eden insanları ifade eder",
-    "context": "'Migrant crossings' ifadesi, insanların bir ülkeden diğerine geçiş yapması anlamına gelir, özellikle de zorlu veya yasa dışı yollarla. Göçmenler, yeni bir hayat kurmak için sınırlar ötesine geçerken birçok zorlukla karşılaşabilir. 'Sınır geçişleri' diye düşünebilirsin.",
+    "phrase": "Newcastle United announced they will _____ a new goalkeeper. Which word means to formally agree to employ someone, especially for a sports team?",
+    "translation": "Bir anlaşma imzalamak, işe almak veya sözleşme yapmak.",
+    "context": "Futbol transfer dönemlerinde bu kelimeyi çok duyarsın! Bir takım yeni bir oyuncuyla sözleşme imzaladığında 'sign' eder. İmza şovunu ve yeni formayı unutma!",
     "options": [
-      "tourist trips",
-      "border patrols",
-      "migrant crossings",
-      "traveler routes"
+      "dismiss",
+      "release",
+      "sign",
+      "ignore"
     ],
-    "correctAnswer": "migrant crossings",
+    "correctAnswer": "sign",
     "category": "MIXED",
     "variations": []
   },
   {
-    "id": 126080205,
+    "id": 126080305,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The startup culture often leads to _____. ",
-    "translation": "Şirket kurucusunun aşırı çalışmaktan tükenmesi",
-    "context": "'Founder burnout' demek, bir şirketin kurucusunun aşırı çalışma ve stres yüzünden tükenmesi demek. Silikon Vadisi'nde bu çok yaygın. 'Biraz daha uyusam, bir şeyler icat edebilirim' diyen girişimci arkadaşlarını düşün, onlar potansiyel 'burnout' adayı!",
+    "phrase": "For robotaxis, two roads have _____.",
+    "translation": "'Diverged' kelimesi 'ayrılmış' veya 'farklı yönlere gitmiş' anlamına gelir.",
+    "context": "'Two roads diverged in a yellow wood...' diye başlayan Robert Frost şiirini duymuşsundur. Bir konuda farklı yönlere gidildiğinde 'diverged' kelimesi kullanılır. Yani yollar ayrılmış, şimdi karar verme zamanı!",
     "options": [
-      "founder success",
-      "founder innovation",
-      "founder burnout",
-      "founder growth"
+      "merged",
+      "diverged",
+      "connected",
+      "met"
     ],
-    "correctAnswer": "founder burnout",
+    "correctAnswer": "diverged",
+    "category": "TRAVEL",
+    "variations": [
+      "Their paths _____ after college.",
+      "The debate showed two _____ views on the topic."
+    ]
+  },
+  {
+    "id": 126080306,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The global memory shortage _____ the MacBook Air.",
+    "translation": "'Hits' kelimesi 'etkiler', 'vurur' anlamına gelir ve genellikle olumsuz bir etkiyi ifade eder.",
+    "context": "Bir şey bir sektörü, ürünü veya kişiyi kötü etkilediğinde 'hit' fiili kullanılır. Sanki yumruk yemiş gibi! Küresel bir sorun, en sevdiğin teknolojik ürünü bile etkileyebilir.",
+    "options": [
+      "helps",
+      "misses",
+      "hits",
+      "avoids"
+    ],
+    "correctAnswer": "hits",
     "category": "BUSINESS",
     "variations": [
-      "Working too many hours can cause severe burnout.",
-      "To avoid burnout, leaders should prioritize self-care."
+      "The new policy _____ small businesses hard.",
+      "The drought _____ farmers severely this year."
     ]
   },
   {
-    "id": 126080206,
+    "id": 126080307,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Which idiom means 'likely to achieve or experience something'?",
-    "translation": "Bir şeyi başarmak ya da deneyimlemek yolunda olmak anlamına gelir",
-    "context": "'On course for' ifadesi, 'bir şeyi başarmak veya deneyimlemek yolunda olmak' demektir. Mesela, 'Türkiye, bu yıl rekor turizm geliri elde etme yolunda ilerliyor' derken 'Turkey is on course for record tourism revenue' diyebiliriz. Yani, belirlenen hedefe doğru emin adımlarla gitmek!",
+    "phrase": "The free diver wants to _____ to the ocean that helped him. Which phrase means to repay kindness or help?",
+    "translation": "İyilikle karşılık vermek, minnettarlığını göstermek.",
+    "context": "'Give back', sana yardım eden birine veya bir topluluğa iyilikle karşılık vermek demektir. Mesela, okulun sana çok şey öğrettiyse, mezun olduktan sonra okuluna 'give back' yapabilirsin. İyiliksever olmanın en güzel yolu!",
     "options": [
-      "off track from",
-      "on course for",
-      "behind schedule for",
-      "away from"
-    ],
-    "correctAnswer": "on course for",
-    "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126080207,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The witness decided to _____ during the hearing.",
-    "translation": "Susma hakkını kullanmak",
-    "context": "'Plead the Fifth', Amerika'da yasal bir terimdir. Kendini suçlayıcı bir ifade vermemek için 5. Anayasa değişikliğine dayanarak sessiz kalma hakkını kullanmak anlamına gelir. Türkçe'de 'susma hakkını kullanmak' gibi düşünebilirsin. Mahkemede köşeye sıkışınca 'Fifth Amendment!' diye bağırmak cool durabilir ama işe yaramayabilir, sadece bir hatırlatma!",
-    "options": [
-      "testify fully",
-      "plead the Fifth",
-      "answer all questions",
-      "reveal everything"
-    ],
-    "correctAnswer": "plead the Fifth",
-    "category": "CASUAL",
-    "variations": [
-      "He chose to plead the Fifth to avoid self-incrimination.",
-      "No one can force a person to plead the Fifth."
-    ]
-  },
-  {
-    "id": 126080208,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "What does 'give back' mean when helping a community or environment?",
-    "translation": "Topluma veya çevreye destek olmak, iyilik yapmak",
-    "context": "'Give back' demek, topluma veya çevreye karşı bir nevi 'borcunu ödemek', iyilik yapmak ya da destek olmak demek. Mesela, okyanus sana huzur verdiyse, sen de 'give back' yapıp plastik toplamaya gönüllü olabilirsin. Yani, aldığın şeylerin karşılığını iyilikle geri vermek.",
-    "options": [
-      "return an item",
-      "repay a loan",
+      "take away",
       "give back",
-      "hand over"
+      "throw out",
+      "pass by"
     ],
     "correctAnswer": "give back",
-    "category": "MIXED",
+    "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126080209,
+    "id": 126080308,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The judge _____ to block the new regulation.",
-    "translation": "Talebi reddetti",
-    "context": "'Denies a request', bir talebi 'reddetmek' anlamına gelir. Özellikle yasal veya resmi durumlarda sıkça kullanılır. Bir şirketin bir yasağı kaldırma isteğinin reddedilmesi gibi... Yani, 'Hayır, isteğin kabul edilmedi, kapıdan geri dön' demenin daha resmi yolu.",
+    "level": "INTERMEDIATE",
+    "phrase": "The city was _____ by deadly protests.",
+    "translation": "'Gripped' kelimesi 'kavranmış', 'sarmalanmış' anlamına gelir.",
+    "context": "Bir şehir veya topluluk yoğun bir olayla, duyguyla (korku, üzüntü, öfke gibi) sarsıldığında veya ele geçirildiğinde 'gripped by' kullanılır. Sanki bir el şehri kavramış da bırakmıyor gibi!",
     "options": [
-      "granted a request",
-      "approved a request",
-      "denies a request",
-      "considered a request"
+      "released",
+      "ignored",
+      "untouched",
+      "gripped"
     ],
-    "correctAnswer": "denies a request",
-    "category": "BUSINESS",
+    "correctAnswer": "gripped",
+    "category": "MIXED",
     "variations": [
-      "The court denied her request for an appeal.",
-      "The board denies all requests without proper documentation."
+      "The country was _____ by fear after the incident.",
+      "She was _____ by a sudden sadness."
     ]
   },
   {
-    "id": 126080210,
+    "id": 126080309,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Which word describes something difficult to find or catch?",
-    "translation": "Bulunması veya yakalanması zor olan",
-    "context": "'Elusive', bulunması veya yakalanması zor, ele avuca sığmaz şeyler için kullanılır. Okyanusun derinliklerindeki 'pembe zebra yosunu' gibi... Sanki saklambaç oynayan hayalet gibi bir şey! Eğer aradığın otel bir türlü çıkmıyorsa haritada, 'It's so elusive!' diye sızlanabilirsin.",
+    "phrase": "US and Japan took action to _____ the yen. What does it mean to `prop up` an economy or currency?",
+    "translation": "Finansal olarak desteklemek, ayakta tutmak.",
+    "context": "Bir şeyin (genelde ekonomi veya para biriminin) düşmesini engellemek, desteklemek için 'prop up' denir. Düşmek üzere olan bir şeyi bir destekle ayakta tutmak gibi düşünebilirsin. Seyahat ederken para birimlerinin değeri senin için önemli olabilir!",
+    "options": [
+      "cause to fall",
+      "support financially",
+      "criticize publicly",
+      "ignore completely"
+    ],
+    "correctAnswer": "support financially",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126080310,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Accounts were closed after an anti-money laundering _____.",
+    "translation": "'Probe' kelimesi 'soruşturma', 'derinlemesine inceleme' anlamına gelir.",
+    "context": "Bir 'probe' aslında detaylı ve derinlemesine bir soruşturma veya inceleme demektir. Dedektiflerin suçluları bulmak için yaptığı gibi düşünebilirsin. Özellikle finans sektöründe ve hukuki durumlarda çok kullanılır!",
+    "options": [
+      "celebration",
+      "closure",
+      "probe",
+      "agreement"
+    ],
+    "correctAnswer": "probe",
+    "category": "BUSINESS",
+    "variations": [
+      "The government launched a full _____ into the corruption claims.",
+      "The company is under _____ for unethical practices."
+    ]
+  },
+  {
+    "id": 126080311,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Trump _____ his opponents after winning the club titles. Which word means to mock or make fun of someone, often aggressively?",
+    "translation": "Alay etmek, kışkırtmak veya sataşmak.",
+    "context": "Birini alaycı ve kışkırtıcı bir şekilde eleştirdiğinde veya ona sataştığında 'taunt' edersin. Genelde spor müsabakalarında veya siyasette rakibi sinir etmek için kullanılır. Bazen komik ama bazen de tatsız olabilir!",
+    "options": [
+      "praised",
+      "taunted",
+      "apologized to",
+      "supported"
+    ],
+    "correctAnswer": "taunted",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126080312,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "A scientist is obsessed with the mystery of _____ 'pink zebra' seaweed.",
+    "translation": "'Elusive' kelimesi 'zor bulunan', 'ele geçirilmesi veya anlaşılması zor' anlamına gelir.",
+    "context": "Bir şey 'elusive' olduğunda, onu bulmak, yakalamak veya anlamak çok zordur. Sanki hayalet gibi, sürekli elinden kaçıyor! Gizemli ve nadir şeyler için kullanılır. Bilim insanlarının peşinden koştuğu şeyler gibi.",
     "options": [
       "common",
       "obvious",
       "elusive",
-      "accessible"
+      "simple"
     ],
     "correctAnswer": "elusive",
-    "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126080211,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Social media _____ a political storm.",
-    "translation": "Hızlı ve yoğun bir şekilde bir fırtına başlattı",
-    "context": "'Whip up' ifadesi, bir şeyi hızlıca ve yoğun bir şekilde 'ortaya çıkarmak', 'kışkırtmak' veya 'canlandırmak' anlamına gelir. Fırtına gibi, duyguları, tartışmaları veya siyasi olayları aniden alevlendirmek. Mesela, 'Dedikodular tüm kasabayı bir anda karıştırdı!' derken 'Rumors whipped up the whole town!' diyebilirsin.",
-    "options": [
-      "calmed down",
-      "whipped up",
-      "smoothed over",
-      "toned down"
-    ],
-    "correctAnswer": "whipped up",
-    "category": "CASUAL",
-    "variations": [
-      "The chef can whip up a delicious meal in minutes.",
-      "His speech whipped up a lot of enthusiasm among the crowd."
-    ]
-  },
-  {
-    "id": 126080212,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "What describes a performance showing great superiority and control in a game?",
-    "translation": "Bir oyunda büyük üstünlük ve kontrol gösteren bir performansı tanımlar",
-    "context": "'Dominant display' demek, bir spor karşılaşmasında bir takımın veya sporcunun rakibine karşı açık ara üstünlük sağlaması, oyunu tamamen kontrol etmesi demektir. 'Ezici bir performans' diye çevirebiliriz. Futbol maçında rakibi sahadan sildiğinde 'What a dominant display!' diyebilirsin.",
-    "options": [
-      "poor showing",
-      "dominant display",
-      "mediocre effort",
-      "average game"
-    ],
-    "correctAnswer": "dominant display",
     "category": "MIXED",
-    "variations": []
+    "variations": [
+      "The truth remained _____ for many years.",
+      "She's always been an _____ figure, hard to get to know."
+    ]
   }
 ]
