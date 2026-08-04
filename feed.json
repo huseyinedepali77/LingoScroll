@@ -1,227 +1,230 @@
 [
   {
-    "id": 126080301,
+    "id": 126080401,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "Which city issued a high heat alert today?",
+    "translation": "Bugün hangi şehir yüksek sıcaklık uyarısı yayınladı?",
+    "context": "İtalya'da hava çok sıcak! 'Heat alert' ifadesi, hava durumu uzmanlarının veya yetkililerin, aşırı sıcakların insan sağlığı için risk oluşturduğunu belirtmek için kullandığı resmi bir uyarıdır. Yani 'dışarı çıkma, bol su iç' demenin havalı yolu! Bu uyarıya dikkat edersen, sıcaktan kavrulmaktan kurtulursun.",
+    "options": [
+      "Paris",
+      "London",
+      "Rome",
+      "Berlin"
+    ],
+    "correctAnswer": "Rome",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126080402,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Many European cities are on the highest heat _____.",
-    "translation": "'Alert' kelimesi 'uyarı' anlamına gelir.",
-    "context": "Yazın Avrupa'da tatil yaparken hava durumu uyarılarına dikkat! 'Heat alert' veya 'heatwave' terimleri sıcak hava dalgalarını ifade eder. Güneş kremini unutma!",
+    "phrase": "The EU is concerned about migrant _____ across its borders.",
+    "translation": "AB, sınırlarından yapılan göçmen geçişleri konusunda endişeli.",
+    "context": "'Crossings' kelimesi, bir yerden başka bir yere geçiş yapmak anlamına gelir. Mesela 'river crossing' nehir geçişi, 'border crossing' ise sınır geçişi demek. Bu haberde de insanlar bir sınırdan diğerine geçmeye çalışıyor, bu da bazen uluslararası gündeme oturabiliyor.",
     "options": [
-      "alert",
-      "cold",
-      "rain",
-      "snow"
+      "crossings",
+      "travels",
+      "journeys",
+      "flights"
     ],
-    "correctAnswer": "alert",
+    "correctAnswer": "crossings",
     "category": "TRAVEL",
     "variations": [
-      "Italy put major cities on highest heat _____.",
-      "Travelers should check for heat _____ before going."
+      "The guards monitor all border _____ closely.",
+      "Many migrants attempt dangerous _____ by sea."
     ]
   },
   {
-    "id": 126080302,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "id": 126080403,
+    "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Malaysia is reportedly shutting down a private school. Which word means to close a business permanently?",
-    "translation": "Bir işi veya kurumu kalıcı olarak kapatmak.",
-    "context": "Bir iş yeri, okul veya kurum 'shut down' olduğunda, kapılarına kilit vurulur. Kötü bir haber genelde ama bazen de yeni bir başlangıç için olur, kim bilir?",
+    "phrase": "The CEO will discuss the company's results on the earnings _____.",
+    "translation": "CEO, şirketin sonuçlarını kazanç çağrısında (toplantısında) tartışacak.",
+    "context": "Hissedarların heyecanla beklediği o an! 'Earnings call', halka açık şirketlerin genellikle üç ayda bir düzenlediği bir toplantıdır. Şirket yöneticileri bu toplantılarda finansal sonuçlarını açıklar ve analistlerin sorularını yanıtlar. Yani bir nevi karnelerini gösteriyorlar, iyi mi kötü mü, hepsi ortaya çıkıyor!",
     "options": [
-      "open up",
-      "grow up",
-      "shut down",
-      "speed up"
+      "call",
+      "meeting",
+      "report",
+      "talk"
     ],
-    "correctAnswer": "shut down",
+    "correctAnswer": "call",
+    "category": "BUSINESS",
+    "variations": [
+      "Investors eagerly awaited the quarterly earnings _____.",
+      "She listened to the earnings _____ for updates."
+    ]
+  },
+  {
+    "id": 126080404,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Norrie won the match in straight _____.",
+    "translation": "Norrie maçı set vermeden kazandı.",
+    "context": "Tenis maçlarında rakiplerine nefes aldırmayanlar için kullanılan havalı bir terim! 'Straight sets' demek, maçı hiç set kaybetmeden, yani rakibine set vermeden kazanmak demek. Tenisçi için tam bir gövde gösterisi! Eğer bir tenisçi bunu yapıyorsa, o gün formunun zirvesindedir!",
+    "options": [
+      "sets",
+      "points",
+      "games",
+      "rounds"
+    ],
+    "correctAnswer": "sets",
+    "category": "MIXED",
+    "variations": [
+      "The champion secured victory in straight _____.",
+      "She dominated the game, winning in straight _____."
+    ]
+  },
+  {
+    "id": 126080405,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "She needs to _____ up and lead the team.",
+    "translation": "Takıma liderlik etmek için sorumluluk alması gerekiyor.",
+    "context": "'Step up' deyimi, bir duruma müdahale etmek, sorumluluk almak veya daha aktif bir rol oynamak anlamına gelir. Yani 'hadi bakalım, artık sıra sende, topu göğüsle!' demenin kibar yolu. Eğer birisi 'step up' yapmazsa, işler sarpa sarabilir!",
+    "options": [
+      "step",
+      "walk",
+      "move",
+      "take"
+    ],
+    "correctAnswer": "step",
+    "category": "CASUAL",
+    "variations": [
+      "It's time for someone to _____ up and make a decision.",
+      "The coach urged him to _____ up his game."
+    ]
+  },
+  {
+    "id": 126080406,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "What does it mean when a CEO 'sidesteps' a question?",
+    "translation": "Bir CEO'nun bir soruyu 'sidestep' yapması ne anlama gelir?",
+    "context": "Ah, o politikacılar ve CEO'lar! 'Sidestep' kelimesi, bir soruyu direkt olarak cevaplamaktan kaçınmak, etrafından dolanmak anlamına gelir. Sanki bir dans figürü gibi, soru sana gelirken yana kayarsın ve cevaptan kurtulursun. Bazen çok kurnazca bir taktiktir!",
+    "options": [
+      "To answer it immediately.",
+      "To ask another question.",
+      "To avoid answering directly.",
+      "To give a long explanation."
+    ],
+    "correctAnswer": "To avoid answering directly.",
     "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126080303,
+    "id": 126080407,
     "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Aung San Suu Kyi made her first _____ contact in years.",
-    "translation": "'Outside' kelimesi 'dışarıda' veya 'dış' anlamına gelir.",
-    "context": "Biri uzun süre dış dünyayla bağlantı kuramadığında, 'outside contact' terimi kullanılır. Sanki mağarada yaşamış gibi, dünya ile yeniden buluşmak!",
+    "level": "INTERMEDIATE",
+    "phrase": "The prolonged _____ is causing rivers to fall to record low levels.",
+    "translation": "Uzun süreli kuraklık nehirlerin rekor düşük seviyelere düşmesine neden oluyor.",
+    "context": "'Drought', bildiğimiz kuraklık demek. Yağmurun aylarca hatta yıllarca düşmemesiyle oluşan felaket durumu. Çiftçilerin korkulu rüyası, barajların boşalmasının sebebi. Eğer bir yerde 'drought' varsa, su tasarrufu yapmak şart olur, yoksa susuzluktan kavrulabiliriz!",
     "options": [
-      "outside",
-      "inside",
+      "drought",
+      "flood",
+      "storm",
+      "heatwave"
+    ],
+    "correctAnswer": "drought",
+    "category": "TRAVEL",
+    "variations": [
+      "Farmers are struggling due to the severe _____.",
+      "The country implemented water restrictions because of the _____."
+    ]
+  },
+  {
+    "id": 126080408,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The police are investigating the _____ claims at the park.",
+    "translation": "Polis, parktaki vandalizm iddialarını araştırıyor.",
+    "context": "'Vandalism', yani vandalizm, kamusal veya özel mülke kasten zarar verme eylemidir. Duvarlara yazı yazmak, bir heykeli kırmak, bankları tahrip etmek gibi. Bu tür eylemleri yapan kişiye de 'vandal' denir. Resmen çevreyi çirkinleştirmek ve başkalarına zarar vermek demek!",
+    "options": [
+      "vandalism",
+      "security",
+      "maintenance",
+      "damage"
+    ],
+    "correctAnswer": "vandalism",
+    "category": "MIXED",
+    "variations": [
+      "They reported an act of _____ to the authorities.",
+      "The museum suffered from serious _____ by intruders."
+    ]
+  },
+  {
+    "id": 126080409,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "What does 'killer quarter' mean in business context?",
+    "translation": "İş bağlamında 'killer quarter' ne anlama gelir?",
+    "context": "Bir şirketin yüzünün güldüğü, kasasının dolup taştığı o harika dönemi anlatmak için kullanılan süper havalı bir ifade! 'Killer quarter', bir şirketin finansal olarak inanılmaz derecede başarılı olduğu, beklentileri aştığı, rekor kar veya gelir elde ettiği bir çeyrek (üç aylık dönem) demektir. Yani patronların kutlama şampanyalarını patlattığı zaman!",
+    "options": [
+      "A difficult quarter with many challenges.",
+      "A quarter with significant staff layoffs.",
+      "An exceptionally successful financial period.",
+      "A period of intense market competition."
+    ],
+    "correctAnswer": "An exceptionally successful financial period.",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126080410,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "He felt anxious because of an _____ thought he couldn't share.",
+    "translation": "Paylaşamadığı ifade edilmemiş bir düşünce yüzünden endişeli hissetti.",
+    "context": "'Unexpressed' kelimesi, ifade edilmemiş, dile getirilmemiş, açıklanmamış anlamına gelir. Yani içinizde tuttuğunuz, söyleyemediğiniz o sözler, o hisler var ya, işte onlar 'unexpressed'. Bazen insanlar bu yüzden gerginleşir, çünkü içlerinde tutulan şeyler bir yük olabilir. Tıpkı Trump'ın senatör tarafından tanımlanan hali gibi!",
+    "options": [
+      "unexpressed",
+      "hidden",
       "secret",
-      "phone"
+      "silent"
     ],
-    "correctAnswer": "outside",
+    "correctAnswer": "unexpressed",
     "category": "CASUAL",
     "variations": [
-      "She had no _____ contact with the world for a long time.",
-      "The report confirmed her first _____ contact in 2.5 years."
+      "Her feelings remained _____ for years.",
+      "Many artists explore _____ emotions in their work."
     ]
   },
   {
-    "id": 126080304,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "Newcastle United announced they will _____ a new goalkeeper. Which word means to formally agree to employ someone, especially for a sports team?",
-    "translation": "Bir anlaşma imzalamak, işe almak veya sözleşme yapmak.",
-    "context": "Futbol transfer dönemlerinde bu kelimeyi çok duyarsın! Bir takım yeni bir oyuncuyla sözleşme imzaladığında 'sign' eder. İmza şovunu ve yeni formayı unutma!",
-    "options": [
-      "dismiss",
-      "release",
-      "sign",
-      "ignore"
-    ],
-    "correctAnswer": "sign",
-    "category": "MIXED",
-    "variations": []
-  },
-  {
-    "id": 126080305,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "For robotaxis, two roads have _____.",
-    "translation": "'Diverged' kelimesi 'ayrılmış' veya 'farklı yönlere gitmiş' anlamına gelir.",
-    "context": "'Two roads diverged in a yellow wood...' diye başlayan Robert Frost şiirini duymuşsundur. Bir konuda farklı yönlere gidildiğinde 'diverged' kelimesi kullanılır. Yani yollar ayrılmış, şimdi karar verme zamanı!",
-    "options": [
-      "merged",
-      "diverged",
-      "connected",
-      "met"
-    ],
-    "correctAnswer": "diverged",
-    "category": "TRAVEL",
-    "variations": [
-      "Their paths _____ after college.",
-      "The debate showed two _____ views on the topic."
-    ]
-  },
-  {
-    "id": 126080306,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The global memory shortage _____ the MacBook Air.",
-    "translation": "'Hits' kelimesi 'etkiler', 'vurur' anlamına gelir ve genellikle olumsuz bir etkiyi ifade eder.",
-    "context": "Bir şey bir sektörü, ürünü veya kişiyi kötü etkilediğinde 'hit' fiili kullanılır. Sanki yumruk yemiş gibi! Küresel bir sorun, en sevdiğin teknolojik ürünü bile etkileyebilir.",
-    "options": [
-      "helps",
-      "misses",
-      "hits",
-      "avoids"
-    ],
-    "correctAnswer": "hits",
-    "category": "BUSINESS",
-    "variations": [
-      "The new policy _____ small businesses hard.",
-      "The drought _____ farmers severely this year."
-    ]
-  },
-  {
-    "id": 126080307,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "The free diver wants to _____ to the ocean that helped him. Which phrase means to repay kindness or help?",
-    "translation": "İyilikle karşılık vermek, minnettarlığını göstermek.",
-    "context": "'Give back', sana yardım eden birine veya bir topluluğa iyilikle karşılık vermek demektir. Mesela, okulun sana çok şey öğrettiyse, mezun olduktan sonra okuluna 'give back' yapabilirsin. İyiliksever olmanın en güzel yolu!",
-    "options": [
-      "take away",
-      "give back",
-      "throw out",
-      "pass by"
-    ],
-    "correctAnswer": "give back",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126080308,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The city was _____ by deadly protests.",
-    "translation": "'Gripped' kelimesi 'kavranmış', 'sarmalanmış' anlamına gelir.",
-    "context": "Bir şehir veya topluluk yoğun bir olayla, duyguyla (korku, üzüntü, öfke gibi) sarsıldığında veya ele geçirildiğinde 'gripped by' kullanılır. Sanki bir el şehri kavramış da bırakmıyor gibi!",
-    "options": [
-      "released",
-      "ignored",
-      "untouched",
-      "gripped"
-    ],
-    "correctAnswer": "gripped",
-    "category": "MIXED",
-    "variations": [
-      "The country was _____ by fear after the incident.",
-      "She was _____ by a sudden sadness."
-    ]
-  },
-  {
-    "id": 126080309,
+    "id": 126080411,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "US and Japan took action to _____ the yen. What does it mean to `prop up` an economy or currency?",
-    "translation": "Finansal olarak desteklemek, ayakta tutmak.",
-    "context": "Bir şeyin (genelde ekonomi veya para biriminin) düşmesini engellemek, desteklemek için 'prop up' denir. Düşmek üzere olan bir şeyi bir destekle ayakta tutmak gibi düşünebilirsin. Seyahat ederken para birimlerinin değeri senin için önemli olabilir!",
+    "phrase": "What do 'stronger borders' typically imply for countries?",
+    "translation": "'Stronger borders' ülkeler için genellikle ne anlama gelir?",
+    "context": "'Stronger borders' ifadesi, ülkelerin sınırlarını daha sıkı denetlemek ve kontrol etmek için aldığı önlemleri anlatır. Yani daha fazla güvenlik görevlisi, daha iyi teknoloji (dronlar, sensörler gibi) ve daha sıkı giriş çıkış kuralları demektir. Amacı genellikle kaçak geçişleri veya yasa dışı faaliyetleri engellemektir, ama bazen seyahat edenler için de işleri zorlaştırabilir.",
     "options": [
-      "cause to fall",
-      "support financially",
-      "criticize publicly",
-      "ignore completely"
+      "More open immigration policies.",
+      "Increased trade agreements.",
+      "Reduced travel restrictions.",
+      "Increased surveillance and stricter entry controls."
     ],
-    "correctAnswer": "support financially",
+    "correctAnswer": "Increased surveillance and stricter entry controls.",
     "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126080310,
+    "id": 126080412,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Accounts were closed after an anti-money laundering _____.",
-    "translation": "'Probe' kelimesi 'soruşturma', 'derinlemesine inceleme' anlamına gelir.",
-    "context": "Bir 'probe' aslında detaylı ve derinlemesine bir soruşturma veya inceleme demektir. Dedektiflerin suçluları bulmak için yaptığı gibi düşünebilirsin. Özellikle finans sektöründe ve hukuki durumlarda çok kullanılır!",
+    "phrase": "Determining who is legally to _____ for autonomous AI hacks is complicated.",
+    "translation": "Otonom yapay zeka hack'lerinden yasal olarak kimin sorumlu olduğunu belirlemek karmaşık.",
+    "context": "'Legally to blame' ifadesi, bir durum veya olay karşısında yasal olarak sorumlu tutulmak anlamına gelir. Yani bir yanlışlık olduğunda kanunen kimin suçu, kimin üzerine kalacak meselesi. Özellikle yapay zeka gibi yeni teknolojilerde, bir hata olduğunda sorumluluğun kime ait olduğunu bulmak, dedektiflik romanı yazmak kadar zor olabilir!",
     "options": [
-      "celebration",
-      "closure",
-      "probe",
-      "agreement"
+      "blame",
+      "fault",
+      "responsible",
+      "accuse"
     ],
-    "correctAnswer": "probe",
-    "category": "BUSINESS",
-    "variations": [
-      "The government launched a full _____ into the corruption claims.",
-      "The company is under _____ for unethical practices."
-    ]
-  },
-  {
-    "id": 126080311,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Trump _____ his opponents after winning the club titles. Which word means to mock or make fun of someone, often aggressively?",
-    "translation": "Alay etmek, kışkırtmak veya sataşmak.",
-    "context": "Birini alaycı ve kışkırtıcı bir şekilde eleştirdiğinde veya ona sataştığında 'taunt' edersin. Genelde spor müsabakalarında veya siyasette rakibi sinir etmek için kullanılır. Bazen komik ama bazen de tatsız olabilir!",
-    "options": [
-      "praised",
-      "taunted",
-      "apologized to",
-      "supported"
-    ],
-    "correctAnswer": "taunted",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126080312,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "A scientist is obsessed with the mystery of _____ 'pink zebra' seaweed.",
-    "translation": "'Elusive' kelimesi 'zor bulunan', 'ele geçirilmesi veya anlaşılması zor' anlamına gelir.",
-    "context": "Bir şey 'elusive' olduğunda, onu bulmak, yakalamak veya anlamak çok zordur. Sanki hayalet gibi, sürekli elinden kaçıyor! Gizemli ve nadir şeyler için kullanılır. Bilim insanlarının peşinden koştuğu şeyler gibi.",
-    "options": [
-      "common",
-      "obvious",
-      "elusive",
-      "simple"
-    ],
-    "correctAnswer": "elusive",
+    "correctAnswer": "blame",
     "category": "MIXED",
     "variations": [
-      "The truth remained _____ for many years.",
-      "She's always been an _____ figure, hard to get to know."
+      "The driver was legally to _____ for the accident.",
+      "It's hard to find who is legally to _____ in this situation."
     ]
   }
 ]
