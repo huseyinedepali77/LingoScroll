@@ -1,242 +1,233 @@
 [
   {
-    "id": 126080601,
+    "id": 126080701,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Marmots are facing money troubles, so they decided to _____ OnlyFans.",
-    "translation": "Para sıkıntısı çeken marmotlar OnlyFans'e yönelmeye karar verdi.",
-    "context": "OnlyFans gibi bir platforma yönelmek, modern hayatta karşılaşılan ekonomik zorluklara yaratıcı (ve komik!) çözümler bulmak anlamına gelir. 'Turn to' fiili, bir soruna çözüm aramak veya yardım almak için birine/bir şeye yönelmek demektir. Bu sevimli marmotların da aklına bu gelmiş!",
+    "phrase": "The brave aviation crew managed to _____ a stranded team from Antarctica.",
+    "translation": "Kurtarmak",
+    "context": "Kışın ortasında Antarktika'da mahsur kalan bir ekibi kurtarmak! 'Rescue' kelimesi, birini tehlikeli bir durumdan kurtarmak anlamına gelir. Düşünsene, buz gibi havada bir kahraman ekibin seni kurtarmasını bekliyorsun!",
     "options": [
-      "turn into",
-      "turn off",
-      "turn to",
-      "turn down"
+      "build",
+      "rescue",
+      "attack",
+      "ignore"
     ],
-    "correctAnswer": "turn to",
-    "category": "CASUAL",
-    "variations": [
-      "Many people turn to social media for news.",
-      "When he's sad, he turns to his friends."
-    ]
-  },
-  {
-    "id": 126080602,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "You can get a big _____ on your TechCrunch Disrupt pass.",
-    "translation": "TechCrunch Disrupt biletinizde büyük bir indirim alabilirsiniz.",
-    "context": "Bir etkinlik veya ürün için daha az ödeme yapmak! Özellikle teknoloji konferansları gibi yerlerde 'early bird discount' veya 'student discount' gibi fırsatları yakalamak cebini güldürür.",
-    "options": [
-      "ticket",
-      "discount",
-      "fee",
-      "cost"
-    ],
-    "correctAnswer": "discount",
-    "category": "BUSINESS",
-    "variations": [
-      "The store offers a discount to students.",
-      "I got a discount on my new phone."
-    ]
-  },
-  {
-    "id": 126080603,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Iran says the deal with Oman on the Strait of Hormuz is _____.",
-    "translation": "İran, Umman ile Hürmüz Boğazı anlaşmasının son aşamalarında olduğunu söylüyor.",
-    "context": "'Final stages' demek, bir anlaşmanın, projenin veya seyahat planının artık sonuna gelindiği, bitmek üzere olduğu anlamına gelir. Tıpkı bir tatile çıkmadan önceki son hazırlıklar gibi! Son evreler heyecanlı olur.",
-    "options": [
-      "in its first stages",
-      "in its final stages",
-      "in its early stages",
-      "in its negotiation"
-    ],
-    "correctAnswer": "in its final stages",
+    "correctAnswer": "rescue",
     "category": "TRAVEL",
     "variations": [
-      "The building project is in its final stages.",
-      "Our travel plans are in their final stages."
+      "They sent a team to rescue the climbers.",
+      "Emergency services had to rescue people from the flood."
     ]
   },
   {
-    "id": 126080604,
+    "id": 126080702,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Leonardo DiCaprio wants to save the most _____ species.",
-    "translation": "Leonardo DiCaprio en tehdit altındaki türleri kurtarmak istiyor.",
-    "context": "'Threatened species' demek, doğal yaşam alanları yok olduğu için veya avlanma gibi nedenlerle soyları tükenme tehlikesi altında olan canlılar demek. Tıpkı dev pandalar veya nesli tükenmek üzere olan bazı kaplumbağalar gibi. Onları korumak, gezegenimizi korumak demek!",
+    "phrase": "OpenAI's new smart speaker will _____ between $300 and $400.",
+    "translation": "Satılmak",
+    "context": "'Sell for' bir ürünün belirli bir fiyata satıldığını belirtmek için kullanılır. Yani bir ürünü kaç paraya alabileceğini veya satabileceğini öğrenmek istediğinde bu kalıbı kullanabilirsin. Yeni bir teknoloji ürünü alırken çok işine yarar!",
     "options": [
-      "safe",
-      "common",
-      "threatened",
-      "new"
+      "sell for",
+      "buy for",
+      "give for",
+      "take for"
     ],
-    "correctAnswer": "threatened",
-    "category": "MIXED",
-    "variations": [
-      "Many wild animals are threatened species.",
-      "Climate change threatens many species."
-    ]
-  },
-  {
-    "id": 126080605,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Nikita Bier decided to _____ as X's head of product.",
-    "translation": "Nikita Bier, X'in ürün müdürü görevinden ayrılmaya karar verdi.",
-    "context": "Bir pozisyondan 'step down' demek, gönüllü olarak veya baskı üzerine görevinden ayrılmak demektir. İş dünyasında kariyer değişiklikleri veya yönetimsel anlaşmazlıklar sonucunda sıkça duyarsın. Yani, 'artık ben yokum' demenin kibarcası!",
-    "options": [
-      "step up",
-      "step down",
-      "step in",
-      "step aside"
-    ],
-    "correctAnswer": "step down",
+    "correctAnswer": "sell for",
     "category": "BUSINESS",
     "variations": [
-      "The CEO will step down next month.",
-      "She had to step down due to health issues."
+      "This car doesn't sell for much.",
+      "Our old house sold for a good price."
     ]
   },
   {
-    "id": 126080606,
+    "id": 126080703,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Marmots are facing serious _____ so they joined OnlyFans.",
-    "translation": "Marmotlar ciddi para sıkıntıları yaşadıkları için OnlyFans'e katıldı.",
-    "context": "'Money troubles' demek, yani parasal sıkıntılar yaşamak! Fatura ödemekte zorlanmak, ay sonunu getirememek gibi durumları ifade eder. Marmotların bile OnlyFans'e başvurması, bu durumun ne kadar evrensel olduğunu gösteriyor!",
+    "level": "BEGINNER",
+    "phrase": "The beloved eagle Jackie is in _____ condition.",
+    "translation": "Kritik",
+    "context": "'Critical condition' durumu çok ciddi ve tehlikeli bir hastalık veya yaralanma durumunu ifade eder. Yani bir hayvanın veya insanın sağlığının kritik düzeyde olduğunu, yaşam mücadelesi verdiğini anlatır. Jackie'ye acil şifalar!",
     "options": [
-      "trouble making",
-      "money troubles",
-      "trouble money",
-      "troubled money"
+      "happy",
+      "critical",
+      "perfect",
+      "good"
     ],
-    "correctAnswer": "money troubles",
+    "correctAnswer": "critical",
     "category": "CASUAL",
     "variations": [
-      "Many families face money troubles.",
-      "I'm having some money troubles this month."
+      "The patient is in critical condition after the accident.",
+      "She's in critical condition, but stable."
     ]
   },
   {
-    "id": 126080607,
+    "id": 126080704,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "In Odesa, _____ from Russia's new Black Sea strikes.",
-    "translation": "Odesa'da, Rusya'nın yeni Karadeniz saldırılarından kimse güvende değil.",
-    "context": "'No one is safe' demek, tehlikenin herkesi etkileyebileceği, kimsenin güvende olmadığı bir durumu anlatır. Tıpkı bir doğal afette veya savaş bölgesinde olduğu gibi. Umarım hiç kimse böyle bir cümle kurmak zorunda kalmaz!",
+    "level": "BEGINNER",
+    "phrase": "The new orders try to _____ citizenship rights.",
+    "translation": "Kısıtlamak",
+    "context": "'Limit' bir şeyin miktarını, boyutunu veya erişimini kısıtlamak demektir. Mesela internet kullanımını, oyun oynama süreni veya bir ülkeye girebilecek insan sayısını 'limit'leyebilirsin. Bazen iyi bazen kötü sonuçları olabilir, kim bilir?",
     "options": [
-      "everyone is safe",
-      "no one is safe",
-      "some are safe",
-      "few are safe"
+      "expand",
+      "increase",
+      "limit",
+      "offer"
     ],
-    "correctAnswer": "no one is safe",
-    "category": "TRAVEL",
-    "variations": [
-      "During the storm, no one was safe outside.",
-      "In that neighborhood, no one feels safe at night."
-    ]
-  },
-  {
-    "id": 126080608,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "What can scientists learn from a _____ hitting the Moon?",
-    "translation": "Bilim insanları Ay'a çarpan başıboş bir roketten ne öğrenebilir?",
-    "context": "'Stray rocket' terimi, uzaydaki kontrolsüz, başıboş veya yoldan çıkmış bir roketi ifade eder. Genellikle uzay çöpleri (space junk) arasında yer alır ve bazen istemeden başka bir gök cismine çarpabilir. Uzay maceraları bazen beklenmedik sürprizlerle dolu!",
-    "options": [
-      "new rocket",
-      "old rocket",
-      "stray rocket",
-      "fast rocket"
-    ],
-    "correctAnswer": "stray rocket",
+    "correctAnswer": "limit",
     "category": "MIXED",
     "variations": [
-      "A stray dog was found near the park.",
-      "The stray bullet missed him by inches."
+      "We must limit screen time for children.",
+      "Please try to limit your expenses this month."
     ]
   },
   {
-    "id": 126080609,
+    "id": 126080705,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Travis Kalanick's startup _____ former Uber finance chief as CFO.",
-    "translation": "Travis Kalanick'in girişimi, eski Uber finans direktörünü CFO olarak görevlendirdi.",
-    "context": "İş dünyasında 'tap someone' ifadesi, belirli bir görev veya pozisyon için yetenekli birini seçmek, işe almak veya birinden yardım istemek anlamına gelir. Yani, tam da aradığın kişiyi bulduğun o an!",
+    "level": "INTERMEDIATE",
+    "phrase": "People were _____ in airports during the historic heatwave.",
+    "translation": "Sığınmak, korunmak",
+    "context": "'Sheltering' kendini kötü hava koşullarından, tehlikelerden veya aşırı sıcak/soğuktan korumak için bir yere sığınmak anlamına gelir. Düşünsene, Güney Kore'deki gibi kavurucu bir sıcakta havalimanı senin için serin bir sığınak olabilir!",
     "options": [
-      "hired",
-      "fired",
-      "taps",
-      "ignores"
+      "exploring",
+      "traveling",
+      "sheltering",
+      "camping"
     ],
-    "correctAnswer": "taps",
+    "correctAnswer": "sheltering",
+    "category": "TRAVEL",
+    "variations": [
+      "Families were sheltering from the storm in the subway.",
+      "They found a cave to shelter from the rain."
+    ]
+  },
+  {
+    "id": 126080706,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Meta was _____ $567 million for child safety violations.",
+    "translation": "Para cezasına çarptırıldı",
+    "context": "'Fined' bir kuralı veya yasayı çiğnediğinde ödemek zorunda kaldığın cezayı ifade eder. Mesela park yasağına uymazsan veya hız limitini aşarsan 'fined' olabilirsin. Kocaman bir şirket için bile bu kadar büyük bir ceza can yakıcıdır!",
+    "options": [
+      "paid",
+      "rewarded",
+      "fined",
+      "donated"
+    ],
+    "correctAnswer": "fined",
     "category": "BUSINESS",
     "variations": [
-      "The company tapped her to lead the new project.",
-      "They tapped a renowned expert for the advisory board."
+      "He was fined for driving too fast.",
+      "The company was fined for polluting the river."
     ]
   },
   {
-    "id": 126080610,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Infantino remained FIFA president following a _____.",
-    "translation": "Infantino, bir kriz toplantısının ardından FIFA başkanı olarak kaldı.",
-    "context": "'Crisis meeting', acil ve önemli bir sorunu çözmek veya kötü bir durumu ele almak için hızlıca düzenlenen bir toplantıdır. Tıpkı Infantino'nun FIFA başkanı kalmak için katıldığı gibi. Genelde tansiyonun yüksek olduğu, kararların hızla alınması gereken toplantılardır.",
+    "id": 126080707,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Which phrase means 'to make someone very angry'?",
+    "translation": "'Birini çok sinirlendirmek' anlamına gelir.",
+    "context": "'Make my blood boil' deyimi, bir olay veya durum karşısında kişinin çok sinirlenmesi, adeta kanının beynine sıçraması anlamına gelir. Oklahoma'daki gibi adaletsiz bir durum karşısında herkesin kanı kaynar!",
     "options": [
-      "happy meeting",
-      "crisis meeting",
-      "regular meeting",
-      "board meeting"
+      "To make one's blood freeze",
+      "To make one's blood boil",
+      "To make one's blood dance",
+      "To make one's blood flow"
     ],
-    "correctAnswer": "crisis meeting",
+    "correctAnswer": "To make one's blood boil",
     "category": "CASUAL",
-    "variations": [
-      "The government held a crisis meeting about the floods.",
-      "After the scandal, the company called a crisis meeting."
-    ]
+    "variations": []
   },
   {
-    "id": 126080611,
+    "id": 126080708,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Mysterious elephant deaths in Kenya _____ around pesticides.",
-    "translation": "Kenya'daki gizemli fil ölümleri, böcek ilaçları hakkında soruları gündeme getiriyor.",
-    "context": "'Raise questions' demek, bir durumun veya olayın kafalarda soru işaretleri oluşturması, şüphe uyandırması demektir. Tıpkı Kenya'daki gizemli fil ölümleri gibi. Bir şeyin nedenini veya nasıl olduğunu merak ettiğinde bu ifadeyi kullanabilirsin. Dedektif gibi!",
+    "level": "INTERMEDIATE",
+    "phrase": "Wildfire-ravaged habitats may take centuries to _____.",
+    "translation": "İyileşmek, eski haline dönmek",
+    "context": "'Recover' bir hastalıktan, bir felaketten veya kötü bir durumdan sonra iyileşmek, eski haline dönmek anlamına gelir. Orman yangınlarından sonra doğanın kendini 'recover' etmesi çok uzun zaman alabilir, hatta yüzyıllar sürebilirmiş!",
     "options": [
-      "answer questions",
-      "ignore questions",
-      "raise questions",
-      "solve questions"
+      "destroy",
+      "flourish",
+      "recover",
+      "disappear"
     ],
-    "correctAnswer": "raise questions",
-    "category": "TRAVEL",
-    "variations": [
-      "Her strange behavior raised many questions.",
-      "The new policy raised questions among employees."
-    ]
-  },
-  {
-    "id": 126080612,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The Rockets continue to _____ after their easy win.",
-    "translation": "Rockets, kolay galibiyetlerinin ardından ilerlemeye devam ediyor.",
-    "context": "'March on' ifadesi, bir şeyin kararlılıkla, durmadan ilerlemesi veya devam etmesi anlamına gelir. Tıpkı spor takımlarının galibiyet serisini sürdürmesi gibi! Hedefe doğru emin adımlarla ilerlerken bu ifadeyi kullanmak tam yeridir.",
-    "options": [
-      "march off",
-      "march on",
-      "march back",
-      "march in"
-    ],
-    "correctAnswer": "march on",
+    "correctAnswer": "recover",
     "category": "MIXED",
     "variations": [
-      "Despite the challenges, the project marched on.",
-      "The army marched on towards the capital."
+      "It took her a long time to recover from the flu.",
+      "The economy is starting to recover after the recession."
     ]
+  },
+  {
+    "id": 126080709,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The city hoped cable cars would solve its traffic _____.",
+    "translation": "Trafik kilitlenmesi",
+    "context": "'Traffic gridlock' şehirlerde trafiğin tamamen durma noktasına gelmesi, araçların kilitlenmesi durumunu ifade eder. Özellikle büyük şehirlerde, iş çıkış saatlerinde veya özel günlerde bu 'gridlock' durumu hayatı çekilmez hale getirebilir. Afrika'daki şehir bile çare bulamamış!",
+    "options": [
+      "solution",
+      "flow",
+      "gridlock",
+      "system"
+    ],
+    "correctAnswer": "gridlock",
+    "category": "TRAVEL",
+    "variations": [
+      "The accident caused a massive traffic gridlock.",
+      "We need better public transport to avoid traffic gridlock."
+    ]
+  },
+  {
+    "id": 126080710,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "When a situation requires everyone's effort, we say '_____'.",
+    "translation": "'Herkesin yardımı gerekli' anlamına gelir.",
+    "context": "'All hands on deck' deyimi, bir acil durumda veya zorlu bir görevde herkesin yardımına ihtiyaç duyulduğunu belirtir. Gemi terminolojisinden gelme bir ifade; yani gemideki tüm tayfanın güverteye çıkıp işe koyulması gibi. Petrol endüstrisi de Trump'ı durdurmak için 'all hands on deck' demiş!",
+    "options": [
+      "All hands off deck",
+      "All hands on deck",
+      "All hands under deck",
+      "All hands around deck"
+    ],
+    "correctAnswer": "All hands on deck",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126080711,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Vogue gave a _____ of approval to the tech world.",
+    "translation": "Onay",
+    "context": "'Nod of approval' bir şeye veya bir fikre onay verdiğini, desteklediğini veya beğendiğini başını sallayarak belli etmek anlamına gelir. Moda dünyasının devlerinden Vogue'un teknolojiye baş sallaması demek ki büyük bir gelişme! Yani cool olduğunu onaylıyorlar!",
+    "options": [
+      "shake",
+      "wave",
+      "nod",
+      "blink"
+    ],
+    "correctAnswer": "nod",
+    "category": "CASUAL",
+    "variations": [
+      "He gave me a nod of approval when I showed him my work.",
+      "Her parents finally gave their nod of approval for the trip."
+    ]
+  },
+  {
+    "id": 126080712,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "What does 'dumps out' mean in sports, especially tennis?",
+    "translation": "'Bir rakibi bir müsabakadan elemek' anlamına gelir.",
+    "context": "Teniste 'dumps out', bir oyuncunun rakibini turnuvadan elemesi anlamına gelir. Yani Norrie'nin üçüncü seri başı De Minaur'u 'dumps out' etmesi, onu yenip turnuva dışına ittiği demek. Tam bir sporcu zaferi!",
+    "options": [
+      "To score a goal",
+      "To eliminate an opponent from a competition.",
+      "To lose a game intentionally.",
+      "To serve the ball poorly."
+    ],
+    "correctAnswer": "To eliminate an opponent from a competition.",
+    "category": "MIXED",
+    "variations": []
   }
 ]
