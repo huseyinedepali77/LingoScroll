@@ -1,233 +1,230 @@
 [
   {
-    "id": 126080701,
+    "id": 126080801,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The brave aviation crew managed to _____ a stranded team from Antarctica.",
-    "translation": "Kurtarmak",
-    "context": "Kışın ortasında Antarktika'da mahsur kalan bir ekibi kurtarmak! 'Rescue' kelimesi, birini tehlikeli bir durumdan kurtarmak anlamına gelir. Düşünsene, buz gibi havada bir kahraman ekibin seni kurtarmasını bekliyorsun!",
+    "phrase": "The country decided to impose new _____ at its borders.",
+    "translation": "Sınır kontrolleri",
+    "context": "Sınır kontrolü, yurt dışına çıkarken veya girerken pasaportunu gösterdiğin yer. Bazen ülkeler güvenlik veya göçmenlik nedenleriyle bu kontrolleri sıkılaştırır. Bavulunu hazırlarken kimliğin de hep yanında olsun!",
     "options": [
-      "build",
-      "rescue",
-      "attack",
-      "ignore"
+      "border controls",
+      "city lights",
+      "travel plans",
+      "customs fees"
     ],
-    "correctAnswer": "rescue",
+    "correctAnswer": "border controls",
     "category": "TRAVEL",
     "variations": [
-      "They sent a team to rescue the climbers.",
-      "Emergency services had to rescue people from the flood."
+      "Increased _____ can slow down travel for tourists.",
+      "They want to tighten _____ due to recent events."
     ]
   },
   {
-    "id": 126080702,
+    "id": 126080802,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "OpenAI's new smart speaker will _____ between $300 and $400.",
-    "translation": "Satılmak",
-    "context": "'Sell for' bir ürünün belirli bir fiyata satıldığını belirtmek için kullanılır. Yani bir ürünü kaç paraya alabileceğini veya satabileceğini öğrenmek istediğinde bu kalıbı kullanabilirsin. Yeni bir teknoloji ürünü alırken çok işine yarar!",
+    "phrase": "OpenAI slowed Astra model _____ over security concerns.",
+    "translation": "Geliştirme",
+    "context": "Geliştirme, bir şeyin adım adım ilerlemesi, büyümesi demek. Özellikle teknoloji firmaları için ürün geliştirme çok önemli bir süreçtir. Bazen güvenlik için yavaşlamak, daha iyi bir ürün ortaya çıkarmak anlamına gelebilir.",
     "options": [
-      "sell for",
-      "buy for",
-      "give for",
-      "take for"
+      "development",
+      "marketing",
+      "production",
+      "release"
     ],
-    "correctAnswer": "sell for",
+    "correctAnswer": "development",
     "category": "BUSINESS",
     "variations": [
-      "This car doesn't sell for much.",
-      "Our old house sold for a good price."
+      "The company is focused on the _____ of new software.",
+      "Product _____ can take many months or years."
     ]
   },
   {
-    "id": 126080703,
+    "id": 126080803,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The beloved eagle Jackie is in _____ condition.",
-    "translation": "Kritik",
-    "context": "'Critical condition' durumu çok ciddi ve tehlikeli bir hastalık veya yaralanma durumunu ifade eder. Yani bir hayvanın veya insanın sağlığının kritik düzeyde olduğunu, yaşam mücadelesi verdiğini anlatır. Jackie'ye acil şifalar!",
+    "phrase": "Is this the best day of the year for _____?",
+    "translation": "Yıldızları izlemek",
+    "context": "Yıldızları izlemek mi? Ne harika bir hobi! Gece gökyüzüne bakıp o parıldayan noktaları, hatta bazen düşen yıldızları görmek... Huzur verici bir aktivite. Şehir ışıklarından uzak bir yer bul, bir battaniye al ve keyfini çıkar!",
     "options": [
-      "happy",
-      "critical",
-      "perfect",
-      "good"
+      "stargazing",
+      "sunbathing",
+      "skydiving",
+      "cloudwatching"
     ],
-    "correctAnswer": "critical",
+    "correctAnswer": "stargazing",
     "category": "CASUAL",
     "variations": [
-      "The patient is in critical condition after the accident.",
-      "She's in critical condition, but stable."
+      "Many people enjoy _____ on clear summer nights.",
+      "We went to the mountains for some amazing _____."
     ]
   },
   {
-    "id": 126080704,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The new orders try to _____ citizenship rights.",
-    "translation": "Kısıtlamak",
-    "context": "'Limit' bir şeyin miktarını, boyutunu veya erişimini kısıtlamak demektir. Mesela internet kullanımını, oyun oynama süreni veya bir ülkeye girebilecek insan sayısını 'limit'leyebilirsin. Bazen iyi bazen kötü sonuçları olabilir, kim bilir?",
-    "options": [
-      "expand",
-      "increase",
-      "limit",
-      "offer"
-    ],
-    "correctAnswer": "limit",
-    "category": "MIXED",
-    "variations": [
-      "We must limit screen time for children.",
-      "Please try to limit your expenses this month."
-    ]
-  },
-  {
-    "id": 126080705,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "People were _____ in airports during the historic heatwave.",
-    "translation": "Sığınmak, korunmak",
-    "context": "'Sheltering' kendini kötü hava koşullarından, tehlikelerden veya aşırı sıcak/soğuktan korumak için bir yere sığınmak anlamına gelir. Düşünsene, Güney Kore'deki gibi kavurucu bir sıcakta havalimanı senin için serin bir sığınak olabilir!",
-    "options": [
-      "exploring",
-      "traveling",
-      "sheltering",
-      "camping"
-    ],
-    "correctAnswer": "sheltering",
-    "category": "TRAVEL",
-    "variations": [
-      "Families were sheltering from the storm in the subway.",
-      "They found a cave to shelter from the rain."
-    ]
-  },
-  {
-    "id": 126080706,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Meta was _____ $567 million for child safety violations.",
-    "translation": "Para cezasına çarptırıldı",
-    "context": "'Fined' bir kuralı veya yasayı çiğnediğinde ödemek zorunda kaldığın cezayı ifade eder. Mesela park yasağına uymazsan veya hız limitini aşarsan 'fined' olabilirsin. Kocaman bir şirket için bile bu kadar büyük bir ceza can yakıcıdır!",
-    "options": [
-      "paid",
-      "rewarded",
-      "fined",
-      "donated"
-    ],
-    "correctAnswer": "fined",
-    "category": "BUSINESS",
-    "variations": [
-      "He was fined for driving too fast.",
-      "The company was fined for polluting the river."
-    ]
-  },
-  {
-    "id": 126080707,
+    "id": 126080804,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Which phrase means 'to make someone very angry'?",
-    "translation": "'Birini çok sinirlendirmek' anlamına gelir.",
-    "context": "'Make my blood boil' deyimi, bir olay veya durum karşısında kişinin çok sinirlenmesi, adeta kanının beynine sıçraması anlamına gelir. Oklahoma'daki gibi adaletsiz bir durum karşısında herkesin kanı kaynar!",
+    "level": "BEGINNER",
+    "phrase": "Bir ülkenin başka bir ülkeye yönelik askeri saldırılarını ifade eden doğru kelime hangisidir?",
+    "translation": "Saldırılar",
+    "context": "Bazen haberlerde ülkeler arası gerilimleri duyarsın. 'Attack' kelimesi, bir ülkenin diğerine karşı askeri bir eylemde bulunması durumunu anlatır. Maalesef bu, dünya gündeminin üzücü bir parçası olabiliyor.",
     "options": [
-      "To make one's blood freeze",
-      "To make one's blood boil",
-      "To make one's blood dance",
-      "To make one's blood flow"
+      "Attacks",
+      "Festivals",
+      "Vacations",
+      "Celebrations"
     ],
-    "correctAnswer": "To make one's blood boil",
-    "category": "CASUAL",
+    "correctAnswer": "Attacks",
+    "category": "MIXED/GENERAL",
     "variations": []
   },
   {
-    "id": 126080708,
+    "id": 126080805,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Wildfire-ravaged habitats may take centuries to _____.",
-    "translation": "İyileşmek, eski haline dönmek",
-    "context": "'Recover' bir hastalıktan, bir felaketten veya kötü bir durumdan sonra iyileşmek, eski haline dönmek anlamına gelir. Orman yangınlarından sonra doğanın kendini 'recover' etmesi çok uzun zaman alabilir, hatta yüzyıllar sürebilirmiş!",
+    "phrase": "Spain is concerned about the sudden _____ of migrants.",
+    "translation": "Akın, yoğun giriş",
+    "context": "'Influx' kelimesi, bir yere aniden ve çok sayıda insanın veya şeyin akın etmesi, girişi demek. Özellikle göç, turizm veya iş dünyasında sıkça duyabileceğin bir ifade. Mesela, 'yeni müşterilerin yoğun akışı' gibi. Neden bu kadar insan geliyor diye düşündüysen, işte o durum!",
     "options": [
-      "destroy",
-      "flourish",
-      "recover",
-      "disappear"
+      "influx",
+      "outflow",
+      "stagnation",
+      "reduction"
     ],
-    "correctAnswer": "recover",
-    "category": "MIXED",
-    "variations": [
-      "It took her a long time to recover from the flu.",
-      "The economy is starting to recover after the recession."
-    ]
-  },
-  {
-    "id": 126080709,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The city hoped cable cars would solve its traffic _____.",
-    "translation": "Trafik kilitlenmesi",
-    "context": "'Traffic gridlock' şehirlerde trafiğin tamamen durma noktasına gelmesi, araçların kilitlenmesi durumunu ifade eder. Özellikle büyük şehirlerde, iş çıkış saatlerinde veya özel günlerde bu 'gridlock' durumu hayatı çekilmez hale getirebilir. Afrika'daki şehir bile çare bulamamış!",
-    "options": [
-      "solution",
-      "flow",
-      "gridlock",
-      "system"
-    ],
-    "correctAnswer": "gridlock",
+    "correctAnswer": "influx",
     "category": "TRAVEL",
     "variations": [
-      "The accident caused a massive traffic gridlock.",
-      "We need better public transport to avoid traffic gridlock."
+      "The city experienced a huge _____ of tourists during the festival.",
+      "An _____ of new data overloaded the servers."
     ]
   },
   {
-    "id": 126080710,
+    "id": 126080806,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "When a situation requires everyone's effort, we say '_____'.",
-    "translation": "'Herkesin yardımı gerekli' anlamına gelir.",
-    "context": "'All hands on deck' deyimi, bir acil durumda veya zorlu bir görevde herkesin yardımına ihtiyaç duyulduğunu belirtir. Gemi terminolojisinden gelme bir ifade; yani gemideki tüm tayfanın güverteye çıkıp işe koyulması gibi. Petrol endüstrisi de Trump'ı durdurmak için 'all hands on deck' demiş!",
+    "level": "INTERMEDIATE",
+    "phrase": "'To blow millions' ifadesi ne anlama gelir?",
+    "translation": "Hızlıca ve düşüncesizce milyonlarca para harcamak",
+    "context": "'Blow millions' ifadesi, parayı çok hızlı ve genellikle düşüncesizce harcamak, savurmak anlamına gelir. Sanki parayı havaya uçurmak gibi düşünebilirsin! Şirketler bazen yeni bir projeye büyük yatırım yapıp, beklentileri karşılamadığında bu durumu yaşayabilirler. Cüzdanına dikkat et!",
     "options": [
-      "All hands off deck",
-      "All hands on deck",
-      "All hands under deck",
-      "All hands around deck"
+      "Spend millions rapidly",
+      "Earn millions easily",
+      "Save millions diligently",
+      "Invest millions wisely"
     ],
-    "correctAnswer": "All hands on deck",
+    "correctAnswer": "Spend millions rapidly",
     "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126080711,
+    "id": 126080807,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Vogue gave a _____ of approval to the tech world.",
-    "translation": "Onay",
-    "context": "'Nod of approval' bir şeye veya bir fikre onay verdiğini, desteklediğini veya beğendiğini başını sallayarak belli etmek anlamına gelir. Moda dünyasının devlerinden Vogue'un teknolojiye baş sallaması demek ki büyük bir gelişme! Yani cool olduğunu onaylıyorlar!",
+    "level": "INTERMEDIATE",
+    "phrase": "The professor resigned after _____ allegations.",
+    "translation": "İntihal iddiaları",
+    "context": "'Plagiarism', başkasına ait bir fikri, metni veya sanatı, kendininmiş gibi sunmak demektir. Yani fikir hırsızlığı! Okulda ödev yaparken veya bir makale yazarken asla yapmaman gereken bir şey. Her zaman kaynak göstermelisin, yoksa başın ağrır!",
     "options": [
-      "shake",
-      "wave",
-      "nod",
-      "blink"
+      "plagiarism",
+      "promotion",
+      "collaboration",
+      "research"
     ],
-    "correctAnswer": "nod",
+    "correctAnswer": "plagiarism",
     "category": "CASUAL",
     "variations": [
-      "He gave me a nod of approval when I showed him my work.",
-      "Her parents finally gave their nod of approval for the trip."
+      "Students face serious consequences for _____.",
+      "The newspaper fired him due to widespread _____."
     ]
   },
   {
-    "id": 126080712,
+    "id": 126080808,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The PM vowed to introduce _____ gun laws.",
+    "translation": "Daha katı/sıkı",
+    "context": "'Stricter' kelimesi, 'daha katı' veya 'daha sıkı' anlamına gelir. Özellikle kurallar, yasalar veya düzenlemelerden bahsederken kullanılır. Mesela, 'daha sıkı trafik kuralları' gibi. Güvenlik ve düzen için bazen bu tür önlemler alınması gerekebilir. Yani 'şaka yapmıyoruz, kurallar değişiyor' demektir!",
+    "options": [
+      "stricter",
+      "looser",
+      "older",
+      "flexible"
+    ],
+    "correctAnswer": "stricter",
+    "category": "MIXED/GENERAL",
+    "variations": [
+      "The new regulations are much _____ than the old ones.",
+      "The school needs _____ rules for cell phone use."
+    ]
+  },
+  {
+    "id": 126080809,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Spain decided to _____ border controls against Italy.",
+    "translation": "Dayatmak, zorla uygulamak",
+    "context": "'Impose' kelimesi, bir kuralı, vergiyi veya kısıtlamayı zorla yürürlüğe koymak, dayatmak demektir. Hükümetler genellikle kamu düzeni veya güvenlik nedeniyle bu tür kararlar alabilir. Bir ülkenin diğerine 'şunu yapacaksın' demesi gibi düşünebilirsin. Kimseye sormadan kararı çakmak!",
+    "options": [
+      "impose",
+      "remove",
+      "relax",
+      "negotiate"
+    ],
+    "correctAnswer": "impose",
+    "category": "TRAVEL",
+    "variations": [
+      "The government plans to _____ new taxes next year.",
+      "They tried to _____ their will on the minority."
+    ]
+  },
+  {
+    "id": 126080810,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "What does 'dumps out' mean in sports, especially tennis?",
-    "translation": "'Bir rakibi bir müsabakadan elemek' anlamına gelir.",
-    "context": "Teniste 'dumps out', bir oyuncunun rakibini turnuvadan elemesi anlamına gelir. Yani Norrie'nin üçüncü seri başı De Minaur'u 'dumps out' etmesi, onu yenip turnuva dışına ittiği demek. Tam bir sporcu zaferi!",
+    "phrase": "Futbol transfer piyasasında 'to hijack a move' ifadesi ne anlama gelir?",
+    "translation": "Bir oyuncuyu son anda başka bir kulübe kaptırmak",
+    "context": "Bir transferi 'hijack' etmek, tam da bir kulübün bir oyuncuyla anlaşmak üzereyken, başka bir kulübün devreye girip oyuncuyu kendi tarafına çekmesidir. Havada giden bir uçağı alıp başka yere indirmek gibi düşün! Futbol dünyası sürprizlerle dolu, değil mi? Senin olsun derken, başkası kapar!",
     "options": [
-      "To score a goal",
-      "To eliminate an opponent from a competition.",
-      "To lose a game intentionally.",
-      "To serve the ball poorly."
+      "Bir oyuncuyu son anda başka bir kulübe kaptırmak",
+      "Bir oyuncuyu uygun fiyata transfer etmek",
+      "Bir oyuncuyu sakatlıktan sonra iyileştirmek",
+      "Bir oyuncunun sözleşmesini uzatmak"
     ],
-    "correctAnswer": "To eliminate an opponent from a competition.",
-    "category": "MIXED",
+    "correctAnswer": "Bir oyuncuyu son anda başka bir kulübe kaptırmak",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126080811,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The accused teen unexpectedly _____ despite strong evidence.",
+    "translation": "Serbest kaldı, beraat etti",
+    "context": "'Walk free', bir suçlamadan beraat etmek veya ceza almadan serbest kalmak demektir. Genellikle mahkeme süreçlerinin sonunda, kişinin masum bulunması veya yeterli delil olmaması durumunda kullanılır. Bazen adalet sisteminde tartışmalara yol açabilir. 'Yok artık!' dedirten olaylar için birebir!",
+    "options": [
+      "walks free",
+      "goes to prison",
+      "pays a fine",
+      "gets arrested"
+    ],
+    "correctAnswer": "walks free",
+    "category": "CASUAL",
+    "variations": [
+      "After a long trial, the suspect _____.",
+      "Many were surprised when the politician _____."
+    ]
+  },
+  {
+    "id": 126080812,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "'To progress in a competition' ifadesi ne anlama gelir?",
+    "translation": "Bir sonraki tura geçmek",
+    "context": "Bir yarışmada veya turnuvada 'progress' etmek, bir sonraki aşamaya geçmek, ilerlemek demektir. Tıpkı bir bilgisayar oyununda yeni bir seviyeye geçmek gibi! Takımlar veya bireysel sporcular için her zaman hedeflenen bir durumdur. 'İleri marş!' anlamında!",
+    "options": [
+      "Bir sonraki tura geçmek",
+      "Yarışmadan elenmek",
+      "Bir maç kaybetmek",
+      "Sıralamada gerilemek"
+    ],
+    "correctAnswer": "Bir sonraki tura geçmek",
+    "category": "MIXED/GENERAL",
     "variations": []
   }
 ]
