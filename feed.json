@@ -1,230 +1,230 @@
 [
   {
-    "id": 126080801,
+    "id": 126081001,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The country decided to impose new _____ at its borders.",
-    "translation": "Sınır kontrolleri",
-    "context": "Sınır kontrolü, yurt dışına çıkarken veya girerken pasaportunu gösterdiğin yer. Bazen ülkeler güvenlik veya göçmenlik nedenleriyle bu kontrolleri sıkılaştırır. Bavulunu hazırlarken kimliğin de hep yanında olsun!",
+    "phrase": "China ______ one million from homes as massive storm arrives.",
+    "translation": "İnsanları acil bir durum nedeniyle tehlikeli bir yerden güvenli bir yere taşımak.",
+    "context": "Düşünsene, koskoca bir şehir boşaltılıyor! 'Evacuate' kelimesi tam da böyle acil durumlarda, insanları tehlikeli bir yerden güvenli bir yere taşıma anlamına gelir. Yangın, sel, deprem gibi felaketlerde çok sık duyarsın. Kısacası, 'hadi kaçın!' demenin kibar yolu.",
     "options": [
-      "border controls",
-      "city lights",
-      "travel plans",
-      "customs fees"
+      "evacuates",
+      "invades",
+      "celebrates",
+      "creates"
     ],
-    "correctAnswer": "border controls",
+    "correctAnswer": "evacuates",
     "category": "TRAVEL",
     "variations": [
-      "Increased _____ can slow down travel for tourists.",
-      "They want to tighten _____ due to recent events."
+      "The police urged people to evacuate quickly.",
+      "They had to evacuate the building due to fire."
     ]
   },
   {
-    "id": 126080802,
+    "id": 126081002,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "OpenAI slowed Astra model _____ over security concerns.",
-    "translation": "Geliştirme",
-    "context": "Geliştirme, bir şeyin adım adım ilerlemesi, büyümesi demek. Özellikle teknoloji firmaları için ürün geliştirme çok önemli bir süreçtir. Bazen güvenlik için yavaşlamak, daha iyi bir ürün ortaya çıkarmak anlamına gelebilir.",
+    "phrase": "The hedge fund decided to ______ $400M in a new chip startup.",
+    "translation": "Bir şeye para yatırmak veya zaman ayırmak, gelecekte kazanç veya fayda umuduyla.",
+    "context": "Paran var ve daha çok para kazanmak istiyorsun, ne yaparsın? İşte 'invest' tam olarak bunu yapmak! Bir işe, şirkete veya projeye para yatırarak gelecekte kazanç elde etmeyi ummak demek. Tıpkı kumbarana para atıp sonra daha çok para bulmak gibi, ama daha büyük paralarla!",
     "options": [
-      "development",
-      "marketing",
-      "production",
-      "release"
+      "destroy",
+      "waste",
+      "invest",
+      "hide"
     ],
-    "correctAnswer": "development",
+    "correctAnswer": "invest",
     "category": "BUSINESS",
     "variations": [
-      "The company is focused on the _____ of new software.",
-      "Product _____ can take many months or years."
+      "I want to invest my savings wisely.",
+      "Many companies invest in new technologies."
     ]
   },
   {
-    "id": 126080803,
+    "id": 126081003,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Is this the best day of the year for _____?",
-    "translation": "Yıldızları izlemek",
-    "context": "Yıldızları izlemek mi? Ne harika bir hobi! Gece gökyüzüne bakıp o parıldayan noktaları, hatta bazen düşen yıldızları görmek... Huzur verici bir aktivite. Şehir ışıklarından uzak bir yer bul, bir battaniye al ve keyfini çıkar!",
+    "phrase": "There are many ______ from wildfires across Canada.",
+    "translation": "Bir olayın veya durumun yazılı veya sözlü bildirimi, raporu.",
+    "context": "'Report' günlük hayatta en çok duyacağın kelimelerden biri. Bir olayı, durumu veya haberi başkalarına bildirmek, aktarmak anlamına gelir. Tıpkı gazetecilerin haberleri 'rapor' etmesi gibi ya da bir öğrencinin öğretmene ödevini 'rapor' etmesi gibi. Yani 'dedikodu' değil, 'bilgi' aktarma işi!",
     "options": [
-      "stargazing",
-      "sunbathing",
-      "skydiving",
-      "cloudwatching"
+      "stories",
+      "reports",
+      "songs",
+      "dreams"
     ],
-    "correctAnswer": "stargazing",
+    "correctAnswer": "reports",
     "category": "CASUAL",
     "variations": [
-      "Many people enjoy _____ on clear summer nights.",
-      "We went to the mountains for some amazing _____."
+      "She wrote a detailed report for school.",
+      "The news reports breaking stories daily."
     ]
   },
   {
-    "id": 126080804,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "id": 126081004,
+    "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Bir ülkenin başka bir ülkeye yönelik askeri saldırılarını ifade eden doğru kelime hangisidir?",
-    "translation": "Saldırılar",
-    "context": "Bazen haberlerde ülkeler arası gerilimleri duyarsın. 'Attack' kelimesi, bir ülkenin diğerine karşı askeri bir eylemde bulunması durumunu anlatır. Maalesef bu, dünya gündeminin üzücü bir parçası olabiliyor.",
+    "phrase": "A rare turtle will be sent ______ on a 5,000-mile trip.",
+    "translation": "Kendi evine veya geldiği yere geri dönmek.",
+    "context": "'Back home', yani 'evine geri dönmek'. Bu ifade sadece insanlar için değil, bazen hayvanlar ya da eşyalar için de kullanılır. Düşünsene, uzun bir yolculuktan sonra kendi yatağına kavuşmak... İşte o 'oh be!' hissi, 'back home' ile ifade edilir. Bu kaplumbağa için de aynısı geçerli, sonunda kendi yuvasına dönecek!",
     "options": [
-      "Attacks",
-      "Festivals",
-      "Vacations",
-      "Celebrations"
+      "away",
+      "back home",
+      "to school",
+      "to space"
     ],
-    "correctAnswer": "Attacks",
-    "category": "MIXED/GENERAL",
+    "correctAnswer": "back home",
+    "category": "MIXED",
+    "variations": [
+      "After a long trip, I am finally back home.",
+      "He sent the package back home."
+    ]
+  },
+  {
+    "id": 126081005,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Which term best describes the process of sending a suspect from one country to another for trial?",
+    "translation": "Bir suçlunun yargılanmak üzere ait olduğu ülkeye iade edilmesi süreci.",
+    "context": "Bir film sahnesi gibi düşün: Suçlu bir ülkede yakalanır, ama suçu başka bir ülkede işlemiştir. İşte o suçluyu yargılanmak üzere ait olduğu ülkeye gönderme işine 'extradition' denir. Yani, kaçsan da kurtuluş yok, seni bulur getirirler!",
+    "options": [
+      "Immigration",
+      "Deportation",
+      "Extradition",
+      "Translation"
+    ],
+    "correctAnswer": "Extradition",
+    "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126080805,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Spain is concerned about the sudden _____ of migrants.",
-    "translation": "Akın, yoğun giriş",
-    "context": "'Influx' kelimesi, bir yere aniden ve çok sayıda insanın veya şeyin akın etmesi, girişi demek. Özellikle göç, turizm veya iş dünyasında sıkça duyabileceğin bir ifade. Mesela, 'yeni müşterilerin yoğun akışı' gibi. Neden bu kadar insan geliyor diye düşündüysen, işte o durum!",
-    "options": [
-      "influx",
-      "outflow",
-      "stagnation",
-      "reduction"
-    ],
-    "correctAnswer": "influx",
-    "category": "TRAVEL",
-    "variations": [
-      "The city experienced a huge _____ of tourists during the festival.",
-      "An _____ of new data overloaded the servers."
-    ]
-  },
-  {
-    "id": 126080806,
+    "id": 126081006,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "'To blow millions' ifadesi ne anlama gelir?",
-    "translation": "Hızlıca ve düşüncesizce milyonlarca para harcamak",
-    "context": "'Blow millions' ifadesi, parayı çok hızlı ve genellikle düşüncesizce harcamak, savurmak anlamına gelir. Sanki parayı havaya uçurmak gibi düşünebilirsin! Şirketler bazen yeni bir projeye büyük yatırım yapıp, beklentileri karşılamadığında bu durumu yaşayabilirler. Cüzdanına dikkat et!",
+    "phrase": "Anthropic's AI model turning 'auto mode' on by default means it will operate automatically without user intervention. Which of the following is the closest synonym for 'default' in this context?",
+    "translation": "'Varsayılan' veya 'standart' ayar.",
+    "context": "'Default', bir şeyin ayarlanmış, ön tanımlı hali demektir. Yeni bir telefon aldığında bazı uygulamaların 'default' olarak yüklü gelmesi gibi. Veya bir bilgisayar programında hiçbir ayarı değiştirmesen de çalışan 'default' ayarlar gibi. Yani 'Ben dokunmadım, o öyle başlıyor' dediğin her yer 'default'!",
     "options": [
-      "Spend millions rapidly",
-      "Earn millions easily",
-      "Save millions diligently",
-      "Invest millions wisely"
+      "Optional feature",
+      "Temporary state",
+      "Standard setting",
+      "Hidden function"
     ],
-    "correctAnswer": "Spend millions rapidly",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126080807,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The professor resigned after _____ allegations.",
-    "translation": "İntihal iddiaları",
-    "context": "'Plagiarism', başkasına ait bir fikri, metni veya sanatı, kendininmiş gibi sunmak demektir. Yani fikir hırsızlığı! Okulda ödev yaparken veya bir makale yazarken asla yapmaman gereken bir şey. Her zaman kaynak göstermelisin, yoksa başın ağrır!",
-    "options": [
-      "plagiarism",
-      "promotion",
-      "collaboration",
-      "research"
-    ],
-    "correctAnswer": "plagiarism",
-    "category": "CASUAL",
-    "variations": [
-      "Students face serious consequences for _____.",
-      "The newspaper fired him due to widespread _____."
-    ]
-  },
-  {
-    "id": 126080808,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The PM vowed to introduce _____ gun laws.",
-    "translation": "Daha katı/sıkı",
-    "context": "'Stricter' kelimesi, 'daha katı' veya 'daha sıkı' anlamına gelir. Özellikle kurallar, yasalar veya düzenlemelerden bahsederken kullanılır. Mesela, 'daha sıkı trafik kuralları' gibi. Güvenlik ve düzen için bazen bu tür önlemler alınması gerekebilir. Yani 'şaka yapmıyoruz, kurallar değişiyor' demektir!",
-    "options": [
-      "stricter",
-      "looser",
-      "older",
-      "flexible"
-    ],
-    "correctAnswer": "stricter",
-    "category": "MIXED/GENERAL",
-    "variations": [
-      "The new regulations are much _____ than the old ones.",
-      "The school needs _____ rules for cell phone use."
-    ]
-  },
-  {
-    "id": 126080809,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Spain decided to _____ border controls against Italy.",
-    "translation": "Dayatmak, zorla uygulamak",
-    "context": "'Impose' kelimesi, bir kuralı, vergiyi veya kısıtlamayı zorla yürürlüğe koymak, dayatmak demektir. Hükümetler genellikle kamu düzeni veya güvenlik nedeniyle bu tür kararlar alabilir. Bir ülkenin diğerine 'şunu yapacaksın' demesi gibi düşünebilirsin. Kimseye sormadan kararı çakmak!",
-    "options": [
-      "impose",
-      "remove",
-      "relax",
-      "negotiate"
-    ],
-    "correctAnswer": "impose",
-    "category": "TRAVEL",
-    "variations": [
-      "The government plans to _____ new taxes next year.",
-      "They tried to _____ their will on the minority."
-    ]
-  },
-  {
-    "id": 126080810,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Futbol transfer piyasasında 'to hijack a move' ifadesi ne anlama gelir?",
-    "translation": "Bir oyuncuyu son anda başka bir kulübe kaptırmak",
-    "context": "Bir transferi 'hijack' etmek, tam da bir kulübün bir oyuncuyla anlaşmak üzereyken, başka bir kulübün devreye girip oyuncuyu kendi tarafına çekmesidir. Havada giden bir uçağı alıp başka yere indirmek gibi düşün! Futbol dünyası sürprizlerle dolu, değil mi? Senin olsun derken, başkası kapar!",
-    "options": [
-      "Bir oyuncuyu son anda başka bir kulübe kaptırmak",
-      "Bir oyuncuyu uygun fiyata transfer etmek",
-      "Bir oyuncuyu sakatlıktan sonra iyileştirmek",
-      "Bir oyuncunun sözleşmesini uzatmak"
-    ],
-    "correctAnswer": "Bir oyuncuyu son anda başka bir kulübe kaptırmak",
+    "correctAnswer": "Standard setting",
     "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126080811,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The accused teen unexpectedly _____ despite strong evidence.",
-    "translation": "Serbest kaldı, beraat etti",
-    "context": "'Walk free', bir suçlamadan beraat etmek veya ceza almadan serbest kalmak demektir. Genellikle mahkeme süreçlerinin sonunda, kişinin masum bulunması veya yeterli delil olmaması durumunda kullanılır. Bazen adalet sisteminde tartışmalara yol açabilir. 'Yok artık!' dedirten olaylar için birebir!",
+    "id": 126081007,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "When a golf player 'shoots 59' in a round, what does it mean?",
+    "translation": "Bir turu 59 vuruşla tamamlamışlar, golfte çok iyi bir skor.",
+    "context": "Golfte 'shoot' kelimesi, atış yapmak ve bir skor elde etmek için kullanılır. Eğer bir golfçü 'shoots 59' diyorsak, o turu 59 vuruşla tamamlamış demektir ki bu inanılmaz düşük bir skor ve golfte büyük bir başarıdır! Yani, 'ben vurdum, vurdum, bir de baktım harika bitirmişim' demek!",
     "options": [
-      "walks free",
-      "goes to prison",
-      "pays a fine",
-      "gets arrested"
+      "They hit the ball 59 times out of bounds.",
+      "They completed the round with 59 strokes.",
+      "They played 59 holes in one round.",
+      "They scored 59 points in a team event."
     ],
-    "correctAnswer": "walks free",
+    "correctAnswer": "They completed the round with 59 strokes.",
     "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126081008,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Florida business owners allegedly scattered 1,500 mothballs on a beach to send endangered birds ______.",
+    "translation": "Birini bir yerden kovmak, uzaklaştırmak veya gitmeye zorlamak.",
+    "context": "'Send someone packing', birini bir yerden kovmak, uzaklaştırmak veya gitmeye zorlamak anlamına gelen deyimsel bir ifadedir. Yani, 'defol git buradan!' demenin biraz daha havalı ve deyimsel hali. Bu haberdeki gibi, talihsiz kuşları oradan uzaklaştırmak için kullanılmış.",
+    "options": [
+      "flying",
+      "nesting",
+      "packing",
+      "singing"
+    ],
+    "correctAnswer": "packing",
+    "category": "MIXED",
     "variations": [
-      "After a long trial, the suspect _____.",
-      "Many were surprised when the politician _____."
+      "The manager sent the lazy employee packing.",
+      "We need to send these old clothes packing."
     ]
   },
   {
-    "id": 126080812,
+    "id": 126081009,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Most of the sun will be ______ across the island of Ireland, a rare astronomical event.",
+    "translation": "Bir gök cisminin başka bir gök cisminin ışığını engellemesiyle oluşan tutulma.",
+    "context": "'Eclipse', yani 'tutulma'. Güneş tutulması (solar eclipse) veya Ay tutulması (lunar eclipse) olarak duymuşsundur. Bir gök cisminin başka bir gök cisminin ışığını engellemesi olayı. Tıpkı dev bir perde gibi güneşin önüne geçmek gibi, ortaya inanılmaz bir görüntü çıkar!",
+    "options": [
+      "enlightened",
+      "covered",
+      "eclipsed",
+      "projected"
+    ],
+    "correctAnswer": "eclipsed",
+    "category": "TRAVEL",
+    "variations": [
+      "The moon eclipsed the sun completely.",
+      "The star was eclipsed by a passing planet."
+    ]
+  },
+  {
+    "id": 126081010,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Congress is about to give Trump ______ authority to impose new tariffs.",
+    "translation": "Sınırsız veya denetimsiz yetki, kontrol.",
+    "context": "'Unchecked authority', yani 'sınırsız yetki'. Bir kişinin veya kurumun gücünün, kararlarının veya eylemlerinin herhangi bir kontrol, denetim veya kısıtlama olmaksızın serbestçe kullanılabileceği durum. Düşün, 'kimse bana dur diyemez' demek gibi bir şey. Genellikle pek iyi sonuçlar doğurmaz!",
+    "options": [
+      "limited",
+      "approved",
+      "absolute",
+      "unchecked"
+    ],
+    "correctAnswer": "unchecked",
+    "category": "BUSINESS",
+    "variations": [
+      "His power was unchecked and grew too strong.",
+      "The leader had unchecked control over the army."
+    ]
+  },
+  {
+    "id": 126081011,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Drones were ______ over a German base, causing security concerns.",
+    "translation": "Bir şeyi görmek, fark etmek veya tespit etmek.",
+    "context": "'Spot' kelimesi, bir şeyi görmek, fark etmek veya tespit etmek anlamına gelir. Hani 'Aa, bak orada!' dediğin an var ya, işte o an bir şeyi 'spot' etmiş olursun. Özellikle zor görünen, hızlı geçen veya gizlenen şeyler için kullanılır. Uçan bir drone'u fark etmek gibi!",
+    "options": [
+      "hidden",
+      "spotted",
+      "imagined",
+      "lost"
+    ],
+    "correctAnswer": "spotted",
+    "category": "CASUAL",
+    "variations": [
+      "I spotted a rare bird in the forest.",
+      "Can you spot the difference in these pictures?"
+    ]
+  },
+  {
+    "id": 126081012,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "'To progress in a competition' ifadesi ne anlama gelir?",
-    "translation": "Bir sonraki tura geçmek",
-    "context": "Bir yarışmada veya turnuvada 'progress' etmek, bir sonraki aşamaya geçmek, ilerlemek demektir. Tıpkı bir bilgisayar oyununda yeni bir seviyeye geçmek gibi! Takımlar veya bireysel sporcular için her zaman hedeflenen bir durumdur. 'İleri marş!' anlamında!",
+    "phrase": "To 'undermine democracy' implies weakening or damaging it subtly. Which phrase best captures this idea?",
+    "translation": "Bir şeyi zayıflatmak, temelini sarsmak veya altını oymak (genellikle sinsice).",
+    "context": "'Undermine', bir şeyin temelini zayıflatmak, altını oymak veya gücünü azaltmak anlamına gelir. Genellikle fark edilmeden, sinsice yapılan bir eylemi ifade eder. Bir binanın temelini yavaş yavaş aşındırmak gibi, görünüşte sağlam dursa da içi çürüyordur. Demokrasinin temellerini sarsmak da böyle bir şey!",
     "options": [
-      "Bir sonraki tura geçmek",
-      "Yarışmadan elenmek",
-      "Bir maç kaybetmek",
-      "Sıralamada gerilemek"
+      "Directly confront",
+      "Openly support",
+      "Subtly strengthen",
+      "Subtly weaken"
     ],
-    "correctAnswer": "Bir sonraki tura geçmek",
-    "category": "MIXED/GENERAL",
+    "correctAnswer": "Subtly weaken",
+    "category": "MIXED",
     "variations": []
   }
 ]
