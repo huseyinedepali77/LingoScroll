@@ -1,230 +1,224 @@
 [
   {
-    "id": 126081001,
+    "id": 126081101,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "China ______ one million from homes as massive storm arrives.",
-    "translation": "İnsanları acil bir durum nedeniyle tehlikeli bir yerden güvenli bir yere taşımak.",
-    "context": "Düşünsene, koskoca bir şehir boşaltılıyor! 'Evacuate' kelimesi tam da böyle acil durumlarda, insanları tehlikeli bir yerden güvenli bir yere taşıma anlamına gelir. Yangın, sel, deprem gibi felaketlerde çok sık duyarsın. Kısacası, 'hadi kaçın!' demenin kibar yolu.",
+    "phrase": "Our flight was _____ after the child refused to wear a seat belt.",
+    "translation": "İptal edildi",
+    "context": "Bazen çocuklar kurallara uymak istemez, ama uçakta emniyet kemeri takmak zorunlu! Uçuş iptal olduğunda, planlar suya düşer ve bu da 'cancelled flight' denilen duruma yol açar.",
     "options": [
-      "evacuates",
-      "invades",
-      "celebrates",
-      "creates"
+      "delayed",
+      "cancelled",
+      "boarded",
+      "diverted"
     ],
-    "correctAnswer": "evacuates",
+    "correctAnswer": "cancelled",
     "category": "TRAVEL",
     "variations": [
-      "The police urged people to evacuate quickly.",
-      "They had to evacuate the building due to fire."
+      "The show was _____ due to bad weather.",
+      "They _____ the meeting at the last minute."
     ]
   },
   {
-    "id": 126081002,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The hedge fund decided to ______ $400M in a new chip startup.",
-    "translation": "Bir şeye para yatırmak veya zaman ayırmak, gelecekte kazanç veya fayda umuduyla.",
-    "context": "Paran var ve daha çok para kazanmak istiyorsun, ne yaparsın? İşte 'invest' tam olarak bunu yapmak! Bir işe, şirkete veya projeye para yatırarak gelecekte kazanç elde etmeyi ummak demek. Tıpkı kumbarana para atıp sonra daha çok para bulmak gibi, ama daha büyük paralarla!",
-    "options": [
-      "destroy",
-      "waste",
-      "invest",
-      "hide"
-    ],
-    "correctAnswer": "invest",
-    "category": "BUSINESS",
-    "variations": [
-      "I want to invest my savings wisely.",
-      "Many companies invest in new technologies."
-    ]
-  },
-  {
-    "id": 126081003,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "There are many ______ from wildfires across Canada.",
-    "translation": "Bir olayın veya durumun yazılı veya sözlü bildirimi, raporu.",
-    "context": "'Report' günlük hayatta en çok duyacağın kelimelerden biri. Bir olayı, durumu veya haberi başkalarına bildirmek, aktarmak anlamına gelir. Tıpkı gazetecilerin haberleri 'rapor' etmesi gibi ya da bir öğrencinin öğretmene ödevini 'rapor' etmesi gibi. Yani 'dedikodu' değil, 'bilgi' aktarma işi!",
-    "options": [
-      "stories",
-      "reports",
-      "songs",
-      "dreams"
-    ],
-    "correctAnswer": "reports",
-    "category": "CASUAL",
-    "variations": [
-      "She wrote a detailed report for school.",
-      "The news reports breaking stories daily."
-    ]
-  },
-  {
-    "id": 126081004,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "A rare turtle will be sent ______ on a 5,000-mile trip.",
-    "translation": "Kendi evine veya geldiği yere geri dönmek.",
-    "context": "'Back home', yani 'evine geri dönmek'. Bu ifade sadece insanlar için değil, bazen hayvanlar ya da eşyalar için de kullanılır. Düşünsene, uzun bir yolculuktan sonra kendi yatağına kavuşmak... İşte o 'oh be!' hissi, 'back home' ile ifade edilir. Bu kaplumbağa için de aynısı geçerli, sonunda kendi yuvasına dönecek!",
-    "options": [
-      "away",
-      "back home",
-      "to school",
-      "to space"
-    ],
-    "correctAnswer": "back home",
-    "category": "MIXED",
-    "variations": [
-      "After a long trip, I am finally back home.",
-      "He sent the package back home."
-    ]
-  },
-  {
-    "id": 126081005,
+    "id": 126081102,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Which term best describes the process of sending a suspect from one country to another for trial?",
-    "translation": "Bir suçlunun yargılanmak üzere ait olduğu ülkeye iade edilmesi süreci.",
-    "context": "Bir film sahnesi gibi düşün: Suçlu bir ülkede yakalanır, ama suçu başka bir ülkede işlemiştir. İşte o suçluyu yargılanmak üzere ait olduğu ülkeye gönderme işine 'extradition' denir. Yani, kaçsan da kurtuluş yok, seni bulur getirirler!",
+    "level": "BEGINNER",
+    "phrase": "Which term refers to an offer made by a company to buy back its own shares from employees?",
+    "translation": "Hisse geri alım teklifi",
+    "context": "Büyük şirketler bazen çalışanlarına şirket hisselerini geri satma teklifi yapar. Buna 'tender offer' denir. Jeff Bezos da belki spor takımının hisseleri için böyle bir şey yapar, kim bilir!",
     "options": [
-      "Immigration",
-      "Deportation",
-      "Extradition",
-      "Translation"
+      "stock option",
+      "tender offer",
+      "dividend payout",
+      "merger agreement"
     ],
-    "correctAnswer": "Extradition",
-    "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126081006,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Anthropic's AI model turning 'auto mode' on by default means it will operate automatically without user intervention. Which of the following is the closest synonym for 'default' in this context?",
-    "translation": "'Varsayılan' veya 'standart' ayar.",
-    "context": "'Default', bir şeyin ayarlanmış, ön tanımlı hali demektir. Yeni bir telefon aldığında bazı uygulamaların 'default' olarak yüklü gelmesi gibi. Veya bir bilgisayar programında hiçbir ayarı değiştirmesen de çalışan 'default' ayarlar gibi. Yani 'Ben dokunmadım, o öyle başlıyor' dediğin her yer 'default'!",
-    "options": [
-      "Optional feature",
-      "Temporary state",
-      "Standard setting",
-      "Hidden function"
-    ],
-    "correctAnswer": "Standard setting",
+    "correctAnswer": "tender offer",
     "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126081007,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "When a golf player 'shoots 59' in a round, what does it mean?",
-    "translation": "Bir turu 59 vuruşla tamamlamışlar, golfte çok iyi bir skor.",
-    "context": "Golfte 'shoot' kelimesi, atış yapmak ve bir skor elde etmek için kullanılır. Eğer bir golfçü 'shoots 59' diyorsak, o turu 59 vuruşla tamamlamış demektir ki bu inanılmaz düşük bir skor ve golfte büyük bir başarıdır! Yani, 'ben vurdum, vurdum, bir de baktım harika bitirmişim' demek!",
-    "options": [
-      "They hit the ball 59 times out of bounds.",
-      "They completed the round with 59 strokes.",
-      "They played 59 holes in one round.",
-      "They scored 59 points in a team event."
-    ],
-    "correctAnswer": "They completed the round with 59 strokes.",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126081008,
+    "id": 126081103,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Florida business owners allegedly scattered 1,500 mothballs on a beach to send endangered birds ______.",
-    "translation": "Birini bir yerden kovmak, uzaklaştırmak veya gitmeye zorlamak.",
-    "context": "'Send someone packing', birini bir yerden kovmak, uzaklaştırmak veya gitmeye zorlamak anlamına gelen deyimsel bir ifadedir. Yani, 'defol git buradan!' demenin biraz daha havalı ve deyimsel hali. Bu haberdeki gibi, talihsiz kuşları oradan uzaklaştırmak için kullanılmış.",
+    "level": "BEGINNER",
+    "phrase": "A severe _____ struck the region, causing significant damage.",
+    "translation": "Deprem",
+    "context": "Deprem, yani 'earthquake', dünya sallandığında ortaya çıkan doğal bir olay. Ne yazık ki Kolombiya'da büyük bir tanesi yaşanmış. Bu tür olaylar herkesi derinden etkiler.",
     "options": [
-      "flying",
-      "nesting",
-      "packing",
-      "singing"
+      "typhoon",
+      "earthquake",
+      "volcano",
+      "tsunami"
     ],
-    "correctAnswer": "packing",
-    "category": "MIXED",
+    "correctAnswer": "earthquake",
+    "category": "CASUAL",
     "variations": [
-      "The manager sent the lazy employee packing.",
-      "We need to send these old clothes packing."
+      "The small _____ caused no major damage.",
+      "Many historical buildings were destroyed in the _____."
     ]
   },
   {
-    "id": 126081009,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Most of the sun will be ______ across the island of Ireland, a rare astronomical event.",
-    "translation": "Bir gök cisminin başka bir gök cisminin ışığını engellemesiyle oluşan tutulma.",
-    "context": "'Eclipse', yani 'tutulma'. Güneş tutulması (solar eclipse) veya Ay tutulması (lunar eclipse) olarak duymuşsundur. Bir gök cisminin başka bir gök cisminin ışığını engellemesi olayı. Tıpkı dev bir perde gibi güneşin önüne geçmek gibi, ortaya inanılmaz bir görüntü çıkar!",
+    "id": 126081104,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "Jeff Bezos is reportedly interested in buying a _____.",
+    "translation": "Spor takımı",
+    "context": "Para, güç ve tutku birleşince, Jeff Bezos gibi milyarderler bazen bir 'sports team' (spor takımı) almayı düşünebilir. Kim bilir, belki de favori takımının yeni sahibi olur!",
     "options": [
-      "enlightened",
-      "covered",
-      "eclipsed",
-      "projected"
+      "movie studio",
+      "social media platform",
+      "sports team",
+      "fashion brand"
     ],
-    "correctAnswer": "eclipsed",
+    "correctAnswer": "sports team",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126081105,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The Perseid _____ shower will soon reach its peak, offering a stunning sky show.",
+    "translation": "Meteor",
+    "context": "'Meteor shower' yani meteor yağmuru, özellikle yaz aylarında gökyüzünü izlemeyi sevenler için kaçırılmayacak bir olaydır. Geceleri şehirden uzakta, yıldız kaymalarını izlemek harika bir deneyim!",
+    "options": [
+      "star",
+      "comet",
+      "meteor",
+      "planet"
+    ],
+    "correctAnswer": "meteor",
     "category": "TRAVEL",
     "variations": [
-      "The moon eclipsed the sun completely.",
-      "The star was eclipsed by a passing planet."
+      "We saw a bright _____ streak across the night sky.",
+      "Scientists study _____ fragments to learn about space."
     ]
   },
   {
-    "id": 126081010,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Congress is about to give Trump ______ authority to impose new tariffs.",
-    "translation": "Sınırsız veya denetimsiz yetki, kontrol.",
-    "context": "'Unchecked authority', yani 'sınırsız yetki'. Bir kişinin veya kurumun gücünün, kararlarının veya eylemlerinin herhangi bir kontrol, denetim veya kısıtlama olmaksızın serbestçe kullanılabileceği durum. Düşün, 'kimse bana dur diyemez' demek gibi bir şey. Genellikle pek iyi sonuçlar doğurmaz!",
+    "id": 126081106,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "OpenAI is launching a new _____ model to combat AI-led attacks.",
+    "translation": "Siber",
+    "context": "Günümüz dünyasında 'cyber' (siber) kelimesi çok önemli. Özellikle şirketler 'cyber attacks' (siber saldırılar) yüzünden büyük riskler altında. OpenAI gibi firmalar da bu tehditlere karşı 'cyber model' (siber model) geliştiriyor.",
     "options": [
-      "limited",
-      "approved",
-      "absolute",
-      "unchecked"
+      "marketing",
+      "financial",
+      "cyber",
+      "educational"
     ],
-    "correctAnswer": "unchecked",
+    "correctAnswer": "cyber",
     "category": "BUSINESS",
-    "variations": [
-      "His power was unchecked and grew too strong.",
-      "The leader had unchecked control over the army."
-    ]
+    "variations": []
   },
   {
-    "id": 126081011,
+    "id": 126081107,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Drones were ______ over a German base, causing security concerns.",
-    "translation": "Bir şeyi görmek, fark etmek veya tespit etmek.",
-    "context": "'Spot' kelimesi, bir şeyi görmek, fark etmek veya tespit etmek anlamına gelir. Hani 'Aa, bak orada!' dediğin an var ya, işte o an bir şeyi 'spot' etmiş olursun. Özellikle zor görünen, hızlı geçen veya gizlenen şeyler için kullanılır. Uçan bir drone'u fark etmek gibi!",
+    "level": "INTERMEDIATE",
+    "phrase": "Police have identified a _____ in the Tupac murder case.",
+    "translation": "Şüpheli",
+    "context": "Bir cinayet davasında 'suspect' (şüpheli) kelimesini sıkça duyarsın. Tupac gibi efsanevi isimlerin davalarında ise bu durum yıllarca sürebilir. Sonunda bir şüpheli çıkması, adaletin yerini bulması için önemli bir adım.",
     "options": [
-      "hidden",
-      "spotted",
-      "imagined",
-      "lost"
+      "witness",
+      "victim",
+      "detective",
+      "suspect"
     ],
-    "correctAnswer": "spotted",
+    "correctAnswer": "suspect",
     "category": "CASUAL",
     "variations": [
-      "I spotted a rare bird in the forest.",
-      "Can you spot the difference in these pictures?"
+      "The police are interviewing a new _____ in the robbery.",
+      "He became the prime _____ after his alibi failed."
     ]
   },
   {
-    "id": 126081012,
+    "id": 126081108,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "To 'undermine democracy' implies weakening or damaging it subtly. Which phrase best captures this idea?",
-    "translation": "Bir şeyi zayıflatmak, temelini sarsmak veya altını oymak (genellikle sinsice).",
-    "context": "'Undermine', bir şeyin temelini zayıflatmak, altını oymak veya gücünü azaltmak anlamına gelir. Genellikle fark edilmeden, sinsice yapılan bir eylemi ifade eder. Bir binanın temelini yavaş yavaş aşındırmak gibi, görünüşte sağlam dursa da içi çürüyordur. Demokrasinin temellerini sarsmak da böyle bir şey!",
+    "level": "INTERMEDIATE",
+    "phrase": "Michael Sheen is investigating Wales's _____ legacy from industrial pollution.",
+    "translation": "Zehirli",
+    "context": "Bazen bir ülkenin sanayi geçmişi, geride 'toxic legacy' (zehirli miras) bırakabilir. Bu, çevresel kirlilik veya sağlıksız koşullar anlamına gelir. Bir şeyler 'toxic' olduğunda, ondan uzak durmak en iyisidir!",
     "options": [
-      "Directly confront",
-      "Openly support",
-      "Subtly strengthen",
-      "Subtly weaken"
+      "historical",
+      "cultural",
+      "economic",
+      "toxic"
     ],
-    "correctAnswer": "Subtly weaken",
+    "correctAnswer": "toxic",
     "category": "MIXED",
     "variations": []
+  },
+  {
+    "id": 126081109,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "The church was accused of housing illegal immigrants set for _____.",
+    "translation": "Sınır dışı etme",
+    "context": "Bir kişi bir ülkeden yasa dışı yollarla ayrılmak zorunda kaldığında, bu duruma 'deportation' (sınır dışı etme) denir. Bu, genellikle çok hassas ve tartışmalı bir konudur. Bu haberdeki gibi durumlar karmaşık sosyal ve hukuki boyutlara sahip olabilir.",
+    "options": [
+      "naturalization",
+      "asylum",
+      "deportation",
+      "visa renewal"
+    ],
+    "correctAnswer": "deportation",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126081110,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "A former Air Force Secretary will sue to restore his _____ clearance.",
+    "translation": "Güvenlik",
+    "context": "'Security clearance' (güvenlik izni), devlet sırlarına veya hassas bilgilere erişim için verilen özel bir izindir. Eğer bu iznini kaybedersen, önemli görevlerden uzak kalabilirsin. Onu geri almak için 'sue' (dava açmak) bazen tek yoldur.",
+    "options": [
+      "health",
+      "driving",
+      "security",
+      "academic"
+    ],
+    "correctAnswer": "security",
+    "category": "BUSINESS",
+    "variations": [
+      "He needs top-level _____ clearance for that job.",
+      "Without proper _____ clearance, you can't access confidential files."
+    ]
+  },
+  {
+    "id": 126081111,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "The teacher was accused of _____ the line with a student.",
+    "translation": "Sınırı aşmak",
+    "context": "'Crossing the line' (sınırı aşmak) deyimi, kabul edilebilir davranışların dışına çıkmak anlamına gelir. Özellikle öğretmen-öğrenci ilişkilerinde bu tür davranışlar ciddi sonuçlar doğurabilir ve maalesef bazı haberlerde de gördüğümüz gibi hukuki süreçlere yol açabilir.",
+    "options": [
+      "drawing",
+      "crossing",
+      "holding",
+      "following"
+    ],
+    "correctAnswer": "crossing",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126081112,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The teacher was arrested under the new anti-_____ law.",
+    "translation": "İstismar önleme",
+    "context": "'Anti-grooming law' (istismar önleme yasası), çocukları veya savunmasız kişileri istismar etmeyi amaçlayan davranışları engellemek için çıkarılan yasalardır. Bu tür yasalar, toplumun en hassas kesimlerini korumayı hedefler ve çok ciddiye alınır.",
+    "options": [
+      "bullying",
+      "cheating",
+      "grooming",
+      "harassment"
+    ],
+    "correctAnswer": "grooming",
+    "category": "MIXED",
+    "variations": [
+      "New legislation aims to strengthen anti-_____ measures.",
+      "The suspect was charged under strict anti-_____ statutes."
+    ]
   }
 ]
