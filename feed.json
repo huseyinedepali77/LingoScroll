@@ -1,242 +1,242 @@
 [
   {
-    "id": 126081301,
+    "id": 126081501,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "She had to face a traffic _____ after getting caught speeding.",
-    "translation": "'Charge' kelimesi, suçlama veya masraf anlamında kullanılır. Burada trafik cezası veya suçlaması anlamında.",
-    "context": "'Charge', günlük hayatta kredi kartı 'charge'ı gibi finansal durumlar için de kullanılır ama bir suçla bağlantılıysa 'suçlama' ya da 'ceza' demek. Polis seni bir şeyi yaparken yakaladığında bu kelimeyi duyabilirsin, mesela park yasağını ihlal ettiysen, 'parking charge' ile karşılaşabilirsin!",
+    "phrase": "Five dead after a strong ______ strikes Indonesia.",
+    "translation": "Deprem",
+    "context": "Dünya sallanıyor! 'Earthquake', yani 'deprem', günlük hayatımızda maalesef sıkça duyduğumuz bir kelime. Bir yere seyahat etmeden önce oranın deprem riski olup olmadığını veya son zamanlarda bir deprem olup olmadığını araştırmak iyi bir fikir olabilir. Seyahat planlarını buna göre yapabilirsin!",
     "options": [
-      "charge",
-      "cost",
-      "fee",
-      "payment"
+      "earthquake",
+      "storm",
+      "flood",
+      "volcano"
     ],
-    "correctAnswer": "charge",
-    "category": "CASUAL",
-    "variations": [
-      "He had a serious charge for parking there.",
-      "The police filed a charge against him."
-    ]
-  },
-  {
-    "id": 126081302,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The company appointed a new _____ to lead their AI projects.",
-    "translation": "'CEO', bir şirketin en üst düzey yöneticisi, yani İcra Kurulu Başkanı demektir.",
-    "context": "'CEO' dediğin zaman, o şirketin tüm büyük kararlarını veren, geminin kaptanı gibi düşünebilirsin. Yeni bir 'CEO' geldiğinde, şirketin rüzgarı değişir, yeni stratejiler, yeni heyecanlar başlar. Belki yeni robotlar geliştirir, belki de eski kahve makinesini yenilerler! Kim bilir?",
-    "options": [
-      "CEO",
-      "Manager",
-      "Director",
-      "President"
-    ],
-    "correctAnswer": "CEO",
-    "category": "BUSINESS",
-    "variations": [
-      "Our new CEO will start next month.",
-      "She is the CEO of a tech startup."
-    ]
-  },
-  {
-    "id": 126081303,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "A sudden disease _____ affected many people in the village.",
-    "translation": "'Outbreak' kelimesi, bir hastalığın veya istenmeyen bir durumun aniden ortaya çıkması veya yayılması demektir.",
-    "context": "'Outbreak' genellikle bir salgının başlangıcını ifade eder. Bazen grip 'outbreak'i olur, bazen de okulda dedikodu 'outbreak'i yaşanır! Önemli olan, aniden ve hızla yayılması. Hatta bazen evdeki farelerin 'outbreak'i bile olabilir, aman dikkat!",
-    "options": [
-      "outbreak",
-      "spread",
-      "event",
-      "start"
-    ],
-    "correctAnswer": "outbreak",
-    "category": "MIXED",
-    "variations": [
-      "The news reported a flu outbreak.",
-      "There was a sudden outbreak of joy."
-    ]
-  },
-  {
-    "id": 126081304,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Many _____ flocked to the mountains to see the rare animal.",
-    "translation": "'Hunters' kelimesi, avcılar veya belirli bir şeyi arayan kişiler demektir.",
-    "context": "'Hunter' sadece ormanda hayvan kovalayan demek değil. Günümüzde 'treasure hunters' (hazine avcıları), 'eclipse hunters' (güneş tutulması avcıları) veya 'deal hunters' (fırsat avcıları) gibi kelimeler de var. Yani bir şeyi büyük bir heyecanla kovalıyorsan, sen de bir nevi 'hunter'sın!",
-    "options": [
-      "hunters",
-      "seekers",
-      "watchers",
-      "travelers"
-    ],
-    "correctAnswer": "hunters",
+    "correctAnswer": "earthquake",
     "category": "TRAVEL",
     "variations": [
-      "They are famous storm hunters.",
-      "He joined the comet hunters group."
+      "The city was hit by a major ______.",
+      "After the ______, many buildings collapsed."
     ]
   },
   {
-    "id": 126081305,
+    "id": 126081502,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The opposition party failed to _____ in the recent election.",
-    "translation": "'Claim victory', zafer ilan etmek, galibiyet iddiasında bulunmak demektir.",
-    "context": "Seçim sonuçları açıklanınca, herkes kimin 'claim victory' edeceğini merak eder. Bu sadece politikada değil, bazen bir tartışmayı kazandığında veya bir oyunun son turunu aldığında da 'I claim victory!' diye havaya zıplayabilirsin. Bazen de sadece annenden 'Bu kez sen haklısın!' lafını aldığında sessizce 'victory'ini 'claim' edersin.",
+    "level": "BEGINNER",
+    "phrase": "Talks to sell the company are really ______ up.",
+    "translation": "Kızışıyor / Yoğunlaşıyor",
+    "context": "İş dünyasında 'heating up' demek, bir durumun, özellikle de anlaşmaların ya da rekabetin kızıştığı, yoğunlaştığı anlamına gelir. Tıpkı bir tencerenin içindeki su gibi, kaynamaya başlıyor ve yakında bir sonuca ulaşılacak demek! Yani, büyük gelişmeler kapıda!",
     "options": [
-      "claim victory",
-      "win power",
-      "state success",
-      "get victory"
+      "cooling",
+      "slowing",
+      "heating",
+      "freezing"
     ],
-    "correctAnswer": "claim victory",
+    "correctAnswer": "heating",
     "category": "BUSINESS",
     "variations": [
-      "He hoped to claim victory soon.",
-      "The team will claim victory after this match."
+      "The competition is ______ up before the final game.",
+      "The debate on AI ethics is ______ up again."
     ]
   },
   {
-    "id": 126081306,
+    "id": 126081503,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "To avoid any legal issues, she decided to _____ to the charges.",
-    "translation": "'Pleading guilty', suçunu kabul etmek, suçu ikrar etmek demektir.",
-    "context": "Tiffany Haddish'in yaptığı gibi, bazen yasal bir süreçte işleri uzatmamak için suçunu 'pleading guilty' yaparak kabul edersin. Bu, 'Evet, yaptım, itiraf ediyorum!' demenin resmi yolu. Tabii her zaman bu kadar kolay olmuyor, ama bazen en iyi yol bu. Sakın gürültü yapmamak için komşunun çiçeklerini ezdiğini 'plead guilty' etme, affetmezler!",
+    "level": "BEGINNER",
+    "phrase": "The golfer produced a ______ 61 at the championship.",
+    "translation": "Çarpıcı / Hayran bırakan",
+    "context": "Wow! 'Stunning' kelimesi, gördüğümüz veya duyduğumuz bir şeyin bizi hayran bıraktığını, çok etkileyici ve harika olduğunu anlatır. Tıpkı o golfçünün attığı inanılmaz sayı gibi, herkesi şaşkına çeviren, göz kamaştırıcı bir performanstı! 'Stunning view' de diyebilirsin mesela, nefes kesici manzara!",
     "options": [
-      "plead guilty",
-      "admit fault",
-      "accept blame",
-      "say yes"
+      "boring",
+      "poor",
+      "stunning",
+      "average"
     ],
-    "correctAnswer": "plead guilty",
+    "correctAnswer": "stunning",
     "category": "CASUAL",
     "variations": [
-      "He pleaded guilty to the theft.",
-      "She considered pleading guilty."
+      "She looked absolutely ______ in her new dress.",
+      "The concert was a ______ success."
     ]
   },
   {
-    "id": 126081307,
+    "id": 126081504,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "You can _____ from receiving promotional emails anytime you want.",
-    "translation": "'Opt out', bir şeyden vazgeçmek, ayrılmak veya seçimini yapmamak demektir.",
-    "context": "Sosyal medyada veya web sitelerinde üye olurken, bazen sana promosyon e-postaları veya bildirimler göndermek için izin isterler. Eğer 'Hayır, istemiyorum!' diyorsan, işte o zaman 'opt out' yaparsın. Amazon'un Twitch yayıncılarına yaptığı gibi, bazen senin verilerini kullanmak isterler, sen de 'Dur bakalım, ben yokum!' diyerek 'opt out' şıkkını işaretlersin. Özgürlüğünü kullan!",
+    "level": "BEGINNER",
+    "phrase": "The football league is ______ for another exciting season!",
+    "translation": "Geri döndü",
+    "context": "Uzun bir aradan sonra, sevdiğin bir şeyin geri döndüğünü mü söylemek istiyorsun? İşte 'back' kelimesi tam da bunun için! Futbol ligi geri döndü, en sevdiğin dizi geri döndü, hatta tatilden sen bile geri döndün! 'I'm back!' dediğinde, 'Ben geldim!' demiş olursun. Çok basit ve kullanışlı!",
     "options": [
-      "opt out",
-      "back out",
-      "pull out",
-      "leave out"
+      "forward",
+      "gone",
+      "back",
+      "off"
     ],
-    "correctAnswer": "opt out",
-    "category": "MIXED",
+    "correctAnswer": "back",
+    "category": "CASUAL",
     "variations": [
-      "I decided to opt out of the competition.",
-      "Many users opt out of data sharing."
+      "He'll be ______ in an hour.",
+      "Welcome ______ home!"
     ]
   },
   {
-    "id": 126081308,
+    "id": 126081505,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The breathtaking views of the Grand Canyon really _____ the tourists.",
-    "translation": "'Wow', birini çok etkilemek, hayran bırakmak, şaşırtmak demektir.",
-    "context": "Bir manzarayı veya bir olayı gördüğünde ağzın açık kalırsa, işte o sana 'wow' dedirtmiştir! Güneş tutulması gibi doğa olayları, yeni bir teknolojik ürün veya harika bir yemek, hepsi seni 'wow'layabilir. Bazen sadece arkadaşının yeni saç kesimi bile seni 'wow' yapabilir!",
+    "phrase": "Europe's ______ landscapes are seen from space after heatwaves.",
+    "translation": "Kavrulmuş / Yanmış",
+    "context": "Yaz sıcağı her yeri kavurduğunda, toprağın ve bitkilerin nasıl kuruduğunu, hatta yanıp karardığını düşün. İşte 'scorched', tam da bu durumu anlatır! Aşırı sıcaklardan veya yangınlardan dolayı yanmış, kavrulmuş, rengi değişmiş yerler için kullanılır. Bir doğa harikası beklerken 'scorched land' ile karşılaşmak pek hoş olmaz!",
     "options": [
-      "wowed",
-      "amazed",
-      "impressed",
-      "surprised"
+      "lush",
+      "vibrant",
+      "green",
+      "scorched"
     ],
-    "correctAnswer": "wowed",
+    "correctAnswer": "scorched",
     "category": "TRAVEL",
     "variations": [
-      "Her performance wowed the crowd.",
-      "The movie wowed critics worldwide."
+      "The forest fire left a ______ area behind.",
+      "The sun had ______ the grass yellow."
     ]
   },
   {
-    "id": 126081309,
+    "id": 126081506,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The new satellite system aims to _____ the operational life of spacecraft.",
-    "translation": "'Extend the lifespan', ömrünü uzatmak, kullanım süresini artırmak demektir.",
-    "context": "'Lifespan', bir şeyin ne kadar süre yaşayacağı veya çalışacağı anlamına gelir. İnsanlar, hayvanlar, hatta cep telefonları ve uydular için kullanılır. Yeni teknolojiler genellikle ürünlerin 'lifespan'ini 'extend' etmeyi hedefler ki daha uzun süre kullanabilelim. Mesela, robot tamirciler uyduların 'lifespan'ini 'extend' ederek daha çok iş yapmalarını sağlıyor. Harika değil mi?",
+    "level": "INTERMEDIATE",
+    "phrase": "Joshua Kushner ______ VCs over AI euphoria.",
+    "translation": "Azarlıyor / Eleştiriyor",
+    "context": "Birini hafifçe azarlamak, eleştirmek ama sertçe değil de uyarıcı bir tonda konuşmak mı istiyorsun? 'Chides' kelimesi tam da bu. Genelde bir hata veya aşırı coşku karşısında yapılan, biraz 'ders verme' veya 'uyarma' tonundaki eleştiriler için kullanılır. Patronun, 'Yine mi geç kaldın?' derken seni 'chide' etmiş olabilir!",
     "options": [
-      "extend the lifespan",
-      "increase its life",
-      "make it last longer",
-      "prolong its use"
+      "praises",
+      "congratulates",
+      "chides",
+      "supports"
     ],
-    "correctAnswer": "extend the lifespan",
+    "correctAnswer": "chides",
     "category": "BUSINESS",
     "variations": [
-      "This medicine can extend a patient's lifespan.",
-      "They wanted to extend the lifespan of their old car."
+      "My mother often ______ me for not cleaning my room.",
+      "The teacher ______ the students for being noisy."
     ]
   },
   {
-    "id": 126081310,
+    "id": 126081507,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The teacher used special software to _____ students copying assignments.",
-    "translation": "'Catch someone doing something', birini bir şey yaparken yakalamak demektir.",
-    "context": "Bazen yaramazlık yaparken veya kuralları çiğnerken 'yakalanırsın'. 'Catch' kelimesi sadece topu tutmak demek değil, aynı zamanda birini suçüstü yakalamak anlamına da gelir. Anthropic'in su nişanları (watermarks) da Claude kullanıcılarını iş yerinde yakalamak için var. Sen de evde gizlice abur cubur yerken annene 'catch' olma!",
+    "level": "INTERMEDIATE",
+    "phrase": "Jimenez ______ a dramatic point for Wolves.",
+    "translation": "Kurtardı",
+    "context": "Spor dünyasında, özellikle futbolda 'salvage a point' demek, maçın son anlarında veya umutsuz bir durumda yenilgiden kurtulup berabere kalmayı başarmak anlamına gelir. Tıpkı bir geminin batmak üzereyken son anda kurtarılması gibi, kaybedilmek üzere olan bir puanı kurtarmak! Taraftarlar bu anlara bayılır!",
     "options": [
-      "catch",
-      "trap",
-      "spot",
-      "find"
+      "lost",
+      "conceded",
+      "wasted",
+      "salvaged"
     ],
-    "correctAnswer": "catch",
+    "correctAnswer": "salvaged",
     "category": "CASUAL",
     "variations": [
-      "The police caught him stealing.",
-      "I caught my dog sleeping on the sofa."
+      "They managed to ______ a draw in the final minute.",
+      "Despite the early setbacks, the team ______ a win."
     ]
   },
   {
-    "id": 126081311,
+    "id": 126081508,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Many human rights organizations oppose the implementation of the _____",
-    "translation": "'Death penalty', ölüm cezası demektir.",
-    "context": "'Death penalty' (idam cezası) konusu dünya genelinde büyük tartışmalara yol açar. Bazı ülkeler uygularken, bazıları tamamen kaldırmıştır. Çok hassas bir konu ve haberlerde sıkça karşımıza çıkar. Neyse ki bizim gündemimizde daha çok sporcuların madalya 'penalty'leri veya futbolda 'penalty' atışları var, o daha eğlenceli!",
+    "level": "INTERMEDIATE",
+    "phrase": "What we know about the alleged Iranian ______ on US water utilities.",
+    "translation": "Siber saldırılar / Hack'ler",
+    "context": "Bilgisayar korsanlarının dijital sistemlere izinsiz giriş yapması veya zarar vermesi olaylarına 'hack' denir. Güvenliğin ne kadar önemli olduğunu gösteren bu kelime, bazen haberlerde kritik altyapılara yapılan saldırılarla karşımıza çıkar. Dijital dünyada 'hack'lenmek, cebindeki paranın çalınması gibi bir şey!",
     "options": [
-      "death penalty",
-      "capital punishment",
-      "ultimate sentence",
-      "fatal judgment"
+      "repairs",
+      "upgrades",
+      "fixes",
+      "hacks"
     ],
-    "correctAnswer": "death penalty",
-    "category": "MIXED",
+    "correctAnswer": "hacks",
+    "category": "CASUAL",
     "variations": [
-      "The country abolished the death penalty.",
-      "Arguments about the death penalty persist."
+      "The company reported several security ______ last year.",
+      "He was arrested for attempting computer ______."
     ]
   },
   {
-    "id": 126081312,
+    "id": 126081509,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Great leaders often strive to leave a positive _____ behind them.",
-    "translation": "'Legacy', miras, bırakılan etki veya kalıcı iz demektir.",
-    "context": "'Legacy' dediğin şey, bir kişinin veya bir olayın geride bıraktığı kalıcı etki veya mirastır. Sporcular kendi 'legacy'lerini yaratmak isterler, yani tarihe isimlerini altın harflerle yazdırmak. Belki sen de çok lezzetli yemekler yaparak veya komik hikayeler anlatarak kendi 'legacy'ni yaratırsın! Ne de olsa herkesin bir 'legacy'si vardır.",
+    "phrase": "BBC seeks to ______ Trump's family members in a lawsuit.",
+    "translation": "Mahkemeye çağırmak / Celp göndermek",
+    "context": "Mahkeme kapıya dayandı! 'Subpoena', bir kişiyi mahkemeye veya resmi bir soruşturmaya tanık olarak çağıran yasal bir belgedir. Bu belge geldiğinde gitmek zorundasın, yoksa başın derde girebilir! Seyahat planların mı vardı? Belki de bu 'subpoena' yüzünden ertelemen gerekecek. Ciddi işler!",
     "options": [
-      "legacy",
-      "heritage",
-      "inheritance",
-      "tradition"
+      "invite",
+      "dismiss",
+      "subpoena",
+      "pardon"
     ],
-    "correctAnswer": "legacy",
+    "correctAnswer": "subpoena",
     "category": "TRAVEL",
     "variations": [
-      "His legacy will be remembered forever.",
-      "The artist left a great artistic legacy."
+      "The witness was served with a ______ to testify.",
+      "He ignored the ______ and faced legal consequences."
+    ]
+  },
+  {
+    "id": 126081510,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "VCs expressed AI ______ in the tech world.",
+    "translation": "Öfori / Aşırı coşku",
+    "context": "İş dünyasında 'euphoria', genellikle piyasalarda veya belirli bir sektörde aşırı iyimserlik, kontrolsüz bir coşku ve heyecan halidir. Herkesin bir şeye koştuğu, 'kesin kazanacağız!' modunda olduğu bir durum düşün. Ancak bazen bu 'euphoria' balonlarının patlama riski de vardır, dikkatli olmak lazım!",
+    "options": [
+      "caution",
+      "skepticism",
+      "fear",
+      "euphoria"
+    ],
+    "correctAnswer": "euphoria",
+    "category": "BUSINESS",
+    "variations": [
+      "The stock market was in a state of ______ before the crash.",
+      "There was widespread ______ after the team won the championship."
+    ]
+  },
+  {
+    "id": 126081511,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "McIlroy ______ as Scheffler produced a stunning 61.",
+    "translation": "Çabaladı / Uğraştı / Zorlandı",
+    "context": "'Toil' kelimesi, bir şey için çok fazla çaba sarf etmek, zorlanmak, yorulmak ve uğraşmak anlamına gelir. Tıpkı o golfçünün sahada ter döküp istediği performansı bir türlü sergileyememesi gibi. 'Toil and trouble' deyimi de vardır, 'uğraşmak ve sıkıntı çekmek' demek. Yani, hayat bazen zorlar, sen de 'toil' edersin!",
+    "options": [
+      "excelled",
+      "relaxed",
+      "succeeded",
+      "toiled"
+    ],
+    "correctAnswer": "toiled",
+    "category": "CASUAL",
+    "variations": [
+      "He ______ for years to achieve his dream.",
+      "The workers ______ in the fields under the hot sun."
+    ]
+  },
+  {
+    "id": 126081512,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Mangione pleaded guilty to ______ charges.",
+    "translation": "Federal suçlamalar",
+    "context": "Hukuk dünyasında 'federal charges', yani 'federal suçlamalar', bir ülkenin merkezi hükümetinin (Amerika'da federal hükümetin) yasalarını ihlal ettiğin için yöneltilen suçlamalardır. Bu, eyalet yasalarından daha büyük çaplı ve daha ciddi davalar anlamına gelir. Genellikle ulusal düzeyde önem taşıyan veya eyalet sınırlarını aşan suçlar için kullanılır. İşler ciddileştiğinde 'federal' olur!",
+    "options": [
+      "minor",
+      "local",
+      "private",
+      "federal"
+    ],
+    "correctAnswer": "federal",
+    "category": "CASUAL",
+    "variations": [
+      "He faced ______ charges for drug trafficking.",
+      "The case was handled by the ______ authorities."
     ]
   }
 ]
