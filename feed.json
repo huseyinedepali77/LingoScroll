@@ -1,242 +1,242 @@
 [
   {
-    "id": 126081501,
+    "id": 126081601,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Five dead after a strong ______ strikes Indonesia.",
-    "translation": "Deprem",
-    "context": "Dünya sallanıyor! 'Earthquake', yani 'deprem', günlük hayatımızda maalesef sıkça duyduğumuz bir kelime. Bir yere seyahat etmeden önce oranın deprem riski olup olmadığını veya son zamanlarda bir deprem olup olmadığını araştırmak iyi bir fikir olabilir. Seyahat planlarını buna göre yapabilirsin!",
+    "phrase": "A big ____ occurred in Indonesia.",
+    "translation": "Endonezya'da büyük bir deprem meydana geldi.",
+    "context": "Aman Tanrım! Eğer bir ülkenin fay hatları üzerinde olduğunu duyarsan, bu cümleyle karşılaşabilirsin. 'Earthquake', yani 'deprem', yerin altındaki o korkunç sarsıntıları anlatır. Seyahatteysen ve bir deprem olursa, hemen güvenli bir yere sığın!",
     "options": [
       "earthquake",
-      "storm",
+      "hurricane",
       "flood",
       "volcano"
     ],
     "correctAnswer": "earthquake",
     "category": "TRAVEL",
     "variations": [
-      "The city was hit by a major ______.",
-      "After the ______, many buildings collapsed."
+      "The building shook during the ____.",
+      "Many people felt the ____."
     ]
   },
   {
-    "id": 126081502,
+    "id": 126081602,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Talks to sell the company are really ______ up.",
-    "translation": "Kızışıyor / Yoğunlaşıyor",
-    "context": "İş dünyasında 'heating up' demek, bir durumun, özellikle de anlaşmaların ya da rekabetin kızıştığı, yoğunlaştığı anlamına gelir. Tıpkı bir tencerenin içindeki su gibi, kaynamaya başlıyor ve yakında bir sonuca ulaşılacak demek! Yani, büyük gelişmeler kapıda!",
+    "phrase": "SpaceX made a new company ____.",
+    "translation": "SpaceX yeni bir şirket satın alımı yaptı.",
+    "context": "İş dünyasında büyük firmalar küçükleri yutarken bu kelimeyi çok duyarsın! 'Acquisition', yani 'satın alma', bir şirketin başka bir şirketi ele geçirmesi demek. Düşünsene, favori kahve dükkanının birden dev bir zincire satıldığını... İşte o!",
     "options": [
-      "cooling",
-      "slowing",
-      "heating",
-      "freezing"
+      "acquisition",
+      "meeting",
+      "launch",
+      "breakup"
     ],
-    "correctAnswer": "heating",
+    "correctAnswer": "acquisition",
     "category": "BUSINESS",
     "variations": [
-      "The competition is ______ up before the final game.",
-      "The debate on AI ethics is ______ up again."
+      "The ____ was announced last week.",
+      "They completed the ____ successfully."
     ]
   },
   {
-    "id": 126081503,
+    "id": 126081603,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The golfer produced a ______ 61 at the championship.",
-    "translation": "Çarpıcı / Hayran bırakan",
-    "context": "Wow! 'Stunning' kelimesi, gördüğümüz veya duyduğumuz bir şeyin bizi hayran bıraktığını, çok etkileyici ve harika olduğunu anlatır. Tıpkı o golfçünün attığı inanılmaz sayı gibi, herkesi şaşkına çeviren, göz kamaştırıcı bir performanstı! 'Stunning view' de diyebilirsin mesela, nefes kesici manzara!",
+    "phrase": "Be careful, your account might get ____.",
+    "translation": "Dikkatli ol, hesabın çalınabilir/hacklenebilir.",
+    "context": "Eyvah! Sosyal medya hesabın ele geçirilince hissettiğin o panik anı... İşte 'hacked' kelimesi tam da bunu anlatır, yani 'çalındı' veya 'siber saldırıya uğradı'. Şifrelerini güçlü tut, yoksa komik şeyler paylaşabilirler senin adına!",
     "options": [
-      "boring",
-      "poor",
-      "stunning",
-      "average"
+      "hacked",
+      "upgraded",
+      "deleted",
+      "restored"
     ],
-    "correctAnswer": "stunning",
+    "correctAnswer": "hacked",
     "category": "CASUAL",
     "variations": [
-      "She looked absolutely ______ in her new dress.",
-      "The concert was a ______ success."
+      "My email was ____ yesterday.",
+      "Many accounts were ____ in the attack."
     ]
   },
   {
-    "id": 126081504,
+    "id": 126081604,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The football league is ______ for another exciting season!",
-    "translation": "Geri döndü",
-    "context": "Uzun bir aradan sonra, sevdiğin bir şeyin geri döndüğünü mü söylemek istiyorsun? İşte 'back' kelimesi tam da bunun için! Futbol ligi geri döndü, en sevdiğin dizi geri döndü, hatta tatilden sen bile geri döndün! 'I'm back!' dediğinde, 'Ben geldim!' demiş olursun. Çok basit ve kullanışlı!",
+    "phrase": "Police ____ people for questioning.",
+    "translation": "Polis sorgulamak için insanları gözaltına alır.",
+    "context": "Havaalanında veya sınır kapısında pasaport kontrolünde biraz oyalandığında yaşadığın o gerginlik gibi düşün. 'Detains', yani 'gözaltına almak', birini geçici olarak alıkoymak anlamına gelir. Genellikle polis veya yetkililer tarafından kullanılır. Sakin ol ve belgelerini hazırda tut!",
     "options": [
-      "forward",
-      "gone",
-      "back",
-      "off"
+      "detains",
+      "releases",
+      "helps",
+      "ignores"
     ],
-    "correctAnswer": "back",
-    "category": "CASUAL",
+    "correctAnswer": "detains",
+    "category": "MIXED",
     "variations": [
-      "He'll be ______ in an hour.",
-      "Welcome ______ home!"
+      "Customs ____ the traveler for inspection.",
+      "The officer ____ the driver."
     ]
   },
   {
-    "id": 126081505,
+    "id": 126081605,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Europe's ______ landscapes are seen from space after heatwaves.",
-    "translation": "Kavrulmuş / Yanmış",
-    "context": "Yaz sıcağı her yeri kavurduğunda, toprağın ve bitkilerin nasıl kuruduğunu, hatta yanıp karardığını düşün. İşte 'scorched', tam da bu durumu anlatır! Aşırı sıcaklardan veya yangınlardan dolayı yanmış, kavrulmuş, rengi değişmiş yerler için kullanılır. Bir doğa harikası beklerken 'scorched land' ile karşılaşmak pek hoş olmaz!",
+    "phrase": "Hawaii is preparing for a strong ____.",
+    "translation": "Hawaii güçlü bir kasırgaya hazırlanıyor.",
+    "context": "Tropikal bir cennete tatile gittin ve birden hava durumu uyarısı geldi: 'Hurricane'! Yani 'kasırga'! Bu, devasa rüzgarları ve yağmurlarıyla her şeyi alt üst edebilen büyük bir fırtına. Tatil planları suya düşer, hatta evler bile havaya uçar. Havai'dekiler için bu gerçekten büyük bir sorun!",
     "options": [
-      "lush",
-      "vibrant",
-      "green",
-      "scorched"
+      "hurricane",
+      "blizzard",
+      "drought",
+      "heatwave"
     ],
-    "correctAnswer": "scorched",
+    "correctAnswer": "hurricane",
     "category": "TRAVEL",
     "variations": [
-      "The forest fire left a ______ area behind.",
-      "The sun had ______ the grass yellow."
+      "The island was hit by a devastating ____.",
+      "Flights were cancelled due to the approaching ____."
     ]
   },
   {
-    "id": 126081506,
+    "id": 126081606,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Joshua Kushner ______ VCs over AI euphoria.",
-    "translation": "Azarlıyor / Eleştiriyor",
-    "context": "Birini hafifçe azarlamak, eleştirmek ama sertçe değil de uyarıcı bir tonda konuşmak mı istiyorsun? 'Chides' kelimesi tam da bu. Genelde bir hata veya aşırı coşku karşısında yapılan, biraz 'ders verme' veya 'uyarma' tonundaki eleştiriler için kullanılır. Patronun, 'Yine mi geç kaldın?' derken seni 'chide' etmiş olabilir!",
+    "phrase": "Car makers want to cut electric vehicle ____.",
+    "translation": "Otomobil üreticileri elektrikli araç satış hedeflerini düşürmek istiyor.",
+    "context": "Bir şirkette çalışıyorsan 'sales targets' kelimesi kabusların olabilir! Bu, 'satış hedefleri' demek. Patronun senden ay sonunda ulaşmanı beklediği o sihirli sayılar... Eğer satışlar azsa, hedefleri düşürmek için yalvarıp yakarırsın!",
     "options": [
-      "praises",
-      "congratulates",
-      "chides",
-      "supports"
+      "sales targets",
+      "product prices",
+      "marketing campaigns",
+      "production costs"
     ],
-    "correctAnswer": "chides",
+    "correctAnswer": "sales targets",
     "category": "BUSINESS",
     "variations": [
-      "My mother often ______ me for not cleaning my room.",
-      "The teacher ______ the students for being noisy."
+      "We need to meet our ____ this quarter.",
+      "The company increased its ____."
     ]
   },
   {
-    "id": 126081507,
+    "id": 126081607,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Jimenez ______ a dramatic point for Wolves.",
-    "translation": "Kurtardı",
-    "context": "Spor dünyasında, özellikle futbolda 'salvage a point' demek, maçın son anlarında veya umutsuz bir durumda yenilgiden kurtulup berabere kalmayı başarmak anlamına gelir. Tıpkı bir geminin batmak üzereyken son anda kurtarılması gibi, kaybedilmek üzere olan bir puanı kurtarmak! Taraftarlar bu anlara bayılır!",
+    "phrase": "Women can now ____ in Liechtenstein.",
+    "translation": "Kadınlar artık Lihtenştayn'da tahta geçebilir.",
+    "context": "Çocukken oynadığın o şato oyunlarını hatırla! 'Ascend the throne', yani 'tahta çıkmak', bir kral veya kraliçe olmak demek. Düşünsene, taht kavgaları, elbiseler, mücevherler... Lihtenştayn'da artık kadınlar da bu eğlenceli (veya stresli) görevi üstlenebilecek!",
     "options": [
-      "lost",
-      "conceded",
-      "wasted",
-      "salvaged"
+      "ascend the throne",
+      "abdicate the crown",
+      "leave the palace",
+      "rule the people"
     ],
-    "correctAnswer": "salvaged",
+    "correctAnswer": "ascend the throne",
     "category": "CASUAL",
     "variations": [
-      "They managed to ______ a draw in the final minute.",
-      "Despite the early setbacks, the team ______ a win."
+      "The new king will ____ next year.",
+      "She was destined to ____ from birth."
     ]
   },
   {
-    "id": 126081508,
+    "id": 126081608,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "What we know about the alleged Iranian ______ on US water utilities.",
-    "translation": "Siber saldırılar / Hack'ler",
-    "context": "Bilgisayar korsanlarının dijital sistemlere izinsiz giriş yapması veya zarar vermesi olaylarına 'hack' denir. Güvenliğin ne kadar önemli olduğunu gösteren bu kelime, bazen haberlerde kritik altyapılara yapılan saldırılarla karşımıza çıkar. Dijital dünyada 'hack'lenmek, cebindeki paranın çalınması gibi bir şey!",
+    "phrase": "Djokovic struggled in the ____ in Cincinnati.",
+    "translation": "Djokovic Cincinnati'deki yorucu sıcakta zorlandı.",
+    "context": "Yazın en bunaltıcı gününde dışarıda koştuğunu hayal et. Terler şelale, enerji sıfır! İşte 'sapping heat' tam da bu durumu anlatır: 'tüm enerjini çeken, bitiren sıcak'. Sporcular için düşman, sen de dışarı çıkarken suyunu ve şapkanı unutma!",
     "options": [
-      "repairs",
-      "upgrades",
-      "fixes",
-      "hacks"
+      "sapping heat",
+      "refreshing breeze",
+      "gentle rain",
+      "chilly weather"
     ],
-    "correctAnswer": "hacks",
-    "category": "CASUAL",
+    "correctAnswer": "sapping heat",
+    "category": "MIXED",
     "variations": [
-      "The company reported several security ______ last year.",
-      "He was arrested for attempting computer ______."
+      "The athletes suffered in the ____.",
+      "The plants withered under the ____."
     ]
   },
   {
-    "id": 126081509,
+    "id": 126081609,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "BBC seeks to ______ Trump's family members in a lawsuit.",
-    "translation": "Mahkemeye çağırmak / Celp göndermek",
-    "context": "Mahkeme kapıya dayandı! 'Subpoena', bir kişiyi mahkemeye veya resmi bir soruşturmaya tanık olarak çağıran yasal bir belgedir. Bu belge geldiğinde gitmek zorundasın, yoksa başın derde girebilir! Seyahat planların mı vardı? Belki de bu 'subpoena' yüzünden ertelemen gerekecek. Ciddi işler!",
+    "phrase": "Hawaii ____ a direct hurricane hit.",
+    "translation": "Hawaii, doğrudan bir kasırga darbesine hazırlanıyor.",
+    "context": "Bir film sahnesi düşün: Kahraman, büyük bir patlama ya da saldırı öncesi kendini korumak için siper alıyor. İşte 'braces for' tam olarak bu anı anlatır, yani 'bir şeye hazırlanmak, kendini kötü bir duruma karşı korumak'. Havai'dekiler de kasırga için pencereleri kapatıp yiyecek stokluyor, durumu ciddiye alıyorlar!",
     "options": [
-      "invite",
-      "dismiss",
-      "subpoena",
-      "pardon"
+      "braces for",
+      "ignores",
+      "celebrates",
+      "forgets about"
     ],
-    "correctAnswer": "subpoena",
+    "correctAnswer": "braces for",
     "category": "TRAVEL",
     "variations": [
-      "The witness was served with a ______ to testify.",
-      "He ignored the ______ and faced legal consequences."
+      "The market ____ a major downturn.",
+      "The city ____ heavy snowfall."
     ]
   },
   {
-    "id": 126081510,
+    "id": 126081610,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "VCs expressed AI ______ in the tech world.",
-    "translation": "Öfori / Aşırı coşku",
-    "context": "İş dünyasında 'euphoria', genellikle piyasalarda veya belirli bir sektörde aşırı iyimserlik, kontrolsüz bir coşku ve heyecan halidir. Herkesin bir şeye koştuğu, 'kesin kazanacağız!' modunda olduğu bir durum düşün. Ancak bazen bu 'euphoria' balonlarının patlama riski de vardır, dikkatli olmak lazım!",
+    "phrase": "The union is no longer ____.",
+    "translation": "Sendika artık politika dikte etmiyor/belirlemiyor.",
+    "context": "Patronun her şeyi tek başına kararlaştırması gibi düşün! 'Dictating policy', yani 'politika dikte etmek' veya 'yönlendirmek', bir grubun veya kişinin kural ve kararları başkalarına empoze etmesi anlamına gelir. 'Ben ne dersem o olur!' diyen bir karakter varsa, işte o bu işi yapıyor demektir!",
     "options": [
-      "caution",
-      "skepticism",
-      "fear",
-      "euphoria"
+      "dictating policy",
+      "following orders",
+      "negotiating terms",
+      "consulting members"
     ],
-    "correctAnswer": "euphoria",
+    "correctAnswer": "dictating policy",
     "category": "BUSINESS",
     "variations": [
-      "The stock market was in a state of ______ before the crash.",
-      "There was widespread ______ after the team won the championship."
+      "The manager was accused of ____.",
+      "No single entity should be ____."
     ]
   },
   {
-    "id": 126081511,
+    "id": 126081611,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "McIlroy ______ as Scheffler produced a stunning 61.",
-    "translation": "Çabaladı / Uğraştı / Zorlandı",
-    "context": "'Toil' kelimesi, bir şey için çok fazla çaba sarf etmek, zorlanmak, yorulmak ve uğraşmak anlamına gelir. Tıpkı o golfçünün sahada ter döküp istediği performansı bir türlü sergileyememesi gibi. 'Toil and trouble' deyimi de vardır, 'uğraşmak ve sıkıntı çekmek' demek. Yani, hayat bazen zorlar, sen de 'toil' edersin!",
+    "phrase": "Claude's new ____ will help identify AI content.",
+    "translation": "Claude'un yeni filigranları yapay zeka içeriğini tanımlamaya yardımcı olacak.",
+    "context": "Fotoğrafların üzerinde 'SAMPLE' yazısını ya da telif hakkı simgesini görmüşsün. 'Watermarks', yani 'filigranlar', bir görselin ya da belgenin orijinal olduğunu veya kime ait olduğunu gösteren yarı saydam işaretlerdir. Dijital dünyada içerik kopyalanmasın diye sanatçılar veya şirketler bunu kullanır. Claude da AI içeriğini gizlice işaretleyecek!",
     "options": [
-      "excelled",
-      "relaxed",
-      "succeeded",
-      "toiled"
+      "watermarks",
+      "signatures",
+      "encryption",
+      "firewalls"
     ],
-    "correctAnswer": "toiled",
+    "correctAnswer": "watermarks",
     "category": "CASUAL",
     "variations": [
-      "He ______ for years to achieve his dream.",
-      "The workers ______ in the fields under the hot sun."
+      "Companies add ____ to protect their images.",
+      "Digital ____ can prevent unauthorized use."
     ]
   },
   {
-    "id": 126081512,
+    "id": 126081612,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Mangione pleaded guilty to ______ charges.",
-    "translation": "Federal suçlamalar",
-    "context": "Hukuk dünyasında 'federal charges', yani 'federal suçlamalar', bir ülkenin merkezi hükümetinin (Amerika'da federal hükümetin) yasalarını ihlal ettiğin için yöneltilen suçlamalardır. Bu, eyalet yasalarından daha büyük çaplı ve daha ciddi davalar anlamına gelir. Genellikle ulusal düzeyde önem taşıyan veya eyalet sınırlarını aşan suçlar için kullanılır. İşler ciddileştiğinde 'federal' olur!",
+    "phrase": "The city ____ with the family.",
+    "translation": "Şehir, aileyle davayı çözüme kavuşturdu.",
+    "context": "Uğraştırıcı bir kavga veya anlaşmazlık sonunda uzlaşmak gibi düşün. 'Settles lawsuit', yani 'davayı çözüme kavuşturmak' veya 'anlaşmak', mahkemeye gitmeden tarafların bir uzlaşmaya varması demektir. Herkesin sinirleri yıpranmadan, para ödenip konu kapanır. Ohio şehrindeki bu olayda da aynısı olmuş, mahkeme kapısı yerine anlaşma masası tercih edilmiş.",
     "options": [
-      "minor",
-      "local",
-      "private",
-      "federal"
+      "settles lawsuit",
+      "starts lawsuit",
+      "wins lawsuit",
+      "loses lawsuit"
     ],
-    "correctAnswer": "federal",
-    "category": "CASUAL",
+    "correctAnswer": "settles lawsuit",
+    "category": "MIXED",
     "variations": [
-      "He faced ______ charges for drug trafficking.",
-      "The case was handled by the ______ authorities."
+      "They tried to ____ out of court.",
+      "The company decided to ____ quickly."
     ]
   }
 ]
