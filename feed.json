@@ -1,242 +1,218 @@
 [
   {
-    "id": 126081601,
+    "id": 126081701,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "A big ____ occurred in Indonesia.",
-    "translation": "Endonezya'da büyük bir deprem meydana geldi.",
-    "context": "Aman Tanrım! Eğer bir ülkenin fay hatları üzerinde olduğunu duyarsan, bu cümleyle karşılaşabilirsin. 'Earthquake', yani 'deprem', yerin altındaki o korkunç sarsıntıları anlatır. Seyahatteysen ve bir deprem olursa, hemen güvenli bir yere sığın!",
+    "phrase": "The envoy _____ in Israel.",
+    "translation": "Elçi İsrail'e vardı.",
+    "context": "Bir yere ulaştığını, vardığını söylemek için 'arrive' fiilini kullanırız. Genellikle havalimanı, otel veya önemli bir toplantı gibi yerlere varışlarda karşımıza çıkar. 'When did you arrive at the party?' gibi bir soruyla günlük hayatta sıkça karşılaşabilirsin!",
     "options": [
-      "earthquake",
-      "hurricane",
-      "flood",
-      "volcano"
+      "arrives",
+      "arrived",
+      "arriving",
+      "arrival"
     ],
-    "correctAnswer": "earthquake",
+    "correctAnswer": "arrives",
     "category": "TRAVEL",
     "variations": [
-      "The building shook during the ____.",
-      "Many people felt the ____."
+      "She will arrive soon.",
+      "Did you arrive safely?"
     ]
   },
   {
-    "id": 126081602,
+    "id": 126081702,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "SpaceX made a new company ____.",
-    "translation": "SpaceX yeni bir şirket satın alımı yaptı.",
-    "context": "İş dünyasında büyük firmalar küçükleri yutarken bu kelimeyi çok duyarsın! 'Acquisition', yani 'satın alma', bir şirketin başka bir şirketi ele geçirmesi demek. Düşünsene, favori kahve dükkanının birden dev bir zincire satıldığını... İşte o!",
+    "phrase": "The actress _____ at 36.",
+    "translation": "Aktris 36 yaşında öldü.",
+    "context": "Birinin kaç yaşında öldüğünü belirtirken 'at' veya 'aged' kelimesini kullanırız. 'He died at 80' veya 'She died aged 36' gibi. Üzücü bir durum olsa da, haberlerde ve günlük konuşmada sıkça karşılaştığımız bir ifade kalıbıdır.",
     "options": [
-      "acquisition",
-      "meeting",
-      "launch",
-      "breakup"
+      "dies",
+      "died",
+      "dying",
+      "death"
     ],
-    "correctAnswer": "acquisition",
-    "category": "BUSINESS",
-    "variations": [
-      "The ____ was announced last week.",
-      "They completed the ____ successfully."
-    ]
-  },
-  {
-    "id": 126081603,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Be careful, your account might get ____.",
-    "translation": "Dikkatli ol, hesabın çalınabilir/hacklenebilir.",
-    "context": "Eyvah! Sosyal medya hesabın ele geçirilince hissettiğin o panik anı... İşte 'hacked' kelimesi tam da bunu anlatır, yani 'çalındı' veya 'siber saldırıya uğradı'. Şifrelerini güçlü tut, yoksa komik şeyler paylaşabilirler senin adına!",
-    "options": [
-      "hacked",
-      "upgraded",
-      "deleted",
-      "restored"
-    ],
-    "correctAnswer": "hacked",
+    "correctAnswer": "died",
     "category": "CASUAL",
     "variations": [
-      "My email was ____ yesterday.",
-      "Many accounts were ____ in the attack."
+      "My grandfather died last year.",
+      "Many people died in the war."
     ]
   },
   {
-    "id": 126081604,
+    "id": 126081703,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Police ____ people for questioning.",
-    "translation": "Polis sorgulamak için insanları gözaltına alır.",
-    "context": "Havaalanında veya sınır kapısında pasaport kontrolünde biraz oyalandığında yaşadığın o gerginlik gibi düşün. 'Detains', yani 'gözaltına almak', birini geçici olarak alıkoymak anlamına gelir. Genellikle polis veya yetkililer tarafından kullanılır. Sakin ol ve belgelerini hazırda tut!",
+    "phrase": "Stripe will _____ a startup.",
+    "translation": "Stripe bir girişimi satın alacak.",
+    "context": "İş dünyasında bir şirketin başka bir şirketi satın alması, kendi bünyesine katması olayına 'acquire' denir. Genellikle büyük firmalar küçük, yenilikçi girişimleri satın alarak büyürler. Yani, 'acquirer' büyük balık, 'acquired' ise küçük balık!",
     "options": [
-      "detains",
+      "acquire",
+      "acquiring",
+      "acquired",
+      "acquisition"
+    ],
+    "correctAnswer": "acquire",
+    "category": "BUSINESS",
+    "variations": [
+      "They acquired a new company.",
+      "Our firm plans to acquire two startups."
+    ]
+  },
+  {
+    "id": 126081704,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The buildings were _____ by the earthquake.",
+    "translation": "Binalar depremden hasar gördü.",
+    "context": "Bir şeyin zarar gördüğünü, hasar aldığını belirtmek için 'damaged' kelimesini kullanırız. Deprem, sel, kaza gibi pek çok talihsiz olayda bu kelimeye ihtiyaç duyabilirsin. 'Is your car damaged?' gibi sorularla karşına çıkabilir.",
+    "options": [
+      "damage",
+      "damages",
+      "damaged",
+      "damaging"
+    ],
+    "correctAnswer": "damaged",
+    "category": "MIXED",
+    "variations": [
+      "My phone screen is damaged.",
+      "The storm damaged the roof."
+    ]
+  },
+  {
+    "id": 126081705,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "The hurricane _____ many homes.",
+    "translation": "Kasırga birçok evi önüne kattı, sürükledi.",
+    "context": "Doğal afetlerde, özellikle sel veya kasırga gibi durumlarda, bir şeylerin şiddetle sürüklenip götürülmesi anlamına gelir. Hawaii'deki evlerin kasırga yüzünden 'swept away' olması çok üzücü bir durum. Güçlü bir eylem fiilidir!",
+    "options": [
+      "swept away",
+      "pushed away",
+      "carried over",
+      "blown down"
+    ],
+    "correctAnswer": "swept away",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126081706,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "The US will _____ military drills.",
+    "translation": "ABD askeri tatbikatları azaltacak.",
+    "context": "Bir şeyin miktarını, yoğunluğunu veya boyutunu küçültmek, kısmak anlamına gelir. ABD'nin askeri tatbikatları 'reduce' etmesi, uluslararası ilişkilerde önemli bir adımdır. 'Reduce waste' (atığı azaltmak) gibi günlük kullanımları da vardır.",
+    "options": [
+      "reduce",
+      "increase",
+      "cancel",
+      "continue"
+    ],
+    "correctAnswer": "reduce",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126081707,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "The teen _____ in the middle of the night.",
+    "translation": "Genç, gecenin bir yarısı ortadan kayboldu.",
+    "context": "Birinin aniden, beklenmedik bir şekilde, genellikle iz bırakmadan kaybolması anlamına gelir. 'Vanished' kelimesi gizem ve merak uyandırır. Gecenin bir yarısı kaybolmak ise olayın daha da dramatik olduğunu vurgular!",
+    "options": [
+      "disappeared",
+      "showed up",
+      "returned",
+      "was found"
+    ],
+    "correctAnswer": "disappeared",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126081708,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "F1's _____ will be decided by many factors.",
+    "translation": "F1'in şampiyonluk yarışı birçok faktörle belirlenecek.",
+    "context": "Özellikle spor müsabakalarında, şampiyonluk veya liderlik için verilen çekişmeli mücadele anlamına gelir. Futbol, basketbol, F1 gibi sporlarda 'title race' heyecanın dorukta olduğu anları anlatır. 'Who's leading the title race?' diye sorabilirsin.",
+    "options": [
+      "title race",
+      "final game",
+      "friendly match",
+      "practice session"
+    ],
+    "correctAnswer": "title race",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126081709,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "The hurricane _____ Hawaii fiercely.",
+    "translation": "Kasırga Hawaii'yi şiddetle vurdu/dövdü.",
+    "context": "Bir fırtınanın, kasırganın veya şiddetli rüzgarın bir yere sertçe vurması, hırpalaması, dövmesi anlamına gelir. Ciddi yıkıma yol açan güçlü hava olaylarını anlatırken kullanılır. 'Lashes' kelimesi, olayın ne kadar şiddetli olduğunu hissettirir!",
+    "options": [
+      "lashes",
+      "gently touches",
+      "misses",
+      "bypasses"
+    ],
+    "correctAnswer": "lashes",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126081710,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "AI backlash is a _____ of trust.",
+    "translation": "Yapay zeka tepkisi, bir güven krizidir.",
+    "context": "İnsanların bir şeye veya kuruma olan inancının, güveninin sarsılması, zedelenmesi anlamına gelir. Özellikle yeni teknolojiler veya politikalar hakkında kamuoyunda şüpheler oluştuğunda bu ifadeyi duyarsın. 'A crisis of trust' gerçekten de tehlike çanları demektir!",
+    "options": [
+      "crisis",
+      "opportunity",
+      "solution",
+      "triumph"
+    ],
+    "correctAnswer": "crisis",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126081711,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Root made a '_____' call on curfew.",
+    "translation": "Root sokağa çıkma yasağı hakkında 'olgun/sorumlu' bir karar verdi.",
+    "context": "Olgunlukla, sorumluluk bilinciyle alınan zor bir karar demektir. Genellikle kişisel çıkarlardan ziyade genel iyiliği düşündüğünde yaparsın. Spor dünyasında, takım kaptanlarının takımı için verdiği kritik ve bazen de hoşnutsuzluk yaratabilecek kararları tanımlamak için kullanılır.",
+    "options": [
+      "grown up",
+      "childish",
+      "impulsive",
+      "foolish"
+    ],
+    "correctAnswer": "grown up",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126081712,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Israel _____ a vast terror arsenal.",
+    "translation": "İsrail dev bir terör cephaneliğine el koydu.",
+    "context": "Yasa dışı veya tehlikeli bir şeyi zorla ele geçirmek, müsadere etmek anlamına gelir. Özellikle polis veya askeri operasyonlarda, büyük miktarda silah, uyuşturucu veya kaçak mal ele geçirildiğinde 'seize' fiili kullanılır. Bir şeyi kontrol altına almak gibi düşünebilirsin!",
+    "options": [
+      "seizes",
       "releases",
-      "helps",
+      "loses",
       "ignores"
     ],
-    "correctAnswer": "detains",
+    "correctAnswer": "seizes",
     "category": "MIXED",
-    "variations": [
-      "Customs ____ the traveler for inspection.",
-      "The officer ____ the driver."
-    ]
-  },
-  {
-    "id": 126081605,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Hawaii is preparing for a strong ____.",
-    "translation": "Hawaii güçlü bir kasırgaya hazırlanıyor.",
-    "context": "Tropikal bir cennete tatile gittin ve birden hava durumu uyarısı geldi: 'Hurricane'! Yani 'kasırga'! Bu, devasa rüzgarları ve yağmurlarıyla her şeyi alt üst edebilen büyük bir fırtına. Tatil planları suya düşer, hatta evler bile havaya uçar. Havai'dekiler için bu gerçekten büyük bir sorun!",
-    "options": [
-      "hurricane",
-      "blizzard",
-      "drought",
-      "heatwave"
-    ],
-    "correctAnswer": "hurricane",
-    "category": "TRAVEL",
-    "variations": [
-      "The island was hit by a devastating ____.",
-      "Flights were cancelled due to the approaching ____."
-    ]
-  },
-  {
-    "id": 126081606,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Car makers want to cut electric vehicle ____.",
-    "translation": "Otomobil üreticileri elektrikli araç satış hedeflerini düşürmek istiyor.",
-    "context": "Bir şirkette çalışıyorsan 'sales targets' kelimesi kabusların olabilir! Bu, 'satış hedefleri' demek. Patronun senden ay sonunda ulaşmanı beklediği o sihirli sayılar... Eğer satışlar azsa, hedefleri düşürmek için yalvarıp yakarırsın!",
-    "options": [
-      "sales targets",
-      "product prices",
-      "marketing campaigns",
-      "production costs"
-    ],
-    "correctAnswer": "sales targets",
-    "category": "BUSINESS",
-    "variations": [
-      "We need to meet our ____ this quarter.",
-      "The company increased its ____."
-    ]
-  },
-  {
-    "id": 126081607,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Women can now ____ in Liechtenstein.",
-    "translation": "Kadınlar artık Lihtenştayn'da tahta geçebilir.",
-    "context": "Çocukken oynadığın o şato oyunlarını hatırla! 'Ascend the throne', yani 'tahta çıkmak', bir kral veya kraliçe olmak demek. Düşünsene, taht kavgaları, elbiseler, mücevherler... Lihtenştayn'da artık kadınlar da bu eğlenceli (veya stresli) görevi üstlenebilecek!",
-    "options": [
-      "ascend the throne",
-      "abdicate the crown",
-      "leave the palace",
-      "rule the people"
-    ],
-    "correctAnswer": "ascend the throne",
-    "category": "CASUAL",
-    "variations": [
-      "The new king will ____ next year.",
-      "She was destined to ____ from birth."
-    ]
-  },
-  {
-    "id": 126081608,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Djokovic struggled in the ____ in Cincinnati.",
-    "translation": "Djokovic Cincinnati'deki yorucu sıcakta zorlandı.",
-    "context": "Yazın en bunaltıcı gününde dışarıda koştuğunu hayal et. Terler şelale, enerji sıfır! İşte 'sapping heat' tam da bu durumu anlatır: 'tüm enerjini çeken, bitiren sıcak'. Sporcular için düşman, sen de dışarı çıkarken suyunu ve şapkanı unutma!",
-    "options": [
-      "sapping heat",
-      "refreshing breeze",
-      "gentle rain",
-      "chilly weather"
-    ],
-    "correctAnswer": "sapping heat",
-    "category": "MIXED",
-    "variations": [
-      "The athletes suffered in the ____.",
-      "The plants withered under the ____."
-    ]
-  },
-  {
-    "id": 126081609,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Hawaii ____ a direct hurricane hit.",
-    "translation": "Hawaii, doğrudan bir kasırga darbesine hazırlanıyor.",
-    "context": "Bir film sahnesi düşün: Kahraman, büyük bir patlama ya da saldırı öncesi kendini korumak için siper alıyor. İşte 'braces for' tam olarak bu anı anlatır, yani 'bir şeye hazırlanmak, kendini kötü bir duruma karşı korumak'. Havai'dekiler de kasırga için pencereleri kapatıp yiyecek stokluyor, durumu ciddiye alıyorlar!",
-    "options": [
-      "braces for",
-      "ignores",
-      "celebrates",
-      "forgets about"
-    ],
-    "correctAnswer": "braces for",
-    "category": "TRAVEL",
-    "variations": [
-      "The market ____ a major downturn.",
-      "The city ____ heavy snowfall."
-    ]
-  },
-  {
-    "id": 126081610,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The union is no longer ____.",
-    "translation": "Sendika artık politika dikte etmiyor/belirlemiyor.",
-    "context": "Patronun her şeyi tek başına kararlaştırması gibi düşün! 'Dictating policy', yani 'politika dikte etmek' veya 'yönlendirmek', bir grubun veya kişinin kural ve kararları başkalarına empoze etmesi anlamına gelir. 'Ben ne dersem o olur!' diyen bir karakter varsa, işte o bu işi yapıyor demektir!",
-    "options": [
-      "dictating policy",
-      "following orders",
-      "negotiating terms",
-      "consulting members"
-    ],
-    "correctAnswer": "dictating policy",
-    "category": "BUSINESS",
-    "variations": [
-      "The manager was accused of ____.",
-      "No single entity should be ____."
-    ]
-  },
-  {
-    "id": 126081611,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Claude's new ____ will help identify AI content.",
-    "translation": "Claude'un yeni filigranları yapay zeka içeriğini tanımlamaya yardımcı olacak.",
-    "context": "Fotoğrafların üzerinde 'SAMPLE' yazısını ya da telif hakkı simgesini görmüşsün. 'Watermarks', yani 'filigranlar', bir görselin ya da belgenin orijinal olduğunu veya kime ait olduğunu gösteren yarı saydam işaretlerdir. Dijital dünyada içerik kopyalanmasın diye sanatçılar veya şirketler bunu kullanır. Claude da AI içeriğini gizlice işaretleyecek!",
-    "options": [
-      "watermarks",
-      "signatures",
-      "encryption",
-      "firewalls"
-    ],
-    "correctAnswer": "watermarks",
-    "category": "CASUAL",
-    "variations": [
-      "Companies add ____ to protect their images.",
-      "Digital ____ can prevent unauthorized use."
-    ]
-  },
-  {
-    "id": 126081612,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The city ____ with the family.",
-    "translation": "Şehir, aileyle davayı çözüme kavuşturdu.",
-    "context": "Uğraştırıcı bir kavga veya anlaşmazlık sonunda uzlaşmak gibi düşün. 'Settles lawsuit', yani 'davayı çözüme kavuşturmak' veya 'anlaşmak', mahkemeye gitmeden tarafların bir uzlaşmaya varması demektir. Herkesin sinirleri yıpranmadan, para ödenip konu kapanır. Ohio şehrindeki bu olayda da aynısı olmuş, mahkeme kapısı yerine anlaşma masası tercih edilmiş.",
-    "options": [
-      "settles lawsuit",
-      "starts lawsuit",
-      "wins lawsuit",
-      "loses lawsuit"
-    ],
-    "correctAnswer": "settles lawsuit",
-    "category": "MIXED",
-    "variations": [
-      "They tried to ____ out of court.",
-      "The company decided to ____ quickly."
-    ]
+    "variations": []
   }
 ]
