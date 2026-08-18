@@ -1,218 +1,239 @@
 [
   {
-    "id": 126081701,
+    "id": 126081801,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The envoy _____ in Israel.",
-    "translation": "Elçi İsrail'e vardı.",
-    "context": "Bir yere ulaştığını, vardığını söylemek için 'arrive' fiilini kullanırız. Genellikle havalimanı, otel veya önemli bir toplantı gibi yerlere varışlarda karşımıza çıkar. 'When did you arrive at the party?' gibi bir soruyla günlük hayatta sıkça karşılaşabilirsin!",
+    "phrase": "A sudden, strong flood, often after heavy rain, is called a _____.",
+    "translation": "Ani sel",
+    "context": "Hop dedik! Bir anda bastıran yağmurla seller oluştuğunda 'flash flood' deriz. Özellikle Hawaii gibi tropikal yerlerde veya dağlık bölgelerde aniden karşımıza çıkabilir. Bir anda yolları, köprüleri alıp götürmeden kaçmak lazım!",
     "options": [
-      "arrives",
-      "arrived",
-      "arriving",
-      "arrival"
+      "flash flood",
+      "slow flood",
+      "river flood",
+      "small flood"
     ],
-    "correctAnswer": "arrives",
-    "category": "TRAVEL",
-    "variations": [
-      "She will arrive soon.",
-      "Did you arrive safely?"
-    ]
-  },
-  {
-    "id": 126081702,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The actress _____ at 36.",
-    "translation": "Aktris 36 yaşında öldü.",
-    "context": "Birinin kaç yaşında öldüğünü belirtirken 'at' veya 'aged' kelimesini kullanırız. 'He died at 80' veya 'She died aged 36' gibi. Üzücü bir durum olsa da, haberlerde ve günlük konuşmada sıkça karşılaştığımız bir ifade kalıbıdır.",
-    "options": [
-      "dies",
-      "died",
-      "dying",
-      "death"
-    ],
-    "correctAnswer": "died",
-    "category": "CASUAL",
-    "variations": [
-      "My grandfather died last year.",
-      "Many people died in the war."
-    ]
-  },
-  {
-    "id": 126081703,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Stripe will _____ a startup.",
-    "translation": "Stripe bir girişimi satın alacak.",
-    "context": "İş dünyasında bir şirketin başka bir şirketi satın alması, kendi bünyesine katması olayına 'acquire' denir. Genellikle büyük firmalar küçük, yenilikçi girişimleri satın alarak büyürler. Yani, 'acquirer' büyük balık, 'acquired' ise küçük balık!",
-    "options": [
-      "acquire",
-      "acquiring",
-      "acquired",
-      "acquisition"
-    ],
-    "correctAnswer": "acquire",
-    "category": "BUSINESS",
-    "variations": [
-      "They acquired a new company.",
-      "Our firm plans to acquire two startups."
-    ]
-  },
-  {
-    "id": 126081704,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The buildings were _____ by the earthquake.",
-    "translation": "Binalar depremden hasar gördü.",
-    "context": "Bir şeyin zarar gördüğünü, hasar aldığını belirtmek için 'damaged' kelimesini kullanırız. Deprem, sel, kaza gibi pek çok talihsiz olayda bu kelimeye ihtiyaç duyabilirsin. 'Is your car damaged?' gibi sorularla karşına çıkabilir.",
-    "options": [
-      "damage",
-      "damages",
-      "damaged",
-      "damaging"
-    ],
-    "correctAnswer": "damaged",
+    "correctAnswer": "flash flood",
     "category": "MIXED",
     "variations": [
-      "My phone screen is damaged.",
-      "The storm damaged the roof."
+      "The car was swept away by a flash flood.",
+      "Flash floods are common after long droughts."
     ]
   },
   {
-    "id": 126081705,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "The hurricane _____ many homes.",
-    "translation": "Kasırga birçok evi önüne kattı, sürükledi.",
-    "context": "Doğal afetlerde, özellikle sel veya kasırga gibi durumlarda, bir şeylerin şiddetle sürüklenip götürülmesi anlamına gelir. Hawaii'deki evlerin kasırga yüzünden 'swept away' olması çok üzücü bir durum. Güçlü bir eylem fiilidir!",
+    "id": 126081802,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The company's annual _____ reached an impressive $65 billion.",
+    "translation": "Gelir",
+    "context": "Bir şirketin bir yıl içinde elde ettiği toplam para 'revenue' demektir. Anthropic gibi teknoloji devleri için bu rakamlar astronomik olabilir. Cebimize giren para da bizim 'revenue'ımız gibi düşünebiliriz!",
     "options": [
-      "swept away",
-      "pushed away",
-      "carried over",
-      "blown down"
+      "revenue",
+      "expense",
+      "debt",
+      "profit"
     ],
-    "correctAnswer": "swept away",
-    "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126081706,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "The US will _____ military drills.",
-    "translation": "ABD askeri tatbikatları azaltacak.",
-    "context": "Bir şeyin miktarını, yoğunluğunu veya boyutunu küçültmek, kısmak anlamına gelir. ABD'nin askeri tatbikatları 'reduce' etmesi, uluslararası ilişkilerde önemli bir adımdır. 'Reduce waste' (atığı azaltmak) gibi günlük kullanımları da vardır.",
-    "options": [
-      "reduce",
-      "increase",
-      "cancel",
-      "continue"
-    ],
-    "correctAnswer": "reduce",
+    "correctAnswer": "revenue",
     "category": "BUSINESS",
-    "variations": []
+    "variations": [
+      "Their revenue increased significantly last quarter.",
+      "The new product aims to boost our revenue."
+    ]
   },
   {
-    "id": 126081707,
+    "id": 126081803,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "The teen _____ in the middle of the night.",
-    "translation": "Genç, gecenin bir yarısı ortadan kayboldu.",
-    "context": "Birinin aniden, beklenmedik bir şekilde, genellikle iz bırakmadan kaybolması anlamına gelir. 'Vanished' kelimesi gizem ve merak uyandırır. Gecenin bir yarısı kaybolmak ise olayın daha da dramatik olduğunu vurgular!",
+    "level": "BEGINNER",
+    "phrase": "When 'all hell broke loose', it means chaos _____.",
+    "translation": "Ortalık karıştı, kaos başladı.",
+    "context": "Bu deyim, bir anda her şeyin kontrolden çıktığı, büyük bir kargaşa veya kavga başladığı durumlar için kullanılır. Tupac'ın vurulduğu gece gibi... 'Vay canına, her yer karıştı!' demek istediğinde kullanabilirsin.",
     "options": [
-      "disappeared",
-      "showed up",
-      "returned",
-      "was found"
+      "started",
+      "ended",
+      "paused",
+      "improved"
     ],
-    "correctAnswer": "disappeared",
+    "correctAnswer": "started",
     "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126081708,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "F1's _____ will be decided by many factors.",
-    "translation": "F1'in şampiyonluk yarışı birçok faktörle belirlenecek.",
-    "context": "Özellikle spor müsabakalarında, şampiyonluk veya liderlik için verilen çekişmeli mücadele anlamına gelir. Futbol, basketbol, F1 gibi sporlarda 'title race' heyecanın dorukta olduğu anları anlatır. 'Who's leading the title race?' diye sorabilirsin.",
+    "id": 126081804,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Due to the extreme _____, water use is strictly restricted in many areas.",
+    "translation": "Kuraklık",
+    "context": "Yazın yağmur yağmadığında, sular azaldığında ve her yer kupkuru olduğunda işte bu 'drought' durumu yaşanır. Hortumla araba yıkamak falan rüyalara kalır, dikkat etmek lazım sularımıza!",
     "options": [
-      "title race",
-      "final game",
-      "friendly match",
-      "practice session"
+      "drought",
+      "flood",
+      "rain",
+      "humidity"
     ],
-    "correctAnswer": "title race",
-    "category": "MIXED",
-    "variations": []
-  },
-  {
-    "id": 126081709,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "The hurricane _____ Hawaii fiercely.",
-    "translation": "Kasırga Hawaii'yi şiddetle vurdu/dövdü.",
-    "context": "Bir fırtınanın, kasırganın veya şiddetli rüzgarın bir yere sertçe vurması, hırpalaması, dövmesi anlamına gelir. Ciddi yıkıma yol açan güçlü hava olaylarını anlatırken kullanılır. 'Lashes' kelimesi, olayın ne kadar şiddetli olduğunu hissettirir!",
-    "options": [
-      "lashes",
-      "gently touches",
-      "misses",
-      "bypasses"
-    ],
-    "correctAnswer": "lashes",
+    "correctAnswer": "drought",
     "category": "TRAVEL",
-    "variations": []
+    "variations": [
+      "The drought led to severe water shortages.",
+      "Farmers are worried about the ongoing drought."
+    ]
   },
   {
-    "id": 126081710,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "AI backlash is a _____ of trust.",
-    "translation": "Yapay zeka tepkisi, bir güven krizidir.",
-    "context": "İnsanların bir şeye veya kuruma olan inancının, güveninin sarsılması, zedelenmesi anlamına gelir. Özellikle yeni teknolojiler veya politikalar hakkında kamuoyunda şüpheler oluştuğunda bu ifadeyi duyarsın. 'A crisis of trust' gerçekten de tehlike çanları demektir!",
+    "id": 126081805,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The startup decided to _____ its operations due to financial difficulties.",
+    "translation": "Kapatmak, faaliyetlerini durdurmak",
+    "context": "Bir işin, dükkanın veya şirketin kepenk indirmesi, yani faaliyetlerine son vermesi durumuna 'shut down' denir. Ne yazık ki, her zaman her şey iyi gitmeyebiliyor, tıpkı bu AI startup'ı gibi...",
     "options": [
-      "crisis",
-      "opportunity",
-      "solution",
-      "triumph"
+      "shut down",
+      "open up",
+      "speed up",
+      "slow down"
     ],
-    "correctAnswer": "crisis",
+    "correctAnswer": "shut down",
     "category": "BUSINESS",
-    "variations": []
+    "variations": [
+      "They had to shut down the factory last year.",
+      "The server will shut down for maintenance tonight."
+    ]
   },
   {
-    "id": 126081711,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Root made a '_____' call on curfew.",
-    "translation": "Root sokağa çıkma yasağı hakkında 'olgun/sorumlu' bir karar verdi.",
-    "context": "Olgunlukla, sorumluluk bilinciyle alınan zor bir karar demektir. Genellikle kişisel çıkarlardan ziyade genel iyiliği düşündüğünde yaparsın. Spor dünyasında, takım kaptanlarının takımı için verdiği kritik ve bazen de hoşnutsuzluk yaratabilecek kararları tanımlamak için kullanılır.",
+    "id": 126081806,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The country is _____ humanitarian aid to its neighboring allies.",
+    "translation": "Sağlamak, tedarik etmek",
+    "context": "Birine bir şeyi sağlamak, vermek veya temin etmek 'supply' fiiliyle anlatılır. Rusya'nın Ukrayna'ya drone tedarik etme konusu gibi. Günlük hayatta marketten bir şeyler 'supply' etmek de diyebiliriz!",
     "options": [
-      "grown up",
-      "childish",
-      "impulsive",
-      "foolish"
+      "supplying",
+      "demanding",
+      "hiding",
+      "taking"
     ],
-    "correctAnswer": "grown up",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126081712,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Israel _____ a vast terror arsenal.",
-    "translation": "İsrail dev bir terör cephaneliğine el koydu.",
-    "context": "Yasa dışı veya tehlikeli bir şeyi zorla ele geçirmek, müsadere etmek anlamına gelir. Özellikle polis veya askeri operasyonlarda, büyük miktarda silah, uyuşturucu veya kaçak mal ele geçirildiğinde 'seize' fiili kullanılır. Bir şeyi kontrol altına almak gibi düşünebilirsin!",
-    "options": [
-      "seizes",
-      "releases",
-      "loses",
-      "ignores"
-    ],
-    "correctAnswer": "seizes",
+    "correctAnswer": "supplying",
     "category": "MIXED",
-    "variations": []
+    "variations": [
+      "Who will supply the materials for the project?",
+      "The store couldn't supply enough products."
+    ]
+  },
+  {
+    "id": 126081807,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The news report contained some very _____ details about the incident.",
+    "translation": "Rahatsız edici",
+    "context": "Bir şey seni rahatsız ediyorsa, kötü hissettiriyorsa veya içini ürpertiyorsa 'disturbing' kelimesini kullanabilirsin. Olay yerinde bulunan 'disturbing videos' gibi durumlar... Uykunu kaçıran filmler de 'disturbing' olabilir.",
+    "options": [
+      "disturbing",
+      "calming",
+      "funny",
+      "exciting"
+    ],
+    "correctAnswer": "disturbing",
+    "category": "CASUAL",
+    "variations": [
+      "I found the movie's ending quite disturbing.",
+      "The images from the accident were disturbing."
+    ]
+  },
+  {
+    "id": 126081808,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The accused staff were found guilty of _____ parents about donor information.",
+    "translation": "Yanlış yönlendirme, yanıltma",
+    "context": "Birini bilerek veya bilmeyerek yanlış bilgi vererek hatalı bir karara sürüklemek, işte bu 'misleading' etmek demektir. IVF skandalında olduğu gibi, insanları kandırmak veya yanıltmak hiç hoş değil!",
+    "options": [
+      "misleading",
+      "informing",
+      "guiding",
+      "educating"
+    ],
+    "correctAnswer": "misleading",
+    "category": "TRAVEL",
+    "variations": [
+      "The advertisement was misleading about the product's features.",
+      "Don't let them mislead you with false promises."
+    ]
+  },
+  {
+    "id": 126081809,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "To _____ a project means to significantly accelerate its progress and power.",
+    "translation": "Hızlandırmak, güçlendirmek",
+    "context": "Bir arabaya turbo takmak gibi, bir şeyi çok daha hızlı ve güçlü hale getirmeye 'turbocharge' denir. Hamilton'ın Ferrari'sini şampiyonluğa 'turbocharge' etmesi gibi, iş hayatında da projeleri hızlandırmak için kullanabiliriz!",
+    "options": [
+      "turbocharge",
+      "slow down",
+      "decelerate",
+      "stall"
+    ],
+    "correctAnswer": "turbocharge",
+    "category": "BUSINESS",
+    "variations": [
+      "We need to turbocharge our sales efforts this quarter.",
+      "New policies aim to turbocharge economic growth."
+    ]
+  },
+  {
+    "id": 126081810,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The classic _____ between the two football teams dates back decades.",
+    "translation": "Rekabet",
+    "context": "İki güçlü taraf arasında, özellikle sporda veya siyasette yaşanan çekişmeye 'rivalry' denir. All Blacks ile Springboks arasındaki efsanevi rekabet gibi! Tatlı rekabetler hayatı renklendirir ama bazen de gerginlik yaratır.",
+    "options": [
+      "rivalry",
+      "friendship",
+      "alliance",
+      "cooperation"
+    ],
+    "correctAnswer": "rivalry",
+    "category": "MIXED",
+    "variations": [
+      "Their professional rivalry pushed both to excel.",
+      "The historic rivalry draws huge crowds."
+    ]
+  },
+  {
+    "id": 126081811,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The judge decided to _____ the company's plan to build a new factory.",
+    "translation": "Engellemek, durdurmak",
+    "context": "Bir yargıcın veya bir yetkilinin bir şeyi resmen durdurması, engellemesi veya yapmasına izin vermemesi 'block' demektir. Trump yönetiminin FBI merkezini taşımasını engelleyen yargıç gibi. Engeller bazen iyidir!",
+    "options": [
+      "block",
+      "approve",
+      "support",
+      "initiate"
+    ],
+    "correctAnswer": "block",
+    "category": "CASUAL",
+    "variations": [
+      "The protest aimed to block traffic.",
+      "Security tried to block access to the building."
+    ]
+  },
+  {
+    "id": 126081812,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "_____ works are essential to maintain the depth of the port's channels.",
+    "translation": "Dip tarama (çalışmaları)",
+    "context": "Gemilerin daha rahat geçmesi için liman ve nehir yataklarının dibindeki kum, çamur gibi maddeleri temizleme işlemine 'dredging' denir. Tarihi limanların 'dredging works' ile iyileştirilmesi gibi, denizcilik ve ticaret için çok önemli!",
+    "options": [
+      "Dredging",
+      "Building",
+      "Cleaning",
+      "Filling"
+    ],
+    "correctAnswer": "Dredging",
+    "category": "TRAVEL",
+    "variations": [
+      "The harbor requires regular dredging.",
+      "Dredging helps prevent ships from running aground."
+    ]
   }
 ]
