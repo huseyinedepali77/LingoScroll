@@ -1,239 +1,233 @@
 [
   {
-    "id": 126081801,
+    "id": 126081901,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "A sudden, strong flood, often after heavy rain, is called a _____.",
-    "translation": "Ani sel",
-    "context": "Hop dedik! Bir anda bastıran yağmurla seller oluştuğunda 'flash flood' deriz. Özellikle Hawaii gibi tropikal yerlerde veya dağlık bölgelerde aniden karşımıza çıkabilir. Bir anda yolları, köprüleri alıp götürmeden kaçmak lazım!",
+    "phrase": "The minister was _____ from his job last week.",
+    "translation": "Bakan geçen hafta işinden kovuldu.",
+    "context": "İşten çıkarılmak, kovulmak anlamına gelir. 'You're fired!' repliğini duymuşsundur, işte onun daha kibar ama aynı derecede can yakan hali. Özellikle patronunla aranız limoniye döndüğünde veya şirketteki son skandalda günah keçisi seçildiğinde başına gelebilir.",
     "options": [
-      "flash flood",
-      "slow flood",
-      "river flood",
-      "small flood"
+      "sacked",
+      "promoted",
+      "hired",
+      "retired"
     ],
-    "correctAnswer": "flash flood",
-    "category": "MIXED",
+    "correctAnswer": "sacked",
+    "category": "CASUAL",
     "variations": [
-      "The car was swept away by a flash flood.",
-      "Flash floods are common after long droughts."
+      "He was _____ after the scandal.",
+      "The company _____ many employees."
     ]
   },
   {
-    "id": 126081802,
+    "id": 126081902,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The company's annual _____ reached an impressive $65 billion.",
-    "translation": "Gelir",
-    "context": "Bir şirketin bir yıl içinde elde ettiği toplam para 'revenue' demektir. Anthropic gibi teknoloji devleri için bu rakamlar astronomik olabilir. Cebimize giren para da bizim 'revenue'ımız gibi düşünebiliriz!",
+    "phrase": "The country imposed new _____ on imported goods.",
+    "translation": "Ülke ithal mallara yeni gümrük vergileri uyguladı.",
+    "context": "Tarife, gümrük vergisi demek. Yurt dışından gelen ürünlerin fiyatını artırarak yerli üretimi korumak için devletlerin uyguladığı vergiler. Çin'den aldığın o ucuz telefon birden pahalılaşırsa, sebebi bu 'tariffs' olabilir!",
     "options": [
-      "revenue",
-      "expense",
-      "debt",
-      "profit"
+      "tariffs",
+      "discounts",
+      "bonuses",
+      "subsidies"
     ],
-    "correctAnswer": "revenue",
+    "correctAnswer": "tariffs",
     "category": "BUSINESS",
     "variations": [
-      "Their revenue increased significantly last quarter.",
-      "The new product aims to boost our revenue."
+      "New _____ could raise prices.",
+      "The government discussed import _____."
     ]
   },
   {
-    "id": 126081803,
+    "id": 126081903,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "When 'all hell broke loose', it means chaos _____.",
-    "translation": "Ortalık karıştı, kaos başladı.",
-    "context": "Bu deyim, bir anda her şeyin kontrolden çıktığı, büyük bir kargaşa veya kavga başladığı durumlar için kullanılır. Tupac'ın vurulduğu gece gibi... 'Vay canına, her yer karıştı!' demek istediğinde kullanabilirsin.",
+    "phrase": "'Sacked' kelimesi, bir kişinin işinden çıkarılması anlamına gelir. Aşağıdaki cümlelerden hangisi 'sacked' kelimesini doğru kullanır?",
+    "translation": "'Sacked' = işten çıkarılmak.",
+    "context": "'Sacked' deyince aklına hemen 'işten kovulmak' gelsin. Futbolda kalecinin topu saklamasıyla alakası yok! Patronun sana 'Seninle yollarımız ayrıldı' dediğinde hissettiğin o kötü duyguyu tarif eder. Mesela, çok geç kaldığın için ya da bir hata yaptığın için 'sacked' olabilirsin. Dikkat et, işsiz kalma!",
     "options": [
-      "started",
-      "ended",
-      "paused",
-      "improved"
+      "He was sacked for being late.",
+      "He sacked his lunch quickly.",
+      "He sacked the ball.",
+      "He sacked a potato."
     ],
-    "correctAnswer": "started",
+    "correctAnswer": "He was sacked for being late.",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126081904,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "A sudden _____ flood swept the car away.",
+    "translation": "Ani bir sel arabayı sürükledi.",
+    "context": "'Flash flood' ani sel baskını demek. Hani filmlerde olur ya, güneşli bir günde aniden bastıran sağanakla yollar nehre döner, araçlar sürüklenir. Özellikle dağlık veya çöl bölgelerinde, yağmurun toprağa emilmeden hızla akmasıyla oluşur. Tatile giderken hava durumuna iyi bakmak lazım, yoksa tatilin kabusa dönüşebilir!",
+    "options": [
+      "flash",
+      "slow",
+      "dark",
+      "calm"
+    ],
+    "correctAnswer": "flash",
+    "category": "TRAVEL",
+    "variations": [
+      "The small village was hit by a _____ flood.",
+      "After the heavy rain, a _____ flood occurred."
+    ]
+  },
+  {
+    "id": 126081905,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "They are investigating the company's financial records in a new _____.",
+    "translation": "Şirketin mali kayıtlarını yeni bir soruşturmada inceliyorlar.",
+    "context": "'Probe' bir nevi Sherlock Holmes'un büyüteci gibi. Detaylı, derinlemesine bir soruşturma demek. Özellikle büyük şirketler veya devlet kurumları hakkında bir şüphe olduğunda, her köşeyi araştırmak için başlatılır. Eğer bir 'probe' konusu olursan, uykuların kaçabilir!",
+    "options": [
+      "probe",
+      "celebration",
+      "promotion",
+      "launch"
+    ],
+    "correctAnswer": "probe",
+    "category": "BUSINESS",
+    "variations": [
+      "The police started a _____ into the theft.",
+      "A full _____ will reveal the truth."
+    ]
+  },
+  {
+    "id": 126081906,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Many people get _____ on social media apps.",
+    "translation": "Birçok insan sosyal medya uygulamalarına bağımlı hale geliyor.",
+    "context": "'Hooked' kancaya takılmak gibi, yani bir şeye bağımlı olmak veya çok düşkün olmak demek. Telefonundan elini düşüremiyor musun? O diziye bir başladın mı bırakamıyor musun? İşte o zaman 'You're hooked!' demektir. Bağımlılık yapan her şey için kullanılır, dikkatli olmak lazım!",
+    "options": [
+      "hooked",
+      "bored",
+      "tired",
+      "disgusted"
+    ],
+    "correctAnswer": "hooked",
+    "category": "CASUAL",
+    "variations": [
+      "I'm _____ on this new game!",
+      "He got _____ on coffee after college."
+    ]
+  },
+  {
+    "id": 126081907,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Bir bölgede uzun süreli kuraklık yaşandığını ifade etmek için hangi kelime kullanılır?",
+    "translation": "Kuraklık anlamındaki kelimeyi bul.",
+    "context": "'Drought' çöl misali, uzun süren susuzluk ve kuraklık demek. Yağmur yağmadığında, bitkiler kuruduğunda, su kaynakları azaldığında karşımıza çıkar. Maalesef dünya genelinde iklim değişikliği yüzünden sıkça duyduğumuz bir kelime. Duş alırken suyu boşa harcamamak lazım, değil mi?",
+    "options": [
+      "drought",
+      "flood",
+      "storm",
+      "blizzard"
+    ],
+    "correctAnswer": "drought",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126081908,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The coach was very _____ after the team's loss.",
+    "translation": "Takımın yenilgisinden sonra antrenör çok hayal kırıklığına uğramıştı.",
+    "context": "'Disappointed' hayal kırıklığına uğramış demek. Bir sınavdan beklediğin notu alamadığında, en sevdiğin takım maçı kaybettiğinde veya bir arkadaşın sözünü tutmadığında hissettiğin o buruk duygu. Kimse hayal kırıklığına uğramayı sevmez ama hayatın gerçeği, değil mi?",
+    "options": [
+      "disappointed",
+      "excited",
+      "happy",
+      "thrilled"
+    ],
+    "correctAnswer": "disappointed",
+    "category": "MIXED",
+    "variations": [
+      "I felt _____ when my plans changed.",
+      "She was _____ with her exam results."
+    ]
+  },
+  {
+    "id": 126081909,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Companies often try to _____ on new market trends.",
+    "translation": "Şirketler genellikle yeni pazar trendlerinden faydalanmaya çalışır.",
+    "context": "'Capitalize on' bir fırsatı değerlendirmek, ondan faydalanmak demek. Bir şirketin, rakibinin hatasından veya piyasadaki yeni bir eğilimden kendine pay çıkarması gibi. Akıllı girişimciler hep 'capitalizing on' peşindedir. Sen de hayatındaki fırsatları iyi 'capitalize on' etmelisin!",
+    "options": [
+      "capitalize",
+      "ignore",
+      "avoid",
+      "lose"
+    ],
+    "correctAnswer": "capitalize",
+    "category": "BUSINESS",
+    "variations": [
+      "He tried to _____ on his previous success.",
+      "The team failed to _____ on their advantage."
+    ]
+  },
+  {
+    "id": 126081910,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "'Controversial' kelimesi, hakkında çok fazla tartışma veya anlaşmazlık olan durumları ifade eder. Aşağıdaki cümlelerden hangisi 'controversial' kelimesini doğru kullanır?",
+    "translation": "'Controversial' = tartışmalı, ihtilaflı.",
+    "context": "'Controversial' tartışmalı, ihtilaflı demek. Hani bazen bir konu açılır da herkesin farklı bir fikri olur, ortam birden gerilir ya, işte o konu 'controversial'dır. Özellikle politikada, sanatta veya büyük projelerde sıkça karşımıza çıkar. Herkesi aynı fikirde buluşturmak zor iştir!",
+    "options": [
+      "The decision was very controversial, dividing opinions.",
+      "The controversial new song was loved by everyone.",
+      "He gave a controversial speech that pleased the crowd.",
+      "The controversial design was praised by all critics."
+    ],
+    "correctAnswer": "The decision was very controversial, dividing opinions.",
     "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126081804,
+    "id": 126081911,
     "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Due to the extreme _____, water use is strictly restricted in many areas.",
-    "translation": "Kuraklık",
-    "context": "Yazın yağmur yağmadığında, sular azaldığında ve her yer kupkuru olduğunda işte bu 'drought' durumu yaşanır. Hortumla araba yıkamak falan rüyalara kalır, dikkat etmek lazım sularımıza!",
+    "level": "ADVANCED",
+    "phrase": "The suspect was _____ of a serious crime.",
+    "translation": "Şüpheli ciddi bir suçla itham edildi.",
+    "context": "'Accused of' bir suçla itham edilmek, suçlanmak demek. Henüz kanıtlanmamış ama hakkında iddia olan durumlar için kullanılır. Mahkeme salonlarında, gazetelerde sıkça rastlarsın. Masumiyet karinesi önemlidir, biri 'accused' olsa da suçu kanıtlanana kadar masumdur!",
     "options": [
-      "drought",
-      "flood",
-      "rain",
-      "humidity"
+      "accused",
+      "praised",
+      "acquitted",
+      "pardoned"
     ],
-    "correctAnswer": "drought",
-    "category": "TRAVEL",
-    "variations": [
-      "The drought led to severe water shortages.",
-      "Farmers are worried about the ongoing drought."
-    ]
-  },
-  {
-    "id": 126081805,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The startup decided to _____ its operations due to financial difficulties.",
-    "translation": "Kapatmak, faaliyetlerini durdurmak",
-    "context": "Bir işin, dükkanın veya şirketin kepenk indirmesi, yani faaliyetlerine son vermesi durumuna 'shut down' denir. Ne yazık ki, her zaman her şey iyi gitmeyebiliyor, tıpkı bu AI startup'ı gibi...",
-    "options": [
-      "shut down",
-      "open up",
-      "speed up",
-      "slow down"
-    ],
-    "correctAnswer": "shut down",
-    "category": "BUSINESS",
-    "variations": [
-      "They had to shut down the factory last year.",
-      "The server will shut down for maintenance tonight."
-    ]
-  },
-  {
-    "id": 126081806,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The country is _____ humanitarian aid to its neighboring allies.",
-    "translation": "Sağlamak, tedarik etmek",
-    "context": "Birine bir şeyi sağlamak, vermek veya temin etmek 'supply' fiiliyle anlatılır. Rusya'nın Ukrayna'ya drone tedarik etme konusu gibi. Günlük hayatta marketten bir şeyler 'supply' etmek de diyebiliriz!",
-    "options": [
-      "supplying",
-      "demanding",
-      "hiding",
-      "taking"
-    ],
-    "correctAnswer": "supplying",
+    "correctAnswer": "accused",
     "category": "MIXED",
     "variations": [
-      "Who will supply the materials for the project?",
-      "The store couldn't supply enough products."
+      "She was _____ of cheating on the exam.",
+      "The company was _____ of unfair practices."
     ]
   },
   {
-    "id": 126081807,
+    "id": 126081912,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The news report contained some very _____ details about the incident.",
-    "translation": "Rahatsız edici",
-    "context": "Bir şey seni rahatsız ediyorsa, kötü hissettiriyorsa veya içini ürpertiyorsa 'disturbing' kelimesini kullanabilirsin. Olay yerinde bulunan 'disturbing videos' gibi durumlar... Uykunu kaçıran filmler de 'disturbing' olabilir.",
+    "level": "ADVANCED",
+    "phrase": "The government issued new _____ bans during the dry season.",
+    "translation": "Hükümet kurak sezonda yeni hortumla sulama yasakları yayınladı.",
+    "context": "'Hosepipe ban' hortumla sulama yasağı demek. Kuraklık dönemlerinde su tasarrufu yapmak için getirilen bir kısıtlama. Bahçeni sulayamazsın, arabanı yıkayamazsın hortumla. Yani 'hortum' deyince aklına itfaiye değil, bahçe hortumu gelsin. Su hayattır, dikkatli kullanalım!",
     "options": [
-      "disturbing",
-      "calming",
-      "funny",
-      "exciting"
+      "hosepipe",
+      "pipeline",
+      "gasoline",
+      "drainage"
     ],
-    "correctAnswer": "disturbing",
-    "category": "CASUAL",
-    "variations": [
-      "I found the movie's ending quite disturbing.",
-      "The images from the accident were disturbing."
-    ]
-  },
-  {
-    "id": 126081808,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The accused staff were found guilty of _____ parents about donor information.",
-    "translation": "Yanlış yönlendirme, yanıltma",
-    "context": "Birini bilerek veya bilmeyerek yanlış bilgi vererek hatalı bir karara sürüklemek, işte bu 'misleading' etmek demektir. IVF skandalında olduğu gibi, insanları kandırmak veya yanıltmak hiç hoş değil!",
-    "options": [
-      "misleading",
-      "informing",
-      "guiding",
-      "educating"
-    ],
-    "correctAnswer": "misleading",
+    "correctAnswer": "hosepipe",
     "category": "TRAVEL",
     "variations": [
-      "The advertisement was misleading about the product's features.",
-      "Don't let them mislead you with false promises."
-    ]
-  },
-  {
-    "id": 126081809,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "To _____ a project means to significantly accelerate its progress and power.",
-    "translation": "Hızlandırmak, güçlendirmek",
-    "context": "Bir arabaya turbo takmak gibi, bir şeyi çok daha hızlı ve güçlü hale getirmeye 'turbocharge' denir. Hamilton'ın Ferrari'sini şampiyonluğa 'turbocharge' etmesi gibi, iş hayatında da projeleri hızlandırmak için kullanabiliriz!",
-    "options": [
-      "turbocharge",
-      "slow down",
-      "decelerate",
-      "stall"
-    ],
-    "correctAnswer": "turbocharge",
-    "category": "BUSINESS",
-    "variations": [
-      "We need to turbocharge our sales efforts this quarter.",
-      "New policies aim to turbocharge economic growth."
-    ]
-  },
-  {
-    "id": 126081810,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The classic _____ between the two football teams dates back decades.",
-    "translation": "Rekabet",
-    "context": "İki güçlü taraf arasında, özellikle sporda veya siyasette yaşanan çekişmeye 'rivalry' denir. All Blacks ile Springboks arasındaki efsanevi rekabet gibi! Tatlı rekabetler hayatı renklendirir ama bazen de gerginlik yaratır.",
-    "options": [
-      "rivalry",
-      "friendship",
-      "alliance",
-      "cooperation"
-    ],
-    "correctAnswer": "rivalry",
-    "category": "MIXED",
-    "variations": [
-      "Their professional rivalry pushed both to excel.",
-      "The historic rivalry draws huge crowds."
-    ]
-  },
-  {
-    "id": 126081811,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The judge decided to _____ the company's plan to build a new factory.",
-    "translation": "Engellemek, durdurmak",
-    "context": "Bir yargıcın veya bir yetkilinin bir şeyi resmen durdurması, engellemesi veya yapmasına izin vermemesi 'block' demektir. Trump yönetiminin FBI merkezini taşımasını engelleyen yargıç gibi. Engeller bazen iyidir!",
-    "options": [
-      "block",
-      "approve",
-      "support",
-      "initiate"
-    ],
-    "correctAnswer": "block",
-    "category": "CASUAL",
-    "variations": [
-      "The protest aimed to block traffic.",
-      "Security tried to block access to the building."
-    ]
-  },
-  {
-    "id": 126081812,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "_____ works are essential to maintain the depth of the port's channels.",
-    "translation": "Dip tarama (çalışmaları)",
-    "context": "Gemilerin daha rahat geçmesi için liman ve nehir yataklarının dibindeki kum, çamur gibi maddeleri temizleme işlemine 'dredging' denir. Tarihi limanların 'dredging works' ile iyileştirilmesi gibi, denizcilik ve ticaret için çok önemli!",
-    "options": [
-      "Dredging",
-      "Building",
-      "Cleaning",
-      "Filling"
-    ],
-    "correctAnswer": "Dredging",
-    "category": "TRAVEL",
-    "variations": [
-      "The harbor requires regular dredging.",
-      "Dredging helps prevent ships from running aground."
+      "Local authorities implemented _____ bans.",
+      "The new _____ ban affected many residents."
     ]
   }
 ]
