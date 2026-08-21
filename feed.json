@@ -1,233 +1,236 @@
 [
   {
-    "id": 126081901,
+    "id": 126082101,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The minister was _____ from his job last week.",
-    "translation": "Bakan geçen hafta işinden kovuldu.",
-    "context": "İşten çıkarılmak, kovulmak anlamına gelir. 'You're fired!' repliğini duymuşsundur, işte onun daha kibar ama aynı derecede can yakan hali. Özellikle patronunla aranız limoniye döndüğünde veya şirketteki son skandalda günah keçisi seçildiğinde başına gelebilir.",
+    "phrase": "Tesla plans to launch _____ in the city next year.",
+    "translation": "robotaksiler",
+    "context": "Havaalanından otelinize veya şehir içinde hızlıca ulaşmak için şoförsüz taksiler! 'Robotaxis' kelimesi, sürücüsüz, otonom taksileri ifade eder. Gelecekte her yerde göreceğimiz bu araçlar, seyahatlerimizi çok daha kolay hale getirecek.",
     "options": [
-      "sacked",
-      "promoted",
-      "hired",
-      "retired"
+      "robotaxis",
+      "skycars",
+      "speedboats",
+      "bikepods"
     ],
-    "correctAnswer": "sacked",
-    "category": "CASUAL",
+    "correctAnswer": "robotaxis",
+    "category": "TRAVEL",
     "variations": [
-      "He was _____ after the scandal.",
-      "The company _____ many employees."
+      "Many companies are investing in developing autonomous robotaxis.",
+      "Could robotaxis make public transport obsolete in the future?"
     ]
   },
   {
-    "id": 126081902,
+    "id": 126082102,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The country imposed new _____ on imported goods.",
-    "translation": "Ülke ithal mallara yeni gümrük vergileri uyguladı.",
-    "context": "Tarife, gümrük vergisi demek. Yurt dışından gelen ürünlerin fiyatını artırarak yerli üretimi korumak için devletlerin uyguladığı vergiler. Çin'den aldığın o ucuz telefon birden pahalılaşırsa, sebebi bu 'tariffs' olabilir!",
+    "phrase": "She wants to create a new tech _____.",
+    "translation": "girişim şirketi",
+    "context": "'Startup', henüz yeni kurulmuş, genellikle yenilikçi bir fikir veya teknoloji üzerine çalışan genç şirketlere denir. Silikon Vadisi'nin ruhu gibi! Büyük hayallerle yola çıkıp dünyayı değiştirmeyi hedefleyen taze kanlar, yani startuplar!",
     "options": [
-      "tariffs",
-      "discounts",
-      "bonuses",
-      "subsidies"
+      "startup",
+      "corporation",
+      "branch",
+      "department"
     ],
-    "correctAnswer": "tariffs",
+    "correctAnswer": "startup",
     "category": "BUSINESS",
     "variations": [
-      "New _____ could raise prices.",
-      "The government discussed import _____."
+      "Our team is working hard to grow the startup.",
+      "Many investors look for promising new startups."
     ]
   },
   {
-    "id": 126081903,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "id": 126082103,
+    "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "'Sacked' kelimesi, bir kişinin işinden çıkarılması anlamına gelir. Aşağıdaki cümlelerden hangisi 'sacked' kelimesini doğru kullanır?",
-    "translation": "'Sacked' = işten çıkarılmak.",
-    "context": "'Sacked' deyince aklına hemen 'işten kovulmak' gelsin. Futbolda kalecinin topu saklamasıyla alakası yok! Patronun sana 'Seninle yollarımız ayrıldı' dediğinde hissettiğin o kötü duyguyu tarif eder. Mesela, çok geç kaldığın için ya da bir hata yaptığın için 'sacked' olabilirsin. Dikkat et, işsiz kalma!",
+    "phrase": "The tennis player made an amazing _____ after his injury.",
+    "translation": "geri dönüş",
+    "context": "'Comeback', bir sporcunun sakatlık sonrası dönüşü, bir şarkıcının uzun aradan sonra yeniden sahneye çıkması ya da bir markanın eski popülaritesini yakalaması gibi durumlarda kullanılır. 'Vay be, ne geri dönüş yaptı!' deriz mesela.",
     "options": [
-      "He was sacked for being late.",
-      "He sacked his lunch quickly.",
-      "He sacked the ball.",
-      "He sacked a potato."
+      "comeback",
+      "timeout",
+      "score",
+      "foul"
     ],
-    "correctAnswer": "He was sacked for being late.",
+    "correctAnswer": "comeback",
+    "category": "CASUAL",
+    "variations": [
+      "His new album marks a strong comeback.",
+      "Everyone cheered for her incredible comeback victory."
+    ]
+  },
+  {
+    "id": 126082104,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "After days of rain, the _____.",
+    "translation": "güneş geri döndü",
+    "context": "Kapalı, yağmurlu günlerden sonra nihayet güneş yüzünü gösterdiğinde kullandığımız mis gibi bir ifade! Piknik yapma, dışarı çıkma, dondurma yeme zamanı geldi demektir. Mood'umuz anında değişir!",
+    "options": [
+      "sun returns",
+      "wind stops",
+      "fog spreads",
+      "snow falls"
+    ],
+    "correctAnswer": "sun returns",
     "category": "MIXED",
+    "variations": [
+      "We hope the sun returns for the weekend.",
+      "Everyone feels better when the sun returns after a long winter."
+    ]
+  },
+  {
+    "id": 126082105,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The airline will _____ new flights to Paris starting next month.",
+    "translation": "işletecek/faaliyete geçirecek",
+    "context": "'Operate' kelimesi sadece bir makineyi çalıştırmak anlamına gelmez, aynı zamanda bir işi veya hizmeti yürütmek, faaliyete geçirmek demektir. Mesela bir şirket yeni rotalar 'işletir' veya bir otel 'faaliyet gösterir'.",
+    "options": [
+      "operate",
+      "design",
+      "cancel",
+      "delay"
+    ],
+    "correctAnswer": "operate",
+    "category": "TRAVEL",
+    "variations": [
+      "The company plans to operate its services worldwide.",
+      "They operate several cafes in the city center."
+    ]
+  },
+  {
+    "id": 126082106,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The company's _____ reached $500M this quarter.",
+    "translation": "brüt yıllık gelir oranı",
+    "context": "'Gross run rate', bir şirketin mevcut gelir performansını alıp bunu yıllık bazda ne kadar yapacağını tahmin etmek için kullanılan bir finans terimidir. Yani, 'Bu hızla giderlerse yıllık ciroları bu olur!' demek gibi.",
+    "options": [
+      "gross run rate",
+      "net profit margin",
+      "debt ratio",
+      "cash flow"
+    ],
+    "correctAnswer": "gross run rate",
+    "category": "BUSINESS",
+    "variations": [
+      "Many startups aim for a high gross run rate to attract investors.",
+      "Our goal is to double our gross run rate by next year."
+    ]
+  },
+  {
+    "id": 126082107,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Experts say this summer will be the _____.",
+    "translation": "yaşayan hafızadaki en güçlü",
+    "context": "Bir olayın daha önce hiç bu kadar şiddetli, büyük veya önemli yaşanmadığını vurgulamak için kullanılır. Mesela, 'Bu kadar sıcak bir yaz yaşayan hafızamda yok!' deriz. Yani, hatırladığımız en kötüsü/iyisi!",
+    "options": [
+      "strongest in living memory",
+      "mildest in history",
+      "wettest ever",
+      "shortest on record"
+    ],
+    "correctAnswer": "strongest in living memory",
+    "category": "CASUAL",
+    "variations": [
+      "The storm was the strongest in living memory for the region.",
+      "Many people consider her performance the best in living memory."
+    ]
+  },
+  {
+    "id": 126082108,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The city needs to _____ its infrastructure after the storm.",
+    "translation": "yeniden inşa etmek",
+    "context": "Bir şeyin yıkılıp, hasar görüp sonra tekrar inşa edilmesi anlamına gelir. Deprem sonrası binaları, savaş sonrası şehirleri veya bozulan bir sistemi 'rebuild' ederiz. Yeniden ayağa kalkmak gibi düşünebilirsin!",
+    "options": [
+      "rebuild",
+      "demolish",
+      "preserve",
+      "abandon"
+    ],
+    "correctAnswer": "rebuild",
+    "category": "MIXED",
+    "variations": [
+      "The community worked together to rebuild the damaged homes.",
+      "After the fire, they had to rebuild their entire business."
+    ]
+  },
+  {
+    "id": 126082109,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Which weather phenomenon is expected to be the 'strongest in living memory'?",
+    "translation": "Hangi hava olayı 'yaşayan hafızadaki en güçlü' olması bekleniyor?",
+    "context": "'El Niño', Pasifik Okyanusu'ndaki su sıcaklıklarının değişimine bağlı olarak ortaya çıkan ve dünya genelinde hava durumunu etkileyen büyük bir iklim olayıdır. Yani, sadece bir hava durumu tahmini değil, küresel çapta bir meteoroloji devrimi! Selden kuraklığa, her şeyi etkileyebilir.",
+    "options": [
+      "El Niño",
+      "Hurricane Delta",
+      "Polar Vortex",
+      "Monsoon Season"
+    ],
+    "correctAnswer": "El Niño",
+    "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126081904,
+    "id": 126082110,
     "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "A sudden _____ flood swept the car away.",
-    "translation": "Ani bir sel arabayı sürükledi.",
-    "context": "'Flash flood' ani sel baskını demek. Hani filmlerde olur ya, güneşli bir günde aniden bastıran sağanakla yollar nehre döner, araçlar sürüklenir. Özellikle dağlık veya çöl bölgelerinde, yağmurun toprağa emilmeden hızla akmasıyla oluşur. Tatile giderken hava durumuna iyi bakmak lazım, yoksa tatilin kabusa dönüşebilir!",
+    "level": "ADVANCED",
+    "phrase": "Successful _____ invest in promising new companies.",
+    "translation": "girişim sermayedarları",
+    "context": "'VC' veya 'Venture Capitalist', parlak fikirleri olan ancak henüz büyük bir sermayesi olmayan startuplara yatırım yapan kişidir. Yani, hayallerine inanıp para yatıran, risk alan ve karşılığında şirketin bir kısmına sahip olan 'melek yatırımcı' tadında, daha kurumsal versiyonları.",
     "options": [
-      "flash",
-      "slow",
-      "dark",
-      "calm"
+      "VCs",
+      "shareholders",
+      "brokers",
+      "auditors"
     ],
-    "correctAnswer": "flash",
-    "category": "TRAVEL",
+    "correctAnswer": "VCs",
+    "category": "BUSINESS",
     "variations": [
-      "The small village was hit by a _____ flood.",
-      "After the heavy rain, a _____ flood occurred."
+      "Many VCs are looking for the next big tech innovation.",
+      "Securing funding from VCs is a major step for any startup."
     ]
   },
   {
-    "id": 126081905,
+    "id": 126082111,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "They are investigating the company's financial records in a new _____.",
-    "translation": "Şirketin mali kayıtlarını yeni bir soruşturmada inceliyorlar.",
-    "context": "'Probe' bir nevi Sherlock Holmes'un büyüteci gibi. Detaylı, derinlemesine bir soruşturma demek. Özellikle büyük şirketler veya devlet kurumları hakkında bir şüphe olduğunda, her köşeyi araştırmak için başlatılır. Eğer bir 'probe' konusu olursan, uykuların kaçabilir!",
+    "level": "ADVANCED",
+    "phrase": "After months of _____, they finally agreed on the deal.",
+    "translation": "tartışma/çekişme",
+    "context": "'Wrangling', uzun süren, genellikle inatçı ve zorlu pazarlık veya tartışma anlamına gelir. Hani iki taraf bir türlü anlaşamaz da, sonunda bir şekilde uzlaşır ya, işte o süreç 'wrangling'dir. Bazen inekleri ağıla tıkarken gösterilen o zorlu çabaya benzetilir!",
     "options": [
-      "probe",
+      "wrangling",
       "celebration",
-      "promotion",
-      "launch"
+      "agreement",
+      "cooperation"
     ],
-    "correctAnswer": "probe",
-    "category": "BUSINESS",
-    "variations": [
-      "The police started a _____ into the theft.",
-      "A full _____ will reveal the truth."
-    ]
-  },
-  {
-    "id": 126081906,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Many people get _____ on social media apps.",
-    "translation": "Birçok insan sosyal medya uygulamalarına bağımlı hale geliyor.",
-    "context": "'Hooked' kancaya takılmak gibi, yani bir şeye bağımlı olmak veya çok düşkün olmak demek. Telefonundan elini düşüremiyor musun? O diziye bir başladın mı bırakamıyor musun? İşte o zaman 'You're hooked!' demektir. Bağımlılık yapan her şey için kullanılır, dikkatli olmak lazım!",
-    "options": [
-      "hooked",
-      "bored",
-      "tired",
-      "disgusted"
-    ],
-    "correctAnswer": "hooked",
+    "correctAnswer": "wrangling",
     "category": "CASUAL",
     "variations": [
-      "I'm _____ on this new game!",
-      "He got _____ on coffee after college."
+      "The politicians engaged in extensive wrangling over the new law.",
+      "There was a lot of wrangling to finalize the contract details."
     ]
   },
   {
-    "id": 126081907,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Bir bölgede uzun süreli kuraklık yaşandığını ifade etmek için hangi kelime kullanılır?",
-    "translation": "Kuraklık anlamındaki kelimeyi bul.",
-    "context": "'Drought' çöl misali, uzun süren susuzluk ve kuraklık demek. Yağmur yağmadığında, bitkiler kuruduğunda, su kaynakları azaldığında karşımıza çıkar. Maalesef dünya genelinde iklim değişikliği yüzünden sıkça duyduğumuz bir kelime. Duş alırken suyu boşa harcamamak lazım, değil mi?",
-    "options": [
-      "drought",
-      "flood",
-      "storm",
-      "blizzard"
-    ],
-    "correctAnswer": "drought",
-    "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126081908,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The coach was very _____ after the team's loss.",
-    "translation": "Takımın yenilgisinden sonra antrenör çok hayal kırıklığına uğramıştı.",
-    "context": "'Disappointed' hayal kırıklığına uğramış demek. Bir sınavdan beklediğin notu alamadığında, en sevdiğin takım maçı kaybettiğinde veya bir arkadaşın sözünü tutmadığında hissettiğin o buruk duygu. Kimse hayal kırıklığına uğramayı sevmez ama hayatın gerçeği, değil mi?",
-    "options": [
-      "disappointed",
-      "excited",
-      "happy",
-      "thrilled"
-    ],
-    "correctAnswer": "disappointed",
-    "category": "MIXED",
-    "variations": [
-      "I felt _____ when my plans changed.",
-      "She was _____ with her exam results."
-    ]
-  },
-  {
-    "id": 126081909,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Companies often try to _____ on new market trends.",
-    "translation": "Şirketler genellikle yeni pazar trendlerinden faydalanmaya çalışır.",
-    "context": "'Capitalize on' bir fırsatı değerlendirmek, ondan faydalanmak demek. Bir şirketin, rakibinin hatasından veya piyasadaki yeni bir eğilimden kendine pay çıkarması gibi. Akıllı girişimciler hep 'capitalizing on' peşindedir. Sen de hayatındaki fırsatları iyi 'capitalize on' etmelisin!",
-    "options": [
-      "capitalize",
-      "ignore",
-      "avoid",
-      "lose"
-    ],
-    "correctAnswer": "capitalize",
-    "category": "BUSINESS",
-    "variations": [
-      "He tried to _____ on his previous success.",
-      "The team failed to _____ on their advantage."
-    ]
-  },
-  {
-    "id": 126081910,
+    "id": 126082112,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "'Controversial' kelimesi, hakkında çok fazla tartışma veya anlaşmazlık olan durumları ifade eder. Aşağıdaki cümlelerden hangisi 'controversial' kelimesini doğru kullanır?",
-    "translation": "'Controversial' = tartışmalı, ihtilaflı.",
-    "context": "'Controversial' tartışmalı, ihtilaflı demek. Hani bazen bir konu açılır da herkesin farklı bir fikri olur, ortam birden gerilir ya, işte o konu 'controversial'dır. Özellikle politikada, sanatta veya büyük projelerde sıkça karşımıza çıkar. Herkesi aynı fikirde buluşturmak zor iştir!",
+    "phrase": "What does it mean when a country 'condemns' an action?",
+    "translation": "Bir ülke bir eylemi 'kınadığında' ne anlama gelir?",
+    "context": "'Condemn', bir eylemi veya davranışı şiddetle eleştirmek, kabul edilemez bulmak ve kınamak demektir. Genellikle uluslararası ilişkilerde bir ülkenin diğer bir ülkenin davranışını resmen onaylamadığını göstermek için kullanılır. 'Bu eylemi kesinlikle kınıyoruz!' şeklinde bir tavır alış.",
     "options": [
-      "The decision was very controversial, dividing opinions.",
-      "The controversial new song was loved by everyone.",
-      "He gave a controversial speech that pleased the crowd.",
-      "The controversial design was praised by all critics."
+      "To strongly disapprove of something",
+      "To secretly support something",
+      "To remain neutral about something",
+      "To financially aid something"
     ],
-    "correctAnswer": "The decision was very controversial, dividing opinions.",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126081911,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The suspect was _____ of a serious crime.",
-    "translation": "Şüpheli ciddi bir suçla itham edildi.",
-    "context": "'Accused of' bir suçla itham edilmek, suçlanmak demek. Henüz kanıtlanmamış ama hakkında iddia olan durumlar için kullanılır. Mahkeme salonlarında, gazetelerde sıkça rastlarsın. Masumiyet karinesi önemlidir, biri 'accused' olsa da suçu kanıtlanana kadar masumdur!",
-    "options": [
-      "accused",
-      "praised",
-      "acquitted",
-      "pardoned"
-    ],
-    "correctAnswer": "accused",
+    "correctAnswer": "To strongly disapprove of something",
     "category": "MIXED",
-    "variations": [
-      "She was _____ of cheating on the exam.",
-      "The company was _____ of unfair practices."
-    ]
-  },
-  {
-    "id": 126081912,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The government issued new _____ bans during the dry season.",
-    "translation": "Hükümet kurak sezonda yeni hortumla sulama yasakları yayınladı.",
-    "context": "'Hosepipe ban' hortumla sulama yasağı demek. Kuraklık dönemlerinde su tasarrufu yapmak için getirilen bir kısıtlama. Bahçeni sulayamazsın, arabanı yıkayamazsın hortumla. Yani 'hortum' deyince aklına itfaiye değil, bahçe hortumu gelsin. Su hayattır, dikkatli kullanalım!",
-    "options": [
-      "hosepipe",
-      "pipeline",
-      "gasoline",
-      "drainage"
-    ],
-    "correctAnswer": "hosepipe",
-    "category": "TRAVEL",
-    "variations": [
-      "Local authorities implemented _____ bans.",
-      "The new _____ ban affected many residents."
-    ]
+    "variations": []
   }
 ]
