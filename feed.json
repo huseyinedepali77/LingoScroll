@@ -1,236 +1,236 @@
 [
   {
-    "id": 126082101,
+    "id": 126082301,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Tesla plans to launch _____ in the city next year.",
-    "translation": "robotaksiler",
-    "context": "Havaalanından otelinize veya şehir içinde hızlıca ulaşmak için şoförsüz taksiler! 'Robotaxis' kelimesi, sürücüsüz, otonom taksileri ifade eder. Gelecekte her yerde göreceğimiz bu araçlar, seyahatlerimizi çok daha kolay hale getirecek.",
+    "phrase": "They decided to _____ up Mount Fuji this summer.",
+    "translation": "Dağda yürüyüş yapmak.",
+    "context": "Mount Fuji haberinde, bir babanın çocuğunu bırakıp yürüyüşüne devam etmesi şaşkınlık yarattı! 'Hike' kelimesi, doğada genellikle uzun ve zorlu, yürüyerek yapılan keşif gezileri veya tırmanışlar için kullanılır. Özellikle patikalarda, ormanlarda veya dağlık arazilerde yapılan keyifli yürüyüşleri anlatır. Ayakkabılarınızı giyin ve doğanın tadını çıkarın!",
     "options": [
-      "robotaxis",
-      "skycars",
-      "speedboats",
-      "bikepods"
+      "swim",
+      "hike",
+      "drive",
+      "fly"
     ],
-    "correctAnswer": "robotaxis",
+    "correctAnswer": "hike",
     "category": "TRAVEL",
     "variations": [
-      "Many companies are investing in developing autonomous robotaxis.",
-      "Could robotaxis make public transport obsolete in the future?"
+      "I love to hike in the mountains.",
+      "Let's hike to the waterfall."
     ]
   },
   {
-    "id": 126082102,
+    "id": 126082302,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "She wants to create a new tech _____.",
-    "translation": "girişim şirketi",
-    "context": "'Startup', henüz yeni kurulmuş, genellikle yenilikçi bir fikir veya teknoloji üzerine çalışan genç şirketlere denir. Silikon Vadisi'nin ruhu gibi! Büyük hayallerle yola çıkıp dünyayı değiştirmeyi hedefleyen taze kanlar, yani startuplar!",
+    "phrase": "The government imposed new _____ on imported goods.",
+    "translation": "İthal ürünlere uygulanan ek vergiler.",
+    "context": "Trump'ın 'ticaret savaşı' başlatmak için yeni 'tarifeler' uyguladığını anlatan haberden. 'Tariff', bir ülkenin ithal veya ihraç ettiği ürünler üzerinden alınan bir tür vergi veya gümrük ücretidir. Genellikle yerel sanayiyi korumak veya ticaret fazlası yaratmak amacıyla kullanılır. Fiyatları etkiler, yani cebinizi de!",
     "options": [
-      "startup",
-      "corporation",
-      "branch",
-      "department"
+      "discounts",
+      "salaries",
+      "tariffs",
+      "bonuses"
     ],
-    "correctAnswer": "startup",
+    "correctAnswer": "tariffs",
     "category": "BUSINESS",
     "variations": [
-      "Our team is working hard to grow the startup.",
-      "Many investors look for promising new startups."
+      "High tariffs can hurt trade.",
+      "The country lifted its tariffs."
     ]
   },
   {
-    "id": 126082103,
+    "id": 126082303,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The tennis player made an amazing _____ after his injury.",
-    "translation": "geri dönüş",
-    "context": "'Comeback', bir sporcunun sakatlık sonrası dönüşü, bir şarkıcının uzun aradan sonra yeniden sahneye çıkması ya da bir markanın eski popülaritesini yakalaması gibi durumlarda kullanılır. 'Vay be, ne geri dönüş yaptı!' deriz mesela.",
+    "phrase": "It's so hot, I just want to _____.",
+    "translation": "Serinlemek, rahatlamak.",
+    "context": "1960'lardan kalma bir evin klimasız nasıl serin kaldığını anlatan ilginç bilim haberinden. 'Stay cool', sadece fiziksel olarak serin kalmak değil, aynı zamanda zor durumlarda sakin ve rahat kalmak için de kullanılır. 'Cool' kelimesi zaten 'havalı' anlamına da gelir, yani hem serin hem havalı olmak bir arada!",
     "options": [
-      "comeback",
-      "timeout",
-      "score",
-      "foul"
+      "run",
+      "stay cool",
+      "sing",
+      "work"
     ],
-    "correctAnswer": "comeback",
+    "correctAnswer": "stay cool",
     "category": "CASUAL",
     "variations": [
-      "His new album marks a strong comeback.",
-      "Everyone cheered for her incredible comeback victory."
+      "She tries to stay cool.",
+      "We need to stay cool today."
     ]
   },
   {
-    "id": 126082104,
+    "id": 126082304,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "After days of rain, the _____.",
-    "translation": "güneş geri döndü",
-    "context": "Kapalı, yağmurlu günlerden sonra nihayet güneş yüzünü gösterdiğinde kullandığımız mis gibi bir ifade! Piknik yapma, dışarı çıkma, dondurma yeme zamanı geldi demektir. Mood'umuz anında değişir!",
+    "phrase": "The old building was in _____ after the storm.",
+    "translation": "Yıkılmış bir yapının kalıntıları, enkaz.",
+    "context": "Ukrayna'daki alışveriş merkezi saldırısı sonrası enkazı kazan kurtarma ekipleri haberinden. 'Wreckage', genellikle bir kaza, yıkım veya patlama sonrasında geriye kalan enkaz, parçalanmış kalıntılar için kullanılır. Maalesef bazen doğal afetler bazen de insan kaynaklı felaketler sonrasında bu kelimeyle karşılaşırız. Adeta bir bulmaca gibi, her parça hikayenin bir bölümünü anlatır.",
     "options": [
-      "sun returns",
-      "wind stops",
-      "fog spreads",
-      "snow falls"
+      "perfect condition",
+      "great shape",
+      "wreckage",
+      "renovation"
     ],
-    "correctAnswer": "sun returns",
+    "correctAnswer": "wreckage",
     "category": "MIXED",
     "variations": [
-      "We hope the sun returns for the weekend.",
-      "Everyone feels better when the sun returns after a long winter."
+      "They searched the wreckage.",
+      "The plane wreckage was found."
     ]
   },
   {
-    "id": 126082105,
+    "id": 126082305,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The airline will _____ new flights to Paris starting next month.",
-    "translation": "işletecek/faaliyete geçirecek",
-    "context": "'Operate' kelimesi sadece bir makineyi çalıştırmak anlamına gelmez, aynı zamanda bir işi veya hizmeti yürütmek, faaliyete geçirmek demektir. Mesela bir şirket yeni rotalar 'işletir' veya bir otel 'faaliyet gösterir'.",
+    "phrase": "The ship almost collided; it was a real _____.",
+    "translation": "Ramaktan dönme, kıl payı kurtulma.",
+    "context": "Liman'da kırmızı ışıkta geçen bir teknenin yol açtığı 'ramak kala' kazasını anlatan viral haberden. 'Near miss', iki şeyin (genellikle araçların) çok az farkla çarpışmaktan kurtulduğu durumları ifade eder. Kalbinizin ağzınıza geldiği o anları düşünün, işte tam da o! Sadece trafikte değil, hayatta da kıl payı kaçırdığımız fırsatlar için de kullanılır. Dikkatli olmak şart!",
     "options": [
-      "operate",
-      "design",
-      "cancel",
-      "delay"
+      "big hit",
+      "near miss",
+      "perfect stop",
+      "total crash"
     ],
-    "correctAnswer": "operate",
+    "correctAnswer": "near miss",
     "category": "TRAVEL",
     "variations": [
-      "The company plans to operate its services worldwide.",
-      "They operate several cafes in the city center."
+      "It was a near miss for me.",
+      "We had a near miss today."
     ]
   },
   {
-    "id": 126082106,
+    "id": 126082306,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The company's _____ reached $500M this quarter.",
-    "translation": "brüt yıllık gelir oranı",
-    "context": "'Gross run rate', bir şirketin mevcut gelir performansını alıp bunu yıllık bazda ne kadar yapacağını tahmin etmek için kullanılan bir finans terimidir. Yani, 'Bu hızla giderlerse yıllık ciroları bu olur!' demek gibi.",
+    "phrase": "Many companies now offer _____ delivery services.",
+    "translation": "Hızlı ticaret, anında teslimat hizmetleri.",
+    "context": "Walmart'ın Flipkart'ının Hindistan'ın 'hızlı ticaret' liderlerine yaklaştığını anlatan teknoloji haberinden. 'Quick-commerce' (hızlı ticaret), genellikle market ürünleri veya küçük eşyaların çok kısa süre içinde (dakikalar içinde) teslim edildiği bir iş modelidir. Artık acil bir ihtiyacın olduğunda veya anlık bir isteğin geldiğinde, kapına kadar gelen bu 'sihirli' hizmet sayesinde beklemek yok! Modern çağın tembellik değil, verimlilik aracı!",
     "options": [
-      "gross run rate",
-      "net profit margin",
-      "debt ratio",
-      "cash flow"
+      "slow-commerce",
+      "quick-commerce",
+      "e-commerce",
+      "retail-commerce"
     ],
-    "correctAnswer": "gross run rate",
+    "correctAnswer": "quick-commerce",
     "category": "BUSINESS",
     "variations": [
-      "Many startups aim for a high gross run rate to attract investors.",
-      "Our goal is to double our gross run rate by next year."
+      "Quick-commerce is growing fast.",
+      "Do you use quick-commerce apps?"
     ]
   },
   {
-    "id": 126082107,
+    "id": 126082307,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Experts say this summer will be the _____.",
-    "translation": "yaşayan hafızadaki en güçlü",
-    "context": "Bir olayın daha önce hiç bu kadar şiddetli, büyük veya önemli yaşanmadığını vurgulamak için kullanılır. Mesela, 'Bu kadar sıcak bir yaz yaşayan hafızamda yok!' deriz. Yani, hatırladığımız en kötüsü/iyisi!",
+    "phrase": "His lie opened a real _____ for the whole team.",
+    "translation": "Belaların kutusu, istenmeyen sorunlar dizisi.",
+    "context": "Putin'in, Ukrayna'nın ekonomik hedeflere saldırarak 'Pandora'nın Kutusu'nu açtığını söylediği tuhaf haberden. 'Pandora's box', bir kez açıldığında sayısız soruna, belaya veya karmaşaya yol açan bir durumu ifade eden mitolojik bir deyimdir. Bir şeyleri karıştırmadan önce iki kere düşünün, yoksa kutu açılabilir ve tüm sorunlar dışarı fışkırabilir!",
     "options": [
-      "strongest in living memory",
-      "mildest in history",
-      "wettest ever",
-      "shortest on record"
+      "treasure chest",
+      "Pandora's box",
+      "tool kit",
+      "gift basket"
     ],
-    "correctAnswer": "strongest in living memory",
+    "correctAnswer": "Pandora's box",
     "category": "CASUAL",
     "variations": [
-      "The storm was the strongest in living memory for the region.",
-      "Many people consider her performance the best in living memory."
+      "That decision opened Pandora's box.",
+      "Don't open Pandora's box!"
     ]
   },
   {
-    "id": 126082108,
-    "type": "QUIZ_COMPLETION",
+    "id": 126082308,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "The city needs to _____ its infrastructure after the storm.",
-    "translation": "yeniden inşa etmek",
-    "context": "Bir şeyin yıkılıp, hasar görüp sonra tekrar inşa edilmesi anlamına gelir. Deprem sonrası binaları, savaş sonrası şehirleri veya bozulan bir sistemi 'rebuild' ederiz. Yeniden ayağa kalkmak gibi düşünebilirsin!",
+    "phrase": "The team's _____ for the championship are still high.",
+    "translation": "Şampiyonluk umutları, beklentileri.",
+    "context": "Saints'in Super League play-off umutlarını canlı tuttuğu spor haberinden. 'Hopes', gelecekte olmasını istediğimiz şeylere dair güçlü dilek ve beklentilerimizdir. Takımın şampiyonluk 'umutları' gibi, hayatta da her zaman bir umut ışığı vardır! Bu kelime sadece sporla sınırlı değil, günlük yaşamda da hedeflerimiz ve hayallerimiz için kullanılır.",
     "options": [
-      "rebuild",
-      "demolish",
-      "preserve",
-      "abandon"
+      "chances",
+      "hopes",
+      "dreams",
+      "wishes"
     ],
-    "correctAnswer": "rebuild",
+    "correctAnswer": "hopes",
     "category": "MIXED",
-    "variations": [
-      "The community worked together to rebuild the damaged homes.",
-      "After the fire, they had to rebuild their entire business."
-    ]
+    "variations": []
   },
   {
-    "id": 126082109,
+    "id": 126082309,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Which weather phenomenon is expected to be the 'strongest in living memory'?",
-    "translation": "Hangi hava olayı 'yaşayan hafızadaki en güçlü' olması bekleniyor?",
-    "context": "'El Niño', Pasifik Okyanusu'ndaki su sıcaklıklarının değişimine bağlı olarak ortaya çıkan ve dünya genelinde hava durumunu etkileyen büyük bir iklim olayıdır. Yani, sadece bir hava durumu tahmini değil, küresel çapta bir meteoroloji devrimi! Selden kuraklığa, her şeyi etkileyebilir.",
+    "phrase": "The news about the father leaving his son on Mount Fuji was truly _____.",
+    "translation": "İnanılmaz, akıl almaz.",
+    "context": "Bir babanın 7 yaşındaki oğlunu Fuji Dağı'nda tek başına bırakarak yürüyüşüne devam etmesiyle ilgili akıl almaz haberden. 'Unbelievable', kelimenin tam anlamıyla 'inanılmaz' veya 'akıl almaz' demektir. Şaşkınlık, hayret veya inançsızlık uyandıran durumlar için kullanılır. Bazen pozitif ('unbelievable view!'), bazen de bu haberdeki gibi negatif olaylar için söylenir. Duyduğunuzda 'Yok artık!' dediğiniz her şey bu kelimeyle anlatılabilir.",
     "options": [
-      "El Niño",
-      "Hurricane Delta",
-      "Polar Vortex",
-      "Monsoon Season"
+      "heartwarming",
+      "unbelievable",
+      "expected",
+      "trivial"
     ],
-    "correctAnswer": "El Niño",
+    "correctAnswer": "unbelievable",
     "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126082110,
+    "id": 126082310,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Successful _____ invest in promising new companies.",
-    "translation": "girişim sermayedarları",
-    "context": "'VC' veya 'Venture Capitalist', parlak fikirleri olan ancak henüz büyük bir sermayesi olmayan startuplara yatırım yapan kişidir. Yani, hayallerine inanıp para yatıran, risk alan ve karşılığında şirketin bir kısmına sahip olan 'melek yatırımcı' tadında, daha kurumsal versiyonları.",
+    "phrase": "The company's poor performance began to _____ investors.",
+    "translation": "Korkutmak, tedirgin etmek.",
+    "context": "DOJ'un (Adalet Bakanlığı) a16z'ye yönelik soruşturmasının diğer girişim sermayedarlarını (VC'ler) 'ürkütecek' mi sorusunu irdeleyen teknoloji haberinden. 'Spook', birini korkutmak, ürkütmek veya tedirgin etmek anlamına gelir. Tıpkı bir hayalet filmi gibi, beklenmedik bir gelişme veya olumsuz bir durum karşısında insanların tedirgin olmasını anlatır. Özellikle finans piyasalarında, yatırımcıları 'ürküten' haberler, piyasayı altüst edebilir!",
     "options": [
-      "VCs",
-      "shareholders",
-      "brokers",
-      "auditors"
+      "attract",
+      "spook",
+      "delight",
+      "inform"
     ],
-    "correctAnswer": "VCs",
+    "correctAnswer": "spook",
     "category": "BUSINESS",
     "variations": [
-      "Many VCs are looking for the next big tech innovation.",
-      "Securing funding from VCs is a major step for any startup."
+      "The sudden noise spooked me.",
+      "Don't spook the horses."
     ]
   },
   {
-    "id": 126082111,
+    "id": 126082311,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "After months of _____, they finally agreed on the deal.",
-    "translation": "tartışma/çekişme",
-    "context": "'Wrangling', uzun süren, genellikle inatçı ve zorlu pazarlık veya tartışma anlamına gelir. Hani iki taraf bir türlü anlaşamaz da, sonunda bir şekilde uzlaşır ya, işte o süreç 'wrangling'dir. Bazen inekleri ağıla tıkarken gösterilen o zorlu çabaya benzetilir!",
+    "phrase": "The comedian's joke was so bad it drew _____ from the crowd.",
+    "translation": "Acı veya hoşnutsuzluk sesi, inilti.",
+    "context": "Los Angeles'lı bir sosyalistin kekelediği cevabın, Demokrat izleyicilerden 'homurdanmalar' almasına neden olan viral haberden. 'Groan', genellikle acı, sıkıntı, hoşnutsuzluk veya hayal kırıklığı gibi duyguları ifade eden derin bir ses veya iniltidir. Bazen komik olmayan bir espriye verilen tepki, bazen de zor bir işi yaparken çıkan ses olabilir. Kısacası, bir şeyler yolunda gitmediğinde veya can sıkıcı olduğunda duyduğunuz ses!",
     "options": [
-      "wrangling",
-      "celebration",
-      "agreement",
-      "cooperation"
+      "applause",
+      "laughter",
+      "cheers",
+      "groans"
     ],
-    "correctAnswer": "wrangling",
+    "correctAnswer": "groans",
     "category": "CASUAL",
     "variations": [
-      "The politicians engaged in extensive wrangling over the new law.",
-      "There was a lot of wrangling to finalize the contract details."
+      "He let out a groan.",
+      "The crowd let out groans."
     ]
   },
   {
-    "id": 126082112,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "id": 126082312,
+    "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "What does it mean when a country 'condemns' an action?",
-    "translation": "Bir ülke bir eylemi 'kınadığında' ne anlama gelir?",
-    "context": "'Condemn', bir eylemi veya davranışı şiddetle eleştirmek, kabul edilemez bulmak ve kınamak demektir. Genellikle uluslararası ilişkilerde bir ülkenin diğer bir ülkenin davranışını resmen onaylamadığını göstermek için kullanılır. 'Bu eylemi kesinlikle kınıyoruz!' şeklinde bir tavır alış.",
+    "phrase": "Our new AI model consistently _____ human experts in complex tasks.",
+    "translation": "Daha iyi performans göstermek, geride bırakmak.",
+    "context": "DeepMind mezunları tarafından kurulan Inherent şirketinin AI 'takım arkadaşının', araştırma kopyalamada Anthropic ve OpenAI'yi 'geride bıraktığını' iddia eden teknoloji haberinden. 'Outperform', bir başkasından veya bir beklentiden daha iyi performans göstermek, daha iyi sonuçlar elde etmek anlamına gelir. Rekabetin yoğun olduğu her alanda (iş, spor, teknoloji) sıkça duyulan bir terimdir. Yani, bir konuda diğerlerinden daha iyi olduğunuzu göstermek istiyorsanız, 'outperform' kelimesi tam size göre!",
     "options": [
-      "To strongly disapprove of something",
-      "To secretly support something",
-      "To remain neutral about something",
-      "To financially aid something"
+      "underperformed",
+      "equaled",
+      "outperformed",
+      "failed"
     ],
-    "correctAnswer": "To strongly disapprove of something",
+    "correctAnswer": "outperformed",
     "category": "MIXED",
-    "variations": []
+    "variations": [
+      "She outperformed her rivals.",
+      "The team outperformed expectations."
+    ]
   }
 ]
