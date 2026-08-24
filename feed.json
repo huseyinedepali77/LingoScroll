@@ -1,236 +1,233 @@
 [
   {
-    "id": 126082301,
+    "id": 126082401,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "They decided to _____ up Mount Fuji this summer.",
-    "translation": "Dağda yürüyüş yapmak.",
-    "context": "Mount Fuji haberinde, bir babanın çocuğunu bırakıp yürüyüşüne devam etmesi şaşkınlık yarattı! 'Hike' kelimesi, doğada genellikle uzun ve zorlu, yürüyerek yapılan keşif gezileri veya tırmanışlar için kullanılır. Özellikle patikalarda, ormanlarda veya dağlık arazilerde yapılan keyifli yürüyüşleri anlatır. Ayakkabılarınızı giyin ve doğanın tadını çıkarın!",
+    "phrase": "The summer heatwave made us _____ all our plans.",
+    "translation": "Yaz sıcağı tüm planlarımızı alt üst etti.",
+    "context": "Okul takviminden hava olaylarına kadar her şeyi karıştırabilen 'shake up' ifadesi, bir şeyi tamamen değiştirmek, sarsmak anlamında kullanılır. Tıpkı sıcak hava dalgasının tatil planlarını alt üst etmesi gibi!",
     "options": [
-      "swim",
-      "hike",
+      "shake up",
+      "cool down",
+      "speed up",
+      "warm up"
+    ],
+    "correctAnswer": "shake up",
+    "category": "CASUAL",
+    "variations": [
+      "The news will _____ the political scene.",
+      "His sudden resignation will _____ the team dynamics."
+    ]
+  },
+  {
+    "id": 126082402,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Shein's goal is a high market _____ in its debut.",
+    "translation": "Shein'in hedefi, ilk çıkışında yüksek bir pazar değerlemesi.",
+    "context": "Bir şirketin değeri biçilirken 'valuation' terimi kullanılır. Tıpkı Shein'in borsadaki ilk gününde milyarlarca dolarlık bir değere ulaşmayı hedeflemesi gibi! Şirket için 'paha biçmek' anlamında düşünebilirsin.",
+    "options": [
+      "valuation",
+      "evaluation",
+      "situation",
+      "creation"
+    ],
+    "correctAnswer": "valuation",
+    "category": "BUSINESS",
+    "variations": [
+      "The company's latest _____ was surprisingly low.",
+      "We need a new _____ before selling the business."
+    ]
+  },
+  {
+    "id": 126082403,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The president will _____ Kyiv next week.",
+    "translation": "Başkan önümüzdeki hafta Kiev'i ziyaret edecek.",
+    "context": "Bir şehri, ülkeyi veya bir yeri gezmek, görmek için 'visit' kelimesini kullanırız. Tıpkı bir liderin başka bir ülkeye resmi ziyaret yapması gibi. Arkadaşını 'ziyaret etmek' için de 'visit' dersin!",
+    "options": [
+      "visit",
+      "stay",
+      "leave",
+      "pass"
+    ],
+    "correctAnswer": "visit",
+    "category": "TRAVEL",
+    "variations": [
+      "I want to _____ Rome this summer.",
+      "They plan to _____ their relatives next month."
+    ]
+  },
+  {
+    "id": 126082404,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Leeds managed to _____ York in the match.",
+    "translation": "Leeds maçta York'u ezici bir farkla yendi.",
+    "context": "Spor haberlerinde sıkça duyduğun 'thrash' kelimesi, bir takımı veya rakibi ezici bir farkla yenmek demektir. Tıpkı Leeds'in rakibini sahadan silmesi gibi!",
+    "options": [
+      "thrash",
+      "draw",
+      "lose",
+      "tie"
+    ],
+    "correctAnswer": "thrash",
+    "category": "MIXED/GENERAL",
+    "variations": [
+      "Our team will _____ them in the next game.",
+      "They were expecting to _____ their opponents."
+    ]
+  },
+  {
+    "id": 126082405,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "What does it mean if a company 'faces a fine'?",
+    "translation": "Bir şirketin 'para cezasıyla karşı karşıya kalması' ne anlama gelir?",
+    "context": "Hukuksal veya resmi bir durumda, şirketler veya kişiler kurallara uymadığında 'fine' yani para cezası ödemek durumunda kalabilir. 'Face a fine' ise bu ceza ihtimaliyle yüzleşmek demek. Yani Uber gibi büyük bir şirket bile yanlış yapınca ceza tehlikesiyle karşılaşıyor!",
+    "options": [
+      "It is paying a bonus.",
+      "It is receiving an award.",
+      "It is likely to have to pay money as punishment.",
+      "It is facing its competitors."
+    ],
+    "correctAnswer": "It is likely to have to pay money as punishment.",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126082406,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "This old house is surprisingly good at _____ cool.",
+    "translation": "Bu eski ev şaşırtıcı derecede iyi bir şekilde serin kalıyor.",
+    "context": "'Stay cool' ifadesi, hem fiziksel olarak serin kalmak hem de zor durumlarda sakinliğini korumak için kullanılır. Eski bir evin bile klima olmadan serin kalabilmesi gibi, sen de stresli anlarda 'stay cool' diyebilirsin!",
+    "options": [
+      "staying",
+      "leaving",
+      "going",
+      "being"
+    ],
+    "correctAnswer": "staying",
+    "category": "MIXED/GENERAL",
+    "variations": [
+      "Despite the pressure, he managed to _____ calm.",
+      "We need to _____ hydrated in this heat."
+    ]
+  },
+  {
+    "id": 126082407,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "He was arrested by _____ Patrol near the border.",
+    "translation": "Sınır devriyesi tarafından sınır yakınında tutuklandı.",
+    "context": "'Border Patrol' kelime öbeği, sınır güvenliğini sağlayan, kaçakçılığı ve yasa dışı geçişleri önleyen bir kurumun adıdır. Bir ülkeden diğerine geçerken karşılaşabileceğin bu ekipler, haberdeki gibi bazen şaşırtıcı olaylara da karışabilir. Sınır demek 'border' demek!",
+    "options": [
+      "Border",
+      "Country",
+      "City",
+      "State"
+    ],
+    "correctAnswer": "Border",
+    "category": "TRAVEL",
+    "variations": [
+      "The _____ Patrol caught several undocumented immigrants.",
+      "Strict _____ Patrol checks caused delays."
+    ]
+  },
+  {
+    "id": 126082408,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "What does 'opening Pandora's box' mean?",
+    "translation": "'Pandora'nın kutusunu açmak' ne anlama gelir?",
+    "context": "'Pandora'nın kutusunu açmak' deyimi, farkında olmadan birçok sorunu, sıkıntıyı veya kötü olayı başlatmak anlamına gelir. Tıpkı eski bir efsanedeki gibi, bir kere açıldığında felaketlerin durdurulması zordur. Yani aman dikkat, kutuyu açmadan önce iki kere düşün!",
+    "options": [
+      "Starting a new project.",
+      "Creating many new problems.",
+      "Finding a hidden treasure.",
+      "Solving all existing issues."
+    ],
+    "correctAnswer": "Creating many new problems.",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126082409,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "What does 'hotspot' primarily imply in this context?",
+    "translation": "Bu bağlamda 'hotspot' öncelikle ne anlama gelir?",
+    "context": "'Hotspot' kelimesi birden fazla anlama gelebilir. İnternet için de kullanılır, turistik bir yer için de. Ama bilim ve çevre haberlerinde, özellikle bir sorunun (karbon emisyonu gibi) yoğunlaştığı veya bir etkinliğin çok fazla yaşandığı bir bölgeyi anlatır. Yani o bölgede 'ateşli' bir sorun var demektir!",
+    "options": [
+      "A popular tourist destination.",
+      "A place with very high temperatures.",
+      "A location experiencing a significant problem or activity.",
+      "An area with fast internet access."
+    ],
+    "correctAnswer": "A location experiencing a significant problem or activity.",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126082410,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The recent trade talks between the two countries have _____.",
+    "translation": "İki ülke arasındaki son ticaret görüşmeleri çöktü.",
+    "context": "İş dünyasında veya diplomaside, 'collapse' kelimesi bir anlaşmanın, görüşmenin veya projenin aniden ve başarısızlıkla sona ermesi anlamına gelir. Tıpkı iki ülke arasındaki ticaret görüşmelerinin bir anda çökmesi gibi. Yani 'işler sarpa sardı' diyebiliriz!",
+    "options": [
+      "collapsed",
+      "started",
+      "succeeded",
+      "expanded"
+    ],
+    "correctAnswer": "collapsed",
+    "category": "BUSINESS",
+    "variations": [
+      "Their marriage _____ after years of disagreements.",
+      "The old building suddenly _____ into rubble."
+    ]
+  },
+  {
+    "id": 126082411,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The brave father became _____ after his rescue attempt.",
+    "translation": "Cesur baba kurtarma girişiminin ardından felç oldu.",
+    "context": "'Paralyzed' kelimesi, bir uzvun veya vücudun bir bölümünün hareket edememesi durumunu ifade eder. Bu haberdeki gibi, kahraman bir babanın hayat kurtarma çabası sırasında başına gelen trajik bir durumu anlatır. Yani felç olmak demek.",
+    "options": [
+      "paralyzed",
+      "energized",
+      "revitalized",
+      "strengthened"
+    ],
+    "correctAnswer": "paralyzed",
+    "category": "CASUAL",
+    "variations": [
+      "His legs were _____ after the accident.",
+      "The entire city was _____ by the heavy snow."
+    ]
+  },
+  {
+    "id": 126082412,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "This new technology will _____ the future of transportation.",
+    "translation": "Bu yeni teknoloji ulaşımın geleceğine yön verecek.",
+    "context": "'Drive' kelimesi sadece araba sürmek anlamına gelmez; aynı zamanda bir şeyin arkasındaki itici güç olmak, bir şeye yön vermek, onu ileri taşımak anlamında da kullanılır. Tıpkı özel bir çipin robotaksilerin geleceğini 'yönlendirmesi' gibi!",
+    "options": [
       "drive",
-      "fly"
+      "stop",
+      "block",
+      "slow"
     ],
-    "correctAnswer": "hike",
-    "category": "TRAVEL",
+    "correctAnswer": "drive",
+    "category": "MIXED/GENERAL",
     "variations": [
-      "I love to hike in the mountains.",
-      "Let's hike to the waterfall."
-    ]
-  },
-  {
-    "id": 126082302,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The government imposed new _____ on imported goods.",
-    "translation": "İthal ürünlere uygulanan ek vergiler.",
-    "context": "Trump'ın 'ticaret savaşı' başlatmak için yeni 'tarifeler' uyguladığını anlatan haberden. 'Tariff', bir ülkenin ithal veya ihraç ettiği ürünler üzerinden alınan bir tür vergi veya gümrük ücretidir. Genellikle yerel sanayiyi korumak veya ticaret fazlası yaratmak amacıyla kullanılır. Fiyatları etkiler, yani cebinizi de!",
-    "options": [
-      "discounts",
-      "salaries",
-      "tariffs",
-      "bonuses"
-    ],
-    "correctAnswer": "tariffs",
-    "category": "BUSINESS",
-    "variations": [
-      "High tariffs can hurt trade.",
-      "The country lifted its tariffs."
-    ]
-  },
-  {
-    "id": 126082303,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "It's so hot, I just want to _____.",
-    "translation": "Serinlemek, rahatlamak.",
-    "context": "1960'lardan kalma bir evin klimasız nasıl serin kaldığını anlatan ilginç bilim haberinden. 'Stay cool', sadece fiziksel olarak serin kalmak değil, aynı zamanda zor durumlarda sakin ve rahat kalmak için de kullanılır. 'Cool' kelimesi zaten 'havalı' anlamına da gelir, yani hem serin hem havalı olmak bir arada!",
-    "options": [
-      "run",
-      "stay cool",
-      "sing",
-      "work"
-    ],
-    "correctAnswer": "stay cool",
-    "category": "CASUAL",
-    "variations": [
-      "She tries to stay cool.",
-      "We need to stay cool today."
-    ]
-  },
-  {
-    "id": 126082304,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The old building was in _____ after the storm.",
-    "translation": "Yıkılmış bir yapının kalıntıları, enkaz.",
-    "context": "Ukrayna'daki alışveriş merkezi saldırısı sonrası enkazı kazan kurtarma ekipleri haberinden. 'Wreckage', genellikle bir kaza, yıkım veya patlama sonrasında geriye kalan enkaz, parçalanmış kalıntılar için kullanılır. Maalesef bazen doğal afetler bazen de insan kaynaklı felaketler sonrasında bu kelimeyle karşılaşırız. Adeta bir bulmaca gibi, her parça hikayenin bir bölümünü anlatır.",
-    "options": [
-      "perfect condition",
-      "great shape",
-      "wreckage",
-      "renovation"
-    ],
-    "correctAnswer": "wreckage",
-    "category": "MIXED",
-    "variations": [
-      "They searched the wreckage.",
-      "The plane wreckage was found."
-    ]
-  },
-  {
-    "id": 126082305,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The ship almost collided; it was a real _____.",
-    "translation": "Ramaktan dönme, kıl payı kurtulma.",
-    "context": "Liman'da kırmızı ışıkta geçen bir teknenin yol açtığı 'ramak kala' kazasını anlatan viral haberden. 'Near miss', iki şeyin (genellikle araçların) çok az farkla çarpışmaktan kurtulduğu durumları ifade eder. Kalbinizin ağzınıza geldiği o anları düşünün, işte tam da o! Sadece trafikte değil, hayatta da kıl payı kaçırdığımız fırsatlar için de kullanılır. Dikkatli olmak şart!",
-    "options": [
-      "big hit",
-      "near miss",
-      "perfect stop",
-      "total crash"
-    ],
-    "correctAnswer": "near miss",
-    "category": "TRAVEL",
-    "variations": [
-      "It was a near miss for me.",
-      "We had a near miss today."
-    ]
-  },
-  {
-    "id": 126082306,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Many companies now offer _____ delivery services.",
-    "translation": "Hızlı ticaret, anında teslimat hizmetleri.",
-    "context": "Walmart'ın Flipkart'ının Hindistan'ın 'hızlı ticaret' liderlerine yaklaştığını anlatan teknoloji haberinden. 'Quick-commerce' (hızlı ticaret), genellikle market ürünleri veya küçük eşyaların çok kısa süre içinde (dakikalar içinde) teslim edildiği bir iş modelidir. Artık acil bir ihtiyacın olduğunda veya anlık bir isteğin geldiğinde, kapına kadar gelen bu 'sihirli' hizmet sayesinde beklemek yok! Modern çağın tembellik değil, verimlilik aracı!",
-    "options": [
-      "slow-commerce",
-      "quick-commerce",
-      "e-commerce",
-      "retail-commerce"
-    ],
-    "correctAnswer": "quick-commerce",
-    "category": "BUSINESS",
-    "variations": [
-      "Quick-commerce is growing fast.",
-      "Do you use quick-commerce apps?"
-    ]
-  },
-  {
-    "id": 126082307,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "His lie opened a real _____ for the whole team.",
-    "translation": "Belaların kutusu, istenmeyen sorunlar dizisi.",
-    "context": "Putin'in, Ukrayna'nın ekonomik hedeflere saldırarak 'Pandora'nın Kutusu'nu açtığını söylediği tuhaf haberden. 'Pandora's box', bir kez açıldığında sayısız soruna, belaya veya karmaşaya yol açan bir durumu ifade eden mitolojik bir deyimdir. Bir şeyleri karıştırmadan önce iki kere düşünün, yoksa kutu açılabilir ve tüm sorunlar dışarı fışkırabilir!",
-    "options": [
-      "treasure chest",
-      "Pandora's box",
-      "tool kit",
-      "gift basket"
-    ],
-    "correctAnswer": "Pandora's box",
-    "category": "CASUAL",
-    "variations": [
-      "That decision opened Pandora's box.",
-      "Don't open Pandora's box!"
-    ]
-  },
-  {
-    "id": 126082308,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "The team's _____ for the championship are still high.",
-    "translation": "Şampiyonluk umutları, beklentileri.",
-    "context": "Saints'in Super League play-off umutlarını canlı tuttuğu spor haberinden. 'Hopes', gelecekte olmasını istediğimiz şeylere dair güçlü dilek ve beklentilerimizdir. Takımın şampiyonluk 'umutları' gibi, hayatta da her zaman bir umut ışığı vardır! Bu kelime sadece sporla sınırlı değil, günlük yaşamda da hedeflerimiz ve hayallerimiz için kullanılır.",
-    "options": [
-      "chances",
-      "hopes",
-      "dreams",
-      "wishes"
-    ],
-    "correctAnswer": "hopes",
-    "category": "MIXED",
-    "variations": []
-  },
-  {
-    "id": 126082309,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "The news about the father leaving his son on Mount Fuji was truly _____.",
-    "translation": "İnanılmaz, akıl almaz.",
-    "context": "Bir babanın 7 yaşındaki oğlunu Fuji Dağı'nda tek başına bırakarak yürüyüşüne devam etmesiyle ilgili akıl almaz haberden. 'Unbelievable', kelimenin tam anlamıyla 'inanılmaz' veya 'akıl almaz' demektir. Şaşkınlık, hayret veya inançsızlık uyandıran durumlar için kullanılır. Bazen pozitif ('unbelievable view!'), bazen de bu haberdeki gibi negatif olaylar için söylenir. Duyduğunuzda 'Yok artık!' dediğiniz her şey bu kelimeyle anlatılabilir.",
-    "options": [
-      "heartwarming",
-      "unbelievable",
-      "expected",
-      "trivial"
-    ],
-    "correctAnswer": "unbelievable",
-    "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126082310,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The company's poor performance began to _____ investors.",
-    "translation": "Korkutmak, tedirgin etmek.",
-    "context": "DOJ'un (Adalet Bakanlığı) a16z'ye yönelik soruşturmasının diğer girişim sermayedarlarını (VC'ler) 'ürkütecek' mi sorusunu irdeleyen teknoloji haberinden. 'Spook', birini korkutmak, ürkütmek veya tedirgin etmek anlamına gelir. Tıpkı bir hayalet filmi gibi, beklenmedik bir gelişme veya olumsuz bir durum karşısında insanların tedirgin olmasını anlatır. Özellikle finans piyasalarında, yatırımcıları 'ürküten' haberler, piyasayı altüst edebilir!",
-    "options": [
-      "attract",
-      "spook",
-      "delight",
-      "inform"
-    ],
-    "correctAnswer": "spook",
-    "category": "BUSINESS",
-    "variations": [
-      "The sudden noise spooked me.",
-      "Don't spook the horses."
-    ]
-  },
-  {
-    "id": 126082311,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The comedian's joke was so bad it drew _____ from the crowd.",
-    "translation": "Acı veya hoşnutsuzluk sesi, inilti.",
-    "context": "Los Angeles'lı bir sosyalistin kekelediği cevabın, Demokrat izleyicilerden 'homurdanmalar' almasına neden olan viral haberden. 'Groan', genellikle acı, sıkıntı, hoşnutsuzluk veya hayal kırıklığı gibi duyguları ifade eden derin bir ses veya iniltidir. Bazen komik olmayan bir espriye verilen tepki, bazen de zor bir işi yaparken çıkan ses olabilir. Kısacası, bir şeyler yolunda gitmediğinde veya can sıkıcı olduğunda duyduğunuz ses!",
-    "options": [
-      "applause",
-      "laughter",
-      "cheers",
-      "groans"
-    ],
-    "correctAnswer": "groans",
-    "category": "CASUAL",
-    "variations": [
-      "He let out a groan.",
-      "The crowd let out groans."
-    ]
-  },
-  {
-    "id": 126082312,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Our new AI model consistently _____ human experts in complex tasks.",
-    "translation": "Daha iyi performans göstermek, geride bırakmak.",
-    "context": "DeepMind mezunları tarafından kurulan Inherent şirketinin AI 'takım arkadaşının', araştırma kopyalamada Anthropic ve OpenAI'yi 'geride bıraktığını' iddia eden teknoloji haberinden. 'Outperform', bir başkasından veya bir beklentiden daha iyi performans göstermek, daha iyi sonuçlar elde etmek anlamına gelir. Rekabetin yoğun olduğu her alanda (iş, spor, teknoloji) sıkça duyulan bir terimdir. Yani, bir konuda diğerlerinden daha iyi olduğunuzu göstermek istiyorsanız, 'outperform' kelimesi tam size göre!",
-    "options": [
-      "underperformed",
-      "equaled",
-      "outperformed",
-      "failed"
-    ],
-    "correctAnswer": "outperformed",
-    "category": "MIXED",
-    "variations": [
-      "She outperformed her rivals.",
-      "The team outperformed expectations."
+      "His ambition will _____ him to success.",
+      "Innovation continues to _____ economic growth."
     ]
   }
 ]
