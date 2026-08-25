@@ -1,233 +1,224 @@
 [
   {
-    "id": 126082401,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The summer heatwave made us _____ all our plans.",
-    "translation": "Yaz sıcağı tüm planlarımızı alt üst etti.",
-    "context": "Okul takviminden hava olaylarına kadar her şeyi karıştırabilen 'shake up' ifadesi, bir şeyi tamamen değiştirmek, sarsmak anlamında kullanılır. Tıpkı sıcak hava dalgasının tatil planlarını alt üst etmesi gibi!",
-    "options": [
-      "shake up",
-      "cool down",
-      "speed up",
-      "warm up"
-    ],
-    "correctAnswer": "shake up",
-    "category": "CASUAL",
-    "variations": [
-      "The news will _____ the political scene.",
-      "His sudden resignation will _____ the team dynamics."
-    ]
-  },
-  {
-    "id": 126082402,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Shein's goal is a high market _____ in its debut.",
-    "translation": "Shein'in hedefi, ilk çıkışında yüksek bir pazar değerlemesi.",
-    "context": "Bir şirketin değeri biçilirken 'valuation' terimi kullanılır. Tıpkı Shein'in borsadaki ilk gününde milyarlarca dolarlık bir değere ulaşmayı hedeflemesi gibi! Şirket için 'paha biçmek' anlamında düşünebilirsin.",
-    "options": [
-      "valuation",
-      "evaluation",
-      "situation",
-      "creation"
-    ],
-    "correctAnswer": "valuation",
-    "category": "BUSINESS",
-    "variations": [
-      "The company's latest _____ was surprisingly low.",
-      "We need a new _____ before selling the business."
-    ]
-  },
-  {
-    "id": 126082403,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The president will _____ Kyiv next week.",
-    "translation": "Başkan önümüzdeki hafta Kiev'i ziyaret edecek.",
-    "context": "Bir şehri, ülkeyi veya bir yeri gezmek, görmek için 'visit' kelimesini kullanırız. Tıpkı bir liderin başka bir ülkeye resmi ziyaret yapması gibi. Arkadaşını 'ziyaret etmek' için de 'visit' dersin!",
-    "options": [
-      "visit",
-      "stay",
-      "leave",
-      "pass"
-    ],
-    "correctAnswer": "visit",
-    "category": "TRAVEL",
-    "variations": [
-      "I want to _____ Rome this summer.",
-      "They plan to _____ their relatives next month."
-    ]
-  },
-  {
-    "id": 126082404,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Leeds managed to _____ York in the match.",
-    "translation": "Leeds maçta York'u ezici bir farkla yendi.",
-    "context": "Spor haberlerinde sıkça duyduğun 'thrash' kelimesi, bir takımı veya rakibi ezici bir farkla yenmek demektir. Tıpkı Leeds'in rakibini sahadan silmesi gibi!",
-    "options": [
-      "thrash",
-      "draw",
-      "lose",
-      "tie"
-    ],
-    "correctAnswer": "thrash",
-    "category": "MIXED/GENERAL",
-    "variations": [
-      "Our team will _____ them in the next game.",
-      "They were expecting to _____ their opponents."
-    ]
-  },
-  {
-    "id": 126082405,
+    "id": 126082501,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "What does it mean if a company 'faces a fine'?",
-    "translation": "Bir şirketin 'para cezasıyla karşı karşıya kalması' ne anlama gelir?",
-    "context": "Hukuksal veya resmi bir durumda, şirketler veya kişiler kurallara uymadığında 'fine' yani para cezası ödemek durumunda kalabilir. 'Face a fine' ise bu ceza ihtimaliyle yüzleşmek demek. Yani Uber gibi büyük bir şirket bile yanlış yapınca ceza tehlikesiyle karşılaşıyor!",
+    "level": "BEGINNER",
+    "phrase": "What do you call a severe storm with thunder and lightning?",
+    "translation": "Gök gürültüsü ve şimşek ile gelen şiddetli fırtınaya ne denir?",
+    "context": "Hava durumu hakkında konuşurken çok işine yarayacak bir kelime. 'There's a big thunderstorm coming!' dediğinde, fırtına uyarısı yaptığını söylemiş olursun. Özellikle İngiltere'nin 'More downpours and thunderstorms are heading the UK's way' haberindeki gibi havanın kötüleştiği zamanlarda kullanılır.",
     "options": [
-      "It is paying a bonus.",
-      "It is receiving an award.",
-      "It is likely to have to pay money as punishment.",
-      "It is facing its competitors."
+      "thunderstorm",
+      "sunny day",
+      "gentle breeze",
+      "light rain"
     ],
-    "correctAnswer": "It is likely to have to pay money as punishment.",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126082406,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "This old house is surprisingly good at _____ cool.",
-    "translation": "Bu eski ev şaşırtıcı derecede iyi bir şekilde serin kalıyor.",
-    "context": "'Stay cool' ifadesi, hem fiziksel olarak serin kalmak hem de zor durumlarda sakinliğini korumak için kullanılır. Eski bir evin bile klima olmadan serin kalabilmesi gibi, sen de stresli anlarda 'stay cool' diyebilirsin!",
-    "options": [
-      "staying",
-      "leaving",
-      "going",
-      "being"
-    ],
-    "correctAnswer": "staying",
-    "category": "MIXED/GENERAL",
-    "variations": [
-      "Despite the pressure, he managed to _____ calm.",
-      "We need to _____ hydrated in this heat."
-    ]
-  },
-  {
-    "id": 126082407,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "He was arrested by _____ Patrol near the border.",
-    "translation": "Sınır devriyesi tarafından sınır yakınında tutuklandı.",
-    "context": "'Border Patrol' kelime öbeği, sınır güvenliğini sağlayan, kaçakçılığı ve yasa dışı geçişleri önleyen bir kurumun adıdır. Bir ülkeden diğerine geçerken karşılaşabileceğin bu ekipler, haberdeki gibi bazen şaşırtıcı olaylara da karışabilir. Sınır demek 'border' demek!",
-    "options": [
-      "Border",
-      "Country",
-      "City",
-      "State"
-    ],
-    "correctAnswer": "Border",
-    "category": "TRAVEL",
-    "variations": [
-      "The _____ Patrol caught several undocumented immigrants.",
-      "Strict _____ Patrol checks caused delays."
-    ]
-  },
-  {
-    "id": 126082408,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "What does 'opening Pandora's box' mean?",
-    "translation": "'Pandora'nın kutusunu açmak' ne anlama gelir?",
-    "context": "'Pandora'nın kutusunu açmak' deyimi, farkında olmadan birçok sorunu, sıkıntıyı veya kötü olayı başlatmak anlamına gelir. Tıpkı eski bir efsanedeki gibi, bir kere açıldığında felaketlerin durdurulması zordur. Yani aman dikkat, kutuyu açmadan önce iki kere düşün!",
-    "options": [
-      "Starting a new project.",
-      "Creating many new problems.",
-      "Finding a hidden treasure.",
-      "Solving all existing issues."
-    ],
-    "correctAnswer": "Creating many new problems.",
+    "correctAnswer": "thunderstorm",
     "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126082409,
+    "id": 126082502,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "When a company first offers its shares to the public, it's called an _____.",
+    "translation": "Bir şirket hisselerini ilk kez halka arz ettiğinde buna IPO denir.",
+    "context": "Şirketlerin halka açılma rüyası! Bir şirketin hisselerini ilk kez halka arz etmesi durumu. Yani artık herkes o şirkete ortak olabiliyor. 'Oura is reportedly eyeing a September IPO' haberinde gördüğün gibi, büyük şirketler için önemli bir adım.",
+    "options": [
+      "merger",
+      "bankruptcy",
+      "IPO",
+      "layoff"
+    ],
+    "correctAnswer": "IPO",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126082503,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The police can _____ someone if they break the law.",
+    "translation": "Polis, yasaları çiğneyen birini tutuklayabilir.",
+    "context": "Yasa dışı bir durum olduğunda veya bir suç işlendiğinde polisin yaptığı eylem. Haberlerde 'Border Patrol arrested him' (Sınır Devriyesi onu tutukladı) gibi sıkça rastlayabilirsin. Aman dikkat!",
+    "options": [
+      "arrest",
+      "release",
+      "invite",
+      "help"
+    ],
+    "correctAnswer": "arrest",
+    "category": "TRAVEL",
+    "variations": [
+      "The man was _____ for speeding.",
+      "They decided to _____ the suspect."
+    ]
+  },
+  {
+    "id": 126082504,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The _____ of the water is very high today.",
+    "translation": "Suyun sıcaklığı bugün çok yüksek.",
+    "context": "Havalar ısındığında veya bir şeyin ne kadar sıcak ya da soğuk olduğunu belirtirken kullandığımız temel kelime. 'World's oceans hit highest temperature on record' haberi, küresel ısınmanın ciddi boyutlara ulaştığını gösteriyor. Plajda 'The water temperature is perfect!' diyebilirsin.",
+    "options": [
+      "temperature",
+      "color",
+      "depth",
+      "speed"
+    ],
+    "correctAnswer": "temperature",
+    "category": "MIXED",
+    "variations": [
+      "What is the room _____?",
+      "My body _____ is normal."
+    ]
+  },
+  {
+    "id": 126082505,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "What does it mean to 'rescue' someone?",
+    "translation": "'Birini kurtarmak' ne anlama gelir?",
+    "context": "Zor durumda kalan, tehlikede olan birine yardım etmek. Haberlerdeki 'California dad paralyzed from neck down after diving into ocean to rescue child' durumu gibi, bu kelime duyduğunda aklına hemen kahramanlıklar gelsin!",
+    "options": [
+      "to help someone in danger",
+      "to ignore someone",
+      "to make someone angry",
+      "to criticize someone"
+    ],
+    "correctAnswer": "to help someone in danger",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126082506,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "A _____ is an investment fund that takes both long and short positions.",
+    "translation": "Hedge fonu, hem uzun hem kısa pozisyon alan bir yatırım fonudur.",
+    "context": "Genellikle çok zengin yatırımcıların kullandığı, karmaşık yatırım stratejileri olan bir fon türü. Haberde 'star AI hedge fund that nearly imploded, now being probed by the SEC' deniyordu. Yani bu fonlar hem çok kazandırabilir hem de riskli olabilir!",
+    "options": [
+      "hedge fund",
+      "bank account",
+      "charity",
+      "credit card"
+    ],
+    "correctAnswer": "hedge fund",
+    "category": "BUSINESS",
+    "variations": [
+      "She manages a large _____.",
+      "The new _____ opened last month."
+    ]
+  },
+  {
+    "id": 126082507,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The country was removed from the list of _____.",
+    "translation": "Ülke, terörü destekleyen devletler listesinden çıkarıldı.",
+    "context": "Bir ülkenin terörü desteklediği iddia edildiğinde kullanılan resmi bir ifade. 'US removes Syria from list of state sponsors of terrorism' haberi, bu listeden çıkarılmanın o ülke için uluslararası ilişkilerde önemli bir adım olduğunu gösteriyor.",
+    "options": [
+      "state sponsors of terrorism",
+      "tourist destinations",
+      "economic partners",
+      "friendly nations"
+    ],
+    "correctAnswer": "state sponsors of terrorism",
+    "category": "TRAVEL",
+    "variations": [
+      "Being a _____ can lead to sanctions.",
+      "They deny being a _____."
+    ]
+  },
+  {
+    "id": 126082508,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Chelsea managed to _____ Fulham in a tight match. What does 'edge out' mean?",
+    "translation": "Chelsea, çekişmeli bir maçta Fulham'ı kıl payı yendi. 'Edge out' ne anlama gelir?",
+    "context": "Özellikle spor müsabakalarında veya rekabetçi durumlarda, birini kıl payı farkla yenmek, ucu ucuna geçmek anlamına gelir. 'Chelsea's electric front three edge out Fulham!' dediğinde, maçı az farkla kazandıklarını belirtmiş olursun. Çok gerilimli ve heyecanlı anlar için kullanılır!",
+    "options": [
+      "to defeat by a narrow margin",
+      "to lose badly",
+      "to draw the game",
+      "to dominate completely"
+    ],
+    "correctAnswer": "to defeat by a narrow margin",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126082509,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Many economists are concerned about increasing _____.",
+    "translation": "Birçok ekonomist artan servet eşitsizliği hakkında endişeli.",
+    "context": "Zenginlik eşitsizliği, yani toplumdaki zenginliğin adil olmayan bir şekilde dağılması durumu. 'Mark Cuban wants to solve wealth inequality' haberi gibi, bu, modern dünyanın en büyük problemlerinden biri ve sıkça tartışılan bir konu.",
+    "options": [
+      "wealth inequality",
+      "economic growth",
+      "stable prices",
+      "job security"
+    ],
+    "correctAnswer": "wealth inequality",
+    "category": "CASUAL",
+    "variations": [
+      "Addressing _____ is a global challenge.",
+      "The report highlighted rising _____."
+    ]
+  },
+  {
+    "id": 126082510,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "What does 'hotspot' primarily imply in this context?",
-    "translation": "Bu bağlamda 'hotspot' öncelikle ne anlama gelir?",
-    "context": "'Hotspot' kelimesi birden fazla anlama gelebilir. İnternet için de kullanılır, turistik bir yer için de. Ama bilim ve çevre haberlerinde, özellikle bir sorunun (karbon emisyonu gibi) yoğunlaştığı veya bir etkinliğin çok fazla yaşandığı bir bölgeyi anlatır. Yani o bölgede 'ateşli' bir sorun var demektir!",
+    "phrase": "What does 'financial offensive' imply in a geopolitical context?",
+    "translation": "Jeopolitik bağlamda 'finansal saldırı' ne anlama gelir?",
+    "context": "Genellikle ülkeler arası ilişkilerde, bir ülkeye karşı uygulanan sert ekonomik yaptırımlar veya baskılar bütünü. Haberlerde 'Iran says it is ready for what US calls 'greatest financial offensive ever'' ifadesi, bu ekonomik hamlenin ne kadar büyük ve yıkıcı olabileceğini vurguluyor. Ciddi ve siyasi bir terim!",
     "options": [
-      "A popular tourist destination.",
-      "A place with very high temperatures.",
-      "A location experiencing a significant problem or activity.",
-      "An area with fast internet access."
+      "a series of aggressive economic measures",
+      "a peaceful trade agreement",
+      "a philanthropic donation",
+      "an international conference"
     ],
-    "correctAnswer": "A location experiencing a significant problem or activity.",
+    "correctAnswer": "a series of aggressive economic measures",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126082511,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "The leader of the _____ was jailed for a serious crime.",
+    "translation": "Dini tarikatın lideri ciddi bir suçtan hapsedildi.",
+    "context": "Ana akım dini inançlardan ayrılmış, genellikle küçük ve kapalı bir dini grup. Bazen yanlış yöne sapabilir ve 'NZ religious sect leader jailed over death of Chinese follower' haberindeki gibi kötü sonuçlar doğurabilir. 'Sect' kelimesi, bazen gizemli ve tartışmalı grupları ifade etmek için kullanılır.",
+    "options": [
+      "religious sect",
+      "mainstream church",
+      "political party",
+      "sports club"
+    ],
+    "correctAnswer": "religious sect",
     "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126082410,
+    "id": 126082512,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The recent trade talks between the two countries have _____.",
-    "translation": "İki ülke arasındaki son ticaret görüşmeleri çöktü.",
-    "context": "İş dünyasında veya diplomaside, 'collapse' kelimesi bir anlaşmanın, görüşmenin veya projenin aniden ve başarısızlıkla sona ermesi anlamına gelir. Tıpkı iki ülke arasındaki ticaret görüşmelerinin bir anda çökmesi gibi. Yani 'işler sarpa sardı' diyebiliriz!",
+    "phrase": "The company's finances _____ after the scandal.",
+    "translation": "Şirketin finansmanı skandalın ardından çöktü.",
+    "context": "Bir şeyin kendi içine çökmesi, ani ve felaketle sonuçlanan bir şekilde başarısız olması anlamına gelir. Haberdeki 'star AI hedge fund that nearly imploded' ifadesi, fonun neredeyse tamamen batma noktasına geldiğini anlatıyor. Bir anda büyük bir düşüş yaşandığında bu kelimeyi kullanabilirsin.",
     "options": [
-      "collapsed",
-      "started",
-      "succeeded",
-      "expanded"
+      "imploded",
+      "expanded",
+      "stabilized",
+      "improved"
     ],
-    "correctAnswer": "collapsed",
-    "category": "BUSINESS",
+    "correctAnswer": "imploded",
+    "category": "MIXED",
     "variations": [
-      "Their marriage _____ after years of disagreements.",
-      "The old building suddenly _____ into rubble."
-    ]
-  },
-  {
-    "id": 126082411,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The brave father became _____ after his rescue attempt.",
-    "translation": "Cesur baba kurtarma girişiminin ardından felç oldu.",
-    "context": "'Paralyzed' kelimesi, bir uzvun veya vücudun bir bölümünün hareket edememesi durumunu ifade eder. Bu haberdeki gibi, kahraman bir babanın hayat kurtarma çabası sırasında başına gelen trajik bir durumu anlatır. Yani felç olmak demek.",
-    "options": [
-      "paralyzed",
-      "energized",
-      "revitalized",
-      "strengthened"
-    ],
-    "correctAnswer": "paralyzed",
-    "category": "CASUAL",
-    "variations": [
-      "His legs were _____ after the accident.",
-      "The entire city was _____ by the heavy snow."
-    ]
-  },
-  {
-    "id": 126082412,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "This new technology will _____ the future of transportation.",
-    "translation": "Bu yeni teknoloji ulaşımın geleceğine yön verecek.",
-    "context": "'Drive' kelimesi sadece araba sürmek anlamına gelmez; aynı zamanda bir şeyin arkasındaki itici güç olmak, bir şeye yön vermek, onu ileri taşımak anlamında da kullanılır. Tıpkı özel bir çipin robotaksilerin geleceğini 'yönlendirmesi' gibi!",
-    "options": [
-      "drive",
-      "stop",
-      "block",
-      "slow"
-    ],
-    "correctAnswer": "drive",
-    "category": "MIXED/GENERAL",
-    "variations": [
-      "His ambition will _____ him to success.",
-      "Innovation continues to _____ economic growth."
+      "His career almost _____ due to bad decisions.",
+      "The building _____ after the explosion."
     ]
   }
 ]
