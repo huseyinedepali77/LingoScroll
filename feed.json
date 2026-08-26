@@ -1,224 +1,242 @@
 [
   {
-    "id": 126082501,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "What do you call a severe storm with thunder and lightning?",
-    "translation": "Gök gürültüsü ve şimşek ile gelen şiddetli fırtınaya ne denir?",
-    "context": "Hava durumu hakkında konuşurken çok işine yarayacak bir kelime. 'There's a big thunderstorm coming!' dediğinde, fırtına uyarısı yaptığını söylemiş olursun. Özellikle İngiltere'nin 'More downpours and thunderstorms are heading the UK's way' haberindeki gibi havanın kötüleştiği zamanlarda kullanılır.",
-    "options": [
-      "thunderstorm",
-      "sunny day",
-      "gentle breeze",
-      "light rain"
-    ],
-    "correctAnswer": "thunderstorm",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126082502,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "When a company first offers its shares to the public, it's called an _____.",
-    "translation": "Bir şirket hisselerini ilk kez halka arz ettiğinde buna IPO denir.",
-    "context": "Şirketlerin halka açılma rüyası! Bir şirketin hisselerini ilk kez halka arz etmesi durumu. Yani artık herkes o şirkete ortak olabiliyor. 'Oura is reportedly eyeing a September IPO' haberinde gördüğün gibi, büyük şirketler için önemli bir adım.",
-    "options": [
-      "merger",
-      "bankruptcy",
-      "IPO",
-      "layoff"
-    ],
-    "correctAnswer": "IPO",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126082503,
+    "id": 126082601,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The police can _____ someone if they break the law.",
-    "translation": "Polis, yasaları çiğneyen birini tutuklayabilir.",
-    "context": "Yasa dışı bir durum olduğunda veya bir suç işlendiğinde polisin yaptığı eylem. Haberlerde 'Border Patrol arrested him' (Sınır Devriyesi onu tutukladı) gibi sıkça rastlayabilirsin. Aman dikkat!",
+    "phrase": "The plane safely _____ on the runway.",
+    "translation": "Uçak pistte güvenli bir şekilde iniş yaptı.",
+    "context": "'Land' fiili, bir uçağın veya uzay aracının yere veya bir yüzeye inmesini anlatır. Haberlerde askeri uçakların beklenmedik yerlere inmesi gibi durumlar için de kullanılır. 'Landing' kelimesini havalimanlarında veya filmlerde sıkça duyabilirsin. Mesela, 'We are preparing for landing' (İnişe hazırlanıyoruz).",
     "options": [
-      "arrest",
-      "release",
-      "invite",
-      "help"
+      "landed",
+      "flying",
+      "departed",
+      "crashed"
     ],
-    "correctAnswer": "arrest",
+    "correctAnswer": "landed",
     "category": "TRAVEL",
     "variations": [
-      "The man was _____ for speeding.",
-      "They decided to _____ the suspect."
+      "Our flight will land in Istanbul.",
+      "The pilot landed the helicopter."
     ]
   },
   {
-    "id": 126082504,
+    "id": 126082602,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The _____ of the water is very high today.",
-    "translation": "Suyun sıcaklığı bugün çok yüksek.",
-    "context": "Havalar ısındığında veya bir şeyin ne kadar sıcak ya da soğuk olduğunu belirtirken kullandığımız temel kelime. 'World's oceans hit highest temperature on record' haberi, küresel ısınmanın ciddi boyutlara ulaştığını gösteriyor. Plajda 'The water temperature is perfect!' diyebilirsin.",
+    "phrase": "The country imposed new _____ on imported goods.",
+    "translation": "Ülke, ithal mallara yeni yaptırımlar uyguladı.",
+    "context": "'Sanction' kelimesi, bir ülkenin başka bir ülkeye veya bir kişiye uyguladığı ekonomik veya politik kısıtlamaları ifade eder. Genellikle kötü davranışları durdurmak amacıyla kullanılır. 'Trading partners' (ticaret ortakları) arasındaki ilişkileri etkileyebilir. Haberlerde 'sanctions on Iran' (İran'a yaptırımlar) gibi sıkça rastlayabilirsin.",
     "options": [
-      "temperature",
-      "color",
-      "depth",
-      "speed"
+      "sanctions",
+      "taxes",
+      "bonuses",
+      "exports"
     ],
-    "correctAnswer": "temperature",
-    "category": "MIXED",
-    "variations": [
-      "What is the room _____?",
-      "My body _____ is normal."
-    ]
-  },
-  {
-    "id": 126082505,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "What does it mean to 'rescue' someone?",
-    "translation": "'Birini kurtarmak' ne anlama gelir?",
-    "context": "Zor durumda kalan, tehlikede olan birine yardım etmek. Haberlerdeki 'California dad paralyzed from neck down after diving into ocean to rescue child' durumu gibi, bu kelime duyduğunda aklına hemen kahramanlıklar gelsin!",
-    "options": [
-      "to help someone in danger",
-      "to ignore someone",
-      "to make someone angry",
-      "to criticize someone"
-    ],
-    "correctAnswer": "to help someone in danger",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126082506,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "A _____ is an investment fund that takes both long and short positions.",
-    "translation": "Hedge fonu, hem uzun hem kısa pozisyon alan bir yatırım fonudur.",
-    "context": "Genellikle çok zengin yatırımcıların kullandığı, karmaşık yatırım stratejileri olan bir fon türü. Haberde 'star AI hedge fund that nearly imploded, now being probed by the SEC' deniyordu. Yani bu fonlar hem çok kazandırabilir hem de riskli olabilir!",
-    "options": [
-      "hedge fund",
-      "bank account",
-      "charity",
-      "credit card"
-    ],
-    "correctAnswer": "hedge fund",
+    "correctAnswer": "sanctions",
     "category": "BUSINESS",
     "variations": [
-      "She manages a large _____.",
-      "The new _____ opened last month."
+      "The UN applied sanctions on the regime.",
+      "These sanctions will affect trade."
     ]
   },
   {
-    "id": 126082507,
+    "id": 126082603,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The country was removed from the list of _____.",
-    "translation": "Ülke, terörü destekleyen devletler listesinden çıkarıldı.",
-    "context": "Bir ülkenin terörü desteklediği iddia edildiğinde kullanılan resmi bir ifade. 'US removes Syria from list of state sponsors of terrorism' haberi, bu listeden çıkarılmanın o ülke için uluslararası ilişkilerde önemli bir adım olduğunu gösteriyor.",
+    "level": "BEGINNER",
+    "phrase": "The park is home to diverse _____, including rare birds.",
+    "translation": "Park, nadir kuşlar da dahil olmak üzere çeşitli vahşi yaşama ev sahipliği yapıyor.",
+    "context": "'Wildlife' kelimesi, doğal ortamlarında yaşayan hayvanlar, bitkiler ve diğer canlılar için kullanılır. Doğayı sevenler, belgesel izleyenler veya 'Wildlife Photographer of the Year' gibi yarışmalarla ilgilenenler için çok tanıdık bir kelime. Bir 'nosy polar bear' (meraklı kutup ayısı) ya da 'lucky squirrel' (şanslı sincap) birer 'wildlife' örneğidir!",
     "options": [
-      "state sponsors of terrorism",
-      "tourist destinations",
-      "economic partners",
-      "friendly nations"
+      "wildlife",
+      "buildings",
+      "vehicles",
+      "factories"
     ],
-    "correctAnswer": "state sponsors of terrorism",
-    "category": "TRAVEL",
-    "variations": [
-      "Being a _____ can lead to sanctions.",
-      "They deny being a _____."
-    ]
-  },
-  {
-    "id": 126082508,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Chelsea managed to _____ Fulham in a tight match. What does 'edge out' mean?",
-    "translation": "Chelsea, çekişmeli bir maçta Fulham'ı kıl payı yendi. 'Edge out' ne anlama gelir?",
-    "context": "Özellikle spor müsabakalarında veya rekabetçi durumlarda, birini kıl payı farkla yenmek, ucu ucuna geçmek anlamına gelir. 'Chelsea's electric front three edge out Fulham!' dediğinde, maçı az farkla kazandıklarını belirtmiş olursun. Çok gerilimli ve heyecanlı anlar için kullanılır!",
-    "options": [
-      "to defeat by a narrow margin",
-      "to lose badly",
-      "to draw the game",
-      "to dominate completely"
-    ],
-    "correctAnswer": "to defeat by a narrow margin",
-    "category": "MIXED",
-    "variations": []
-  },
-  {
-    "id": 126082509,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Many economists are concerned about increasing _____.",
-    "translation": "Birçok ekonomist artan servet eşitsizliği hakkında endişeli.",
-    "context": "Zenginlik eşitsizliği, yani toplumdaki zenginliğin adil olmayan bir şekilde dağılması durumu. 'Mark Cuban wants to solve wealth inequality' haberi gibi, bu, modern dünyanın en büyük problemlerinden biri ve sıkça tartışılan bir konu.",
-    "options": [
-      "wealth inequality",
-      "economic growth",
-      "stable prices",
-      "job security"
-    ],
-    "correctAnswer": "wealth inequality",
+    "correctAnswer": "wildlife",
     "category": "CASUAL",
     "variations": [
-      "Addressing _____ is a global challenge.",
-      "The report highlighted rising _____."
+      "Protecting wildlife is very important.",
+      "We saw a lot of wildlife on our safari."
     ]
   },
   {
-    "id": 126082510,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "What does 'financial offensive' imply in a geopolitical context?",
-    "translation": "Jeopolitik bağlamda 'finansal saldırı' ne anlama gelir?",
-    "context": "Genellikle ülkeler arası ilişkilerde, bir ülkeye karşı uygulanan sert ekonomik yaptırımlar veya baskılar bütünü. Haberlerde 'Iran says it is ready for what US calls 'greatest financial offensive ever'' ifadesi, bu ekonomik hamlenin ne kadar büyük ve yıkıcı olabileceğini vurguluyor. Ciddi ve siyasi bir terim!",
-    "options": [
-      "a series of aggressive economic measures",
-      "a peaceful trade agreement",
-      "a philanthropic donation",
-      "an international conference"
-    ],
-    "correctAnswer": "a series of aggressive economic measures",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126082511,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "The leader of the _____ was jailed for a serious crime.",
-    "translation": "Dini tarikatın lideri ciddi bir suçtan hapsedildi.",
-    "context": "Ana akım dini inançlardan ayrılmış, genellikle küçük ve kapalı bir dini grup. Bazen yanlış yöne sapabilir ve 'NZ religious sect leader jailed over death of Chinese follower' haberindeki gibi kötü sonuçlar doğurabilir. 'Sect' kelimesi, bazen gizemli ve tartışmalı grupları ifade etmek için kullanılır.",
-    "options": [
-      "religious sect",
-      "mainstream church",
-      "political party",
-      "sports club"
-    ],
-    "correctAnswer": "religious sect",
-    "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126082512,
+    "id": 126082604,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The company's finances _____ after the scandal.",
-    "translation": "Şirketin finansmanı skandalın ardından çöktü.",
-    "context": "Bir şeyin kendi içine çökmesi, ani ve felaketle sonuçlanan bir şekilde başarısız olması anlamına gelir. Haberdeki 'star AI hedge fund that nearly imploded' ifadesi, fonun neredeyse tamamen batma noktasına geldiğini anlatıyor. Bir anda büyük bir düşüş yaşandığında bu kelimeyi kullanabilirsin.",
+    "level": "BEGINNER",
+    "phrase": "After a long career, she announced her _____",
+    "translation": "Uzun bir kariyerden sonra, emekliliğini açıkladı.",
+    "context": "'Retirement' kelimesi, genellikle yaş veya hizmet süresi nedeniyle iş hayatından ayrılma anlamına gelir. Sporcular için de 'emeklilik' çok duyduğumuz bir durumdur, mesela bir 'legend' (efsane) oyuncu sezon sonunda 'retirement'ini açıklayabilir. Emeklilik, hayatın yeni bir bölümüne başlamak demek!",
     "options": [
-      "imploded",
-      "expanded",
-      "stabilized",
-      "improved"
+      "retirement",
+      "promotion",
+      "resignation",
+      "transfer"
     ],
-    "correctAnswer": "imploded",
+    "correctAnswer": "retirement",
     "category": "MIXED",
     "variations": [
-      "His career almost _____ due to bad decisions.",
-      "The building _____ after the explosion."
+      "He is planning for his retirement.",
+      "Many people enjoy their retirement."
+    ]
+  },
+  {
+    "id": 126082605,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The spy's visit was completely _____ to the public.",
+    "translation": "Casusun ziyareti halka tamamen duyurulmamıştı.",
+    "context": "'Unannounced' kelimesi, bir şeyin önceden haber verilmeden, duyuru yapılmadan gerçekleştiği anlamına gelir. Bir ziyaret, bir toplantı veya bir etkinlik için kullanılabilir. Haberlerde 'unannounced talks' (beklenmedik görüşmeler) veya 'unannounced visit' (beklenmedik ziyaret) gibi diplomatik veya gizli olaylarda karşımıza çıkar. Tam bir sürpriz!",
+    "options": [
+      "unannounced",
+      "scheduled",
+      "publicized",
+      "expected"
+    ],
+    "correctAnswer": "unannounced",
+    "category": "TRAVEL",
+    "variations": [
+      "He made an unannounced inspection.",
+      "The police arrived unannounced."
+    ]
+  },
+  {
+    "id": 126082606,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The new tech _____ quickly reached a high valuation.",
+    "translation": "Yeni teknoloji girişimi hızla yüksek bir değere ulaştı.",
+    "context": "'Startup' kelimesi, genellikle yenilikçi bir iş fikriyle kurulan, hızla büyümeyi hedefleyen genç şirketleri tanımlar. Teknoloji dünyasında 'robotics startup' gibi çokça örnek görürüz. 'Backing' (yatırım desteği) alabilirler ve 'valuation' (değerleme) haberleriyle gündeme gelirler. Geleceğin büyük şirketleri bu küçük 'startup'lardan çıkar!",
+    "options": [
+      "startup",
+      "corporation",
+      "branch",
+      "subsidiary"
+    ],
+    "correctAnswer": "startup",
+    "category": "BUSINESS",
+    "variations": [
+      "Many startups fail in the first year.",
+      "She works at a successful startup."
+    ]
+  },
+  {
+    "id": 126082607,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The forecast warns of heavy rain and _____.",
+    "translation": "Hava durumu tahmini şiddetli yağmur ve gök gürültülü fırtınalar konusunda uyarıyor.",
+    "context": "'Thunderstorms' kelimesi, gök gürültüsü, şimşek, şiddetli yağmur ve bazen dolu ile karakterize olan bir hava olayıdır. İngiltere'de 'yellow warnings' (sarı uyarılar) verildiği gibi, günlük hayatta hava durumu raporlarında sıkça karşımıza çıkar. Kötü havalarda dışarı çıkmadan önce 'thunderstorms' var mı diye kontrol etmek akıllıcadır!",
+    "options": [
+      "thunderstorms",
+      "sunshine",
+      "snowfall",
+      "fog"
+    ],
+    "correctAnswer": "thunderstorms",
+    "category": "CASUAL",
+    "variations": [
+      "We had a bad thunderstorm last night.",
+      "Thunderstorms can cause power cuts."
+    ]
+  },
+  {
+    "id": 126082608,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The pilot had to make an emergency _____ from the jet.",
+    "translation": "Pilot jetten acil bir fırlatma yapmak zorunda kaldı.",
+    "context": "'Ejection' kelimesi, özellikle bir uçak veya araçtan acil bir durumda kendini fırlatma eylemini ifade eder. Askeri pilotlar için hayati bir beceridir ve 'TOPGUN pilot' gibi uzmanlar bu durumu 'eerie calm' (ürpertici sakinlik) ile ele alabilirler. Bazen kazalarda veya filmlerde 'emergency ejection' sahneleri görürüz.",
+    "options": [
+      "ejection",
+      "landing",
+      "takeoff",
+      "refueling"
+    ],
+    "correctAnswer": "ejection",
+    "category": "MIXED",
+    "variations": [
+      "The seat was designed for safe ejection.",
+      "Ejection systems save lives."
+    ]
+  },
+  {
+    "id": 126082609,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The government is investing in critical national _____ projects.",
+    "translation": "Hükümet, kritik ulusal altyapı projelerine yatırım yapıyor.",
+    "context": "'Infrastructure' kelimesi, bir ülkenin veya bölgenin işleyişi için temel olan sistemleri ve tesisleri kapsar. Yollar, köprüler, elektrik şebekeleri, su sistemleri, iletişim ağları gibi unsurları içerir. 'Badly protected infrastructure' (kötü korunan altyapı) haberleri, bu sistemlerin ne kadar önemli olduğunu gösterir. Seyahat ederken kullandığımız her şey bir 'infrastructure' parçası!",
+    "options": [
+      "infrastructure",
+      "entertainment",
+      "fashion",
+      "decoration"
+    ],
+    "correctAnswer": "infrastructure",
+    "category": "TRAVEL",
+    "variations": [
+      "Good infrastructure supports economic growth.",
+      "The city's infrastructure needs repair."
+    ]
+  },
+  {
+    "id": 126082610,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The new _____ on imports led to higher prices for consumers.",
+    "translation": "İthal ürünlere konulan yeni gümrük vergileri tüketiciler için daha yüksek fiyatlara yol açtı.",
+    "context": "'Tariff' kelimesi, hükümetlerin ithal veya ihraç edilen mallara uyguladığı bir tür vergidir. Genellikle yerel endüstrileri korumak veya 'retaliatory tariffs' (misilleme gümrük vergileri) gibi ticari anlaşmazlıklarda kullanılır. Bu tür vergiler, şirketlerin ve tüketicilerin maliyetlerini doğrudan etkileyebilir. Ticaret savaşlarının vazgeçilmez kelimesi!",
+    "options": [
+      "tariff",
+      "subsidy",
+      "discount",
+      "rebate"
+    ],
+    "correctAnswer": "tariff",
+    "category": "BUSINESS",
+    "variations": [
+      "They are negotiating on trade tariffs.",
+      "The country imposed a 25% tariff on steel."
+    ]
+  },
+  {
+    "id": 126082611,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The problems revealed in the documentary are just the _____ of the iceberg.",
+    "translation": "Belgeselde ortaya çıkan sorunlar sadece buzdağının görünen yüzü.",
+    "context": "'Tip of the iceberg' deyimi, büyük bir sorunun veya durumun sadece küçük, görünür bir kısmını ifade eder. Genellikle asıl meselenin çok daha büyük ve karmaşık olduğunu ima eder. Michael Sheen belgeselindeki 'toxic waste sites' (zehirli atık alanları) haberi gibi durumlarda, görünenin çok ötesinde başka sorunlar olduğunu anlatmak için harika bir ifade. Kulağa Titanic gibi gelse de, anlamı çok derin!",
+    "options": [
+      "tip",
+      "base",
+      "core",
+      "summit"
+    ],
+    "correctAnswer": "tip",
+    "category": "CASUAL",
+    "variations": [
+      "This argument is just the tip of the iceberg.",
+      "We've only seen the tip of the iceberg."
+    ]
+  },
+  {
+    "id": 126082612,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The government initiated a major _____ on organized crime.",
+    "translation": "Hükümet, organize suçlara karşı büyük bir operasyon başlattı.",
+    "context": "'Crackdown' kelimesi, bir hükümetin veya otoritenin yasa dışı veya istenmeyen bir faaliyeti sona erdirmek için uyguladığı sert önlemleri ve baskıyı ifade eder. 'Mass arrests' (toplu tutuklamalar) ve 'cyber-crime networks' (siber suç ağları) gibi haberlerde sıkça görülür. Genellikle bir sorunu kökten çözmek amacıyla yapılan, geniş çaplı ve kararlı eylemleri anlatır.",
+    "options": [
+      "crackdown",
+      "negotiation",
+      "agreement",
+      "release"
+    ],
+    "correctAnswer": "crackdown",
+    "category": "MIXED",
+    "variations": [
+      "There was a crackdown on drug trafficking.",
+      "The police launched a crackdown on hooligans."
     ]
   }
 ]
