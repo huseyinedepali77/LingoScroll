@@ -1,242 +1,224 @@
 [
   {
-    "id": 126082601,
-    "type": "QUIZ_COMPLETION",
+    "id": 126082701,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "The plane safely _____ on the runway.",
-    "translation": "Uçak pistte güvenli bir şekilde iniş yaptı.",
-    "context": "'Land' fiili, bir uçağın veya uzay aracının yere veya bir yüzeye inmesini anlatır. Haberlerde askeri uçakların beklenmedik yerlere inmesi gibi durumlar için de kullanılır. 'Landing' kelimesini havalimanlarında veya filmlerde sıkça duyabilirsin. Mesela, 'We are preparing for landing' (İnişe hazırlanıyoruz).",
+    "phrase": "Where can you track flight prices and book hotels with AI?",
+    "translation": "AI ile uçuş fiyatlarını nerede takip edip otel rezervasyonu yapabilirsin?",
+    "context": "Seyahat planları yaparken Google'ın AI modu tam bir kurtarıcı! Uçak biletlerinin fiyatını anlık takip edip, en uygun otelleri bile sana bulup rezervasyon yaptırabilirsin. Hayatını kolaylaştıran bu özellik sayesinde tatilin tadını çıkar!",
     "options": [
-      "landed",
-      "flying",
-      "departed",
-      "crashed"
+      "Google's AI Mode",
+      "Social Media",
+      "News Websites",
+      "Sports Apps"
     ],
-    "correctAnswer": "landed",
+    "correctAnswer": "Google's AI Mode",
     "category": "TRAVEL",
-    "variations": [
-      "Our flight will land in Istanbul.",
-      "The pilot landed the helicopter."
-    ]
+    "variations": []
   },
   {
-    "id": 126082602,
+    "id": 126082702,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The country imposed new _____ on imported goods.",
-    "translation": "Ülke, ithal mallara yeni yaptırımlar uyguladı.",
-    "context": "'Sanction' kelimesi, bir ülkenin başka bir ülkeye veya bir kişiye uyguladığı ekonomik veya politik kısıtlamaları ifade eder. Genellikle kötü davranışları durdurmak amacıyla kullanılır. 'Trading partners' (ticaret ortakları) arasındaki ilişkileri etkileyebilir. Haberlerde 'sanctions on Iran' (İran'a yaptırımlar) gibi sıkça rastlayabilirsin.",
+    "phrase": "Kim joins Rangers in a £8.5M _____ deal.",
+    "translation": "Kim, 8.5 milyon sterlinlik bir transfer anlaşmasıyla Rangers'a katılıyor.",
+    "context": "Futbol dünyasında oyuncu transferleri sürekli gündemde! Bir takımın oyuncuyu kendi kadrosuna katmasına 'deal' yani 'anlaşma' denir. Bu terimi sadece sporda değil, iş dünyasında da sıkça duyarsın, mesela 'iş anlaşması' (business deal) gibi.",
     "options": [
-      "sanctions",
-      "taxes",
-      "bonuses",
-      "exports"
+      "deal",
+      "game",
+      "score",
+      "player"
     ],
-    "correctAnswer": "sanctions",
+    "correctAnswer": "deal",
     "category": "BUSINESS",
     "variations": [
-      "The UN applied sanctions on the regime.",
-      "These sanctions will affect trade."
+      "The company made a great business _____ last month.",
+      "They signed a lucrative _____ to expand their services."
     ]
   },
   {
-    "id": 126082603,
+    "id": 126082703,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "What do Norwegians do as King Harald's condition worsens?",
+    "translation": "Norveçliler, Kral Harald'ın durumu kötüleşirken ne yapıyor?",
+    "context": "Kraliyet ailesi üyelerinin sağlığı, halk için önemli bir konu. İnsanlar, sevdikleri bir lider veya ünlü kişi hastalandığında üzüntülerini ve desteklerini göstermek için çiçek bırakma gibi geleneksel yöntemleri kullanırlar. Bu, bir tür saygı ve sevgi gösterisidir.",
+    "options": [
+      "Lay flowers at the palace",
+      "Protest against the palace",
+      "Ignore the news",
+      "Go on vacation"
+    ],
+    "correctAnswer": "Lay flowers at the palace",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126082704,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The park is home to diverse _____, including rare birds.",
-    "translation": "Park, nadir kuşlar da dahil olmak üzere çeşitli vahşi yaşama ev sahipliği yapıyor.",
-    "context": "'Wildlife' kelimesi, doğal ortamlarında yaşayan hayvanlar, bitkiler ve diğer canlılar için kullanılır. Doğayı sevenler, belgesel izleyenler veya 'Wildlife Photographer of the Year' gibi yarışmalarla ilgilenenler için çok tanıdık bir kelime. Bir 'nosy polar bear' (meraklı kutup ayısı) ya da 'lucky squirrel' (şanslı sincap) birer 'wildlife' örneğidir!",
+    "phrase": "A collapsed _____ likely caused the Nepal-Tibet floods.",
+    "translation": "Çöken bir buzul, Nepal-Tibet sel felaketlerine muhtemelen neden oldu.",
+    "context": "Buzullar, devasa buz kütleleridir ve dağlık bölgelerde bulunurlar. Küresel ısınma nedeniyle bazen bu buzullar eriyip çökerek korkunç sellere yol açabilir. Bu olaylar, dünyanın ekolojik dengesi için ciddi bir alarm zili!",
     "options": [
-      "wildlife",
-      "buildings",
-      "vehicles",
-      "factories"
+      "glacier",
+      "mountain",
+      "river",
+      "forest"
     ],
-    "correctAnswer": "wildlife",
-    "category": "CASUAL",
-    "variations": [
-      "Protecting wildlife is very important.",
-      "We saw a lot of wildlife on our safari."
-    ]
-  },
-  {
-    "id": 126082604,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "After a long career, she announced her _____",
-    "translation": "Uzun bir kariyerden sonra, emekliliğini açıkladı.",
-    "context": "'Retirement' kelimesi, genellikle yaş veya hizmet süresi nedeniyle iş hayatından ayrılma anlamına gelir. Sporcular için de 'emeklilik' çok duyduğumuz bir durumdur, mesela bir 'legend' (efsane) oyuncu sezon sonunda 'retirement'ini açıklayabilir. Emeklilik, hayatın yeni bir bölümüne başlamak demek!",
-    "options": [
-      "retirement",
-      "promotion",
-      "resignation",
-      "transfer"
-    ],
-    "correctAnswer": "retirement",
+    "correctAnswer": "glacier",
     "category": "MIXED",
     "variations": [
-      "He is planning for his retirement.",
-      "Many people enjoy their retirement."
+      "The scientists studied the melting _____ in the Arctic.",
+      "A huge chunk of the _____ broke off into the sea."
     ]
   },
   {
-    "id": 126082605,
+    "id": 126082705,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The spy's visit was completely _____ to the public.",
-    "translation": "Casusun ziyareti halka tamamen duyurulmamıştı.",
-    "context": "'Unannounced' kelimesi, bir şeyin önceden haber verilmeden, duyuru yapılmadan gerçekleştiği anlamına gelir. Bir ziyaret, bir toplantı veya bir etkinlik için kullanılabilir. Haberlerde 'unannounced talks' (beklenmedik görüşmeler) veya 'unannounced visit' (beklenmedik ziyaret) gibi diplomatik veya gizli olaylarda karşımıza çıkar. Tam bir sürpriz!",
+    "phrase": "Dozens of citizens went _____ after the flash flooding in Nepal.",
+    "translation": "Nepal'deki ani selden sonra düzinelerce vatandaş kayboldu.",
+    "context": "'Go missing' (kaybolmak), bir kişinin veya bir şeyin bulunamaması, ortadan kaybolması durumudur. Felaket anlarında bu durum, özellikle sevdiklerinizin nerede olduğunu bilmemek en büyük acılardan biridir.",
     "options": [
-      "unannounced",
-      "scheduled",
-      "publicized",
-      "expected"
+      "missing",
+      "found",
+      "home",
+      "back"
     ],
-    "correctAnswer": "unannounced",
+    "correctAnswer": "missing",
     "category": "TRAVEL",
     "variations": [
-      "He made an unannounced inspection.",
-      "The police arrived unannounced."
+      "The child went _____ during the crowded festival.",
+      "Search teams are still looking for the hikers who went _____."
     ]
   },
   {
-    "id": 126082606,
-    "type": "QUIZ_COMPLETION",
+    "id": 126082706,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "The new tech _____ quickly reached a high valuation.",
-    "translation": "Yeni teknoloji girişimi hızla yüksek bir değere ulaştı.",
-    "context": "'Startup' kelimesi, genellikle yenilikçi bir iş fikriyle kurulan, hızla büyümeyi hedefleyen genç şirketleri tanımlar. Teknoloji dünyasında 'robotics startup' gibi çokça örnek görürüz. 'Backing' (yatırım desteği) alabilirler ve 'valuation' (değerleme) haberleriyle gündeme gelirler. Geleceğin büyük şirketleri bu küçük 'startup'lardan çıkar!",
+    "phrase": "What kind of robot is Hugging Face's Microduck?",
+    "translation": "Hugging Face'in Microduck'ı ne tür bir robot?",
+    "context": "'Open-source' (açık kaynak), yazılım veya donanımın tasarımının herkes tarafından serbestçe erişilebildiği, değiştirilebildiği ve dağıtılabildiği anlamına gelir. Bu, teknoloji dünyasında işbirliğini ve inovasyonu teşvik eden harika bir yaklaşımdır! Böylece herkes ürünü kendi ihtiyaçlarına göre geliştirebilir.",
     "options": [
-      "startup",
-      "corporation",
-      "branch",
-      "subsidiary"
+      "An open-source duck robot",
+      "A closed-source fighting robot",
+      "A secret government robot",
+      "A commercial cleaning robot"
     ],
-    "correctAnswer": "startup",
+    "correctAnswer": "An open-source duck robot",
     "category": "BUSINESS",
-    "variations": [
-      "Many startups fail in the first year.",
-      "She works at a successful startup."
-    ]
+    "variations": []
   },
   {
-    "id": 126082607,
+    "id": 126082707,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The forecast warns of heavy rain and _____.",
-    "translation": "Hava durumu tahmini şiddetli yağmur ve gök gürültülü fırtınalar konusunda uyarıyor.",
-    "context": "'Thunderstorms' kelimesi, gök gürültüsü, şimşek, şiddetli yağmur ve bazen dolu ile karakterize olan bir hava olayıdır. İngiltere'de 'yellow warnings' (sarı uyarılar) verildiği gibi, günlük hayatta hava durumu raporlarında sıkça karşımıza çıkar. Kötü havalarda dışarı çıkmadan önce 'thunderstorms' var mı diye kontrol etmek akıllıcadır!",
+    "phrase": "Jablonec vs Rangers _____! Fans are excited for the game.",
+    "translation": "Jablonec ve Rangers CANLI! Taraftarlar maç için heyecanlı.",
+    "context": "Maç yayınlarında 'LIVE!' (canlı!), o an yaşanan bir olayın kesintisiz ve gerçek zamanlı olarak yayınlandığını gösterir. Futbol, basketbol veya dart fark etmez, canlı yayınlar sayesinde sporu ve heyecanı anında evimize getiririz!",
     "options": [
-      "thunderstorms",
-      "sunshine",
-      "snowfall",
-      "fog"
+      "LIVE",
+      "PLAY",
+      "STOP",
+      "GO"
     ],
-    "correctAnswer": "thunderstorms",
+    "correctAnswer": "LIVE",
     "category": "CASUAL",
     "variations": [
-      "We had a bad thunderstorm last night.",
-      "Thunderstorms can cause power cuts."
+      "The concert will be streamed _____ on YouTube.",
+      "Breaking news is coming in _____ from the scene."
     ]
   },
   {
-    "id": 126082608,
-    "type": "QUIZ_COMPLETION",
+    "id": 126082708,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "The pilot had to make an emergency _____ from the jet.",
-    "translation": "Pilot jetten acil bir fırlatma yapmak zorunda kaldı.",
-    "context": "'Ejection' kelimesi, özellikle bir uçak veya araçtan acil bir durumda kendini fırlatma eylemini ifade eder. Askeri pilotlar için hayati bir beceridir ve 'TOPGUN pilot' gibi uzmanlar bu durumu 'eerie calm' (ürpertici sakinlik) ile ele alabilirler. Bazen kazalarda veya filmlerde 'emergency ejection' sahneleri görürüz.",
+    "phrase": "Michael Sheen hopes the reaction to the toxic waste documentary will spur _____",
+    "translation": "Michael Sheen, zehirli atık belgeseline verilen tepkinin eylemi teşvik edeceğini umuyor.",
+    "context": "'Spur action' (eylemi teşvik etmek), bir durum veya olayın insanları harekete geçirmesi, somut adımlar atmaya yönlendirmesi demektir. Özellikle çevre sorunları gibi konularda belgeseller ve kamuoyu tepkileri, değişimi tetikleyen önemli faktörlerdir.",
     "options": [
-      "ejection",
-      "landing",
-      "takeoff",
-      "refueling"
+      "action",
+      "laughter",
+      "boredom",
+      "sleep"
     ],
-    "correctAnswer": "ejection",
+    "correctAnswer": "action",
     "category": "MIXED",
-    "variations": [
-      "The seat was designed for safe ejection.",
-      "Ejection systems save lives."
-    ]
+    "variations": []
   },
   {
-    "id": 126082609,
+    "id": 126082709,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The government is investing in critical national _____ projects.",
-    "translation": "Hükümet, kritik ulusal altyapı projelerine yatırım yapıyor.",
-    "context": "'Infrastructure' kelimesi, bir ülkenin veya bölgenin işleyişi için temel olan sistemleri ve tesisleri kapsar. Yollar, köprüler, elektrik şebekeleri, su sistemleri, iletişim ağları gibi unsurları içerir. 'Badly protected infrastructure' (kötü korunan altyapı) haberleri, bu sistemlerin ne kadar önemli olduğunu gösterir. Seyahat ederken kullandığımız her şey bir 'infrastructure' parçası!",
+    "phrase": "The 'devastating' Nepal floods caused widespread _____ and loss.",
+    "translation": "'Yıkıcı' Nepal selleri geniş çaplı yıkıma ve kayıplara neden oldu.",
+    "context": "'Devastating' (yıkıcı, harap edici), büyük çaplı ve çok kötü sonuçları olan bir olayı tanımlamak için kullanılır. Özellikle doğal afetler veya savaşlar gibi durumlarda, yarattığı yıkımı ve acıyı vurgulamak için bu kelimeyi tercih ederiz. Çok acı bir durum, değil mi?",
     "options": [
-      "infrastructure",
-      "entertainment",
-      "fashion",
-      "decoration"
+      "destruction",
+      "happiness",
+      "growth",
+      "recovery"
     ],
-    "correctAnswer": "infrastructure",
+    "correctAnswer": "destruction",
     "category": "TRAVEL",
     "variations": [
-      "Good infrastructure supports economic growth.",
-      "The city's infrastructure needs repair."
+      "The earthquake caused _____ damage to the city.",
+      "His words had a _____ effect on her confidence."
     ]
   },
   {
-    "id": 126082610,
-    "type": "QUIZ_COMPLETION",
+    "id": 126082710,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "The new _____ on imports led to higher prices for consumers.",
-    "translation": "İthal ürünlere konulan yeni gümrük vergileri tüketiciler için daha yüksek fiyatlara yol açtı.",
-    "context": "'Tariff' kelimesi, hükümetlerin ithal veya ihraç edilen mallara uyguladığı bir tür vergidir. Genellikle yerel endüstrileri korumak veya 'retaliatory tariffs' (misilleme gümrük vergileri) gibi ticari anlaşmazlıklarda kullanılır. Bu tür vergiler, şirketlerin ve tüketicilerin maliyetlerini doğrudan etkileyebilir. Ticaret savaşlarının vazgeçilmez kelimesi!",
+    "phrase": "Tottenham signed Marmoush on loan with an _____ to buy.",
+    "translation": "Tottenham, Marmoush'u satın alma yükümlülüğü ile kiralık olarak transfer etti.",
+    "context": "Futbolda 'obligation to buy' (satın alma yükümlülüğü), bir oyuncuyu kiralayan kulübün, belirli şartlar (örneğin, belirli sayıda maça çıkması veya takımın ligde kalması) yerine geldiğinde oyuncuyu kalıcı olarak satın almak zorunda olduğu anlamına gelir. Bu, bir nevi 'şartlı zorunlu satın alma' anlaşmasıdır ve kulüpler için finansal planlama açısından önemlidir.",
     "options": [
-      "tariff",
-      "subsidy",
-      "discount",
-      "rebate"
+      "obligation",
+      "option",
+      "permission",
+      "request"
     ],
-    "correctAnswer": "tariff",
+    "correctAnswer": "obligation",
     "category": "BUSINESS",
-    "variations": [
-      "They are negotiating on trade tariffs.",
-      "The country imposed a 25% tariff on steel."
-    ]
+    "variations": []
   },
   {
-    "id": 126082611,
+    "id": 126082711,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The problems revealed in the documentary are just the _____ of the iceberg.",
-    "translation": "Belgeselde ortaya çıkan sorunlar sadece buzdağının görünen yüzü.",
-    "context": "'Tip of the iceberg' deyimi, büyük bir sorunun veya durumun sadece küçük, görünür bir kısmını ifade eder. Genellikle asıl meselenin çok daha büyük ve karmaşık olduğunu ima eder. Michael Sheen belgeselindeki 'toxic waste sites' (zehirli atık alanları) haberi gibi durumlarda, görünenin çok ötesinde başka sorunlar olduğunu anlatmak için harika bir ifade. Kulağa Titanic gibi gelse de, anlamı çok derin!",
+    "phrase": "The teen planned a middle school _____ before killing his mom.",
+    "translation": "Genç, annesini öldürmeden önce bir ortaokul katliamı planladı.",
+    "context": "'Massacre' (katliam), çok sayıda insanın vahşice öldürülmesi anlamına gelir. Bu kelime, genellikle korkunç ve geniş çaplı şiddet olaylarını tanımlamak için kullanılır ve maalesef tarihte ve güncel haberlerde karşımıza çıkan acı bir gerçektir. Tüyler ürpertici!",
     "options": [
-      "tip",
-      "base",
-      "core",
-      "summit"
+      "massacre",
+      "party",
+      "meeting",
+      "project"
     ],
-    "correctAnswer": "tip",
+    "correctAnswer": "massacre",
     "category": "CASUAL",
     "variations": [
-      "This argument is just the tip of the iceberg.",
-      "We've only seen the tip of the iceberg."
+      "The protestors were caught in a brutal _____ by the regime.",
+      "The historical records document a terrible _____ in the village."
     ]
   },
   {
-    "id": 126082612,
-    "type": "QUIZ_COMPLETION",
+    "id": 126082712,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "The government initiated a major _____ on organized crime.",
-    "translation": "Hükümet, organize suçlara karşı büyük bir operasyon başlattı.",
-    "context": "'Crackdown' kelimesi, bir hükümetin veya otoritenin yasa dışı veya istenmeyen bir faaliyeti sona erdirmek için uyguladığı sert önlemleri ve baskıyı ifade eder. 'Mass arrests' (toplu tutuklamalar) ve 'cyber-crime networks' (siber suç ağları) gibi haberlerde sıkça görülür. Genellikle bir sorunu kökten çözmek amacıyla yapılan, geniş çaplı ve kararlı eylemleri anlatır.",
+    "phrase": "A Bosnian Serb war _____ Mladić died aged 84.",
+    "translation": "Boşnak Sırp savaş suçlusu Mladić 84 yaşında öldü.",
+    "context": "'War criminal' (savaş suçlusu), savaş zamanında uluslararası hukuku ihlal eden, insanlığa karşı suçlar işleyen kişilere verilen addır. Bu kişiler, genellikle uluslararası mahkemelerde yargılanır ve insanlık dışı eylemlerinden dolayı ağır cezalar alırlar.",
     "options": [
-      "crackdown",
-      "negotiation",
-      "agreement",
-      "release"
+      "criminal",
+      "hero",
+      "leader",
+      "diplomat"
     ],
-    "correctAnswer": "crackdown",
+    "correctAnswer": "criminal",
     "category": "MIXED",
-    "variations": [
-      "There was a crackdown on drug trafficking.",
-      "The police launched a crackdown on hooligans."
-    ]
+    "variations": []
   }
 ]
