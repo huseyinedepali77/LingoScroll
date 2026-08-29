@@ -1,223 +1,232 @@
 [
   {
-    "id": 126082701,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "Where can you track flight prices and book hotels with AI?",
-    "translation": "AI ile uçuş fiyatlarını nerede takip edip otel rezervasyonu yapabilirsin?",
-    "context": "Seyahat planları yaparken Google'ın AI modu tam bir kurtarıcı! Uçak biletlerinin fiyatını anlık takip edip, en uygun otelleri bile sana bulup rezervasyon yaptırabilirsin. Hayatını kolaylaştıran bu özellik sayesinde tatilin tadını çıkar!",
-    "options": [
-      "Google's AI Mode",
-      "Social Media",
-      "News Websites",
-      "Sports Apps"
-    ],
-    "correctAnswer": "Google's AI Mode",
-    "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126082702,
+    "id": 126082901,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Kim joins Rangers in a £8.5M _____ deal.",
-    "translation": "Kim, 8.5 milyon sterlinlik bir transfer anlaşmasıyla Rangers'a katılıyor.",
-    "context": "Futbol dünyasında oyuncu transferleri sürekli gündemde! Bir takımın oyuncuyu kendi kadrosuna katmasına 'deal' yani 'anlaşma' denir. Bu terimi sadece sporda değil, iş dünyasında da sıkça duyarsın, mesela 'iş anlaşması' (business deal) gibi.",
+    "phrase": "I'm looking forward to the long _____ weekend next month.",
+    "translation": "Resmi tatil hafta sonu",
+    "context": "Bir 'bank holiday', yani resmi tatil günü, genellikle uzun bir hafta sonu demek. İngiltere'de insanlar bu tatillerde dinlenir, seyahat eder veya arkadaşlarıyla vakit geçirir. Tıpkı Kurban Bayramı veya 23 Nisan gibi düşünebilirsin!",
+    "options": [
+      "bank holiday",
+      "working",
+      "school",
+      "rainy"
+    ],
+    "correctAnswer": "bank holiday",
+    "category": "CASUAL",
+    "variations": [
+      "We often travel during the bank holiday.",
+      "Many shops close on a bank holiday."
+    ]
+  },
+  {
+    "id": 126082902,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The companies reached a new _____ after long negotiations.",
+    "translation": "Anlaşma, iş anlaşması",
+    "context": "'Deal' kelimesi iş dünyasında çok sık kullanılır. Anlaşma, sözleşme anlamına gelir. Bazen 'It's a deal!' dediğimizde 'Anlaştık!' demek isteriz. El sıkışma anı gibi düşün, ama kağıt üzerinde!",
     "options": [
       "deal",
-      "game",
-      "score",
-      "player"
+      "dream",
+      "delay",
+      "debt"
     ],
     "correctAnswer": "deal",
     "category": "BUSINESS",
     "variations": [
-      "The company made a great business _____ last month.",
-      "They signed a lucrative _____ to expand their services."
+      "They signed a major deal yesterday.",
+      "This new deal benefits everyone."
     ]
   },
   {
-    "id": 126082703,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "What do Norwegians do as King Harald's condition worsens?",
-    "translation": "Norveçliler, Kral Harald'ın durumu kötüleşirken ne yapıyor?",
-    "context": "Kraliyet ailesi üyelerinin sağlığı, halk için önemli bir konu. İnsanlar, sevdikleri bir lider veya ünlü kişi hastalandığında üzüntülerini ve desteklerini göstermek için çiçek bırakma gibi geleneksel yöntemleri kullanırlar. Bu, bir tür saygı ve sevgi gösterisidir.",
-    "options": [
-      "Lay flowers at the palace",
-      "Protest against the palace",
-      "Ignore the news",
-      "Go on vacation"
-    ],
-    "correctAnswer": "Lay flowers at the palace",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126082704,
+    "id": 126082903,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "A collapsed _____ likely caused the Nepal-Tibet floods.",
-    "translation": "Çöken bir buzul, Nepal-Tibet sel felaketlerine muhtemelen neden oldu.",
-    "context": "Buzullar, devasa buz kütleleridir ve dağlık bölgelerde bulunurlar. Küresel ısınma nedeniyle bazen bu buzullar eriyip çökerek korkunç sellere yol açabilir. Bu olaylar, dünyanın ekolojik dengesi için ciddi bir alarm zili!",
+    "phrase": "My parents were _____ the border when the storm hit.",
+    "translation": "Sınırı geçmek",
+    "context": "'Crossing the border', bir ülkeden diğerine geçmek demek. Bazen pasaport kontrolüyle, bazen ise sadece bir kapıdan geçerek yapılır. Sınırda heyecan her zaman vardır, sanki bir maceraya atılıyormuş gibi!",
     "options": [
-      "glacier",
-      "mountain",
-      "river",
-      "forest"
+      "crossing",
+      "jumping",
+      "walking",
+      "passing"
     ],
-    "correctAnswer": "glacier",
-    "category": "MIXED",
-    "variations": [
-      "The scientists studied the melting _____ in the Arctic.",
-      "A huge chunk of the _____ broke off into the sea."
-    ]
-  },
-  {
-    "id": 126082705,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Dozens of citizens went _____ after the flash flooding in Nepal.",
-    "translation": "Nepal'deki ani selden sonra düzinelerce vatandaş kayboldu.",
-    "context": "'Go missing' (kaybolmak), bir kişinin veya bir şeyin bulunamaması, ortadan kaybolması durumudur. Felaket anlarında bu durum, özellikle sevdiklerinizin nerede olduğunu bilmemek en büyük acılardan biridir.",
-    "options": [
-      "missing",
-      "found",
-      "home",
-      "back"
-    ],
-    "correctAnswer": "missing",
+    "correctAnswer": "crossing",
     "category": "TRAVEL",
     "variations": [
-      "The child went _____ during the crowded festival.",
-      "Search teams are still looking for the hikers who went _____."
+      "You need your passport for crossing the border.",
+      "We enjoyed crossing the border by train."
     ]
   },
   {
-    "id": 126082706,
+    "id": 126082904,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "What kind of robot is Hugging Face's Microduck?",
-    "translation": "Hugging Face'in Microduck'ı ne tür bir robot?",
-    "context": "'Open-source' (açık kaynak), yazılım veya donanımın tasarımının herkes tarafından serbestçe erişilebildiği, değiştirilebildiği ve dağıtılabildiği anlamına gelir. Bu, teknoloji dünyasında işbirliğini ve inovasyonu teşvik eden harika bir yaklaşımdır! Böylece herkes ürünü kendi ihtiyaçlarına göre geliştirebilir.",
+    "level": "BEGINNER",
+    "phrase": "Hangi kelime 'güçlü rüzgar' anlamına gelir?",
+    "translation": "Şiddetli rüzgarlar",
+    "context": "'Strong winds', yani şiddetli rüzgarlar, havayı biraz karıştırabilir! Şemsiyeleri ters çeviren, saçları darmadağın eden rüzgarlardan bahsediyoruz. Bazen fırtına habercisidirler, dikkat etmek lazım!",
     "options": [
-      "An open-source duck robot",
-      "A closed-source fighting robot",
-      "A secret government robot",
-      "A commercial cleaning robot"
+      "light breeze",
+      "gentle air",
+      "strong winds",
+      "soft air"
     ],
-    "correctAnswer": "An open-source duck robot",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126082707,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Jablonec vs Rangers _____! Fans are excited for the game.",
-    "translation": "Jablonec ve Rangers CANLI! Taraftarlar maç için heyecanlı.",
-    "context": "Maç yayınlarında 'LIVE!' (canlı!), o an yaşanan bir olayın kesintisiz ve gerçek zamanlı olarak yayınlandığını gösterir. Futbol, basketbol veya dart fark etmez, canlı yayınlar sayesinde sporu ve heyecanı anında evimize getiririz!",
-    "options": [
-      "LIVE",
-      "PLAY",
-      "STOP",
-      "GO"
-    ],
-    "correctAnswer": "LIVE",
-    "category": "CASUAL",
-    "variations": [
-      "The concert will be streamed _____ on YouTube.",
-      "Breaking news is coming in _____ from the scene."
-    ]
-  },
-  {
-    "id": 126082708,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Michael Sheen hopes the reaction to the toxic waste documentary will spur _____",
-    "translation": "Michael Sheen, zehirli atık belgeseline verilen tepkinin eylemi teşvik edeceğini umuyor.",
-    "context": "'Spur action' (eylemi teşvik etmek), bir durum veya olayın insanları harekete geçirmesi, somut adımlar atmaya yönlendirmesi demektir. Özellikle çevre sorunları gibi konularda belgeseller ve kamuoyu tepkileri, değişimi tetikleyen önemli faktörlerdir.",
-    "options": [
-      "action",
-      "laughter",
-      "boredom",
-      "sleep"
-    ],
-    "correctAnswer": "action",
+    "correctAnswer": "strong winds",
     "category": "MIXED",
     "variations": []
   },
   {
-    "id": 126082709,
+    "id": 126082905,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The 'devastating' Nepal floods caused widespread _____ and loss.",
-    "translation": "'Yıkıcı' Nepal selleri geniş çaplı yıkıma ve kayıplara neden oldu.",
-    "context": "'Devastating' (yıkıcı, harap edici), büyük çaplı ve çok kötü sonuçları olan bir olayı tanımlamak için kullanılır. Özellikle doğal afetler veya savaşlar gibi durumlarda, yarattığı yıkımı ve acıyı vurgulamak için bu kelimeyi tercih ederiz. Çok acı bir durum, değil mi?",
+    "level": "INTERMEDIATE",
+    "phrase": "Robots could become the next big _____ for manufacturers.",
+    "translation": "Kâr makinesi",
+    "context": "'Profit machine' dediğimiz şey, bir şirket için sürekli ve büyük kazanç sağlayan bir ürün, hizmet veya teknoloji anlamına gelir. Tıpkı para basan bir makine gibi! Akıllı yatırımlar veya yenilikçi ürünler şirketleri 'profit machine'e dönüştürebilir.",
     "options": [
-      "destruction",
-      "happiness",
-      "growth",
-      "recovery"
+      "profit machine",
+      "toy maker",
+      "data center",
+      "robot worker"
     ],
-    "correctAnswer": "destruction",
-    "category": "TRAVEL",
+    "correctAnswer": "profit machine",
+    "category": "BUSINESS",
     "variations": [
-      "The earthquake caused _____ damage to the city.",
-      "His words had a _____ effect on her confidence."
+      "Their new software is a real profit machine.",
+      "We need to find our next profit machine."
     ]
   },
   {
-    "id": 126082710,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Tottenham signed Marmoush on loan with an _____ to buy.",
-    "translation": "Tottenham, Marmoush'u satın alma yükümlülüğü ile kiralık olarak transfer etti.",
-    "context": "Futbolda 'obligation to buy' (satın alma yükümlülüğü), bir oyuncuyu kiralayan kulübün, belirli şartlar (örneğin, belirli sayıda maça çıkması veya takımın ligde kalması) yerine geldiğinde oyuncuyu kalıcı olarak satın almak zorunda olduğu anlamına gelir. Bu, bir nevi 'şartlı zorunlu satın alma' anlaşmasıdır ve kulüpler için finansal planlama açısından önemlidir.",
+    "id": 126082906,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Authorities issued a _____ over the dangerous weather.",
+    "translation": "Kırmızı Alarm",
+    "context": "'Red Alert', yani 'Kırmızı Alarm', tehlikenin çok ciddi ve acil olduğunu belirtir. Tıpkı bir felaket veya büyük bir tehdit durumunda olduğu gibi. Eğer bir 'Red Alert' görürsen, durumu ciddiye alıp tedbirli olmalısın!",
     "options": [
-      "obligation",
-      "option",
-      "permission",
-      "request"
+      "Red Alert",
+      "blue sky",
+      "green light",
+      "yellow flag"
     ],
-    "correctAnswer": "obligation",
-    "category": "BUSINESS",
+    "correctAnswer": "Red Alert",
+    "category": "CASUAL",
+    "variations": [
+      "The town was on a Red Alert due to the wildfire.",
+      "A Red Alert means everyone must evacuate."
+    ]
+  },
+  {
+    "id": 126082907,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Bölgedeki tehlike nedeniyle insanların güvenli bir yere taşınması eylemine ne denir?",
+    "translation": "Tahliye etmek",
+    "context": "'Evacuate', tehlikeli bir bölgeden insanları veya eşyaları güvenli bir yere taşımak anlamına gelir. Bir sel, yangın veya başka bir afet durumunda sıklıkla duyarız. Hayat kurtaran bir eylemdir!",
+    "options": [
+      "celebrate",
+      "decorate",
+      "evacuate",
+      "operate"
+    ],
+    "correctAnswer": "evacuate",
+    "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126082711,
+    "id": 126082908,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The teen planned a middle school _____ before killing his mom.",
-    "translation": "Genç, annesini öldürmeden önce bir ortaokul katliamı planladı.",
-    "context": "'Massacre' (katliam), çok sayıda insanın vahşice öldürülmesi anlamına gelir. Bu kelime, genellikle korkunç ve geniş çaplı şiddet olaylarını tanımlamak için kullanılır ve maalesef tarihte ve güncel haberlerde karşımıza çıkan acı bir gerçektir. Tüyler ürpertici!",
+    "level": "INTERMEDIATE",
+    "phrase": "He just _____ a new gym membership.",
+    "translation": "Kaydolmak, üye olmak",
+    "context": "'Sign up for' bir şeye kaydolmak, üye olmak veya katılmak demektir. Bir kursa, bir etkinliğe veya bir hizmete kayıt olurken kullanırız. Tıpkı bir F1 pilotunun yeni bir takıma imza atması gibi, ama daha az adrenalinli!",
     "options": [
-      "massacre",
-      "party",
-      "meeting",
-      "project"
+      "signed up for",
+      "signed off",
+      "signed out",
+      "signed in"
     ],
-    "correctAnswer": "massacre",
-    "category": "CASUAL",
+    "correctAnswer": "signed up for",
+    "category": "MIXED",
     "variations": [
-      "The protestors were caught in a brutal _____ by the regime.",
-      "The historical records document a terrible _____ in the village."
+      "Did you sign up for the newsletter?",
+      "She signed up for the marathon last week."
     ]
   },
   {
-    "id": 126082712,
+    "id": 126082909,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The startup aims to _____ 10 million dollars in funding.",
+    "translation": "Elde etmek, güvence altına almak",
+    "context": "'Secure', genellikle büyük miktarda para, anlaşma veya bir pozisyon elde etmek, güvence altına almak anlamına gelir. Tıpkı bir şirketin yatırımcıdan para 'secure' etmesi gibi. Bu kelime, iş dünyasında başarıyla bir şeyi tamamlamayı ifade eder. Yani, kaptın parayı!",
+    "options": [
+      "secure",
+      "lose",
+      "forget",
+      "spend"
+    ],
+    "correctAnswer": "secure",
+    "category": "BUSINESS",
+    "variations": [
+      "They need to secure more capital.",
+      "We will secure the new contract next month."
+    ]
+  },
+  {
+    "id": 126082910,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The mayor _____ the volunteers for their hard work.",
+    "translation": "Övmek, alkışlamak",
+    "context": "'Hail', bir kişiyi veya başarıyı coşkuyla övmek, alkışlamak veya selamlamak demektir. Tıpkı bir kahramanı 'hail' etmek gibi. Genellikle resmi veya önemli bir başarıyı takdir etmek için kullanılır. Tam bir 'Helal olsun!' anı.",
+    "options": [
+      "hailed",
+      "criticized",
+      "ignored",
+      "forgot"
+    ],
+    "correctAnswer": "hailed",
+    "category": "CASUAL",
+    "variations": [
+      "Critics hailed the new film as a masterpiece.",
+      "The crowd hailed the winning team."
+    ]
+  },
+  {
+    "id": 126082911,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The news channel showed graphic _____ of the disaster.",
+    "translation": "Görüntüler, kayıtlar",
+    "context": "'Footage', bir olay veya durumla ilgili çekilmiş video veya film kayıtlarına denir. Haberlerde, belgesellerde sıkça görürüz. Tıpkı Tibet'teki sel felaketinin görüntüleri gibi, gerçekleri gözler önüne serer.",
+    "options": [
+      "footage",
+      "feelings",
+      "furniture",
+      "fiction"
+    ],
+    "correctAnswer": "footage",
+    "category": "TRAVEL",
+    "variations": [
+      "Police reviewed the security footage.",
+      "Rare historical footage was discovered."
+    ]
+  },
+  {
+    "id": 126082912,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "A Bosnian Serb war _____ Mladić died aged 84.",
-    "translation": "Boşnak Sırp savaş suçlusu Mladić 84 yaşında öldü.",
-    "context": "'War criminal' (savaş suçlusu), savaş zamanında uluslararası hukuku ihlal eden, insanlığa karşı suçlar işleyen kişilere verilen addır. Bu kişiler, genellikle uluslararası mahkemelerde yargılanır ve insanlık dışı eylemlerinden dolayı ağır cezalar alırlar.",
+    "phrase": "Yapay zekanın kendi kendini geliştirme yeteneğini ifade eden terim hangisidir?",
+    "translation": "Kendi kendini geliştiren yapay zeka",
+    "context": "'Self-improving AI', yani 'kendi kendini geliştiren yapay zeka', geleceğin teknolojisinde önemli bir rol oynayacak. Bu, bir yapay zekanın zamanla kendi performansını ve yeteneklerini artırabileceği anlamına gelir. Tıpkı bir öğrencinin ders çalıştıkça daha iyi olması gibi, ama çok daha hızlı ve akıllı!",
     "options": [
-      "criminal",
-      "hero",
-      "leader",
-      "diplomat"
+      "simple AI",
+      "smart AI",
+      "self-improving AI",
+      "basic AI"
     ],
-    "correctAnswer": "criminal",
+    "correctAnswer": "self-improving AI",
     "category": "MIXED",
     "variations": []
   }
