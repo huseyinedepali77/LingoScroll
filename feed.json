@@ -1,233 +1,233 @@
 [
   {
-    "id": 126082901,
+    "id": 126083001,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "I'm looking forward to the long _____ weekend next month.",
-    "translation": "Resmi tatil hafta sonu",
-    "context": "Bir 'bank holiday', yani resmi tatil günü, genellikle uzun bir hafta sonu demek. İngiltere'de insanlar bu tatillerde dinlenir, seyahat eder veya arkadaşlarıyla vakit geçirir. Tıpkı Kurban Bayramı veya 23 Nisan gibi düşünebilirsin!",
-    "options": [
-      "bank holiday",
-      "working",
-      "school",
-      "rainy"
-    ],
-    "correctAnswer": "bank holiday",
-    "category": "CASUAL",
-    "variations": [
-      "We often travel during the bank holiday.",
-      "Many shops close on a bank holiday."
-    ]
-  },
-  {
-    "id": 126082902,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The companies reached a new _____ after long negotiations.",
-    "translation": "Anlaşma, iş anlaşması",
-    "context": "'Deal' kelimesi iş dünyasında çok sık kullanılır. Anlaşma, sözleşme anlamına gelir. Bazen 'It's a deal!' dediğimizde 'Anlaştık!' demek isteriz. El sıkışma anı gibi düşün, ama kağıt üzerinde!",
-    "options": [
-      "deal",
-      "dream",
-      "delay",
-      "debt"
-    ],
-    "correctAnswer": "deal",
-    "category": "BUSINESS",
-    "variations": [
-      "They signed a major deal yesterday.",
-      "This new deal benefits everyone."
-    ]
-  },
-  {
-    "id": 126082903,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "My parents were _____ the border when the storm hit.",
+    "phrase": "Our parents were _____ the border when the flood hit.",
     "translation": "Sınırı geçmek",
-    "context": "'Crossing the border', bir ülkeden diğerine geçmek demek. Bazen pasaport kontrolüyle, bazen ise sadece bir kapıdan geçerek yapılır. Sınırda heyecan her zaman vardır, sanki bir maceraya atılıyormuş gibi!",
+    "context": "Sınır kapılarından geçerken, bir ülkeden diğerine geçerken kullanılan bu ifade, seyahat ederken sıkça karşımıza çıkar. Sanki filmlerdeki kaçaklar gibi değil, pasaport kontrolünden geçmek gibi düşün!",
     "options": [
       "crossing",
-      "jumping",
       "walking",
-      "passing"
+      "passing",
+      "running"
     ],
     "correctAnswer": "crossing",
     "category": "TRAVEL",
     "variations": [
-      "You need your passport for crossing the border.",
-      "We enjoyed crossing the border by train."
+      "Many people are still crossing the border for work.",
+      "Are you crossing the border today?"
     ]
   },
   {
-    "id": 126082904,
+    "id": 126083002,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Chelsea will soon _____ a £7.5m deal for the player.",
+    "translation": "Anlaşma imzalamak",
+    "context": "Bir iş bitince, bir satış olunca veya bir oyuncu transferinde, kağıt üzerine atılan o sihirli imzaya denir. Sanki okulda deftere 'evet' yazmak gibi ama çok daha büyük paraların döndüğü bir 'evet' bu!",
+    "options": [
+      "sign",
+      "write",
+      "make",
+      "agree"
+    ],
+    "correctAnswer": "sign",
+    "category": "BUSINESS",
+    "variations": [
+      "They hope to sign a new deal next week.",
+      "Did you sign the deal with the new supplier?"
+    ]
+  },
+  {
+    "id": 126083003,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "Hangi kelime 'güçlü rüzgar' anlamına gelir?",
+    "phrase": "Aşağıdaki kelimelerden hangisi 'şahane' veya 'harika' anlamlarına gelir?",
+    "translation": "Amazing: Şahane, harika",
+    "context": "Bir şeyi çok beğendiğimizde, şaşırdığımızda veya çok iyi bulduğumuzda söyleriz. Mesela, en sevdiğin yemeği tattığında, 'Bu pizza amazing!' diyebilirsin. Süper kahramanların maceraları da amazing olur genellikle.",
+    "options": [
+      "terrible",
+      "bad",
+      "amazing",
+      "boring"
+    ],
+    "correctAnswer": "amazing",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126083004,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Heavy _____ are causing major problems in the region.",
+    "translation": "Seller, su baskınları",
+    "context": "Çok yağmur yağdığında veya bir nehir taştığında her yerin su altında kalmasına denir. Sanki banyo taşmış da tüm eve su dolmuş gibi ama çok daha büyük ve tehlikeli hali. Haberlerde sıkça duyduğumuz üzücü bir olaydır.",
+    "options": [
+      "rains",
+      "storms",
+      "floods",
+      "droughts"
+    ],
+    "correctAnswer": "floods",
+    "category": "MIXED",
+    "variations": [
+      "The town was severely affected by the floods.",
+      "Are there any floods expected this week?"
+    ]
+  },
+  {
+    "id": 126083005,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Hundreds were _____ after the strike on the depot.",
+    "translation": "Tahliye edilmiş, boşaltılmış",
+    "context": "Tehlikeli bir durum olduğunda, insanların güvenli bir yere taşınmasıdır. Yangın alarmı çaldığında binayı boşaltmamız gibi düşünebilirsin. Depodaki patlama sonrası insanların güvenli yere gönderilmesi gibi. 'Herkes dışarı!' komutunun daha resmi hali.",
+    "options": [
+      "rescued",
+      "evacuated",
+      "transported",
+      "relocated"
+    ],
+    "correctAnswer": "evacuated",
+    "category": "TRAVEL",
+    "variations": [
+      "The building was evacuated due to a fire.",
+      "They evacuated the area immediately."
+    ]
+  },
+  {
+    "id": 126083006,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Bir şirketin patentli ürününü veya fikrini izinsiz kopyalaması, aşağıdaki terimlerden hangisiyle ifade edilir?",
+    "translation": "Intellectual property theft: Fikri mülkiyet hırsızlığı",
+    "context": "Bir yazarın kitabını, bir müzisyenin şarkısını veya bir mucidin buluşunu izinsiz kopyalayıp kendi eserinmiş gibi göstermektir. Sanki arkadaşının ödevini kopyalamışsın ama bu sefer çok daha ciddi ve yasal sonuçları olan bir 'kopyala-yapıştır' olayı.",
+    "options": [
+      "market research",
+      "brand promotion",
+      "intellectual property theft",
+      "product development"
+    ],
+    "correctAnswer": "intellectual property theft",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126083007,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Police have launched a _____ after the shooting incident.",
+    "translation": "İnsan avı, kaçak araması",
+    "context": "Bir suçlu kaçtığında polisin onu bulmak için başlattığı büyük çaplı arama operasyonuna denir. Sanki bir saklambaç oyunu gibi ama bu sefer canavar peşinde değil, bir suçlu peşinde tüm polis teşkilatı.",
+    "options": [
+      "search party",
+      "manhunt",
+      "investigation",
+      "raid"
+    ],
+    "correctAnswer": "manhunt",
+    "category": "CASUAL",
+    "variations": [
+      "The manhunt continued for days.",
+      "A global manhunt is underway."
+    ]
+  },
+  {
+    "id": 126083008,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "We expect thunderstorms and _____ winds today.",
     "translation": "Şiddetli rüzgarlar",
-    "context": "'Strong winds', yani şiddetli rüzgarlar, havayı biraz karıştırabilir! Şemsiyeleri ters çeviren, saçları darmadağın eden rüzgarlardan bahsediyoruz. Bazen fırtına habercisidirler, dikkat etmek lazım!",
+    "context": "Rüzgarın bir anda hızlanıp her şeyi uçurmaya çalışması durumudur. Hani bazen şemsiyeni ters çeviren, saçını başını dağıtan o rüzgar var ya, işte tam olarak o! Hava durumu sunucularının 'dikkatli olun' dediği rüzgar çeşidi.",
     "options": [
-      "light breeze",
-      "gentle air",
-      "strong winds",
-      "soft air"
+      "light",
+      "strong",
+      "gusty",
+      "gentle"
     ],
-    "correctAnswer": "strong winds",
-    "category": "MIXED",
-    "variations": []
-  },
-  {
-    "id": 126082905,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Robots could become the next big _____ for manufacturers.",
-    "translation": "Kâr makinesi",
-    "context": "'Profit machine' dediğimiz şey, bir şirket için sürekli ve büyük kazanç sağlayan bir ürün, hizmet veya teknoloji anlamına gelir. Tıpkı para basan bir makine gibi! Akıllı yatırımlar veya yenilikçi ürünler şirketleri 'profit machine'e dönüştürebilir.",
-    "options": [
-      "profit machine",
-      "toy maker",
-      "data center",
-      "robot worker"
-    ],
-    "correctAnswer": "profit machine",
-    "category": "BUSINESS",
-    "variations": [
-      "Their new software is a real profit machine.",
-      "We need to find our next profit machine."
-    ]
-  },
-  {
-    "id": 126082906,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Authorities issued a _____ over the dangerous weather.",
-    "translation": "Kırmızı Alarm",
-    "context": "'Red Alert', yani 'Kırmızı Alarm', tehlikenin çok ciddi ve acil olduğunu belirtir. Tıpkı bir felaket veya büyük bir tehdit durumunda olduğu gibi. Eğer bir 'Red Alert' görürsen, durumu ciddiye alıp tedbirli olmalısın!",
-    "options": [
-      "Red Alert",
-      "blue sky",
-      "green light",
-      "yellow flag"
-    ],
-    "correctAnswer": "Red Alert",
-    "category": "CASUAL",
-    "variations": [
-      "The town was on a Red Alert due to the wildfire.",
-      "A Red Alert means everyone must evacuate."
-    ]
-  },
-  {
-    "id": 126082907,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Bölgedeki tehlike nedeniyle insanların güvenli bir yere taşınması eylemine ne denir?",
-    "translation": "Tahliye etmek",
-    "context": "'Evacuate', tehlikeli bir bölgeden insanları veya eşyaları güvenli bir yere taşımak anlamına gelir. Bir sel, yangın veya başka bir afet durumunda sıklıkla duyarız. Hayat kurtaran bir eylemdir!",
-    "options": [
-      "celebrate",
-      "decorate",
-      "evacuate",
-      "operate"
-    ],
-    "correctAnswer": "evacuate",
-    "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126082908,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "He just _____ a new gym membership.",
-    "translation": "Kaydolmak, üye olmak",
-    "context": "'Sign up for' bir şeye kaydolmak, üye olmak veya katılmak demektir. Bir kursa, bir etkinliğe veya bir hizmete kayıt olurken kullanırız. Tıpkı bir F1 pilotunun yeni bir takıma imza atması gibi, ama daha az adrenalinli!",
-    "options": [
-      "signed up for",
-      "signed off",
-      "signed out",
-      "signed in"
-    ],
-    "correctAnswer": "signed up for",
+    "correctAnswer": "gusty",
     "category": "MIXED",
     "variations": [
-      "Did you sign up for the newsletter?",
-      "She signed up for the marathon last week."
+      "Gusty winds made it difficult to walk.",
+      "Be careful, gusty winds are predicted."
     ]
   },
   {
-    "id": 126082909,
+    "id": 126083009,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The startup aims to _____ 10 million dollars in funding.",
-    "translation": "Elde etmek, güvence altına almak",
-    "context": "'Secure', genellikle büyük miktarda para, anlaşma veya bir pozisyon elde etmek, güvence altına almak anlamına gelir. Tıpkı bir şirketin yatırımcıdan para 'secure' etmesi gibi. Bu kelime, iş dünyasında başarıyla bir şeyi tamamlamayı ifade eder. Yani, kaptın parayı!",
+    "phrase": "The risk of a lake burst near the border site _____.",
+    "translation": "Azalmak, zayıflamak",
+    "context": "Bir şeyin etkisinin veya yoğunluğunun zamanla azalması, zayıflaması anlamına gelir. Dolunay'ın yavaş yavaş küçülüp hilal olması gibi düşün. Haberlerde kötü bir durumun riskinin azalması için kullanılır. 'Oh be, rahatladık!' dedirten bir kelime.",
     "options": [
-      "secure",
-      "lose",
-      "forget",
-      "spend"
+      "increases",
+      "intensifies",
+      "wanes",
+      "stabilizes"
     ],
-    "correctAnswer": "secure",
-    "category": "BUSINESS",
-    "variations": [
-      "They need to secure more capital.",
-      "We will secure the new contract next month."
-    ]
-  },
-  {
-    "id": 126082910,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The mayor _____ the volunteers for their hard work.",
-    "translation": "Övmek, alkışlamak",
-    "context": "'Hail', bir kişiyi veya başarıyı coşkuyla övmek, alkışlamak veya selamlamak demektir. Tıpkı bir kahramanı 'hail' etmek gibi. Genellikle resmi veya önemli bir başarıyı takdir etmek için kullanılır. Tam bir 'Helal olsun!' anı.",
-    "options": [
-      "hailed",
-      "criticized",
-      "ignored",
-      "forgot"
-    ],
-    "correctAnswer": "hailed",
-    "category": "CASUAL",
-    "variations": [
-      "Critics hailed the new film as a masterpiece.",
-      "The crowd hailed the winning team."
-    ]
-  },
-  {
-    "id": 126082911,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The news channel showed graphic _____ of the disaster.",
-    "translation": "Görüntüler, kayıtlar",
-    "context": "'Footage', bir olay veya durumla ilgili çekilmiş video veya film kayıtlarına denir. Haberlerde, belgesellerde sıkça görürüz. Tıpkı Tibet'teki sel felaketinin görüntüleri gibi, gerçekleri gözler önüne serer.",
-    "options": [
-      "footage",
-      "feelings",
-      "furniture",
-      "fiction"
-    ],
-    "correctAnswer": "footage",
+    "correctAnswer": "wanes",
     "category": "TRAVEL",
     "variations": [
-      "Police reviewed the security footage.",
-      "Rare historical footage was discovered."
+      "Her enthusiasm for the project slowly wanes.",
+      "The moon wanes after being full."
     ]
   },
   {
-    "id": 126082912,
+    "id": 126083010,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Spurs and Everton are in _____ over player transfers.",
+    "translation": "İleri düzey görüşmeler",
+    "context": "İki tarafın bir anlaşma yapmak üzere neredeyse son aşamaya geldiği, detayları konuştuğu görüşmelerdir. 'Çay kahve muhabbetini geçtik, artık işi bitirme zamanı' kıvamındaki toplantılar diyebiliriz. Büyük transferlerin habercisidir.",
+    "options": [
+      "early talks",
+      "informal talks",
+      "advanced talks",
+      "public talks"
+    ],
+    "correctAnswer": "advanced talks",
+    "category": "BUSINESS",
+    "variations": [
+      "The companies are in advanced talks for a merger.",
+      "They hope to finalize the deal after advanced talks."
+    ]
+  },
+  {
+    "id": 126083011,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Yapay zekanın kendi kendini geliştirme yeteneğini ifade eden terim hangisidir?",
-    "translation": "Kendi kendini geliştiren yapay zeka",
-    "context": "'Self-improving AI', yani 'kendi kendini geliştiren yapay zeka', geleceğin teknolojisinde önemli bir rol oynayacak. Bu, bir yapay zekanın zamanla kendi performansını ve yeteneklerini artırabileceği anlamına gelir. Tıpkı bir öğrencinin ders çalıştıkça daha iyi olması gibi, ama çok daha hızlı ve akıllı!",
+    "phrase": "Hollywood yıldızlarının popülerleşen ve kısa, yoğun hikayeler sunan mobil uygulamalara yatırım yapması, hangi terimle açıklanır?",
+    "translation": "Microdrama apps: Mikro-drama uygulamaları",
+    "context": "Sosyal medyada gördüğümüz kısa, genellikle aşırı abartılı ve hızlıca gelişen hikayecikler gibi ama bu sefer profesyonelce çekilmiş mobil diziler gibi düşün. Akşam dizilerini beklemek yerine, otobüste 5 dakikada bir mini hikaye izlemek için birebir. Tamamen yeni bir eğlence trendi!",
     "options": [
-      "simple AI",
-      "smart AI",
-      "self-improving AI",
-      "basic AI"
+      "gaming platforms",
+      "e-commerce sites",
+      "microdrama apps",
+      "educational tools"
     ],
-    "correctAnswer": "self-improving AI",
-    "category": "MIXED",
+    "correctAnswer": "microdrama apps",
+    "category": "CASUAL",
     "variations": []
+  },
+  {
+    "id": 126083012,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The academic was accused of _____ in his research.",
+    "translation": "İntihal, aşırma",
+    "context": "Başka birinin yazısını, fikrini veya eserini sanki kendi eserinmiş gibi gösterme, çalma durumudur. Okulda ödev kopyalamak gibi ama çok daha ciddi sonuçları olan, kariyer bitirici bir durum. 'Alıntı yaptım' demek yerine 'ben yaptım' demenin bedeli ağır oluyor.",
+    "options": [
+      "research",
+      "collaboration",
+      "plagiarism",
+      "innovation"
+    ],
+    "correctAnswer": "plagiarism",
+    "category": "MIXED",
+    "variations": [
+      "Plagiarism is a serious offense in academia.",
+      "Always cite your sources to avoid plagiarism."
+    ]
   }
 ]
