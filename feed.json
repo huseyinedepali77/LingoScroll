@@ -1,233 +1,224 @@
 [
   {
-    "id": 126083001,
+    "id": 126083101,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Our parents were _____ the border when the flood hit.",
-    "translation": "Sınırı geçmek",
-    "context": "Sınır kapılarından geçerken, bir ülkeden diğerine geçerken kullanılan bu ifade, seyahat ederken sıkça karşımıza çıkar. Sanki filmlerdeki kaçaklar gibi değil, pasaport kontrolünden geçmek gibi düşün!",
+    "phrase": "The police _____ a man after the Swiss rave shooting.",
+    "translation": "arrested: tutukladı",
+    "context": "'Arrest' kelimesi, bir suç işlediği şüphelenilen birinin polis tarafından yakalanıp gözaltına alınması anlamına gelir. Yani, kelepçelenip karakola götürülme durumu gibi düşünebilirsin. Haberlerde sıkça rastlarsın, 'arrested' ise bu eylemin geçmiş halidir. Hukuk ve adalet konularında bilmen gereken temel bir fiil!",
     "options": [
-      "crossing",
-      "walking",
-      "passing",
-      "running"
-    ],
-    "correctAnswer": "crossing",
-    "category": "TRAVEL",
-    "variations": [
-      "Many people are still crossing the border for work.",
-      "Are you crossing the border today?"
-    ]
-  },
-  {
-    "id": 126083002,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Chelsea will soon _____ a £7.5m deal for the player.",
-    "translation": "Anlaşma imzalamak",
-    "context": "Bir iş bitince, bir satış olunca veya bir oyuncu transferinde, kağıt üzerine atılan o sihirli imzaya denir. Sanki okulda deftere 'evet' yazmak gibi ama çok daha büyük paraların döndüğü bir 'evet' bu!",
-    "options": [
-      "sign",
-      "write",
-      "make",
-      "agree"
-    ],
-    "correctAnswer": "sign",
-    "category": "BUSINESS",
-    "variations": [
-      "They hope to sign a new deal next week.",
-      "Did you sign the deal with the new supplier?"
-    ]
-  },
-  {
-    "id": 126083003,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "Aşağıdaki kelimelerden hangisi 'şahane' veya 'harika' anlamlarına gelir?",
-    "translation": "Amazing: Şahane, harika",
-    "context": "Bir şeyi çok beğendiğimizde, şaşırdığımızda veya çok iyi bulduğumuzda söyleriz. Mesela, en sevdiğin yemeği tattığında, 'Bu pizza amazing!' diyebilirsin. Süper kahramanların maceraları da amazing olur genellikle.",
-    "options": [
-      "terrible",
-      "bad",
-      "amazing",
-      "boring"
-    ],
-    "correctAnswer": "amazing",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126083004,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Heavy _____ are causing major problems in the region.",
-    "translation": "Seller, su baskınları",
-    "context": "Çok yağmur yağdığında veya bir nehir taştığında her yerin su altında kalmasına denir. Sanki banyo taşmış da tüm eve su dolmuş gibi ama çok daha büyük ve tehlikeli hali. Haberlerde sıkça duyduğumuz üzücü bir olaydır.",
-    "options": [
-      "rains",
-      "storms",
-      "floods",
-      "droughts"
-    ],
-    "correctAnswer": "floods",
-    "category": "MIXED",
-    "variations": [
-      "The town was severely affected by the floods.",
-      "Are there any floods expected this week?"
-    ]
-  },
-  {
-    "id": 126083005,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Hundreds were _____ after the strike on the depot.",
-    "translation": "Tahliye edilmiş, boşaltılmış",
-    "context": "Tehlikeli bir durum olduğunda, insanların güvenli bir yere taşınmasıdır. Yangın alarmı çaldığında binayı boşaltmamız gibi düşünebilirsin. Depodaki patlama sonrası insanların güvenli yere gönderilmesi gibi. 'Herkes dışarı!' komutunun daha resmi hali.",
-    "options": [
+      "arrested",
+      "helped",
       "rescued",
-      "evacuated",
-      "transported",
-      "relocated"
+      "greeted"
     ],
-    "correctAnswer": "evacuated",
-    "category": "TRAVEL",
+    "correctAnswer": "arrested",
+    "category": "CASUAL",
     "variations": [
-      "The building was evacuated due to a fire.",
-      "They evacuated the area immediately."
+      "The suspect was arrested for theft.",
+      "Police often arrest people in crime movies."
     ]
   },
   {
-    "id": 126083006,
+    "id": 126083102,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Bir şirketin patentli ürününü veya fikrini izinsiz kopyalaması, aşağıdaki terimlerden hangisiyle ifade edilir?",
-    "translation": "Intellectual property theft: Fikri mülkiyet hırsızlığı",
-    "context": "Bir yazarın kitabını, bir müzisyenin şarkısını veya bir mucidin buluşunu izinsiz kopyalayıp kendi eserinmiş gibi göstermektir. Sanki arkadaşının ödevini kopyalamışsın ama bu sefer çok daha ciddi ve yasal sonuçları olan bir 'kopyala-yapıştır' olayı.",
+    "level": "BEGINNER",
+    "phrase": "Hangi kelime 'bir rekoru kırmak' anlamına gelir?",
+    "translation": "broke a record: rekor kırdı",
+    "context": "Spor dünyasında veya herhangi bir alanda, daha önce kimsenin ulaşamadığı bir başarıyı elde ettiğinde 'break a record' denir. Yani, çıtayı yükseltmek, yeni bir zirveye ulaşmak! Mesela Usain Bolt'un koşu rekorlarını kırması gibi. Çok havalı bir başarıyı ifade eder, aklında bulunsun!",
     "options": [
-      "market research",
-      "brand promotion",
-      "intellectual property theft",
-      "product development"
+      "broke a record",
+      "made a mistake",
+      "won a game",
+      "lost a point"
     ],
-    "correctAnswer": "intellectual property theft",
+    "correctAnswer": "broke a record",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126083103,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "A ferry _____ off northern Cyprus, causing many to go missing.",
+    "translation": "capsizes: alabora olmak, batmak",
+    "context": "Bir tekne ya da geminin denizde ters dönerek batması durumuna 'capsize' denir. Resmen alabora olmak! Genellikle kötü hava koşulları veya dengesiz yükleme sonucu meydana gelir. Haberlerde böyle bir olayı okuduğunda, feribotun suya battığını anlarsın. Denizde dikkatli olmak şart!",
+    "options": [
+      "capsizes",
+      "lands",
+      "parks",
+      "sails"
+    ],
+    "correctAnswer": "capsizes",
+    "category": "TRAVEL",
+    "variations": [
+      "The small boat capsized in the heavy storm.",
+      "Be careful, the kayak might capsize!"
+    ]
+  },
+  {
+    "id": 126083104,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "Teknoloji haberlerinde geçen 'sustainability' kelimesi ne anlama gelir?",
+    "translation": "sustainability: sürdürülebilirlik",
+    "context": "'Sustainability', özellikle son yıllarda çevre bilincinin artmasıyla çok popüler hale gelen bir kelime. Kısaca, mevcut kaynakları tüketmeden, gelecek nesillerin ihtiyaçlarını da karşılayacak şekilde yaşam ve üretim biçimleri geliştirmek demek. 'Sürdürülebilirlik' deyince akla hemen çevre dostu çözümler gelmeli. Geleceğimiz için çok önemli bir kavram!",
+    "options": [
+      "Hız",
+      "Sürdürülebilirlik",
+      "Verimlilik",
+      "Yenilik"
+    ],
+    "correctAnswer": "sürdürülebilirlik",
     "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126083007,
+    "id": 126083105,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Police have launched a _____ after the shooting incident.",
-    "translation": "İnsan avı, kaçak araması",
-    "context": "Bir suçlu kaçtığında polisin onu bulmak için başlattığı büyük çaplı arama operasyonuna denir. Sanki bir saklambaç oyunu gibi ama bu sefer canavar peşinde değil, bir suçlu peşinde tüm polis teşkilatı.",
+    "phrase": "The US and Iran began to _____ strikes for the first time in weeks.",
+    "translation": "trade strikes: karşılıklı saldırılar düzenlemek",
+    "context": "Bu ifade, iki tarafın karşılıklı olarak birbirine saldırması, yani 'misilleme' yapması anlamına gelir. Futbolda karşılıklı gol atmak gibi ama tabii çok daha ciddi bir durum. Diplomaside veya savaş bağlamında sıkça kullanılır. 'Trade strikes' dediğinde, karşılıklı olarak havadan veya karadan saldırıların yapıldığını anlarsın. Gergin bir durumun göstergesi!",
     "options": [
-      "search party",
-      "manhunt",
-      "investigation",
-      "raid"
+      "trade",
+      "exchange",
+      "share",
+      "sell"
     ],
-    "correctAnswer": "manhunt",
-    "category": "CASUAL",
-    "variations": [
-      "The manhunt continued for days.",
-      "A global manhunt is underway."
-    ]
-  },
-  {
-    "id": 126083008,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "We expect thunderstorms and _____ winds today.",
-    "translation": "Şiddetli rüzgarlar",
-    "context": "Rüzgarın bir anda hızlanıp her şeyi uçurmaya çalışması durumudur. Hani bazen şemsiyeni ters çeviren, saçını başını dağıtan o rüzgar var ya, işte tam olarak o! Hava durumu sunucularının 'dikkatli olun' dediği rüzgar çeşidi.",
-    "options": [
-      "light",
-      "strong",
-      "gusty",
-      "gentle"
-    ],
-    "correctAnswer": "gusty",
-    "category": "MIXED",
-    "variations": [
-      "Gusty winds made it difficult to walk.",
-      "Be careful, gusty winds are predicted."
-    ]
-  },
-  {
-    "id": 126083009,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The risk of a lake burst near the border site _____.",
-    "translation": "Azalmak, zayıflamak",
-    "context": "Bir şeyin etkisinin veya yoğunluğunun zamanla azalması, zayıflaması anlamına gelir. Dolunay'ın yavaş yavaş küçülüp hilal olması gibi düşün. Haberlerde kötü bir durumun riskinin azalması için kullanılır. 'Oh be, rahatladık!' dedirten bir kelime.",
-    "options": [
-      "increases",
-      "intensifies",
-      "wanes",
-      "stabilizes"
-    ],
-    "correctAnswer": "wanes",
-    "category": "TRAVEL",
-    "variations": [
-      "Her enthusiasm for the project slowly wanes.",
-      "The moon wanes after being full."
-    ]
-  },
-  {
-    "id": 126083010,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Spurs and Everton are in _____ over player transfers.",
-    "translation": "İleri düzey görüşmeler",
-    "context": "İki tarafın bir anlaşma yapmak üzere neredeyse son aşamaya geldiği, detayları konuştuğu görüşmelerdir. 'Çay kahve muhabbetini geçtik, artık işi bitirme zamanı' kıvamındaki toplantılar diyebiliriz. Büyük transferlerin habercisidir.",
-    "options": [
-      "early talks",
-      "informal talks",
-      "advanced talks",
-      "public talks"
-    ],
-    "correctAnswer": "advanced talks",
+    "correctAnswer": "trade",
     "category": "BUSINESS",
     "variations": [
-      "The companies are in advanced talks for a merger.",
-      "They hope to finalize the deal after advanced talks."
+      "The two nations traded harsh words in the meeting.",
+      "They often trade insults when they argue."
     ]
   },
   {
-    "id": 126083011,
+    "id": 126083106,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Hollywood yıldızlarının popülerleşen ve kısa, yoğun hikayeler sunan mobil uygulamalara yatırım yapması, hangi terimle açıklanır?",
-    "translation": "Microdrama apps: Mikro-drama uygulamaları",
-    "context": "Sosyal medyada gördüğümüz kısa, genellikle aşırı abartılı ve hızlıca gelişen hikayecikler gibi ama bu sefer profesyonelce çekilmiş mobil diziler gibi düşün. Akşam dizilerini beklemek yerine, otobüste 5 dakikada bir mini hikaye izlemek için birebir. Tamamen yeni bir eğlence trendi!",
+    "level": "INTERMEDIATE",
+    "phrase": "Nasa'nın yeni fırlattığı güçlü cihaza 'space telescope' denmesinin sebebi nedir?",
+    "translation": "space telescope: uzay teleskobu",
+    "context": "'Space telescope' derken, adı üstünde, uzayda bulunan bir teleskoptan bahsediyoruz! Dünyadaki teleskoplardan farkı, atmosferin bozucu etkilerinden kurtulup çok daha net ve uzak evrenin sırlarını keşfetmemizi sağlaması. James Webb veya Hubble gibi 'uzay kaşifleri' hep birer 'space telescope'dur. Gerçekten 'giant leap forward' dedikleri bu olsa gerek!",
     "options": [
-      "gaming platforms",
-      "e-commerce sites",
-      "microdrama apps",
-      "educational tools"
+      "Uzayda üretildiği için",
+      "Uzaylılar tarafından kullanıldığı için",
+      "Uzayı gözlemlemek için uzayda bulunduğu için",
+      "Uzay gemilerine yerleştirildiği için"
     ],
-    "correctAnswer": "microdrama apps",
+    "correctAnswer": "Uzayı gözlemlemek için uzayda bulunduğu için",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126083107,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Airlines often need to _____ low-altitude stunts to gain approval.",
+    "translation": "defends: savunur, haklı çıkarır",
+    "context": "'Defend', bir şeyi veya kendini suçlamalara karşı korumak, haklı çıkarmak anlamına gelir. Yani 'Ben haklıyım!' demek gibi. Bir şirket yaptıkları bir eylem yüzünden eleştirildiğinde, kendini 'defend' etmeye çalışır. Haberde de havayolunun riskli bir gösteri yaptığı için kendini savunduğunu görüyoruz. Herkes bazen kendini 'defend' etmek zorunda kalır!",
+    "options": [
+      "defends",
+      "attacks",
+      "ignores",
+      "criticizes"
+    ],
+    "correctAnswer": "defends",
+    "category": "TRAVEL",
+    "variations": [
+      "The lawyer will defend his client in court.",
+      "She defended her decision despite the criticism."
+    ]
+  },
+  {
+    "id": 126083108,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Trump'ın 'teases a third presidential run' ifadesiyle anlatılmak istenen nedir?",
+    "translation": "teases a third presidential run: üçüncü bir başkanlık adaylığını ima ediyor, dalga geçiyor gibi davranıyor",
+    "context": "'Tease', birini kızdırmak, takılmak veya bir şeyi ima etmek anlamına gelir. Bu haberde ise Trump'ın üçüncü kez başkan adayı olabileceği yönünde ipuçları verdiğini, 'Acaba olacak mı?' diye bir merak uyandırdığını anlatıyor. Yani net bir açıklama yapmıyor ama kapıyı da açık bırakıyor. 'Eee, ne olacak şimdi?' dedirten bir durum!",
+    "options": [
+      "Üçüncü başkanlık yarışına kesinlikle katılacağını duyuruyor.",
+      "Üçüncü başkanlık yarışına katılma fikriyle dalga geçiyor veya bunu ima ediyor.",
+      "Üçüncü başkanlık yarışına katılmayı tamamen reddediyor.",
+      "Üçüncü başkanlık yarışına katılmak için gizli planlar yapıyor."
+    ],
+    "correctAnswer": "Üçüncü başkanlık yarışına katılma fikriyle dalga geçiyor veya bunu ima ediyor.",
     "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126083012,
+    "id": 126083109,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The academic was accused of _____ in his research.",
-    "translation": "İntihal, aşırma",
-    "context": "Başka birinin yazısını, fikrini veya eserini sanki kendi eserinmiş gibi gösterme, çalma durumudur. Okulda ödev kopyalamak gibi ama çok daha ciddi sonuçları olan, kariyer bitirici bir durum. 'Alıntı yaptım' demek yerine 'ben yaptım' demenin bedeli ağır oluyor.",
+    "phrase": "The U.S. is building _____ around drones to control their use.",
+    "translation": "building barriers: engeller inşa etmek, bariyerler oluşturmak",
+    "context": "'Build barriers', bir şeyi engellemek veya kısıtlamak için kurallar, yasalar veya fiziksel engeller oluşturmak anlamına gelir. Tıpkı bir duvar örmek gibi. Haberde ABD'nin dronların kullanımını kısıtlamak için yasal veya teknolojik engeller koyduğunu anlatıyor. Yani, kontrolü ele almak ve riskleri azaltmak için yapılan düzenlemelerdir bunlar. İş ve teknoloji dünyasında sıkça duyduğun bir ifadedir.",
     "options": [
-      "research",
-      "collaboration",
-      "plagiarism",
-      "innovation"
+      "barriers",
+      "bridges",
+      "tunnels",
+      "roads"
     ],
-    "correctAnswer": "plagiarism",
+    "correctAnswer": "barriers",
+    "category": "BUSINESS",
+    "variations": [
+      "The company put up financial barriers to new competitors.",
+      "Language can be a barrier to communication."
+    ]
+  },
+  {
+    "id": 126083110,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Musk'ın gaz türbinleriyle ilgili 'pollution problem' ne anlama gelir?",
+    "translation": "pollution problem: çevre kirliliği sorunu",
+    "context": "Endüstriyel üretim süreçleri veya enerji üretimi gibi faaliyetler, çevreye zarar veren atıklar (gaz, sıvı veya katı) üretebilir. İşte bu duruma 'pollution problem' denir. Yani, çevreyi kirletme sorunu. Musk'ın gaz türbinleri için daha hızlı üretim hedefinin, bu çevre sorununu artırma potansiyeli taşıdığını vurguluyor haber. İş dünyasında 'yeşil' yaklaşımların önemini gösteren bir kavram!",
+    "options": [
+      "Üretimde teknik sorunlar",
+      "Çevre kirliliği sorunu",
+      "Finansal darboğazlar",
+      "Tedarik zinciri aksaklıkları"
+    ],
+    "correctAnswer": "Çevre kirliliği sorunu",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126083111,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The team tries to _____ us from the effects of space weather.",
+    "translation": "protect: korumak, muhafaza etmek",
+    "context": "'Protect', birini veya bir şeyi tehlikeden, zarardan veya olumsuz bir etkiden korumak demektir. Tıpkı şemsiyenin seni yağmurdan koruması gibi. Uzay haberlerinde, Dünya'yı uzaydaki zararlı radyasyondan veya fırtınalardan 'protect' etmekten bahsedilir. Kalkan görevi görmek gibi düşünebilirsin. Hayatta sevdiklerini 'protect' etmek de önemlidir!",
+    "options": [
+      "protect",
+      "expose",
+      "ignore",
+      "damage"
+    ],
+    "correctAnswer": "protect",
     "category": "MIXED",
     "variations": [
-      "Plagiarism is a serious offense in academia.",
-      "Always cite your sources to avoid plagiarism."
+      "It's important to protect your skin from the sun.",
+      "The new laws aim to protect workers' rights."
     ]
+  },
+  {
+    "id": 126083112,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Brighton'ın 'Azeez pursuit' ifadesiyle spor haberlerinde kastedilen nedir?",
+    "translation": "Azeez pursuit: Azeez'i takip etme, peşinden koşma (transfer için)",
+    "context": "Spor transfer haberlerinde 'pursuit' kelimesi, bir takımın belirli bir oyuncuyu transfer etmek için gösterdiği çabayı, yani onun 'peşinden koşmasını' ifade eder. Brighton kulübünün Azeez'i kadrosuna katmak için uğraşmaya devam ettiğini anlatıyor bu ifade. Yani, Millwall'ın reddine rağmen, vazgeçmiyorlar! Spor dünyasında 'pursuit' dediğinde hemen transfer aklına gelmeli.",
+    "options": [
+      "Azeez'i bir koşu yarışında takip etme",
+      "Azeez'in kariyerini yakından izleme",
+      "Azeez'i transfer etmek için gösterilen çaba",
+      "Azeez'e karşı bir dava açma"
+    ],
+    "correctAnswer": "Azeez'i transfer etmek için gösterilen çaba",
+    "category": "CASUAL",
+    "variations": []
   }
 ]
