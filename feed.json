@@ -1,224 +1,233 @@
 [
   {
-    "id": 126083101,
+    "id": 126090101,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The police _____ a man after the Swiss rave shooting.",
-    "translation": "arrested: tutukladı",
-    "context": "'Arrest' kelimesi, bir suç işlediği şüphelenilen birinin polis tarafından yakalanıp gözaltına alınması anlamına gelir. Yani, kelepçelenip karakola götürülme durumu gibi düşünebilirsin. Haberlerde sıkça rastlarsın, 'arrested' ise bu eylemin geçmiş halidir. Hukuk ve adalet konularında bilmen gereken temel bir fiil!",
+    "phrase": "The brave ____ team worked tirelessly after the flood.",
+    "translation": "Doğru seçenek olan 'rescuers' (kurtarıcılar) kelimesi boşluğa gelmeli.",
+    "context": "'Rescuers' (kurtarıcılar), afetlerde veya acil durumlarda insanları kurtarmak için koşan kahramanlardır. Özellikle deprem veya sel gibi felaketlerde, enkaz altından bir hayat kurtardıklarında hepimiz onlara minnettar kalırız. Onların sayesinde birçok kişi hayata geri döner!",
     "options": [
-      "arrested",
-      "helped",
-      "rescued",
-      "greeted"
+      "rescuers",
+      "teachers",
+      "drivers",
+      "singers"
     ],
-    "correctAnswer": "arrested",
-    "category": "CASUAL",
-    "variations": [
-      "The suspect was arrested for theft.",
-      "Police often arrest people in crime movies."
-    ]
-  },
-  {
-    "id": 126083102,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "Hangi kelime 'bir rekoru kırmak' anlamına gelir?",
-    "translation": "broke a record: rekor kırdı",
-    "context": "Spor dünyasında veya herhangi bir alanda, daha önce kimsenin ulaşamadığı bir başarıyı elde ettiğinde 'break a record' denir. Yani, çıtayı yükseltmek, yeni bir zirveye ulaşmak! Mesela Usain Bolt'un koşu rekorlarını kırması gibi. Çok havalı bir başarıyı ifade eder, aklında bulunsun!",
-    "options": [
-      "broke a record",
-      "made a mistake",
-      "won a game",
-      "lost a point"
-    ],
-    "correctAnswer": "broke a record",
-    "category": "MIXED",
-    "variations": []
-  },
-  {
-    "id": 126083103,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "A ferry _____ off northern Cyprus, causing many to go missing.",
-    "translation": "capsizes: alabora olmak, batmak",
-    "context": "Bir tekne ya da geminin denizde ters dönerek batması durumuna 'capsize' denir. Resmen alabora olmak! Genellikle kötü hava koşulları veya dengesiz yükleme sonucu meydana gelir. Haberlerde böyle bir olayı okuduğunda, feribotun suya battığını anlarsın. Denizde dikkatli olmak şart!",
-    "options": [
-      "capsizes",
-      "lands",
-      "parks",
-      "sails"
-    ],
-    "correctAnswer": "capsizes",
+    "correctAnswer": "rescuers",
     "category": "TRAVEL",
     "variations": [
-      "The small boat capsized in the heavy storm.",
-      "Be careful, the kayak might capsize!"
+      "The brave rescuers helped many people.",
+      "Rescuers saved the trapped workers."
     ]
   },
   {
-    "id": 126083104,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "Teknoloji haberlerinde geçen 'sustainability' kelimesi ne anlama gelir?",
-    "translation": "sustainability: sürdürülebilirlik",
-    "context": "'Sustainability', özellikle son yıllarda çevre bilincinin artmasıyla çok popüler hale gelen bir kelime. Kısaca, mevcut kaynakları tüketmeden, gelecek nesillerin ihtiyaçlarını da karşılayacak şekilde yaşam ve üretim biçimleri geliştirmek demek. 'Sürdürülebilirlik' deyince akla hemen çevre dostu çözümler gelmeli. Geleceğimiz için çok önemli bir kavram!",
-    "options": [
-      "Hız",
-      "Sürdürülebilirlik",
-      "Verimlilik",
-      "Yenilik"
-    ],
-    "correctAnswer": "sürdürülebilirlik",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126083105,
+    "id": 126090102,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The US and Iran began to _____ strikes for the first time in weeks.",
-    "translation": "trade strikes: karşılıklı saldırılar düzenlemek",
-    "context": "Bu ifade, iki tarafın karşılıklı olarak birbirine saldırması, yani 'misilleme' yapması anlamına gelir. Futbolda karşılıklı gol atmak gibi ama tabii çok daha ciddi bir durum. Diplomaside veya savaş bağlamında sıkça kullanılır. 'Trade strikes' dediğinde, karşılıklı olarak havadan veya karadan saldırıların yapıldığını anlarsın. Gergin bir durumun göstergesi!",
+    "level": "BEGINNER",
+    "phrase": "The startup managed to _____ a lot of funds.",
+    "translation": "Doğru seçenek olan 'raise' (toplamak) kelimesi boşluğa gelmeli.",
+    "context": "'Raise funds' (fon toplamak), bir şirketin veya projenin büyümek için para bulması demek. Yeni bir iş kurduğunda ya da mevcut işini geliştirmek istediğinde, yatırımcılardan para toplamaya çalışırsın. Bu sayede hayallerini gerçeğe dönüştürmek için ihtiyacın olan sermayeyi bulursun!",
     "options": [
-      "trade",
-      "exchange",
-      "share",
-      "sell"
+      "raise",
+      "lose",
+      "spend",
+      "drop"
     ],
-    "correctAnswer": "trade",
+    "correctAnswer": "raise",
     "category": "BUSINESS",
     "variations": [
-      "The two nations traded harsh words in the meeting.",
-      "They often trade insults when they argue."
+      "They plan to raise funds next month.",
+      "Our company needs to raise more funds."
     ]
   },
   {
-    "id": 126083106,
+    "id": 126090103,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "He likes to _____ about his future plans.",
+    "translation": "Doğru seçenek olan 'tease' (ima etmek) kelimesi boşluğa gelmeli.",
+    "context": "'Tease' (takılmak, ima etmek), birine şaka yapmak ya da bir şeyi açıkça söylemeyip ipuçları vermek anlamına gelir. Arkadaşlarınla 'Bu akşam ne yapıyoruz?' diye sorduğunda 'Belki bir şeyler...' deyip onları merakta bırakırsan, işte o zaman 'tease' yapmış olursun. Eğlenceli bir şekilde merak uyandırmak için kullanılır!",
+    "options": [
+      "tease",
+      "hide",
+      "decide",
+      "forget"
+    ],
+    "correctAnswer": "tease",
+    "category": "CASUAL",
+    "variations": [
+      "She loves to tease her brother.",
+      "Don't tease me about the party!"
+    ]
+  },
+  {
+    "id": 126090104,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "After the move, they had to _____ in a new city.",
+    "translation": "Doğru seçenek olan 'start over' (yeniden başlamak) kelime grubu boşluğa gelmeli.",
+    "context": "'Start over' (yeniden başlamak), bir işe, hayata veya duruma sıfırdan başlamak demek. Bazen hayat sana zorluklar sunar ve her şeyi baştan alman gerekir. Yeni bir şehre taşındığında, yeni bir işe başladığında ya da yeni bir hobi edindiğinde 'start over' yapmış olursun. Geçmişi geride bırakıp yeni bir sayfa açmak gibi!",
+    "options": [
+      "start over",
+      "finish",
+      "go back",
+      "wait"
+    ],
+    "correctAnswer": "start over",
+    "category": "MIXED",
+    "variations": [
+      "It's hard to start over.",
+      "I decided to start over with my studies."
+    ]
+  },
+  {
+    "id": 126090105,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Nasa'nın yeni fırlattığı güçlü cihaza 'space telescope' denmesinin sebebi nedir?",
-    "translation": "space telescope: uzay teleskobu",
-    "context": "'Space telescope' derken, adı üstünde, uzayda bulunan bir teleskoptan bahsediyoruz! Dünyadaki teleskoplardan farkı, atmosferin bozucu etkilerinden kurtulup çok daha net ve uzak evrenin sırlarını keşfetmemizi sağlaması. James Webb veya Hubble gibi 'uzay kaşifleri' hep birer 'space telescope'dur. Gerçekten 'giant leap forward' dedikleri bu olsa gerek!",
+    "phrase": "Which word best describes a highly destructive event?",
+    "translation": "'Catastrophic' kelimesi, son derece yıkıcı bir olayı en iyi tanımlar.",
+    "context": "'Catastrophic' (felaketle sonuçlanan, yıkıcı), bir olayın aşırı derecede kötü, yıkıcı ve felaketle sonuçlanan bir durum olduğunu anlatır. Tıpkı Nepal'deki gibi ani bir selin her şeyi alıp götürmesi gibi durumlar 'catastrophic' olarak nitelendirilir. Olayın büyüklüğünü ve kötü sonuçlarını vurgulamak için kullanılır.",
     "options": [
-      "Uzayda üretildiği için",
-      "Uzaylılar tarafından kullanıldığı için",
-      "Uzayı gözlemlemek için uzayda bulunduğu için",
-      "Uzay gemilerine yerleştirildiği için"
+      "Normal",
+      "Peaceful",
+      "Catastrophic",
+      "Minor"
     ],
-    "correctAnswer": "Uzayı gözlemlemek için uzayda bulunduğu için",
-    "category": "MIXED",
+    "correctAnswer": "Catastrophic",
+    "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126083107,
+    "id": 126090106,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Airlines often need to _____ low-altitude stunts to gain approval.",
-    "translation": "defends: savunur, haklı çıkarır",
-    "context": "'Defend', bir şeyi veya kendini suçlamalara karşı korumak, haklı çıkarmak anlamına gelir. Yani 'Ben haklıyım!' demek gibi. Bir şirket yaptıkları bir eylem yüzünden eleştirildiğinde, kendini 'defend' etmeye çalışır. Haberde de havayolunun riskli bir gösteri yaptığı için kendini savunduğunu görüyoruz. Herkes bazen kendini 'defend' etmek zorunda kalır!",
+    "phrase": "The former employee was accused of _____ data.",
+    "translation": "Doğru seçenek olan 'stealing' (çalmak) kelimesi boşluğa gelmeli.",
+    "context": "'Stealing data' (veri çalmak), bir şirketin veya kişinin gizli bilgilerini izinsiz alması anlamına gelir. Bu, şirketler için büyük bir baş belasıdır çünkü rekabet avantajlarını kaybedebilirler. Bir bilgisayar korsanı gibi düşün; başkalarının bilgilerine yasa dışı yollarla eriştiğinde işte bu 'stealing data' oluyor.",
     "options": [
-      "defends",
-      "attacks",
-      "ignores",
-      "criticizes"
+      "stealing",
+      "sharing",
+      "creating",
+      "managing"
     ],
-    "correctAnswer": "defends",
+    "correctAnswer": "stealing",
+    "category": "BUSINESS",
+    "variations": [
+      "He was fired for stealing company secrets.",
+      "Stealing data is a serious crime."
+    ]
+  },
+  {
+    "id": 126090107,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "She was _____ about her controversial statements.",
+    "translation": "Doğru seçenek olan 'confronted' (yüzleşmek) kelimesi boşluğa gelmeli.",
+    "context": "'Confronted' (karşı karşıya gelmek, yüzleşmek), birisiyle doğrudan ve genellikle gergin bir şekilde bir konu hakkında konuşmak demektir. Biriyle bir sorun yaşadığında ve ona açıkça ne düşündüğünü söylediğinde, onu 'confront' etmiş olursun. Bazen zor olsa da, yüzleşmek sorunları çözmek için ilk adım olabilir.",
+    "options": [
+      "confronted",
+      "praised",
+      "ignored",
+      "supported"
+    ],
+    "correctAnswer": "confronted",
+    "category": "CASUAL",
+    "variations": [
+      "He confronted his boss about the issue.",
+      "She confronted him in front of everyone."
+    ]
+  },
+  {
+    "id": 126090108,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The ex-gang boss was guilty of _____ the murder.",
+    "translation": "Doğru seçenek olan 'orchestrating' (organize etmek) kelimesi boşluğa gelmeli.",
+    "context": "'Orchestrating' (organize etmek, yönetmek), genellikle karmaşık veya kötü bir planı dikkatlice ve detaylı bir şekilde düzenlemek anlamına gelir. Tıpkı bir orkestra şefi gibi, tüm parçaları bir araya getirip kusursuzca çalıştırmak. Ama bu kelime genellikle olumsuz olaylar için, mesela bir suçu planlamak için kullanılır.",
+    "options": [
+      "orchestrating",
+      "witnessing",
+      "preventing",
+      "reporting"
+    ],
+    "correctAnswer": "orchestrating",
+    "category": "MIXED",
+    "variations": [
+      "He was accused of orchestrating the fraud.",
+      "The team orchestrated a perfect plan."
+    ]
+  },
+  {
+    "id": 126090109,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Many _____ had to leave the country.",
+    "translation": "Doğru seçenek olan 'deportees' (sınır dışı edilenler) kelimesi boşluğa gelmeli.",
+    "context": "'Deportees' (sınır dışı edilenler), genellikle yasalara aykırı bir şekilde bir ülkede bulundukları için veya başka sebeplerden dolayı, resmi olarak o ülkeden gönderilen kişilerdir. Zorla kendi vatanlarına veya başka bir ülkeye geri gönderilirler. Bu durum, genellikle kişisel trajedilerle ve yeniden uyum sağlama mücadeleleriyle doludur.",
+    "options": [
+      "deportees",
+      "immigrants",
+      "tourists",
+      "diplomats"
+    ],
+    "correctAnswer": "deportees",
     "category": "TRAVEL",
     "variations": [
-      "The lawyer will defend his client in court.",
-      "She defended her decision despite the criticism."
+      "The government increased the number of deportees.",
+      "Deportees often face severe challenges."
     ]
   },
   {
-    "id": 126083108,
+    "id": 126090110,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Trump'ın 'teases a third presidential run' ifadesiyle anlatılmak istenen nedir?",
-    "translation": "teases a third presidential run: üçüncü bir başkanlık adaylığını ima ediyor, dalga geçiyor gibi davranıyor",
-    "context": "'Tease', birini kızdırmak, takılmak veya bir şeyi ima etmek anlamına gelir. Bu haberde ise Trump'ın üçüncü kez başkan adayı olabileceği yönünde ipuçları verdiğini, 'Acaba olacak mı?' diye bir merak uyandırdığını anlatıyor. Yani net bir açıklama yapmıyor ama kapıyı da açık bırakıyor. 'Eee, ne olacak şimdi?' dedirten bir durum!",
+    "level": "ADVANCED",
+    "phrase": "In business, to 'increase one's bet on' something means to:",
+    "translation": "İş dünyasında, bir şeye 'bahsini artırmak' (increase one's bet on) daha fazla para veya kaynak yatırmak anlamına gelir.",
+    "context": "'Increase one's bet on' (bir şeye bahsini artırmak), iş dünyasında risk alarak bir projeye, teknolojiye veya şirkete daha fazla yatırım yapmak anlamına gelir. Tıpkı bir kumar masasında kazandığına inandığın bir ele daha çok para koymak gibi. Şirketler, gelecek vaat ettiğini düşündükleri alanlara 'bet' ederek büyük kazançlar elde etmeyi umarlar.",
     "options": [
-      "Üçüncü başkanlık yarışına kesinlikle katılacağını duyuruyor.",
-      "Üçüncü başkanlık yarışına katılma fikriyle dalga geçiyor veya bunu ima ediyor.",
-      "Üçüncü başkanlık yarışına katılmayı tamamen reddediyor.",
-      "Üçüncü başkanlık yarışına katılmak için gizli planlar yapıyor."
+      "Gamble carelessly on it.",
+      "Avoid it completely.",
+      "Invest more money or resources into it.",
+      "Reduce involvement with it."
     ],
-    "correctAnswer": "Üçüncü başkanlık yarışına katılma fikriyle dalga geçiyor veya bunu ima ediyor.",
+    "correctAnswer": "Invest more money or resources into it.",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126090111,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The politician faced harsh _____ for his comments.",
+    "translation": "Doğru seçenek olan 'criticism' (eleştiri) kelimesi boşluğa gelmeli.",
+    "context": "'Criticism' (eleştiri), bir konu, eylem veya kişi hakkında olumsuz değerlendirme veya hoşnutsuzluk belirtmek demektir. Yapıcı eleştiri gelişmeye yardımcı olurken, yıkıcı eleştiri moral bozucu olabilir. Sosyal medyada bir gönderi paylaştığında, mutlaka 'criticism' alabilirsin, iyiye de kötüye de hazırlıklı ol!",
+    "options": [
+      "criticism",
+      "praise",
+      "support",
+      "agreement"
+    ],
+    "correctAnswer": "criticism",
     "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126083109,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The U.S. is building _____ around drones to control their use.",
-    "translation": "building barriers: engeller inşa etmek, bariyerler oluşturmak",
-    "context": "'Build barriers', bir şeyi engellemek veya kısıtlamak için kurallar, yasalar veya fiziksel engeller oluşturmak anlamına gelir. Tıpkı bir duvar örmek gibi. Haberde ABD'nin dronların kullanımını kısıtlamak için yasal veya teknolojik engeller koyduğunu anlatıyor. Yani, kontrolü ele almak ve riskleri azaltmak için yapılan düzenlemelerdir bunlar. İş ve teknoloji dünyasında sıkça duyduğun bir ifadedir.",
-    "options": [
-      "barriers",
-      "bridges",
-      "tunnels",
-      "roads"
-    ],
-    "correctAnswer": "barriers",
-    "category": "BUSINESS",
     "variations": [
-      "The company put up financial barriers to new competitors.",
-      "Language can be a barrier to communication."
+      "He ignored the unfair criticism.",
+      "Her new book received mixed criticism."
     ]
   },
   {
-    "id": 126083110,
+    "id": 126090112,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Musk'ın gaz türbinleriyle ilgili 'pollution problem' ne anlama gelir?",
-    "translation": "pollution problem: çevre kirliliği sorunu",
-    "context": "Endüstriyel üretim süreçleri veya enerji üretimi gibi faaliyetler, çevreye zarar veren atıklar (gaz, sıvı veya katı) üretebilir. İşte bu duruma 'pollution problem' denir. Yani, çevreyi kirletme sorunu. Musk'ın gaz türbinleri için daha hızlı üretim hedefinin, bu çevre sorununu artırma potansiyeli taşıdığını vurguluyor haber. İş dünyasında 'yeşil' yaklaşımların önemini gösteren bir kavram!",
+    "phrase": "What does it mean if something is 'blown to smithereens'?",
+    "translation": "Bir şeyin 'blown to smithereens' olması, tamamen çok küçük parçalara ayrılarak yok olması anlamına gelir.",
+    "context": "'Blown to smithereens' (paramparça olmak, havaya uçmak), bir şeyin patlama veya şiddetli bir darbe sonucu tamamen küçük parçalara ayrılması anlamına gelir. Tıpkı bir karpuzu patlatmak ya da bir kaleyi dinamitle havaya uçurmak gibi düşün. Bir şeyin tam anlamıyla yok olduğunu ve geriye sadece minik parçaların kaldığını vurgulamak için kullanılır. Abartılı bir ifade olsa da, olayın ciddiyetini çok iyi anlatır!",
     "options": [
-      "Üretimde teknik sorunlar",
-      "Çevre kirliliği sorunu",
-      "Finansal darboğazlar",
-      "Tedarik zinciri aksaklıkları"
+      "It is slightly damaged.",
+      "It is carefully dismantled.",
+      "It is completely destroyed into very small pieces.",
+      "It is quickly repaired."
     ],
-    "correctAnswer": "Çevre kirliliği sorunu",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126083111,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The team tries to _____ us from the effects of space weather.",
-    "translation": "protect: korumak, muhafaza etmek",
-    "context": "'Protect', birini veya bir şeyi tehlikeden, zarardan veya olumsuz bir etkiden korumak demektir. Tıpkı şemsiyenin seni yağmurdan koruması gibi. Uzay haberlerinde, Dünya'yı uzaydaki zararlı radyasyondan veya fırtınalardan 'protect' etmekten bahsedilir. Kalkan görevi görmek gibi düşünebilirsin. Hayatta sevdiklerini 'protect' etmek de önemlidir!",
-    "options": [
-      "protect",
-      "expose",
-      "ignore",
-      "damage"
-    ],
-    "correctAnswer": "protect",
+    "correctAnswer": "It is completely destroyed into very small pieces.",
     "category": "MIXED",
-    "variations": [
-      "It's important to protect your skin from the sun.",
-      "The new laws aim to protect workers' rights."
-    ]
-  },
-  {
-    "id": 126083112,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Brighton'ın 'Azeez pursuit' ifadesiyle spor haberlerinde kastedilen nedir?",
-    "translation": "Azeez pursuit: Azeez'i takip etme, peşinden koşma (transfer için)",
-    "context": "Spor transfer haberlerinde 'pursuit' kelimesi, bir takımın belirli bir oyuncuyu transfer etmek için gösterdiği çabayı, yani onun 'peşinden koşmasını' ifade eder. Brighton kulübünün Azeez'i kadrosuna katmak için uğraşmaya devam ettiğini anlatıyor bu ifade. Yani, Millwall'ın reddine rağmen, vazgeçmiyorlar! Spor dünyasında 'pursuit' dediğinde hemen transfer aklına gelmeli.",
-    "options": [
-      "Azeez'i bir koşu yarışında takip etme",
-      "Azeez'in kariyerini yakından izleme",
-      "Azeez'i transfer etmek için gösterilen çaba",
-      "Azeez'e karşı bir dava açma"
-    ],
-    "correctAnswer": "Azeez'i transfer etmek için gösterilen çaba",
-    "category": "CASUAL",
     "variations": []
   }
 ]
