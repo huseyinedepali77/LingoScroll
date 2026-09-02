@@ -1,232 +1,226 @@
 [
   {
-    "id": 126090101,
+    "id": 126090201,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The brave ____ team worked tirelessly after the flood.",
-    "translation": "Doğru seçenek olan 'rescuers' (kurtarıcılar) kelimesi boşluğa gelmeli.",
-    "context": "'Rescuers' (kurtarıcılar), afetlerde veya acil durumlarda insanları kurtarmak için koşan kahramanlardır. Özellikle deprem veya sel gibi felaketlerde, enkaz altından bir hayat kurtardıklarında hepimiz onlara minnettar kalırız. Onların sayesinde birçok kişi hayata geri döner!",
+    "phrase": "Airlines should _____ Russian airspace for safety.",
+    "translation": "Hava Yolları güvenlik için Rus hava sahasından kaçınmalıdır.",
+    "context": "Bir yer veya durumdan uzak durmak, kaçınmak anlamına gelir. Uçakların tehlikeli bölgelerden uzak durması gibi düşünebilirsin. Seyahatte güvenliğin için 'avoid' demek, riskli yerlerden uzak dur demektir!",
     "options": [
-      "rescuers",
-      "teachers",
-      "drivers",
-      "singers"
+      "enter",
+      "avoid",
+      "cross",
+      "fly over"
     ],
-    "correctAnswer": "rescuers",
+    "correctAnswer": "avoid",
     "category": "TRAVEL",
     "variations": [
-      "The brave rescuers helped many people.",
-      "Rescuers saved the trapped workers."
+      "Travelers must _____ crowded areas during peak season.",
+      "Try to _____ unnecessary risks while exploring."
     ]
   },
   {
-    "id": 126090102,
+    "id": 126090202,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The startup managed to _____ a lot of funds.",
-    "translation": "Doğru seçenek olan 'raise' (toplamak) kelimesi boşluğa gelmeli.",
-    "context": "'Raise funds' (fon toplamak), bir şirketin veya projenin büyümek için para bulması demek. Yeni bir iş kurduğunda ya da mevcut işini geliştirmek istediğinde, yatırımcılardan para toplamaya çalışırsın. Bu sayede hayallerini gerçeğe dönüştürmek için ihtiyacın olan sermayeyi bulursun!",
+    "phrase": "The flying car company just lost its _____.",
+    "translation": "Uçan araba şirketi az önce CEO'sunu kaybetti.",
+    "context": "CEO, yani 'Chief Executive Officer', bir şirketin en tepe yöneticisidir. Tüm önemli kararları o alır, adeta şirketin kaptanı gibidir. Bir şirketin CEO'su ayrıldığında, bu genellikle büyük bir haber olur!",
     "options": [
-      "raise",
-      "lose",
-      "spend",
-      "drop"
+      "pilot",
+      "driver",
+      "CEO",
+      "mechanic"
     ],
-    "correctAnswer": "raise",
+    "correctAnswer": "CEO",
     "category": "BUSINESS",
     "variations": [
-      "They plan to raise funds next month.",
-      "Our company needs to raise more funds."
+      "Our new _____ will start next month.",
+      "She quickly rose to become the company's _____."
     ]
   },
   {
-    "id": 126090103,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "He likes to _____ about his future plans.",
-    "translation": "Doğru seçenek olan 'tease' (ima etmek) kelimesi boşluğa gelmeli.",
-    "context": "'Tease' (takılmak, ima etmek), birine şaka yapmak ya da bir şeyi açıkça söylemeyip ipuçları vermek anlamına gelir. Arkadaşlarınla 'Bu akşam ne yapıyoruz?' diye sorduğunda 'Belki bir şeyler...' deyip onları merakta bırakırsan, işte o zaman 'tease' yapmış olursun. Eğlenceli bir şekilde merak uyandırmak için kullanılır!",
-    "options": [
-      "tease",
-      "hide",
-      "decide",
-      "forget"
-    ],
-    "correctAnswer": "tease",
-    "category": "CASUAL",
-    "variations": [
-      "She loves to tease her brother.",
-      "Don't tease me about the party!"
-    ]
-  },
-  {
-    "id": 126090104,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "After the move, they had to _____ in a new city.",
-    "translation": "Doğru seçenek olan 'start over' (yeniden başlamak) kelime grubu boşluğa gelmeli.",
-    "context": "'Start over' (yeniden başlamak), bir işe, hayata veya duruma sıfırdan başlamak demek. Bazen hayat sana zorluklar sunar ve her şeyi baştan alman gerekir. Yeni bir şehre taşındığında, yeni bir işe başladığında ya da yeni bir hobi edindiğinde 'start over' yapmış olursun. Geçmişi geride bırakıp yeni bir sayfa açmak gibi!",
-    "options": [
-      "start over",
-      "finish",
-      "go back",
-      "wait"
-    ],
-    "correctAnswer": "start over",
-    "category": "MIXED",
-    "variations": [
-      "It's hard to start over.",
-      "I decided to start over with my studies."
-    ]
-  },
-  {
-    "id": 126090105,
+    "id": 126090203,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Which word best describes a highly destructive event?",
-    "translation": "'Catastrophic' kelimesi, son derece yıkıcı bir olayı en iyi tanımlar.",
-    "context": "'Catastrophic' (felaketle sonuçlanan, yıkıcı), bir olayın aşırı derecede kötü, yıkıcı ve felaketle sonuçlanan bir durum olduğunu anlatır. Tıpkı Nepal'deki gibi ani bir selin her şeyi alıp götürmesi gibi durumlar 'catastrophic' olarak nitelendirilir. Olayın büyüklüğünü ve kötü sonuçlarını vurgulamak için kullanılır.",
+    "level": "BEGINNER",
+    "phrase": "Which term refers to an activity outside a spacecraft by an astronaut?",
+    "translation": "Bir astronotun uzay aracının dışında yaptığı etkinliği ifade eden terim hangisidir?",
+    "context": "Astronotların uzay gemisinin dışına çıkarak yaptığı yürüyüşlere verilen havalı isim. Aslında uzayda yüzme gibi düşün, yerçekimi yok sonuçta! Bazen tamir yaparlar, bazen yeni ekipman takarlar. Çok nadir ve nefes kesici bir olaydır!",
     "options": [
-      "Normal",
-      "Peaceful",
-      "Catastrophic",
-      "Minor"
+      "Earthwalk",
+      "Moonwalk",
+      "Spacewalk",
+      "Starwalk"
     ],
-    "correctAnswer": "Catastrophic",
-    "category": "TRAVEL",
+    "correctAnswer": "Spacewalk",
+    "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126090106,
+    "id": 126090204,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The former employee was accused of _____ data.",
-    "translation": "Doğru seçenek olan 'stealing' (çalmak) kelimesi boşluğa gelmeli.",
-    "context": "'Stealing data' (veri çalmak), bir şirketin veya kişinin gizli bilgilerini izinsiz alması anlamına gelir. Bu, şirketler için büyük bir baş belasıdır çünkü rekabet avantajlarını kaybedebilirler. Bir bilgisayar korsanı gibi düşün; başkalarının bilgilerine yasa dışı yollarla eriştiğinde işte bu 'stealing data' oluyor.",
+    "level": "BEGINNER",
+    "phrase": "Last summer was the UK's _____ ever.",
+    "translation": "Geçen yaz Birleşik Krallık'ın şimdiye kadarki en sıcak yaz'ıydı.",
+    "context": "İklim değişikliğiyle birlikte sıkça duyduğumuz bir durum. Bir yerin kaydedilen en yüksek sıcaklığını ifade eder. Eğer bir yaz 'hottest ever' ise, terliklerini ve şortunu hazırla, çünkü çok sıcak geçiyor demektir!",
     "options": [
-      "stealing",
-      "sharing",
-      "creating",
-      "managing"
+      "coldest",
+      "wettest",
+      "hottest",
+      "mildest"
     ],
-    "correctAnswer": "stealing",
-    "category": "BUSINESS",
-    "variations": [
-      "He was fired for stealing company secrets.",
-      "Stealing data is a serious crime."
-    ]
-  },
-  {
-    "id": 126090107,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "She was _____ about her controversial statements.",
-    "translation": "Doğru seçenek olan 'confronted' (yüzleşmek) kelimesi boşluğa gelmeli.",
-    "context": "'Confronted' (karşı karşıya gelmek, yüzleşmek), birisiyle doğrudan ve genellikle gergin bir şekilde bir konu hakkında konuşmak demektir. Biriyle bir sorun yaşadığında ve ona açıkça ne düşündüğünü söylediğinde, onu 'confront' etmiş olursun. Bazen zor olsa da, yüzleşmek sorunları çözmek için ilk adım olabilir.",
-    "options": [
-      "confronted",
-      "praised",
-      "ignored",
-      "supported"
-    ],
-    "correctAnswer": "confronted",
-    "category": "CASUAL",
-    "variations": [
-      "He confronted his boss about the issue.",
-      "She confronted him in front of everyone."
-    ]
-  },
-  {
-    "id": 126090108,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The ex-gang boss was guilty of _____ the murder.",
-    "translation": "Doğru seçenek olan 'orchestrating' (organize etmek) kelimesi boşluğa gelmeli.",
-    "context": "'Orchestrating' (organize etmek, yönetmek), genellikle karmaşık veya kötü bir planı dikkatlice ve detaylı bir şekilde düzenlemek anlamına gelir. Tıpkı bir orkestra şefi gibi, tüm parçaları bir araya getirip kusursuzca çalıştırmak. Ama bu kelime genellikle olumsuz olaylar için, mesela bir suçu planlamak için kullanılır.",
-    "options": [
-      "orchestrating",
-      "witnessing",
-      "preventing",
-      "reporting"
-    ],
-    "correctAnswer": "orchestrating",
+    "correctAnswer": "hottest",
     "category": "MIXED",
     "variations": [
-      "He was accused of orchestrating the fraud.",
-      "The team orchestrated a perfect plan."
+      "This year's concert was the _____ ever.",
+      "The team played its _____ game in history."
     ]
   },
   {
-    "id": 126090109,
+    "id": 126090205,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Many _____ had to leave the country.",
-    "translation": "Doğru seçenek olan 'deportees' (sınır dışı edilenler) kelimesi boşluğa gelmeli.",
-    "context": "'Deportees' (sınır dışı edilenler), genellikle yasalara aykırı bir şekilde bir ülkede bulundukları için veya başka sebeplerden dolayı, resmi olarak o ülkeden gönderilen kişilerdir. Zorla kendi vatanlarına veya başka bir ülkeye geri gönderilirler. Bu durum, genellikle kişisel trajedilerle ve yeniden uyum sağlama mücadeleleriyle doludur.",
+    "level": "INTERMEDIATE",
+    "phrase": "Officials say Israel is _____ its positions in Lebanon.",
+    "translation": "Yetkililer, İsrail'in Lübnan'daki konumlarını genişlettiğini söylüyor.",
+    "context": "Bir bölgede veya etki alanında yayılmak, büyümek anlamına gelir. Askeri veya siyasi bağlamda kullanıldığında, bir ülkenin mevcut konumlarını artırması veya daha geniş bir alana yayılması demektir. Haritadaki sınırların genişlemesi gibi düşün!",
     "options": [
-      "deportees",
-      "immigrants",
-      "tourists",
-      "diplomats"
+      "decreasing",
+      "contracting",
+      "shrinking",
+      "expanding"
     ],
-    "correctAnswer": "deportees",
+    "correctAnswer": "expanding",
     "category": "TRAVEL",
     "variations": [
-      "The government increased the number of deportees.",
-      "Deportees often face severe challenges."
+      "The company is _____ into new markets.",
+      "The garden is _____ rapidly with all the rain."
     ]
   },
   {
-    "id": 126090110,
+    "id": 126090206,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "In business, to 'increase one's bet on' something means to:",
-    "translation": "İş dünyasında, bir şeye 'bahsini artırmak' (increase one's bet on) daha fazla para veya kaynak yatırmak anlamına gelir.",
-    "context": "'Increase one's bet on' (bir şeye bahsini artırmak), iş dünyasında risk alarak bir projeye, teknolojiye veya şirkete daha fazla yatırım yapmak anlamına gelir. Tıpkı bir kumar masasında kazandığına inandığın bir ele daha çok para koymak gibi. Şirketler, gelecek vaat ettiğini düşündükleri alanlara 'bet' ederek büyük kazançlar elde etmeyi umarlar.",
+    "level": "INTERMEDIATE",
+    "phrase": "AfterQuery's $3.2B valuation makes it a 'unicorn'. What does 'unicorn' mean in business?",
+    "translation": "AfterQuery'nin 3.2 milyar dolarlık değeri onu bir 'unicorn' yapıyor. İş dünyasında 'unicorn' ne anlama gelir?",
+    "context": "İş dünyasında 'unicorn', değeri 1 milyar doların üzerinde olan, genellikle teknoloji tabanlı, genç şirketlere verilen havalı bir isimdir. Yani, tıpkı efsanevi tek boynuzlu atlar gibi, nadir ve değerli oldukları düşünülür. Onu yakalamak da, bulmak da zordur!",
     "options": [
-      "Gamble carelessly on it.",
-      "Avoid it completely.",
-      "Invest more money or resources into it.",
-      "Reduce involvement with it."
+      "A mythical creature found in startups.",
+      "A startup company valued at over $1 billion.",
+      "A company with only one investor.",
+      "A new product with unique features."
     ],
-    "correctAnswer": "Invest more money or resources into it.",
+    "correctAnswer": "A startup company valued at over $1 billion.",
     "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126090111,
+    "id": 126090207,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The politician faced harsh _____ for his comments.",
-    "translation": "Doğru seçenek olan 'criticism' (eleştiri) kelimesi boşluğa gelmeli.",
-    "context": "'Criticism' (eleştiri), bir konu, eylem veya kişi hakkında olumsuz değerlendirme veya hoşnutsuzluk belirtmek demektir. Yapıcı eleştiri gelişmeye yardımcı olurken, yıkıcı eleştiri moral bozucu olabilir. Sosyal medyada bir gönderi paylaştığında, mutlaka 'criticism' alabilirsin, iyiye de kötüye de hazırlıklı ol!",
+    "level": "INTERMEDIATE",
+    "phrase": "AOC was _____ when TMZ asked about her dating life.",
+    "translation": "TMZ, AOC'ye flört hayatını sorduğunda o hazırlıksız yakalandı.",
+    "context": "Beklenmedik bir soruyla veya durumla karşılaşmak, hazırlıksız yakalanmak anlamına gelir. Hani birden bire hiç beklemediğin bir soru sorulur da ne diyeceğini bilemezsin ya, işte tam da o anki durumdur. 'Gafil avlanmak' gibi düşünebilirsin!",
     "options": [
-      "criticism",
-      "praise",
-      "support",
-      "agreement"
+      "prepared well",
+      "caught off guard",
+      "fully ready",
+      "well informed"
     ],
-    "correctAnswer": "criticism",
+    "correctAnswer": "caught off guard",
     "category": "CASUAL",
     "variations": [
-      "He ignored the unfair criticism.",
-      "Her new book received mixed criticism."
+      "The sudden rain _____ us _____.",
+      "He was _____ when his boss announced the promotion."
     ]
   },
   {
-    "id": 126090112,
+    "id": 126090208,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Which term describes unmanned aerial vehicles used for various operations?",
+    "translation": "Çeşitli operasyonlar için kullanılan insansız hava araçlarını tanımlayan terim hangisidir?",
+    "context": "Küçük, insansız hava araçlarıdır. Kamerası olan bir oyuncak uçak gibi düşünülebilir, ama çok daha gelişmiş ve faydalı. Güvenlikten film çekimine, hatta paket teslimatına kadar birçok alanda kullanılıyorlar. Ukrayna'daki haberde olduğu gibi askeri amaçlarla da kullanılabiliyorlar.",
+    "options": [
+      "Aircrafts",
+      "Helicopters",
+      "Drones",
+      "Jets"
+    ],
+    "correctAnswer": "Drones",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126090209,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "US troops have a history in this _____ Thai city.",
+    "translation": "ABD birliklerinin bu gürültülü Tayland şehrinde bir geçmişi var.",
+    "context": "Gürültülü, karmaşalı, taşkınlıkların olduğu bir yer için kullanılır. Hani bazen öyle eğlenceli ama bir o kadar da hareketli bir şehir olur ki, uyumak neredeyse imkansızdır, işte orası 'raucous' bir yerdir. Özellikle bar ve gece hayatının yoğun olduğu bölgeler için sıkça kullanılır.",
+    "options": [
+      "peaceful",
+      "quiet",
+      "serene",
+      "raucous"
+    ],
+    "correctAnswer": "raucous",
+    "category": "TRAVEL",
+    "variations": [
+      "The festival had a _____ atmosphere.",
+      "He described his childhood town as _____ and full of life."
+    ]
+  },
+  {
+    "id": 126090210,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Reliance's JioHotstar is taking its _____ global.",
+    "translation": "Reliance'ın JioHotstar'ı yayın imparatorluğunu küreselleştiriyor.",
+    "context": "Bir şirketin dijital içerik yayıncılığı (film, dizi, müzik vb.) alanındaki çok büyük ve etkili varlığını tanımlamak için kullanılır. 'Netflix' veya 'Disney+' gibi platformların geniş bir kitleye hitap eden ve pazarı domine eden gücünü anlatır. Adeta dijital dünyada kendi krallığını kurmuş gibi!",
+    "options": [
+      "small shop",
+      "local business",
+      "streaming empire",
+      "tiny venture"
+    ],
+    "correctAnswer": "streaming empire",
+    "category": "BUSINESS",
+    "variations": [
+      "The tech giant built a vast _____.",
+      "She dreams of creating her own fashion _____."
+    ]
+  },
+  {
+    "id": 126090211,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "What does it mean if something is 'blown to smithereens'?",
-    "translation": "Bir şeyin 'blown to smithereens' olması, tamamen çok küçük parçalara ayrılarak yok olması anlamına gelir.",
-    "context": "'Blown to smithereens' (paramparça olmak, havaya uçmak), bir şeyin patlama veya şiddetli bir darbe sonucu tamamen küçük parçalara ayrılması anlamına gelir. Tıpkı bir karpuzu patlatmak ya da bir kaleyi dinamitle havaya uçurmak gibi düşün. Bir şeyin tam anlamıyla yok olduğunu ve geriye sadece minik parçaların kaldığını vurgulamak için kullanılır. Abartılı bir ifade olsa da, olayın ciddiyetini çok iyi anlatır!",
+    "phrase": "In politics, what does it mean to 'cross the aisle'?",
+    "translation": "Siyasette 'cross the aisle' ne anlama gelir?",
+    "context": "Siyasette 'cross the aisle' deyimi, genellikle farklı siyasi partilere mensup kişilerin, ortak bir amaç uğruna bir araya gelip iş birliği yapması anlamına gelir. Hani Meclis'te koridorun karşı tarafına geçip tokalaşmak gibi düşün, uzlaşmacı bir harekettir. Nadiren de olsa, bazen büyük sürprizlere yol açar!",
     "options": [
-      "It is slightly damaged.",
-      "It is carefully dismantled.",
-      "It is completely destroyed into very small pieces.",
-      "It is quickly repaired."
+      "To literally walk to the other side of the room.",
+      "For members of opposing parties to cooperate.",
+      "To change political parties.",
+      "To argue loudly with an opponent."
     ],
-    "correctAnswer": "It is completely destroyed into very small pieces.",
+    "correctAnswer": "For members of opposing parties to cooperate.",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126090212,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "In sports, what is a 'major upset'?",
+    "translation": "Sporda 'major upset' nedir?",
+    "context": "Sporda 'major upset', yani 'büyük sürpriz', genelde çok daha zayıf veya şansı az görülen bir takımın ya da sporcunun, herkesin favori gösterdiği güçlü rakibini yenmesi durumudur. Hani favori takımının hiç beklemediğin bir maçta kaybetmesi gibi. Bu tür sonuçlar taraftarları şaşkına çevirir ve spor tarihine geçer!",
+    "options": [
+      "A player getting injured during a game.",
+      "When a stronger team/player easily wins.",
+      "When a weaker team/player unexpectedly defeats a stronger one.",
+      "A game ending in a tie."
+    ],
+    "correctAnswer": "When a weaker team/player unexpectedly defeats a stronger one.",
     "category": "MIXED",
     "variations": []
   }
