@@ -1,227 +1,239 @@
 [
   {
-    "id": 126090201,
+    "id": 126090301,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Airlines should _____ Russian airspace for safety.",
-    "translation": "Hava Yolları güvenlik için Rus hava sahasından kaçınmalıdır.",
-    "context": "Bir yer veya durumdan uzak durmak, kaçınmak anlamına gelir. Uçakların tehlikeli bölgelerden uzak durması gibi düşünebilirsin. Seyahatte güvenliğin için 'avoid' demek, riskli yerlerden uzak dur demektir!",
+    "phrase": "The UN warns of a 'supersized' _____ this year.",
+    "translation": "Bu yıl Birleşmiş Milletler 'süper büyük' bir El Niño konusunda uyarıyor.",
+    "context": "El Niño, Pasifik Okyanusu'ndaki suların ısınmasıyla oluşan, dünya genelinde hava durumunu etkileyen doğal bir iklim olayı. İspanyolca'da 'küçük oğlan' anlamına gelir. Bu yılki süper boyutuyla, tüm dünyanın gündeminde!",
     "options": [
-      "enter",
-      "avoid",
-      "cross",
-      "fly over"
+      "El Niño",
+      "hurricane",
+      "tsunami",
+      "earthquake"
     ],
-    "correctAnswer": "avoid",
-    "category": "TRAVEL",
-    "variations": [
-      "Travelers must _____ crowded areas during peak season.",
-      "Try to _____ unnecessary risks while exploring."
-    ]
-  },
-  {
-    "id": 126090202,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The flying car company just lost its _____.",
-    "translation": "Uçan araba şirketi az önce CEO'sunu kaybetti.",
-    "context": "CEO, yani 'Chief Executive Officer', bir şirketin en tepe yöneticisidir. Tüm önemli kararları o alır, adeta şirketin kaptanı gibidir. Bir şirketin CEO'su ayrıldığında, bu genellikle büyük bir haber olur!",
-    "options": [
-      "pilot",
-      "driver",
-      "CEO",
-      "mechanic"
-    ],
-    "correctAnswer": "CEO",
-    "category": "BUSINESS",
-    "variations": [
-      "Our new _____ will start next month.",
-      "She quickly rose to become the company's _____."
-    ]
-  },
-  {
-    "id": 126090203,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "Which term refers to an activity outside a spacecraft by an astronaut?",
-    "translation": "Bir astronotun uzay aracının dışında yaptığı etkinliği ifade eden terim hangisidir?",
-    "context": "Astronotların uzay gemisinin dışına çıkarak yaptığı yürüyüşlere verilen havalı isim. Aslında uzayda yüzme gibi düşün, yerçekimi yok sonuçta! Bazen tamir yaparlar, bazen yeni ekipman takarlar. Çok nadir ve nefes kesici bir olaydır!",
-    "options": [
-      "Earthwalk",
-      "Moonwalk",
-      "Spacewalk",
-      "Starwalk"
-    ],
-    "correctAnswer": "Spacewalk",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126090204,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Last summer was the UK's _____ ever.",
-    "translation": "Geçen yaz Birleşik Krallık'ın şimdiye kadarki en sıcak yaz'ıydı.",
-    "context": "İklim değişikliğiyle birlikte sıkça duyduğumuz bir durum. Bir yerin kaydedilen en yüksek sıcaklığını ifade eder. Eğer bir yaz 'hottest ever' ise, terliklerini ve şortunu hazırla, çünkü çok sıcak geçiyor demektir!",
-    "options": [
-      "coldest",
-      "wettest",
-      "hottest",
-      "mildest"
-    ],
-    "correctAnswer": "hottest",
+    "correctAnswer": "El Niño",
     "category": "MIXED",
     "variations": [
-      "This year's concert was the _____ ever.",
-      "The team played its _____ game in history."
+      "Experts predict a strong El Niño season.",
+      "El Niño can bring heavy rains or drought."
     ]
   },
   {
-    "id": 126090205,
+    "id": 126090302,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Officials say Israel is _____ its positions in Lebanon.",
-    "translation": "Yetkililer, İsrail'in Lübnan'daki konumlarını genişlettiğini söylüyor.",
-    "context": "Bir bölgede veya etki alanında yayılmak, büyümek anlamına gelir. Askeri veya siyasi bağlamda kullanıldığında, bir ülkenin mevcut konumlarını artırması veya daha geniş bir alana yayılması demektir. Haritadaki sınırların genişlemesi gibi düşün!",
+    "level": "BEGINNER",
+    "phrase": "The police started a _____ on illegal parking.",
+    "translation": "Polis, yasa dışı parklanmaya karşı sert önlemler başlattı.",
+    "context": "Bir şeye 'crackdown' yapmak demek, ona karşı sert önlemler almak, sıkı bir mücadele başlatmak demek. Genellikle yasa dışı veya istenmeyen davranışları durdurmak için kullanılır. Şehirde sürekli yanlış park eden araçlara karşı yapılan o ani denetimler gibi düşünebilirsin!",
     "options": [
-      "decreasing",
-      "contracting",
-      "shrinking",
-      "expanding"
+      "crackdown",
+      "breakdown",
+      "slowdown",
+      "showdown"
     ],
-    "correctAnswer": "expanding",
-    "category": "TRAVEL",
-    "variations": [
-      "The company is _____ into new markets.",
-      "The garden is _____ rapidly with all the rain."
-    ]
-  },
-  {
-    "id": 126090206,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "AfterQuery's $3.2B valuation makes it a 'unicorn'. What does 'unicorn' mean in business?",
-    "translation": "AfterQuery'nin 3.2 milyar dolarlık değeri onu bir 'unicorn' yapıyor. İş dünyasında 'unicorn' ne anlama gelir?",
-    "context": "İş dünyasında 'unicorn', değeri 1 milyar doların üzerinde olan, genellikle teknoloji tabanlı, genç şirketlere verilen havalı bir isimdir. Yani, tıpkı efsanevi tek boynuzlu atlar gibi, nadir ve değerli oldukları düşünülür. Onu yakalamak da, bulmak da zordur!",
-    "options": [
-      "A mythical creature found in startups.",
-      "A startup company valued at over $1 billion.",
-      "A company with only one investor.",
-      "A new product with unique features."
-    ],
-    "correctAnswer": "A startup company valued at over $1 billion.",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126090207,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "AOC was _____ when TMZ asked about her dating life.",
-    "translation": "TMZ, AOC'ye flört hayatını sorduğunda o hazırlıksız yakalandı.",
-    "context": "Beklenmedik bir soruyla veya durumla karşılaşmak, hazırlıksız yakalanmak anlamına gelir. Hani birden bire hiç beklemediğin bir soru sorulur da ne diyeceğini bilemezsin ya, işte tam da o anki durumdur. 'Gafil avlanmak' gibi düşünebilirsin!",
-    "options": [
-      "prepared well",
-      "caught off guard",
-      "fully ready",
-      "well informed"
-    ],
-    "correctAnswer": "caught off guard",
+    "correctAnswer": "crackdown",
     "category": "CASUAL",
     "variations": [
-      "The sudden rain _____ us _____.",
-      "He was _____ when his boss announced the promotion."
+      "There was a crackdown on speeding drivers.",
+      "The government announced a crackdown on crime."
     ]
   },
   {
-    "id": 126090208,
+    "id": 126090303,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Many young people want to build their own _____.",
+    "translation": "Birçok genç kendi girişimlerini kurmak istiyor.",
+    "context": "'Startup', yeni kurulmuş ve genellikle yenilikçi bir fikir veya teknolojiye sahip genç şirketler için kullanılır. Silikon Vadisi'ndeki o havalı, dinamik firmalar var ya, işte onlar birer startup! Bir fikrin varsa, sen de bir startup kurabilirsin!",
+    "options": [
+      "startup",
+      "shutdown",
+      "stand-up",
+      "set-up"
+    ],
+    "correctAnswer": "startup",
+    "category": "BUSINESS",
+    "variations": [
+      "She launched a successful tech startup last year.",
+      "Our startup is looking for new investors."
+    ]
+  },
+  {
+    "id": 126090304,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The new law had a big _____ on local businesses.",
+    "translation": "Yeni yasanın yerel işletmeler üzerinde büyük bir etkisi oldu.",
+    "context": "'Impact', bir şeyin başka bir şey üzerindeki güçlü etkisi veya sonucudur. Hava durumunun uçuşlar üzerindeki 'impact'i, yeni bir teknolojinin hayatımıza 'impact'i gibi düşünebilirsin. Yani bir olayın ne kadar büyük bir iz bıraktığını anlatır!",
+    "options": [
+      "impact",
+      "compact",
+      "contact",
+      "intact"
+    ],
+    "correctAnswer": "impact",
+    "category": "TRAVEL",
+    "variations": [
+      "The rain had a significant impact on traffic.",
+      "His speech made a huge impact on the audience."
+    ]
+  },
+  {
+    "id": 126090305,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "_____ gangs use large boats to cross the channel.",
+    "translation": "Kaçakçılık çeteleri kanalı geçmek için büyük tekneler kullanıyor.",
+    "context": "'Smuggling', yasa dışı yollarla mal, insan veya başka şeyleri bir yerden başka bir yere taşımak demektir. Filmlerde gördüğümüz o gizli geçitler, saklı bölmeler ve gece yapılan transferler hep 'smuggling' işlerinin bir parçasıdır. Aman bulaşma!",
+    "options": [
+      "Smuggling",
+      "Struggling",
+      "Snuggling",
+      "Shrinking"
+    ],
+    "correctAnswer": "Smuggling",
+    "category": "CASUAL",
+    "variations": [
+      "Customs caught them smuggling diamonds.",
+      "Drug smuggling is a serious crime."
+    ]
+  },
+  {
+    "id": 126090306,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The big tech firm announced a major _____ today.",
+    "translation": "Büyük teknoloji şirketi bugün önemli bir satın almayı duyurdu.",
+    "context": "'Acquisition', bir şirketin başka bir şirketi veya varlığını satın almasıdır. Özellikle teknoloji dünyasında sürekli dev şirketler küçük ve yenilikçi firmaları satın alır. Yani büyük balığın küçük balığı yutması gibi düşünebilirsin, ama yasal yollarla tabii!",
+    "options": [
+      "acquisition",
+      "audition",
+      "definition",
+      "tradition"
+    ],
+    "correctAnswer": "acquisition",
+    "category": "BUSINESS",
+    "variations": [
+      "The company made a strategic acquisition.",
+      "Their latest acquisition cost millions."
+    ]
+  },
+  {
+    "id": 126090307,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Which term describes unmanned aerial vehicles used for various operations?",
-    "translation": "Çeşitli operasyonlar için kullanılan insansız hava araçlarını tanımlayan terim hangisidir?",
-    "context": "Küçük, insansız hava araçlarıdır. Kamerası olan bir oyuncak uçak gibi düşünülebilir, ama çok daha gelişmiş ve faydalı. Güvenlikten film çekimine, hatta paket teslimatına kadar birçok alanda kullanılıyorlar. Ukrayna'daki haberde olduğu gibi askeri amaçlarla da kullanılabiliyorlar.",
+    "phrase": "Which word means 'danger' or 'risk'?",
+    "translation": "Hangi kelime 'tehlike' veya 'risk' anlamına gelir?",
+    "context": "'Hazard', potansiyel bir tehlike veya risk kaynağıdır. Mesela kaygan yollar bir sürüş 'hazard'ıdır veya yüksek sıcaklık sporcular için bir 'heat hazard'ıdır. Yani dikkat etmen gereken bir potansiyel kötü durum!",
     "options": [
-      "Aircrafts",
-      "Helicopters",
-      "Drones",
-      "Jets"
+      "hazard",
+      "reward",
+      "comfort",
+      "safety"
     ],
-    "correctAnswer": "Drones",
+    "correctAnswer": "hazard",
     "category": "MIXED",
     "variations": []
   },
   {
-    "id": 126090209,
+    "id": 126090308,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "US troops have a history in this _____ Thai city.",
-    "translation": "ABD birliklerinin bu gürültülü Tayland şehrinde bir geçmişi var.",
-    "context": "Gürültülü, karmaşalı, taşkınlıkların olduğu bir yer için kullanılır. Hani bazen öyle eğlenceli ama bir o kadar da hareketli bir şehir olur ki, uyumak neredeyse imkansızdır, işte orası 'raucous' bir yerdir. Özellikle bar ve gece hayatının yoğun olduğu bölgeler için sıkça kullanılır.",
+    "level": "INTERMEDIATE",
+    "phrase": "The magician made the coin _____ and then _____.",
+    "translation": "Sihirbaz parayı yok etti ve sonra yeniden ortaya çıkardı.",
+    "context": "'Vanish' demek, aniden gözden kaybolmak, buharlaşmak gibi. 'Reappear' ise aynı hızla geri gelmek, yeniden ortaya çıkmak demektir. Kanada'daki bir adanın kaybolup başka bir yerde tekrar görünmesi gibi, bazen doğa da sihirbazlık yapabiliyor!",
     "options": [
-      "peaceful",
-      "quiet",
-      "serene",
-      "raucous"
+      "vanish and reappear",
+      "appear and vanish",
+      "float and sink",
+      "fly and land"
     ],
-    "correctAnswer": "raucous",
+    "correctAnswer": "vanish and reappear",
     "category": "TRAVEL",
     "variations": [
-      "The festival had a _____ atmosphere.",
-      "He described his childhood town as _____ and full of life."
+      "The fog caused the ship to vanish and reappear.",
+      "Her smile would vanish and then reappear quickly."
     ]
   },
   {
-    "id": 126090210,
+    "id": 126090309,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Reliance's JioHotstar is taking its _____ global.",
-    "translation": "Reliance'ın JioHotstar'ı yayın imparatorluğunu küreselleştiriyor.",
-    "context": "Bir şirketin dijital içerik yayıncılığı (film, dizi, müzik vb.) alanındaki çok büyük ve etkili varlığını tanımlamak için kullanılır. 'Netflix' veya 'Disney+' gibi platformların geniş bir kitleye hitap eden ve pazarı domine eden gücünü anlatır. Adeta dijital dünyada kendi krallığını kurmuş gibi!",
+    "phrase": "The _____ leader faced a vote of no confidence.",
+    "translation": "Mücadele eden lider güven oylamasıyla karşı karşıya kaldı.",
+    "context": "'Embattled', çok zor bir durumda olan, ağır eleştirilere veya saldırılara maruz kalan kişi veya kurumlar için kullanılır. Sanki bir kalenin etrafı sarılmış da içeridekiler direniyor gibi düşün. İspanyol Başbakanı'nın durumu gibi, bayağı zorlu bir süreçten geçiyor!",
     "options": [
-      "small shop",
-      "local business",
-      "streaming empire",
-      "tiny venture"
+      "embattled",
+      "enchanted",
+      "enabled",
+      "embraced"
     ],
-    "correctAnswer": "streaming empire",
-    "category": "BUSINESS",
+    "correctAnswer": "embattled",
+    "category": "MIXED",
     "variations": [
-      "The tech giant built a vast _____.",
-      "She dreams of creating her own fashion _____."
+      "The embattled company faced bankruptcy.",
+      "He was an embattled general fighting on many fronts."
     ]
   },
   {
-    "id": 126090211,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "id": 126090310,
+    "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "In politics, what does it mean to 'cross the aisle'?",
-    "translation": "Siyasette 'cross the aisle' ne anlama gelir?",
-    "context": "Siyasette 'cross the aisle' deyimi, genellikle farklı siyasi partilere mensup kişilerin, ortak bir amaç uğruna bir araya gelip iş birliği yapması anlamına gelir. Hani Meclis'te koridorun karşı tarafına geçip tokalaşmak gibi düşün, uzlaşmacı bir harekettir. Nadiren de olsa, bazen büyük sürprizlere yol açar!",
+    "phrase": "Farmers need to be careful around the dangerous _____.",
+    "translation": "Çiftçilerin tehlikeli gübre çukurlarının etrafında dikkatli olması gerekiyor.",
+    "context": "'Slurry pit', hayvan gübresinin toplandığı ve depolandığı derin çukurlara denir. Genellikle tarım alanlarında bulunur ve çok tehlikeli olabilir. Haberlerdeki olay gibi, içine düşmek ölümcül sonuçlar doğurabilir. Aman dikkat!",
     "options": [
-      "To literally walk to the other side of the room.",
-      "For members of opposing parties to cooperate.",
-      "To change political parties.",
-      "To argue loudly with an opponent."
+      "slurry pit",
+      "berry plot",
+      "furry hat",
+      "worry kit"
     ],
-    "correctAnswer": "For members of opposing parties to cooperate.",
+    "correctAnswer": "slurry pit",
     "category": "CASUAL",
-    "variations": []
+    "variations": [
+      "The safety warning concerned the slurry pit.",
+      "It's vital to secure the slurry pit area."
+    ]
   },
   {
-    "id": 126090212,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "id": 126090311,
+    "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "In sports, what is a 'major upset'?",
-    "translation": "Sporda 'major upset' nedir?",
-    "context": "Sporda 'major upset', yani 'büyük sürpriz', genelde çok daha zayıf veya şansı az görülen bir takımın ya da sporcunun, herkesin favori gösterdiği güçlü rakibini yenmesi durumudur. Hani favori takımının hiç beklemediğin bir maçta kaybetmesi gibi. Bu tür sonuçlar taraftarları şaşkına çevirir ve spor tarihine geçer!",
+    "phrase": "The authorities decided to _____ the illegal goods.",
+    "translation": "Yetkililer yasa dışı mallara el koymaya karar verdi.",
+    "context": "'Seize', yasal yetkiyle bir şeye zorla el koymak, onu ele geçirmek anlamına gelir. Özellikle polis veya hükümetin yasa dışı veya kanıt niteliğindeki eşyalara el koyması durumlarında kullanılır. Mesela gümrükte kaçak mallara 'seize' işlemi yapılır!",
     "options": [
-      "A player getting injured during a game.",
-      "When a stronger team/player easily wins.",
-      "When a weaker team/player unexpectedly defeats a stronger one.",
-      "A game ending in a tie."
+      "seize",
+      "cease",
+      "lease",
+      "tease"
     ],
-    "correctAnswer": "When a weaker team/player unexpectedly defeats a stronger one.",
-    "category": "MIXED",
-    "variations": []
+    "correctAnswer": "seize",
+    "category": "BUSINESS",
+    "variations": [
+      "Police will seize assets from criminals.",
+      "They tried to seize control of the company."
+    ]
+  },
+  {
+    "id": 126090312,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Smuggling gangs had to _____ using larger boats.",
+    "translation": "Kaçakçılık çeteleri daha büyük tekneler kullanmaya başvurmak zorunda kaldı.",
+    "context": "'Resort to' bir şeyi son çare olarak, başka seçeneğin kalmadığında yapmak anlamına gelir. Genellikle olumsuz veya istenmeyen bir şeyi yapmak zorunda kaldığında kullanılır. Mesela, küçük tekneler işe yaramayınca daha büyüklerine 'resort to' ettiler!",
+    "options": [
+      "resort to",
+      "report to",
+      "retort to",
+      "absorb to"
+    ],
+    "correctAnswer": "resort to",
+    "category": "TRAVEL",
+    "variations": [
+      "They had to resort to legal action.",
+      "Many companies resort to layoffs during a recession."
+    ]
   }
 ]
