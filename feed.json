@@ -1,230 +1,236 @@
 [
   {
-    "id": 126090401,
+    "id": 126090501,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Heavy rains caused _____ in the mountain villages.",
-    "translation": "Şiddetli yağmurlar dağ köylerinde sel baskınlarına neden oldu.",
-    "context": "Aman Allah'ım! Bir anda her yer su bastı! İşte 'flash flood' tam da bu ani ve şaşırtıcı sel baskınları demek. Normal selden farkı, çok daha hızlı ve şiddetli olması. Özellikle dağlık veya çöl bölgelerinde, ani ve yoğun yağmurlarla yollar, vadiler, hatta evler bir anda su altında kalabilir. Seyahatteyken dikkatli olmak lazım!",
+    "phrase": "I want to travel to _____ next month.",
+    "translation": "Gelecek ay Moskova'ya seyahat etmek istiyorum.",
+    "context": "Bir şehre gitmek istediğini söylerken 'travel to' kalıbını kullanabilirsin. Moskova, Rusya'nın başkenti ve tarihi Kızıl Meydan'ı ile çok ünlü! Haydi, valizini topla!",
     "options": [
-      "flash floods",
-      "slow rivers",
-      "gentle rains",
-      "dry lands"
+      "Moscow",
+      "work",
+      "money",
+      "home"
     ],
-    "correctAnswer": "flash floods",
+    "correctAnswer": "Moscow",
     "category": "TRAVEL",
     "variations": [
-      "The storm brought dangerous _____ to the coast.",
-      "Many roads were closed due to the _____."
+      "I'd like to travel to a new city.",
+      "She plans to travel to London soon."
     ]
   },
   {
-    "id": 126090402,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The company plans to _____ next year.",
-    "translation": "Şirket gelecek yıl halka arz olmayı planlıyor.",
-    "context": "'Go public' dediğimiz şey, bir şirketin borsada hisse senetlerini satışa sunması ve böylece 'halka açılması'dır. Yani artık küçük bir grup yerine binlerce yatırımcı şirketin sahibi olabilir. 'IPO' (Initial Public Offering) süreciyle gerçekleşir. Yeni bir şirketin 'Büyüdüm, beni tanıyın!' demesinin havalı yolu gibi düşünebilirsin.",
-    "options": [
-      "go public",
-      "stay private",
-      "close down",
-      "sell products"
-    ],
-    "correctAnswer": "go public",
-    "category": "BUSINESS",
-    "variations": [
-      "After years of growth, they decided to _____.",
-      "Many startups dream of the day they can _____."
-    ]
-  },
-  {
-    "id": 126090403,
+    "id": 126090502,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The bird couldn't fly with a _____.",
-    "translation": "Kuş, kırık kanadıyla uçamıyordu.",
-    "context": "Ah zavallı kuş! 'Broken wing' deyince aklına hemen 'kanadı kırık' bir kuş gelmeli. Bu tabir sadece kuşlar için değil, bazen bir projenin veya planın aksayan, eksik kalan kısmını anlatmak için de mecazi olarak kullanılabilir. Mesela 'Our plan has a broken wing' (Planımızın aksayan bir yanı var) gibi. Ama genelde hayvanlar için kullanırız.",
+    "phrase": "The new company needs a lot of _____.",
+    "translation": "Yeni şirketin çok paraya ihtiyacı var.",
+    "context": "Bir şirket kurmak ya da büyütmek için neye ihtiyacın var? Tabii ki 'money'! 'Series B financing' ya da 'pre-IPO' gibi havalı kelimeler duysan da, temelde hepsi para demek.",
     "options": [
-      "broken wing",
-      "strong tail",
-      "long neck",
-      "shiny beak"
+      "money",
+      "time",
+      "fun",
+      "food"
     ],
-    "correctAnswer": "broken wing",
-    "category": "CASUAL",
+    "correctAnswer": "money",
+    "category": "BUSINESS",
     "variations": [
-      "He carefully helped the sparrow with its _____.",
-      "A bird with a _____ struggles to survive."
+      "He has a lot of money.",
+      "They saved money for a new car."
     ]
   },
   {
-    "id": 126090404,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "What are 'Cybercab fleets' in the context of autonomous vehicles?",
-    "translation": "Otonom araçlar bağlamında 'Cybercab fleets' nedir?",
-    "context": "Gelecekten bir sesleniş: 'Taksiye mi ihtiyacın var? Geliyor otonom Cybercab!' 'Cybercab fleets' aslında Tesla'nın gelecekteki sürücüsüz taksi ağı. Yani içinde şoför olmayan, kendi kendine giden araçlardan oluşan bir filo. Tıpkı şu anki taksi durakları gibi ama her şey otomatik. Film senaryosu gibi ama gerçek olmak üzere!",
+    "id": 126090503,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The racing car completed a fast _____.",
+    "translation": "Yarış arabası hızlı bir tur tamamladı.",
+    "context": "Formula 1 gibi yarışlarda arabalar pistin etrafında dönerler. Her bir tura 'lap' denir. Pilotlar hızla turlarını tamamlarken izlemek çok heyecanlıdır!",
     "options": [
-      "Groups of automated taxi vehicles",
-      "Cybersecurity teams for taxis",
-      "New designs for car interiors",
-      "High-speed train networks"
+      "lap",
+      "stop",
+      "turn",
+      "walk"
     ],
-    "correctAnswer": "Groups of automated taxi vehicles",
+    "correctAnswer": "lap",
+    "category": "CASUAL",
+    "variations": [
+      "He ran a quick lap.",
+      "The runner finished another lap."
+    ]
+  },
+  {
+    "id": 126090504,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "We found an _____ cave with drawings.",
+    "translation": "Çizimler olan antik bir mağara bulduk.",
+    "context": "'Ancient' kelimesi 'çok eski' demek. Müzelerde ya da tarih kitaplarında 'ancient civilizations' (antik medeniyetler) gibi ifadeleri sıkça görürsün. Bu mağara çizimleri de işte tam öyle, çok eski!",
+    "options": [
+      "ancient",
+      "new",
+      "small",
+      "big"
+    ],
+    "correctAnswer": "ancient",
+    "category": "MIXED",
+    "variations": [
+      "They found ancient treasures.",
+      "This is an ancient building."
+    ]
+  },
+  {
+    "id": 126090505,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "A special _____ was sent for peace talks.",
+    "translation": "Barış görüşmeleri için özel bir elçi gönderildi.",
+    "context": "'Envoy', bir ülkenin başka bir ülkeye özel bir görevle gönderdiği kişidir, yani bir tür 'elçi'. Düşünsene, hem geziyorlar hem de önemli işler başarıyorlar. Seyahat edip dünyayı değiştirmek gibi!",
+    "options": [
+      "envoy",
+      "tourist",
+      "luggage",
+      "ticket"
+    ],
+    "correctAnswer": "envoy",
+    "category": "TRAVEL",
+    "variations": [
+      "The president sent an envoy.",
+      "She acted as a peace envoy."
+    ]
+  },
+  {
+    "id": 126090506,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The startup is seeking more _____ for growth.",
+    "translation": "Startup büyüme için daha fazla finansman arıyor.",
+    "context": "'Financing' yani 'finansman', bir işi başlatmak, sürdürmek veya büyütmek için gerekli olan para ve sermaye sağlamak demek. Girişimcilerin rüyalarını gerçekleştirmesi için olmazsa olmazı!",
+    "options": [
+      "financing",
+      "advice",
+      "employees",
+      "products"
+    ],
+    "correctAnswer": "financing",
+    "category": "BUSINESS",
+    "variations": [
+      "They need financing for the project.",
+      "The bank offers financing options."
+    ]
+  },
+  {
+    "id": 126090507,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Be careful of the _____ fumes in the area.",
+    "translation": "Bölgedeki zehirli dumanlara dikkat et.",
+    "context": "'Toxic' kelimesi 'zehirli' anlamına gelir. 'Toxic fumes' ise zehirli gazlar veya dumanlar demektir. Aman dikkat, böyle şeylerden uzak durmak en iyisi! Hava temiz olsun, hepimiz güvende olalım.",
+    "options": [
+      "toxic",
+      "clean",
+      "fresh",
+      "light"
+    ],
+    "correctAnswer": "toxic",
+    "category": "CASUAL",
+    "variations": [
+      "Toxic waste is dangerous.",
+      "Some plants are toxic."
+    ]
+  },
+  {
+    "id": 126090508,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The country faced economic _____ after the conflict.",
+    "translation": "Ülke çatışma sonrası ekonomik yaptırımlarla karşılaştı.",
+    "context": "'Sanctions' kelimesi 'yaptırım' demek. Genellikle bir ülke, başka bir ülkeye belirli kurallara uymadığı için ekonomik kısıtlamalar getirir. Mesela, bazı ürünlerin ticaretini yasaklamak gibi. Kulağa ciddi geliyor, değil mi?",
+    "options": [
+      "sanctions",
+      "rewards",
+      "benefits",
+      "agreements"
+    ],
+    "correctAnswer": "sanctions",
+    "category": "MIXED",
+    "variations": [
+      "They lifted the sanctions.",
+      "International sanctions were imposed."
+    ]
+  },
+  {
+    "id": 126090509,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "What does 'envoy' primarily refer to in international diplomacy?",
+    "translation": "Uluslararası diplomaside 'envoy' kelimesi öncelikli olarak ne anlama gelir?",
+    "context": "'Envoy', bir ülkenin hükümeti veya devlet başkanı tarafından belirli bir görevi yerine getirmesi için başka bir ülkeye gönderilen 'diplomatik temsilci'dir. Yani bir çeşit VIP gezgin! Seyahatleri iş amaçlıdır, tatil değil.",
+    "options": [
+      "A type of travel visa",
+      "A diplomatic representative",
+      "A tourist attraction",
+      "A specific travel route"
+    ],
+    "correctAnswer": "A diplomatic representative",
     "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126090405,
+    "id": 126090510,
     "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Solar and wind power are examples of _____.",
-    "translation": "Güneş ve rüzgar enerjisi, yenilenebilir enerji örnekleridir.",
-    "context": "Dünyayı kirletmeden, doğanın kendi kendine yenilediği kaynaklardan elde edilen enerjiye 'renewable energy' denir. Güneş enerjisi, rüzgar enerjisi, hidroelektrik bunlara harika örnekler. Gezegenimizi korumak için vazgeçilmez! Tamamen doğadan gelen pırıl pırıl bir güç.",
+    "level": "ADVANCED",
+    "phrase": "After the jury _____, a mistrial was declared.",
+    "translation": "Jüri çıkmaza girince, bir yargılama hatası ilan edildi.",
+    "context": "'Deadlock', bir karara varılamayan, çıkmaza girilen durum demektir. Özellikle bir jüri anlaşamadığında 'jury deadlocks' denir ve bu da 'mistrial' yani yargılama hatasına yol açabilir. Yani dava başa sarar!",
     "options": [
-      "renewable energy",
-      "fossil fuels",
-      "nuclear waste",
-      "oil drilling"
+      "deadlocks",
+      "agrees",
+      "votes",
+      "consults"
     ],
-    "correctAnswer": "renewable energy",
-    "category": "MIXED",
+    "correctAnswer": "deadlocks",
+    "category": "BUSINESS",
     "variations": [
-      "Many countries invest in _____ sources.",
-      "We need more _____ to fight climate change."
+      "The negotiations reached a deadlock.",
+      "The debate ended in a deadlock."
     ]
   },
   {
-    "id": 126090406,
+    "id": 126090511,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "What does 'playing with verve' imply about a team's performance?",
-    "translation": "'Playing with verve' bir takımın performansı hakkında ne anlama gelir?",
-    "context": "Bir futbol maçını izlerken spikerin 'Verve ile oynuyorlar!' dediğini duysan, takımın enerji dolu, coşkulu ve büyük bir hevesle oynadığını anlarsın. 'Verve', canlılık, şevk ve tutku demek. Maça ruhlarını katmışlar, izlerken keyif veriyorlar, sanki her pozisyonda 'Haydi!' diye bağırıyor gibiler. İşte bu!",
+    "phrase": "What does 'escalate' mean in the context of a 'war of words'?",
+    "translation": "'War of words' bağlamında 'escalate' ne anlama gelir?",
+    "context": "'Escalate', bir şeyin daha kötü, daha yoğun veya daha ciddi hale gelmesi demektir. 'War of words' (laf dalaşı) durumunda ise tartışmanın alevlenmesi, sertleşmesi anlamına gelir. Yani işler kızışıyor, dikkat!",
     "options": [
-      "They are performing with great enthusiasm and energy",
-      "They are playing very cautiously and defensively",
-      "They are struggling to score goals",
-      "They are using a slow and steady strategy"
+      "To de-escalate or reduce conflict",
+      "To intensify or worsen a conflict",
+      "To resolve a conflict peacefully",
+      "To initiate a new discussion"
     ],
-    "correctAnswer": "They are performing with great enthusiasm and energy",
+    "correctAnswer": "To intensify or worsen a conflict",
     "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126090407,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The basketball player impressed everyone with his amazing _____.",
-    "translation": "Basketbolcu, inanılmaz numaralı atışıyla herkesi etkiledi.",
-    "context": "Hop! Top havalandı, döndü, çarptı ve potaya girdi! İşte bu 'trick shot' demek! Yani beklenmedik, ustalık gerektiren ve genellikle şov amaçlı yapılan, 'nasıl yaptı ya?' dedirten atışlar veya vuruşlar. Bilardodan basketbola, golf'ten futbola, her sporda böyle akıl almaz hareketler vardır. Jonny Wilkinson'ınki de efsaneydi!",
-    "options": [
-      "trick shot",
-      "free throw",
-      "penalty kick",
-      "normal pass"
-    ],
-    "correctAnswer": "trick shot",
-    "category": "CASUAL",
-    "variations": [
-      "He practiced for hours to perfect his _____.",
-      "The video of his _____ quickly went viral."
-    ]
-  },
-  {
-    "id": 126090408,
+    "id": 126090512,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The government decided to _____ the company for violating regulations.",
-    "translation": "Hükümet, düzenlemeleri ihlal ettiği için şirkete yaptırım uygulamaya karar verdi.",
-    "context": "'Sanction' kelimesi, özellikle iş ve siyaset dünyasında sıkça karşımıza çıkar. Bir ülke veya kuruluşun, başka bir ülke ya da şirkete karşı uyguladığı ekonomik veya siyasi kısıtlamalar, cezalar anlamına gelir. 'Yaptırım uygulamak' deriz. Mesela, 'Eğer kurallara uymazsan, sana yaptırım uygularım!' diyen bir baba gibi düşünebilirsin ama daha ciddi ve küresel boyutlarda!",
+    "phrase": "The UN voted to _____ a new world map.",
+    "translation": "BM, yeni bir dünya haritasını kabul etmek için oy kullandı.",
+    "context": "'Adopt', bir şeyi resmi olarak kabul etmek, benimsemek veya uygulamaya koymak demektir. Mesela, yeni bir kanunu 'adopt' edebilirsin ya da yeni bir evcil hayvanı! Yani bir harita da resmi olarak 'adopt' edilebilir.",
     "options": [
-      "sanction",
-      "promote",
-      "reward",
-      "support"
+      "adopt",
+      "refuse",
+      "ignore",
+      "debate"
     ],
-    "correctAnswer": "sanction",
-    "category": "BUSINESS",
-    "variations": [
-      "International bodies can _____ countries that break human rights.",
-      "The new rules will _____ any firm using child labor."
-    ]
-  },
-  {
-    "id": 126090409,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "What happens when 'tensions flare' between people or groups?",
-    "translation": "İnsanlar veya gruplar arasında 'gerilimler yükseldiğinde' ne olur?",
-    "context": "Bir ortamda gerilimin ani ve şiddetli bir şekilde artmasına 'tensions flare' denir. Sanki havada elektrik var da bir anda şimşek çakıyor gibi! Tartışmalar alevlenebilir, öfke patlamaları yaşanabilir veya durum daha da kötüleşebilir. 'Gergindik, ama bir anda tansiyon tavan yaptı!' gibi. Durumun ciddiyetini artıran bir ifade.",
-    "options": [
-      "Arguments or conflicts suddenly become more intense",
-      "People become very calm and relaxed",
-      "Problems are quickly resolved",
-      "Everyone agrees on a solution"
-    ],
-    "correctAnswer": "Arguments or conflicts suddenly become more intense",
-    "category": "MIXED",
-    "variations": []
-  },
-  {
-    "id": 126090410,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Changing the voting age requires a _____.",
-    "translation": "Oy kullanma yaşını değiştirmek anayasa değişikliği gerektirir.",
-    "context": "Bir ülkenin anayasası, o ülkenin en temel yasalar kitabıdır. İşte bu kitaptaki bir maddeyi değiştirmek veya eklemek istediğinizde buna 'constitutional amendment' (anayasa değişikliği) denir. Bu öyle kolay kolay olmaz; genellikle çok uzun ve karmaşık hukuki süreçler gerektirir. Ülkenin kaderini belirleyecek kadar önemli bir şey!",
-    "options": [
-      "constitutional amendment",
-      "casual discussion",
-      "quick decision",
-      "small adjustment"
-    ],
-    "correctAnswer": "constitutional amendment",
+    "correctAnswer": "adopt",
     "category": "MIXED",
     "variations": [
-      "The proposal for a _____ sparked widespread debate.",
-      "Many citizens want a _____ regarding term limits."
+      "They adopted a new policy.",
+      "The council adopted the proposal."
     ]
-  },
-  {
-    "id": 126090411,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The new tech product caused an immediate _____ in the market.",
-    "translation": "Yeni teknoloji ürünü piyasada anında bir patlama yarattı.",
-    "context": "Bir şeyin aniden çok popüler olması, satışlarının veya üretiminin hızla artması durumuna 'boom' denir. Mesela 'avocado boom' avocadosuz yaşayamayanların artmasıyla patlayan bir pazar demek! Bu 'boom' kelimesini ekonomide, teknolojide, moda dünyasında çok duyarsın. Bir şeyin yıldızının parlaması gibi düşün.",
-    "options": [
-      "boom",
-      "decline",
-      "stagnation",
-      "collapse"
-    ],
-    "correctAnswer": "boom",
-    "category": "BUSINESS",
-    "variations": [
-      "The housing _____ made prices incredibly high.",
-      "After the ad campaign, the toy saw a huge _____ in sales."
-    ]
-  },
-  {
-    "id": 126090412,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Which scenario best describes a 'confrontation' while traveling?",
-    "translation": "Seyahat ederken 'bir yüzleşme'yi en iyi hangi senaryo tanımlar?",
-    "context": "Seyahatte hiç istemeyeceğimiz şeylerden biri 'confrontation' yani 'yüzleşme' veya 'tartışma'. Bu genellikle iki kişi ya da grubun bir sorun, anlaşmazlık ya da çatışma nedeniyle karşı karşıya gelmesidir. Belki otel odasında bir sorun çıktı, belki taksiciyle fiyatta anlaşamadın. Sakin kalmak ve diplomatik olmak önemlidir. 'Umarım kimseyle bir yüzleşme yaşamak zorunda kalmam' diye dua ederiz!",
-    "options": [
-      "A heated argument with a taxi driver about the fare",
-      "A calm chat with a hotel manager about a room upgrade",
-      "Sharing a friendly meal with fellow tourists",
-      "Asking for directions from a local resident"
-    ],
-    "correctAnswer": "A heated argument with a taxi driver about the fare",
-    "category": "TRAVEL",
-    "variations": []
   }
 ]
