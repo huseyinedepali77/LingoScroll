@@ -1,236 +1,224 @@
 [
   {
-    "id": 126090501,
+    "id": 126090801,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "I want to travel to _____ next month.",
-    "translation": "Gelecek ay Moskova'ya seyahat etmek istiyorum.",
-    "context": "Bir şehre gitmek istediğini söylerken 'travel to' kalıbını kullanabilirsin. Moskova, Rusya'nın başkenti ve tarihi Kızıl Meydan'ı ile çok ünlü! Haydi, valizini topla!",
+    "phrase": "The Eiffel Tower was _____ by a staff protest today.",
+    "translation": "'Kapatıldı' anlamına gelen 'shut' kelimesi.",
+    "context": "'Shut' kelimesi, bir yerin kapalı olduğu veya kapatıldığı anlamına gelir. Tıpkı Eiffel Kulesi'nin grev nedeniyle 'kapalı' olması gibi, bir dükkanın pazar günleri 'kapalı' olduğunu veya arkadaşınla kavga edip 'kapalı' bir surat taktığını anlatırken kullanabilirsin. Hem mekanlar hem de ruh halleri için birebir!",
     "options": [
-      "Moscow",
-      "work",
-      "money",
-      "home"
+      "open",
+      "closed",
+      "shut",
+      "finished"
     ],
-    "correctAnswer": "Moscow",
-    "category": "TRAVEL",
-    "variations": [
-      "I'd like to travel to a new city.",
-      "She plans to travel to London soon."
-    ]
-  },
-  {
-    "id": 126090502,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The new company needs a lot of _____.",
-    "translation": "Yeni şirketin çok paraya ihtiyacı var.",
-    "context": "Bir şirket kurmak ya da büyütmek için neye ihtiyacın var? Tabii ki 'money'! 'Series B financing' ya da 'pre-IPO' gibi havalı kelimeler duysan da, temelde hepsi para demek.",
-    "options": [
-      "money",
-      "time",
-      "fun",
-      "food"
-    ],
-    "correctAnswer": "money",
-    "category": "BUSINESS",
-    "variations": [
-      "He has a lot of money.",
-      "They saved money for a new car."
-    ]
-  },
-  {
-    "id": 126090503,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The racing car completed a fast _____.",
-    "translation": "Yarış arabası hızlı bir tur tamamladı.",
-    "context": "Formula 1 gibi yarışlarda arabalar pistin etrafında dönerler. Her bir tura 'lap' denir. Pilotlar hızla turlarını tamamlarken izlemek çok heyecanlıdır!",
-    "options": [
-      "lap",
-      "stop",
-      "turn",
-      "walk"
-    ],
-    "correctAnswer": "lap",
+    "correctAnswer": "shut",
     "category": "CASUAL",
     "variations": [
-      "He ran a quick lap.",
-      "The runner finished another lap."
+      "The store is _____ on Sundays.",
+      "Please, _____ the door."
     ]
   },
   {
-    "id": 126090504,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "We found an _____ cave with drawings.",
-    "translation": "Çizimler olan antik bir mağara bulduk.",
-    "context": "'Ancient' kelimesi 'çok eski' demek. Müzelerde ya da tarih kitaplarında 'ancient civilizations' (antik medeniyetler) gibi ifadeleri sıkça görürsün. Bu mağara çizimleri de işte tam öyle, çok eski!",
-    "options": [
-      "ancient",
-      "new",
-      "small",
-      "big"
-    ],
-    "correctAnswer": "ancient",
-    "category": "MIXED",
-    "variations": [
-      "They found ancient treasures.",
-      "This is an ancient building."
-    ]
-  },
-  {
-    "id": 126090505,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "A special _____ was sent for peace talks.",
-    "translation": "Barış görüşmeleri için özel bir elçi gönderildi.",
-    "context": "'Envoy', bir ülkenin başka bir ülkeye özel bir görevle gönderdiği kişidir, yani bir tür 'elçi'. Düşünsene, hem geziyorlar hem de önemli işler başarıyorlar. Seyahat edip dünyayı değiştirmek gibi!",
-    "options": [
-      "envoy",
-      "tourist",
-      "luggage",
-      "ticket"
-    ],
-    "correctAnswer": "envoy",
-    "category": "TRAVEL",
-    "variations": [
-      "The president sent an envoy.",
-      "She acted as a peace envoy."
-    ]
-  },
-  {
-    "id": 126090506,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The startup is seeking more _____ for growth.",
-    "translation": "Startup büyüme için daha fazla finansman arıyor.",
-    "context": "'Financing' yani 'finansman', bir işi başlatmak, sürdürmek veya büyütmek için gerekli olan para ve sermaye sağlamak demek. Girişimcilerin rüyalarını gerçekleştirmesi için olmazsa olmazı!",
-    "options": [
-      "financing",
-      "advice",
-      "employees",
-      "products"
-    ],
-    "correctAnswer": "financing",
-    "category": "BUSINESS",
-    "variations": [
-      "They need financing for the project.",
-      "The bank offers financing options."
-    ]
-  },
-  {
-    "id": 126090507,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Be careful of the _____ fumes in the area.",
-    "translation": "Bölgedeki zehirli dumanlara dikkat et.",
-    "context": "'Toxic' kelimesi 'zehirli' anlamına gelir. 'Toxic fumes' ise zehirli gazlar veya dumanlar demektir. Aman dikkat, böyle şeylerden uzak durmak en iyisi! Hava temiz olsun, hepimiz güvende olalım.",
-    "options": [
-      "toxic",
-      "clean",
-      "fresh",
-      "light"
-    ],
-    "correctAnswer": "toxic",
-    "category": "CASUAL",
-    "variations": [
-      "Toxic waste is dangerous.",
-      "Some plants are toxic."
-    ]
-  },
-  {
-    "id": 126090508,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The country faced economic _____ after the conflict.",
-    "translation": "Ülke çatışma sonrası ekonomik yaptırımlarla karşılaştı.",
-    "context": "'Sanctions' kelimesi 'yaptırım' demek. Genellikle bir ülke, başka bir ülkeye belirli kurallara uymadığı için ekonomik kısıtlamalar getirir. Mesela, bazı ürünlerin ticaretini yasaklamak gibi. Kulağa ciddi geliyor, değil mi?",
-    "options": [
-      "sanctions",
-      "rewards",
-      "benefits",
-      "agreements"
-    ],
-    "correctAnswer": "sanctions",
-    "category": "MIXED",
-    "variations": [
-      "They lifted the sanctions.",
-      "International sanctions were imposed."
-    ]
-  },
-  {
-    "id": 126090509,
+    "id": 126090802,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "What does 'envoy' primarily refer to in international diplomacy?",
-    "translation": "Uluslararası diplomaside 'envoy' kelimesi öncelikli olarak ne anlama gelir?",
-    "context": "'Envoy', bir ülkenin hükümeti veya devlet başkanı tarafından belirli bir görevi yerine getirmesi için başka bir ülkeye gönderilen 'diplomatik temsilci'dir. Yani bir çeşit VIP gezgin! Seyahatleri iş amaçlıdır, tatil değil.",
+    "level": "BEGINNER",
+    "phrase": "Avustralyalı sörfçü kardeşlerin cinayet davasının 'başlaması' anlamına gelen kelime hangisidir?",
+    "translation": "'Başlar' anlamında kullanılan 'starts' kelimesi.",
+    "context": "Bir yolculuk, yeni bir iş veya bir film... Her şey 'starts' (başlar). Meksika'da sörfçülerin davası da böyle başlamış. Hani uçağın kalkışı için 'The flight starts at 9 AM' der gibi, yeni bir maceraya atılırken de 'Let's start our journey!' diyebilirsin. Hayat hep yeni başlangıçlarla dolu!",
     "options": [
-      "A type of travel visa",
-      "A diplomatic representative",
-      "A tourist attraction",
-      "A specific travel route"
+      "finishes",
+      "ends",
+      "stops",
+      "starts"
     ],
-    "correctAnswer": "A diplomatic representative",
+    "correctAnswer": "starts",
     "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126090510,
+    "id": 126090803,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "After the jury _____, a mistrial was declared.",
-    "translation": "Jüri çıkmaza girince, bir yargılama hatası ilan edildi.",
-    "context": "'Deadlock', bir karara varılamayan, çıkmaza girilen durum demektir. Özellikle bir jüri anlaşamadığında 'jury deadlocks' denir ve bu da 'mistrial' yani yargılama hatasına yol açabilir. Yani dava başa sarar!",
+    "level": "BEGINNER",
+    "phrase": "The world leader will get a salary _____ of $1 million.",
+    "translation": "'Artış' anlamına gelen 'increase' kelimesi.",
+    "context": "'Increase' bir şeyin artması demek. Hani maaşına zam geldiğinde, telefonunun sesini açtığında veya kasların büyüdüğünde 'increase' kelimesini kullanabilirsin. Mesela, 'I got an increase in salary!' dediğinde herkes seni tebrik edecektir!",
     "options": [
-      "deadlocks",
-      "agrees",
-      "votes",
-      "consults"
+      "decrease",
+      "reduction",
+      "increase",
+      "loss"
     ],
-    "correctAnswer": "deadlocks",
+    "correctAnswer": "increase",
     "category": "BUSINESS",
     "variations": [
-      "The negotiations reached a deadlock.",
-      "The debate ended in a deadlock."
+      "We need to _____ our sales.",
+      "The temperature will _____ tomorrow."
     ]
   },
   {
-    "id": 126090511,
+    "id": 126090804,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "What does 'escalate' mean in the context of a 'war of words'?",
-    "translation": "'War of words' bağlamında 'escalate' ne anlama gelir?",
-    "context": "'Escalate', bir şeyin daha kötü, daha yoğun veya daha ciddi hale gelmesi demektir. 'War of words' (laf dalaşı) durumunda ise tartışmanın alevlenmesi, sertleşmesi anlamına gelir. Yani işler kızışıyor, dikkat!",
+    "level": "BEGINNER",
+    "phrase": "İngiltere için bu haftaki hava durumu tahmini 'rüzgarlı' kelimesiyle nasıl ifade edilir?",
+    "translation": "'Rüzgarlı' anlamına gelen 'windy' kelimesi.",
+    "context": "'Windy', rüzgarlı hava için kullanılan süper pratik bir kelime. Dışarı çıkmadan önce 'Is it windy today?' diye sorup şemsiyeni yanına almayı unutma! Saçların dağıldığında veya şapkan uçtuğunda aklına hemen 'windy' gelsin. Uçurtma uçurmak için ideal hava!",
     "options": [
-      "To de-escalate or reduce conflict",
-      "To intensify or worsen a conflict",
-      "To resolve a conflict peacefully",
-      "To initiate a new discussion"
+      "sunny",
+      "cloudy",
+      "windy",
+      "rainy"
     ],
-    "correctAnswer": "To intensify or worsen a conflict",
+    "correctAnswer": "windy",
+    "category": "MIXED/GENERAL",
+    "variations": []
+  },
+  {
+    "id": 126090805,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Canada braces for a prolonged trade _____ with the US.",
+    "translation": "'Ticaret savaşı' anlamına gelen 'trade war' ifadesindeki 'war' kelimesi.",
+    "context": "'Trade war' iki ülke arasında çıkan ekonomik gerilimi ifade eder. Hani eskiden kralların kılıçlarla savaştığı gibi, günümüzde ülkeler de gümrük vergileri ve ticari kısıtlamalarla 'ticaret savaşı' yapıyor. Bir nevi ekonomi arenasında gladyatör dövüşü gibi düşün!",
+    "options": [
+      "peace",
+      "talk",
+      "agreement",
+      "war"
+    ],
+    "correctAnswer": "war",
+    "category": "BUSINESS",
+    "variations": [
+      "The company is facing a price _____.",
+      "History shows many bloody _____."
+    ]
+  },
+  {
+    "id": 126090806,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "102 yaşındaki adamın pub sahnesinden 'itilerek düşürülmesi' olayı hangi kelimeyle en iyi anlatılır?",
+    "translation": "'İtilerek düşürülmek' anlamına gelen 'pushed off' ifadesi.",
+    "context": "Birini bir yerden 'iterek düşürmek' anlamına gelen 'pushed off' ifadesi, bazen yanlışlıkla bazen de kasıtlı olarak birinin dengesini bozmak için kullanılır. Hani arkadaşın seni koltuktan 'pushed off' yaptıysa veya kedin masadaki bardağı 'pushed off' ettiyse, bu ifadeyi kullanabilirsin. Ama umarız kimse sahneden itilmez!",
+    "options": [
+      "pulled up",
+      "called out",
+      "pushed off",
+      "taken over"
+    ],
+    "correctAnswer": "pushed off",
     "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126090512,
+    "id": 126090807,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Researchers found _____ in evidence regarding badger vaccination.",
+    "translation": "'Boşluklar' veya 'eksiklikler' anlamına gelen 'gaps' kelimesi.",
+    "context": "'Gaps in evidence' demek, bir konu hakkında yeterli bilgi veya kanıt olmaması demek. Tıpkı bir yapbozun eksik parçaları gibi düşün. Bilim insanları bir konuda kesin yargıya varmadan önce tüm 'gaps' (boşlukları) doldurmak ister. Hayatta da bazen ilişkilerde veya projelerde 'gaps' olabiliyor, değil mi?",
+    "options": [
+      "solids",
+      "details",
+      "gaps",
+      "facts"
+    ],
+    "correctAnswer": "gaps",
+    "category": "MIXED/GENERAL",
+    "variations": [
+      "There are many _____ in my memory.",
+      "The bridge has some small _____."
+    ]
+  },
+  {
+    "id": 126090808,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Melbourne'da 49ers takımının sezonu 'açılış maçı' hangi kelimeyle ifade edilir?",
+    "translation": "'Açılış maçı' anlamına gelen 'opener' kelimesi.",
+    "context": "Bir spor sezonunun veya etkinliğin ilk maçına 'opener' denir. Tıpkı yeni bir kitabın ilk sayfası veya bir konserin ilk şarkısı gibi. Heyecanla beklenen o ilk an! 'Season opener' dediğinde, tüm spor fanları ne demek istediğini anlar. Hadi başlasın eğlence!",
+    "options": [
+      "closer",
+      "final",
+      "opener",
+      "replay"
+    ],
+    "correctAnswer": "opener",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126090809,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The UN voted to _____ a new world map.",
-    "translation": "BM, yeni bir dünya haritasını kabul etmek için oy kullandı.",
-    "context": "'Adopt', bir şeyi resmi olarak kabul etmek, benimsemek veya uygulamaya koymak demektir. Mesela, yeni bir kanunu 'adopt' edebilirsin ya da yeni bir evcil hayvanı! Yani bir harita da resmi olarak 'adopt' edilebilir.",
+    "phrase": "Eric Wu's new company is going after construction's labor _____",
+    "translation": "'İşgücü sıkıntısı' anlamına gelen 'labor crunch' ifadesindeki 'crunch' kelimesi.",
+    "context": "'Labor crunch', yani işgücü sıkıntısı, bir sektörde yeterli çalışan bulunamaması durumudur. Hani bazen kafede garson bulamazlar ya da inşaatta işçi sıkıntısı olur, işte o durum 'crunch'tır. Bir nevi 'işgücü krizi' de diyebiliriz. Bu, şirketler için ciddi bir problem yaratabilir!",
     "options": [
-      "adopt",
-      "refuse",
-      "ignore",
-      "debate"
+      "abundance",
+      "surplus",
+      "crunch",
+      "flow"
     ],
-    "correctAnswer": "adopt",
-    "category": "MIXED",
+    "correctAnswer": "crunch",
+    "category": "BUSINESS",
     "variations": [
-      "They adopted a new policy.",
-      "The council adopted the proposal."
+      "The company is facing a budget _____.",
+      "There is a severe housing _____ in the city."
     ]
+  },
+  {
+    "id": 126090810,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Virginia'lı bir anne, çocuğunu yalnız yürümesine izin verdiği için çocuk istismarı 'kayıt defterine' alındı. Bu 'kayıt defteri' ne anlama gelir?",
+    "translation": "'Kayıt defteri' veya 'sicil' anlamına gelen 'registry' kelimesi.",
+    "context": "'Registry', belirli kişilerin veya bilgilerin tutulduğu resmi bir liste veya kayıt defteri anlamına gelir. Hani doğumgününde hediye listesi yaparsın ya, o da bir nevi 'gift registry'dir. Ama bu haberdeki 'child abuse registry' gibi şeyler, daha ciddi ve resmi kayıtlardır. Umarım adın hiçbir zaman kötü bir 'registry'de geçmez!",
+    "options": [
+      "report",
+      "registry",
+      "network",
+      "system"
+    ],
+    "correctAnswer": "registry",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126090811,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Pope Leo XIV will _____ a fresco at the sanctuary.",
+    "translation": "'Perdesini kaldırmak, tanıtmak' anlamına gelen 'unveil' kelimesi.",
+    "context": "'Unveil', genellikle yeni bir eseri, heykeli, sırrı veya planı ilk kez kamuoyuna sunmak, örtüsünü kaldırmak anlamına gelir. Tıpkı bir sanat sergisinde yeni bir tablonun 'unveil' edilmesi gibi. Heyecan verici bir an, değil mi? Bekleyişin sonu!",
+    "options": [
+      "hide",
+      "cover",
+      "unveil",
+      "destroy"
+    ],
+    "correctAnswer": "unveil",
+    "category": "MIXED/GENERAL",
+    "variations": [
+      "They will _____ their new product next week.",
+      "The company will _____ its strategy."
+    ]
+  },
+  {
+    "id": 126090812,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Kanadalı sörfçü kardeşlerin davasında 'zanlı' cinayetlerle suçlanıyor. 'Zanlı' kelimesinin doğru İngilizce karşılığı nedir?",
+    "translation": "'İddia edilen, zanlı' anlamına gelen 'alleged' kelimesi.",
+    "context": "'Alleged', bir şeyin henüz kanıtlanmamış ama iddia edilen veya söylenen olduğu anlamına gelir. Hani 'sözde' veya 'iddia edilen' deriz ya, işte o. Bu kelimeyi duyduğunda, ortada henüz kesinleşmiş bir suçlama değil, bir iddia olduğunu bilmelisin. Hukuki terimlerde sıkça karşımıza çıkar!",
+    "options": [
+      "proven",
+      "confirmed",
+      "clear",
+      "alleged"
+    ],
+    "correctAnswer": "alleged",
+    "category": "TRAVEL",
+    "variations": []
   }
 ]
