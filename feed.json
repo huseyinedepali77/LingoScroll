@@ -1,224 +1,242 @@
 [
   {
-    "id": 126090801,
+    "id": 126091001,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The Eiffel Tower was _____ by a staff protest today.",
-    "translation": "'Kapatıldı' anlamına gelen 'shut' kelimesi.",
-    "context": "'Shut' kelimesi, bir yerin kapalı olduğu veya kapatıldığı anlamına gelir. Tıpkı Eiffel Kulesi'nin grev nedeniyle 'kapalı' olması gibi, bir dükkanın pazar günleri 'kapalı' olduğunu veya arkadaşınla kavga edip 'kapalı' bir surat taktığını anlatırken kullanabilirsin. Hem mekanlar hem de ruh halleri için birebir!",
+    "phrase": "Many passengers went _____ after the ferry fire.",
+    "translation": "'Missing' (kayıp) kelimesi, bir felaket veya karmaşa sonrası insanların nerede olduğunun bilinmemesi durumunu anlatır. Maalesef Filipinler'deki feribot yangını sonrası birçok kişi 'missing' durumundaydı.",
+    "context": "Bir felaket, kaza veya büyük bir karmaşa sonrası insanların nerede olduğunun bilinmemesi durumunda 'missing' kelimesini kullanırız. Film izlerken ya da gerçek hayatta 'missing person' (kayıp kişi) ilanlarını duymuşsundur. Umarım kimse bu durumu yaşamaz!",
     "options": [
-      "open",
-      "closed",
-      "shut",
-      "finished"
+      "missing",
+      "departed",
+      "aboard",
+      "stranded"
     ],
-    "correctAnswer": "shut",
-    "category": "CASUAL",
-    "variations": [
-      "The store is _____ on Sundays.",
-      "Please, _____ the door."
-    ]
-  },
-  {
-    "id": 126090802,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "Avustralyalı sörfçü kardeşlerin cinayet davasının 'başlaması' anlamına gelen kelime hangisidir?",
-    "translation": "'Başlar' anlamında kullanılan 'starts' kelimesi.",
-    "context": "Bir yolculuk, yeni bir iş veya bir film... Her şey 'starts' (başlar). Meksika'da sörfçülerin davası da böyle başlamış. Hani uçağın kalkışı için 'The flight starts at 9 AM' der gibi, yeni bir maceraya atılırken de 'Let's start our journey!' diyebilirsin. Hayat hep yeni başlangıçlarla dolu!",
-    "options": [
-      "finishes",
-      "ends",
-      "stops",
-      "starts"
-    ],
-    "correctAnswer": "starts",
+    "correctAnswer": "missing",
     "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126090803,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The world leader will get a salary _____ of $1 million.",
-    "translation": "'Artış' anlamına gelen 'increase' kelimesi.",
-    "context": "'Increase' bir şeyin artması demek. Hani maaşına zam geldiğinde, telefonunun sesini açtığında veya kasların büyüdüğünde 'increase' kelimesini kullanabilirsin. Mesela, 'I got an increase in salary!' dediğinde herkes seni tebrik edecektir!",
-    "options": [
-      "decrease",
-      "reduction",
-      "increase",
-      "loss"
-    ],
-    "correctAnswer": "increase",
-    "category": "BUSINESS",
     "variations": [
-      "We need to _____ our sales.",
-      "The temperature will _____ tomorrow."
+      "Rescue teams are searching for the _____ people.",
+      "The plane arrived with no _____ passengers."
     ]
   },
   {
-    "id": 126090804,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "İngiltere için bu haftaki hava durumu tahmini 'rüzgarlı' kelimesiyle nasıl ifade edilir?",
-    "translation": "'Rüzgarlı' anlamına gelen 'windy' kelimesi.",
-    "context": "'Windy', rüzgarlı hava için kullanılan süper pratik bir kelime. Dışarı çıkmadan önce 'Is it windy today?' diye sorup şemsiyeni yanına almayı unutma! Saçların dağıldığında veya şapkan uçtuğunda aklına hemen 'windy' gelsin. Uçurtma uçurmak için ideal hava!",
-    "options": [
-      "sunny",
-      "cloudy",
-      "windy",
-      "rainy"
-    ],
-    "correctAnswer": "windy",
-    "category": "MIXED/GENERAL",
-    "variations": []
-  },
-  {
-    "id": 126090805,
+    "id": 126091002,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Canada braces for a prolonged trade _____ with the US.",
-    "translation": "'Ticaret savaşı' anlamına gelen 'trade war' ifadesindeki 'war' kelimesi.",
-    "context": "'Trade war' iki ülke arasında çıkan ekonomik gerilimi ifade eder. Hani eskiden kralların kılıçlarla savaştığı gibi, günümüzde ülkeler de gümrük vergileri ve ticari kısıtlamalarla 'ticaret savaşı' yapıyor. Bir nevi ekonomi arenasında gladyatör dövüşü gibi düşün!",
+    "level": "BEGINNER",
+    "phrase": "The startup secured a new _____ to expand its operations.",
+    "translation": "'Funding round' (finansman turu) bir şirketin büyümesi için yatırımcılardan para toplama sürecidir. Genellikle şirketler birkaç turda farklı yatırımcılarla görüşürler.",
+    "context": "Girişimcilik dünyasında, bir şirketin büyümesi için yatırımcılardan para toplamasına 'funding round' denir. Sanki şirket bir seviye atlamak için can suyu arıyormuş gibi düşünebilirsin. Her turda daha büyük hedeflere koşarlar!",
     "options": [
-      "peace",
-      "talk",
-      "agreement",
-      "war"
+      "funding round",
+      "social event",
+      "team meeting",
+      "annual report"
     ],
-    "correctAnswer": "war",
+    "correctAnswer": "funding round",
     "category": "BUSINESS",
     "variations": [
-      "The company is facing a price _____.",
-      "History shows many bloody _____."
+      "They are preparing for their next _____ with potential investors.",
+      "Getting a large _____ is crucial for rapid growth."
     ]
   },
   {
-    "id": 126090806,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "102 yaşındaki adamın pub sahnesinden 'itilerek düşürülmesi' olayı hangi kelimeyle en iyi anlatılır?",
-    "translation": "'İtilerek düşürülmek' anlamına gelen 'pushed off' ifadesi.",
-    "context": "Birini bir yerden 'iterek düşürmek' anlamına gelen 'pushed off' ifadesi, bazen yanlışlıkla bazen de kasıtlı olarak birinin dengesini bozmak için kullanılır. Hani arkadaşın seni koltuktan 'pushed off' yaptıysa veya kedin masadaki bardağı 'pushed off' ettiyse, bu ifadeyi kullanabilirsin. Ama umarız kimse sahneden itilmez!",
+    "id": 126091003,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Many people have lost _____ in politicians recently.",
+    "translation": "'Trust' (güven) bir kişiye veya kuruma duyulan inanç ve güvendir. Haberlere göre birçok Amerikalı'nın siyasetçilere olan güveni azalmış.",
+    "context": "Birine veya bir şeye güven duymamak, inancını kaybetmek anlamına gelir. Günlük hayatta arkadaşına sırrını anlattığında 'I trust you.' (Sana güveniyorum.) deriz. Ya da birinin sözlerine inanmıyorsak 'I don't trust him.' diyebiliriz. Siyasetçiler için de durum farklı değilmiş gibi!",
     "options": [
-      "pulled up",
-      "called out",
-      "pushed off",
-      "taken over"
+      "trust",
+      "patience",
+      "interest",
+      "hope"
     ],
-    "correctAnswer": "pushed off",
+    "correctAnswer": "trust",
     "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126090807,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Researchers found _____ in evidence regarding badger vaccination.",
-    "translation": "'Boşluklar' veya 'eksiklikler' anlamına gelen 'gaps' kelimesi.",
-    "context": "'Gaps in evidence' demek, bir konu hakkında yeterli bilgi veya kanıt olmaması demek. Tıpkı bir yapbozun eksik parçaları gibi düşün. Bilim insanları bir konuda kesin yargıya varmadan önce tüm 'gaps' (boşlukları) doldurmak ister. Hayatta da bazen ilişkilerde veya projelerde 'gaps' olabiliyor, değil mi?",
-    "options": [
-      "solids",
-      "details",
-      "gaps",
-      "facts"
-    ],
-    "correctAnswer": "gaps",
-    "category": "MIXED/GENERAL",
     "variations": [
-      "There are many _____ in my memory.",
-      "The bridge has some small _____."
+      "It's hard to build _____ once it's broken.",
+      "Do you _____ what he says?"
     ]
   },
   {
-    "id": 126090808,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Melbourne'da 49ers takımının sezonu 'açılış maçı' hangi kelimeyle ifade edilir?",
-    "translation": "'Açılış maçı' anlamına gelen 'opener' kelimesi.",
-    "context": "Bir spor sezonunun veya etkinliğin ilk maçına 'opener' denir. Tıpkı yeni bir kitabın ilk sayfası veya bir konserin ilk şarkısı gibi. Heyecanla beklenen o ilk an! 'Season opener' dediğinde, tüm spor fanları ne demek istediğini anlar. Hadi başlasın eğlence!",
+    "id": 126091004,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The strong _____ caused severe flooding in the area.",
+    "translation": "'Hurricane' (kasırga) şiddetli rüzgarlar ve yağışlarla gelen tropikal bir fırtınadır. Hawaii'yi vuran 'Lowell Kasırgası' bunun bir örneğiydi.",
+    "context": "'Hurricane', yani kasırga, okyanus üzerinde oluşan ve karaya ulaştığında büyük yıkımlara yol açabilen devasa bir fırtına türüdür. Hawaii'ye gelen bir misafir gibi değil, daha çok davetsiz bir misafir gibi düşünebilirsin. Rüzgarın hızı ve yağmur miktarıyla her şeyi alt üst eder.",
     "options": [
-      "closer",
-      "final",
-      "opener",
-      "replay"
+      "hurricane",
+      "sunshine",
+      "breeze",
+      "fog"
     ],
-    "correctAnswer": "opener",
+    "correctAnswer": "hurricane",
+    "category": "MIXED",
+    "variations": [
+      "A powerful _____ is approaching the coast.",
+      "We need to prepare for the coming _____ season."
+    ]
+  },
+  {
+    "id": 126091005,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "There was a sudden _____ in tourist arrivals this summer.",
+    "translation": "'Surge' (ani artış) bir şeyin miktarında veya sayısında hızlı ve büyük bir yükselişi ifade eder. Ceuta'daki göçmen geçişlerindeki ani artış gibi.",
+    "context": "Bir şeyin miktarında veya sayısında ani ve büyük bir artış olduğunda 'surge' kelimesini kullanırız. Tıpkı bir dalganın aniden yükselmesi gibi. Sınır geçişlerinde, müşteri sayısında veya hatta bir hastalığın yayılmasında 'surge' yaşanabilir. Genelde beklenmedik bir yükselişi anlatır.",
+    "options": [
+      "surge",
+      "decline",
+      "stagnation",
+      "plateau"
+    ],
+    "correctAnswer": "surge",
     "category": "TRAVEL",
-    "variations": []
+    "variations": [
+      "We expect a _____ of orders during the holiday season.",
+      "The hospital saw a _____ in emergency cases."
+    ]
   },
   {
-    "id": 126090809,
+    "id": 126091006,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Eric Wu's new company is going after construction's labor _____",
-    "translation": "'İşgücü sıkıntısı' anlamına gelen 'labor crunch' ifadesindeki 'crunch' kelimesi.",
-    "context": "'Labor crunch', yani işgücü sıkıntısı, bir sektörde yeterli çalışan bulunamaması durumudur. Hani bazen kafede garson bulamazlar ya da inşaatta işçi sıkıntısı olur, işte o durum 'crunch'tır. Bir nevi 'işgücü krizi' de diyebiliriz. Bu, şirketler için ciddi bir problem yaratabilir!",
+    "level": "INTERMEDIATE",
+    "phrase": "The CEO took a temporary _____ due to personal reasons.",
+    "translation": "'Leave of absence' (izin) bir çalışanın işinden geçici olarak ayrılması durumudur. Genellikle kişisel, sağlık veya ailevi nedenlerle alınır.",
+    "context": "'Leave of absence', bir çalışanın (özellikle üst düzey bir yöneticinin) işinden belirli bir süre için ayrılması anlamına gelir. Bu, hastalık, ailevi nedenler veya kişisel gelişim gibi çeşitli sebeplerle olabilir. Kısaca, işe ara vermek ama işinden tamamen ayrılmamak gibi düşünebilirsin.",
     "options": [
-      "abundance",
-      "surplus",
-      "crunch",
-      "flow"
+      "leave of absence",
+      "promotion",
+      "job interview",
+      "salary raise"
     ],
-    "correctAnswer": "crunch",
+    "correctAnswer": "leave of absence",
     "category": "BUSINESS",
     "variations": [
-      "The company is facing a budget _____.",
-      "There is a severe housing _____ in the city."
+      "She was granted a _____ for a year.",
+      "Employees can request a _____ for family matters."
     ]
   },
   {
-    "id": 126090810,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Virginia'lı bir anne, çocuğunu yalnız yürümesine izin verdiği için çocuk istismarı 'kayıt defterine' alındı. Bu 'kayıt defteri' ne anlama gelir?",
-    "translation": "'Kayıt defteri' veya 'sicil' anlamına gelen 'registry' kelimesi.",
-    "context": "'Registry', belirli kişilerin veya bilgilerin tutulduğu resmi bir liste veya kayıt defteri anlamına gelir. Hani doğumgününde hediye listesi yaparsın ya, o da bir nevi 'gift registry'dir. Ama bu haberdeki 'child abuse registry' gibi şeyler, daha ciddi ve resmi kayıtlardır. Umarım adın hiçbir zaman kötü bir 'registry'de geçmez!",
+    "id": 126091007,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "He is a _____ figure in the tech community, known for his bold ideas.",
+    "translation": "'Prominent' (önde gelen, tanınmış) bir kişinin veya şeyin önemli, bilinen ve dikkat çekici olduğunu belirtir. OpenAI'ın yönetim kuruluna eklenen 'AI doomer' da teknoloji dünyasında tanınmış bir isimmiş.",
+    "context": "'Prominent', bir kişinin veya bir şeyin çok bilinen, önemli veya dikkat çekici olması demektir. Tıpkı kalabalık bir odada hemen gözüne çarpan biri gibi. Ünlü bir bilim insanı, önemli bir yapı veya öne çıkan bir özellik için kullanılabilir. Göz önünde olan her şey 'prominent' olabilir.",
     "options": [
-      "report",
-      "registry",
-      "network",
-      "system"
+      "prominent",
+      "obscure",
+      "unknown",
+      "minor"
     ],
-    "correctAnswer": "registry",
+    "correctAnswer": "prominent",
     "category": "CASUAL",
-    "variations": []
+    "variations": [
+      "The building stands in a _____ location.",
+      "She played a _____ role in the negotiations."
+    ]
   },
   {
-    "id": 126090811,
+    "id": 126091008,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Last month was the joint-hottest month _____ in history.",
+    "translation": "'On record' (kaydedilen) şimdiye kadar resmi olarak belgelenmiş veya kayıtlara geçmiş bir durumu ifade eder. Ağustos ayının tarihteki en sıcak aylardan biri olması gibi.",
+    "context": "'On record', şimdiye kadar kaydedilen en yüksek veya en düşük gibi, resmi olarak belgelenmiş bir durumu ifade eder. Bir rekor kırıldığında ya da bir olay tarihteki en iyilerden/kötülerden biri olduğunda kullanılır. Hava durumu, spor başarıları veya satış rakamları gibi alanlarda sıkça duyarız.",
+    "options": [
+      "on record",
+      "for fun",
+      "by chance",
+      "in theory"
+    ],
+    "correctAnswer": "on record",
+    "category": "MIXED",
+    "variations": [
+      "This quarter's sales are the highest _____.",
+      "His athletic achievements are truly _____."
+    ]
+  },
+  {
+    "id": 126091009,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Pope Leo XIV will _____ a fresco at the sanctuary.",
-    "translation": "'Perdesini kaldırmak, tanıtmak' anlamına gelen 'unveil' kelimesi.",
-    "context": "'Unveil', genellikle yeni bir eseri, heykeli, sırrı veya planı ilk kez kamuoyuna sunmak, örtüsünü kaldırmak anlamına gelir. Tıpkı bir sanat sergisinde yeni bir tablonun 'unveil' edilmesi gibi. Heyecan verici bir an, değil mi? Bekleyişin sonu!",
+    "phrase": "The boxer _____ the opportunity for a pre-match face-off.",
+    "translation": "'Snubbed' (küçümseyip yüz çevirdi) birini veya bir şeyi kasten görmezden gelmek, reddetmek veya önemsemeyerek küçük düşürmek anlamına gelir. Garcia'nın Benn ile yüzleşmeyi reddetmesi gibi.",
+    "context": "'Snub', birini küçümseyerek veya önemsemeyerek kasten görmezden gelmek, yüz çevirmek veya davetini reddetmek demektir. Sanki sana bir selam veren arkadaşına selam vermemek gibi, ama daha kaba bir tavırla. Bazen politikada, bazen de sosyal çevrelerde 'snub' olaylarına rastlayabiliriz.",
     "options": [
-      "hide",
-      "cover",
-      "unveil",
-      "destroy"
+      "snubbed",
+      "welcomed",
+      "arranged",
+      "accepted"
     ],
-    "correctAnswer": "unveil",
-    "category": "MIXED/GENERAL",
+    "correctAnswer": "snubbed",
+    "category": "TRAVEL",
     "variations": [
-      "They will _____ their new product next week.",
-      "The company will _____ its strategy."
+      "She felt _____ after not being invited to the party.",
+      "He deliberately _____ his former colleague at the event."
     ]
   },
   {
-    "id": 126090812,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "id": 126091010,
+    "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Kanadalı sörfçü kardeşlerin davasında 'zanlı' cinayetlerle suçlanıyor. 'Zanlı' kelimesinin doğru İngilizce karşılığı nedir?",
-    "translation": "'İddia edilen, zanlı' anlamına gelen 'alleged' kelimesi.",
-    "context": "'Alleged', bir şeyin henüz kanıtlanmamış ama iddia edilen veya söylenen olduğu anlamına gelir. Hani 'sözde' veya 'iddia edilen' deriz ya, işte o. Bu kelimeyi duyduğunda, ortada henüz kesinleşmiş bir suçlama değil, bir iddia olduğunu bilmelisin. Hukuki terimlerde sıkça karşımıza çıkar!",
+    "phrase": "The company _____ its plans for the merger at the last minute.",
+    "translation": "'Scrubbed' (iptal etti) bir planı, etkinliği veya projeyi son anda durdurmak veya iptal etmek anlamına gelir. AI araştırma şirketinin 1.5 milyar dolarlık finansman turunu Salesforce görüşmeleri için iptal etmesi gibi.",
+    "context": "'Scrub', özellikle bir planı, etkinliği veya projeyi son anda iptal etmek veya durdurmak anlamına gelir. Sanki bir şeyi silgiyle siliyormuş gibi düşünebilirsin. Genelde önemli ve planlanmış bir şeyi, beklenmedik bir nedenle iptal etmek için kullanılır.",
     "options": [
-      "proven",
+      "scrubbed",
+      "finalized",
       "confirmed",
-      "clear",
-      "alleged"
+      "announced"
     ],
-    "correctAnswer": "alleged",
-    "category": "TRAVEL",
-    "variations": []
+    "correctAnswer": "scrubbed",
+    "category": "BUSINESS",
+    "variations": [
+      "They had to _____ the launch due to technical issues.",
+      "The mission was _____ after critical system failures."
+    ]
+  },
+  {
+    "id": 126091011,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "He described the political system as '_____', needing urgent reform.",
+    "translation": "'Perverted' (sapmış, yozlaşmış) bir şeyin doğal, doğru veya olması gereken halinden saptırılması, bozulması demektir. Gavin Newsom'ın ABD'nin 'Electoral College' sistemini 'perverted' olarak nitelendirmesi gibi.",
+    "context": "'Perverted', bir şeyin doğal, doğru veya olması gerektiği halinden saptırılması, bozulması anlamına gelir. Genelde ahlaki veya etik değerlere aykırı durumlarda kullanılır. Bir sistemi veya bir fikri 'perverted' olarak tanımlamak, onun temel amacından saptığını ve kötüye kullanıldığını ima eder. Oldukça sert bir eleştiri!",
+    "options": [
+      "perverted",
+      "ideal",
+      "flawless",
+      "balanced"
+    ],
+    "correctAnswer": "perverted",
+    "category": "CASUAL",
+    "variations": [
+      "Some people believe the justice system is _____.",
+      "The original purpose was good, but it became _____."
+    ]
+  },
+  {
+    "id": 126091012,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "With the legal battle, the baby's life now _____ in the balance.",
+    "translation": "'Hangs in the balance' (bıçak sırtında olmak, belirsiz olmak) bir durumun sonucunun çok belirsiz ve riskli olduğunu ifade eder. Vekil annenin kürtajı reddetmesiyle bebeğin hayatının 'bıçak sırtında' olması gibi.",
+    "context": "'Hangs in the balance', bir durumun sonucunun belirsiz olduğu, iyi veya kötü yönde gelişebileceği anlamına gelir. Sanki bir terazinin kefeleri arasında sallanıyormuş gibi, ne tarafa düşeceği belli değil. Çok önemli ve riskli durumlarda, özellikle hayati konularda kullanılır.",
+    "options": [
+      "hangs",
+      "rests",
+      "stays",
+      "floats"
+    ],
+    "correctAnswer": "hangs",
+    "category": "MIXED",
+    "variations": [
+      "The outcome of the election still _____ in the balance.",
+      "Her career _____ in the balance after the scandal."
+    ]
   }
 ]
