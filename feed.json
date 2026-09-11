@@ -1,242 +1,227 @@
 [
   {
-    "id": 126091001,
+    "id": 126091101,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Many passengers went _____ after the ferry fire.",
-    "translation": "'Missing' (kayıp) kelimesi, bir felaket veya karmaşa sonrası insanların nerede olduğunun bilinmemesi durumunu anlatır. Maalesef Filipinler'deki feribot yangını sonrası birçok kişi 'missing' durumundaydı.",
-    "context": "Bir felaket, kaza veya büyük bir karmaşa sonrası insanların nerede olduğunun bilinmemesi durumunda 'missing' kelimesini kullanırız. Film izlerken ya da gerçek hayatta 'missing person' (kayıp kişi) ilanlarını duymuşsundur. Umarım kimse bu durumu yaşamaz!",
+    "phrase": "The football manager _____ his team's travel plans.",
+    "translation": "Futbol menajeri takımının seyahat planlarını sabote etti.",
+    "context": "Arteta'nın dediği gibi, bazen oyuncuların zorluklara alışması için seyahat planlarını 'sabote etmek' gerekebilir. Yani, bir şeyi kasten bozmak veya engellemek demek! Gecikmeli uçuşlar veya yanlış otobüsler... tam bir kaos!",
     "options": [
-      "missing",
-      "departed",
-      "aboard",
-      "stranded"
+      "helped",
+      "sabotaged",
+      "improved",
+      "discussed"
     ],
-    "correctAnswer": "missing",
+    "correctAnswer": "sabotaged",
     "category": "TRAVEL",
     "variations": [
-      "Rescue teams are searching for the _____ people.",
-      "The plane arrived with no _____ passengers."
+      "He often _____ their routines for better results.",
+      "The competitor _____ the rival's strategy."
     ]
   },
   {
-    "id": 126091002,
+    "id": 126091102,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The startup secured a new _____ to expand its operations.",
-    "translation": "'Funding round' (finansman turu) bir şirketin büyümesi için yatırımcılardan para toplama sürecidir. Genellikle şirketler birkaç turda farklı yatırımcılarla görüşürler.",
-    "context": "Girişimcilik dünyasında, bir şirketin büyümesi için yatırımcılardan para toplamasına 'funding round' denir. Sanki şirket bir seviye atlamak için can suyu arıyormuş gibi düşünebilirsin. Her turda daha büyük hedeflere koşarlar!",
+    "phrase": "Nvidia expects an _____ 70% growth next year.",
+    "translation": "Nvidia, gelecek yıl şaşırtıcı bir %70 büyüme bekliyor.",
+    "context": "'Astounding' kelimesi, Jensen Huang'ın Nvidia için tahmin ettiği %70'lik büyüme gibi, 'inanılmaz', 'şaşırtıcı' veya 'hayret verici' başarıları anlatır. Kısaca, çenenin yere düşmesine neden olan her şey!",
     "options": [
-      "funding round",
-      "social event",
-      "team meeting",
-      "annual report"
+      "small",
+      "slow",
+      "astounding",
+      "minimal"
     ],
-    "correctAnswer": "funding round",
+    "correctAnswer": "astounding",
     "category": "BUSINESS",
     "variations": [
-      "They are preparing for their next _____ with potential investors.",
-      "Getting a large _____ is crucial for rapid growth."
+      "Her performance in the exam was truly _____.",
+      "The view from the mountain was _____."
     ]
   },
   {
-    "id": 126091003,
-    "type": "QUIZ_COMPLETION",
+    "id": 126091103,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "Many people have lost _____ in politicians recently.",
-    "translation": "'Trust' (güven) bir kişiye veya kuruma duyulan inanç ve güvendir. Haberlere göre birçok Amerikalı'nın siyasetçilere olan güveni azalmış.",
-    "context": "Birine veya bir şeye güven duymamak, inancını kaybetmek anlamına gelir. Günlük hayatta arkadaşına sırrını anlattığında 'I trust you.' (Sana güveniyorum.) deriz. Ya da birinin sözlerine inanmıyorsak 'I don't trust him.' diyebiliriz. Siyasetçiler için de durum farklı değilmiş gibi!",
+    "phrase": "Hangi kelime 'bir olay hakkında konuşmayı reddetmek' anlamına gelir?",
+    "translation": "Refuse to address: Bir konuyu ele almayı veya konuşmayı reddetmek.",
+    "context": "Ilhan Omar'ın oğlunun evine yapılan baskını 'address' etmeyi reddetmesi gibi, bazen insanlar istemedikleri konular hakkında konuşmaktan kaçınır. 'Refuse to address' tam da bu durum için. Gündemden kaçmak, sorulardan sıvışmak demek!",
     "options": [
-      "trust",
-      "patience",
-      "interest",
-      "hope"
+      "refuse to address",
+      "agree to speak",
+      "love to discuss",
+      "want to mention"
     ],
-    "correctAnswer": "trust",
+    "correctAnswer": "refuse to address",
     "category": "CASUAL",
-    "variations": [
-      "It's hard to build _____ once it's broken.",
-      "Do you _____ what he says?"
-    ]
+    "variations": []
   },
   {
-    "id": 126091004,
+    "id": 126091104,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The strong _____ caused severe flooding in the area.",
-    "translation": "'Hurricane' (kasırga) şiddetli rüzgarlar ve yağışlarla gelen tropikal bir fırtınadır. Hawaii'yi vuran 'Lowell Kasırgası' bunun bir örneğiydi.",
-    "context": "'Hurricane', yani kasırga, okyanus üzerinde oluşan ve karaya ulaştığında büyük yıkımlara yol açabilen devasa bir fırtına türüdür. Hawaii'ye gelen bir misafir gibi değil, daha çok davetsiz bir misafir gibi düşünebilirsin. Rüzgarın hızı ve yağmur miktarıyla her şeyi alt üst eder.",
+    "phrase": "August was the _____ month on record globally.",
+    "translation": "Ağustos, dünya genelinde kaydedilen en sıcak aydı.",
+    "context": "Rekor kıran sıcaklıklar! Ağustos ayının 'hottest' ay olması, küresel ısınmanın ne kadar ciddi olduğunu gösteriyor. Güneşe çıkarken iki kez düşünün, gerçekten çok sıcak olabilir!",
     "options": [
-      "hurricane",
-      "sunshine",
-      "breeze",
-      "fog"
+      "coldest",
+      "hottest",
+      "wettest",
+      "coolest"
     ],
-    "correctAnswer": "hurricane",
+    "correctAnswer": "hottest",
     "category": "MIXED",
     "variations": [
-      "A powerful _____ is approaching the coast.",
-      "We need to prepare for the coming _____ season."
+      "This summer might be the _____ ever.",
+      "She wore her _____ coat in winter."
     ]
   },
   {
-    "id": 126091005,
+    "id": 126091105,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "There was a sudden _____ in tourist arrivals this summer.",
-    "translation": "'Surge' (ani artış) bir şeyin miktarında veya sayısında hızlı ve büyük bir yükselişi ifade eder. Ceuta'daki göçmen geçişlerindeki ani artış gibi.",
-    "context": "Bir şeyin miktarında veya sayısında ani ve büyük bir artış olduğunda 'surge' kelimesini kullanırız. Tıpkı bir dalganın aniden yükselmesi gibi. Sınır geçişlerinde, müşteri sayısında veya hatta bir hastalığın yayılmasında 'surge' yaşanabilir. Genelde beklenmedik bir yükselişi anlatır.",
+    "phrase": "Rebels managed to _____ a strategic Red Sea port.",
+    "translation": "İsyancılar stratejik bir Kızıldeniz limanını ele geçirmeyi başardı.",
+    "context": "Yemen'deki Husilerin Mokha limanını 'seize' etmesi gibi, bir yeri zorla ele geçirmek veya kontrol altına almak anlamına gelir. Genellikle askeri veya siyasi bir hareketle kullanılır. Sanki bir satranç oyununda önemli bir taşı kapmak gibi!",
     "options": [
-      "surge",
-      "decline",
-      "stagnation",
-      "plateau"
+      "abandon",
+      "release",
+      "seize",
+      "protect"
     ],
-    "correctAnswer": "surge",
+    "correctAnswer": "seize",
     "category": "TRAVEL",
     "variations": [
-      "We expect a _____ of orders during the holiday season.",
-      "The hospital saw a _____ in emergency cases."
+      "The police plan to _____ the illegal goods.",
+      "They tried to _____ power in the capital."
     ]
   },
   {
-    "id": 126091006,
-    "type": "QUIZ_COMPLETION",
+    "id": 126091106,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "The CEO took a temporary _____ due to personal reasons.",
-    "translation": "'Leave of absence' (izin) bir çalışanın işinden geçici olarak ayrılması durumudur. Genellikle kişisel, sağlık veya ailevi nedenlerle alınır.",
-    "context": "'Leave of absence', bir çalışanın (özellikle üst düzey bir yöneticinin) işinden belirli bir süre için ayrılması anlamına gelir. Bu, hastalık, ailevi nedenler veya kişisel gelişim gibi çeşitli sebeplerle olabilir. Kısaca, işe ara vermek ama işinden tamamen ayrılmamak gibi düşünebilirsin.",
+    "phrase": "'Upped that play' ifadesinin anlamı nedir?",
+    "translation": "Bir şeyi geliştirip seviyesini artırmak veya daha büyük bir yatırım yapmak.",
+    "context": "VC'lerin spor kulübü sahipliğine girmesi ve Collaborative Fund'ın 'upped that play' demesi, oyunu bir üst seviyeye taşımak demek. Yani, bir şeyi daha iyi hale getirmek veya daha büyük riskler alıp daha fazla yatırım yapmak gibi. Sanki bir kart oyununda bahsi artırmak gibi düşünebilirsin!",
     "options": [
-      "leave of absence",
-      "promotion",
-      "job interview",
-      "salary raise"
+      "Bir oyunu bozmak",
+      "Bir şeyi geliştirip seviyesini artırmak",
+      "A game move",
+      "Bir şeyi azaltmak"
     ],
-    "correctAnswer": "leave of absence",
+    "correctAnswer": "Bir şeyi geliştirip seviyesini artırmak",
     "category": "BUSINESS",
-    "variations": [
-      "She was granted a _____ for a year.",
-      "Employees can request a _____ for family matters."
-    ]
+    "variations": []
   },
   {
-    "id": 126091007,
+    "id": 126091107,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "He is a _____ figure in the tech community, known for his bold ideas.",
-    "translation": "'Prominent' (önde gelen, tanınmış) bir kişinin veya şeyin önemli, bilinen ve dikkat çekici olduğunu belirtir. OpenAI'ın yönetim kuruluna eklenen 'AI doomer' da teknoloji dünyasında tanınmış bir isimmiş.",
-    "context": "'Prominent', bir kişinin veya bir şeyin çok bilinen, önemli veya dikkat çekici olması demektir. Tıpkı kalabalık bir odada hemen gözüne çarpan biri gibi. Ünlü bir bilim insanı, önemli bir yapı veya öne çıkan bir özellik için kullanılabilir. Göz önünde olan her şey 'prominent' olabilir.",
+    "phrase": "The activists were _____ to seven years in prison.",
+    "translation": "Aktivistler yedi yıl hapse mahkum edildi.",
+    "context": "Hong Kong'daki aktivistlerin 'sentenced' edilmesi gibi, mahkeme kararıyla bir ceza almak anlamına gelir. Özellikle hapis cezası söz konusu olduğunda kullanılır. Yani, hakim çekiçle vurup 'karar verildi!' dediğinde olan şey.",
     "options": [
-      "prominent",
-      "obscure",
-      "unknown",
-      "minor"
+      "freed",
+      "released",
+      "sentenced",
+      "pardoned"
     ],
-    "correctAnswer": "prominent",
+    "correctAnswer": "sentenced",
     "category": "CASUAL",
     "variations": [
-      "The building stands in a _____ location.",
-      "She played a _____ role in the negotiations."
+      "He was _____ for his crimes.",
+      "The judge _____ her to community service."
     ]
   },
   {
-    "id": 126091008,
-    "type": "QUIZ_COMPLETION",
+    "id": 126091108,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Last month was the joint-hottest month _____ in history.",
-    "translation": "'On record' (kaydedilen) şimdiye kadar resmi olarak belgelenmiş veya kayıtlara geçmiş bir durumu ifade eder. Ağustos ayının tarihteki en sıcak aylardan biri olması gibi.",
-    "context": "'On record', şimdiye kadar kaydedilen en yüksek veya en düşük gibi, resmi olarak belgelenmiş bir durumu ifade eder. Bir rekor kırıldığında ya da bir olay tarihteki en iyilerden/kötülerden biri olduğunda kullanılır. Hava durumu, spor başarıları veya satış rakamları gibi alanlarda sıkça duyarız.",
+    "phrase": "'Eerily quiet' ifadesi ne anlama gelir?",
+    "translation": "Garip, ürkütücü veya beklenmedik derecede sessiz.",
+    "context": "El Niño'nun Atlantik'i 'eerily quiet' bırakması gibi, bir yerin alışılmadık ve biraz da ürkütücü bir sessizliğe bürünmesi. Fırtına beklerken tık yoksa, işte bu 'eerily quiet' bir durumdur. Sanki herkes birden kaybolmuş gibi!",
     "options": [
-      "on record",
-      "for fun",
-      "by chance",
-      "in theory"
+      "Çok gürültülü",
+      "Garip bir şekilde sessiz ve sakin",
+      "Eğlenceli ve hareketli",
+      "Yoğun ve kalabalık"
     ],
-    "correctAnswer": "on record",
+    "correctAnswer": "Garip bir şekilde sessiz ve sakin",
     "category": "MIXED",
-    "variations": [
-      "This quarter's sales are the highest _____.",
-      "His athletic achievements are truly _____."
-    ]
+    "variations": []
   },
   {
-    "id": 126091009,
+    "id": 126091109,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The boxer _____ the opportunity for a pre-match face-off.",
-    "translation": "'Snubbed' (küçümseyip yüz çevirdi) birini veya bir şeyi kasten görmezden gelmek, reddetmek veya önemsemeyerek küçük düşürmek anlamına gelir. Garcia'nın Benn ile yüzleşmeyi reddetmesi gibi.",
-    "context": "'Snub', birini küçümseyerek veya önemsemeyerek kasten görmezden gelmek, yüz çevirmek veya davetini reddetmek demektir. Sanki sana bir selam veren arkadaşına selam vermemek gibi, ama daha kaba bir tavırla. Bazen politikada, bazen de sosyal çevrelerde 'snub' olaylarına rastlayabiliriz.",
+    "phrase": "The country imposed a naval _____ on the port.",
+    "translation": "Ülke limana bir deniz ablukası uyguladı.",
+    "context": "İran'ın Suudi Arabistan'dan Yemen'deki 'blockade'ı kaldırmasını istemesi gibi, bir yerin (genellikle bir limanın veya ülkenin) dışarıdan gelen mallara ve insanlara kapatılması durumudur. Bir nevi 'kapalı gişe' ama denizden!",
     "options": [
-      "snubbed",
-      "welcomed",
-      "arranged",
-      "accepted"
+      "opening",
+      "blockade",
+      "passage",
+      "access"
     ],
-    "correctAnswer": "snubbed",
+    "correctAnswer": "blockade",
     "category": "TRAVEL",
     "variations": [
-      "She felt _____ after not being invited to the party.",
-      "He deliberately _____ his former colleague at the event."
+      "The city was under a tight _____ for months.",
+      "They decided to lift the _____ for humanitarian aid."
     ]
   },
   {
-    "id": 126091010,
-    "type": "QUIZ_COMPLETION",
+    "id": 126091110,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "The company _____ its plans for the merger at the last minute.",
-    "translation": "'Scrubbed' (iptal etti) bir planı, etkinliği veya projeyi son anda durdurmak veya iptal etmek anlamına gelir. AI araştırma şirketinin 1.5 milyar dolarlık finansman turunu Salesforce görüşmeleri için iptal etmesi gibi.",
-    "context": "'Scrub', özellikle bir planı, etkinliği veya projeyi son anda iptal etmek veya durdurmak anlamına gelir. Sanki bir şeyi silgiyle siliyormuş gibi düşünebilirsin. Genelde önemli ve planlanmış bir şeyi, beklenmedik bir nedenle iptal etmek için kullanılır.",
+    "phrase": "Anthropic'in AI kullanımını 'biological weapons' yapmak için engellemesi, hangi terimle ifade edilir?",
+    "translation": "Teknolojinin kötüye kullanılması: Tehlikeli amaçlar için teknolojiyi yanlış kullanma.",
+    "context": "Anthropic'in yapay zekanın biyolojik silah yapımında kullanılmasını engellemesi, teknolojinin 'misuse' edilmesini önlemeye yönelik bir adım. Yani, süper bir aracı kötü amaçlar için kullanmak! İyi niyetle üretilen bir şeyin kötüye kullanılmasına denir.",
     "options": [
-      "scrubbed",
-      "finalized",
-      "confirmed",
-      "announced"
+      "Technological advancement",
+      "Ethical AI development",
+      "Misuse of technology",
+      "AI safety protocol"
     ],
-    "correctAnswer": "scrubbed",
+    "correctAnswer": "Misuse of technology",
     "category": "BUSINESS",
-    "variations": [
-      "They had to _____ the launch due to technical issues.",
-      "The mission was _____ after critical system failures."
-    ]
+    "variations": []
   },
   {
-    "id": 126091011,
+    "id": 126091111,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "He described the political system as '_____', needing urgent reform.",
-    "translation": "'Perverted' (sapmış, yozlaşmış) bir şeyin doğal, doğru veya olması gereken halinden saptırılması, bozulması demektir. Gavin Newsom'ın ABD'nin 'Electoral College' sistemini 'perverted' olarak nitelendirmesi gibi.",
-    "context": "'Perverted', bir şeyin doğal, doğru veya olması gerektiği halinden saptırılması, bozulması anlamına gelir. Genelde ahlaki veya etik değerlere aykırı durumlarda kullanılır. Bir sistemi veya bir fikri 'perverted' olarak tanımlamak, onun temel amacından saptığını ve kötüye kullanıldığını ima eder. Oldukça sert bir eleştiri!",
+    "phrase": "The court granted the officers _____ from prosecution.",
+    "translation": "Mahkeme memurlara kovuşturmadan dokunulmazlık verdi.",
+    "context": "Teksas'ta kelepçeli kadını karınca tepesine yatıran polislere 'immunity' verilmesi gibi, birini yasal kovuşturmadan muaf tutmak, yani dokunulmazlık tanımak demektir. Hukuki olarak korunmak gibi düşünebilirsin, ama bazen çok tartışmalı durumlar yaratır.",
     "options": [
-      "perverted",
-      "ideal",
-      "flawless",
-      "balanced"
+      "punishment",
+      "immunity",
+      "liability",
+      "charge"
     ],
-    "correctAnswer": "perverted",
+    "correctAnswer": "immunity",
     "category": "CASUAL",
     "variations": [
-      "Some people believe the justice system is _____.",
-      "The original purpose was good, but it became _____."
+      "He claimed diplomatic _____ to avoid arrest.",
+      "The whistleblower received _____ for her testimony."
     ]
   },
   {
-    "id": 126091012,
-    "type": "QUIZ_COMPLETION",
+    "id": 126091112,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "With the legal battle, the baby's life now _____ in the balance.",
-    "translation": "'Hangs in the balance' (bıçak sırtında olmak, belirsiz olmak) bir durumun sonucunun çok belirsiz ve riskli olduğunu ifade eder. Vekil annenin kürtajı reddetmesiyle bebeğin hayatının 'bıçak sırtında' olması gibi.",
-    "context": "'Hangs in the balance', bir durumun sonucunun belirsiz olduğu, iyi veya kötü yönde gelişebileceği anlamına gelir. Sanki bir terazinin kefeleri arasında sallanıyormuş gibi, ne tarafa düşeceği belli değil. Çok önemli ve riskli durumlarda, özellikle hayati konularda kullanılır.",
+    "phrase": "'Wrap up a series' ne anlama gelir?",
+    "translation": "Bir seriyi tamamlamak veya bitirmek, sonlandırmak.",
+    "context": "İngiltere'nin Test serisini 'wrap up' etmeye çalışması gibi, bir dizi olayı, maçı veya görevi başarıyla bitirmek anlamına gelir. Yani, son noktayı koymak, işi tamamlamak! Maçın son düdüğü gibi, veya bir dizinin finali gibi.",
     "options": [
-      "hangs",
-      "rests",
-      "stays",
-      "floats"
+      "Bir seriyi başlatmak",
+      "Bir seriyi iptal etmek",
+      "Bir seriyi tamamlamak veya bitirmek",
+      "Bir seriyi uzatmak"
     ],
-    "correctAnswer": "hangs",
+    "correctAnswer": "Bir seriyi tamamlamak veya bitirmek",
     "category": "MIXED",
-    "variations": [
-      "The outcome of the election still _____ in the balance.",
-      "Her career _____ in the balance after the scandal."
-    ]
+    "variations": []
   }
 ]
