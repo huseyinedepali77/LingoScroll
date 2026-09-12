@@ -1,227 +1,230 @@
 [
   {
-    "id": 126091101,
+    "id": 126091201,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The football manager _____ his team's travel plans.",
-    "translation": "Futbol menajeri takımının seyahat planlarını sabote etti.",
-    "context": "Arteta'nın dediği gibi, bazen oyuncuların zorluklara alışması için seyahat planlarını 'sabote etmek' gerekebilir. Yani, bir şeyi kasten bozmak veya engellemek demek! Gecikmeli uçuşlar veya yanlış otobüsler... tam bir kaos!",
+    "phrase": "President Trump made his first official ______ to Ireland.",
+    "translation": "Başkan Trump İrlanda'ya ilk resmi ziyaretini gerçekleştirdi.",
+    "context": "Başkanlar, VIP'ler veya önemli kişiler bir yere gittiklerinde buna 'visit' deriz. Turistik bir gezi gibi değil, daha resmi bir geliş! Havaalanından iner inmez, 'Oh, what a pleasant visit!' diyebilirsin.",
     "options": [
-      "helped",
-      "sabotaged",
-      "improved",
-      "discussed"
+      "visit",
+      "travel",
+      "arrival",
+      "journey"
     ],
-    "correctAnswer": "sabotaged",
+    "correctAnswer": "visit",
     "category": "TRAVEL",
     "variations": [
-      "He often _____ their routines for better results.",
-      "The competitor _____ the rival's strategy."
+      "He plans to visit his relatives next week.",
+      "Many tourists visit Paris every year."
     ]
   },
   {
-    "id": 126091102,
+    "id": 126091202,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Nvidia expects an _____ 70% growth next year.",
-    "translation": "Nvidia, gelecek yıl şaşırtıcı bir %70 büyüme bekliyor.",
-    "context": "'Astounding' kelimesi, Jensen Huang'ın Nvidia için tahmin ettiği %70'lik büyüme gibi, 'inanılmaz', 'şaşırtıcı' veya 'hayret verici' başarıları anlatır. Kısaca, çenenin yere düşmesine neden olan her şey!",
+    "phrase": "The tech startup closed a huge ______ with investors.",
+    "translation": "Teknoloji startup'ı yatırımcılarla büyük bir anlaşma imzaladı.",
+    "context": "İş dünyasında, iki taraf anlaştığında veya bir ticaret yapıldığında 'deal' kelimesini kullanırız. 'It's a done deal!' (Anlaştık!) dediğinde, artık geri dönüşü olmayan bir anlaşma olduğunu belirtirsin.",
     "options": [
-      "small",
-      "slow",
-      "astounding",
-      "minimal"
+      "deal",
+      "talk",
+      "trade",
+      "promise"
     ],
-    "correctAnswer": "astounding",
+    "correctAnswer": "deal",
     "category": "BUSINESS",
     "variations": [
-      "Her performance in the exam was truly _____.",
-      "The view from the mountain was _____."
+      "They made a fair deal on the new car.",
+      "This deal will benefit both companies."
     ]
   },
   {
-    "id": 126091103,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "Hangi kelime 'bir olay hakkında konuşmayı reddetmek' anlamına gelir?",
-    "translation": "Refuse to address: Bir konuyu ele almayı veya konuşmayı reddetmek.",
-    "context": "Ilhan Omar'ın oğlunun evine yapılan baskını 'address' etmeyi reddetmesi gibi, bazen insanlar istemedikleri konular hakkında konuşmaktan kaçınır. 'Refuse to address' tam da bu durum için. Gündemden kaçmak, sorulardan sıvışmak demek!",
-    "options": [
-      "refuse to address",
-      "agree to speak",
-      "love to discuss",
-      "want to mention"
-    ],
-    "correctAnswer": "refuse to address",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126091104,
+    "id": 126091203,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "August was the _____ month on record globally.",
-    "translation": "Ağustos, dünya genelinde kaydedilen en sıcak aydı.",
-    "context": "Rekor kıran sıcaklıklar! Ağustos ayının 'hottest' ay olması, küresel ısınmanın ne kadar ciddi olduğunu gösteriyor. Güneşe çıkarken iki kez düşünün, gerçekten çok sıcak olabilir!",
+    "phrase": "Don't ______ your keys when you leave home.",
+    "translation": "Evden çıkarken anahtarlarını unutma.",
+    "context": "Bir şeyi aklından çıkarmak veya hatırlayamamak 'forget' demektir. 'Oh no, I forgot my wallet!' dediğinde, cüzdanını unuttuğunu anlatsın.",
     "options": [
-      "coldest",
-      "hottest",
-      "wettest",
-      "coolest"
+      "forget",
+      "leave",
+      "miss",
+      "lose"
     ],
-    "correctAnswer": "hottest",
-    "category": "MIXED",
-    "variations": [
-      "This summer might be the _____ ever.",
-      "She wore her _____ coat in winter."
-    ]
-  },
-  {
-    "id": 126091105,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Rebels managed to _____ a strategic Red Sea port.",
-    "translation": "İsyancılar stratejik bir Kızıldeniz limanını ele geçirmeyi başardı.",
-    "context": "Yemen'deki Husilerin Mokha limanını 'seize' etmesi gibi, bir yeri zorla ele geçirmek veya kontrol altına almak anlamına gelir. Genellikle askeri veya siyasi bir hareketle kullanılır. Sanki bir satranç oyununda önemli bir taşı kapmak gibi!",
-    "options": [
-      "abandon",
-      "release",
-      "seize",
-      "protect"
-    ],
-    "correctAnswer": "seize",
-    "category": "TRAVEL",
-    "variations": [
-      "The police plan to _____ the illegal goods.",
-      "They tried to _____ power in the capital."
-    ]
-  },
-  {
-    "id": 126091106,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "'Upped that play' ifadesinin anlamı nedir?",
-    "translation": "Bir şeyi geliştirip seviyesini artırmak veya daha büyük bir yatırım yapmak.",
-    "context": "VC'lerin spor kulübü sahipliğine girmesi ve Collaborative Fund'ın 'upped that play' demesi, oyunu bir üst seviyeye taşımak demek. Yani, bir şeyi daha iyi hale getirmek veya daha büyük riskler alıp daha fazla yatırım yapmak gibi. Sanki bir kart oyununda bahsi artırmak gibi düşünebilirsin!",
-    "options": [
-      "Bir oyunu bozmak",
-      "Bir şeyi geliştirip seviyesini artırmak",
-      "A game move",
-      "Bir şeyi azaltmak"
-    ],
-    "correctAnswer": "Bir şeyi geliştirip seviyesini artırmak",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126091107,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The activists were _____ to seven years in prison.",
-    "translation": "Aktivistler yedi yıl hapse mahkum edildi.",
-    "context": "Hong Kong'daki aktivistlerin 'sentenced' edilmesi gibi, mahkeme kararıyla bir ceza almak anlamına gelir. Özellikle hapis cezası söz konusu olduğunda kullanılır. Yani, hakim çekiçle vurup 'karar verildi!' dediğinde olan şey.",
-    "options": [
-      "freed",
-      "released",
-      "sentenced",
-      "pardoned"
-    ],
-    "correctAnswer": "sentenced",
+    "correctAnswer": "forget",
     "category": "CASUAL",
     "variations": [
-      "He was _____ for his crimes.",
-      "The judge _____ her to community service."
+      "I will never forget your kindness.",
+      "She always forgets where she puts her glasses."
     ]
   },
   {
-    "id": 126091108,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "'Eerily quiet' ifadesi ne anlama gelir?",
-    "translation": "Garip, ürkütücü veya beklenmedik derecede sessiz.",
-    "context": "El Niño'nun Atlantik'i 'eerily quiet' bırakması gibi, bir yerin alışılmadık ve biraz da ürkütücü bir sessizliğe bürünmesi. Fırtına beklerken tık yoksa, işte bu 'eerily quiet' bir durumdur. Sanki herkes birden kaybolmuş gibi!",
+    "id": 126091204,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The country suffered a drone ______ on its oil facilities.",
+    "translation": "Ülke, petrol tesislerine bir drone saldırısı yaşadı.",
+    "context": "Bir şeye zarar vermek amacıyla yapılan saldırılara 'attack' denir. Savaş durumlarında veya terör olaylarında sıkça duyduğun bir kelime. Ama dikkat et, spor müsabakalarında veya hastalıkla mücadelede de 'attack' kelimesini duyabilirsin! (Heart attack gibi)",
     "options": [
-      "Çok gürültülü",
-      "Garip bir şekilde sessiz ve sakin",
-      "Eğlenceli ve hareketli",
-      "Yoğun ve kalabalık"
+      "attack",
+      "strike",
+      "hit",
+      "invasion"
     ],
-    "correctAnswer": "Garip bir şekilde sessiz ve sakin",
+    "correctAnswer": "attack",
     "category": "MIXED",
-    "variations": []
+    "variations": [
+      "The dogs attacked the mailman.",
+      "He launched a verbal attack on his opponent."
+    ]
   },
   {
-    "id": 126091109,
+    "id": 126091205,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The country imposed a naval _____ on the port.",
-    "translation": "Ülke limana bir deniz ablukası uyguladı.",
-    "context": "İran'ın Suudi Arabistan'dan Yemen'deki 'blockade'ı kaldırmasını istemesi gibi, bir yerin (genellikle bir limanın veya ülkenin) dışarıdan gelen mallara ve insanlara kapatılması durumudur. Bir nevi 'kapalı gişe' ama denizden!",
+    "level": "INTERMEDIATE",
+    "phrase": "The company established an ______ in a new city.",
+    "translation": "Şirket yeni bir şehirde bir karakol/uzak ofis kurdu.",
+    "context": "'Outpost', bir ana merkezin uzağında kurulan küçük bir yerleşim, karakol veya iş yeri anlamına gelir. Genelde uzak ve yeni bir alanda ilk kurulan nokta için kullanılır. Tıpkı bir uzay üssünün Dünya'dan çok uzaktaki bir gezegende kurulması gibi!",
     "options": [
-      "opening",
-      "blockade",
-      "passage",
-      "access"
+      "outpost",
+      "branch",
+      "station",
+      "base"
     ],
-    "correctAnswer": "blockade",
+    "correctAnswer": "outpost",
     "category": "TRAVEL",
     "variations": [
-      "The city was under a tight _____ for months.",
-      "They decided to lift the _____ for humanitarian aid."
+      "They built a military outpost in the desert.",
+      "This new office serves as our first international outpost."
     ]
   },
   {
-    "id": 126091110,
+    "id": 126091206,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Anthropic'in AI kullanımını 'biological weapons' yapmak için engellemesi, hangi terimle ifade edilir?",
-    "translation": "Teknolojinin kötüye kullanılması: Tehlikeli amaçlar için teknolojiyi yanlış kullanma.",
-    "context": "Anthropic'in yapay zekanın biyolojik silah yapımında kullanılmasını engellemesi, teknolojinin 'misuse' edilmesini önlemeye yönelik bir adım. Yani, süper bir aracı kötü amaçlar için kullanmak! İyi niyetle üretilen bir şeyin kötüye kullanılmasına denir.",
+    "level": "INTERMEDIATE",
+    "phrase": "What does 'valuation' mean in a business context?",
+    "translation": "'Valuation' iş bağlamında ne anlama gelir?",
+    "context": "'Valuation', özellikle startup'lar ve yatırımcılar arasında çok popüler bir kelime. Şirketin ne kadar ettiğini, yani 'değerini' belirleme sürecidir. Hayal et ki, senin en sevdiğin çizgi roman koleksiyonunun da bir 'valuation'ı var ve bir gün çok zengin olabilirsin!",
     "options": [
-      "Technological advancement",
-      "Ethical AI development",
-      "Misuse of technology",
-      "AI safety protocol"
+      "Bir şirketin veya varlığın piyasa değerinin tahmini",
+      "Bir şirketin yeni ürün çıkarma süreci",
+      "Çalışanların performans değerlendirmesi",
+      "Bir yatırımın yasal incelemesi"
     ],
-    "correctAnswer": "Misuse of technology",
+    "correctAnswer": "Bir şirketin veya varlığın piyasa değerinin tahmini",
     "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126091111,
+    "id": 126091207,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The court granted the officers _____ from prosecution.",
-    "translation": "Mahkeme memurlara kovuşturmadan dokunulmazlık verdi.",
-    "context": "Teksas'ta kelepçeli kadını karınca tepesine yatıran polislere 'immunity' verilmesi gibi, birini yasal kovuşturmadan muaf tutmak, yani dokunulmazlık tanımak demektir. Hukuki olarak korunmak gibi düşünebilirsin, ama bazen çok tartışmalı durumlar yaratır.",
+    "level": "INTERMEDIATE",
+    "phrase": "The small disagreement quickly began to ______. ",
+    "translation": "Küçük anlaşmazlık hızla tırmanmaya başladı.",
+    "context": "Bir durumun kötüleşmesi, büyümesi veya kontrolden çıkması anlamına gelir. Mesela, küçük bir tartışma büyüyüp kavgaya dönüştüğünde 'The argument escalated quickly!' dersin. Sanki bir top yuvarlana yuvarlana devasa bir kar topuna dönüşmesi gibi!",
     "options": [
-      "punishment",
-      "immunity",
-      "liability",
-      "charge"
+      "escalate",
+      "expand",
+      "increase",
+      "heighten"
     ],
-    "correctAnswer": "immunity",
+    "correctAnswer": "escalate",
     "category": "CASUAL",
     "variations": [
-      "He claimed diplomatic _____ to avoid arrest.",
-      "The whistleblower received _____ for her testimony."
+      "Tensions between the two countries escalated.",
+      "The cost of living continues to escalate."
     ]
   },
   {
-    "id": 126091112,
+    "id": 126091208,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "'Wrap up a series' ne anlama gelir?",
-    "translation": "Bir seriyi tamamlamak veya bitirmek, sonlandırmak.",
-    "context": "İngiltere'nin Test serisini 'wrap up' etmeye çalışması gibi, bir dizi olayı, maçı veya görevi başarıyla bitirmek anlamına gelir. Yani, son noktayı koymak, işi tamamlamak! Maçın son düdüğü gibi, veya bir dizinin finali gibi.",
+    "level": "INTERMEDIATE",
+    "phrase": "What does 'at risk of vanishing' imply for a species?",
+    "translation": "Bir tür için 'at risk of vanishing' ne anlama gelir?",
+    "context": "'At risk of vanishing', bir şeyin yok olma tehlikesiyle karşı karşıya olduğunu anlatır. Özellikle çevre haberlerinde hayvan veya bitki türleri için kullanılır. Bu, o türü son kez görüyor olabileceğimiz acı bir gerçeği işaret eder.",
     "options": [
-      "Bir seriyi başlatmak",
-      "Bir seriyi iptal etmek",
-      "Bir seriyi tamamlamak veya bitirmek",
-      "Bir seriyi uzatmak"
+      "Neslinin tükenme tehlikesiyle karşı karşıya olması",
+      "Sadece belirli bir alanda yaşaması",
+      "Farklı bir habitat araması",
+      "Sayısının aniden artması"
     ],
-    "correctAnswer": "Bir seriyi tamamlamak veya bitirmek",
+    "correctAnswer": "Neslinin tükenme tehlikesiyle karşı karşıya olması",
     "category": "MIXED",
     "variations": []
+  },
+  {
+    "id": 126091209,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "In a formal context, what is an 'engagement'?",
+    "translation": "Resmi bir bağlamda 'engagement' nedir?",
+    "context": "'Engagement' kelimesinin birden fazla anlamı var! Nişanlanmak, bir yere bağlılık veya bir etkinliğe katılım gibi. Haberlerdeki gibi resmi bir ziyaret sırasında 'first engagement' dendiğinde, bu kişinin ilk resmi toplantısı veya etkinliği kastedilir. Yani Başkan Trump'ın ilk randevusu gibi düşünebilirsin, ama romantik değil, diplomatik!",
+    "options": [
+      "Özellikle önemli kişiler için planlanmış resmi bir etkinlik veya toplantı",
+      "Evlilik teklifi",
+      "Kişisel bir ilgi alanı",
+      "Bir anlaşmaya katılım"
+    ],
+    "correctAnswer": "Özellikle önemli kişiler için planlanmış resmi bir etkinlik veya toplantı",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126091210,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The government agreed to ______ $100M to the company for expansion.",
+    "translation": "Hükümet, şirkete genişleme için 100 milyon dolar ödünç vermeyi kabul etti.",
+    "context": "Birine para veya bir eşya verip, daha sonra geri almak üzere vermek 'lend' demektir. Bankaların yaptığı da tam olarak budur! 'Can you lend me a pen?' dediğinde, kalemini ödünç isteyebilirsin. Ama 'borrow' (ödünç almak) ile karıştırma!",
+    "options": [
+      "lend",
+      "borrow",
+      "donate",
+      "invest"
+    ],
+    "correctAnswer": "lend",
+    "category": "BUSINESS",
+    "variations": [
+      "She offered to lend him her car for the weekend.",
+      "The library lends books to its members."
+    ]
+  },
+  {
+    "id": 126091211,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "What does the phrase 'blame game' refer to?",
+    "translation": "'Blame game' ifadesi ne anlama gelir?",
+    "context": "'Blame game', özellikle büyük bir hata veya başarısızlık sonrası kimin sorumlu olduğunu bulmak yerine, herkesin suçu başkasına attığı durumu anlatır. Tıpkı çocuklar gibi, 'O yaptı! Hayır, o yaptı!' diye parmak salladıkları bir durum. Sorumluluk almak yerine suçu başkasına yıkmak çok kolaydır, ama çözüm getirmez!",
+    "options": [
+      "Bir hata veya başarısızlık sonrası sorumluluğu başkasına atma çabası",
+      "Oyunlarda kazanmak için suçlamak",
+      "Birini suçlamak için tasarlanmış bir oyun",
+      "Bir suçluyu bulmak için yapılan soruşturma"
+    ],
+    "correctAnswer": "Bir hata veya başarısızlık sonrası sorumluluğu başkasına atma çabası",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126091212,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The two rivals are set for a final ______ in the championship.",
+    "translation": "İki rakip şampiyonada son bir hesaplaşmaya hazırlanıyor.",
+    "context": "'Showdown', genellikle iki rakibin veya grubun karşı karşıya geldiği, son hesaplaşma veya belirleyici bir yüzleşme anlamına gelir. Tıpkı kovboy filmlerindeki gibi, kimin daha iyi olduğunu belirleyecek son ve kritik karşılaşma! Heyecan verici, değil mi?",
+    "options": [
+      "showdown",
+      "clash",
+      "duel",
+      "confrontation"
+    ],
+    "correctAnswer": "showdown",
+    "category": "MIXED",
+    "variations": [
+      "The election is shaping up to be a major showdown.",
+      "They prepared for a legal showdown in court."
+    ]
   }
 ]
