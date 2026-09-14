@@ -1,242 +1,242 @@
 [
   {
-    "id": 126091301,
+    "id": 126091401,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Don't forget to _____ the beautiful meteor shower tonight.",
-    "translation": "'Look out for' ifadesi, bir şeye dikkat etmek, gözlemlemek veya bir şeyi beklemek anlamına gelir.",
-    "context": "Biri sana 'Look out for!' derse, gözünü dört aç, dikkatli ol veya bir şeyi kaçırma demek istiyor demektir. Özellikle seyahatlerde veya gökyüzü olaylarını izlerken çok işine yarar, tıpkı bu sonbaharda beklenen gece gökyüzü olayları gibi!",
+    "phrase": "Look _____ for the meteor shower tonight.",
+    "translation": "Bu geceki meteor yağmuru için gözünü dört aç.",
+    "context": "'Look out for something' (Gözünü dört açmak, dikkat etmek) çok yaygın bir ifade. Özellikle yeni bir yere gittiğinde, 'look out for pickpockets' (yankesicilere dikkat et) veya 'look out for good cafes' (güzel kafeler ara/bulmaya çalış) gibi kullanabilirsin. Gözlem yaparken, bir şeyi beklerken sıkça duymak mümkün.",
     "options": [
-      "look out for",
-      "look around",
-      "look into",
-      "look away"
+      "out",
+      "up",
+      "down",
+      "in"
     ],
-    "correctAnswer": "look out for",
+    "correctAnswer": "out",
     "category": "TRAVEL",
     "variations": [
-      "We should _____ this new cafe everyone is talking about.",
-      "Travellers always _____ hidden gems in cities."
+      "You should look out for any changes in the weather.",
+      "I always look out for new restaurants in my neighborhood."
     ]
   },
   {
-    "id": 126091302,
+    "id": 126091402,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The company's new _____ has big plans for the future.",
-    "translation": "CEO, 'Chief Executive Officer' kelimesinin kısaltmasıdır.",
-    "context": "CEO, yani 'Chief Executive Officer', bir şirketin en büyük patronu, dümeni tutan kaptanı demek. Genelde sabah kahvesini en iyi o yudumlar ve en önemli kararları o verir! Tıpkı Automattic'in geri dönen CEO'su gibi!",
+    "phrase": "The company decided to _____ the big stock sale.",
+    "translation": "Şirket büyük hisse senedi satışını iptal etmeye karar verdi.",
+    "context": "'Cancel' (iptal etmek) iş dünyasında, özellikle finansal anlaşmalarda veya büyük projelerde sıkça duyduğun bir kelime. Bir toplantıyı, bir siparişi veya bir anlaşmayı iptal etmek için kullanılır. Eğer bir yatırım veya satış planın varsa ama son anda vazgeçersen, işte o zaman 'cancel' dersin.",
     "options": [
-      "CEO",
-      "CFO",
-      "CTO",
-      "COO"
+      "cancel",
+      "open",
+      "delay",
+      "confirm"
     ],
-    "correctAnswer": "CEO",
+    "correctAnswer": "cancel",
     "category": "BUSINESS",
     "variations": [
-      "Our current _____ is a visionary leader.",
-      "She aims to become a _____ of a tech firm."
+      "They had to cancel the meeting due to a sudden emergency.",
+      "We need to cancel our flight reservation."
     ]
   },
   {
-    "id": 126091303,
+    "id": 126091403,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Even after changing careers, she had _____.",
-    "translation": "'No regrets' pişmanlık duymamak anlamına gelir.",
-    "context": "'No regrets' demek, geçmişte yaptığın bir şeyden pişmanlık duymamak, 'iyi ki yapmışım' demek. Hayatta bazen risk almak gerekir ve sonucu ne olursa olsun, 'iyi ki denemişim!' deriz. Tıpkı o haberdeki işini kaybeden ama pişman olmayan insanlar gibi!",
+    "phrase": "He always tries to _____ serious risks.",
+    "translation": "Ciddi riskleri her zaman küçümsemeye çalışır.",
+    "context": "'Downplay' (küçümsemek, hafife almak) bir durumu olduğundan daha az önemli veya tehlikeli göstermek için kullanılır. Mesela, 'bir arkadaşın sınavda çok kolaydı dese de aslında çok çalışmıştır, yani zorluğu downplay ediyordur'. Genelde, sorumluluktan kaçmak veya endişeyi azaltmak isteyen kişiler bu kelimeyi kullanır.",
     "options": [
-      "no regrets",
-      "many thoughts",
-      "some doubts",
-      "full plans"
+      "downplay",
+      "exaggerate",
+      "highlight",
+      "ignore"
     ],
-    "correctAnswer": "no regrets",
+    "correctAnswer": "downplay",
     "category": "CASUAL",
     "variations": [
-      "He said he had _____ about his decision.",
-      "I live my life with _____."
+      "The politician tried to downplay the impact of the new law.",
+      "Don't downplay your achievements; they are significant."
     ]
   },
   {
-    "id": 126091304,
+    "id": 126091404,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "My keys are _____. Can you help me find them?",
-    "translation": "'Missing' kayıp, eksik anlamına gelir.",
-    "context": "'Missing' kelimesi, bir şeyin veya birinin yerinde olmaması, kayıp olması anlamına gelir. Haberlerde insanlar için kullanılabileceği gibi, sabah aceleyle evden çıkarken gözlüğünü bulamadığında da 'My glasses are missing!' diye bağırabilirsin. Tıpkı Ukrayna'daki incursion sonrası kayıp Ruslar gibi, kayıp şeyler için kullanılır.",
+    "phrase": "The news reported that a train was _____ by a missile.",
+    "translation": "Haberlere göre bir tren füzeyle vuruldu.",
+    "context": "'Hit' (vurmak) sadece topa vurmak değil, aynı zamanda bir hedefe ulaşmak, çarpmak veya saldırmak anlamında da kullanılır. Haberlerde 'bir şehrin vurulduğu' veya 'bir rekorun vurulduğu' gibi ifadelerle sıkça karşılaşabilirsin. Kısacası, bir şeyin bir şeye temas etmesi veya etkilemesi durumunda kullanılır.",
     "options": [
-      "missing",
-      "lost",
-      "gone",
-      "invisible"
+      "hit",
+      "missed",
+      "stopped",
+      "passed"
     ],
-    "correctAnswer": "missing",
-    "category": "GENERAL",
+    "correctAnswer": "hit",
+    "category": "MIXED",
     "variations": [
-      "The last piece of the puzzle is _____",
-      "There's a page _____ from this book."
+      "The car was hit by a falling branch.",
+      "She hit the target perfectly."
     ]
   },
   {
-    "id": 126091305,
+    "id": 126091405,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The museum will _____ a new exhibition next month.",
-    "translation": "'Unveil' gizli veya yeni bir şeyi ilk kez göstermek, tanıtmak demektir.",
-    "context": "'Unveil' kelimesi, gizli tutulan veya ilk kez görücüye çıkarılan bir şeyi halka sunmak, perdelerini kaldırmak demek. Tıpkı Tesla'nın yeni Roadster'ını 'unveil' etmesi gibi, heyecan verici bir açılış anı düşün!",
+    "phrase": "Many species are _____ extinction due to climate change.",
+    "translation": "İklim değişikliği nedeniyle birçok türün soyu tükenme tehlikesiyle karşı karşıya.",
+    "context": "'At risk' (risk altında) çok önemli bir kalıp. Bir şeyin tehlikede olduğunu veya olumsuz bir sonuçla karşılaşma ihtimalinin yüksek olduğunu belirtir. Seyahat ederken 'at risk of illness' (hastalık riski) veya 'at risk of robbery' (soygun riski) gibi uyarılar görebilirsin. Çevresel veya sağlıkla ilgili haberlerde sıkça duyulur.",
     "options": [
-      "unveil",
-      "reveal",
-      "show",
-      "launch"
+      "at risk of",
+      "out of risk",
+      "without risk of",
+      "above risk from"
     ],
-    "correctAnswer": "unveil",
+    "correctAnswer": "at risk of",
     "category": "TRAVEL",
     "variations": [
-      "The company plans to _____ its latest innovation.",
-      "They will _____ the new statue tomorrow."
+      "Your job could be at risk if the company downsizes.",
+      "Children from poor families are often at risk of malnutrition."
     ]
   },
   {
-    "id": 126091306,
+    "id": 126091406,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Some experts suggest we should _____ AI development.",
-    "translation": "'Slow down' bir şeyin hızını azaltmak, yavaşlatmak demektir.",
-    "context": "'Slow down' demek, bir şeyin hızını azaltmak, daha yavaş ilerlemek demek. Trafikte 'Slow down!' tabelasını görürsün ya da iş arkadaşın 'Let's slow down and think about this' diyebilir. AI konusunda da acele etmeyip iyi düşünelim diyorlar, tıpkı Anthropic CEO'su gibi!",
+    "phrase": "It's wise to _____ investments rather than putting all your eggs in one basket.",
+    "translation": "Tüm yumurtaları aynı sepete koymak yerine yatırımları çeşitlendirmek akıllıca.",
+    "context": "'Diversify' (çeşitlendirmek) özellikle finans, iş ve hatta kişisel gelişimde kritik bir kelime. Sadece tek bir şeye bel bağlamamak, farklı alanlara yayılmak anlamına gelir. Bir portföyü veya gelir kaynaklarını çeşitlendirmek, riskleri azaltmanın ve fırsatları artırmanın en iyi yoludur. Hayatta da işe yarar: 'Don't just have one hobby; diversify your interests!'",
     "options": [
-      "slow down",
-      "speed up",
-      "shut down",
-      "open up"
+      "diversify",
+      "concentrate",
+      "liquidate",
+      "speculate"
     ],
-    "correctAnswer": "slow down",
+    "correctAnswer": "diversify",
     "category": "BUSINESS",
     "variations": [
-      "Please _____ when driving in this area.",
-      "We need to _____ and enjoy the moment."
+      "The company plans to diversify its product line next year.",
+      "She wanted to diversify her diet with more vegetables."
     ]
   },
   {
-    "id": 126091307,
+    "id": 126091407,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "She felt _____ when her ideas were ignored.",
-    "translation": "'Snubbed' birini kasten görmezden gelmek, hafife almak veya küçük düşürmek anlamına gelir.",
-    "context": "'Snubbed' olmak, birisi tarafından kasten görmezden gelinmek, küçük düşürülmek veya hafife alınmak demek. Sanki davet edildiğin bir partiye ismin unutulmuş gibi! İnsanlar arasında 'beni resmen pas geçti!' dediğin anlara denk gelebilir. Tıpkı Sheen'in FM tarafından 'snubbed' edildiğini söylemesi gibi.",
+    "phrase": "The floods caused a lot of _____ damage to the old building.",
+    "translation": "Seller, eski binada birçok gizli hasara neden oldu.",
+    "context": "'Hidden damage' (gizli hasar) tam da kulağa geldiği gibi, ilk bakışta fark edilmeyen ama sonradan ortaya çıkan zararlar. Özellikle ikinci el bir araba alırken veya bir ev kiralarken 'hidden damage' olup olmadığını sorman çok önemli. Bazen bir olaydan sonra, gerçek etkileri zamanla ortaya çıkar.",
     "options": [
-      "snubbed",
-      "praised",
-      "included",
-      "welcomed"
+      "hidden",
+      "visible",
+      "minor",
+      "external"
     ],
-    "correctAnswer": "snubbed",
+    "correctAnswer": "hidden",
     "category": "CASUAL",
     "variations": [
-      "He felt _____ after not being invited.",
-      "The director _____ the young actor."
+      "They discovered hidden damage to the car's engine.",
+      "There might be some hidden costs in this deal."
     ]
   },
   {
-    "id": 126091308,
+    "id": 126091408,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "In boxing, a strong punch can _____ your opponent.",
-    "translation": "'Take out' sporda bir rakibi yenmek, saf dışı bırakmak anlamına gelir.",
-    "context": "Sporda, özellikle boksta 'take out' bir rakibi nakavt etmek, etkisiz hale getirmek veya maçı kazanmak için yenmek anlamına gelir. Tıpkı Garcia'nın Benn'i 'take out' etmesi gibi! Günlük hayatta ise çöpleri dışarı çıkarmak ('take out the trash') veya birini yemeğe çıkarmak ('take her out to dinner') gibi farklı anlamlarda da kullanılır ama burada 'yenmek' anlamında!",
+    "phrase": "The election results were _____ until the very end.",
+    "translation": "Seçim sonuçları son ana kadar belli değildi.",
+    "context": "'Too close to call' (sonucun belirsiz olması, tahmin edilemez) genellikle spor müsabakaları veya seçimler gibi çekişmeli durumlarda kullanılır. Yani, iki taraf arasındaki fark o kadar az ki, kimin kazanacağını söylemek imkansız. 'Bu maç kim kazanır? Honestly, it's too close to call!' dediğinde tam da bu durumu anlatırsın.",
     "options": [
-      "take out",
-      "knock down",
-      "hit hard",
-      "win over"
+      "too close to call",
+      "very predictable",
+      "widely accepted",
+      "easily decided"
     ],
-    "correctAnswer": "take out",
-    "category": "GENERAL",
+    "correctAnswer": "too close to call",
+    "category": "MIXED",
     "variations": [
-      "The champion _____ his challenger quickly.",
-      "The team managed to _____ their main rival."
+      "The tennis match was too close to call.",
+      "His future career path is still too close to call."
     ]
   },
   {
-    "id": 126091309,
+    "id": 126091409,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The unexpected _____ surprised the border guards.",
-    "translation": "'Incursion' askeri veya siyasi bir bölgeye kısa süreli ve izinsiz giriş, sızma demektir.",
-    "context": "'Incursion' kelimesi, özellikle askeri veya siyasi bağlamda, bir ülkenin veya bölgenin sınırlarını kısa süreli ve genellikle izinsiz bir şekilde geçmek, içlerine sızmak anlamına gelir. Haberlerde genellikle hassas bölgelerdeki ani girişler için kullanılır. Tıpkı Ukrayna'nın 2024'teki 'incursion'u gibi. Seyahat ederken umarız böyle bir şeyle karşılaşmazsın!",
+    "phrase": "The region experienced a _____ heatwave this summer.",
+    "translation": "Bölge bu yaz rekor kıran bir sıcak hava dalgası yaşadı.",
+    "context": "'Record-breaking' (rekor kıran) bir şeyin daha önce görülmemiş veya ölçülmemiş bir seviyeye ulaştığını belirtir. Spor müsabakalarından hava durumu olaylarına, her alanda 'en' iyiyi veya 'en' kötüyü anlatmak için kullanılır. 'Record-breaking sales' (rekor satışlar) iş dünyasında sevindiriciyken, 'record-breaking temperatures' (rekor sıcaklıklar) biraz endişe verici olabilir.",
     "options": [
-      "incursion",
-      "invasion",
-      "visit",
-      "retreat"
+      "record-breaking",
+      "mild",
+      "expected",
+      "brief"
     ],
-    "correctAnswer": "incursion",
+    "correctAnswer": "record-breaking",
     "category": "TRAVEL",
     "variations": [
-      "There was a brief _____ into the disputed territory.",
-      "Local authorities reported a small _____ last week."
+      "The athlete achieved a record-breaking performance.",
+      "The company announced record-breaking profits for the quarter."
     ]
   },
   {
-    "id": 126091310,
+    "id": 126091410,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Making such a rapid decision would be _____.",
-    "translation": "'Ill-advised' kötü düşünülmüş, akıllıca olmayan demektir.",
-    "context": "'Ill-advised' demek, kötü düşünülmüş, akıllıca olmayan veya potansiyel olarak kötü sonuçlara yol açabilecek bir karar ya da eylem demek. Eğer birisi sana 'This might be ill-advised' diyorsa, bir durup tekrar düşünmelisin demektir. Tıpkı Sam Altman'ın OpenAI'ın 2026'da halka açılmasının 'ill-advised' olacağı hakkındaki yorumu gibi!",
+    "phrase": "Which company made the biggest buzz at the latest _____ Day?",
+    "translation": "Son Demo Günü'nde en çok hangi şirket ilgi çekti?",
+    "context": "'Demo Day' (tanıtım günü) özellikle startup ekosisteminde çok popüler. Genellikle hızlandırıcı programların sonunda, girişimcilerin ürünlerini veya hizmetlerini yatırımcılara ve basına tanıttığı bir etkinliktir. Eğer bir startup kurma hayalin varsa, 'Demo Day' senin için hayati bir sahne olabilir. Burada 'buzz' (vızıltı, ilgi çekme) yaratmak çok önemlidir.",
     "options": [
-      "ill-advised",
-      "well-advised",
-      "pre-planned",
-      "well-managed"
+      "Demo",
+      "Launch",
+      "Product",
+      "Investment"
     ],
-    "correctAnswer": "ill-advised",
+    "correctAnswer": "Demo",
     "category": "BUSINESS",
     "variations": [
-      "It was an _____ move to invest heavily so early.",
-      "His comments were seen as _____ by many."
+      "The Y Combinator Demo Day featured many innovative startups.",
+      "Our team is preparing for the upcoming Demo Day presentation."
     ]
   },
   {
-    "id": 126091311,
+    "id": 126091411,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "His new design finally _____ with the strict committee.",
-    "translation": "'Passes muster' belirli standartları karşılamak, yeterli bulunmak anlamına gelir.",
-    "context": "'Passes muster' ifadesi, bir şeyin belirli standartları, beklentileri veya denetimi başarıyla geçmek, yeterli bulunmak anlamına gelir. Tıpkı askerde teftişten geçmek gibi! Yeni işe giren bir çalışan 'He passes muster for the job' deniyorsa, iş için yeterli görülüyor demektir. Tuhaf haberdeki Cumhuriyetçi senatörün TV röportajının FCC'den onay alması da böyle bir durummuş!",
+    "phrase": "Does your report really _____ muster with the boss?",
+    "translation": "Raporun gerçekten patronun onayını alıyor mu?",
+    "context": "'Pass muster' (onay almak, beklentileri karşılamak) bir şeyin yeterince iyi olduğunu, standartları karşıladığını veya eleştirilere dayanabildiğini ifade eden harika bir deyimdir. Askeri bir terimden gelir (askerlerin denetimden geçmesi gibi). Mesela, bir proje sunduğunda veya bir fikir ortaya attığında, 'Will it pass muster?' diye düşünebilirsin. Her şeyin mükemmel olması gerekmez, sadece kabul edilebilir olması yeterlidir.",
     "options": [
-      "passes muster",
-      "fails inspection",
-      "gets approval",
-      "meets criteria"
+      "pass",
+      "fail",
+      "check",
+      "meet"
     ],
-    "correctAnswer": "passes muster",
+    "correctAnswer": "pass",
     "category": "CASUAL",
     "variations": [
-      "The security check didn't _____ for all passengers.",
-      "Does your proposal _____ for the board?"
+      "Her argument didn't quite pass muster with the jury.",
+      "The new security system needs to pass muster with strict regulations."
     ]
   },
   {
-    "id": 126091312,
+    "id": 126091412,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The company has strict rules against _____ employees.",
-    "translation": "'Harassing' taciz etmek, rahatsız etmek anlamına gelir.",
-    "context": "'Harassing' kelimesi, birini rahatsız edici, taciz edici veya tehditkar davranışlarla sürekli olarak rahatsız etmek, huzurunu kaçırmak anlamına gelir. Ciddi bir konudur ve iş yerinde veya sosyal medyada asla hoş görülmez. O tuhaf haberdeki sendika liderinin kadınları 'harassing' ile suçlanması gibi, maalesef bazen bu tür suçlamalarla karşılaşabiliyoruz.",
+    "phrase": "The bar manager tried to break up a physical _____ between two customers.",
+    "translation": "Bar yöneticisi iki müşteri arasındaki fiziksel tartışmayı ayırmaya çalıştı.",
+    "context": "'Altercation' (tartışma, kavga) özellikle kamuya açık yerlerde veya haberlerde geçen tatsız bir olayı anlatır. Genellikle sözlü başlayıp fizikselleşen, hararetli bir anlaşmazlığı ifade eder. 'Bar brawl' (bar kavgası) ile benzerdir ama 'altercation' daha resmi ve genel bir ifadedir. Umarız hiç böyle bir şeye karışmazsın, ama haberlerde ve dizilerde sıkça duyabilirsin!",
     "options": [
-      "harassing",
-      "supporting",
-      "mentoring",
-      "guiding"
+      "altercation",
+      "conversation",
+      "celebration",
+      "demonstration"
     ],
-    "correctAnswer": "harassing",
-    "category": "GENERAL",
+    "correctAnswer": "altercation",
+    "category": "MIXED",
     "variations": [
-      "She reported him for constantly _____ her.",
-      "Public transportation should be free from _____ behavior."
+      "There was a minor altercation outside the nightclub.",
+      "Police were called to an altercation in the street."
     ]
   }
 ]
