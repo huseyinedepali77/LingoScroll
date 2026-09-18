@@ -1,242 +1,224 @@
 [
   {
-    "id": 126091401,
-    "type": "QUIZ_COMPLETION",
+    "id": 126091801,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "Look _____ for the meteor shower tonight.",
-    "translation": "Bu geceki meteor yağmuru için gözünü dört aç.",
-    "context": "'Look out for something' (Gözünü dört açmak, dikkat etmek) çok yaygın bir ifade. Özellikle yeni bir yere gittiğinde, 'look out for pickpockets' (yankesicilere dikkat et) veya 'look out for good cafes' (güzel kafeler ara/bulmaya çalış) gibi kullanabilirsin. Gözlem yaparken, bir şeyi beklerken sıkça duymak mümkün.",
+    "phrase": "What is the past tense of 'shoot'?",
+    "translation": "'Shoot' kelimesinin geçmiş zaman hali.",
+    "context": "'Shoot', 'vurmak' veya 'ateş etmek' anlamına gelir ama biz daha güzeline odaklanalım: Basketbolda topu potaya 'shoot' etmek! Geçmiş zamanda 'shot' diyoruz. Mesela, 'I shot the ball.' (Topu attım.)",
     "options": [
-      "out",
-      "up",
-      "down",
-      "in"
+      "shoot",
+      "shot",
+      "shooted",
+      "shooting"
     ],
-    "correctAnswer": "out",
-    "category": "TRAVEL",
-    "variations": [
-      "You should look out for any changes in the weather.",
-      "I always look out for new restaurants in my neighborhood."
-    ]
+    "correctAnswer": "shot",
+    "category": "CASUAL",
+    "variations": []
   },
   {
-    "id": 126091402,
+    "id": 126091802,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The company decided to _____ the big stock sale.",
-    "translation": "Şirket büyük hisse senedi satışını iptal etmeye karar verdi.",
-    "context": "'Cancel' (iptal etmek) iş dünyasında, özellikle finansal anlaşmalarda veya büyük projelerde sıkça duyduğun bir kelime. Bir toplantıyı, bir siparişi veya bir anlaşmayı iptal etmek için kullanılır. Eğer bir yatırım veya satış planın varsa ama son anda vazgeçersen, işte o zaman 'cancel' dersin.",
+    "phrase": "The company _____ $100 million for its new project.",
+    "translation": "Şirket yeni projesi için 100 milyon dolar topladı/sağladı.",
+    "context": "'Raise' kelimesi 'yükseltmek' anlamına gelir ama iş dünyasında para veya fon 'toplamak', 'sağlamak' anlamında da sıkça kullanılır. Bir proje için yatırım bulduğunda, 'money was raised' deriz. Yani, şirketin kasasına para girmiş, süper!",
     "options": [
-      "cancel",
-      "open",
-      "delay",
-      "confirm"
+      "raised",
+      "grow",
+      "developed",
+      "make"
     ],
-    "correctAnswer": "cancel",
+    "correctAnswer": "raised",
     "category": "BUSINESS",
     "variations": [
-      "They had to cancel the meeting due to a sudden emergency.",
-      "We need to cancel our flight reservation."
+      "They _____ funds to expand their business.",
+      "Our team _____ awareness for the charity event."
     ]
   },
   {
-    "id": 126091403,
+    "id": 126091803,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "What is the meaning of 'limit'?",
+    "translation": "'Limit' kelimesinin anlamı nedir?",
+    "context": "'Limit' bir şeyin en son noktası, sınırı veya kısıtlaması demek. Hani bazen hız sınırı olur ya da bir oyunun kaç kişiyle oynanabileceğinin bir 'limiti' vardır. O çizginin ötesine geçemezsin. Robotaksiler için de belli bir sayı 'limiti' konulmuş mesela.",
+    "options": [
+      "a maximum point",
+      "a fast speed",
+      "a big amount",
+      "a new idea"
+    ],
+    "correctAnswer": "a maximum point",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126091804,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "He always tries to _____ serious risks.",
-    "translation": "Ciddi riskleri her zaman küçümsemeye çalışır.",
-    "context": "'Downplay' (küçümsemek, hafife almak) bir durumu olduğundan daha az önemli veya tehlikeli göstermek için kullanılır. Mesela, 'bir arkadaşın sınavda çok kolaydı dese de aslında çok çalışmıştır, yani zorluğu downplay ediyordur'. Genelde, sorumluluktan kaçmak veya endişeyi azaltmak isteyen kişiler bu kelimeyi kullanır.",
+    "phrase": "They _____ a new type of flower in the forest.",
+    "translation": "Onlar ormanda yeni bir çiçek türü buldular.",
+    "context": "'Find' fiilinin geçmiş zaman hali 'found'dur. Kaybolan bir şeyi 'bulduğumuzda' veya daha önce bilmediğimiz bir şeyi 'keşfettiğimizde' kullanırız. Tıpkı bilim insanlarının yeni bir canlı türü 'bulması' gibi!",
     "options": [
-      "downplay",
-      "exaggerate",
-      "highlight",
-      "ignore"
+      "found",
+      "find",
+      "finding",
+      "finds"
     ],
-    "correctAnswer": "downplay",
-    "category": "CASUAL",
-    "variations": [
-      "The politician tried to downplay the impact of the new law.",
-      "Don't downplay your achievements; they are significant."
-    ]
-  },
-  {
-    "id": 126091404,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The news reported that a train was _____ by a missile.",
-    "translation": "Haberlere göre bir tren füzeyle vuruldu.",
-    "context": "'Hit' (vurmak) sadece topa vurmak değil, aynı zamanda bir hedefe ulaşmak, çarpmak veya saldırmak anlamında da kullanılır. Haberlerde 'bir şehrin vurulduğu' veya 'bir rekorun vurulduğu' gibi ifadelerle sıkça karşılaşabilirsin. Kısacası, bir şeyin bir şeye temas etmesi veya etkilemesi durumunda kullanılır.",
-    "options": [
-      "hit",
-      "missed",
-      "stopped",
-      "passed"
-    ],
-    "correctAnswer": "hit",
+    "correctAnswer": "found",
     "category": "MIXED",
     "variations": [
-      "The car was hit by a falling branch.",
-      "She hit the target perfectly."
+      "She _____ her keys under the sofa.",
+      "We _____ a great restaurant downtown."
     ]
   },
   {
-    "id": 126091405,
+    "id": 126091805,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Many species are _____ extinction due to climate change.",
-    "translation": "İklim değişikliği nedeniyle birçok türün soyu tükenme tehlikesiyle karşı karşıya.",
-    "context": "'At risk' (risk altında) çok önemli bir kalıp. Bir şeyin tehlikede olduğunu veya olumsuz bir sonuçla karşılaşma ihtimalinin yüksek olduğunu belirtir. Seyahat ederken 'at risk of illness' (hastalık riski) veya 'at risk of robbery' (soygun riski) gibi uyarılar görebilirsin. Çevresel veya sağlıkla ilgili haberlerde sıkça duyulur.",
+    "phrase": "The man was arrested again; he's a real _____ _____.",
+    "translation": "Adam tekrar tutuklandı; o tam bir sabıkalı.",
+    "context": "'Repeat offender', aynı suçu veya kural ihlalini birden fazla kez yapan kişi demektir. Yani 'tekrar eden suçlu' gibi düşünebilirsin. Ceza hukukunda sıkça rastlanan, yaramazlık yapmaktan vazgeçmeyen tipler için kullanılır!",
     "options": [
-      "at risk of",
-      "out of risk",
-      "without risk of",
-      "above risk from"
+      "repeat offender",
+      "frequent visitor",
+      "common criminal",
+      "regular person"
     ],
-    "correctAnswer": "at risk of",
+    "correctAnswer": "repeat offender",
+    "category": "CASUAL",
+    "variations": [
+      "This driver is a _____ _____ for speeding tickets.",
+      "Don't be a _____ _____ and make the same mistake twice."
+    ]
+  },
+  {
+    "id": 126091806,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "What does it mean if a company is 'backed' by an investor?",
+    "translation": "Bir şirketin bir yatırımcı tarafından 'backed' olması ne anlama gelir?",
+    "context": "Bir şirket 'backed' ise, bu genellikle o şirketin bir yatırımcıdan finansal destek veya 'arka çıkma' aldığını gösterir. Yani yatırımcı, şirkete inanmış ve parasıyla (veya başka kaynaklarla) onu destekliyor demektir. Süper bir işbirliği!",
+    "options": [
+      "It's supported financially",
+      "It's criticized by them",
+      "It's owned by them",
+      "It's competing with them"
+    ],
+    "correctAnswer": "It's supported financially",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126091807,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "In the future, _____ may drive us to our destinations automatically.",
+    "translation": "Gelecekte, robotaksiler bizi otomatik olarak varış noktalarımıza götürebilir.",
+    "context": "'Robotaxi', kendi kendine giden, şoförsüz taksi demektir. Düşünsene, telefonundan çağırdığın taksiye biniyorsun ve direksiyon boş! Teknoloji harikası bu araçlar, gelecekte şehir içi ulaşımı baştan yazacak.",
+    "options": [
+      "robotaxis",
+      "airplanes",
+      "bicycles",
+      "trains"
+    ],
+    "correctAnswer": "robotaxis",
     "category": "TRAVEL",
     "variations": [
-      "Your job could be at risk if the company downsizes.",
-      "Children from poor families are often at risk of malnutrition."
+      "Some cities are testing _____ for public transport.",
+      "You can call a _____ using an app."
     ]
   },
   {
-    "id": 126091406,
-    "type": "QUIZ_COMPLETION",
+    "id": 126091808,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "It's wise to _____ investments rather than putting all your eggs in one basket.",
-    "translation": "Tüm yumurtaları aynı sepete koymak yerine yatırımları çeşitlendirmek akıllıca.",
-    "context": "'Diversify' (çeşitlendirmek) özellikle finans, iş ve hatta kişisel gelişimde kritik bir kelime. Sadece tek bir şeye bel bağlamamak, farklı alanlara yayılmak anlamına gelir. Bir portföyü veya gelir kaynaklarını çeşitlendirmek, riskleri azaltmanın ve fırsatları artırmanın en iyi yoludur. Hayatta da işe yarar: 'Don't just have one hobby; diversify your interests!'",
+    "phrase": "What is a 'squad' in a sports context?",
+    "translation": "Spor bağlamında 'squad' nedir?",
+    "context": "Spor dünyasında 'squad', bir takımın maçlara çıkacak oyuncu grubunu ifade eder. Yani teknik direktörün seçtiği, formda ve hazır olan o özel ekip. 'En iyi kadro' gibi düşünebilirsin. Herkes 'squad'da olmak ister!",
     "options": [
-      "diversify",
-      "concentrate",
-      "liquidate",
-      "speculate"
+      "A group of players in a team",
+      "A small group of fans",
+      "The team's coaching staff",
+      "The team's stadium"
     ],
-    "correctAnswer": "diversify",
-    "category": "BUSINESS",
-    "variations": [
-      "The company plans to diversify its product line next year.",
-      "She wanted to diversify her diet with more vegetables."
-    ]
-  },
-  {
-    "id": 126091407,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The floods caused a lot of _____ damage to the old building.",
-    "translation": "Seller, eski binada birçok gizli hasara neden oldu.",
-    "context": "'Hidden damage' (gizli hasar) tam da kulağa geldiği gibi, ilk bakışta fark edilmeyen ama sonradan ortaya çıkan zararlar. Özellikle ikinci el bir araba alırken veya bir ev kiralarken 'hidden damage' olup olmadığını sorman çok önemli. Bazen bir olaydan sonra, gerçek etkileri zamanla ortaya çıkar.",
-    "options": [
-      "hidden",
-      "visible",
-      "minor",
-      "external"
-    ],
-    "correctAnswer": "hidden",
-    "category": "CASUAL",
-    "variations": [
-      "They discovered hidden damage to the car's engine.",
-      "There might be some hidden costs in this deal."
-    ]
-  },
-  {
-    "id": 126091408,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The election results were _____ until the very end.",
-    "translation": "Seçim sonuçları son ana kadar belli değildi.",
-    "context": "'Too close to call' (sonucun belirsiz olması, tahmin edilemez) genellikle spor müsabakaları veya seçimler gibi çekişmeli durumlarda kullanılır. Yani, iki taraf arasındaki fark o kadar az ki, kimin kazanacağını söylemek imkansız. 'Bu maç kim kazanır? Honestly, it's too close to call!' dediğinde tam da bu durumu anlatırsın.",
-    "options": [
-      "too close to call",
-      "very predictable",
-      "widely accepted",
-      "easily decided"
-    ],
-    "correctAnswer": "too close to call",
+    "correctAnswer": "A group of players in a team",
     "category": "MIXED",
-    "variations": [
-      "The tennis match was too close to call.",
-      "His future career path is still too close to call."
-    ]
+    "variations": []
   },
   {
-    "id": 126091409,
+    "id": 126091809,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The region experienced a _____ heatwave this summer.",
-    "translation": "Bölge bu yaz rekor kıran bir sıcak hava dalgası yaşadı.",
-    "context": "'Record-breaking' (rekor kıran) bir şeyin daha önce görülmemiş veya ölçülmemiş bir seviyeye ulaştığını belirtir. Spor müsabakalarından hava durumu olaylarına, her alanda 'en' iyiyi veya 'en' kötüyü anlatmak için kullanılır. 'Record-breaking sales' (rekor satışlar) iş dünyasında sevindiriciyken, 'record-breaking temperatures' (rekor sıcaklıklar) biraz endişe verici olabilir.",
+    "phrase": "That goal was a real _____ _____ for our team, changing the whole game.",
+    "translation": "O gol takımımız için gerçek bir 'momentum değiştirici' oldu, tüm oyunu değiştirdi.",
+    "context": "'Momentum swinger', bir durumun veya olayın gidişatını, dinamizmini tamamen değiştiren, ani bir ivme kazandıran şeydir. Sporda bu, bir gol veya kritik bir kurtarış olabilir; iş hayatında ise bir sunum veya yeni bir ürün lansmanı. Adeta rüzgarın yönünü değiştirir!",
     "options": [
-      "record-breaking",
-      "mild",
-      "expected",
-      "brief"
+      "momentum swinger",
+      "game changer",
+      "energy boost",
+      "mood lifter"
     ],
-    "correctAnswer": "record-breaking",
+    "correctAnswer": "momentum swinger",
+    "category": "CASUAL",
+    "variations": [
+      "Her comeback speech was a _____ _____ in the political debate.",
+      "This new product could be a _____ _____ for the company's future."
+    ]
+  },
+  {
+    "id": 126091810,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "What does it mean to 'navigate choppy waters' in business?",
+    "translation": "İş hayatında 'navigate choppy waters' ne anlama gelir?",
+    "context": "'Navigate choppy waters' deyimi, mecazi olarak zorlu, belirsiz veya çalkantılı durumlarla başa çıkmak anlamına gelir. Tıpkı fırtınalı denizde bir gemiyi başarıyla yönetmek gibi, iş dünyasında da krizleri veya zorlukları ustaca aşmayı ifade eder.",
+    "options": [
+      "To deal with difficult or uncertain situations",
+      "To sail a boat skillfully",
+      "To avoid making decisions",
+      "To travel to exotic places"
+    ],
+    "correctAnswer": "To deal with difficult or uncertain situations",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126091811,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Canada becoming an _____ _____ of the EU would strengthen ties without full membership.",
+    "translation": "Kanada'nın AB'nin bir 'ortak üyesi' olması, tam üyelik olmadan bağları güçlendirir.",
+    "context": "'Associate member' (ortak üye), bir kuruluşun tam üyesi olmadan belirli haklara ve yükümlülüklere sahip olan bir tarafı ifade eder. Genellikle tam üyelikteki tüm avantaj ve dezavantajları taşımazken, yine de güçlü bir işbirliği veya ilişki kurar. Kanada'nın AB ile ilişkilerini geliştirmek istemesi buna güzel bir örnek.",
+    "options": [
+      "associate member",
+      "full participant",
+      "temporary guest",
+      "external partner"
+    ],
+    "correctAnswer": "associate member",
     "category": "TRAVEL",
     "variations": [
-      "The athlete achieved a record-breaking performance.",
-      "The company announced record-breaking profits for the quarter."
+      "The club offered him an _____ _____ status.",
+      "They are considering an _____ _____ program for smaller organizations."
     ]
   },
   {
-    "id": 126091410,
-    "type": "QUIZ_COMPLETION",
+    "id": 126091812,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Which company made the biggest buzz at the latest _____ Day?",
-    "translation": "Son Demo Günü'nde en çok hangi şirket ilgi çekti?",
-    "context": "'Demo Day' (tanıtım günü) özellikle startup ekosisteminde çok popüler. Genellikle hızlandırıcı programların sonunda, girişimcilerin ürünlerini veya hizmetlerini yatırımcılara ve basına tanıttığı bir etkinliktir. Eğer bir startup kurma hayalin varsa, 'Demo Day' senin için hayati bir sahne olabilir. Burada 'buzz' (vızıltı, ilgi çekme) yaratmak çok önemlidir.",
+    "phrase": "What does 'AGI' stand for in the context of technology?",
+    "translation": "Teknoloji bağlamında 'AGI' ne anlama gelir?",
+    "context": "'AGI', 'Artificial General Intelligence' (Yapay Genel Zeka) kelimelerinin kısaltmasıdır. Bu, insan zekası kadar veya ondan daha iyi performans gösterebilen, geniş yelpazedeki görevleri öğrenebilen ve uygulayabilen bir yapay zeka türüdür. Henüz tam olarak geliştirilememiş olsa da, teknoloji dünyasının en büyük hedeflerinden biri!",
     "options": [
-      "Demo",
-      "Launch",
-      "Product",
-      "Investment"
+      "Artificial General Intelligence",
+      "Advanced Global Information",
+      "Automated Government Initiative",
+      "Agile Group Integration"
     ],
-    "correctAnswer": "Demo",
-    "category": "BUSINESS",
-    "variations": [
-      "The Y Combinator Demo Day featured many innovative startups.",
-      "Our team is preparing for the upcoming Demo Day presentation."
-    ]
-  },
-  {
-    "id": 126091411,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Does your report really _____ muster with the boss?",
-    "translation": "Raporun gerçekten patronun onayını alıyor mu?",
-    "context": "'Pass muster' (onay almak, beklentileri karşılamak) bir şeyin yeterince iyi olduğunu, standartları karşıladığını veya eleştirilere dayanabildiğini ifade eden harika bir deyimdir. Askeri bir terimden gelir (askerlerin denetimden geçmesi gibi). Mesela, bir proje sunduğunda veya bir fikir ortaya attığında, 'Will it pass muster?' diye düşünebilirsin. Her şeyin mükemmel olması gerekmez, sadece kabul edilebilir olması yeterlidir.",
-    "options": [
-      "pass",
-      "fail",
-      "check",
-      "meet"
-    ],
-    "correctAnswer": "pass",
-    "category": "CASUAL",
-    "variations": [
-      "Her argument didn't quite pass muster with the jury.",
-      "The new security system needs to pass muster with strict regulations."
-    ]
-  },
-  {
-    "id": 126091412,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The bar manager tried to break up a physical _____ between two customers.",
-    "translation": "Bar yöneticisi iki müşteri arasındaki fiziksel tartışmayı ayırmaya çalıştı.",
-    "context": "'Altercation' (tartışma, kavga) özellikle kamuya açık yerlerde veya haberlerde geçen tatsız bir olayı anlatır. Genellikle sözlü başlayıp fizikselleşen, hararetli bir anlaşmazlığı ifade eder. 'Bar brawl' (bar kavgası) ile benzerdir ama 'altercation' daha resmi ve genel bir ifadedir. Umarız hiç böyle bir şeye karışmazsın, ama haberlerde ve dizilerde sıkça duyabilirsin!",
-    "options": [
-      "altercation",
-      "conversation",
-      "celebration",
-      "demonstration"
-    ],
-    "correctAnswer": "altercation",
+    "correctAnswer": "Artificial General Intelligence",
     "category": "MIXED",
-    "variations": [
-      "There was a minor altercation outside the nightclub.",
-      "Police were called to an altercation in the street."
-    ]
+    "variations": []
   }
 ]
