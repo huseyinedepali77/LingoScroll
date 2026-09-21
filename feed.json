@@ -1,224 +1,233 @@
 [
   {
-    "id": 126091801,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "What is the past tense of 'shoot'?",
-    "translation": "'Shoot' kelimesinin geçmiş zaman hali.",
-    "context": "'Shoot', 'vurmak' veya 'ateş etmek' anlamına gelir ama biz daha güzeline odaklanalım: Basketbolda topu potaya 'shoot' etmek! Geçmiş zamanda 'shot' diyoruz. Mesela, 'I shot the ball.' (Topu attım.)",
-    "options": [
-      "shoot",
-      "shot",
-      "shooted",
-      "shooting"
-    ],
-    "correctAnswer": "shot",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126091802,
+    "id": 126092101,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The company _____ $100 million for its new project.",
-    "translation": "Şirket yeni projesi için 100 milyon dolar topladı/sağladı.",
-    "context": "'Raise' kelimesi 'yükseltmek' anlamına gelir ama iş dünyasında para veya fon 'toplamak', 'sağlamak' anlamında da sıkça kullanılır. Bir proje için yatırım bulduğunda, 'money was raised' deriz. Yani, şirketin kasasına para girmiş, süper!",
+    "phrase": "He promised to _____ as the team leader.",
+    "translation": "'Kalıcı olmak' veya 'devam etmek' anlamına gelir.",
+    "context": "Bir pozisyonda kalmaya veya devam etmeye kararlı olmak, 'stay on' ile ifade edilir. Patronunuz size 'Please stay on the project' dediğinde, projede kalıp devam etmenizi istiyor demektir. Yani, gitmek yerine yerinizde kalın, işinize bakın!",
     "options": [
-      "raised",
-      "grow",
-      "developed",
-      "make"
+      "stay on",
+      "quit",
+      "resign",
+      "leave"
     ],
-    "correctAnswer": "raised",
-    "category": "BUSINESS",
+    "correctAnswer": "stay on",
+    "category": "CASUAL",
     "variations": [
-      "They _____ funds to expand their business.",
-      "Our team _____ awareness for the charity event."
+      "She decided to _____ a little longer.",
+      "Will you _____ after the meeting?"
     ]
   },
   {
-    "id": 126091803,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "id": 126092102,
+    "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "What is the meaning of 'limit'?",
-    "translation": "'Limit' kelimesinin anlamı nedir?",
-    "context": "'Limit' bir şeyin en son noktası, sınırı veya kısıtlaması demek. Hani bazen hız sınırı olur ya da bir oyunun kaç kişiyle oynanabileceğinin bir 'limiti' vardır. O çizginin ötesine geçemezsin. Robotaksiler için de belli bir sayı 'limiti' konulmuş mesela.",
+    "phrase": "You can _____ 20% on your next purchase.",
+    "translation": "'Kadar tasarruf etmek' anlamına gelir.",
+    "context": "Bir indirim veya kampanyada, 'save up to' diyerek maksimum ne kadar tasarruf edebileceğinizi belirtirsiniz. Örneğin, 'save up to $200' demek, 200 dolara kadar bir indirim kapabilirsiniz demek. Cüzdanınızı sevindiren cinsten!",
     "options": [
-      "a maximum point",
-      "a fast speed",
-      "a big amount",
-      "a new idea"
+      "save up to",
+      "lose up to",
+      "spend up to",
+      "earn up to"
     ],
-    "correctAnswer": "a maximum point",
+    "correctAnswer": "save up to",
+    "category": "BUSINESS",
+    "variations": [
+      "They offer to _____ 50% on flights.",
+      "Hurry, you can _____ £100 on electronics!"
+    ]
+  },
+  {
+    "id": 126092103,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The heavy rain caused a natural _____ in the village.",
+    "translation": "'Felaket' veya 'afet' anlamına gelir.",
+    "context": "Doğal olayların veya çok kötü durumların neden olduğu büyük felaketleri ifade etmek için kullanılır. Bir köyde sel basması, yanardağ patlaması veya korkunç bir sınav sonucu... hepsi bir 'disaster' olabilir! Gerçekten kötü bir durum yani.",
+    "options": [
+      "disaster",
+      "success",
+      "party",
+      "celebration"
+    ],
+    "correctAnswer": "disaster",
+    "category": "TRAVEL",
+    "variations": [
+      "The project was a complete _____.",
+      "The earthquake was a terrible _____ for the city."
+    ]
+  },
+  {
+    "id": 126092104,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "They formed a _____ to achieve their goals together.",
+    "translation": "'Yeni ittifak' veya 'yeni birlik' anlamına gelir.",
+    "context": "İki veya daha fazla grubun, ülkenin ya da kişinin ortak bir amaç için bir araya gelmesi ve güçlerini birleştirmesi durumudur. Tıpkı süper kahramanların dünyayı kurtarmak için birleşmesi gibi, sadece daha az pelerinli ve daha çok evrak işli!",
+    "options": [
+      "new alliance",
+      "old conflict",
+      "small group",
+      "big fight"
+    ],
+    "correctAnswer": "new alliance",
+    "category": "MIXED",
+    "variations": [
+      "The companies created a _____ for innovation.",
+      "Our team needs a _____ to win the tournament."
+    ]
+  },
+  {
+    "id": 126092105,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "We should _____ some water before the storm.",
+    "translation": "'Bir şeyi bolca stoklamak' veya 'tedarikini yapmak' anlamına gelir.",
+    "context": "Bir şeyin ihtiyacınız olacağını düşündüğünüzde bolca alıp biriktirmek. Tıpkı bir sincabın kış için fındıklarını 'stock up on' yapması gibi. Ya da sınavdan önce kahve stoklamak gibi; hayat kurtarıcı olabilir!",
+    "options": [
+      "stock up on",
+      "throw away",
+      "finish off",
+      "give out"
+    ],
+    "correctAnswer": "stock up on",
+    "category": "CASUAL",
+    "variations": [
+      "It's wise to _____ non-perishable foods.",
+      "We need to _____ firewood for winter."
+    ]
+  },
+  {
+    "id": 126092106,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Making the right decision is _____ for our project's success.",
+    "translation": "'Kritik' veya 'çok önemli' anlamına gelir.",
+    "context": "Bir şeyin başarısı veya sonucu için hayati derecede önemli olduğunu vurgular. Bir projenin kaderini belirleyecek kadar 'crucial' kararlar, bir maçın son dakikasında atılan 'crucial' goller... Yani, bu olmadan olmaz!",
+    "options": [
+      "crucial",
+      "unimportant",
+      "trivial",
+      "optional"
+    ],
+    "correctAnswer": "crucial",
+    "category": "BUSINESS",
+    "variations": [
+      "Timing is _____ in business.",
+      "Her support was _____ for his recovery."
+    ]
+  },
+  {
+    "id": 126092107,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Aşağıdakilerden hangisi yüksek hızlı bir ulaşım sistemi olan Hyperloop'u tanımlar?",
+    "translation": "Vakum tüplü yüksek hızlı ulaşım, Elon Musk'ın hayalindeki süpersonik seyahat teknolojisi.",
+    "context": "Elon Musk'ın hayalindeki bu teknoloji, vakum tüpleri içinde kapsüllerle süpersonik hızlara ulaşmayı hedefliyor. Düşünsenize, New York'tan Washington'a dakikalar içinde gitmek mümkün olacak! Uçak hızında ama karadan seyahat, geleceğin seyahat şekli olabilir.",
+    "options": [
+      "Yavaş tren",
+      "Hızlı otobüs",
+      "Vakum tüplü yüksek hızlı ulaşım",
+      "Geleneksel gemi"
+    ],
+    "correctAnswer": "Vakum tüplü yüksek hızlı ulaşım",
     "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126091804,
+    "id": 126092108,
     "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "They _____ a new type of flower in the forest.",
-    "translation": "Onlar ormanda yeni bir çiçek türü buldular.",
-    "context": "'Find' fiilinin geçmiş zaman hali 'found'dur. Kaybolan bir şeyi 'bulduğumuzda' veya daha önce bilmediğimiz bir şeyi 'keşfettiğimizde' kullanırız. Tıpkı bilim insanlarının yeni bir canlı türü 'bulması' gibi!",
+    "level": "INTERMEDIATE",
+    "phrase": "He decided to _____ the competition due to injury.",
+    "translation": "'Bir yerden/etkinlikten çekilmek' anlamına gelir.",
+    "context": "Bir etkinlikten, gruptan, bir yerden veya bir süreçten geri çekilmek, ayrılmak. Bir sporcu sakatlandığında yarışmadan 'withdraw from' edebilir. Ya da bankadan para çekmek için de bu fiili kullanırsınız, sadece orada 'from' genellikle 'the bank' ile kullanılır.",
     "options": [
-      "found",
-      "find",
-      "finding",
-      "finds"
+      "withdraw from",
+      "join in",
+      "sign up for",
+      "participate in"
     ],
-    "correctAnswer": "found",
+    "correctAnswer": "withdraw from",
     "category": "MIXED",
     "variations": [
-      "She _____ her keys under the sofa.",
-      "We _____ a great restaurant downtown."
+      "The company had to _____ the market.",
+      "She will _____ the race next week."
     ]
   },
   {
-    "id": 126091805,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The man was arrested again; he's a real _____ _____.",
-    "translation": "Adam tekrar tutuklandı; o tam bir sabıkalı.",
-    "context": "'Repeat offender', aynı suçu veya kural ihlalini birden fazla kez yapan kişi demektir. Yani 'tekrar eden suçlu' gibi düşünebilirsin. Ceza hukukunda sıkça rastlanan, yaramazlık yapmaktan vazgeçmeyen tipler için kullanılır!",
-    "options": [
-      "repeat offender",
-      "frequent visitor",
-      "common criminal",
-      "regular person"
-    ],
-    "correctAnswer": "repeat offender",
-    "category": "CASUAL",
-    "variations": [
-      "This driver is a _____ _____ for speeding tickets.",
-      "Don't be a _____ _____ and make the same mistake twice."
-    ]
-  },
-  {
-    "id": 126091806,
+    "id": 126092109,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "What does it mean if a company is 'backed' by an investor?",
-    "translation": "Bir şirketin bir yatırımcı tarafından 'backed' olması ne anlama gelir?",
-    "context": "Bir şirket 'backed' ise, bu genellikle o şirketin bir yatırımcıdan finansal destek veya 'arka çıkma' aldığını gösterir. Yani yatırımcı, şirkete inanmış ve parasıyla (veya başka kaynaklarla) onu destekliyor demektir. Süper bir işbirliği!",
+    "level": "ADVANCED",
+    "phrase": "'In their midst' deyimi, bir grup veya topluluk içinde bir şeyin olduğunu belirtir. Aşağıdaki cümlelerden hangisi bu deyimin doğru kullanımına bir örnektir?",
+    "translation": "'Kendi aralarında' veya 'ortalarında' anlamına gelir. Bir grubun içinde gizli bir şeyden bahsederken kullanılır.",
+    "context": "Bu deyim, bir grubun veya çevrenin tam ortasında, içinde gizlenmiş bir şeyi (genellikle kötü bir şeyi) ima etmek için kullanılır. Komşular arasında bir katil şüphesi veya bir ekip içinde bir hain olabilir! Gerilim filmlerinin vazgeçilmez deyimi gibi.",
     "options": [
-      "It's supported financially",
-      "It's criticized by them",
-      "It's owned by them",
-      "It's competing with them"
+      "He put the book on their midst.",
+      "She found a friend in their midst.",
+      "They walked through their midst.",
+      "The secret agent was living in their midst."
     ],
-    "correctAnswer": "It's supported financially",
+    "correctAnswer": "The secret agent was living in their midst.",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126092110,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Bir 'AI Tsar' atanması, hangi görevi üstlenmeyi amaçlar?",
+    "translation": "Yapay zeka stratejilerini ve gelişimini denetlemek, yönlendirmek.",
+    "context": "'Tsar' kelimesi, Rus imparatorlarına atıfta bulunsa da, modern kullanımda belirli bir alanda geniş yetkilere sahip, genellikle kriz durumlarında veya önemli projelerde görevlendirilen yüksek profilli bir yetkiliyi ifade eder. Yani, yapay zeka alanının imparatoru, patronu! Tüm kararlar ondan sorulur.",
+    "options": [
+      "Yapay zeka projelerini geliştirmek için halktan para toplamak.",
+      "Yapay zeka stratejilerini ve gelişimini denetlemek, yönlendirmek.",
+      "Yapay zeka teknolojilerini tamamen yasaklamak.",
+      "Yapay zeka robotlarını tamir etmek."
+    ],
+    "correctAnswer": "Yapay zeka stratejilerini ve gelişimini denetlemek, yönlendirmek.",
     "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126091807,
+    "id": 126092111,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "In the future, _____ may drive us to our destinations automatically.",
-    "translation": "Gelecekte, robotaksiler bizi otomatik olarak varış noktalarımıza götürebilir.",
-    "context": "'Robotaxi', kendi kendine giden, şoförsüz taksi demektir. Düşünsene, telefonundan çağırdığın taksiye biniyorsun ve direksiyon boş! Teknoloji harikası bu araçlar, gelecekte şehir içi ulaşımı baştan yazacak.",
+    "level": "ADVANCED",
+    "phrase": "The company faced severe penalties for illegal _____ of hazardous waste.",
+    "translation": "'Zehirli atık boşaltma' veya 'zehirli atık dökme' anlamına gelir.",
+    "context": "Atıkların, özellikle zehirli veya tehlikeli maddelerin yasa dışı veya çevreye zarar verecek şekilde boşaltılması, dökülmesi eylemi. Bu çevre için büyük bir sorun ve genellikle ağır cezalarla sonuçlanır. Yani, doğayı kirleten kötü adamların yaptığı şey!",
     "options": [
-      "robotaxis",
-      "airplanes",
-      "bicycles",
-      "trains"
+      "toxic dumping",
+      "safe recycling",
+      "clean disposal",
+      "legal storage"
     ],
-    "correctAnswer": "robotaxis",
+    "correctAnswer": "toxic dumping",
     "category": "TRAVEL",
     "variations": [
-      "Some cities are testing _____ for public transport.",
-      "You can call a _____ using an app."
+      "Activists protested against the _____ in the ocean.",
+      "The report highlighted cases of illegal _____."
     ]
   },
   {
-    "id": 126091808,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "What is a 'squad' in a sports context?",
-    "translation": "Spor bağlamında 'squad' nedir?",
-    "context": "Spor dünyasında 'squad', bir takımın maçlara çıkacak oyuncu grubunu ifade eder. Yani teknik direktörün seçtiği, formda ve hazır olan o özel ekip. 'En iyi kadro' gibi düşünebilirsin. Herkes 'squad'da olmak ister!",
-    "options": [
-      "A group of players in a team",
-      "A small group of fans",
-      "The team's coaching staff",
-      "The team's stadium"
-    ],
-    "correctAnswer": "A group of players in a team",
-    "category": "MIXED",
-    "variations": []
-  },
-  {
-    "id": 126091809,
+    "id": 126092112,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "That goal was a real _____ _____ for our team, changing the whole game.",
-    "translation": "O gol takımımız için gerçek bir 'momentum değiştirici' oldu, tüm oyunu değiştirdi.",
-    "context": "'Momentum swinger', bir durumun veya olayın gidişatını, dinamizmini tamamen değiştiren, ani bir ivme kazandıran şeydir. Sporda bu, bir gol veya kritik bir kurtarış olabilir; iş hayatında ise bir sunum veya yeni bir ürün lansmanı. Adeta rüzgarın yönünü değiştirir!",
+    "phrase": "The public _____ stronger regulations on environmental protection.",
+    "translation": "'Çağrıda bulunmak' veya 'talep etmek' anlamına gelir.",
+    "context": "Bir şeyin yapılmasını talep etmek, çağrıda bulunmak veya bir gereklilik olduğunu belirtmek için kullanılır. Futbol antrenörleri takımın formasyon değiştirmesini 'call for' edebilir, vatandaşlar da hükümetten daha iyi hizmetler 'call for' edebilir. Yani, 'Hey, bu yapılmalı!' demek gibi.",
     "options": [
-      "momentum swinger",
-      "game changer",
-      "energy boost",
-      "mood lifter"
+      "calls for",
+      "ignores",
+      "forgets about",
+      "rejects"
     ],
-    "correctAnswer": "momentum swinger",
-    "category": "CASUAL",
-    "variations": [
-      "Her comeback speech was a _____ _____ in the political debate.",
-      "This new product could be a _____ _____ for the company's future."
-    ]
-  },
-  {
-    "id": 126091810,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "What does it mean to 'navigate choppy waters' in business?",
-    "translation": "İş hayatında 'navigate choppy waters' ne anlama gelir?",
-    "context": "'Navigate choppy waters' deyimi, mecazi olarak zorlu, belirsiz veya çalkantılı durumlarla başa çıkmak anlamına gelir. Tıpkı fırtınalı denizde bir gemiyi başarıyla yönetmek gibi, iş dünyasında da krizleri veya zorlukları ustaca aşmayı ifade eder.",
-    "options": [
-      "To deal with difficult or uncertain situations",
-      "To sail a boat skillfully",
-      "To avoid making decisions",
-      "To travel to exotic places"
-    ],
-    "correctAnswer": "To deal with difficult or uncertain situations",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126091811,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Canada becoming an _____ _____ of the EU would strengthen ties without full membership.",
-    "translation": "Kanada'nın AB'nin bir 'ortak üyesi' olması, tam üyelik olmadan bağları güçlendirir.",
-    "context": "'Associate member' (ortak üye), bir kuruluşun tam üyesi olmadan belirli haklara ve yükümlülüklere sahip olan bir tarafı ifade eder. Genellikle tam üyelikteki tüm avantaj ve dezavantajları taşımazken, yine de güçlü bir işbirliği veya ilişki kurar. Kanada'nın AB ile ilişkilerini geliştirmek istemesi buna güzel bir örnek.",
-    "options": [
-      "associate member",
-      "full participant",
-      "temporary guest",
-      "external partner"
-    ],
-    "correctAnswer": "associate member",
-    "category": "TRAVEL",
-    "variations": [
-      "The club offered him an _____ _____ status.",
-      "They are considering an _____ _____ program for smaller organizations."
-    ]
-  },
-  {
-    "id": 126091812,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "What does 'AGI' stand for in the context of technology?",
-    "translation": "Teknoloji bağlamında 'AGI' ne anlama gelir?",
-    "context": "'AGI', 'Artificial General Intelligence' (Yapay Genel Zeka) kelimelerinin kısaltmasıdır. Bu, insan zekası kadar veya ondan daha iyi performans gösterebilen, geniş yelpazedeki görevleri öğrenebilen ve uygulayabilen bir yapay zeka türüdür. Henüz tam olarak geliştirilememiş olsa da, teknoloji dünyasının en büyük hedeflerinden biri!",
-    "options": [
-      "Artificial General Intelligence",
-      "Advanced Global Information",
-      "Automated Government Initiative",
-      "Agile Group Integration"
-    ],
-    "correctAnswer": "Artificial General Intelligence",
+    "correctAnswer": "calls for",
     "category": "MIXED",
-    "variations": []
+    "variations": [
+      "The committee _____ further investigation.",
+      "She _____ immediate action to address the issue."
+    ]
   }
 ]
