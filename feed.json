@@ -1,233 +1,230 @@
 [
   {
-    "id": 126092101,
+    "id": 126092301,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "He promised to _____ as the team leader.",
-    "translation": "'Kalıcı olmak' veya 'devam etmek' anlamına gelir.",
-    "context": "Bir pozisyonda kalmaya veya devam etmeye kararlı olmak, 'stay on' ile ifade edilir. Patronunuz size 'Please stay on the project' dediğinde, projede kalıp devam etmenizi istiyor demektir. Yani, gitmek yerine yerinizde kalın, işinize bakın!",
+    "phrase": "The TechCrunch Summit will be held _____ Boston next month.",
+    "translation": "TechCrunch Zirvesi gelecek ay Boston'da yapılacak.",
+    "context": "Bir şehirde veya kapalı bir mekanda bir etkinlik yapıldığını belirtmek için 'in' edatını kullanırız. Örneğin, 'in Istanbul', 'in a stadium'. Basit ama önemli bir detay!",
     "options": [
-      "stay on",
-      "quit",
-      "resign",
-      "leave"
+      "at",
+      "on",
+      "in",
+      "to"
     ],
-    "correctAnswer": "stay on",
-    "category": "CASUAL",
-    "variations": [
-      "She decided to _____ a little longer.",
-      "Will you _____ after the meeting?"
-    ]
-  },
-  {
-    "id": 126092102,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "You can _____ 20% on your next purchase.",
-    "translation": "'Kadar tasarruf etmek' anlamına gelir.",
-    "context": "Bir indirim veya kampanyada, 'save up to' diyerek maksimum ne kadar tasarruf edebileceğinizi belirtirsiniz. Örneğin, 'save up to $200' demek, 200 dolara kadar bir indirim kapabilirsiniz demek. Cüzdanınızı sevindiren cinsten!",
-    "options": [
-      "save up to",
-      "lose up to",
-      "spend up to",
-      "earn up to"
-    ],
-    "correctAnswer": "save up to",
-    "category": "BUSINESS",
-    "variations": [
-      "They offer to _____ 50% on flights.",
-      "Hurry, you can _____ £100 on electronics!"
-    ]
-  },
-  {
-    "id": 126092103,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The heavy rain caused a natural _____ in the village.",
-    "translation": "'Felaket' veya 'afet' anlamına gelir.",
-    "context": "Doğal olayların veya çok kötü durumların neden olduğu büyük felaketleri ifade etmek için kullanılır. Bir köyde sel basması, yanardağ patlaması veya korkunç bir sınav sonucu... hepsi bir 'disaster' olabilir! Gerçekten kötü bir durum yani.",
-    "options": [
-      "disaster",
-      "success",
-      "party",
-      "celebration"
-    ],
-    "correctAnswer": "disaster",
+    "correctAnswer": "in",
     "category": "TRAVEL",
     "variations": [
-      "The project was a complete _____.",
-      "The earthquake was a terrible _____ for the city."
+      "The conference is scheduled to take place _____ New York.",
+      "Many tourists love walking _____ the city center."
     ]
   },
   {
-    "id": 126092104,
+    "id": 126092302,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "They formed a _____ to achieve their goals together.",
-    "translation": "'Yeni ittifak' veya 'yeni birlik' anlamına gelir.",
-    "context": "İki veya daha fazla grubun, ülkenin ya da kişinin ortak bir amaç için bir araya gelmesi ve güçlerini birleştirmesi durumudur. Tıpkı süper kahramanların dünyayı kurtarmak için birleşmesi gibi, sadece daha az pelerinli ve daha çok evrak işli!",
+    "phrase": "Snorkel AI's valuation has _____ significantly this year.",
+    "translation": "Snorkel AI'ın değeri bu yıl önemli ölçüde arttı.",
+    "context": "Bir şirketin değerinin artmasından bahsederken 'grown' veya 'increased' kelimelerini kullanırız. Özellikle finans dünyasında çok sık duyarsın. Kulağa havalı geliyor, değil mi?",
     "options": [
-      "new alliance",
-      "old conflict",
-      "small group",
-      "big fight"
+      "fallen",
+      "decreased",
+      "grown",
+      "stopped"
     ],
-    "correctAnswer": "new alliance",
-    "category": "MIXED",
-    "variations": [
-      "The companies created a _____ for innovation.",
-      "Our team needs a _____ to win the tournament."
-    ]
-  },
-  {
-    "id": 126092105,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "We should _____ some water before the storm.",
-    "translation": "'Bir şeyi bolca stoklamak' veya 'tedarikini yapmak' anlamına gelir.",
-    "context": "Bir şeyin ihtiyacınız olacağını düşündüğünüzde bolca alıp biriktirmek. Tıpkı bir sincabın kış için fındıklarını 'stock up on' yapması gibi. Ya da sınavdan önce kahve stoklamak gibi; hayat kurtarıcı olabilir!",
-    "options": [
-      "stock up on",
-      "throw away",
-      "finish off",
-      "give out"
-    ],
-    "correctAnswer": "stock up on",
-    "category": "CASUAL",
-    "variations": [
-      "It's wise to _____ non-perishable foods.",
-      "We need to _____ firewood for winter."
-    ]
-  },
-  {
-    "id": 126092106,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Making the right decision is _____ for our project's success.",
-    "translation": "'Kritik' veya 'çok önemli' anlamına gelir.",
-    "context": "Bir şeyin başarısı veya sonucu için hayati derecede önemli olduğunu vurgular. Bir projenin kaderini belirleyecek kadar 'crucial' kararlar, bir maçın son dakikasında atılan 'crucial' goller... Yani, bu olmadan olmaz!",
-    "options": [
-      "crucial",
-      "unimportant",
-      "trivial",
-      "optional"
-    ],
-    "correctAnswer": "crucial",
+    "correctAnswer": "grown",
     "category": "BUSINESS",
     "variations": [
-      "Timing is _____ in business.",
-      "Her support was _____ for his recovery."
+      "The company's profits have _____ by 20%.",
+      "Their market share has _____ rapidly."
     ]
   },
   {
-    "id": 126092107,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Aşağıdakilerden hangisi yüksek hızlı bir ulaşım sistemi olan Hyperloop'u tanımlar?",
-    "translation": "Vakum tüplü yüksek hızlı ulaşım, Elon Musk'ın hayalindeki süpersonik seyahat teknolojisi.",
-    "context": "Elon Musk'ın hayalindeki bu teknoloji, vakum tüpleri içinde kapsüllerle süpersonik hızlara ulaşmayı hedefliyor. Düşünsenize, New York'tan Washington'a dakikalar içinde gitmek mümkün olacak! Uçak hızında ama karadan seyahat, geleceğin seyahat şekli olabilir.",
+    "id": 126092303,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Discord requires age _____ for new users.",
+    "translation": "Discord yeni kullanıcılar için yaş doğrulaması istiyor.",
+    "context": "İnternet sitelerinde veya uygulamalarda kimlik doğrulaması, özellikle de yaş doğrulaması sıkça karşımıza çıkar. 'Verification' kelimesi bu 'doğrulama' anlamına gelir. 'Hesabını doğrula' derken 'verify your account' denir.",
     "options": [
-      "Yavaş tren",
-      "Hızlı otobüs",
-      "Vakum tüplü yüksek hızlı ulaşım",
-      "Geleneksel gemi"
+      "limit",
+      "check",
+      "restriction",
+      "verification"
     ],
-    "correctAnswer": "Vakum tüplü yüksek hızlı ulaşım",
+    "correctAnswer": "verification",
+    "category": "CASUAL",
+    "variations": [
+      "Please complete the email _____ process.",
+      "The bank asked for identity _____."
+    ]
+  },
+  {
+    "id": 126092304,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Can the coach _____ his team to win the championship?",
+    "translation": "Antrenör takımına şampiyonluğu kazandırmak için ilham verebilir mi?",
+    "context": "Biri sana bir şeyi yapman için 'ilham verdiğinde', yani seni motive ettiğinde 'inspire' kelimesini kullanırız. Özellikle spor ve sanat dünyasında çok popüler bir kelimedir.",
+    "options": [
+      "make",
+      "force",
+      "inspire",
+      "ask"
+    ],
+    "correctAnswer": "inspire",
+    "category": "MIXED",
+    "variations": [
+      "Her story truly _____ me to work harder.",
+      "Great leaders always _____ their followers."
+    ]
+  },
+  {
+    "id": 126092305,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Before you travel, always _____ the local weather conditions.",
+    "translation": "Seyahat etmeden önce, her zaman yerel hava koşullarını kontrol et.",
+    "context": "'Check' kelimesi bir şeyi kontrol etmek, bakmak, doğrulamak anlamında kullanılır. Seyahatte bavulunu kontrol etmekten, uçuş saatini kontrol etmeye kadar her yerde işine yarar. Unutma, 'check it out' da 'bir bak bakalım' demektir!",
+    "options": [
+      "verify",
+      "see",
+      "check",
+      "look"
+    ],
+    "correctAnswer": "check",
+    "category": "TRAVEL",
+    "variations": [
+      "Did you _____ your flight status yet?",
+      "I need to _____ my passport's expiration date."
+    ]
+  },
+  {
+    "id": 126092306,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The administration _____ media outlets of spreading false information.",
+    "translation": "Yönetim, medya kuruluşlarını yanlış bilgi yaymakla suçladı.",
+    "context": "Birini bir şeyle suçladığında 'accuse of' yapısını kullanırız. Genellikle resmi durumlarda veya haberlerde 'suçlamak' anlamında karşımıza çıkar. Aman dikkat, boş yere kimseyi 'accuse' etme!",
+    "options": [
+      "charged",
+      "accused",
+      "criticized",
+      "blamed"
+    ],
+    "correctAnswer": "accused",
+    "category": "BUSINESS",
+    "variations": [
+      "He was _____ of stealing the documents.",
+      "They _____ the company of unfair practices."
+    ]
+  },
+  {
+    "id": 126092307,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Reports suggest a _____ in violence against women in the region.",
+    "translation": "Raporlar bölgede kadına yönelik şiddette bir artış olduğunu gösteriyor.",
+    "context": "'Surge' kelimesi ani ve büyük bir artış veya yükseliş anlamına gelir. Genellikle elektrik dalgalanması, fiyat artışı veya haberlerdeki olaylarda 'birden patlama yaşandı' derken kullanılır. Tıpkı bir dalganın aniden yükselmesi gibi!",
+    "options": [
+      "decline",
+      "surge",
+      "drop",
+      "stability"
+    ],
+    "correctAnswer": "surge",
+    "category": "CASUAL",
+    "variations": [
+      "There was a sudden _____ in power demand.",
+      "We've seen a _____ in tourist numbers recently."
+    ]
+  },
+  {
+    "id": 126092308,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Producing green energy is great, but we shouldn't be _____ it.",
+    "translation": "Yeşil enerji üretmek harika, ama onu israf etmemeliyiz.",
+    "context": "Bir şeyi boş yere harcadığında, boşa kullandığında 'waste' kelimesini kullanırız. Hem zaman, hem para, hem de enerji için geçerlidir. 'Zamanını boşa harcama' derken 'Don't waste your time!' diyebilirsin.",
+    "options": [
+      "using",
+      "storing",
+      "wasting",
+      "saving"
+    ],
+    "correctAnswer": "wasting",
+    "category": "MIXED",
+    "variations": [
+      "He was always _____ his money on unnecessary things.",
+      "We need to stop _____ food."
+    ]
+  },
+  {
+    "id": 126092309,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Which phrase means 'to obtain knowledge or discover important information'?",
+    "translation": "'Bilgi edinmek veya önemli bilgileri keşfetmek' anlamına gelen ifade hangisidir?",
+    "context": "'Unlock insights' ifadesi, derinlemesine bilgiye veya önemli verilere ulaşmak, onları açığa çıkarmak anlamına gelir. Tıpkı bir sandığı açıp içindeki hazineye ulaşmak gibi, bilgiye ulaşmanın da heyecan verici bir yoludur!",
+    "options": [
+      "Close data",
+      "Hide facts",
+      "Unlock insights",
+      "Block understanding"
+    ],
+    "correctAnswer": "Unlock insights",
     "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126092108,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "He decided to _____ the competition due to injury.",
-    "translation": "'Bir yerden/etkinlikten çekilmek' anlamına gelir.",
-    "context": "Bir etkinlikten, gruptan, bir yerden veya bir süreçten geri çekilmek, ayrılmak. Bir sporcu sakatlandığında yarışmadan 'withdraw from' edebilir. Ya da bankadan para çekmek için de bu fiili kullanırsınız, sadece orada 'from' genellikle 'the bank' ile kullanılır.",
-    "options": [
-      "withdraw from",
-      "join in",
-      "sign up for",
-      "participate in"
-    ],
-    "correctAnswer": "withdraw from",
-    "category": "MIXED",
-    "variations": [
-      "The company had to _____ the market.",
-      "She will _____ the race next week."
-    ]
-  },
-  {
-    "id": 126092109,
+    "id": 126092310,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "'In their midst' deyimi, bir grup veya topluluk içinde bir şeyin olduğunu belirtir. Aşağıdaki cümlelerden hangisi bu deyimin doğru kullanımına bir örnektir?",
-    "translation": "'Kendi aralarında' veya 'ortalarında' anlamına gelir. Bir grubun içinde gizli bir şeyden bahsederken kullanılır.",
-    "context": "Bu deyim, bir grubun veya çevrenin tam ortasında, içinde gizlenmiş bir şeyi (genellikle kötü bir şeyi) ima etmek için kullanılır. Komşular arasında bir katil şüphesi veya bir ekip içinde bir hain olabilir! Gerilim filmlerinin vazgeçilmez deyimi gibi.",
+    "phrase": "The CEO admitted they were 'fighting yesterday's battle' concerning market innovation, meaning they were:",
+    "translation": "CEO, pazar inovasyonu konusunda 'dünün savaşını verdiklerini' itiraf etti, yani:",
+    "context": "'Fighting yesterday's battle' deyimi, geçmişte kalmış, artık güncel olmayan veya gereksiz bir sorunla uğraşmak demektir. Yani aslında bugünün değil, dünün dertleriyle boğuşuyor olmak. 'Geçmişi bırak, geleceğe bak' durumunun tam tersi!",
     "options": [
-      "He put the book on their midst.",
-      "She found a friend in their midst.",
-      "They walked through their midst.",
-      "The secret agent was living in their midst."
+      "Planning for future challenges",
+      "Solving problems that are no longer relevant",
+      "Winning against current competitors",
+      "Developing new strategies"
     ],
-    "correctAnswer": "The secret agent was living in their midst.",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126092110,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Bir 'AI Tsar' atanması, hangi görevi üstlenmeyi amaçlar?",
-    "translation": "Yapay zeka stratejilerini ve gelişimini denetlemek, yönlendirmek.",
-    "context": "'Tsar' kelimesi, Rus imparatorlarına atıfta bulunsa da, modern kullanımda belirli bir alanda geniş yetkilere sahip, genellikle kriz durumlarında veya önemli projelerde görevlendirilen yüksek profilli bir yetkiliyi ifade eder. Yani, yapay zeka alanının imparatoru, patronu! Tüm kararlar ondan sorulur.",
-    "options": [
-      "Yapay zeka projelerini geliştirmek için halktan para toplamak.",
-      "Yapay zeka stratejilerini ve gelişimini denetlemek, yönlendirmek.",
-      "Yapay zeka teknolojilerini tamamen yasaklamak.",
-      "Yapay zeka robotlarını tamir etmek."
-    ],
-    "correctAnswer": "Yapay zeka stratejilerini ve gelişimini denetlemek, yönlendirmek.",
+    "correctAnswer": "Solving problems that are no longer relevant",
     "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126092111,
-    "type": "QUIZ_COMPLETION",
+    "id": 126092311,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "The company faced severe penalties for illegal _____ of hazardous waste.",
-    "translation": "'Zehirli atık boşaltma' veya 'zehirli atık dökme' anlamına gelir.",
-    "context": "Atıkların, özellikle zehirli veya tehlikeli maddelerin yasa dışı veya çevreye zarar verecek şekilde boşaltılması, dökülmesi eylemi. Bu çevre için büyük bir sorun ve genellikle ağır cezalarla sonuçlanır. Yani, doğayı kirleten kötü adamların yaptığı şey!",
+    "phrase": "The competition for funding was a real 'scramble,' indicating it was:",
+    "translation": "Finansman için rekabet tam bir 'kapışmaydı,' yani:",
+    "context": "'Scramble' kelimesi, bir şeye ulaşmak için yapılan telaşlı, düzensiz ve bazen de itiş kakışlı bir mücadeleyi ifade eder. Tıpkı indirimde son kalan ürünü kapmak için insanların birbirini ezmesi gibi. Bazen kahvaltıda yumurta pişirirken de 'scrambled eggs' deriz, o da yumurtaları karıştırıp hızlıca hazırladığımızı anlatır!",
     "options": [
-      "toxic dumping",
-      "safe recycling",
-      "clean disposal",
-      "legal storage"
+      "A fair and organized process",
+      "A calm and orderly event",
+      "A quick and effortless win",
+      "A disorderly and frantic struggle"
     ],
-    "correctAnswer": "toxic dumping",
-    "category": "TRAVEL",
-    "variations": [
-      "Activists protested against the _____ in the ocean.",
-      "The report highlighted cases of illegal _____."
-    ]
+    "correctAnswer": "A disorderly and frantic struggle",
+    "category": "CASUAL",
+    "variations": []
   },
   {
-    "id": 126092112,
-    "type": "QUIZ_COMPLETION",
+    "id": 126092312,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "The public _____ stronger regulations on environmental protection.",
-    "translation": "'Çağrıda bulunmak' veya 'talep etmek' anlamına gelir.",
-    "context": "Bir şeyin yapılmasını talep etmek, çağrıda bulunmak veya bir gereklilik olduğunu belirtmek için kullanılır. Futbol antrenörleri takımın formasyon değiştirmesini 'call for' edebilir, vatandaşlar da hükümetten daha iyi hizmetler 'call for' edebilir. Yani, 'Hey, bu yapılmalı!' demek gibi.",
+    "phrase": "What does it mean to 'hold talks' between two parties?",
+    "translation": "İki taraf arasında 'görüşme yapmak' ne anlama gelir?",
+    "context": "'Hold talks' ifadesi, iki veya daha fazla tarafın bir konu hakkında resmi olarak görüşmek, müzakerelerde bulunmak veya fikir alışverişi yapmak için bir araya gelmesi demektir. Diplomaside, iş dünyasında veya barış görüşmelerinde sıkça kullanılır. Masaya oturup ciddi konuları konuşmak gibi düşünebilirsin!",
     "options": [
-      "calls for",
-      "ignores",
-      "forgets about",
-      "rejects"
+      "To delay communication",
+      "To engage in formal discussions or negotiations",
+      "To avoid any interaction",
+      "To issue a public statement"
     ],
-    "correctAnswer": "calls for",
+    "correctAnswer": "To engage in formal discussions or negotiations",
     "category": "MIXED",
-    "variations": [
-      "The committee _____ further investigation.",
-      "She _____ immediate action to address the issue."
-    ]
+    "variations": []
   }
 ]
