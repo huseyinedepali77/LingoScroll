@@ -1,229 +1,223 @@
 [
   {
-    "id": 126092301,
+    "id": 126092401,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The TechCrunch Summit will be held _____ Boston next month.",
-    "translation": "TechCrunch Zirvesi gelecek ay Boston'da yapılacak.",
-    "context": "Bir şehirde veya kapalı bir mekanda bir etkinlik yapıldığını belirtmek için 'in' edatını kullanırız. Örneğin, 'in Istanbul', 'in a stadium'. Basit ama önemli bir detay!",
+    "phrase": "They gave us a _____ welcome at the party.",
+    "translation": "Sıcak bir karşılama",
+    "context": "Misafirperverliğin ve sıcak karşılamanın en güzel hali! Bir yere ilk kez gittiğinde sana samimi davranmaları, hoş geldin demeleri, ikramlarda bulunmaları 'warm welcome' almak demek. Kendini evinde hissettirir!",
     "options": [
-      "at",
-      "on",
-      "in",
-      "to"
+      "warm",
+      "cold",
+      "fast",
+      "slow"
     ],
-    "correctAnswer": "in",
-    "category": "TRAVEL",
-    "variations": [
-      "The conference is scheduled to take place _____ New York.",
-      "Many tourists love walking _____ the city center."
-    ]
-  },
-  {
-    "id": 126092302,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Snorkel AI's valuation has _____ significantly this year.",
-    "translation": "Snorkel AI'ın değeri bu yıl önemli ölçüde arttı.",
-    "context": "Bir şirketin değerinin artmasından bahsederken 'grown' veya 'increased' kelimelerini kullanırız. Özellikle finans dünyasında çok sık duyarsın. Kulağa havalı geliyor, değil mi?",
-    "options": [
-      "fallen",
-      "decreased",
-      "grown",
-      "stopped"
-    ],
-    "correctAnswer": "grown",
-    "category": "BUSINESS",
-    "variations": [
-      "The company's profits have _____ by 20%.",
-      "Their market share has _____ rapidly."
-    ]
-  },
-  {
-    "id": 126092303,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Discord requires age _____ for new users.",
-    "translation": "Discord yeni kullanıcılar için yaş doğrulaması istiyor.",
-    "context": "İnternet sitelerinde veya uygulamalarda kimlik doğrulaması, özellikle de yaş doğrulaması sıkça karşımıza çıkar. 'Verification' kelimesi bu 'doğrulama' anlamına gelir. 'Hesabını doğrula' derken 'verify your account' denir.",
-    "options": [
-      "limit",
-      "check",
-      "restriction",
-      "verification"
-    ],
-    "correctAnswer": "verification",
+    "correctAnswer": "warm",
     "category": "CASUAL",
     "variations": [
-      "Please complete the email _____ process.",
-      "The bank asked for identity _____."
+      "She received a _____ welcome when she arrived.",
+      "The new members got a _____ welcome from the team."
     ]
   },
   {
-    "id": 126092304,
+    "id": 126092402,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Can the coach _____ his team to win the championship?",
-    "translation": "Antrenör takımına şampiyonluğu kazandırmak için ilham verebilir mi?",
-    "context": "Biri sana bir şeyi yapman için 'ilham verdiğinde', yani seni motive ettiğinde 'inspire' kelimesini kullanırız. Özellikle spor ve sanat dünyasında çok popüler bir kelimedir.",
+    "phrase": "The plane _____ at the airport on time.",
+    "translation": "Varır, ulaşır",
+    "context": "Bir yere ulaşmak, varmak demek. Uçaklar, trenler, insanlar... herkes bir yere 'arrive' eder. Havaalanı veya otobüs terminalinde hep bu kelimeyi görürsün. 'Arrivals' tabelası, gelen yolcular demek!",
     "options": [
-      "make",
-      "force",
-      "inspire",
-      "ask"
+      "arrives",
+      "leaves",
+      "flies",
+      "waits"
     ],
-    "correctAnswer": "inspire",
+    "correctAnswer": "arrives",
+    "category": "TRAVEL",
+    "variations": [
+      "When does your train _____ in the city?",
+      "We will _____ at the hotel by noon."
+    ]
+  },
+  {
+    "id": 126092403,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "Which of these is related to artificial intelligence?",
+    "translation": "Yapay zeka asistanı",
+    "context": "Yapay zeka (AI), bilgisayarların insan gibi düşünmesini, öğrenmesini ve problem çözmesini sağlayan bir teknoloji harikası. Bir 'AI agent' ise, belirli görevleri yerine getirmek için tasarlanmış bir yapay zeka programıdır. Sanki sana yardımcı olan dijital bir asistan gibi! Telefonundaki sesli asistanlar da bir nevi AI agent'tır.",
+    "options": [
+      "Robot assistant",
+      "Wooden toy",
+      "Old book",
+      "Fast car"
+    ],
+    "correctAnswer": "Robot assistant",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126092404,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The city faced a water _____ last summer.",
+    "translation": "Kriz, buhran",
+    "context": "Ciddi ve zorlu bir durum, sorun anlamına gelir. Ekonomik kriz, su krizi, enerji krizi... Hayatta karşılaştığımız büyük sıkıntıları anlatmak için kullanılır. 'Oh no, we have a crisis!' dediğinde ortada çözülmesi gereken acil bir sorun var demektir.",
+    "options": [
+      "crisis",
+      "party",
+      "holiday",
+      "game"
+    ],
+    "correctAnswer": "crisis",
     "category": "MIXED",
     "variations": [
-      "Her story truly _____ me to work harder.",
-      "Great leaders always _____ their followers."
+      "The company is going through a financial _____.",
+      "We need to solve this energy _____ quickly."
     ]
   },
   {
-    "id": 126092305,
+    "id": 126092405,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "What does 'to bend the knee' typically mean in a figurative sense?",
+    "translation": "Boyun eğmek, teslim olmak",
+    "context": "Bu ifade, genellikle birine veya bir otoriteye teslim olmak, boyun eğmek anlamına gelir. Game of Thrones izleyenler iyi bilir! Kral'ın önünde diz çökmek gibi, yani gücünü kabul edip itaat etmek. Günlük hayatta ise, bazen inatçı birinin sonunda pes etmesini anlatmak için de kullanılır.",
+    "options": [
+      "To surrender or submit",
+      "To tie your shoelaces",
+      "To sit down gracefully",
+      "To stretch your legs"
+    ],
+    "correctAnswer": "To surrender or submit",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126092406,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Before you travel, always _____ the local weather conditions.",
-    "translation": "Seyahat etmeden önce, her zaman yerel hava koşullarını kontrol et.",
-    "context": "'Check' kelimesi bir şeyi kontrol etmek, bakmak, doğrulamak anlamında kullanılır. Seyahatte bavulunu kontrol etmekten, uçuş saatini kontrol etmeye kadar her yerde işine yarar. Unutma, 'check it out' da 'bir bak bakalım' demektir!",
+    "phrase": "I plan to _____ my grandparents next weekend.",
+    "translation": "Ziyaret etmek, gezmek",
+    "context": "Birini veya bir yeri kısa süreliğine görmek, uğramak demek. Tatilde yeni şehirleri 'visit' edersin, hasta arkadaşını 'visit' edersin. Genellikle iyi niyetli ve keyifli bir eylemdir. 'Let's visit the museum!' dediğinde, hadi müzeyi gezelim demiş olursun.",
     "options": [
-      "verify",
-      "see",
-      "check",
-      "look"
+      "visit",
+      "break",
+      "run",
+      "clean"
     ],
-    "correctAnswer": "check",
+    "correctAnswer": "visit",
     "category": "TRAVEL",
     "variations": [
-      "Did you _____ your flight status yet?",
-      "I need to _____ my passport's expiration date."
+      "We should _____ the new art gallery soon.",
+      "They came to _____ us from abroad."
     ]
   },
   {
-    "id": 126092306,
-    "type": "QUIZ_COMPLETION",
+    "id": 126092407,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "The administration _____ media outlets of spreading false information.",
-    "translation": "Yönetim, medya kuruluşlarını yanlış bilgi yaymakla suçladı.",
-    "context": "Birini bir şeyle suçladığında 'accuse of' yapısını kullanırız. Genellikle resmi durumlarda veya haberlerde 'suçlamak' anlamında karşımıza çıkar. Aman dikkat, boş yere kimseyi 'accuse' etme!",
+    "phrase": "What is the best synonym for 'infiltrate' when talking about a system?",
+    "translation": "Gizlice sızmak, içeri girmek",
+    "context": "Bir yere veya bir sisteme, genellikle gizlice ve fark edilmeden girmek anlamına gelir. Ajanlar düşman hatlarına 'infiltrate' eder, bilgisayar korsanları ağlara 'infiltrate' eder. Sinsice ve planlı bir şekilde içeri sızma eylemidir. 'The spy tried to infiltrate the enemy's base.'",
     "options": [
-      "charged",
-      "accused",
-      "criticized",
-      "blamed"
+      "To secretly enter and gain control",
+      "To openly join a group",
+      "To build something new",
+      "To loudly announce your presence"
     ],
-    "correctAnswer": "accused",
+    "correctAnswer": "To secretly enter and gain control",
     "category": "BUSINESS",
-    "variations": [
-      "He was _____ of stealing the documents.",
-      "They _____ the company of unfair practices."
-    ]
+    "variations": []
   },
   {
-    "id": 126092307,
+    "id": 126092408,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Reports suggest a _____ in violence against women in the region.",
-    "translation": "Raporlar bölgede kadına yönelik şiddette bir artış olduğunu gösteriyor.",
-    "context": "'Surge' kelimesi ani ve büyük bir artış veya yükseliş anlamına gelir. Genellikle elektrik dalgalanması, fiyat artışı veya haberlerdeki olaylarda 'birden patlama yaşandı' derken kullanılır. Tıpkı bir dalganın aniden yükselmesi gibi!",
+    "phrase": "The old car often had _____ issues on long trips.",
+    "translation": "Güvenilirlik sorunları",
+    "context": "Bir şeyin ne kadar güvenilir olduğunu, yani sorun çıkarmadan ne kadar iyi çalıştığını ifade eder. Arabanın 'reliability issues' varsa, sürekli bozuluyor demektir. Bir kişi için kullanılırsa, sözünde durmama veya görevlerini yerine getirmeme durumunu anlatır. 'This company has a good reputation for reliability.'",
     "options": [
-      "decline",
-      "surge",
-      "drop",
-      "stability"
+      "reliability",
+      "speed",
+      "color",
+      "music"
     ],
-    "correctAnswer": "surge",
-    "category": "CASUAL",
-    "variations": [
-      "There was a sudden _____ in power demand.",
-      "We've seen a _____ in tourist numbers recently."
-    ]
-  },
-  {
-    "id": 126092308,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Producing green energy is great, but we shouldn't be _____ it.",
-    "translation": "Yeşil enerji üretmek harika, ama onu israf etmemeliyiz.",
-    "context": "Bir şeyi boş yere harcadığında, boşa kullandığında 'waste' kelimesini kullanırız. Hem zaman, hem para, hem de enerji için geçerlidir. 'Zamanını boşa harcama' derken 'Don't waste your time!' diyebilirsin.",
-    "options": [
-      "using",
-      "storing",
-      "wasting",
-      "saving"
-    ],
-    "correctAnswer": "wasting",
+    "correctAnswer": "reliability",
     "category": "MIXED",
     "variations": [
-      "He was always _____ his money on unnecessary things.",
-      "We need to stop _____ food."
+      "The software has some _____ issues.",
+      "His _____ is a problem for teamwork."
     ]
   },
   {
-    "id": 126092309,
+    "id": 126092409,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Which phrase means 'to obtain knowledge or discover important information'?",
-    "translation": "'Bilgi edinmek veya önemli bilgileri keşfetmek' anlamına gelen ifade hangisidir?",
-    "context": "'Unlock insights' ifadesi, derinlemesine bilgiye veya önemli verilere ulaşmak, onları açığa çıkarmak anlamına gelir. Tıpkı bir sandığı açıp içindeki hazineye ulaşmak gibi, bilgiye ulaşmanın da heyecan verici bir yoludur!",
+    "phrase": "A 'Tamagotchi-like wearable' refers to a device that combines which two concepts?",
+    "translation": "Tamagotchi benzeri giyilebilir cihaz",
+    "context": "Tamagotchi, 90'ların sanal evcil hayvan oyuncağıydı; onu besler, bakardın. 'Wearable' ise kol saati, bileklik gibi vücudumuza takılabilen teknolojik cihazlar demek. Yani 'Tamagotchi-like wearable' dediğimizde, sanal evcil hayvan deneyimini giyilebilir bir cihaza taşıyan, sürekli yanında taşıyıp etkileşimde bulunabileceğin bir şeyden bahsediyoruz. Teknolojinin nostaljiyle buluştuğu ilginç bir yenilik!",
     "options": [
-      "Close data",
-      "Hide facts",
-      "Unlock insights",
-      "Block understanding"
+      "A virtual pet and a body-worn gadget",
+      "A video game and a pair of glasses",
+      "A traditional toy and a smartphone app",
+      "A smart watch and a fitness tracker"
     ],
-    "correctAnswer": "Unlock insights",
-    "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126092310,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "The CEO admitted they were 'fighting yesterday's battle' concerning market innovation, meaning they were:",
-    "translation": "CEO, pazar inovasyonu konusunda 'dünün savaşını verdiklerini' itiraf etti, yani:",
-    "context": "'Fighting yesterday's battle' deyimi, geçmişte kalmış, artık güncel olmayan veya gereksiz bir sorunla uğraşmak demektir. Yani aslında bugünün değil, dünün dertleriyle boğuşuyor olmak. 'Geçmişi bırak, geleceğe bak' durumunun tam tersi!",
-    "options": [
-      "Planning for future challenges",
-      "Solving problems that are no longer relevant",
-      "Winning against current competitors",
-      "Developing new strategies"
-    ],
-    "correctAnswer": "Solving problems that are no longer relevant",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126092311,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "The competition for funding was a real 'scramble,' indicating it was:",
-    "translation": "Finansman için rekabet tam bir 'kapışmaydı,' yani:",
-    "context": "'Scramble' kelimesi, bir şeye ulaşmak için yapılan telaşlı, düzensiz ve bazen de itiş kakışlı bir mücadeleyi ifade eder. Tıpkı indirimde son kalan ürünü kapmak için insanların birbirini ezmesi gibi. Bazen kahvaltıda yumurta pişirirken de 'scrambled eggs' deriz, o da yumurtaları karıştırıp hızlıca hazırladığımızı anlatır!",
-    "options": [
-      "A fair and organized process",
-      "A calm and orderly event",
-      "A quick and effortless win",
-      "A disorderly and frantic struggle"
-    ],
-    "correctAnswer": "A disorderly and frantic struggle",
+    "correctAnswer": "A virtual pet and a body-worn gadget",
     "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126092312,
+    "id": 126092410,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "What does it mean to 'hold talks' between two parties?",
-    "translation": "İki taraf arasında 'görüşme yapmak' ne anlama gelir?",
-    "context": "'Hold talks' ifadesi, iki veya daha fazla tarafın bir konu hakkında resmi olarak görüşmek, müzakerelerde bulunmak veya fikir alışverişi yapmak için bir araya gelmesi demektir. Diplomaside, iş dünyasında veya barış görüşmelerinde sıkça kullanılır. Masaya oturup ciddi konuları konuşmak gibi düşünebilirsin!",
+    "phrase": "The 'Harvest Moon' is a traditional name for the full moon closest to which event?",
+    "translation": "Hasat Ayı (sonbahar ekinoksuna en yakın dolunay)",
+    "context": "'Harvest Moon' aslında çiftçilerin tarlaları toplamasına yardımcı olan, gün batımından sonra daha uzun süre gökyüzünü aydınlatan parlak dolunaya verilen isimdir. Genellikle sonbahar ekinoksuna (gece ve gündüzün eşit olduğu tarih) en yakın dolunaydır. Sanki doğa, çiftçilere 'Hadi bakalım, biraz daha çalışın!' der gibi bir ışık hediye eder! Romantik olduğu kadar pratik bir ismi de var.",
     "options": [
-      "To delay communication",
-      "To engage in formal discussions or negotiations",
-      "To avoid any interaction",
-      "To issue a public statement"
+      "The autumnal equinox",
+      "The summer solstice",
+      "The winter solstice",
+      "The spring equinox"
     ],
-    "correctAnswer": "To engage in formal discussions or negotiations",
+    "correctAnswer": "The autumnal equinox",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126092411,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Several companies are currently trying to _____ for dominance in the EV market.",
+    "translation": "Üstünlük sağlamak için mücadele etmek",
+    "context": "Bu ifade, bir alanda üstünlük kurmak, lider olmak için rekabet etmek, dirsek temasında bulunmak ve birbirini itmek anlamında kullanılır. İş dünyasında şirketler pazar payı için 'jostle for dominance' eder, spor takımları şampiyonluk için 'jostle' eder. Sanki bir kalabalıkta öne geçmeye çalışır gibi bir mücadele içerisindedirler. Kim daha iyi olacak, kim sözünü geçirecek yarışı!",
+    "options": [
+      "jostle",
+      "cooperate",
+      "relax",
+      "retreat"
+    ],
+    "correctAnswer": "jostle",
+    "category": "BUSINESS",
+    "variations": [
+      "The politicians often _____ for power.",
+      "Teams must _____ for the best position in the league."
+    ]
+  },
+  {
+    "id": 126092412,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Why are some chemicals referred to as 'forever chemicals'?",
+    "translation": "Sonsuz kimyasallar (doğada kolayca parçalanmayan)",
+    "context": "'Forever chemicals', yani 'sonsuz kimyasallar' olarak adlandırılan maddeler, adından da anlaşılacağı gibi, doğada ve insan vücudunda çok uzun süre kalabilen, parçalanması neredeyse imkansız olan kimyasallardır. Bunlar genellikle yapışmaz tavalardan su geçirmez giysilere kadar birçok üründe bulunur. Ama maalesef çevre ve sağlık için ciddi bir tehdit oluştururlar çünkü bir kez salındıklarında gitmeleri çok zordur. Gerçekten de 'sonsuz' bir problem!",
+    "options": [
+      "They do not break down naturally in the environment",
+      "They are used in very old products",
+      "They are extremely difficult to manufacture",
+      "They have a very long shelf life in their containers"
+    ],
+    "correctAnswer": "They do not break down naturally in the environment",
     "category": "MIXED",
     "variations": []
   }
