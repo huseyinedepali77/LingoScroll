@@ -1,224 +1,224 @@
 [
   {
-    "id": 126092401,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "They gave us a _____ welcome at the party.",
-    "translation": "Sıcak bir karşılama",
-    "context": "Misafirperverliğin ve sıcak karşılamanın en güzel hali! Bir yere ilk kez gittiğinde sana samimi davranmaları, hoş geldin demeleri, ikramlarda bulunmaları 'warm welcome' almak demek. Kendini evinde hissettirir!",
-    "options": [
-      "warm",
-      "cold",
-      "fast",
-      "slow"
-    ],
-    "correctAnswer": "warm",
-    "category": "CASUAL",
-    "variations": [
-      "She received a _____ welcome when she arrived.",
-      "The new members got a _____ welcome from the team."
-    ]
-  },
-  {
-    "id": 126092402,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The plane _____ at the airport on time.",
-    "translation": "Varır, ulaşır",
-    "context": "Bir yere ulaşmak, varmak demek. Uçaklar, trenler, insanlar... herkes bir yere 'arrive' eder. Havaalanı veya otobüs terminalinde hep bu kelimeyi görürsün. 'Arrivals' tabelası, gelen yolcular demek!",
-    "options": [
-      "arrives",
-      "leaves",
-      "flies",
-      "waits"
-    ],
-    "correctAnswer": "arrives",
-    "category": "TRAVEL",
-    "variations": [
-      "When does your train _____ in the city?",
-      "We will _____ at the hotel by noon."
-    ]
-  },
-  {
-    "id": 126092403,
+    "id": 126092501,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "Which of these is related to artificial intelligence?",
-    "translation": "Yapay zeka asistanı",
-    "context": "Yapay zeka (AI), bilgisayarların insan gibi düşünmesini, öğrenmesini ve problem çözmesini sağlayan bir teknoloji harikası. Bir 'AI agent' ise, belirli görevleri yerine getirmek için tasarlanmış bir yapay zeka programıdır. Sanki sana yardımcı olan dijital bir asistan gibi! Telefonundaki sesli asistanlar da bir nevi AI agent'tır.",
+    "phrase": "If you get a 'red carpet welcome,' what does it mean?",
+    "translation": "'Red carpet welcome' ifadesi ne anlama gelir?",
+    "context": "Ünlü birini ağırladığında, ona özel bir karşılama yapmak istediğinde ya da bir yere çok önemli biri gelince, yerlere kırmızı halı serilir ve ona o 'red carpet welcome' yani 'kırmızı halı karşılaması' yapılır. Bu, büyük onur ve saygı göstergesidir! Unutma, 'kırmızı halı' sadece sinema galalarında değil, önemli misafirleri ağırlarken de kullanılır.",
     "options": [
-      "Robot assistant",
-      "Wooden toy",
-      "Old book",
-      "Fast car"
+      "It means a very simple greeting.",
+      "It means a special and honorable greeting.",
+      "It means a chaotic arrival.",
+      "It means you have to pay for entry."
     ],
-    "correctAnswer": "Robot assistant",
-    "category": "BUSINESS",
+    "correctAnswer": "It means a special and honorable greeting.",
+    "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126092404,
+    "id": 126092502,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The city faced a water _____ last summer.",
-    "translation": "Kriz, buhran",
-    "context": "Ciddi ve zorlu bir durum, sorun anlamına gelir. Ekonomik kriz, su krizi, enerji krizi... Hayatta karşılaştığımız büyük sıkıntıları anlatmak için kullanılır. 'Oh no, we have a crisis!' dediğinde ortada çözülmesi gereken acil bir sorun var demektir.",
+    "phrase": "You can get _____ 50% off if you bring a co-founder.",
+    "translation": "Bir kurucu ortak getirirsen %50 indirim alabilirsin.",
+    "context": "Alışverişte veya özel tekliflerde sıkça duyduğun '50% off', 'yüzde elli indirim' demektir. Yani fiyatın yarısı cebinde kalır! Bir ürünün fiyatının yarısına düşmesi kadar tatlı bir şey var mı? Sanırım yok. Bu ifadeyi duyduğunda yüzünde bir gülümseme oluşmuyorsa, indirimlerden yeterince faydalanmıyorsun demektir!",
     "options": [
-      "crisis",
-      "party",
-      "holiday",
-      "game"
+      "off",
+      "on",
+      "up",
+      "with"
     ],
-    "correctAnswer": "crisis",
+    "correctAnswer": "off",
+    "category": "BUSINESS",
+    "variations": [
+      "The store offers 50% off during sales.",
+      "Get 50% off your next purchase now!"
+    ]
+  },
+  {
+    "id": 126092503,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "What kind of weather is a 'hot and dry summer'?",
+    "translation": "'Hot and dry summer' ne tür bir hava durumudur?",
+    "context": "Yaz aylarında sıcaklığın tavan yaptığı ve hiç yağmur yağmadığı, bunaltıcı ve kurak havaları tanımlamak için 'hot and dry' yani 'sıcak ve kuru' ifadesini kullanırız. Bazen nem de olur, ama bu ifade özellikle kuraklığı vurgular. 'Puf, bu yaz çok sıcak ve kuru geçti!' diye yakınırken kullanabilirsin.",
+    "options": [
+      "Cool and rainy",
+      "Warm with light showers",
+      "Very warm with no rain",
+      "Cold and windy"
+    ],
+    "correctAnswer": "Very warm with no rain",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126092504,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The media outlets were _____ access to the dinner.",
+    "translation": "Medya kuruluşlarının yemeğe erişimi engellendi.",
+    "context": "Bir yere girme iznin olmadığında, bir şeyi yapmana izin verilmediğinde 'denied access' yani 'erişim engellendi' veya 'izin verilmedi' ifadesi kullanılır. Sanki kapıdaki güvenlik görevlisi 'Hop, buraya giremezsin!' demiş gibi düşünebilirsin. Bazen bir web sitesine giremediğinde de bu mesajı görürsün.",
+    "options": [
+      "given",
+      "denied",
+      "granted",
+      "allowed"
+    ],
+    "correctAnswer": "denied",
     "category": "MIXED",
     "variations": [
-      "The company is going through a financial _____.",
-      "We need to solve this energy _____ quickly."
+      "They denied him access to the secret files.",
+      "Passengers were denied access to the plane."
     ]
   },
   {
-    "id": 126092405,
+    "id": 126092505,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "What does 'to bend the knee' typically mean in a figurative sense?",
-    "translation": "Boyun eğmek, teslim olmak",
-    "context": "Bu ifade, genellikle birine veya bir otoriteye teslim olmak, boyun eğmek anlamına gelir. Game of Thrones izleyenler iyi bilir! Kral'ın önünde diz çökmek gibi, yani gücünü kabul edip itaat etmek. Günlük hayatta ise, bazen inatçı birinin sonunda pes etmesini anlatmak için de kullanılır.",
+    "phrase": "What is a 'state dinner' usually held for?",
+    "translation": "'State dinner' genellikle ne için düzenlenir?",
+    "context": "Bir ülkenin liderinin, başka bir ülkenin liderini veya önemli bir devlet görevlisini ağırladığı, resmi ve gösterişli yemek ziyafetlerine 'state dinner' yani 'devlet yemeği' denir. Genellikle diplomasi ve iyi ilişkiler kurma amacı taşır. Düşünsene, en şık kıyafetlerini giyip, en iyi çatal bıçak takımınla önemli kararların konuşulduğu bir yemektesin!",
     "options": [
-      "To surrender or submit",
-      "To tie your shoelaces",
-      "To sit down gracefully",
-      "To stretch your legs"
+      "A casual family reunion",
+      "A formal meal for foreign dignitaries",
+      "A fundraising event for charity",
+      "A quick lunch break at work"
     ],
-    "correctAnswer": "To surrender or submit",
+    "correctAnswer": "A formal meal for foreign dignitaries",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126092506,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The startup is _____ fast due to its innovative product.",
+    "translation": "Girişim, yenilikçi ürünü sayesinde hızla büyüyor.",
+    "context": "Bir şirketin, iş modelinin veya ürününün çok hızlı bir şekilde büyümesi ve genişlemesi anlamına gelir. 'Scaling fast' ifadesini duyduğunda, o şirketin roket hızıyla yükseldiğini hayal edebilirsin! Örneğin, bir uygulama kısa sürede milyonlarca kullanıcıya ulaşırsa, işte o 'scaling fast' demektir.",
+    "options": [
+      "scaling",
+      "falling",
+      "stopping",
+      "shrinking"
+    ],
+    "correctAnswer": "scaling",
+    "category": "BUSINESS",
+    "variations": [
+      "Our business is scaling fast in new markets.",
+      "The company plans on scaling fast next year."
+    ]
+  },
+  {
+    "id": 126092507,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "If something is 'toxic waste,' what characteristic does it have?",
+    "translation": "Bir şey 'toxic waste' ise, hangi özelliğe sahiptir?",
+    "context": "Çevreye ve insan sağlığına zararlı, zehirli atıklara 'toxic waste' yani 'zehirli atık' denir. Bu, fabrika atıkları, kimyasal kalıntılar veya radyoaktif maddeler olabilir. Düşünsene, o kadar tehlikeli ki, 'bu havuzda oynayan herkes öldü' deniyor! Aman uzak durmak lazım.",
+    "options": [
+      "It's safe to touch.",
+      "It's harmless to the environment.",
+      "It's dangerous and harmful.",
+      "It can be eaten."
+    ],
+    "correctAnswer": "It's dangerous and harmful.",
     "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126092406,
+    "id": 126092508,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "I plan to _____ my grandparents next weekend.",
-    "translation": "Ziyaret etmek, gezmek",
-    "context": "Birini veya bir yeri kısa süreliğine görmek, uğramak demek. Tatilde yeni şehirleri 'visit' edersin, hasta arkadaşını 'visit' edersin. Genellikle iyi niyetli ve keyifli bir eylemdir. 'Let's visit the museum!' dediğinde, hadi müzeyi gezelim demiş olursun.",
+    "phrase": "Elephants use certain _____ plants to treat themselves.",
+    "translation": "Filler kendilerini tedavi etmek için belirli şifalı bitkileri kullanır.",
+    "context": "Hastalıkları veya rahatsızlıkları tedavi etmek için kullanılan bitkilere 'medicinal plants' yani 'şifalı bitkiler' denir. Tıpkı dedenin nane-limon çayı gibi! Doğa eczanesi gibi düşünebilirsin. Filler bile kendilerini iyileştirmek için bunları kullanıyorsa, kim bilir doğanın daha ne sırları var!",
     "options": [
-      "visit",
-      "break",
+      "sweet",
+      "medicinal",
+      "poisonous",
+      "plastic"
+    ],
+    "correctAnswer": "medicinal",
+    "category": "MIXED",
+    "variations": [
+      "Many cultures rely on medicinal plants for health.",
+      "She studied the properties of medicinal plants."
+    ]
+  },
+  {
+    "id": 126092509,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The delegates decided to _____ out during the speech in protest.",
+    "translation": "Delegeler protesto amacıyla konuşma sırasında dışarı çıkmaya karar verdi.",
+    "context": "Bir toplantıdan, konferanstan veya resmi bir etkinlikten protesto amacıyla topluca ayrılmaya 'walk out' yani 'protesto ederek ayrılmak' denir. Bu, genellikle bir fikir ayrılığını veya rahatsızlığı göstermenin sessiz ama güçlü bir yoludur. 'Delegeler sahneyi terk etti!' dediğinde, orada büyük bir gerginlik olduğunu anlayabilirsin.",
+    "options": [
+      "walk",
       "run",
-      "clean"
+      "stay",
+      "sing"
     ],
-    "correctAnswer": "visit",
+    "correctAnswer": "walk",
     "category": "TRAVEL",
     "variations": [
-      "We should _____ the new art gallery soon.",
-      "They came to _____ us from abroad."
+      "Workers might walk out if their demands are not met.",
+      "The opposition party walked out of the parliament."
     ]
   },
   {
-    "id": 126092407,
+    "id": 126092510,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "What is the best synonym for 'infiltrate' when talking about a system?",
-    "translation": "Gizlice sızmak, içeri girmek",
-    "context": "Bir yere veya bir sisteme, genellikle gizlice ve fark edilmeden girmek anlamına gelir. Ajanlar düşman hatlarına 'infiltrate' eder, bilgisayar korsanları ağlara 'infiltrate' eder. Sinsice ve planlı bir şekilde içeri sızma eylemidir. 'The spy tried to infiltrate the enemy's base.'",
+    "level": "ADVANCED",
+    "phrase": "What does 'early-stage AI' refer to in business?",
+    "translation": "İş dünyasında 'early-stage AI' ne anlama gelir?",
+    "context": "Bir teknolojinin veya girişimin gelişiminin çok başlarında olması durumunu ifade eder. Özellikle yapay zeka gibi hızlı gelişen alanlarda, 'early-stage AI' demek, henüz emekleme aşamasında olan, potansiyeli yüksek ama tam oturmamış AI çözümleri demektir. Yani 'daha yeni yeni pişiyor' diyebiliriz! Yatırımcılar genellikle bu aşamadaki projelere yatırım yaparlar.",
     "options": [
-      "To secretly enter and gain control",
-      "To openly join a group",
-      "To build something new",
-      "To loudly announce your presence"
+      "Mature and fully developed AI systems",
+      "AI projects that are just starting development",
+      "AI used for simple tasks only",
+      "AI that needs to be updated soon"
     ],
-    "correctAnswer": "To secretly enter and gain control",
+    "correctAnswer": "AI projects that are just starting development",
     "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126092408,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The old car often had _____ issues on long trips.",
-    "translation": "Güvenilirlik sorunları",
-    "context": "Bir şeyin ne kadar güvenilir olduğunu, yani sorun çıkarmadan ne kadar iyi çalıştığını ifade eder. Arabanın 'reliability issues' varsa, sürekli bozuluyor demektir. Bir kişi için kullanılırsa, sözünde durmama veya görevlerini yerine getirmeme durumunu anlatır. 'This company has a good reputation for reliability.'",
-    "options": [
-      "reliability",
-      "speed",
-      "color",
-      "music"
-    ],
-    "correctAnswer": "reliability",
-    "category": "MIXED",
-    "variations": [
-      "The software has some _____ issues.",
-      "His _____ is a problem for teamwork."
-    ]
-  },
-  {
-    "id": 126092409,
+    "id": 126092511,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "A 'Tamagotchi-like wearable' refers to a device that combines which two concepts?",
-    "translation": "Tamagotchi benzeri giyilebilir cihaz",
-    "context": "Tamagotchi, 90'ların sanal evcil hayvan oyuncağıydı; onu besler, bakardın. 'Wearable' ise kol saati, bileklik gibi vücudumuza takılabilen teknolojik cihazlar demek. Yani 'Tamagotchi-like wearable' dediğimizde, sanal evcil hayvan deneyimini giyilebilir bir cihaza taşıyan, sürekli yanında taşıyıp etkileşimde bulunabileceğin bir şeyden bahsediyoruz. Teknolojinin nostaljiyle buluştuğu ilginç bir yenilik!",
+    "phrase": "If someone 'usurps' another in a competition, what do they do?",
+    "translation": "Birisi bir rekabette diğerini 'usurps' ederse, ne yapar?",
+    "context": "Birinin yerini, gücünü veya pozisyonunu yasa dışı veya haksız yollarla ele geçirmek anlamına gelir. Spor haberlerinde, bir sporcunun liderliği ele geçirmesi veya bir takımın rakibinin yerini alması gibi durumlarda, 'usurps' fiili bazen bu şekilde kullanılır. Yani 'tahtından etti' diyebiliriz! Verstappen'in rakiplerini alt etmesi gibi düşünebilirsin.",
     "options": [
-      "A virtual pet and a body-worn gadget",
-      "A video game and a pair of glasses",
-      "A traditional toy and a smartphone app",
-      "A smart watch and a fitness tracker"
+      "They help them win.",
+      "They share their position.",
+      "They take their place illegally or by force.",
+      "They cheer for them."
     ],
-    "correctAnswer": "A virtual pet and a body-worn gadget",
+    "correctAnswer": "They take their place illegally or by force.",
     "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126092410,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "The 'Harvest Moon' is a traditional name for the full moon closest to which event?",
-    "translation": "Hasat Ayı (sonbahar ekinoksuna en yakın dolunay)",
-    "context": "'Harvest Moon' aslında çiftçilerin tarlaları toplamasına yardımcı olan, gün batımından sonra daha uzun süre gökyüzünü aydınlatan parlak dolunaya verilen isimdir. Genellikle sonbahar ekinoksuna (gece ve gündüzün eşit olduğu tarih) en yakın dolunaydır. Sanki doğa, çiftçilere 'Hadi bakalım, biraz daha çalışın!' der gibi bir ışık hediye eder! Romantik olduğu kadar pratik bir ismi de var.",
-    "options": [
-      "The autumnal equinox",
-      "The summer solstice",
-      "The winter solstice",
-      "The spring equinox"
-    ],
-    "correctAnswer": "The autumnal equinox",
-    "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126092411,
+    "id": 126092512,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Several companies are currently trying to _____ for dominance in the EV market.",
-    "translation": "Üstünlük sağlamak için mücadele etmek",
-    "context": "Bu ifade, bir alanda üstünlük kurmak, lider olmak için rekabet etmek, dirsek temasında bulunmak ve birbirini itmek anlamında kullanılır. İş dünyasında şirketler pazar payı için 'jostle for dominance' eder, spor takımları şampiyonluk için 'jostle' eder. Sanki bir kalabalıkta öne geçmeye çalışır gibi bir mücadele içerisindedirler. Kim daha iyi olacak, kim sözünü geçirecek yarışı!",
+    "phrase": "Chelsea implemented a _____ fertility policy for its players.",
+    "translation": "Chelsea, oyuncuları için çığır açan bir doğurganlık politikası uyguladı.",
+    "context": "'Landmark' kelimesi, önemli bir dönüm noktası olan, çığır açan veya çok dikkat çekici bir olayı veya gelişmeyi ifade eder. 'Fertility policy' ise doğurganlık ve ebeveynlik haklarıyla ilgili kuralları kapsar. Yani 'landmark fertility policy' demek, daha önce benzeri görülmemiş, kuralları baştan yazan, devrim niteliğinde bir doğurganlık politikası demektir. Chelsea'nin kadın sporculara annelik konusunda verdiği destek gibi!",
     "options": [
-      "jostle",
-      "cooperate",
-      "relax",
-      "retreat"
+      "small",
+      "unimportant",
+      "landmark",
+      "regular"
     ],
-    "correctAnswer": "jostle",
-    "category": "BUSINESS",
-    "variations": [
-      "The politicians often _____ for power.",
-      "Teams must _____ for the best position in the league."
-    ]
-  },
-  {
-    "id": 126092412,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Why are some chemicals referred to as 'forever chemicals'?",
-    "translation": "Sonsuz kimyasallar (doğada kolayca parçalanmayan)",
-    "context": "'Forever chemicals', yani 'sonsuz kimyasallar' olarak adlandırılan maddeler, adından da anlaşılacağı gibi, doğada ve insan vücudunda çok uzun süre kalabilen, parçalanması neredeyse imkansız olan kimyasallardır. Bunlar genellikle yapışmaz tavalardan su geçirmez giysilere kadar birçok üründe bulunur. Ama maalesef çevre ve sağlık için ciddi bir tehdit oluştururlar çünkü bir kez salındıklarında gitmeleri çok zordur. Gerçekten de 'sonsuz' bir problem!",
-    "options": [
-      "They do not break down naturally in the environment",
-      "They are used in very old products",
-      "They are extremely difficult to manufacture",
-      "They have a very long shelf life in their containers"
-    ],
-    "correctAnswer": "They do not break down naturally in the environment",
+    "correctAnswer": "landmark",
     "category": "MIXED",
-    "variations": []
+    "variations": [
+      "This landmark decision will change many lives.",
+      "The discovery was a landmark in modern science."
+    ]
   }
 ]
