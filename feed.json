@@ -1,236 +1,224 @@
 [
   {
-    "id": 126092601,
+    "id": 126092701,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Many roads in Bangkok were _____ due to heavy rain.",
-    "translation": "Çok yağmur nedeniyle Bangkok'taki birçok yol sular altında kaldı.",
-    "context": "'Submerged' kelimesi, bir şeyin su altında kalması demek. Bangkok'taki yollar sel yüzünden su altında kalmış. Yani, arabanla gitmek istesen, ancak yüzerek geçebilirsin! Tatile gittiğinde bir yere gitmeden önce hava durumuna bakmak lazım, yoksa 'submerged' kalabilirsin!",
+    "phrase": "Four people were killed in a helicopter _____.",
+    "translation": "Dört kişi bir helikopter kazasında öldü.",
+    "context": "'Crash', genellikle araçların (uçak, helikopter, araba) kaza yapması durumunda kullanılır. Bazen de bilgisayarın aniden donup kapanması için 'my computer crashed' diyebiliriz. Kötü bir durum yani!",
     "options": [
-      "submerged",
-      "damaged",
-      "opened",
-      "cleaned"
+      "crash",
+      "fly",
+      "trip",
+      "stop"
     ],
-    "correctAnswer": "submerged",
-    "category": "TRAVEL",
+    "correctAnswer": "crash",
+    "category": "CASUAL",
     "variations": [
-      "The car was almost submerged in the river.",
-      "The city was submerged after the hurricane."
+      "The car had a bad crash.",
+      "They heard a loud crash."
     ]
   },
   {
-    "id": 126092602,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Iran offered a _____ to the US to reopen the Strait of Hormuz.",
-    "translation": "İran, Hürmüz Boğazı'nı yeniden açmak için ABD'ye bir anlaşma teklif etti.",
-    "context": "'Deal' kelimesi, bir anlaşma veya ticari bir uzlaşma anlamına gelir. İş hayatında ya da günlük hayatta sıkça 'anlaştık' demek için kullanılır. Mesela, en sevdiğin pizzayı yarı fiyatına alırsan, bu harika bir 'deal' olur!",
-    "options": [
-      "deal",
-      "gift",
-      "loan",
-      "request"
-    ],
-    "correctAnswer": "deal",
-    "category": "BUSINESS",
-    "variations": [
-      "They made a good deal on the new house.",
-      "The companies are trying to reach a deal."
-    ]
-  },
-  {
-    "id": 126092603,
+    "id": 126092702,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "Meta Connect etkinliğinde 'smart glasses' her yerdeydi. 'Smart glasses' ne anlama gelir?",
-    "translation": "Akıllı gözlükler",
-    "context": "'Smart glasses' bildiğin gözlüklerin çok daha teknolojik hali! Gözlük takıyorsun ama aslında küçük bir bilgisayar taşıyorsun. Mesela fotoğraf çekebilir, navigasyon kullanabilir veya müzik dinleyebilirsin, hepsi gözlüğünden! Gelecekte herkesin gözlüğü böyle 'smart' olacak galiba.",
+    "phrase": "Aşağıdaki cümlelerden hangisi 'satın almak' anlamına gelir?",
+    "translation": "Aşağıdaki cümlelerden hangisi 'satın almak' anlamına gelir?",
+    "context": "'Buy', bir şeyi parayla edinmek, satın almak demek. Online alışveriş yaparken ya da marketten bir şey alırken sıkça kullanacağın bir kelime. Mesela 'I want to buy a new phone.' gibi.",
     "options": [
-      "Güneş gözlükleri",
-      "Okuma gözlükleri",
-      "Akıllı gözlükler",
-      "Koruyucu gözlükler"
+      "I want to buy a book.",
+      "I want to sell a book.",
+      "I want to read a book.",
+      "I want to lend a book."
     ],
-    "correctAnswer": "Akıllı gözlükler",
-    "category": "CASUAL",
+    "correctAnswer": "I want to buy a book.",
+    "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126092604,
+    "id": 126092703,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Was your summer very hot and _____ this year?",
-    "translation": "Bu yıl yazın çok sıcak ve kurak mı geçti?",
-    "context": "'Hot and dry' yaz aylarını anlatmak için kullanılan bir ifade. Yani hava çok sıcak ve yağışsız demek. Mangal yapmak için süper ama bitkiler için pek iyi değil. Umarım senin yazın ne 'hot and dry' ne de çok yağmurlu geçmiştir!",
+    "phrase": "Bangkok _____ were submerged due to the flood.",
+    "translation": "Sel felaketi nedeniyle Bangkok yolları sular altında kaldı.",
+    "context": "'Submerged', bir şeyin tamamen su altında kalması demek. Sel gibi felaketlerde veya deniz seviyesinin yükseldiği durumlarda sıkça duyabiliriz. Yağmur çok yağdığında bile bazen caddeler 'submerged' olabiliyor!",
     "options": [
-      "dry",
-      "wet",
-      "cold",
-      "windy"
+      "roads",
+      "planes",
+      "skyscrapers",
+      "trees"
     ],
-    "correctAnswer": "dry",
-    "category": "MIXED",
-    "variations": [
-      "The desert climate is usually hot and dry.",
-      "We had a hot and dry spell for weeks."
-    ]
-  },
-  {
-    "id": 126092605,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The 'eternal snow' on the _____ island is disappearing.",
-    "translation": "_____ adasındaki 'ebedi kar' kayboluyor.",
-    "context": "'Tropical island' deyince aklına hemen palmiye ağaçları, bembeyaz kumlar ve masmavi deniz gelmeli! Ekvator'a yakın, yıl boyu sıcak ve nemli iklime sahip adalar bunlar. Kar görmek pek mümkün değil normalde, o yüzden 'eternal snow'un erimesi daha da üzücü bir haber!",
-    "options": [
-      "tropical",
-      "arctic",
-      "desert",
-      "urban"
-    ],
-    "correctAnswer": "tropical",
+    "correctAnswer": "roads",
     "category": "TRAVEL",
     "variations": [
-      "Many people dream of a holiday on a tropical island.",
-      "The storm hit the tropical island hard."
+      "The whole town was submerged.",
+      "The car was submerged in water."
     ]
   },
   {
-    "id": 126092606,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The company CEO was put on _____ after the failed attempt.",
-    "translation": "Şirket CEO'su başarısız girişimin ardından izne çıkarıldı.",
-    "context": "'On leave' demek, bir çalışanın geçici olarak işinden uzaklaştırılması veya izin alması demek. Hani bazen çok yoğun olursun da 'Biraz izne ihtiyacım var!' dersin ya, işte bu o! CEO'lar için biraz daha farklı olabilir ama sonuçta 'izinde' demek.",
-    "options": [
-      "leave",
-      "duty",
-      "staff",
-      "charge"
-    ],
-    "correctAnswer": "leave",
-    "category": "BUSINESS",
-    "variations": [
-      "She will be on leave for a few weeks.",
-      "He asked for a personal leave of absence."
-    ]
-  },
-  {
-    "id": 126092607,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "OpenAI bots _____ with several government agency sites.",
-    "translation": "OpenAI botları bazı devlet kurumu sitelerine karıştı.",
-    "context": "'Meddled with' ifadesi, bir şeye izinsiz veya istenmeyen bir şekilde müdahale etmek, burnunu sokmak anlamına gelir. 'Senin işine karışmak istemiyorum!' derken aslında bu fiili yapmamak istediğini söylüyorsun. Botlar da sanki 'Haydi şuraya bir el atalım!' diye düşünmüş ama pek iyi olmamış!",
-    "options": [
-      "meddled",
-      "helped",
-      "collaborated",
-      "ignored"
-    ],
-    "correctAnswer": "meddled",
-    "category": "CASUAL",
-    "variations": [
-      "Don't meddle with my personal belongings.",
-      "He likes to meddle in other people's affairs."
-    ]
-  },
-  {
-    "id": 126092608,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "What chemicals are my children _____ to?",
-    "translation": "Çocuklarım hangi kimyasallara maruz kalıyor?",
-    "context": "'Exposed to' ifadesi, bir şeye maruz kalmak, temas etmek anlamına gelir. Güneş kremi sürmezsen güneşe 'exposed' kalırsın ve yanarsın. Bu haberde ise çocuklar zararlı kimyasallara 'exposed' kalma riskiyle ilgili bir endişe var. Yani dikkatli olmakta fayda var!",
-    "options": [
-      "exposed",
-      "hidden",
-      "protected",
-      "covered"
-    ],
-    "correctAnswer": "exposed",
-    "category": "MIXED",
-    "variations": [
-      "She was exposed to new ideas at college.",
-      "The plant is sensitive when exposed to direct sunlight."
-    ]
-  },
-  {
-    "id": 126092609,
+    "id": 126092704,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Iran, Hürmüz Boğazı'nı yeniden açmak için ABD'ye bir anlaşma teklif etti. Bir 'strait' nedir?",
-    "translation": "İki büyük su kütlesini birleştiren dar deniz geçidi",
-    "context": "'Strait', yani boğaz, iki büyük su kütlesini birbirine bağlayan dar bir su yoludur. Deniz ticareti ve jeopolitik açıdan çok önemli yerlerdir. Mesela İstanbul Boğazı da bir 'strait' ve gemiler için stratejik bir geçittir. Haritalarda küçük bir çizgi gibi görünürler ama dünya ekonomisi için devasa önemleri vardır!",
+    "level": "BEGINNER",
+    "phrase": "'Let's make a deal.' cümlesindeki 'deal' kelimesinin anlamı nedir?",
+    "translation": "'Let's make a deal.' cümlesindeki 'deal' kelimesinin anlamı nedir?",
+    "context": "'Deal', bir anlaşma, pazarlık veya ticaret anlamına gelir. 'It's a good deal!' dersen, 'Bu iyi bir fırsat!' demiş olursun. Arkadaşlarınla bir şeyler ayarlarken de 'We made a deal' diyerek anlaşmayı kutlayabilirsin.",
     "options": [
-      "Geniş bir nehir",
-      "İki büyük su kütlesini birleştiren dar deniz geçidi",
-      "Bir gölün kıyısı",
-      "Bir okyanus körfezi"
+      "Anlaşma",
+      "Yemek",
+      "Oyun",
+      "Haber"
     ],
-    "correctAnswer": "İki büyük su kütlesini birleştiren dar deniz geçidi",
-    "category": "TRAVEL",
+    "correctAnswer": "Anlaşma",
+    "category": "MIXED",
     "variations": []
   },
   {
-    "id": 126092610,
+    "id": 126092705,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Crusoe _____ its $1.25B plan for AI data centers.",
-    "translation": "Crusoe, yapay zeka veri merkezleri için 1.25 milyar dolarlık planından vazgeçti.",
-    "context": "'Abandoned' kelimesi, bir şeyi terk etmek, vazgeçmek veya bırakmak anlamına gelir. Bir planı 'abandon' etmek, o planı rafa kaldırmak, artık uygulamamaktır. Yani Crusoe, büyük bir proje için 'Hadi canım, olmuyor!' deyip vazgeçmiş.",
+    "level": "INTERMEDIATE",
+    "phrase": "The proposal was _____ by the committee.",
+    "translation": "Teklif komite tarafından reddedildi.",
+    "context": "'Reject', bir şeyi kabul etmemek, geri çevirmek veya reddetmek anlamına gelir. Bir iş başvurusu, bir teklif veya bir fikir olabilir. Bazen de biri seni davet ettiğinde 'Sorry, I have to reject your invitation' diyebilirsin.",
     "options": [
-      "abandoned",
-      "completed",
-      "supported",
-      "modified"
+      "rejected",
+      "accepted",
+      "approved",
+      "considered"
     ],
-    "correctAnswer": "abandoned",
-    "category": "BUSINESS",
-    "variations": [
-      "The old building was abandoned years ago.",
-      "She abandoned her car on the side of the road."
-    ]
-  },
-  {
-    "id": 126092611,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The heavyweight boxing match is _____ due to new claims.",
-    "translation": "Yeni iddialar nedeniyle ağır sıklet boks maçı tehlikede.",
-    "context": "'In jeopardy' olmak, tehlikede olmak veya risk altında olmak demektir. Bir şey 'in jeopardy' ise, her an kötü bir şey olabilir demek. Boks maçı da 'in jeopardy' olduğuna göre, bilet alanların biraz endişelenmesi normal. Umarım her şey yoluna girer!",
-    "options": [
-      "in jeopardy",
-      "on schedule",
-      "a success",
-      "very popular"
-    ],
-    "correctAnswer": "in jeopardy",
+    "correctAnswer": "rejected",
     "category": "CASUAL",
     "variations": [
-      "His career was in jeopardy after the scandal.",
-      "The species is in jeopardy of extinction."
+      "She rejected his offer.",
+      "They rejected the new policy."
     ]
   },
   {
-    "id": 126092612,
+    "id": 126092706,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "'TikTok agrees to pay at least $100M in Alabama settlement.' cümlesindeki 'settlement' kelimesinin anlamı nedir?",
+    "translation": "'TikTok Alabama'da en az 100 milyon dolarlık uzlaşma anlaşması yapmayı kabul etti.' cümlesindeki 'settlement' kelimesinin anlamı nedir?",
+    "context": "'Settlement', genellikle hukuki bir anlaşmazlığın taraflar arasında mahkemeye gitmeden çözülmesidir. Taraflar anlaşır ve bir tazminat veya çözüm üzerinde mutabık kalır. Bazen de yeni bir yere yerleşme anlamına gelebilir ama bu bağlamda bir 'uzlaşma' demek.",
+    "options": [
+      "Uzlaşma",
+      "Gelişme",
+      "İtiraz",
+      "Protesto"
+    ],
+    "correctAnswer": "Uzlaşma",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126092707,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The young women are _____ tourists through India's night sky.",
+    "translation": "Genç kadınlar, turistlere Hindistan'ın gece gökyüzünde rehberlik ediyor.",
+    "context": "'Guiding', birine yol göstermek, rehberlik etmek demek. Bir tur rehberi, bir müzede bir çalışan veya bir arkadaşına yeni bir şehri gezdiren biri 'guide' olabilir. Yolunu şaşırmış insanlara yardım etmek de bir nevi 'guiding'dir.",
+    "options": [
+      "guiding",
+      "losing",
+      "ignoring",
+      "watching"
+    ],
+    "correctAnswer": "guiding",
+    "category": "TRAVEL",
+    "variations": [
+      "Can you guide me to the station?",
+      "She is guiding the group."
+    ]
+  },
+  {
+    "id": 126092708,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Kriket terimlerinden olan 'go for a duck' ne anlama gelir?",
+    "translation": "Kriket terimlerinden olan 'go for a duck' ne anlama gelir?",
+    "context": "Krikette 'go for a duck' demek, vurucu (batsman) oyundan hiç sayı alamadan elendiğinde kullanılır. Sıfır sayısıyla elenmeye denir. Bu terim, İngilizcede bazen genel olarak 'başarısız olmak' anlamında da espriyle kullanılabilir ama asıl spor terimidir.",
+    "options": [
+      "Sıfır sayı alarak elenmek",
+      "Çok sayı almak",
+      "Maçı kazanmak",
+      "Hakeme itiraz etmek"
+    ],
+    "correctAnswer": "Sıfır sayı alarak elenmek",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126092709,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Littler might become great but will not _____ legendary Taylor.",
-    "translation": "Littler harika olabilir ama efsanevi Taylor'ı geçemeyecek.",
-    "context": "'Surpass' fiili, birini veya bir şeyi aşmak, geçmek, geride bırakmak anlamına gelir. Bir rekorda 'surpass' edersen, o rekorun yeni sahibi sen olursun. Taylor gibi efsanevi birini 'surpass' etmek, gerçekten zor bir iş!",
+    "phrase": "Two _____ shootings left 27 people dead in South Africa.",
+    "translation": "Güney Afrika'daki iki toplu silahlı saldırıda 27 kişi hayatını kaybetti.",
+    "context": "'Mass shootings', genellikle birden fazla kişinin silahlı saldırı sonucu yaralandığı veya öldüğü olayları tanımlamak için kullanılır. Maalesef dünya genelinde üzücü bir gündem maddesi olabiliyor.",
     "options": [
-      "surpass",
-      "support",
-      "follow",
-      "copy"
+      "mass",
+      "small",
+      "quick",
+      "random"
     ],
-    "correctAnswer": "surpass",
-    "category": "MIXED",
+    "correctAnswer": "mass",
+    "category": "CASUAL",
     "variations": [
-      "His achievements will surpass all expectations.",
-      "The new model's speed will surpass its predecessor."
+      "The country experienced several mass layoffs.",
+      "It was a mass exodus of refugees."
     ]
+  },
+  {
+    "id": 126092710,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "'Insurers claim AI is already increasing healthcare costs.' cümlesindeki 'insurers' kelimesi ne anlama gelir?",
+    "translation": "'Sigortacılar, yapay zekanın sağlık maliyetlerini şimdiden artırdığını iddia ediyor.' cümlesindeki 'insurers' kelimesi ne anlama gelir?",
+    "context": "'Insurers', sigorta şirketleri veya sigortacılar demektir. Hayat sigortası, sağlık sigortası, araç sigortası gibi birçok alanda hizmet verirler. Riskleri yönetir, teminatlar sağlar ve prim toplarlar. Yani, geleceğini güvence altına almak için onlarla konuşursun.",
+    "options": [
+      "Sigortacılar",
+      "Yatırımcılar",
+      "Müşteriler",
+      "Doktorlar"
+    ],
+    "correctAnswer": "Sigortacılar",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126092711,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The treasured 'eternal snow' on this tropical island is about to _____ forever.",
+    "translation": "Bu tropikal adadaki değerli 'ebedi kar' sonsuza dek yok olmak üzere.",
+    "context": "'Eternal snow', genellikle yüksek dağlarda yıl boyunca erimeyen kar tabakaları için kullanılır. 'Eternal' kelimesi 'ebedi' anlamına gelirken, 'disappear forever' da 'sonsuza dek yok olmak' demek. İklim değişikliğinin acı sonuçlarından biri maalesef.",
+    "options": [
+      "disappear",
+      "increase",
+      "melt",
+      "stay"
+    ],
+    "correctAnswer": "disappear",
+    "category": "TRAVEL",
+    "variations": [
+      "The old traditions are starting to disappear.",
+      "He made the coin disappear with a trick."
+    ]
+  },
+  {
+    "id": 126092712,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "'Nor'easter' kelimesi aşağıdaki hava olaylarından hangisini ifade eder?",
+    "translation": "'Nor'easter' kelimesi aşağıdaki hava olaylarından hangisini ifade eder?",
+    "context": "'Nor'easter', özellikle Kuzey Amerika'nın doğu kıyısında görülen, kuzeydoğudan gelen rüzgarların neden olduğu güçlü bir fırtına türüdür. Kar, yağmur ve şiddetli rüzgar getirir. Adını yönünden alır: 'North-easter'. 'Hava durumu raporunda 'Nor'easter geliyor!' dersen, evde kalıp sıcak çikolata yapma zamanı gelmiş demektir!",
+    "options": [
+      "Şiddetli bir kış fırtınası",
+      "Tropikal bir kasırga",
+      "Çöl fırtınası",
+      "Hafif bir yağmur"
+    ],
+    "correctAnswer": "Şiddetli bir kış fırtınası",
+    "category": "MIXED",
+    "variations": []
   }
 ]
