@@ -1,233 +1,233 @@
 [
   {
-    "id": 126092801,
+    "id": 126092901,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The city must _____ the upcoming storm.",
-    "translation": "Şehir yaklaşan fırtınaya hazırlanmalı.",
-    "context": "Bir kasaba veya şehir büyük bir doğal afete, mesela kasırgaya veya yoğun kar fırtınasına hazırlanırken 'brace for' fiilini kullanırız. Bazen de sevmediğin bir durumla yüzleşmek zorunda kaldığında, örneğin bir sınavdan kötü not aldığını öğrendiğinde bile 'Kendini kötü habere hazırla!' anlamında kullanılabilir.",
+    "phrase": "A very strong tropical storm is called a _____.",
+    "translation": "'Kasırga' olarak da bilinen çok güçlü tropikal fırtına.",
+    "context": "Aman dikkat! Bir 'hurricane', yani kasırga, okyanuslarda oluşup kıyıya vurduğunda ortalığı darmadağın edebilir. Güneydoğu Asya'da 'typhoon', diğer yerlerde 'cyclone' olarak da geçer. Tatil planı yaparken hava durumuna bakmayı unutma!",
     "options": [
-      "brace for",
-      "avoid",
-      "forget",
-      "escape from"
+      "hurricane",
+      "breeze",
+      "shower",
+      "fog"
     ],
-    "correctAnswer": "brace for",
+    "correctAnswer": "hurricane",
     "category": "TRAVEL",
     "variations": [
-      "Residents are bracing for heavy rain.",
-      "We need to brace for difficult times."
+      "Mexico's coast was hit by a powerful hurricane.",
+      "The hurricane caused widespread damage."
     ]
   },
   {
-    "id": 126092802,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Beware of online _____ emails.",
-    "translation": "Çevrimiçi dolandırıcılık e-postalarına dikkat edin.",
-    "context": "İnternet dünyasında 'scam' terimiyle sıkça karşılaşırsın. Genellikle sana büyük ödüller vadeden ama aslında paranı veya kişisel bilgilerini çalmaya çalışan sahte mesajlar veya e-postalardır. 'Aman ha, o gelen linklere tıklama, yoksa scam'lenirsin!' diye arkadaşını uyarabilirsin.",
-    "options": [
-      "scam",
-      "opportunity",
-      "gift",
-      "deal"
-    ],
-    "correctAnswer": "scam",
-    "category": "BUSINESS",
-    "variations": [
-      "He tried to scam me out of money.",
-      "That website is a known scam."
-    ]
-  },
-  {
-    "id": 126092803,
+    "id": 126092902,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "Birinin 'SNL treatment' alması ne anlama gelir?",
-    "translation": "Birinin 'SNL treatment' alması, o kişinin veya konunun hicivli bir şekilde taklit edilmesi veya dalga geçilmesi anlamına gelir, genellikle ünlüler için komik bir parodi yapılır.",
-    "context": "Amerikan'ın efsanevi komedi şovu Saturday Night Live (SNL), ünlüleri ve güncel olayları taklit etmesiyle bilinir. Eğer biri 'SNL treatment' aldıysa, o kişi veya olay o kadar popüler veya dikkat çekici olmuştur ki, SNL onu komik bir skeçte kullanmıştır. Bir nevi 'ti'ye alınmak' diyebiliriz ama genellikle olumlu veya mizahi bir şekilde.",
+    "phrase": "'The football match will _____ as planned.' Bu cümlede boş bırakılan yere aşağıdakilerden hangisi en uygunudur?",
+    "translation": "'Devam etmek, planlandığı gibi olmak' anlamına gelen ifade.",
+    "context": "Bir etkinliğin iptal edilmeyip, planlandığı gibi devam edeceğini anlatmak için 'go ahead' deriz. Örneğin, yağmur yağmasına rağmen piknik 'go ahead' yapabilir. Sen de hayatındaki planların 'go ahead' etmesini istersin, değil mi?",
     "options": [
-      "Büyük bir ödül almak",
-      "Komedi şovunda taklit edilmek",
-      "Yeni bir işe başlamak",
-      "Tehdit almak"
+      "go back",
+      "go ahead",
+      "go up",
+      "go out"
     ],
-    "correctAnswer": "Komedi şovunda taklit edilmek",
+    "correctAnswer": "go ahead",
     "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126092804,
+    "id": 126092903,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "He is the new team _____.",
-    "translation": "O, takımın yeni patronu/yöneticisi.",
-    "context": "'Boss' kelimesini sadece iş yerinde patronun için kullanmıyoruz. Spor dünyasında da takımın teknik direktörü veya koçu için 'boss' denir. 'Yeni futbol takımının boss'u çok genç' gibi cümlelerle karşılaşabilirsin. Hatta bazen evde annene 'kimin boss olduğunu biliyorsun' diyerek şaka bile yapabilirsin!",
+    "phrase": "OpenAI decided to _____ the new AI model's launch.",
+    "translation": "'İptal etmek, rafa kaldırmak' anlamında kullanılan fiil.",
+    "context": "Bir projeyi, planı ya da ürünün piyasaya sürülmesini son dakikada iptal etmeye 'to scrap' denir. Mesela, en sevdiğin dizi yeni sezonu 'scraps' ederse bayağı üzücü olur! OpenAI da güvenlik endişeleri yüzünden yeni modelini şimdilik 'scrap' etmiş.",
     "options": [
-      "boss",
-      "player",
-      "fan",
-      "spectator"
+      "scrap",
+      "keep",
+      "launch",
+      "improve"
     ],
-    "correctAnswer": "boss",
-    "category": "MIXED/GENERAL",
-    "variations": [
-      "My boss gave me a raise.",
-      "The manager is the boss of the team."
-    ]
-  },
-  {
-    "id": 126092805,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Divers discovered an ancient _____ near the coast.",
-    "translation": "Dalgıçlar kıyı yakınında antik bir batık gemi keşfettiler.",
-    "context": "'Shipwreck', denizde batmış bir geminin kalıntılarına denir. Genellikle macera filmlerinde veya belgesellerde, dalgıçların okyanusun derinliklerinde gizemli batıkları keşfettiğini görürüz. 'Karayiplerde bir shipwreck turuna çıkmalıyız!' diyerek tatil planları yapabilirsin.",
-    "options": [
-      "shipwreck",
-      "lighthouse",
-      "harbor",
-      "anchor"
-    ],
-    "correctAnswer": "shipwreck",
-    "category": "TRAVEL",
-    "variations": [
-      "The island is famous for its shipwrecks.",
-      "We saw parts of the old shipwreck."
-    ]
-  },
-  {
-    "id": 126092806,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The new factory will provide a _____ for the town.",
-    "translation": "Yeni fabrika kasabaya iş imkanlarında büyük bir artış sağlayacak.",
-    "context": "'Jobs boost', bir bölgedeki istihdamda gözle görülür bir artış veya gelişme anlamına gelir. Yeni bir şirket açıldığında veya büyük bir yatırım yapıldığında, o bölge halkı için 'jobs boost' beklentisi oluşur. 'Bu yeni teknoloji parkı, şehrimiz için gerçek bir jobs boost olacak!' diye sevinebilirsin.",
-    "options": [
-      "jobs boost",
-      "staff cut",
-      "wage freeze",
-      "market crash"
-    ],
-    "correctAnswer": "jobs boost",
+    "correctAnswer": "scrap",
     "category": "BUSINESS",
     "variations": [
-      "The tourism sector needs a jobs boost.",
-      "These policies will create a jobs boost."
+      "They had to scrap their travel plans.",
+      "The company scrapped the faulty product."
     ]
   },
   {
-    "id": 126092807,
+    "id": 126092904,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The Starship's _____ ended in a spectacular fireball.",
+    "translation": "Bir uzay aracının iniş sonrası suya iniş eylemi.",
+    "context": "Uzay araçları suya indiğinde bu olaya 'splashdown' deriz. Yani, uzaydan döndükten sonra denize pat diye düşmek gibi düşünebilirsin! Starship bu sefer 'splashdown' yerine patlamış, biraz talihsiz olmuş ama görsel şölen yaratmış.",
+    "options": [
+      "takeoff",
+      "landing",
+      "splashdown",
+      "explosion"
+    ],
+    "correctAnswer": "splashdown",
+    "category": "MIXED",
+    "variations": [
+      "The Apollo capsule made a safe splashdown.",
+      "After its mission, the spacecraft will splashdown."
+    ]
+  },
+  {
+    "id": 126092905,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Many homes might become _____ due to flood risk.",
+    "translation": "'Sigortalanamaz' anlamına gelen kelime.",
+    "context": "Eğer bir ev veya eşya o kadar riskli hale gelirse ki sigorta şirketleri onu sigortalamayı reddederse, o şeye 'uninsurable' deriz. Yani, 'biz bu riski alamayız' diyorlar! Sel riski artınca bazı evler sigortalanamaz hale gelebiliyormuş, üzücü bir durum.",
+    "options": [
+      "insurable",
+      "expensive",
+      "uninsurable",
+      "valuable"
+    ],
+    "correctAnswer": "uninsurable",
+    "category": "TRAVEL",
+    "variations": [
+      "The old car was uninsurable after the accident.",
+      "High-risk areas can make properties uninsurable."
+    ]
+  },
+  {
+    "id": 126092906,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "New tech aims to put global _____ on autopilot.",
+    "translation": "'Tedarik zincirleri' anlamına gelen iş terimi.",
+    "context": "Bir ürünün hammaddeden başlayıp son kullanıcıya ulaşana kadarki tüm süreçlerine 'supply chains' denir. Yani, kahve çekirdeklerinin tarladan senin fincanına gelene kadar geçtiği yol gibi düşünebilirsin! 'On autopilot' deyince de her şeyin otomatikleşip kendi kendine yürümesi demek. Süper, değil mi?",
+    "options": [
+      "sales teams",
+      "supply chains",
+      "marketing plans",
+      "customer service"
+    ],
+    "correctAnswer": "supply chains",
+    "category": "BUSINESS",
+    "variations": [
+      "The pandemic disrupted global supply chains.",
+      "Efficient supply chains are vital for businesses."
+    ]
+  },
+  {
+    "id": 126092907,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "'Spot-on' ifadesi en iyi hangi durumu tanımlar?",
-    "translation": "'Spot-on' ifadesi, bir şeyin tamamen doğru, kusursuz veya tam isabetli olduğunu tanımlar.",
-    "context": "Eğer bir arkadaşın bir tahminde bulunduysa ve bu tahminin aynen gerçekleştiğini gördüysen, 'Wow, that was spot-on!' diyebilirsin. Tam 12'den vurmak, nokta atışı yapmak gibi düşünebilirsin. Özellikle spor yorumcuları, maç tahminleri tuttuğunda bu ifadeyi bayıla bayıla kullanır!",
+    "phrase": "'An elderly _____ was saved from being _____ from her home.' Bu cümlede boş bırakılan yerlere sırasıyla hangi kelimeler en uygunudur?",
+    "translation": "'Emekli' ve 'evden çıkarılmak, tahliye edilmek' anlamlarına gelen kelimeler.",
+    "context": "'Pensioner', emekli maaşı alan kişi demek. 'Evicted' ise birinin yasal olarak evden çıkarılması, yani tahliye edilmesi anlamına gelir. İnsanların evlerinden 'evicted' edilmesi hiç hoş bir durum değil. Bu haberde yaşlı bir 'pensioner'ın evine geri dönebilmesi sevindirici.",
     "options": [
-      "Çok yanlış",
-      "Mükemmel ve doğru",
-      "Belirsiz",
-      "Hatalı"
+      "worker, invited",
+      "pensioner, evicted",
+      "student, bought",
+      "landlord, moved"
     ],
-    "correctAnswer": "Mükemmel ve doğru",
+    "correctAnswer": "pensioner, evicted",
     "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126092808,
+    "id": 126092908,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Soldiers are fighting on the _____.",
-    "translation": "Askerler cephe hattında savaşıyor.",
-    "context": "'Front-line', bir savaşta çatışmanın en şiddetli yaşandığı, tehlikenin en yüksek olduğu bölgeye verilen addır. Ama sadece savaş için değil, bazen bir projenin en zorlu ve kritik aşamaları için de 'front-line work' (ön cephe çalışması) terimini kullanabiliriz. Bir nevi 'işin en ağır kısmı' diyebiliriz.",
+    "phrase": "Alonso chose to _____ his contract with Aston Martin.",
+    "translation": "'Sözleşme süresini uzatmak' anlamına gelen fiil.",
+    "context": "Bir sözleşmenin süresini uzatmak istediğinde 'extend' fiilini kullanırız. Örneğin, tatilini 'extend' edebilirsin ya da Alonso gibi sporcular kariyerlerini 'extend' edip daha uzun süre yarışabilirler.",
     "options": [
-      "front-line",
-      "back office",
-      "safe zone",
+      "cancel",
+      "end",
+      "extend",
+      "break"
+    ],
+    "correctAnswer": "extend",
+    "category": "MIXED",
+    "variations": [
+      "We need to extend our visa.",
+      "Can you extend the deadline for this project?"
+    ]
+  },
+  {
+    "id": 126092909,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Hurricane Polo made its _____ on Mexico's Pacific coast.",
+    "translation": "'Karaya çıkmak, karaya vurmak' anlamına gelen olay.",
+    "context": "Fırtınalar veya kasırgalar denizde başlar ve karaya ulaştığında bu duruma 'landfall' denir. Yani, fırtınanın karayı öptüğü an! Genellikle kasırga haberlerinde sıkça duyduğun bir terimdir.",
+    "options": [
+      "arrival",
+      "departure",
+      "landfall",
       "retreat"
     ],
-    "correctAnswer": "front-line",
-    "category": "MIXED/GENERAL",
-    "variations": [
-      "She works on the front-line of healthcare.",
-      "The company's customer service is its front-line."
-    ]
-  },
-  {
-    "id": 126092809,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The heavy storm will _____ the coastal towns.",
-    "translation": "Şiddetli fırtına kıyı kasabalarını hırpalayacak/dövüp geçecek.",
-    "context": "'Pummel' kelimesi, bir şeye art arda şiddetli darbeler indirmek anlamına gelir. Genellikle fırtınaların bir bölgeyi vurduğunda yarattığı yıkımı anlatmak için kullanılır. 'Fırtına sahil şeridini resmen pummel'ladı' gibi haber başlıkları görebilirsin. Bazen de boks maçlarında yumruklar için kullanılır, 'boksör rakibini pummel'ladı' gibi.",
-    "options": [
-      "pummel",
-      "caress",
-      "avoid",
-      "pass by"
-    ],
-    "correctAnswer": "pummel",
+    "correctAnswer": "landfall",
     "category": "TRAVEL",
     "variations": [
-      "The boxer pummeled his opponent.",
-      "The waves pummel the shore."
+      "The storm's landfall caused severe damage.",
+      "Experts predicted the hurricane's landfall location."
     ]
   },
   {
-    "id": 126092810,
+    "id": 126092910,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The company has serious _____ after the scandal.",
-    "translation": "Şirketin skandal sonrası ciddi güven sorunları var.",
-    "context": "'Trust issues', bir kişiye veya kuruma karşı güven eksikliği anlamına gelir. Genellikle geçmişteki olumsuz deneyimlerden kaynaklanır. Bir marka, kötü bir ürün veya hizmet sonrası müşterileriyle 'trust issues' yaşayabilir. 'Bu bankanın çok trust issues'u var, ben paramı oraya yatırmam!' diye serzenişte bulunabilirsin.",
+    "phrase": "Anthropic's recent _____ highlighted its financial growth and risks.",
+    "translation": "Şirketlerin yatırımcılar için hazırladığı detaylı bilgi belgesi.",
+    "context": "Bir şirket halka açılmadan önce veya önemli bir yatırım alırken, potansiyel yatırımcılara sunduğu tüm detaylı bilgi belgesine 'prospectus' denir. Şirketin finansal durumu, gelecek hedefleri, hatta olası riskler bile bu belgede yazılı olur. Biraz sıkıcı ama çok önemli bir belge!",
     "options": [
-      "trust issues",
-      "loyalty bonuses",
-      "marketing plans",
-      "growth strategies"
+      "memo",
+      "brochure",
+      "prospectus",
+      "receipt"
     ],
-    "correctAnswer": "trust issues",
+    "correctAnswer": "prospectus",
     "category": "BUSINESS",
     "variations": [
-      "She has trust issues from past relationships.",
-      "The government faces trust issues from the public."
+      "Investors should always read the prospectus.",
+      "The company issued a revised prospectus."
     ]
   },
   {
-    "id": 126092811,
+    "id": 126092911,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Bir takımın 'dominance' kurması ne anlama gelir?",
-    "translation": "Bir takımın 'dominance' kurması, o takımın uzun süredir rakiplerine karşı sürekli üstünlük sağlaması ve başarıya doymaması anlamına gelir.",
-    "context": "Spor dünyasında 'dominance' kelimesi, bir takımın veya sporcunun rakiplerine karşı sürekli ve açık bir üstünlük kurması durumunu ifade eder. Yani, kazandıkça kazanır, şampiyonlukları kimseye bırakmaz. 'Takımın son 5 yıldır ligdeki dominance'ı herkesi şaşırttı!' diyebiliriz. Adeta rakiplerine nefes aldırmaz!",
+    "phrase": "'The executive was tragically _____ by his elderly _____.' Bu cümlede boş bırakılan yerlere sırasıyla hangi kelimeler en uygunudur?",
+    "translation": "'Ölümcül şekilde vurulmuş' ve 'eşin ailesi, kayınlar'.",
+    "context": "'Fatally shot', ölümle sonuçlanan bir silahla vurulma olayıdır, çok üzücü ve ciddi bir ifade. 'In-laws' ise evlendiğin kişinin ailesi anlamına gelir; yani kayınvaliden, kayınpederin, görümcen veya eltin. Bazen aile içi olaylarda maalesef bu tür talihsiz olaylar yaşanabiliyor.",
     "options": [
-      "Sık sık yenilmek",
-      "Ortalama performans göstermek",
-      "Sürekli üstünlük ve başarı",
-      "Az seyirci çekmek"
+      "greeted, relatives",
+      "questioned, colleagues",
+      "fatally shot, in-laws",
+      "promoted, assistants"
     ],
-    "correctAnswer": "Sürekli üstünlük ve başarı",
+    "correctAnswer": "fatally shot, in-laws",
     "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126092812,
+    "id": 126092912,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Your efforts are what really _____.",
-    "translation": "Çabaların gerçekten en önemli olan şeydir.",
-    "context": "'Matter the most' ifadesi, bir şeyin en önemli, en kritik veya en belirleyici faktör olduğunu vurgulamak için kullanılır. Bazen söylenmeyen bir söz, yapılan küçük bir jest, hatta bir bakış bile 'matter the most' olabilir. 'Hayatta paranın değil, neşenin matter the most olduğunu öğrendim' gibi derin bir cümle kurabilirsin.",
+    "phrase": "Argentina threatened _____ over the Falkland Islands oil exploration.",
+    "translation": "'Yasal işlem, hukuki süreç' başlatma.",
+    "context": "Bir anlaşmazlık veya haksızlık durumunda mahkeme yoluyla çözüm arayışına 'legal action' denir. Yani, 'bu iş mahkemede çözülür!' demenin havalı yolu. Ülkeler arası anlaşmazlıklarda da, kişiler arası anlaşmazlıklarda da sıkça başvurulan bir yöntemdir.",
     "options": [
-      "matter the most",
-      "don't matter",
-      "are irrelevant",
-      "are trivial"
+      "negotiations",
+      "legal action",
+      "peace talks",
+      "boycott"
     ],
-    "correctAnswer": "matter the most",
-    "category": "MIXED/GENERAL",
+    "correctAnswer": "legal action",
+    "category": "MIXED",
     "variations": [
-      "Your attitude matters the most.",
-      "The ending matters the most in a story."
+      "The company is facing legal action.",
+      "They decided to take legal action against him."
     ]
   }
 ]
