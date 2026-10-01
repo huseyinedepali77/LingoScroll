@@ -1,233 +1,236 @@
 [
   {
-    "id": 126092901,
+    "id": 126100101,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "A very strong tropical storm is called a _____.",
-    "translation": "'Kasırga' olarak da bilinen çok güçlü tropikal fırtına.",
-    "context": "Aman dikkat! Bir 'hurricane', yani kasırga, okyanuslarda oluşup kıyıya vurduğunda ortalığı darmadağın edebilir. Güneydoğu Asya'da 'typhoon', diğer yerlerde 'cyclone' olarak da geçer. Tatil planı yaparken hava durumuna bakmayı unutma!",
+    "phrase": "The ______ from Dubai to Tel Aviv was cancelled.",
+    "translation": "Dubai'den Tel Aviv'e olan uçuş iptal edildi.",
+    "context": "Havaalanında en sık duyacağın kelimelerden biri! Uçakla yapılan yolculuklara 'flight' deriz. Bazen iptal olabilir, bazen rötarlı... Ama her zaman heyecan vericidir!",
     "options": [
-      "hurricane",
-      "breeze",
-      "shower",
-      "fog"
+      "flight",
+      "bus",
+      "train",
+      "ship"
     ],
-    "correctAnswer": "hurricane",
+    "correctAnswer": "flight",
     "category": "TRAVEL",
     "variations": [
-      "Mexico's coast was hit by a powerful hurricane.",
-      "The hurricane caused widespread damage."
+      "My flight leaves at 7 AM.",
+      "We need to book our flight for next month."
     ]
   },
   {
-    "id": 126092902,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "id": 126100102,
+    "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "'The football match will _____ as planned.' Bu cümlede boş bırakılan yere aşağıdakilerden hangisi en uygunudur?",
-    "translation": "'Devam etmek, planlandığı gibi olmak' anlamına gelen ifade.",
-    "context": "Bir etkinliğin iptal edilmeyip, planlandığı gibi devam edeceğini anlatmak için 'go ahead' deriz. Örneğin, yağmur yağmasına rağmen piknik 'go ahead' yapabilir. Sen de hayatındaki planların 'go ahead' etmesini istersin, değil mi?",
+    "phrase": "That funny cat ______ went viral quickly.",
+    "translation": "O komik kedi görseli hızla viral oldu.",
+    "context": "Telefonunda gördüğün fotoğraflar, internette paylaştığın görseller... Hepsine 'image' diyebiliriz. Bazen bir kedi fotoğrafı tüm dünyayı güldürebilir!",
     "options": [
-      "go back",
-      "go ahead",
-      "go up",
-      "go out"
+      "image",
+      "sound",
+      "smell",
+      "taste"
     ],
-    "correctAnswer": "go ahead",
+    "correctAnswer": "image",
+    "category": "CASUAL",
+    "variations": [
+      "She shared a beautiful image of the sunset.",
+      "The image quality is very high."
+    ]
+  },
+  {
+    "id": 126100103,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Many young people want to create their own AI ______.",
+    "translation": "Birçok genç kendi yapay zeka girişimini kurmak istiyor.",
+    "context": "Yeni bir iş fikriyle yola çıkan, genellikle teknoloji odaklı küçük şirketlere 'startup' denir. Belki senin de bir gün harika bir startup fikrin olur, kim bilir!",
+    "options": [
+      "startup",
+      "closing",
+      "finish",
+      "ending"
+    ],
+    "correctAnswer": "startup",
+    "category": "BUSINESS",
+    "variations": [
+      "The tech startup received new funding.",
+      "Her dream is to launch a successful startup."
+    ]
+  },
+  {
+    "id": 126100104,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Swiss ______ are melting fast due to climate change.",
+    "translation": "İsviçre buzulları iklim değişikliği nedeniyle hızla eriyor.",
+    "context": "Kocaman, buzdan dağlara 'glacier' denir. Dünyanın doğal güzelliklerinden biri ama ne yazık ki iklim değişikliği yüzünden hızla küçülüyorlar. Onları korumalıyız!",
+    "options": [
+      "glaciers",
+      "deserts",
+      "oceans",
+      "forests"
+    ],
+    "correctAnswer": "glaciers",
+    "category": "MIXED",
+    "variations": [
+      "We saw a huge glacier during our trip.",
+      "The glacier calved, creating icebergs."
+    ]
+  },
+  {
+    "id": 126100105,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Airport ______ was tightened after the incident.",
+    "translation": "Olaydan sonra havaalanı güvenliği artırıldı.",
+    "context": "Seyahat ederken kendini güvende hissetmeni sağlayan sistem ve önlemler bütününe 'security' denir. Havaalanında pasaport kontrolü, valiz aramaları hepsi bunun bir parçası!",
+    "options": [
+      "security",
+      "comfort",
+      "speed",
+      "service"
+    ],
+    "correctAnswer": "security",
+    "category": "TRAVEL",
+    "variations": [
+      "He works in airport security.",
+      "The company is investing in better cybersecurity."
+    ]
+  },
+  {
+    "id": 126100106,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The AI startup reached a $750M ______ quickly.",
+    "translation": "Yapay zeka girişimi hızla 750 milyon dolarlık bir değere ulaştı.",
+    "context": "Bir şirketin ya da mal varlığının piyasadaki toplam değeri. İşte bu 'valuation'! Yatırımcılar bir şirkete para yatırırken onun ne kadar 'değerli' olduğuna bakarlar. Yüksek 'valuation' demek, şirket çok beğeniliyor demek!",
+    "options": [
+      "valuation",
+      "decoration",
+      "meditation",
+      "relation"
+    ],
+    "correctAnswer": "valuation",
+    "category": "BUSINESS",
+    "variations": [
+      "The company's valuation increased significantly.",
+      "Experts debated the fair valuation of the property."
+    ]
+  },
+  {
+    "id": 126100107,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "What does 'backlash' mean in the context of a photo contest?",
+    "translation": "Bir fotoğraf yarışması bağlamında 'backlash' ne anlama gelir?",
+    "context": "Bir karar, olay ya da durum karşısında insanların gösterdiği güçlü ve olumsuz tepkiye 'backlash' denir. Bazen sosyal medyada bir paylaşım büyük bir 'backlash' alabilir, yani herkes birden eleştiri yağmuruna tutar!",
+    "options": [
+      "Strong positive reaction",
+      "Sudden negative reaction",
+      "Quiet disagreement",
+      "Lack of interest"
+    ],
+    "correctAnswer": "Sudden negative reaction",
     "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126092903,
+    "id": 126100108,
     "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "OpenAI decided to _____ the new AI model's launch.",
-    "translation": "'İptal etmek, rafa kaldırmak' anlamında kullanılan fiil.",
-    "context": "Bir projeyi, planı ya da ürünün piyasaya sürülmesini son dakikada iptal etmeye 'to scrap' denir. Mesela, en sevdiğin dizi yeni sezonu 'scraps' ederse bayağı üzücü olur! OpenAI da güvenlik endişeleri yüzünden yeni modelini şimdilik 'scrap' etmiş.",
+    "level": "INTERMEDIATE",
+    "phrase": "The death row ______ survived the execution attempt.",
+    "translation": "İdam mahkumu infaz girişiminden sağ çıktı.",
+    "context": "Hapiste, özellikle de ömür boyu veya idam cezası almış birine 'inmate' denir. Maalesef çok da hoş olmayan bir kelime ama haberlerde karşımıza çıkabiliyor.",
     "options": [
-      "scrap",
-      "keep",
-      "launch",
-      "improve"
+      "inmate",
+      "visitor",
+      "officer",
+      "lawyer"
     ],
-    "correctAnswer": "scrap",
-    "category": "BUSINESS",
-    "variations": [
-      "They had to scrap their travel plans.",
-      "The company scrapped the faulty product."
-    ]
-  },
-  {
-    "id": 126092904,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The Starship's _____ ended in a spectacular fireball.",
-    "translation": "Bir uzay aracının iniş sonrası suya iniş eylemi.",
-    "context": "Uzay araçları suya indiğinde bu olaya 'splashdown' deriz. Yani, uzaydan döndükten sonra denize pat diye düşmek gibi düşünebilirsin! Starship bu sefer 'splashdown' yerine patlamış, biraz talihsiz olmuş ama görsel şölen yaratmış.",
-    "options": [
-      "takeoff",
-      "landing",
-      "splashdown",
-      "explosion"
-    ],
-    "correctAnswer": "splashdown",
+    "correctAnswer": "inmate",
     "category": "MIXED",
     "variations": [
-      "The Apollo capsule made a safe splashdown.",
-      "After its mission, the spacecraft will splashdown."
+      "Several inmates were released early.",
+      "The prison houses over 500 inmates."
     ]
   },
   {
-    "id": 126092905,
+    "id": 126100109,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Many homes might become _____ due to flood risk.",
-    "translation": "'Sigortalanamaz' anlamına gelen kelime.",
-    "context": "Eğer bir ev veya eşya o kadar riskli hale gelirse ki sigorta şirketleri onu sigortalamayı reddederse, o şeye 'uninsurable' deriz. Yani, 'biz bu riski alamayız' diyorlar! Sel riski artınca bazı evler sigortalanamaz hale gelebiliyormuş, üzücü bir durum.",
+    "level": "ADVANCED",
+    "phrase": "Tensions in ______ relations are rising between countries.",
+    "translation": "Ülkeler arasındaki uluslararası ilişkilerde gerilim artıyor.",
+    "context": "Dünya üzerindeki farklı devletlerin birbirleriyle olan tüm bağlarına, anlaşmalarına ve etkileşimlerine 'international relations' denir. Diplomasi, ticaret, barış veya savaş... Hepsi bu kavramın içinde!",
     "options": [
-      "insurable",
-      "expensive",
-      "uninsurable",
-      "valuable"
+      "international",
+      "local",
+      "personal",
+      "internal"
     ],
-    "correctAnswer": "uninsurable",
+    "correctAnswer": "international",
     "category": "TRAVEL",
     "variations": [
-      "The old car was uninsurable after the accident.",
-      "High-risk areas can make properties uninsurable."
+      "She studies international relations at university.",
+      "The conflict affected international relations in the region."
     ]
   },
   {
-    "id": 126092906,
+    "id": 126100110,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "New tech aims to put global _____ on autopilot.",
-    "translation": "'Tedarik zincirleri' anlamına gelen iş terimi.",
-    "context": "Bir ürünün hammaddeden başlayıp son kullanıcıya ulaşana kadarki tüm süreçlerine 'supply chains' denir. Yani, kahve çekirdeklerinin tarladan senin fincanına gelene kadar geçtiği yol gibi düşünebilirsin! 'On autopilot' deyince de her şeyin otomatikleşip kendi kendine yürümesi demek. Süper, değil mi?",
+    "level": "ADVANCED",
+    "phrase": "The Pentagon plans to ______ Elon Musk for advice.",
+    "translation": "Pentagon, danışmanlık için Elon Musk'ı görevlendirmeyi planlıyor.",
+    "context": "Birini bir görev veya iş için seçmek, atamak anlamına gelir. 'Tap' kelimesi normalde dokunmak, vurmak demek olsa da, bu bağlamda birini önemli bir pozisyon için 'seçmek' demektir. Yani Elon Musk'ın kapısını çalmışlar!",
     "options": [
-      "sales teams",
-      "supply chains",
-      "marketing plans",
-      "customer service"
+      "tap",
+      "ignore",
+      "reject",
+      "fire"
     ],
-    "correctAnswer": "supply chains",
+    "correctAnswer": "tap",
     "category": "BUSINESS",
     "variations": [
-      "The pandemic disrupted global supply chains.",
-      "Efficient supply chains are vital for businesses."
+      "They might tap her to lead the new project.",
+      "The coach decided to tap a new player for the team."
     ]
   },
   {
-    "id": 126092907,
+    "id": 126100111,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "'An elderly _____ was saved from being _____ from her home.' Bu cümlede boş bırakılan yerlere sırasıyla hangi kelimeler en uygunudur?",
-    "translation": "'Emekli' ve 'evden çıkarılmak, tahliye edilmek' anlamlarına gelen kelimeler.",
-    "context": "'Pensioner', emekli maaşı alan kişi demek. 'Evicted' ise birinin yasal olarak evden çıkarılması, yani tahliye edilmesi anlamına gelir. İnsanların evlerinden 'evicted' edilmesi hiç hoş bir durum değil. Bu haberde yaşlı bir 'pensioner'ın evine geri dönebilmesi sevindirici.",
+    "level": "ADVANCED",
+    "phrase": "What does it mean to 'double down on' something?",
+    "translation": "Bir şeye 'double down on' ne anlama gelir?",
+    "context": "Bir kararı, fikri veya eylemi daha da güçlendirmek, desteklemek veya üzerine gitmek anlamına gelir. Yani, 'Vazgeçmek yok, daha çok çabalayacağım!' demek gibi. Bir poker terimi aslında ama günlük hayatta çok kullanılır.",
     "options": [
-      "worker, invited",
-      "pensioner, evicted",
-      "student, bought",
-      "landlord, moved"
+      "To reduce effort",
+      "To give up entirely",
+      "To increase commitment and effort",
+      "To rethink a decision"
     ],
-    "correctAnswer": "pensioner, evicted",
+    "correctAnswer": "To increase commitment and effort",
     "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126092908,
+    "id": 126100112,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Alonso chose to _____ his contract with Aston Martin.",
-    "translation": "'Sözleşme süresini uzatmak' anlamına gelen fiil.",
-    "context": "Bir sözleşmenin süresini uzatmak istediğinde 'extend' fiilini kullanırız. Örneğin, tatilini 'extend' edebilirsin ya da Alonso gibi sporcular kariyerlerini 'extend' edip daha uzun süre yarışabilirler.",
+    "level": "ADVANCED",
+    "phrase": "The glacier's ice loss was truly ______ this year.",
+    "translation": "Buzulun bu yılki buz kaybı gerçekten felaketti.",
+    "context": "Çok kötü, yıkıcı veya feci sonuçları olan durumlar için 'disastrous' deriz. Bir sınav sonucu, bir maçın skoru veya doğanın durumu... Her şey 'disastrous' olabilir, umarım olmaz!",
     "options": [
-      "cancel",
-      "end",
-      "extend",
-      "break"
+      "disastrous",
+      "beneficial",
+      "profitable",
+      "successful"
     ],
-    "correctAnswer": "extend",
+    "correctAnswer": "disastrous",
     "category": "MIXED",
     "variations": [
-      "We need to extend our visa.",
-      "Can you extend the deadline for this project?"
-    ]
-  },
-  {
-    "id": 126092909,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Hurricane Polo made its _____ on Mexico's Pacific coast.",
-    "translation": "'Karaya çıkmak, karaya vurmak' anlamına gelen olay.",
-    "context": "Fırtınalar veya kasırgalar denizde başlar ve karaya ulaştığında bu duruma 'landfall' denir. Yani, fırtınanın karayı öptüğü an! Genellikle kasırga haberlerinde sıkça duyduğun bir terimdir.",
-    "options": [
-      "arrival",
-      "departure",
-      "landfall",
-      "retreat"
-    ],
-    "correctAnswer": "landfall",
-    "category": "TRAVEL",
-    "variations": [
-      "The storm's landfall caused severe damage.",
-      "Experts predicted the hurricane's landfall location."
-    ]
-  },
-  {
-    "id": 126092910,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Anthropic's recent _____ highlighted its financial growth and risks.",
-    "translation": "Şirketlerin yatırımcılar için hazırladığı detaylı bilgi belgesi.",
-    "context": "Bir şirket halka açılmadan önce veya önemli bir yatırım alırken, potansiyel yatırımcılara sunduğu tüm detaylı bilgi belgesine 'prospectus' denir. Şirketin finansal durumu, gelecek hedefleri, hatta olası riskler bile bu belgede yazılı olur. Biraz sıkıcı ama çok önemli bir belge!",
-    "options": [
-      "memo",
-      "brochure",
-      "prospectus",
-      "receipt"
-    ],
-    "correctAnswer": "prospectus",
-    "category": "BUSINESS",
-    "variations": [
-      "Investors should always read the prospectus.",
-      "The company issued a revised prospectus."
-    ]
-  },
-  {
-    "id": 126092911,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "'The executive was tragically _____ by his elderly _____.' Bu cümlede boş bırakılan yerlere sırasıyla hangi kelimeler en uygunudur?",
-    "translation": "'Ölümcül şekilde vurulmuş' ve 'eşin ailesi, kayınlar'.",
-    "context": "'Fatally shot', ölümle sonuçlanan bir silahla vurulma olayıdır, çok üzücü ve ciddi bir ifade. 'In-laws' ise evlendiğin kişinin ailesi anlamına gelir; yani kayınvaliden, kayınpederin, görümcen veya eltin. Bazen aile içi olaylarda maalesef bu tür talihsiz olaylar yaşanabiliyor.",
-    "options": [
-      "greeted, relatives",
-      "questioned, colleagues",
-      "fatally shot, in-laws",
-      "promoted, assistants"
-    ],
-    "correctAnswer": "fatally shot, in-laws",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126092912,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Argentina threatened _____ over the Falkland Islands oil exploration.",
-    "translation": "'Yasal işlem, hukuki süreç' başlatma.",
-    "context": "Bir anlaşmazlık veya haksızlık durumunda mahkeme yoluyla çözüm arayışına 'legal action' denir. Yani, 'bu iş mahkemede çözülür!' demenin havalı yolu. Ülkeler arası anlaşmazlıklarda da, kişiler arası anlaşmazlıklarda da sıkça başvurulan bir yöntemdir.",
-    "options": [
-      "negotiations",
-      "legal action",
-      "peace talks",
-      "boycott"
-    ],
-    "correctAnswer": "legal action",
-    "category": "MIXED",
-    "variations": [
-      "The company is facing legal action.",
-      "They decided to take legal action against him."
+      "The party was a disastrous failure.",
+      "His business venture proved disastrous."
     ]
   }
 ]
