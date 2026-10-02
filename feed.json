@@ -1,236 +1,230 @@
 [
   {
-    "id": 126100101,
+    "id": 126100201,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The ______ from Dubai to Tel Aviv was cancelled.",
-    "translation": "Dubai'den Tel Aviv'e olan uçuş iptal edildi.",
-    "context": "Havaalanında en sık duyacağın kelimelerden biri! Uçakla yapılan yolculuklara 'flight' deriz. Bazen iptal olabilir, bazen rötarlı... Ama her zaman heyecan vericidir!",
+    "phrase": "The _____ safely landed the plane after the incident.",
+    "translation": "pilot (pilot)",
+    "context": "Uçaklarda o kocaman aletleri kullanan, bizi bir yerden bir yere ışınlayan kahramanlar! Uçuş sırasında bir sorun çıktığında bile serinkanlılığını koruyup herkesi sağ salim indiren kaptan. İşte o kişi 'pilot'.",
     "options": [
-      "flight",
-      "bus",
-      "train",
-      "ship"
+      "pilot",
+      "driver",
+      "captain",
+      "guide"
     ],
-    "correctAnswer": "flight",
+    "correctAnswer": "pilot",
     "category": "TRAVEL",
     "variations": [
-      "My flight leaves at 7 AM.",
-      "We need to book our flight for next month."
+      "The _____ prepares for takeoff.",
+      "A good _____ is crucial for flight safety."
     ]
   },
   {
-    "id": 126100102,
+    "id": 126100202,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "That funny cat ______ went viral quickly.",
-    "translation": "O komik kedi görseli hızla viral oldu.",
-    "context": "Telefonunda gördüğün fotoğraflar, internette paylaştığın görseller... Hepsine 'image' diyebiliriz. Bazen bir kedi fotoğrafı tüm dünyayı güldürebilir!",
-    "options": [
-      "image",
-      "sound",
-      "smell",
-      "taste"
-    ],
-    "correctAnswer": "image",
-    "category": "CASUAL",
-    "variations": [
-      "She shared a beautiful image of the sunset.",
-      "The image quality is very high."
-    ]
-  },
-  {
-    "id": 126100103,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Many young people want to create their own AI ______.",
-    "translation": "Birçok genç kendi yapay zeka girişimini kurmak istiyor.",
-    "context": "Yeni bir iş fikriyle yola çıkan, genellikle teknoloji odaklı küçük şirketlere 'startup' denir. Belki senin de bir gün harika bir startup fikrin olur, kim bilir!",
+    "phrase": "Her new tech _____ raised a lot of money.",
+    "translation": "startup (yeni girişim)",
+    "context": "Yeni kurulan, genellikle teknoloji odaklı, hızlı büyümeyi hedefleyen genç şirketlere 'startup' diyoruz. Bir fikrin var ve onu dünyaya yaymak istiyorsun, işte tam da öyle bir şirket kurduğunda sen bir 'startup'ın kurucususun!",
     "options": [
       "startup",
-      "closing",
-      "finish",
-      "ending"
+      "factory",
+      "shop",
+      "office"
     ],
     "correctAnswer": "startup",
     "category": "BUSINESS",
     "variations": [
-      "The tech startup received new funding.",
-      "Her dream is to launch a successful startup."
+      "The team launched a promising new _____.",
+      "Many investors look for innovative _____s."
     ]
   },
   {
-    "id": 126100104,
+    "id": 126100203,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "Which word means 'very sad and without hope'?",
+    "translation": "dismal (kasvetli, iç karartıcı)",
+    "context": "Bir şey seni aşırı üzdüğünde, kasvetli bir hava estiğinde hissettiğin duygu... Hava kapalı, yağmur yağıyor ve sen de o moddasın. İşte tam da bu duruma 'dismal' denebilir. Keyifsiz, iç karartıcı!",
+    "options": [
+      "happy",
+      "dismal",
+      "excited",
+      "funny"
+    ],
+    "correctAnswer": "dismal",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126100204,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Swiss ______ are melting fast due to climate change.",
-    "translation": "İsviçre buzulları iklim değişikliği nedeniyle hızla eriyor.",
-    "context": "Kocaman, buzdan dağlara 'glacier' denir. Dünyanın doğal güzelliklerinden biri ama ne yazık ki iklim değişikliği yüzünden hızla küçülüyorlar. Onları korumalıyız!",
+    "phrase": "SpaceX _____ rockets into space regularly.",
+    "translation": "launches (fırlatır, başlatır)",
+    "context": "Bir roketi, bir ürünü ya da yeni bir projeyi gökyüzüne fırlattığında, piyasaya sürdüğünde bu fiili kullanırız. SpaceX roketleri 'launch' eder, yani uzaya fırlatır! Bir ürünün ilk kez piyasaya çıkması da 'product launch'tır.",
     "options": [
-      "glaciers",
-      "deserts",
-      "oceans",
-      "forests"
+      "launches",
+      "drives",
+      "sells",
+      "finds"
     ],
-    "correctAnswer": "glaciers",
+    "correctAnswer": "launches",
     "category": "MIXED",
     "variations": [
-      "We saw a huge glacier during our trip.",
-      "The glacier calved, creating icebergs."
+      "The company _____ a new phone every year.",
+      "The satellite will _____ next month."
     ]
   },
   {
-    "id": 126100105,
+    "id": 126100205,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Airport ______ was tightened after the incident.",
-    "translation": "Olaydan sonra havaalanı güvenliği artırıldı.",
-    "context": "Seyahat ederken kendini güvende hissetmeni sağlayan sistem ve önlemler bütününe 'security' denir. Havaalanında pasaport kontrolü, valiz aramaları hepsi bunun bir parçası!",
+    "phrase": "The pilot reported an unusual event inside the _____.",
+    "translation": "cockpit (kokpit)",
+    "context": "Uçağın en gizemli yeri! Tüm o düğmelerin, ekranların ve pilotların oturduğu bölüm. Filmlerde gördüğün o havalı yer işte 'cockpit'. Sadece yetkililerin girebildiği, uçuşun kalbinin attığı yer.",
     "options": [
-      "security",
-      "comfort",
-      "speed",
-      "service"
+      "cockpit",
+      "cabin",
+      "hallway",
+      "engine"
     ],
-    "correctAnswer": "security",
+    "correctAnswer": "cockpit",
     "category": "TRAVEL",
     "variations": [
-      "He works in airport security.",
-      "The company is investing in better cybersecurity."
+      "Access to the _____ is restricted during flight.",
+      "The captain welcomed us into the _____."
     ]
   },
   {
-    "id": 126100106,
+    "id": 126100206,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "What does it mean to 'settle a lawsuit'?",
+    "translation": "Bir davayı mahkeme dışında anlaşarak çözmek",
+    "context": "Mahkemeye taşınmış bir anlaşmazlığı, karşılıklı uzlaşarak ve genellikle bir miktar para ödeyerek çözmek anlamına gelir. Hani iki taraf da daha fazla uzamasın diye 'orta yolu bulalım' der ya, işte tam o durum! 'Lyft, sürücüleriyle olan davayı halletti' derken de bunu kastediyorlar.",
+    "options": [
+      "Bir davayı kazanmak",
+      "Bir davayı başlatmak",
+      "Bir davayı mahkeme dışında anlaşarak çözmek",
+      "Bir davayı kaybetmek"
+    ],
+    "correctAnswer": "Bir davayı mahkeme dışında anlaşarak çözmek",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126100207,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The AI startup reached a $750M ______ quickly.",
-    "translation": "Yapay zeka girişimi hızla 750 milyon dolarlık bir değere ulaştı.",
-    "context": "Bir şirketin ya da mal varlığının piyasadaki toplam değeri. İşte bu 'valuation'! Yatırımcılar bir şirkete para yatırırken onun ne kadar 'değerli' olduğuna bakarlar. Yüksek 'valuation' demek, şirket çok beğeniliyor demek!",
+    "phrase": "The patient remains in _____ condition after the accident.",
+    "translation": "critical (kritik, hayati tehlikede)",
+    "context": "Birinin sağlık durumunun çok ciddi ve riskli olduğunu anlatmak için kullanırız. Hani doktor 'durumu kritik' der ya, işte tam o an. Hayati tehlikesinin olduğu ve yoğun bakımda olduğu anlamına geliyor.",
+    "options": [
+      "critical",
+      "stable",
+      "good",
+      "calm"
+    ],
+    "correctAnswer": "critical",
+    "category": "CASUAL",
+    "variations": [
+      "He was taken to the hospital in _____ condition.",
+      "The news reported her _____ condition."
+    ]
+  },
+  {
+    "id": 126100208,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Which word means 'to deal with or solve a difficult problem'?",
+    "translation": "tackle (üstesinden gelmek, mücadele etmek)",
+    "context": "Büyük bir sorunla karşılaştığında, onu çözmek için 'kollarını sıvamak' gibi düşünebilirsin. Bir sporcunun rakibini durdurmak için 'tackle' etmesi gibi, bir problemi de 'tackle' edebiliriz. Yani onunla mücadele edip üstesinden gelmek!",
+    "options": [
+      "ignore",
+      "avoid",
+      "tackle",
+      "create"
+    ],
+    "correctAnswer": "tackle",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126100209,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The airport's new security _____ will prevent unauthorized access.",
+    "translation": "zone (bölge, alan)",
+    "context": "Belirli bir bölgeyi, alanı ifade eder. Bir alana girişin kısıtlandığı yerlere 'restriction zone' denir. Mesela havaalanlarında belirli 'zone'lar vardır ya da salgın hastalık durumunda yayılmayı önlemek için 'restriction zone' oluşturulur.",
+    "options": [
+      "zone",
+      "city",
+      "country",
+      "building"
+    ],
+    "correctAnswer": "zone",
+    "category": "TRAVEL",
+    "variations": [
+      "Please remain within the designated _____ for visitors.",
+      "The construction _____ is off-limits to pedestrians."
+    ]
+  },
+  {
+    "id": 126100210,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The tech company achieved a billion-dollar _____ after its latest funding round.",
+    "translation": "valuation (değerleme)",
+    "context": "Bir şirketin ya da mülkün piyasadaki tahmini değeri. Yani bir şirket ne kadar eder? Yatırımcılar bir şirkete yatırım yaparken, o şirketin 'valuation'ına bakarlar. İşte o '2.5 milyar dolar değerleme' lafı tam da bu 'valuation' kelimesinden geliyor.",
     "options": [
       "valuation",
-      "decoration",
-      "meditation",
-      "relation"
+      "profit",
+      "revenue",
+      "expense"
     ],
     "correctAnswer": "valuation",
     "category": "BUSINESS",
     "variations": [
-      "The company's valuation increased significantly.",
-      "Experts debated the fair valuation of the property."
+      "Experts disagree on the correct _____ of the property.",
+      "The startup's _____ doubled in one year."
     ]
   },
   {
-    "id": 126100107,
+    "id": 126100211,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "What does 'backlash' mean in the context of a photo contest?",
-    "translation": "Bir fotoğraf yarışması bağlamında 'backlash' ne anlama gelir?",
-    "context": "Bir karar, olay ya da durum karşısında insanların gösterdiği güçlü ve olumsuz tepkiye 'backlash' denir. Bazen sosyal medyada bir paylaşım büyük bir 'backlash' alabilir, yani herkes birden eleştiri yağmuruna tutar!",
+    "level": "ADVANCED",
+    "phrase": "What does 'to cope with something' mean?",
+    "translation": "Bir durumla başa çıkmak, üstesinden gelmek",
+    "context": "Zor bir durumla karşılaştığında, o durumu yönetebilmek, onunla başa çıkabilmek anlamına gelir. Stresli bir işte çalışırken 'how do you cope?' diye sorabilirler, yani 'nasıl başa çıkıyorsun?' demek isterler. Russell'ın yeni bir 'gerçeklikle' başa çıkmakta zorlandığını söylemeleri de bu durumu anlatıyor.",
     "options": [
-      "Strong positive reaction",
-      "Sudden negative reaction",
-      "Quiet disagreement",
-      "Lack of interest"
+      "Bir durumu önemsememek",
+      "Bir duruma neden olmak",
+      "Bir durumu bilmemek",
+      "Bir durumla başa çıkmak, üstesinden gelmek"
     ],
-    "correctAnswer": "Sudden negative reaction",
+    "correctAnswer": "Bir durumla başa çıkmak, üstesinden gelmek",
     "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126100108,
+    "id": 126100212,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The death row ______ survived the execution attempt.",
-    "translation": "İdam mahkumu infaz girişiminden sağ çıktı.",
-    "context": "Hapiste, özellikle de ömür boyu veya idam cezası almış birine 'inmate' denir. Maalesef çok da hoş olmayan bir kelime ama haberlerde karşımıza çıkabiliyor.",
+    "level": "ADVANCED",
+    "phrase": "Diplomatic tensions escalated due to a recent border _____.",
+    "translation": "row (tartışma, anlaşmazlık)",
+    "context": "İki kişi veya iki ülke arasında çıkan ciddi bir anlaşmazlık, tartışma. Hani aile içinde bazen bir 'tartışma' çıkar ya, işte 'row' kelimesi de daha resmi ve önemli tartışmaları ifade eder. Seoul ile Ukraine arasındaki 'prisoner-of-war row' da tam olarak bir 'savaş esiri tartışması' anlamına geliyor.",
     "options": [
-      "inmate",
-      "visitor",
-      "officer",
-      "lawyer"
+      "row",
+      "game",
+      "party",
+      "meeting"
     ],
-    "correctAnswer": "inmate",
+    "correctAnswer": "row",
     "category": "MIXED",
     "variations": [
-      "Several inmates were released early.",
-      "The prison houses over 500 inmates."
-    ]
-  },
-  {
-    "id": 126100109,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Tensions in ______ relations are rising between countries.",
-    "translation": "Ülkeler arasındaki uluslararası ilişkilerde gerilim artıyor.",
-    "context": "Dünya üzerindeki farklı devletlerin birbirleriyle olan tüm bağlarına, anlaşmalarına ve etkileşimlerine 'international relations' denir. Diplomasi, ticaret, barış veya savaş... Hepsi bu kavramın içinde!",
-    "options": [
-      "international",
-      "local",
-      "personal",
-      "internal"
-    ],
-    "correctAnswer": "international",
-    "category": "TRAVEL",
-    "variations": [
-      "She studies international relations at university.",
-      "The conflict affected international relations in the region."
-    ]
-  },
-  {
-    "id": 126100110,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The Pentagon plans to ______ Elon Musk for advice.",
-    "translation": "Pentagon, danışmanlık için Elon Musk'ı görevlendirmeyi planlıyor.",
-    "context": "Birini bir görev veya iş için seçmek, atamak anlamına gelir. 'Tap' kelimesi normalde dokunmak, vurmak demek olsa da, bu bağlamda birini önemli bir pozisyon için 'seçmek' demektir. Yani Elon Musk'ın kapısını çalmışlar!",
-    "options": [
-      "tap",
-      "ignore",
-      "reject",
-      "fire"
-    ],
-    "correctAnswer": "tap",
-    "category": "BUSINESS",
-    "variations": [
-      "They might tap her to lead the new project.",
-      "The coach decided to tap a new player for the team."
-    ]
-  },
-  {
-    "id": 126100111,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "What does it mean to 'double down on' something?",
-    "translation": "Bir şeye 'double down on' ne anlama gelir?",
-    "context": "Bir kararı, fikri veya eylemi daha da güçlendirmek, desteklemek veya üzerine gitmek anlamına gelir. Yani, 'Vazgeçmek yok, daha çok çabalayacağım!' demek gibi. Bir poker terimi aslında ama günlük hayatta çok kullanılır.",
-    "options": [
-      "To reduce effort",
-      "To give up entirely",
-      "To increase commitment and effort",
-      "To rethink a decision"
-    ],
-    "correctAnswer": "To increase commitment and effort",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126100112,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The glacier's ice loss was truly ______ this year.",
-    "translation": "Buzulun bu yılki buz kaybı gerçekten felaketti.",
-    "context": "Çok kötü, yıkıcı veya feci sonuçları olan durumlar için 'disastrous' deriz. Bir sınav sonucu, bir maçın skoru veya doğanın durumu... Her şey 'disastrous' olabilir, umarım olmaz!",
-    "options": [
-      "disastrous",
-      "beneficial",
-      "profitable",
-      "successful"
-    ],
-    "correctAnswer": "disastrous",
-    "category": "MIXED",
-    "variations": [
-      "The party was a disastrous failure.",
-      "His business venture proved disastrous."
+      "They had a big _____ about money.",
+      "The political _____ shows no sign of ending."
     ]
   }
 ]
