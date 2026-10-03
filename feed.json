@@ -1,230 +1,236 @@
 [
   {
-    "id": 126100201,
+    "id": 126100301,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The _____ safely landed the plane after the incident.",
-    "translation": "pilot (pilot)",
-    "context": "Uçaklarda o kocaman aletleri kullanan, bizi bir yerden bir yere ışınlayan kahramanlar! Uçuş sırasında bir sorun çıktığında bile serinkanlılığını koruyup herkesi sağ salim indiren kaptan. İşte o kişi 'pilot'.",
+    "phrase": "The _____ assisted the pilot during the flight.",
+    "translation": "Yardımcı pilot, uçuş sırasında pilota yardım etti.",
+    "context": "Havacılıkta 'co-pilot' veya 'first officer', uçağın kumandasında pilota yardımcı olan kişidir. Yani senin sağ kolun gibi düşün, o olmadan uçak tek kanatlı kuş gibi olurdu!",
     "options": [
-      "pilot",
-      "driver",
-      "captain",
-      "guide"
+      "co-pilot",
+      "passenger",
+      "steward",
+      "mechanic"
     ],
-    "correctAnswer": "pilot",
+    "correctAnswer": "co-pilot",
     "category": "TRAVEL",
     "variations": [
-      "The _____ prepares for takeoff.",
-      "A good _____ is crucial for flight safety."
+      "A co-pilot flies with the main pilot.",
+      "The co-pilot checked all systems."
     ]
   },
   {
-    "id": 126100202,
+    "id": 126100302,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Her new tech _____ raised a lot of money.",
-    "translation": "startup (yeni girişim)",
-    "context": "Yeni kurulan, genellikle teknoloji odaklı, hızlı büyümeyi hedefleyen genç şirketlere 'startup' diyoruz. Bir fikrin var ve onu dünyaya yaymak istiyorsun, işte tam da öyle bir şirket kurduğunda sen bir 'startup'ın kurucususun!",
+    "phrase": "They offered a great _____ on the event passes.",
+    "translation": "Etkinlik biletlerinde harika bir fırsat sundular.",
+    "context": "'Deal', günlük dilde 'fırsat' veya 'anlaşma' anlamına gelir. Mesela, en sevdiğin kahvecide 'bugün 2 al 1 öde' kampanyası varsa, işte bu harika bir 'deal' demektir! Kaçırma!",
     "options": [
-      "startup",
-      "factory",
-      "shop",
-      "office"
-    ],
-    "correctAnswer": "startup",
-    "category": "BUSINESS",
-    "variations": [
-      "The team launched a promising new _____.",
-      "Many investors look for innovative _____s."
-    ]
-  },
-  {
-    "id": 126100203,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "Which word means 'very sad and without hope'?",
-    "translation": "dismal (kasvetli, iç karartıcı)",
-    "context": "Bir şey seni aşırı üzdüğünde, kasvetli bir hava estiğinde hissettiğin duygu... Hava kapalı, yağmur yağıyor ve sen de o moddasın. İşte tam da bu duruma 'dismal' denebilir. Keyifsiz, iç karartıcı!",
-    "options": [
-      "happy",
-      "dismal",
-      "excited",
-      "funny"
-    ],
-    "correctAnswer": "dismal",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126100204,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "SpaceX _____ rockets into space regularly.",
-    "translation": "launches (fırlatır, başlatır)",
-    "context": "Bir roketi, bir ürünü ya da yeni bir projeyi gökyüzüne fırlattığında, piyasaya sürdüğünde bu fiili kullanırız. SpaceX roketleri 'launch' eder, yani uzaya fırlatır! Bir ürünün ilk kez piyasaya çıkması da 'product launch'tır.",
-    "options": [
-      "launches",
-      "drives",
-      "sells",
-      "finds"
-    ],
-    "correctAnswer": "launches",
-    "category": "MIXED",
-    "variations": [
-      "The company _____ a new phone every year.",
-      "The satellite will _____ next month."
-    ]
-  },
-  {
-    "id": 126100205,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The pilot reported an unusual event inside the _____.",
-    "translation": "cockpit (kokpit)",
-    "context": "Uçağın en gizemli yeri! Tüm o düğmelerin, ekranların ve pilotların oturduğu bölüm. Filmlerde gördüğün o havalı yer işte 'cockpit'. Sadece yetkililerin girebildiği, uçuşun kalbinin attığı yer.",
-    "options": [
-      "cockpit",
-      "cabin",
-      "hallway",
-      "engine"
-    ],
-    "correctAnswer": "cockpit",
-    "category": "TRAVEL",
-    "variations": [
-      "Access to the _____ is restricted during flight.",
-      "The captain welcomed us into the _____."
-    ]
-  },
-  {
-    "id": 126100206,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "What does it mean to 'settle a lawsuit'?",
-    "translation": "Bir davayı mahkeme dışında anlaşarak çözmek",
-    "context": "Mahkemeye taşınmış bir anlaşmazlığı, karşılıklı uzlaşarak ve genellikle bir miktar para ödeyerek çözmek anlamına gelir. Hani iki taraf da daha fazla uzamasın diye 'orta yolu bulalım' der ya, işte tam o durum! 'Lyft, sürücüleriyle olan davayı halletti' derken de bunu kastediyorlar.",
-    "options": [
-      "Bir davayı kazanmak",
-      "Bir davayı başlatmak",
-      "Bir davayı mahkeme dışında anlaşarak çözmek",
-      "Bir davayı kaybetmek"
-    ],
-    "correctAnswer": "Bir davayı mahkeme dışında anlaşarak çözmek",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126100207,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The patient remains in _____ condition after the accident.",
-    "translation": "critical (kritik, hayati tehlikede)",
-    "context": "Birinin sağlık durumunun çok ciddi ve riskli olduğunu anlatmak için kullanırız. Hani doktor 'durumu kritik' der ya, işte tam o an. Hayati tehlikesinin olduğu ve yoğun bakımda olduğu anlamına geliyor.",
-    "options": [
-      "critical",
-      "stable",
-      "good",
-      "calm"
-    ],
-    "correctAnswer": "critical",
-    "category": "CASUAL",
-    "variations": [
-      "He was taken to the hospital in _____ condition.",
-      "The news reported her _____ condition."
-    ]
-  },
-  {
-    "id": 126100208,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Which word means 'to deal with or solve a difficult problem'?",
-    "translation": "tackle (üstesinden gelmek, mücadele etmek)",
-    "context": "Büyük bir sorunla karşılaştığında, onu çözmek için 'kollarını sıvamak' gibi düşünebilirsin. Bir sporcunun rakibini durdurmak için 'tackle' etmesi gibi, bir problemi de 'tackle' edebiliriz. Yani onunla mücadele edip üstesinden gelmek!",
-    "options": [
-      "ignore",
-      "avoid",
-      "tackle",
-      "create"
-    ],
-    "correctAnswer": "tackle",
-    "category": "MIXED",
-    "variations": []
-  },
-  {
-    "id": 126100209,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The airport's new security _____ will prevent unauthorized access.",
-    "translation": "zone (bölge, alan)",
-    "context": "Belirli bir bölgeyi, alanı ifade eder. Bir alana girişin kısıtlandığı yerlere 'restriction zone' denir. Mesela havaalanlarında belirli 'zone'lar vardır ya da salgın hastalık durumunda yayılmayı önlemek için 'restriction zone' oluşturulur.",
-    "options": [
-      "zone",
-      "city",
-      "country",
-      "building"
-    ],
-    "correctAnswer": "zone",
-    "category": "TRAVEL",
-    "variations": [
-      "Please remain within the designated _____ for visitors.",
-      "The construction _____ is off-limits to pedestrians."
-    ]
-  },
-  {
-    "id": 126100210,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The tech company achieved a billion-dollar _____ after its latest funding round.",
-    "translation": "valuation (değerleme)",
-    "context": "Bir şirketin ya da mülkün piyasadaki tahmini değeri. Yani bir şirket ne kadar eder? Yatırımcılar bir şirkete yatırım yaparken, o şirketin 'valuation'ına bakarlar. İşte o '2.5 milyar dolar değerleme' lafı tam da bu 'valuation' kelimesinden geliyor.",
-    "options": [
-      "valuation",
-      "profit",
-      "revenue",
-      "expense"
-    ],
-    "correctAnswer": "valuation",
-    "category": "BUSINESS",
-    "variations": [
-      "Experts disagree on the correct _____ of the property.",
-      "The startup's _____ doubled in one year."
-    ]
-  },
-  {
-    "id": 126100211,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "What does 'to cope with something' mean?",
-    "translation": "Bir durumla başa çıkmak, üstesinden gelmek",
-    "context": "Zor bir durumla karşılaştığında, o durumu yönetebilmek, onunla başa çıkabilmek anlamına gelir. Stresli bir işte çalışırken 'how do you cope?' diye sorabilirler, yani 'nasıl başa çıkıyorsun?' demek isterler. Russell'ın yeni bir 'gerçeklikle' başa çıkmakta zorlandığını söylemeleri de bu durumu anlatıyor.",
-    "options": [
-      "Bir durumu önemsememek",
-      "Bir duruma neden olmak",
-      "Bir durumu bilmemek",
-      "Bir durumla başa çıkmak, üstesinden gelmek"
-    ],
-    "correctAnswer": "Bir durumla başa çıkmak, üstesinden gelmek",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126100212,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Diplomatic tensions escalated due to a recent border _____.",
-    "translation": "row (tartışma, anlaşmazlık)",
-    "context": "İki kişi veya iki ülke arasında çıkan ciddi bir anlaşmazlık, tartışma. Hani aile içinde bazen bir 'tartışma' çıkar ya, işte 'row' kelimesi de daha resmi ve önemli tartışmaları ifade eder. Seoul ile Ukraine arasındaki 'prisoner-of-war row' da tam olarak bir 'savaş esiri tartışması' anlamına geliyor.",
-    "options": [
-      "row",
-      "game",
-      "party",
+      "deal",
+      "problem",
+      "ticket",
       "meeting"
     ],
-    "correctAnswer": "row",
+    "correctAnswer": "deal",
+    "category": "BUSINESS",
+    "variations": [
+      "The store has many good deals this week.",
+      "We closed a big deal yesterday."
+    ]
+  },
+  {
+    "id": 126100303,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "We plan to watch the _____ this weekend.",
+    "translation": "Bu hafta sonu meteor yağmurunu izlemeyi planlıyoruz.",
+    "context": "Gökyüzünden ateş topları düşüyor gibi görünüyorsa, muhtemelen bir 'meteor shower' (göktaşı yağmuru) izliyorsundur! Dilek dilemeyi unutma, belki şans sana güler!",
+    "options": [
+      "meteor shower",
+      "sun rise",
+      "moon set",
+      "cloud cover"
+    ],
+    "correctAnswer": "meteor shower",
+    "category": "CASUAL",
+    "variations": [
+      "The Orionid meteor shower is very famous.",
+      "Many people love seeing a meteor shower."
+    ]
+  },
+  {
+    "id": 126100304,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Several fans were _____ after the incident.",
+    "translation": "Olaydan sonra birkaç taraftar yaralandı.",
+    "context": "'Injured' demek, bir yerin ağrıyor, kesildi veya bir şekilde hasar gördü demek. Ayağını burkersen veya koşarken düşersen, 'I'm injured!' dersin. Aman dikkatli ol!",
+    "options": [
+      "injured",
+      "happy",
+      "excited",
+      "present"
+    ],
+    "correctAnswer": "injured",
     "category": "MIXED",
     "variations": [
-      "They had a big _____ about money.",
-      "The political _____ shows no sign of ending."
+      "The player was injured during the game.",
+      "Many people were injured in the accident."
     ]
+  },
+  {
+    "id": 126100305,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The old bridge suddenly _____ due to heavy rain.",
+    "translation": "Eski köprü şiddetli yağmur nedeniyle aniden çöktü.",
+    "context": "Bir şeyin 'collapse' etmesi, aniden yere yığılması, çökmesi demek. Yapılar için kullanılır ama bazen çok yorulduğunda 'I might collapse!' (Yığılabilirim!) diyerek kendini de anlatabilirsin.",
+    "options": [
+      "collapses",
+      "stands",
+      "expands",
+      "rises"
+    ],
+    "correctAnswer": "collapses",
+    "category": "TRAVEL",
+    "variations": [
+      "The building will collapse if not repaired.",
+      "The ancient arch collapsed into the sea."
+    ]
+  },
+  {
+    "id": 126100306,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The company decided to _____ new products next month.",
+    "translation": "Şirket gelecek ay yeni ürünler piyasaya sürmeye karar verdi.",
+    "context": "'Release', bir şeyi serbest bırakmak, piyasaya sürmek veya çıkarmak anlamına gelir. Bir şarkıcının yeni albüm 'release' etmesi gibi düşün. Ya da patronunun seni erkenden işten 'release' etmesini dilemek gibi!",
+    "options": [
+      "release",
+      "hold",
+      "hide",
+      "block"
+    ],
+    "correctAnswer": "release",
+    "category": "BUSINESS",
+    "variations": [
+      "The government will release oil reserves.",
+      "They will release the movie in summer."
+    ]
+  },
+  {
+    "id": 126100307,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "My new smartphone is a cool _____ with many features.",
+    "translation": "Yeni akıllı telefonum birçok özelliği olan harika bir alet.",
+    "context": "'Gadget' dediğimiz şey, genellikle küçük, kullanışlı ve biraz da teknolojik bir alet. Akıllı saatinden kahve makinesine kadar her şey bir 'gadget' olabilir. Hayatımızı kolaylaştıran minik oyuncaklar gibiler!",
+    "options": [
+      "gadget",
+      "furniture",
+      "vehicle",
+      "building"
+    ],
+    "correctAnswer": "gadget",
+    "category": "CASUAL",
+    "variations": [
+      "She loves to buy the latest tech gadgets.",
+      "This kitchen gadget makes cooking easier."
+    ]
+  },
+  {
+    "id": 126100308,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The drivers were preparing for _____ in Malaysia.",
+    "translation": "Sürücüler Malezya'da sıralama turlarına hazırlanıyorlardı.",
+    "context": "Formula 1'de 'qualifying' (sıralama turları), yarıştan önce en hızlı tur zamanını belirlemek için yapılan turlardır. Yani takımların 'En hızlı kim?' diye kapıştığı heyecanlı bir ön eleme gibi düşün! Yarışta ilk sırayı kapmak için ter dökerler.",
+    "options": [
+      "qualifying",
+      "dinner",
+      "sightseeing",
+      "shopping"
+    ],
+    "correctAnswer": "qualifying",
+    "category": "MIXED",
+    "variations": [
+      "He set a new record during qualifying.",
+      "The qualifying session was very tight."
+    ]
+  },
+  {
+    "id": 126100309,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "A 'major bridge' is best described as:",
+    "translation": "'Major bridge' en iyi şu şekilde açıklanır:",
+    "context": "'Major bridge', şehirlerin veya bölgelerin ana ulaşım damarlarından biri olan, büyük ve önemli bir köprü demektir. Hani trafiği rahatlatan, iki yakayı bir araya getiren ve onsuz hayatın felç olacağı köprüler var ya, işte onlardan! Stratejik önemi de yüksek olur.",
+    "options": [
+      "a small, local bridge",
+      "a structurally significant and important bridge",
+      "a temporary crossing point",
+      "a bridge only for pedestrians"
+    ],
+    "correctAnswer": "a structurally significant and important bridge",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126100310,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The city council voted to _____ single-use plastic bags.",
+    "translation": "Şehir meclisi tek kullanımlık plastik poşetleri yasaklama kararı aldı.",
+    "context": "'Ban' demek, bir şeyi resmi olarak yasaklamak, kullanımını engellemek demek. Sanki 'HAYIR, bu olamaz!' diyen bir kural gibi. Örneğin, bazı yerlerde sigara içmek 'banned' (yasaklanmıştır) ya da okulda telefon kullanmak 'banned' olabilir.",
+    "options": [
+      "ban",
+      "allow",
+      "promote",
+      "suggest"
+    ],
+    "correctAnswer": "ban",
+    "category": "BUSINESS",
+    "variations": [
+      "They want to ban all harmful chemicals.",
+      "The new law will ban certain activities."
+    ]
+  },
+  {
+    "id": 126100311,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The old house received a complete _____ last year.",
+    "translation": "Eski ev geçen yıl baştan aşağı yenilendi.",
+    "context": "'Makeover', bir yerin veya bir kişinin baştan aşağı yenilenmesi, güzelleşmesi anlamına gelir. Salonun renklerini değiştirmekten saç stilini kökten değiştirmeye kadar her şey bir 'makeover' olabilir. Sonuçta her şey daha iyi ve yeni görünür!",
+    "options": [
+      "makeover",
+      "destruction",
+      "preservation",
+      "neglect"
+    ],
+    "correctAnswer": "makeover",
+    "category": "CASUAL",
+    "variations": [
+      "She got a fantastic makeover for the party.",
+      "The park needed a big makeover."
+    ]
+  },
+  {
+    "id": 126100312,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "What are 'Atlantic hurricanes'?",
+    "translation": "'Atlantik kasırgaları' nedir?",
+    "context": "'Atlantic hurricanes' (Atlantik kasırgaları), Atlantik Okyanusu'nda oluşan devasa tropikal fırtınalardır. Rüzgarları saatte 119 km'yi geçen, devasa yağmurlar getiren ve kıyı bölgeleri için gerçek bir baş ağrısı olan bu doğal afetler, adeta okyanusun hırçın çocuklarıdır! Çok yıkıcı olabilirler.",
+    "options": [
+      "Storms occurring only in the Pacific Ocean",
+      "Large tropical storms forming in the Atlantic Ocean",
+      "Small, local thunderstorms in coastal areas",
+      "Mild weather patterns in the Caribbean"
+    ],
+    "correctAnswer": "Large tropical storms forming in the Atlantic Ocean",
+    "category": "MIXED",
+    "variations": []
   }
 ]
