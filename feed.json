@@ -1,236 +1,230 @@
 [
   {
-    "id": 126100301,
+    "id": 126100401,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The _____ assisted the pilot during the flight.",
-    "translation": "Yardımcı pilot, uçuş sırasında pilota yardım etti.",
-    "context": "Havacılıkta 'co-pilot' veya 'first officer', uçağın kumandasında pilota yardımcı olan kişidir. Yani senin sağ kolun gibi düşün, o olmadan uçak tek kanatlı kuş gibi olurdu!",
+    "phrase": "The German chancellor made a _____ visit to Kyiv.",
+    "translation": "Sürpriz",
+    "context": "'Surprise visit' dediğimizde, birinin habersizce, pat diye gelmesi durumunu anlatırız. Arkadaşına 'Sana sürpriz bir ziyaret yapacağım!' dersen, muhtemelen kapısını çalana kadar haberi olmayacak demektir. Heyecanlı, değil mi?",
     "options": [
+      "surprise",
+      "quick",
+      "long",
+      "official"
+    ],
+    "correctAnswer": "surprise",
+    "category": "TRAVEL",
+    "variations": [
+      "The team organized a surprise party.",
+      "I received a surprise gift."
+    ]
+  },
+  {
+    "id": 126100402,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The prison chief decided to _____ from his position.",
+    "translation": "İstifa etmek",
+    "context": "Bir işten ayrılmak, istifa etmek anlamına gelir. Patronuna 'İstifa ediyorum!' demek yerine, biraz daha kibarca 'I'm resigning' diyebilirsin. Bazen yeni fırsatlar için, bazen de işler yolunda gitmediği için böyle kararlar alınır.",
+    "options": [
+      "resign",
+      "hire",
+      "start",
+      "promote"
+    ],
+    "correctAnswer": "resign",
+    "category": "BUSINESS",
+    "variations": [
+      "She will resign next month.",
+      "He chose to resign his membership."
+    ]
+  },
+  {
+    "id": 126100403,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The old building might _____ if not repaired soon.",
+    "translation": "Çökmek, yıkılmak",
+    "context": "Bir şeyin kendi ağırlığı altında, aniden yere çökmesi veya yıkılması demektir. Hawaii'deki o güzelim doğal kemer gibi, bazen doğa da 'ben yoruldum' diyebilir! Bir sandviçin bile çok yüksek olursa çökebileceğini düşün. :)",
+    "options": [
+      "collapse",
+      "stand",
+      "build",
+      "grow"
+    ],
+    "correctAnswer": "collapse",
+    "category": "CASUAL",
+    "variations": [
+      "The bridge collapsed in the storm.",
+      "The market collapsed after the crisis."
+    ]
+  },
+  {
+    "id": 126100404,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Our team achieved a great _____ in the final game.",
+    "translation": "Zafer, galibiyet",
+    "context": "Bir yarışmada, maçta ya da mücadelede kazanma, zafer elde etme durumu. Verstappen'ın Grand Prix'de kazandığı gibi! 'Victory' kelimesi, o tatlı kazanma anını ifade eder. Bir sınavdan 100 almak da senin için küçük bir zafer sayılmaz mı?",
+    "options": [
+      "victory",
+      "defeat",
+      "draw",
+      "loss"
+    ],
+    "correctAnswer": "victory",
+    "category": "MIXED",
+    "variations": [
+      "They celebrated their victory.",
+      "It was a narrow victory for them."
+    ]
+  },
+  {
+    "id": 126100405,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The rocket is scheduled to _____ into space next week.",
+    "translation": "Fırlatılmak, uzaya havalanmak",
+    "context": "Bir roketin veya uzay aracının fırlatılması, uzaya doğru havalanması eylemi. Nasa'ya giden öğrenciler gibi, hayallerin de bazen dünyadan kopup 'blast off' yapar! Roket gibi havalanmak, değil mi?",
+    "options": [
+      "blast off",
+      "land",
+      "return",
+      "hover"
+    ],
+    "correctAnswer": "blast off",
+    "category": "TRAVEL",
+    "variations": [
+      "We watched the shuttle blast off.",
+      "The mission will blast off at dawn."
+    ]
+  },
+  {
+    "id": 126100406,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "What does 'NDA' stand for in a business context?",
+    "translation": "Gizlilik Anlaşması",
+    "context": "'NDA', yani 'Non-Disclosure Agreement', bir iş anlaşmasında gizli bilgileri paylaşmamayı taahhüt ettiğin yasal bir belge. Amazon gibi büyük şirketler, bilgilerinin dışarı sızmaması için çok kullanır. Dedikodu yapmanın yasaklandığı özel bir 'sözleşme' gibi düşünebilirsin!",
+    "options": [
+      "New Data Analysis",
+      "Non-Disclosure Agreement",
+      "National Digital Archive",
+      "Next Development Agenda"
+    ],
+    "correctAnswer": "Non-Disclosure Agreement",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126100407,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The champion suffered a _____ defeat in the first round.",
+    "translation": "Şok edici",
+    "context": "'Shock defeat' bir sporcu veya takımın, herkesin kazanacağından emin olduğu bir maçı beklenmedik bir şekilde kaybetmesi durumudur. Favori takımının son saniyede gol yiyip kaybetmesi gibi, insanı şaşkına çeviren bir yenilgi!",
+    "options": [
+      "shock",
+      "easy",
+      "clear",
+      "expected"
+    ],
+    "correctAnswer": "shock",
+    "category": "CASUAL",
+    "variations": [
+      "His sudden loss was a shock defeat.",
+      "The fans were surprised by the shock defeat."
+    ]
+  },
+  {
+    "id": 126100408,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Which word means 'claims or assertions that someone has done something illegal or wrong, typically without proof'?",
+    "translation": "İddialar, isnatlar",
+    "context": "'Allegations', yani iddialar, özellikle birinin yanlış bir şey yaptığını öne süren ama henüz kanıtlanmamış beyanlardır. Cornell Üniversitesi'ndeki gibi olaylarda çok duyarsın. 'Bir iddia var ama henüz kesin değil' demekle aynı mantıkta.",
+    "options": [
+      "facts",
+      "proof",
+      "allegations",
+      "confirmations"
+    ],
+    "correctAnswer": "allegations",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126100409,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The surveillance system was criticized for its _____ collection of data.",
+    "translation": "Ayırt etmeksizin, rastgele",
+    "context": "'Indiscriminate' bir eylemin ayrım yapmadan, rastgele veya hedef gözetmeksizin herkesi veya her şeyi etkilemesi anlamına gelir. Yargıcın 'kitlesel gözetim' için kullandığı gibi. Kime ne olduğunu umursamadan, önüne gelene uygulanan bir yöntem gibi düşün.",
+    "options": [
+      "indiscriminate",
+      "selective",
+      "careful",
+      "precise"
+    ],
+    "correctAnswer": "indiscriminate",
+    "category": "BUSINESS",
+    "variations": [
+      "The bombing was indiscriminate.",
+      "He made indiscriminate choices."
+    ]
+  },
+  {
+    "id": 126100410,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Which word best describes something that is 'flourishing or spreading unchecked; unrestrained'?",
+    "translation": "Dizginlenemez, yaygın",
+    "context": "'Rampant', bir şeyin kontrolsüzce yayıldığını, hızla büyüdüğünü veya bir gücün dizginlenemez olduğunu anlatır. Roosters takımının rakiplerini 'ezip geçtiği' gibi, bazen dedikodular, bazen de kötü bir salgın 'rampant' olabilir. Dur durak bilmeyen bir güç!",
+    "options": [
+      "limited",
+      "controlled",
+      "rampant",
+      "minor"
+    ],
+    "correctAnswer": "rampant",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126100411,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Who assists the main pilot in flying an aircraft?",
+    "translation": "Yardımcı pilot",
+    "context": "'Co-pilot', yani yardımcı pilot, uçağı ana pilotla birlikte kullanan kişidir. Uçakta sadece bir kişi her şeyi yapamaz, değil mi? Tıpkı bir projede liderin yanında ona destek olan 'sağ kol' gibi, uçuşun güvenli ve sorunsuz gitmesi için ana pilotun en büyük yardımcısıdır.",
+    "options": [
+      "flight attendant",
       "co-pilot",
-      "passenger",
-      "steward",
-      "mechanic"
+      "engineer",
+      "navigator"
     ],
     "correctAnswer": "co-pilot",
     "category": "TRAVEL",
-    "variations": [
-      "A co-pilot flies with the main pilot.",
-      "The co-pilot checked all systems."
-    ]
-  },
-  {
-    "id": 126100302,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "They offered a great _____ on the event passes.",
-    "translation": "Etkinlik biletlerinde harika bir fırsat sundular.",
-    "context": "'Deal', günlük dilde 'fırsat' veya 'anlaşma' anlamına gelir. Mesela, en sevdiğin kahvecide 'bugün 2 al 1 öde' kampanyası varsa, işte bu harika bir 'deal' demektir! Kaçırma!",
-    "options": [
-      "deal",
-      "problem",
-      "ticket",
-      "meeting"
-    ],
-    "correctAnswer": "deal",
-    "category": "BUSINESS",
-    "variations": [
-      "The store has many good deals this week.",
-      "We closed a big deal yesterday."
-    ]
-  },
-  {
-    "id": 126100303,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "We plan to watch the _____ this weekend.",
-    "translation": "Bu hafta sonu meteor yağmurunu izlemeyi planlıyoruz.",
-    "context": "Gökyüzünden ateş topları düşüyor gibi görünüyorsa, muhtemelen bir 'meteor shower' (göktaşı yağmuru) izliyorsundur! Dilek dilemeyi unutma, belki şans sana güler!",
-    "options": [
-      "meteor shower",
-      "sun rise",
-      "moon set",
-      "cloud cover"
-    ],
-    "correctAnswer": "meteor shower",
-    "category": "CASUAL",
-    "variations": [
-      "The Orionid meteor shower is very famous.",
-      "Many people love seeing a meteor shower."
-    ]
-  },
-  {
-    "id": 126100304,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Several fans were _____ after the incident.",
-    "translation": "Olaydan sonra birkaç taraftar yaralandı.",
-    "context": "'Injured' demek, bir yerin ağrıyor, kesildi veya bir şekilde hasar gördü demek. Ayağını burkersen veya koşarken düşersen, 'I'm injured!' dersin. Aman dikkatli ol!",
-    "options": [
-      "injured",
-      "happy",
-      "excited",
-      "present"
-    ],
-    "correctAnswer": "injured",
-    "category": "MIXED",
-    "variations": [
-      "The player was injured during the game.",
-      "Many people were injured in the accident."
-    ]
-  },
-  {
-    "id": 126100305,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The old bridge suddenly _____ due to heavy rain.",
-    "translation": "Eski köprü şiddetli yağmur nedeniyle aniden çöktü.",
-    "context": "Bir şeyin 'collapse' etmesi, aniden yere yığılması, çökmesi demek. Yapılar için kullanılır ama bazen çok yorulduğunda 'I might collapse!' (Yığılabilirim!) diyerek kendini de anlatabilirsin.",
-    "options": [
-      "collapses",
-      "stands",
-      "expands",
-      "rises"
-    ],
-    "correctAnswer": "collapses",
-    "category": "TRAVEL",
-    "variations": [
-      "The building will collapse if not repaired.",
-      "The ancient arch collapsed into the sea."
-    ]
-  },
-  {
-    "id": 126100306,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The company decided to _____ new products next month.",
-    "translation": "Şirket gelecek ay yeni ürünler piyasaya sürmeye karar verdi.",
-    "context": "'Release', bir şeyi serbest bırakmak, piyasaya sürmek veya çıkarmak anlamına gelir. Bir şarkıcının yeni albüm 'release' etmesi gibi düşün. Ya da patronunun seni erkenden işten 'release' etmesini dilemek gibi!",
-    "options": [
-      "release",
-      "hold",
-      "hide",
-      "block"
-    ],
-    "correctAnswer": "release",
-    "category": "BUSINESS",
-    "variations": [
-      "The government will release oil reserves.",
-      "They will release the movie in summer."
-    ]
-  },
-  {
-    "id": 126100307,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "My new smartphone is a cool _____ with many features.",
-    "translation": "Yeni akıllı telefonum birçok özelliği olan harika bir alet.",
-    "context": "'Gadget' dediğimiz şey, genellikle küçük, kullanışlı ve biraz da teknolojik bir alet. Akıllı saatinden kahve makinesine kadar her şey bir 'gadget' olabilir. Hayatımızı kolaylaştıran minik oyuncaklar gibiler!",
-    "options": [
-      "gadget",
-      "furniture",
-      "vehicle",
-      "building"
-    ],
-    "correctAnswer": "gadget",
-    "category": "CASUAL",
-    "variations": [
-      "She loves to buy the latest tech gadgets.",
-      "This kitchen gadget makes cooking easier."
-    ]
-  },
-  {
-    "id": 126100308,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The drivers were preparing for _____ in Malaysia.",
-    "translation": "Sürücüler Malezya'da sıralama turlarına hazırlanıyorlardı.",
-    "context": "Formula 1'de 'qualifying' (sıralama turları), yarıştan önce en hızlı tur zamanını belirlemek için yapılan turlardır. Yani takımların 'En hızlı kim?' diye kapıştığı heyecanlı bir ön eleme gibi düşün! Yarışta ilk sırayı kapmak için ter dökerler.",
-    "options": [
-      "qualifying",
-      "dinner",
-      "sightseeing",
-      "shopping"
-    ],
-    "correctAnswer": "qualifying",
-    "category": "MIXED",
-    "variations": [
-      "He set a new record during qualifying.",
-      "The qualifying session was very tight."
-    ]
-  },
-  {
-    "id": 126100309,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "A 'major bridge' is best described as:",
-    "translation": "'Major bridge' en iyi şu şekilde açıklanır:",
-    "context": "'Major bridge', şehirlerin veya bölgelerin ana ulaşım damarlarından biri olan, büyük ve önemli bir köprü demektir. Hani trafiği rahatlatan, iki yakayı bir araya getiren ve onsuz hayatın felç olacağı köprüler var ya, işte onlardan! Stratejik önemi de yüksek olur.",
-    "options": [
-      "a small, local bridge",
-      "a structurally significant and important bridge",
-      "a temporary crossing point",
-      "a bridge only for pedestrians"
-    ],
-    "correctAnswer": "a structurally significant and important bridge",
-    "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126100310,
+    "id": 126100412,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The city council voted to _____ single-use plastic bags.",
-    "translation": "Şehir meclisi tek kullanımlık plastik poşetleri yasaklama kararı aldı.",
-    "context": "'Ban' demek, bir şeyi resmi olarak yasaklamak, kullanımını engellemek demek. Sanki 'HAYIR, bu olamaz!' diyen bir kural gibi. Örneğin, bazı yerlerde sigara içmek 'banned' (yasaklanmıştır) ya da okulda telefon kullanmak 'banned' olabilir.",
+    "phrase": "The new policy caused a strong _____ from the public.",
+    "translation": "Tepki, olumsuz geri dönüş",
+    "context": "'Backlash', bir eylem, karar veya olay sonrasında halktan veya belirli bir gruptan gelen ani ve güçlü tepkiyi ifade eder. Amazon'un veri merkezi olayında yaşadığı gibi, 'Bu olmaz!' diyen büyük bir kalabalık düşün. Sanki bir top duvara çarpıp sana geri dönüyormuş gibi bir etki.",
     "options": [
-      "ban",
-      "allow",
-      "promote",
-      "suggest"
+      "backlash",
+      "support",
+      "approval",
+      "indifference"
     ],
-    "correctAnswer": "ban",
-    "category": "BUSINESS",
-    "variations": [
-      "They want to ban all harmful chemicals.",
-      "The new law will ban certain activities."
-    ]
-  },
-  {
-    "id": 126100311,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The old house received a complete _____ last year.",
-    "translation": "Eski ev geçen yıl baştan aşağı yenilendi.",
-    "context": "'Makeover', bir yerin veya bir kişinin baştan aşağı yenilenmesi, güzelleşmesi anlamına gelir. Salonun renklerini değiştirmekten saç stilini kökten değiştirmeye kadar her şey bir 'makeover' olabilir. Sonuçta her şey daha iyi ve yeni görünür!",
-    "options": [
-      "makeover",
-      "destruction",
-      "preservation",
-      "neglect"
-    ],
-    "correctAnswer": "makeover",
-    "category": "CASUAL",
-    "variations": [
-      "She got a fantastic makeover for the party.",
-      "The park needed a big makeover."
-    ]
-  },
-  {
-    "id": 126100312,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "What are 'Atlantic hurricanes'?",
-    "translation": "'Atlantik kasırgaları' nedir?",
-    "context": "'Atlantic hurricanes' (Atlantik kasırgaları), Atlantik Okyanusu'nda oluşan devasa tropikal fırtınalardır. Rüzgarları saatte 119 km'yi geçen, devasa yağmurlar getiren ve kıyı bölgeleri için gerçek bir baş ağrısı olan bu doğal afetler, adeta okyanusun hırçın çocuklarıdır! Çok yıkıcı olabilirler.",
-    "options": [
-      "Storms occurring only in the Pacific Ocean",
-      "Large tropical storms forming in the Atlantic Ocean",
-      "Small, local thunderstorms in coastal areas",
-      "Mild weather patterns in the Caribbean"
-    ],
-    "correctAnswer": "Large tropical storms forming in the Atlantic Ocean",
+    "correctAnswer": "backlash",
     "category": "MIXED",
-    "variations": []
+    "variations": [
+      "The reform faced considerable backlash.",
+      "There was a widespread backlash against the proposal."
+    ]
   }
 ]
