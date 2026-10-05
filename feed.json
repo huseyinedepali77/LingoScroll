@@ -1,230 +1,236 @@
 [
   {
-    "id": 126100401,
+    "id": 126100501,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The German chancellor made a _____ visit to Kyiv.",
-    "translation": "Sürpriz",
-    "context": "'Surprise visit' dediğimizde, birinin habersizce, pat diye gelmesi durumunu anlatırız. Arkadaşına 'Sana sürpriz bir ziyaret yapacağım!' dersen, muhtemelen kapısını çalana kadar haberi olmayacak demektir. Heyecanlı, değil mi?",
+    "phrase": "The plane landed safely at the _____.",
+    "translation": "Uçak güvenli bir şekilde havaalanına indi.",
+    "context": "Seyahat ederken en sık duyduğun yerlerden biri 'airport'tur. Uçuş öncesi ve sonrası tüm telaşın, heyecanın ve bazen de beklemenin yaşandığı yer burasıdır. Güvenli inişler ise her zaman en iyi haberdir!",
     "options": [
-      "surprise",
-      "quick",
-      "long",
-      "official"
+      "airport",
+      "station",
+      "harbor",
+      "terminal"
     ],
-    "correctAnswer": "surprise",
+    "correctAnswer": "airport",
     "category": "TRAVEL",
     "variations": [
-      "The team organized a surprise party.",
-      "I received a surprise gift."
+      "We will meet at the airport.",
+      "Is the airport far from here?"
     ]
   },
   {
-    "id": 126100402,
+    "id": 126100502,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The prison chief decided to _____ from his position.",
-    "translation": "İstifa etmek",
-    "context": "Bir işten ayrılmak, istifa etmek anlamına gelir. Patronuna 'İstifa ediyorum!' demek yerine, biraz daha kibarca 'I'm resigning' diyebilirsin. Bazen yeni fırsatlar için, bazen de işler yolunda gitmediği için böyle kararlar alınır.",
+    "phrase": "The company decided to _____ its program.",
+    "translation": "Şirket programını dondurmaya karar verdi.",
+    "context": "'Freeze' kelimesi sadece suyun donması demek değil, bazen bir durumu veya bir projeyi geçici olarak durdurmak için de kullanılır. Tıpkı Google'ın AI gönderilerindeki 'significant rise' yüzünden hata ödül programını dondurması gibi!",
     "options": [
-      "resign",
-      "hire",
-      "start",
+      "freeze",
+      "expand",
+      "launch",
+      "change"
+    ],
+    "correctAnswer": "freeze",
+    "category": "BUSINESS",
+    "variations": [
+      "They froze all new projects.",
+      "Can we freeze this decision?"
+    ]
+  },
+  {
+    "id": 126100503,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "That was an _____ pass from the player!",
+    "translation": "Oyuncudan inanılmaz bir pastı!",
+    "context": "Spor haberlerinde veya maç izlerken 'amazing', 'great', 'fantastic' gibi kelimelerle sıkça karşılaşırsın. 'Outrageous' ise biraz daha abartılı, şaşırtıcı ve beklentinin ötesinde bir şeye işaret eder. Jokic'in 'behind-the-back dime'ı tam da öyleydi!",
+    "options": [
+      "amazing",
+      "boring",
+      "slow",
+      "bad"
+    ],
+    "correctAnswer": "amazing",
+    "category": "CASUAL",
+    "variations": [
+      "She had an amazing performance.",
+      "What an amazing goal!"
+    ]
+  },
+  {
+    "id": 126100504,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The prize was _____ for her work.",
+    "translation": "Ödül, çalışması için verildi.",
+    "context": "Bir başarı karşılığında ödül almak veya vermek için 'award' fiilini kullanırız. Tıpkı beyin araştırmalarıyla Nobel Ödülü'ne layık görülen bilim insanları gibi. Başarıların 'awarded' edilmesi her zaman mutluluk verici!",
+    "options": [
+      "awarded",
+      "ignored",
+      "forgotten",
+      "stolen"
+    ],
+    "correctAnswer": "awarded",
+    "category": "MIXED",
+    "variations": [
+      "He was awarded a scholarship.",
+      "They will award the trophy soon."
+    ]
+  },
+  {
+    "id": 126100505,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Students will _____ off to the US for a competition.",
+    "translation": "Öğrenciler bir yarışma için ABD'ye fırlayacaklar.",
+    "context": "'Blast off' genelde uzay roketleri için kullanılır ama buradaki gibi heyecanlı bir yolculuk veya hızlı bir başlangıç için de tercih edilebilir. Nasa robotik yarışmasına katılmak için ABD'ye gitmek, tam da 'blast off' edilecek bir serüven!",
+    "options": [
+      "blast",
+      "walk",
+      "drive",
+      "sail"
+    ],
+    "correctAnswer": "blast",
+    "category": "TRAVEL",
+    "variations": [
+      "The rocket will blast off at dawn.",
+      "He's ready to blast off on his new adventure."
+    ]
+  },
+  {
+    "id": 126100506,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The Prime Minister called an early _____.",
+    "translation": "Başbakan erken seçim çağrısı yaptı.",
+    "context": "Demokratik bir ülkede yönetimde en önemli olaylardan biri 'election'lardır. Bir başbakanın beklenenden önce 'early election' ilan etmesi ise siyasi arenada büyük yankı uyandırır ve gündemi değiştirir. İspanya'daki konut protestoları sonrası yaşanan tam da buydu!",
+    "options": [
+      "election",
+      "meeting",
+      "holiday",
+      "party"
+    ],
+    "correctAnswer": "election",
+    "category": "BUSINESS",
+    "variations": [
+      "The next election is in two years.",
+      "Voting in an election is a right."
+    ]
+  },
+  {
+    "id": 126100507,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "What does 'take me by surprise' mean?",
+    "translation": "Doğru seçenek açıklaması: Beklenmedik bir şekilde birini şaşırtmak.",
+    "context": "Hayatta her zaman planladığımız gibi gitmez her şey. Bazen en beklemediğin anda öyle bir şey olur ki, 'beni tamamen şaşırttı' dersin. Yaban hayatı kameramanının nadir bir manzara karşısında hissettiği tam da bu duygu!",
+    "options": [
+      "To surprise someone unexpectedly.",
+      "To take something without permission.",
+      "To grab someone quickly.",
+      "To escort someone out."
+    ],
+    "correctAnswer": "To surprise someone unexpectedly.",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126100508,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "El Niño might _____ there are fewer hurricanes.",
+    "translation": "El Niño, daha az kasırga olabileceği anlamına gelebilir.",
+    "context": "'Mean' kelimesi çok basit gibi görünse de, İngilizcede anlamı geniş bir kelimedir. 'Anlamına gelmek' derken, bir durumun başka bir durumu nasıl etkileyebileceğini veya işaret edebileceğini anlatmak için kullanılır. El Niño'nun Atlantik kasırgaları üzerindeki etkisi gibi!",
+    "options": [
+      "mean",
+      "think",
+      "believe",
+      "hope"
+    ],
+    "correctAnswer": "mean",
+    "category": "MIXED",
+    "variations": [
+      "What does this word mean?",
+      "Does this mean we can go?"
+    ]
+  },
+  {
+    "id": 126100509,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The co-pilot allegedly planned to _____ the plane.",
+    "translation": "Yardımcı pilotun uçağı düşürmeyi planladığı iddia edildi.",
+    "context": "'Crash' kelimesi sadece araba kazaları için değil, uçaklar veya herhangi bir sistem için de kullanılır. Bir uçağın 'crash' etmesi en korkutucu senaryolardan biridir. Bu haberdeki iddia ise gerçekten tüyler ürperticiydi.",
+    "options": [
+      "crash",
+      "land",
+      "repair",
+      "guide"
+    ],
+    "correctAnswer": "crash",
+    "category": "TRAVEL",
+    "variations": [
+      "The car crashed into a tree.",
+      "His computer crashed again."
+    ]
+  },
+  {
+    "id": 126100510,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The city decided to _____ in the number of robotaxis.",
+    "translation": "Şehir, robotaksilerin sayısını kontrol altına almaya karar verdi.",
+    "context": "'Rein in' deyimi, bir atın dizginlerini çekerek kontrol altına almak gibi, bir şeyi sınırlamak veya kontrol etmek anlamında kullanılır. Robotaksiler yaygınlaşırken, şehirlerin onları 'rein in' etmek istemesi gayet mantıklı!",
+    "options": [
+      "rein",
+      "increase",
+      "ignore",
       "promote"
     ],
-    "correctAnswer": "resign",
+    "correctAnswer": "rein",
     "category": "BUSINESS",
     "variations": [
-      "She will resign next month.",
-      "He chose to resign his membership."
+      "We need to rein in our spending.",
+      "The government aims to rein in inflation."
     ]
   },
   {
-    "id": 126100403,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The old building might _____ if not repaired soon.",
-    "translation": "Çökmek, yıkılmak",
-    "context": "Bir şeyin kendi ağırlığı altında, aniden yere çökmesi veya yıkılması demektir. Hawaii'deki o güzelim doğal kemer gibi, bazen doğa da 'ben yoruldum' diyebilir! Bir sandviçin bile çok yüksek olursa çökebileceğini düşün. :)",
-    "options": [
-      "collapse",
-      "stand",
-      "build",
-      "grow"
-    ],
-    "correctAnswer": "collapse",
-    "category": "CASUAL",
-    "variations": [
-      "The bridge collapsed in the storm.",
-      "The market collapsed after the crisis."
-    ]
-  },
-  {
-    "id": 126100404,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Our team achieved a great _____ in the final game.",
-    "translation": "Zafer, galibiyet",
-    "context": "Bir yarışmada, maçta ya da mücadelede kazanma, zafer elde etme durumu. Verstappen'ın Grand Prix'de kazandığı gibi! 'Victory' kelimesi, o tatlı kazanma anını ifade eder. Bir sınavdan 100 almak da senin için küçük bir zafer sayılmaz mı?",
-    "options": [
-      "victory",
-      "defeat",
-      "draw",
-      "loss"
-    ],
-    "correctAnswer": "victory",
-    "category": "MIXED",
-    "variations": [
-      "They celebrated their victory.",
-      "It was a narrow victory for them."
-    ]
-  },
-  {
-    "id": 126100405,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The rocket is scheduled to _____ into space next week.",
-    "translation": "Fırlatılmak, uzaya havalanmak",
-    "context": "Bir roketin veya uzay aracının fırlatılması, uzaya doğru havalanması eylemi. Nasa'ya giden öğrenciler gibi, hayallerin de bazen dünyadan kopup 'blast off' yapar! Roket gibi havalanmak, değil mi?",
-    "options": [
-      "blast off",
-      "land",
-      "return",
-      "hover"
-    ],
-    "correctAnswer": "blast off",
-    "category": "TRAVEL",
-    "variations": [
-      "We watched the shuttle blast off.",
-      "The mission will blast off at dawn."
-    ]
-  },
-  {
-    "id": 126100406,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "What does 'NDA' stand for in a business context?",
-    "translation": "Gizlilik Anlaşması",
-    "context": "'NDA', yani 'Non-Disclosure Agreement', bir iş anlaşmasında gizli bilgileri paylaşmamayı taahhüt ettiğin yasal bir belge. Amazon gibi büyük şirketler, bilgilerinin dışarı sızmaması için çok kullanır. Dedikodu yapmanın yasaklandığı özel bir 'sözleşme' gibi düşünebilirsin!",
-    "options": [
-      "New Data Analysis",
-      "Non-Disclosure Agreement",
-      "National Digital Archive",
-      "Next Development Agenda"
-    ],
-    "correctAnswer": "Non-Disclosure Agreement",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126100407,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The champion suffered a _____ defeat in the first round.",
-    "translation": "Şok edici",
-    "context": "'Shock defeat' bir sporcu veya takımın, herkesin kazanacağından emin olduğu bir maçı beklenmedik bir şekilde kaybetmesi durumudur. Favori takımının son saniyede gol yiyip kaybetmesi gibi, insanı şaşkına çeviren bir yenilgi!",
-    "options": [
-      "shock",
-      "easy",
-      "clear",
-      "expected"
-    ],
-    "correctAnswer": "shock",
-    "category": "CASUAL",
-    "variations": [
-      "His sudden loss was a shock defeat.",
-      "The fans were surprised by the shock defeat."
-    ]
-  },
-  {
-    "id": 126100408,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Which word means 'claims or assertions that someone has done something illegal or wrong, typically without proof'?",
-    "translation": "İddialar, isnatlar",
-    "context": "'Allegations', yani iddialar, özellikle birinin yanlış bir şey yaptığını öne süren ama henüz kanıtlanmamış beyanlardır. Cornell Üniversitesi'ndeki gibi olaylarda çok duyarsın. 'Bir iddia var ama henüz kesin değil' demekle aynı mantıkta.",
-    "options": [
-      "facts",
-      "proof",
-      "allegations",
-      "confirmations"
-    ],
-    "correctAnswer": "allegations",
-    "category": "MIXED",
-    "variations": []
-  },
-  {
-    "id": 126100409,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The surveillance system was criticized for its _____ collection of data.",
-    "translation": "Ayırt etmeksizin, rastgele",
-    "context": "'Indiscriminate' bir eylemin ayrım yapmadan, rastgele veya hedef gözetmeksizin herkesi veya her şeyi etkilemesi anlamına gelir. Yargıcın 'kitlesel gözetim' için kullandığı gibi. Kime ne olduğunu umursamadan, önüne gelene uygulanan bir yöntem gibi düşün.",
-    "options": [
-      "indiscriminate",
-      "selective",
-      "careful",
-      "precise"
-    ],
-    "correctAnswer": "indiscriminate",
-    "category": "BUSINESS",
-    "variations": [
-      "The bombing was indiscriminate.",
-      "He made indiscriminate choices."
-    ]
-  },
-  {
-    "id": 126100410,
+    "id": 126100511,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Which word best describes something that is 'flourishing or spreading unchecked; unrestrained'?",
-    "translation": "Dizginlenemez, yaygın",
-    "context": "'Rampant', bir şeyin kontrolsüzce yayıldığını, hızla büyüdüğünü veya bir gücün dizginlenemez olduğunu anlatır. Roosters takımının rakiplerini 'ezip geçtiği' gibi, bazen dedikodular, bazen de kötü bir salgın 'rampant' olabilir. Dur durak bilmeyen bir güç!",
+    "phrase": "What does 'pull off an outrageous dime' imply?",
+    "translation": "Doğru seçenek açıklaması: İnanılmaz etkileyici ve gösterişli bir şey başarmak.",
+    "context": "Spor yorumcularının favori ifadelerinden biri! 'Pull off' bir şeyi başarmak, 'outrageous' inanılmaz derecede şaşırtıcı, 'dime' ise basketbolda mükemmel bir asist demek. Jokic'in yaptığı gibi, izleyeni koltuğundan sıçratan bir hareketi anlatır!",
     "options": [
-      "limited",
-      "controlled",
-      "rampant",
-      "minor"
+      "To achieve something incredibly impressive and flashy.",
+      "To make a very small mistake in a game.",
+      "To steal a coin from an opponent.",
+      "To perform a simple and common action."
     ],
-    "correctAnswer": "rampant",
+    "correctAnswer": "To achieve something incredibly impressive and flashy.",
     "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126100411,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Who assists the main pilot in flying an aircraft?",
-    "translation": "Yardımcı pilot",
-    "context": "'Co-pilot', yani yardımcı pilot, uçağı ana pilotla birlikte kullanan kişidir. Uçakta sadece bir kişi her şeyi yapamaz, değil mi? Tıpkı bir projede liderin yanında ona destek olan 'sağ kol' gibi, uçuşun güvenli ve sorunsuz gitmesi için ana pilotun en büyük yardımcısıdır.",
-    "options": [
-      "flight attendant",
-      "co-pilot",
-      "engineer",
-      "navigator"
-    ],
-    "correctAnswer": "co-pilot",
-    "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126100412,
+    "id": 126100512,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The new policy caused a strong _____ from the public.",
-    "translation": "Tepki, olumsuz geri dönüş",
-    "context": "'Backlash', bir eylem, karar veya olay sonrasında halktan veya belirli bir gruptan gelen ani ve güçlü tepkiyi ifade eder. Amazon'un veri merkezi olayında yaşadığı gibi, 'Bu olmaz!' diyen büyük bir kalabalık düşün. Sanki bir top duvara çarpıp sana geri dönüyormuş gibi bir etki.",
+    "phrase": "AI companies signed a non-binding _____ pact.",
+    "translation": "Yapay zeka şirketleri bağlayıcı olmayan bir güvenlik anlaşması imzaladı.",
+    "context": "Teknolojinin hızla geliştiği bir çağda 'safety' her zamankinden daha önemli. Özellikle yapay zeka gibi potansiyeli yüksek ama riskleri de olabilecek alanlarda, şirketlerin bir 'safety pact' (güvenlik anlaşması) imzalaması büyük bir adım.",
     "options": [
-      "backlash",
-      "support",
-      "approval",
-      "indifference"
+      "safety",
+      "profit",
+      "competition",
+      "merger"
     ],
-    "correctAnswer": "backlash",
+    "correctAnswer": "safety",
     "category": "MIXED",
     "variations": [
-      "The reform faced considerable backlash.",
-      "There was a widespread backlash against the proposal."
+      "They prioritize safety above all else.",
+      "Is this device's safety guaranteed?"
     ]
   }
 ]
