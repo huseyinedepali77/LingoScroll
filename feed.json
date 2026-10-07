@@ -1,236 +1,230 @@
 [
   {
-    "id": 126100501,
+    "id": 126100701,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The plane landed safely at the _____.",
-    "translation": "Uçak güvenli bir şekilde havaalanına indi.",
-    "context": "Seyahat ederken en sık duyduğun yerlerden biri 'airport'tur. Uçuş öncesi ve sonrası tüm telaşın, heyecanın ve bazen de beklemenin yaşandığı yer burasıdır. Güvenli inişler ise her zaman en iyi haberdir!",
+    "phrase": "After a long day, I feel completely _____.",
+    "translation": "Çok yorgun.",
+    "context": "Bu kelime, uzun bir günün veya zorlu bir aktivitenin sonunda enerji tamamen bitmiş hissetmek için kullanılır. 'Pili bitmiş' gibi düşünebilirsin. Sabah kahveni içmeden önce veya cuma akşamı iş çıkışı hissettiğin o bitkinlik hali tam da bu!",
     "options": [
-      "airport",
-      "station",
-      "harbor",
-      "terminal"
+      "drained",
+      "happy",
+      "excited",
+      "energetic"
     ],
-    "correctAnswer": "airport",
-    "category": "TRAVEL",
-    "variations": [
-      "We will meet at the airport.",
-      "Is the airport far from here?"
-    ]
-  },
-  {
-    "id": 126100502,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The company decided to _____ its program.",
-    "translation": "Şirket programını dondurmaya karar verdi.",
-    "context": "'Freeze' kelimesi sadece suyun donması demek değil, bazen bir durumu veya bir projeyi geçici olarak durdurmak için de kullanılır. Tıpkı Google'ın AI gönderilerindeki 'significant rise' yüzünden hata ödül programını dondurması gibi!",
-    "options": [
-      "freeze",
-      "expand",
-      "launch",
-      "change"
-    ],
-    "correctAnswer": "freeze",
-    "category": "BUSINESS",
-    "variations": [
-      "They froze all new projects.",
-      "Can we freeze this decision?"
-    ]
-  },
-  {
-    "id": 126100503,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "That was an _____ pass from the player!",
-    "translation": "Oyuncudan inanılmaz bir pastı!",
-    "context": "Spor haberlerinde veya maç izlerken 'amazing', 'great', 'fantastic' gibi kelimelerle sıkça karşılaşırsın. 'Outrageous' ise biraz daha abartılı, şaşırtıcı ve beklentinin ötesinde bir şeye işaret eder. Jokic'in 'behind-the-back dime'ı tam da öyleydi!",
-    "options": [
-      "amazing",
-      "boring",
-      "slow",
-      "bad"
-    ],
-    "correctAnswer": "amazing",
+    "correctAnswer": "drained",
     "category": "CASUAL",
     "variations": [
-      "She had an amazing performance.",
-      "What an amazing goal!"
+      "I was so drained after the exam.",
+      "She feels drained after her workout."
     ]
   },
   {
-    "id": 126100504,
+    "id": 126100702,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The prize was _____ for her work.",
-    "translation": "Ödül, çalışması için verildi.",
-    "context": "Bir başarı karşılığında ödül almak veya vermek için 'award' fiilini kullanırız. Tıpkı beyin araştırmalarıyla Nobel Ödülü'ne layık görülen bilim insanları gibi. Başarıların 'awarded' edilmesi her zaman mutluluk verici!",
+    "phrase": "The company offered him a new _____.",
+    "translation": "Sözleşme.",
+    "context": "İş hayatında veya bir anlaşma yaparken imzalanan yazılı belgeye 'contract' denir. Futbolcular, şirket çalışanları, hatta ev kiralayanlar bile bir 'contract' imzalarlar. Yani, iki tarafın ne yapacağını belirten resmi bir kağıt parçası!",
     "options": [
-      "awarded",
-      "ignored",
-      "forgotten",
-      "stolen"
+      "contract",
+      "party",
+      "game",
+      "break"
     ],
-    "correctAnswer": "awarded",
-    "category": "MIXED",
-    "variations": [
-      "He was awarded a scholarship.",
-      "They will award the trophy soon."
-    ]
-  },
-  {
-    "id": 126100505,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Students will _____ off to the US for a competition.",
-    "translation": "Öğrenciler bir yarışma için ABD'ye fırlayacaklar.",
-    "context": "'Blast off' genelde uzay roketleri için kullanılır ama buradaki gibi heyecanlı bir yolculuk veya hızlı bir başlangıç için de tercih edilebilir. Nasa robotik yarışmasına katılmak için ABD'ye gitmek, tam da 'blast off' edilecek bir serüven!",
-    "options": [
-      "blast",
-      "walk",
-      "drive",
-      "sail"
-    ],
-    "correctAnswer": "blast",
-    "category": "TRAVEL",
-    "variations": [
-      "The rocket will blast off at dawn.",
-      "He's ready to blast off on his new adventure."
-    ]
-  },
-  {
-    "id": 126100506,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The Prime Minister called an early _____.",
-    "translation": "Başbakan erken seçim çağrısı yaptı.",
-    "context": "Demokratik bir ülkede yönetimde en önemli olaylardan biri 'election'lardır. Bir başbakanın beklenenden önce 'early election' ilan etmesi ise siyasi arenada büyük yankı uyandırır ve gündemi değiştirir. İspanya'daki konut protestoları sonrası yaşanan tam da buydu!",
-    "options": [
-      "election",
-      "meeting",
-      "holiday",
-      "party"
-    ],
-    "correctAnswer": "election",
+    "correctAnswer": "contract",
     "category": "BUSINESS",
     "variations": [
-      "The next election is in two years.",
-      "Voting in an election is a right."
+      "He signed a two-year contract.",
+      "Always read your contract carefully."
     ]
   },
   {
-    "id": 126100507,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "What does 'take me by surprise' mean?",
-    "translation": "Doğru seçenek açıklaması: Beklenmedik bir şekilde birini şaşırtmak.",
-    "context": "Hayatta her zaman planladığımız gibi gitmez her şey. Bazen en beklemediğin anda öyle bir şey olur ki, 'beni tamamen şaşırttı' dersin. Yaban hayatı kameramanının nadir bir manzara karşısında hissettiği tam da bu duygu!",
-    "options": [
-      "To surprise someone unexpectedly.",
-      "To take something without permission.",
-      "To grab someone quickly.",
-      "To escort someone out."
-    ],
-    "correctAnswer": "To surprise someone unexpectedly.",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126100508,
+    "id": 126100703,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "El Niño might _____ there are fewer hurricanes.",
-    "translation": "El Niño, daha az kasırga olabileceği anlamına gelebilir.",
-    "context": "'Mean' kelimesi çok basit gibi görünse de, İngilizcede anlamı geniş bir kelimedir. 'Anlamına gelmek' derken, bir durumun başka bir durumu nasıl etkileyebileceğini veya işaret edebileceğini anlatmak için kullanılır. El Niño'nun Atlantik kasırgaları üzerindeki etkisi gibi!",
+    "level": "BEGINNER",
+    "phrase": "The airline plans to _____ its routes next year.",
+    "translation": "Genişletmek, yayılmak.",
+    "context": "Bir şeyin boyutunu, kapsamını veya ulaştığı yerleri artırmak anlamına gelir. Hava yolları yeni şehirlere uçuş ağını 'expand' ederken, bir dükkan da yeni şubeler açarak 'expand' edebilir. Büyümek, yayılmak demek aslında!",
     "options": [
-      "mean",
-      "think",
-      "believe",
-      "hope"
+      "expands",
+      "shrinks",
+      "closes",
+      "stops"
     ],
-    "correctAnswer": "mean",
-    "category": "MIXED",
-    "variations": [
-      "What does this word mean?",
-      "Does this mean we can go?"
-    ]
-  },
-  {
-    "id": 126100509,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The co-pilot allegedly planned to _____ the plane.",
-    "translation": "Yardımcı pilotun uçağı düşürmeyi planladığı iddia edildi.",
-    "context": "'Crash' kelimesi sadece araba kazaları için değil, uçaklar veya herhangi bir sistem için de kullanılır. Bir uçağın 'crash' etmesi en korkutucu senaryolardan biridir. Bu haberdeki iddia ise gerçekten tüyler ürperticiydi.",
-    "options": [
-      "crash",
-      "land",
-      "repair",
-      "guide"
-    ],
-    "correctAnswer": "crash",
+    "correctAnswer": "expands",
     "category": "TRAVEL",
     "variations": [
-      "The car crashed into a tree.",
-      "His computer crashed again."
+      "Our team is expanding rapidly.",
+      "The universe continues to expand."
     ]
   },
   {
-    "id": 126100510,
+    "id": 126100704,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The city decided to _____ in the number of robotaxis.",
-    "translation": "Şehir, robotaksilerin sayısını kontrol altına almaya karar verdi.",
-    "context": "'Rein in' deyimi, bir atın dizginlerini çekerek kontrol altına almak gibi, bir şeyi sınırlamak veya kontrol etmek anlamında kullanılır. Robotaksiler yaygınlaşırken, şehirlerin onları 'rein in' etmek istemesi gayet mantıklı!",
+    "level": "BEGINNER",
+    "phrase": "Many people joined the _____ against the new law.",
+    "translation": "Protesto, gösteri.",
+    "context": "İnsanların bir fikir, karar veya durumu beğenmediklerini, değiştirmek istediklerini belirtmek için toplu halde yaptıkları gösterilere 'protest' denir. Yürüyüşler, slogan atmalar... Hepsi bir 'protest' şeklidir. Haklarını arayan kalabalıklar!",
     "options": [
-      "rein",
-      "increase",
+      "protests",
+      "parties",
+      "meetings",
+      "holidays"
+    ],
+    "correctAnswer": "protests",
+    "category": "MIXED/GENERAL",
+    "variations": [
+      "Student protests sometimes turn violent.",
+      "They organized a peaceful protest."
+    ]
+  },
+  {
+    "id": 126100705,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The community had to _____ how to rebuild their lives.",
+    "translation": "Başa çıkmak, mücadele etmek.",
+    "context": "Zor bir sorun veya durumla uğraşmak, onu anlamaya veya çözmeye çalışmak demektir. Kafanın karıştığı, içinden çıkamadığın bir durumla boğuşurken 'grapple with' terimini kullanabilirsin. Adeta bir güreşçi gibi sorunla pençeleşmek!",
+    "options": [
+      "grapple with",
       "ignore",
-      "promote"
+      "celebrate",
+      "forget"
     ],
-    "correctAnswer": "rein",
-    "category": "BUSINESS",
+    "correctAnswer": "grapple with",
+    "category": "CASUAL",
     "variations": [
-      "We need to rein in our spending.",
-      "The government aims to rein in inflation."
+      "She is grappling with the decision.",
+      "Scientists grapple with complex theories."
     ]
   },
   {
-    "id": 126100511,
+    "id": 126100706,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "They decided on _____ the old project and starting fresh.",
+    "translation": "Vazgeçmek, hurdaya çıkarmak.",
+    "context": "Bir planı, ürünü veya projeyi tamamen iptal etmek, vazgeçmek anlamına gelir. Hani bazen bir şeyler yaparız, sonra 'Bu olmadı, en iyisi baştan başlamak' deriz ya, işte o! Sanki eskiyi atıp yenisine başlamak gibi.",
+    "options": [
+      "scrapping",
+      "finishing",
+      "improving",
+      "launching"
+    ],
+    "correctAnswer": "scrapping",
+    "category": "BUSINESS",
+    "variations": [
+      "The company scrapped the entire design.",
+      "We had to scrap our travel plans."
+    ]
+  },
+  {
+    "id": 126100707,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "What does 'to seed clouds' mean?",
+    "translation": "Bulutları tohumlamak ne anlama gelir?",
+    "context": "Hani bazen kuraklık olur, yağmur duasına çıkılır ya, işte bu da onun bilimsel versiyonu! Uçak veya dronlar yardımıyla bulutlara özel kimyasallar (gümüş iyodür gibi) püskürterek yağmur yağdırma sürecini hızlandırmaya 'seed clouds' denir. İnsanoğlu yağmuru kendi eliyle indirmeye çalışıyor, inanılır gibi değil!",
+    "options": [
+      "To plant seeds in the sky.",
+      "To make clouds disappear.",
+      "To encourage rain by adding particles to clouds.",
+      "To study cloud formations closely."
+    ],
+    "correctAnswer": "To encourage rain by adding particles to clouds.",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126100708,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "With a _____, you can unlock your door using your phone.",
+    "translation": "Akıllı kilit.",
+    "context": "Geleceğin kapıları artık akıllı! Bu kilitler sayesinde anahtar derdi bitiyor. Telefonundan, parmak izinden veya sesli komutla kapını açıp kapatabiliyorsun. Misafirlere uzaktan erişim izni bile verebilirsin. Evin artık daha güvenli ve teknolojik bir kale!",
+    "options": [
+      "smart lock",
+      "old key",
+      "door handle",
+      "basic lock"
+    ],
+    "correctAnswer": "smart lock",
+    "category": "MIXED/GENERAL",
+    "variations": [
+      "He installed a new smart lock.",
+      "Smart locks offer greater security."
+    ]
+  },
+  {
+    "id": 126100709,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "What does 'pull off an outrageous dime' imply?",
-    "translation": "Doğru seçenek açıklaması: İnanılmaz etkileyici ve gösterişli bir şey başarmak.",
-    "context": "Spor yorumcularının favori ifadelerinden biri! 'Pull off' bir şeyi başarmak, 'outrageous' inanılmaz derecede şaşırtıcı, 'dime' ise basketbolda mükemmel bir asist demek. Jokic'in yaptığı gibi, izleyeni koltuğundan sıçratan bir hareketi anlatır!",
+    "phrase": "What describes 'serial winners' best?",
+    "translation": "Seri kazananlar neyi en iyi tanımlar?",
+    "context": "Bu terim, sürekli ve art arda zaferler kazanan takımlar veya bireyler için kullanılır. Sıradan bir galibiyet değil, adeta bir alışkanlık haline gelmiş bir kazanma durumu! Şampiyonlukları arka arkaya dizen, rakiplerine korku salan o efsane takımları veya sporcuları düşün. Kazanmak onların DNA'sına işlemiş!",
     "options": [
-      "To achieve something incredibly impressive and flashy.",
-      "To make a very small mistake in a game.",
-      "To steal a coin from an opponent.",
-      "To perform a simple and common action."
+      "Teams that win only one match.",
+      "Individuals who lose frequently.",
+      "Teams or people who consistently achieve victories.",
+      "Athletes who only compete for fun."
     ],
-    "correctAnswer": "To achieve something incredibly impressive and flashy.",
+    "correctAnswer": "Teams or people who consistently achieve victories.",
     "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126100512,
+    "id": 126100710,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "AI companies signed a non-binding _____ pact.",
-    "translation": "Yapay zeka şirketleri bağlayıcı olmayan bir güvenlik anlaşması imzaladı.",
-    "context": "Teknolojinin hızla geliştiği bir çağda 'safety' her zamankinden daha önemli. Özellikle yapay zeka gibi potansiyeli yüksek ama riskleri de olabilecek alanlarda, şirketlerin bir 'safety pact' (güvenlik anlaşması) imzalaması büyük bir adım.",
+    "phrase": "Two big tech companies are _____ to develop new products.",
+    "translation": "Ortaklık yapmak, iş birliği yapmak.",
+    "context": "İki veya daha fazla şirketin, kurumun veya kişinin ortak bir amaç doğrultusunda birlikte çalışması anlamına gelir. Genellikle yeni bir ürün geliştirmek, pazara girmek veya daha büyük bir projeyi tamamlamak için güçlerini birleştirirler. 'Senin gücün + benim gücüm = süper güç' denklemi gibi düşünebilirsin!",
     "options": [
-      "safety",
-      "profit",
-      "competition",
-      "merger"
+      "partnering",
+      "competing",
+      "ignoring",
+      "dividing"
     ],
-    "correctAnswer": "safety",
-    "category": "MIXED",
+    "correctAnswer": "partnering",
+    "category": "BUSINESS",
     "variations": [
-      "They prioritize safety above all else.",
-      "Is this device's safety guaranteed?"
+      "They are partnering on a new venture.",
+      "Our company is partnering with a local charity."
     ]
+  },
+  {
+    "id": 126100711,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "A 'kibbutz' is a type of community mostly found in which country?",
+    "translation": "Bir 'kibbutz' en çok hangi ülkede bulunan bir topluluk türüdür?",
+    "context": "Duymayan kalmasın! 'Kibbutz', İsrail'de yaygın olan, genellikle tarıma dayalı, kolektif bir yaşam biçimine sahip topluluklara verilen addır. Herkesin birlikte çalıştığı, kazançların ve kaynakların paylaşıldığı, adeta büyük bir aile gibi yaşanılan yerlerdir. Hem tarihsel hem de kültürel olarak İsrail için çok özel bir öneme sahiptir.",
+    "options": [
+      "Japan",
+      "Brazil",
+      "Israel",
+      "Canada"
+    ],
+    "correctAnswer": "Israel",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126100712,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "What is the best definition for 'asymmetry'?",
+    "translation": "Asimetri için en iyi tanım nedir?",
+    "context": "Bu kelime 'simetri' kelimesinin tam zıttı! Yani bir şeyin iki yarısının birbiriyle eşleşmemesi, denge veya düzen olmaması durumu. Doğada, sanatta, hatta insan vücudunda bile asimetrik yapılar görebiliriz. Mükemmel bir şekilde dengeli olmayan, kendine has bir düzensizliği olan her şeye 'asymmetric' diyebiliriz. Mesela, çoğu insanın yüzü hafifçe asimetriktir.",
+    "options": [
+      "Perfect balance and harmony.",
+      "A state of perfect symmetry.",
+      "Lack of symmetry or balance.",
+      "An arrangement of equal parts."
+    ],
+    "correctAnswer": "Lack of symmetry or balance.",
+    "category": "MIXED/GENERAL",
+    "variations": []
   }
 ]
