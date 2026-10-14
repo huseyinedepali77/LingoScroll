@@ -1,226 +1,229 @@
 [
   {
-    "id": 126101001,
+    "id": 126101401,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The hurricane made _____ in Florida.",
-    "translation": "Karaya iniş, karaya ulaşma",
-    "context": "Bir fırtınanın karaya ilk ulaştığı anı 'landfall' deriz. Tıpkı bir uçağın havaalanına iniş yapması gibi, fırtına da denizdeyken karayla buluşur. Yani, fırtına 'toprakla öpüştü' diyebiliriz!",
+    "phrase": "The city lost _____ after the storm.",
+    "translation": "Şehir fırtınadan sonra elektriksiz kaldı.",
+    "context": "'Power' kelimesi sadece fiziksel güç anlamına gelmez, aynı zamanda elektrik veya bir şeyi çalıştırmak için gereken enerji anlamına da gelir. Mesela, 'My phone ran out of power!' dediğinde, telefonunun şarjının bittiğini söylersin. Ya da bir elektrik kesintisi olduğunda, 'The whole neighborhood is without power' (Tüm mahalle elektriksiz) diyebilirsin. Haydi şimdi enerjini topla ve bu kelimeyi cebine at!",
     "options": [
-      "landfall",
-      "seashore",
-      "coastline",
-      "waterfall"
+      "power",
+      "force",
+      "might",
+      "energy"
     ],
-    "correctAnswer": "landfall",
-    "category": "TRAVEL",
+    "correctAnswer": "power",
+    "category": "CASUAL",
     "variations": [
-      "The storm's landfall caused severe damage.",
-      "We prepared for the hurricane's landfall."
+      "The entire street lost _____ for hours.",
+      "We need more _____ to run this machine."
     ]
   },
   {
-    "id": 126101002,
+    "id": 126101402,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "They reached a _____ to lower fuel prices.",
-    "translation": "Anlaşma",
-    "context": "İş dünyasında iki tarafın bir konuda anlaşmasına 'deal' denir. Tıpkı pazarda limon alırken satıcıyla fiyat konusunda anlaştığın gibi! Genellikle 'big deal' (büyük anlaşma) veya 'good deal' (iyi anlaşma) olarak duyabilirsin.",
+    "phrase": "Many big _____ operate globally now.",
+    "translation": "Birçok büyük şirket artık küresel olarak faaliyet gösteriyor.",
+    "context": "'Company', bildiğin üzere şirket demek. Ama sadece iş yeri değil, bazen 'I enjoy your company' (Senin arkadaşlığından hoşlanıyorum) gibi bir topluluğu ya da arkadaşlığı da ifade edebilir. İş dünyasında ise 'company car' (şirket arabası) ya da 'start-up company' (yeni kurulan şirket) gibi birçok farklı kalıpta karşımıza çıkar. Eğer bir gün kendi şirketini kurarsan, umarız bu kelime sana uğur getirir!",
     "options": [
-      "deal",
-      "fight",
-      "break",
-      "call"
+      "companies",
+      "groups",
+      "firms",
+      "businesses"
     ],
-    "correctAnswer": "deal",
+    "correctAnswer": "companies",
     "category": "BUSINESS",
     "variations": [
-      "The company signed a new deal.",
-      "It was a fair deal for both parties."
+      "She works for a tech _____.",
+      "Our _____ is growing fast this year."
     ]
   },
   {
-    "id": 126101003,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "'Zelensky calls it a gift to Putin.' Cümlesindeki 'gift' kelimesinin anlamı nedir?",
-    "translation": "hediye",
-    "context": "'Gift' kelimesi günlük hayatta en çok kullandığımız kelimelerden biri. Doğum gününde sana verilen ya da arkadaşına aldığın herhangi bir şeye 'gift' denir. Sadece eşya olmak zorunda değil; bazen bir yetenek için 'natural gift' (doğal yetenek) de diyebiliriz. Mesela, şarkı söyleme yeteneği bir 'gift' olabilir!",
-    "options": [
-      "hedef",
-      "hazine",
-      "hediye",
-      "haber"
-    ],
-    "correctAnswer": "hediye",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126101004,
+    "id": 126101403,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The All Blacks secured a big _____ against Australia.",
-    "translation": "Galibiyet, zafer",
-    "context": "Spor müsabakalarında bir takımın maçı kazanmasına 'win' deriz. Futbolda, basketbolda, hatta bir yarışmada birinci olduğunda bile 'win' kelimesini kullanabilirsin. Kaybetmenin zıddıdır ve çoğu zaman büyük bir sevinçle karşılanır!",
+    "phrase": "The old lighthouse stands _____ the island.",
+    "translation": "Eski deniz feneri adanın açıklarında duruyor.",
+    "context": "'Off coast', bir yerin 'kıyısının açıklarında' demek. Yani karadan biraz uzakta, denizin içinde bir yer. Mesela bir ada kıyıya yakın ama karanın bir parçası değilse, 'It's an island off the coast' dersin. Tatilde tekne turu yaparken veya balık tutarken bu ifadeyi sıkça duyabilirsin. Gözünü ufuktan ayırma, belki sen de gizli bir adaya rastlarsın!",
     "options": [
-      "win",
-      "lose",
-      "draw",
-      "game"
+      "off coast of",
+      "on shore of",
+      "near border of",
+      "beside land of"
     ],
-    "correctAnswer": "win",
+    "correctAnswer": "off coast of",
+    "category": "TRAVEL",
+    "variations": [
+      "They found a new species _____ Africa.",
+      "The ship sank _____ the city."
+    ]
+  },
+  {
+    "id": 126101404,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The weather service issued a storm _____.",
+    "translation": "Hava durumu servisi bir fırtına uyarısı yayınladı.",
+    "context": "'Warning', bir tehlikeye karşı yapılan uyarı demek. Tıpkı hava durumunda fırtına uyarısı gibi, trafikte 'speed warning' (hız uyarısı) veya bir ürün kullanırken 'health warning' (sağlık uyarısı) görebilirsin. Bu kelime sana dikkatli olmanı fısıldar. Hayatta hep tetikte ol, ama bazen de uyarıları görmezden gelip maceralara atılmak güzel olabilir! Tabii çok tehlikeli değilse...",
+    "options": [
+      "warning",
+      "advice",
+      "notice",
+      "alert"
+    ],
+    "correctAnswer": "warning",
     "category": "MIXED",
     "variations": [
-      "Our team hopes to win the championship.",
-      "They celebrated their unexpected win."
+      "Please heed the _____ signs.",
+      "A shark _____ was posted on the beach."
     ]
   },
   {
-    "id": 126101005,
+    "id": 126101405,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The attacker began a _____ towards extremism.",
-    "translation": "Sürükleniş, kayış",
-    "context": "'Drift' kelimesi, bir şeyin yavaşça veya kontrolsüzce bir yöne doğru hareket etmesi veya değişmesidir. Tıpkı denizde akıntıyla sürüklenen bir şişe gibi, kişi de düşünce veya davranış olarak bir yöne 'sürüklenebilir'. Haberlerde genellikle olumsuz durumlar için kullanılır.",
+    "phrase": "My aunt was recently _____ with a rare illness.",
+    "translation": "Teyzeme yakın zamanda nadir bir hastalık teşhisi konuldu.",
+    "context": "'Diagnosed' kelimesi, özellikle tıp dünyasında 'teşhis koymak' anlamına gelir. Doktorların hastalığınızın ne olduğunu belirleme sürecidir. 'Doctor diagnosed me with flu' (Doktor bana grip teşhisi koydu) gibi kullanımlar yaygındır. Umarım doktorun sana hep 'healthy' (sağlıklı) teşhisi koyar! Bu kelimeyi öğrenmekle kalma, sağlıklı yaşamayı da unutma.",
     "options": [
-      "drift",
-      "push",
-      "jump",
-      "sprint"
+      "diagnosed",
+      "treated",
+      "examined",
+      "prescribed"
     ],
-    "correctAnswer": "drift",
-    "category": "TRAVEL",
-    "variations": [
-      "His opinions started to drift.",
-      "They observed a subtle drift in policy."
-    ]
-  },
-  {
-    "id": 126101006,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "'Trump's shock Russia deal highlights mounting pressure to curb fuel prices.' Cümlesindeki 'curb fuel prices' ne anlama gelir?",
-    "translation": "Yakıt fiyatlarını dizginlemek/azaltmak",
-    "context": "'Curb' kelimesi bir şeyi kontrol altına almak, sınırlamak veya azaltmak anlamına gelir. Ekonomi haberlerinde sıkça karşımıza çıkar. Tıpkı sinirli bir köpeği tasmayla kontrol altına almak gibi, fiyatları da 'curb' etmek, yani dizginlemek demektir.",
-    "options": [
-      "Yakıt fiyatlarını yükseltmek",
-      "Yakıt fiyatlarını dizginlemek/azaltmak",
-      "Yakıt fiyatlarını belirlemek",
-      "Yakıt fiyatlarını tanıtmak"
-    ],
-    "correctAnswer": "Yakıt fiyatlarını dizginlemek/azaltmak",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126101007,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Long live the _____ keyboard!",
-    "translation": "Mekanik",
-    "context": "'Mechanical keyboard' aslında bilgisayar kullanıcıları arasında popüler bir klavye türü. Tuşlarına bastığında verdiği o tok ses ve hissiyle adeta bir 'deneyim' sunar. Oyun oynayanlar veya çok yazı yazanlar arasında favoridir. Eski teknoloji gibi dursa da, seveni çoktur!",
-    "options": [
-      "mechanical",
-      "digital",
-      "soft",
-      "wireless"
-    ],
-    "correctAnswer": "mechanical",
+    "correctAnswer": "diagnosed",
     "category": "CASUAL",
     "variations": [
-      "He prefers a mechanical keyboard for gaming.",
-      "Many typists enjoy the feel of a mechanical keyboard."
+      "The problem was finally _____ by the mechanic.",
+      "She was _____ with a food allergy."
     ]
   },
   {
-    "id": 126101008,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "id": 126101406,
+    "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "'Anthropic can’t reliably control its AI agents.' Cümlesindeki 'reliably control' ne anlama gelir?",
-    "translation": "Güvenilir bir şekilde kontrol etmek",
-    "context": "'Reliably' kelimesi 'güvenilir bir şekilde' veya 'istikrarlı olarak' anlamlarına gelir. Bir makinenin 'reliably work' etmesi, her zaman beklendiği gibi çalıştığı demektir. Tıpkı her sabah seni işe götüren güvenilir araban gibi, AI'ın da 'reliably control' edilmesi önemlidir.",
+    "phrase": "The spy successfully _____ the enemy base.",
+    "translation": "Casus düşman üssüne başarıyla sızdı.",
+    "context": "'Infiltrated', bir yere gizlice sızmak veya içeriye gizlice girmek demek. Genellikle güvenlik ihlalleri, casusluk veya siber saldırılar gibi durumlarda kullanılır. Tıpkı film sahnelerindeki gibi! Bir hacker bir şirketin sistemine 'infiltrate' edebilir ya da bir dedektif çeteye 'infiltrate' edebilir. Sızmak denince aklına hemen gizemli filmler gelsin!",
     "options": [
-      "Gerektiğinde kontrol etmek",
-      "Güvenilir bir şekilde kontrol etmek",
-      "Uzaktan kontrol etmek",
-      "Kesinlikle kontrol etmek"
+      "infiltrated",
+      "entered",
+      "breached",
+      "penetrated"
     ],
-    "correctAnswer": "Güvenilir bir şekilde kontrol etmek",
+    "correctAnswer": "infiltrated",
+    "category": "BUSINESS",
+    "variations": [
+      "Hackers tried to _____ our network.",
+      "The new member slowly _____ the group."
+    ]
+  },
+  {
+    "id": 126101407,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Divers discovered an ancient _____ near the coast.",
+    "translation": "Dalgıçlar kıyıya yakın antik bir batık gemi buldu.",
+    "context": "'Shipwreck', batık gemi veya gemi enkazı demek. Kulağa hem hüzünlü hem de gizemli geliyor, değil mi? Tarihi dizilerde veya macera filmlerinde sıkça karşılaşırız. Kimi zaman hazinelerle dolu, kimi zaman deniz canlılarına ev sahipliği yapan bir dünya! Belki bir gün dalış yaparken sen de bir 'shipwreck' keşfedersin, kim bilir?",
+    "options": [
+      "shipwreck",
+      "ship sink",
+      "boat wreck",
+      "vessel crash"
+    ],
+    "correctAnswer": "shipwreck",
+    "category": "TRAVEL",
+    "variations": [
+      "They explored the famous Titanic _____.",
+      "The storm caused many _____ along the shore."
+    ]
+  },
+  {
+    "id": 126101408,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The manager faced a tough _____ about who to pick.",
+    "translation": "Yönetici, kimi seçeceği konusunda zorlu bir ikilemle karşı karşıyaydı.",
+    "context": "'Dilemma', iki eşit derecede zor veya istenmeyen seçenekten birini seçmek zorunda kaldığınızda yaşadığınız durum, yani 'ikilem'. Mesela, 'Should I eat pizza or pasta tonight? What a dilemma!' (Bu akşam pizza mı yemeliyim, makarna mı? Ne ikilem!) gibi günlük hayatta da kullanabilirsin. Hayat bazen zorlu 'dilemma'larla doludur, önemli olan doğru kararı verebilmek!",
+    "options": [
+      "dilemma",
+      "problem",
+      "challenge",
+      "choice"
+    ],
+    "correctAnswer": "dilemma",
     "category": "MIXED",
-    "variations": []
-  },
-  {
-    "id": 126101009,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Three men were found guilty of _____ Australian brothers in Mexico.",
-    "translation": "Cinayet işleme, öldürme",
-    "context": "'Murdering' kelimesi, birini kasten ve yasa dışı bir şekilde öldürmek anlamına gelir. Ciddi bir suçtur ve hukuk haberlerinde sıkça karşımıza çıkar. Tatil veya seyahat esnasında yaşanan talihsiz olayları anlatırken de kullanılabilir.",
-    "options": [
-      "murdering",
-      "helping",
-      "visiting",
-      "saving"
-    ],
-    "correctAnswer": "murdering",
-    "category": "TRAVEL",
     "variations": [
-      "The police are investigating the murdering incident.",
-      "He was accused of murdering his neighbor."
+      "She was in a _____ whether to stay or go.",
+      "Choosing between two great jobs is a sweet _____."
     ]
   },
   {
-    "id": 126101010,
+    "id": 126101409,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "'The maker of non-text AI model Jev valued at $7.5B just weeks after launch.' Cümlesindeki 'valued at $7.5B' ne anlama gelir?",
-    "translation": "7.5 milyar dolarlık değeri biçildi",
-    "context": "'Valued at' ifadesi, bir şeyin değerinin ne kadar olduğunu belirtmek için kullanılır. Genellikle şirketlerin veya varlıkların piyasa değerini açıklarken karşımıza çıkar. Tıpkı eski bir antika vazoya eksperin 'şu kadar eder' demesi gibi.",
+    "phrase": "'Striking someone in the face' eylemi ne anlama gelir?",
+    "translation": "Birine yüze vurmak veya yumruk atmak.",
+    "context": "'Striking someone in the face', birine yüzüne vurmak veya darbe indirmek demektir. Genellikle agresif veya cezalandırıcı bir eylemi ifade eder. Spor dünyasında bu tür hareketler genellikle diskalifiye veya ceza ile sonuçlanır. Mesela, 'He was suspended for striking another player' (Başka bir oyuncuya vurduğu için uzaklaştırıldı) gibi. Unutmayalım ki şiddet hiçbir zaman bir çözüm değildir, spor da centilmenlik gerektirir!",
     "options": [
-      "7.5 milyar dolara satıldı",
-      "7.5 milyar dolarlık değeri biçildi",
-      "7.5 milyar dolarlık borcu var",
-      "7.5 milyar dolar kazandı"
+      "Birine gülümsemek",
+      "Birinin yüzünü okşamak",
+      "Birine yüze vurmak/darbe indirmek",
+      "Birine iltifat etmek"
     ],
-    "correctAnswer": "7.5 milyar dolarlık değeri biçildi",
+    "correctAnswer": "Birine yüze vurmak/darbe indirmek",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126101410,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Eğer birisi bir suçla 'charged with' edilmişse, bu ne anlama gelir?",
+    "translation": "Resmi olarak bir suçla itham edilmek, suçlanmak.",
+    "context": "'Charged with', yasal olarak bir suçla 'itham edilmek' veya 'suçlanmak' anlamına gelir. Polis veya savcılık tarafından bir suç işlediğine dair resmi bir bildirimdir. Mesela, 'He was charged with theft' (Hırsızlıkla suçlandı) veya 'She was charged with assault' (Saldırı ile suçlandı) gibi. Bu, suçlu olduğu anlamına gelmez, sadece mahkemede yargılanacağı anlamına gelir. Yani, henüz kesinleşmiş bir karar yok, süreç yeni başlıyor!",
+    "options": [
+      "Bir görevle görevlendirilmek",
+      "Bir ücret ödemek zorunda kalmak",
+      "Resmi olarak bir suçla itham edilmek",
+      "Bir sorumluluğu üstlenmek"
+    ],
+    "correctAnswer": "Resmi olarak bir suçla itham edilmek",
     "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126101011,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "'People don't think recycling is part of their _____.'",
-    "translation": "İş tanımı",
-    "context": "'Job description', bir iş pozisyonunun görev ve sorumluluklarını listeleyen resmi belgedir. Yani, senin ne yapman gerektiğinin 'yazılı tarifi'dir. Bazen insanlar, ekstra görevleri 'job description'larının dışında görüp yapmak istemeyebilirler.",
-    "options": [
-      "job description",
-      "lunch break",
-      "daily routine",
-      "hobby list"
-    ],
-    "correctAnswer": "job description",
-    "category": "CASUAL",
-    "variations": [
-      "My job description includes project management.",
-      "Is this task in your job description?"
-    ]
-  },
-  {
-    "id": 126101012,
+    "id": 126101411,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "'Isaias becomes major category three storm before landfall.' Cümlesindeki 'major category three storm' ne anlama gelir?",
-    "translation": "Üçüncü kategori büyük fırtına",
-    "context": "Kasırgalar, rüzgar hızlarına göre kategorilere ayrılır. 'Category Three' (Üçüncü Kategori) olması, kasırganın oldukça güçlü ve yıkıcı olabileceği anlamına gelir. Tıpkı boks maçlarında sıkletlerin olması gibi, fırtınaların da şiddet derecesi var. 'Major' kelimesi de bu şiddeti pekiştirir.",
+    "phrase": "'Gales' kelimesi genellikle hangi hava koşulunu ifade eder?",
+    "translation": "Çok kuvvetli rüzgarlar veya fırtınalı rüzgarlar.",
+    "context": "'Gales', oldukça şiddetli rüzgarlar veya fırtınalı rüzgarlar demektir. Denizcilikte veya hava durumu raporlarında sıkça karşımıza çıkar. Tıpkı filmlerdeki gibi gemileri alabora edebilecek kadar güçlü olabilirler. 'The gales battered the coast' (Şiddetli rüzgarlar sahili vurdu) gibi kullanımlarla karşılaşabilirsin. Seyahate çıkarken hava durumu raporlarına dikkat et, yoksa 'gales' seni uçuşturabilir!",
     "options": [
-      "Üçüncü kategori büyük fırtına",
-      "Üç farklı kategori fırtına",
-      "Üçüncü ana kategori fırtına",
-      "Üçüncü en büyük fırtına"
+      "Hafif esinti",
+      "Ilık rüzgarlar",
+      "Çok kuvvetli rüzgarlar",
+      "Sakin hava"
     ],
-    "correctAnswer": "Üçüncü kategori büyük fırtına",
+    "correctAnswer": "Çok kuvvetli rüzgarlar",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126101412,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Bir 'personal AI assistant' ne işe yarar?",
+    "translation": "Kişisel yapay zeka asistanı, günlük görevlerde yardımcı olan, programları yöneten ve bilgi sağlayan bir yapay zeka aracıdır.",
+    "context": "'Personal AI assistant', evde veya mobil cihazlarda kullanılan, senin için randevuları ayarlayan, hava durumunu söyleyen, müzik çalan, sorularını yanıtlayan kişisel yapay zeka yardımcın demektir. Tıpkı filmlerdeki robotlar gibi, ama daha çok bir sesli asistan formunda. Gelecekte muhtemelen herkesin böyle bir yardımcısı olacak, çayını bile getirecek desek yeridir! Ev işlerinden tut da kompleks bilgi araştırmalarına kadar her konuda sana destek olacaklar. Kulağa harika gelmiyor mu?",
+    "options": [
+      "Evde kullanılan bir temizlik robotu",
+      "Kişisel bir fitness eğitmeni",
+      "Günlük görevlerde yardımcı olan, programları yöneten ve bilgi sağlayan bir yapay zeka aracı",
+      "Sadece oyun oynamak için tasarlanmış bir yapay zeka"
+    ],
+    "correctAnswer": "Günlük görevlerde yardımcı olan, programları yöneten ve bilgi sağlayan bir yapay zeka aracı",
     "category": "MIXED",
     "variations": []
   }
