@@ -1,229 +1,229 @@
 [
   {
-    "id": 126101401,
+    "id": 126101601,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The city lost _____ after the storm.",
-    "translation": "Şehir fırtınadan sonra elektriksiz kaldı.",
-    "context": "'Power' kelimesi sadece fiziksel güç anlamına gelmez, aynı zamanda elektrik veya bir şeyi çalıştırmak için gereken enerji anlamına da gelir. Mesela, 'My phone ran out of power!' dediğinde, telefonunun şarjının bittiğini söylersin. Ya da bir elektrik kesintisi olduğunda, 'The whole neighborhood is without power' (Tüm mahalle elektriksiz) diyebilirsin. Haydi şimdi enerjini topla ve bu kelimeyi cebine at!",
+    "phrase": "My dog has a terrible _____! I need to wash him.",
+    "translation": "Köpeğimin korkunç bir 'kokusu' var! Onu yıkamam gerek.",
+    "context": "Bazen evcil hayvanlarımızın ya da buzdolabında unutulan yemeklerin etrafa yaydığı o rahatsız edici kokuya 'stink' deriz. Hatta biri çok kötü kokarsa 'He stinks!' bile diyebiliriz. Amaçsızca gaza basmak gibi.",
     "options": [
-      "power",
-      "force",
-      "might",
-      "energy"
+      "stink",
+      "smell",
+      "odor",
+      "fragrance"
     ],
-    "correctAnswer": "power",
+    "correctAnswer": "stink",
     "category": "CASUAL",
     "variations": [
-      "The entire street lost _____ for hours.",
-      "We need more _____ to run this machine."
+      "The garbage has a bad stink.",
+      "What's that stink in the kitchen?"
     ]
   },
   {
-    "id": 126101402,
+    "id": 126101602,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Many big _____ operate globally now.",
-    "translation": "Birçok büyük şirket artık küresel olarak faaliyet gösteriyor.",
-    "context": "'Company', bildiğin üzere şirket demek. Ama sadece iş yeri değil, bazen 'I enjoy your company' (Senin arkadaşlığından hoşlanıyorum) gibi bir topluluğu ya da arkadaşlığı da ifade edebilir. İş dünyasında ise 'company car' (şirket arabası) ya da 'start-up company' (yeni kurulan şirket) gibi birçok farklı kalıpta karşımıza çıkar. Eğer bir gün kendi şirketini kurarsan, umarız bu kelime sana uğur getirir!",
+    "phrase": "We saw many ships in the old _____.",
+    "translation": "Eski 'limanda' birçok gemi gördük.",
+    "context": "Gemilerin yanaştığı, yüklerin indirilip bindirildiği o yer var ya, işte orası 'harbour'. Bazen 'port' ile karıştırılır ama harbour daha çok doğal veya yapay bir sığınak alanını ifade eder. Tıpkı ruhunun güvenli limanı gibi!",
     "options": [
-      "companies",
-      "groups",
-      "firms",
-      "businesses"
+      "harbour",
+      "airport",
+      "station",
+      "bridge"
     ],
-    "correctAnswer": "companies",
-    "category": "BUSINESS",
-    "variations": [
-      "She works for a tech _____.",
-      "Our _____ is growing fast this year."
-    ]
-  },
-  {
-    "id": 126101403,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The old lighthouse stands _____ the island.",
-    "translation": "Eski deniz feneri adanın açıklarında duruyor.",
-    "context": "'Off coast', bir yerin 'kıyısının açıklarında' demek. Yani karadan biraz uzakta, denizin içinde bir yer. Mesela bir ada kıyıya yakın ama karanın bir parçası değilse, 'It's an island off the coast' dersin. Tatilde tekne turu yaparken veya balık tutarken bu ifadeyi sıkça duyabilirsin. Gözünü ufuktan ayırma, belki sen de gizli bir adaya rastlarsın!",
-    "options": [
-      "off coast of",
-      "on shore of",
-      "near border of",
-      "beside land of"
-    ],
-    "correctAnswer": "off coast of",
+    "correctAnswer": "harbour",
     "category": "TRAVEL",
     "variations": [
-      "They found a new species _____ Africa.",
-      "The ship sank _____ the city."
+      "The ferry left the harbour at dawn.",
+      "Our city has a beautiful natural harbour."
     ]
   },
   {
-    "id": 126101404,
+    "id": 126101603,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The weather service issued a storm _____.",
-    "translation": "Hava durumu servisi bir fırtına uyarısı yayınladı.",
-    "context": "'Warning', bir tehlikeye karşı yapılan uyarı demek. Tıpkı hava durumunda fırtına uyarısı gibi, trafikte 'speed warning' (hız uyarısı) veya bir ürün kullanırken 'health warning' (sağlık uyarısı) görebilirsin. Bu kelime sana dikkatli olmanı fısıldar. Hayatta hep tetikte ol, ama bazen de uyarıları görmezden gelip maceralara atılmak güzel olabilir! Tabii çok tehlikeli değilse...",
+    "phrase": "I need to _____ this problem right away.",
+    "translation": "Bu sorunla hemen 'ilgilenmem' gerekiyor.",
+    "context": "Bir problemle, bir insanla ya da bir durumla 'ilgilenmek', onu halletmek veya onunla başa çıkmak anlamında kullanırız. Tıpkı sınav stresini deal with etmek gibi. Bazen de 'bu konuda seninle deal with etmeyeceğim' gibi uzlaşma anlamında da kullanılır.",
     "options": [
-      "warning",
-      "advice",
-      "notice",
-      "alert"
+      "deal with",
+      "look at",
+      "talk to",
+      "agree on"
     ],
-    "correctAnswer": "warning",
+    "correctAnswer": "deal with",
+    "category": "BUSINESS",
+    "variations": [
+      "How do you deal with stress?",
+      "It's hard to deal with rude customers."
+    ]
+  },
+  {
+    "id": 126101604,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Is your area _____ by the new rules?",
+    "translation": "Bölgeniz yeni kurallardan 'etkilendi' mi?",
+    "context": "Bir şeyden etkilenmek, bir durumun sonucunda bir değişikliğe uğramak anlamına gelir. Mesela kötü hava koşulları uçuşları etkileyebilir. Ya da yeni bir şarkı senin duygularını etkileyebilir. Yani, bir durumun dokunduğu yer.",
+    "options": [
+      "affected",
+      "helped",
+      "ignored",
+      "solved"
+    ],
+    "correctAnswer": "affected",
     "category": "MIXED",
     "variations": [
-      "Please heed the _____ signs.",
-      "A shark _____ was posted on the beach."
+      "Many people were affected by the flood.",
+      "This decision will affect our future."
     ]
   },
   {
-    "id": 126101405,
-    "type": "QUIZ_COMPLETION",
+    "id": 126101605,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "My aunt was recently _____ with a rare illness.",
-    "translation": "Teyzeme yakın zamanda nadir bir hastalık teşhisi konuldu.",
-    "context": "'Diagnosed' kelimesi, özellikle tıp dünyasında 'teşhis koymak' anlamına gelir. Doktorların hastalığınızın ne olduğunu belirleme sürecidir. 'Doctor diagnosed me with flu' (Doktor bana grip teşhisi koydu) gibi kullanımlar yaygındır. Umarım doktorun sana hep 'healthy' (sağlıklı) teşhisi koyar! Bu kelimeyi öğrenmekle kalma, sağlıklı yaşamayı da unutma.",
+    "phrase": "Bir olayın nasıl geliştiğini veya ortaya çıktığını anlatmak için hangi fiili kullanırız?",
+    "translation": "Which verb do we use to describe how an event developed or revealed itself?",
+    "context": "Bir olayın perde arkasında nasıl başladığını, adım adım nasıl geliştiğini merak ettiğimizde 'unfold' kelimesini kullanırız. Sanki bir hikaye kitabı yavaş yavaş açılıyor gibi. Filmlerin sonundaki 'nasıl oldu?' anları gibi düşün.",
     "options": [
-      "diagnosed",
-      "treated",
-      "examined",
-      "prescribed"
+      "unfolded",
+      "disappeared",
+      "concluded",
+      "stopped"
     ],
-    "correctAnswer": "diagnosed",
+    "correctAnswer": "unfolded",
     "category": "CASUAL",
-    "variations": [
-      "The problem was finally _____ by the mechanic.",
-      "She was _____ with a food allergy."
-    ]
+    "variations": []
   },
   {
-    "id": 126101406,
+    "id": 126101606,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The spy successfully _____ the enemy base.",
-    "translation": "Casus düşman üssüne başarıyla sızdı.",
-    "context": "'Infiltrated', bir yere gizlice sızmak veya içeriye gizlice girmek demek. Genellikle güvenlik ihlalleri, casusluk veya siber saldırılar gibi durumlarda kullanılır. Tıpkı film sahnelerindeki gibi! Bir hacker bir şirketin sistemine 'infiltrate' edebilir ya da bir dedektif çeteye 'infiltrate' edebilir. Sızmak denince aklına hemen gizemli filmler gelsin!",
+    "phrase": "She didn't knock, she just _____ the room.",
+    "translation": "Kapıyı çalmadı, sadece odaya 'daldı/hışımla girdi'.",
+    "context": "Bir yere aniden, öfkeyle veya büyük bir enerjiyle girmek. Mesela, sinirlendiğinde patronun odasına 'storm into' yapabilirsin (ama yapma, sonra kovulursun!). Ya da bir sporcu maçı kazanıp şampiyonaya 'storm into' yapar. Hızlı ve etkili bir giriş!",
     "options": [
-      "infiltrated",
-      "entered",
-      "breached",
-      "penetrated"
+      "stormed into",
+      "walked to",
+      "entered slowly",
+      "ran after"
     ],
-    "correctAnswer": "infiltrated",
-    "category": "BUSINESS",
-    "variations": [
-      "Hackers tried to _____ our network.",
-      "The new member slowly _____ the group."
-    ]
-  },
-  {
-    "id": 126101407,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Divers discovered an ancient _____ near the coast.",
-    "translation": "Dalgıçlar kıyıya yakın antik bir batık gemi buldu.",
-    "context": "'Shipwreck', batık gemi veya gemi enkazı demek. Kulağa hem hüzünlü hem de gizemli geliyor, değil mi? Tarihi dizilerde veya macera filmlerinde sıkça karşılaşırız. Kimi zaman hazinelerle dolu, kimi zaman deniz canlılarına ev sahipliği yapan bir dünya! Belki bir gün dalış yaparken sen de bir 'shipwreck' keşfedersin, kim bilir?",
-    "options": [
-      "shipwreck",
-      "ship sink",
-      "boat wreck",
-      "vessel crash"
-    ],
-    "correctAnswer": "shipwreck",
+    "correctAnswer": "stormed into",
     "category": "TRAVEL",
     "variations": [
-      "They explored the famous Titanic _____.",
-      "The storm caused many _____ along the shore."
+      "The fans stormed into the field.",
+      "He stormed into the office, yelling."
     ]
   },
   {
-    "id": 126101408,
+    "id": 126101607,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Bir şeyin yavaş yavaş aşınması, yıpranması veya değer kaybetmesi durumunu en iyi anlatan kelime hangisidir?",
+    "translation": "Which word best describes the situation where something is slowly wearing away, deteriorating, or losing value?",
+    "context": "'Eroding' kelimesi, bir şeyin zamanla veya belirli etkenlerle yavaşça aşınmasını, yıpranmasını veya gücünü kaybetmesini ifade eder. Tıpkı rüzgarın kayaları 'erode' etmesi gibi. Ya da bir şirket politikasının güveni 'erode' etmesi gibi. Küçücük bir sızıntının barajı bitirmesi gibi düşün.",
+    "options": [
+      "eroding",
+      "strengthening",
+      "building",
+      "developing"
+    ],
+    "correctAnswer": "eroding",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126101608,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The manager faced a tough _____ about who to pick.",
-    "translation": "Yönetici, kimi seçeceği konusunda zorlu bir ikilemle karşı karşıyaydı.",
-    "context": "'Dilemma', iki eşit derecede zor veya istenmeyen seçenekten birini seçmek zorunda kaldığınızda yaşadığınız durum, yani 'ikilem'. Mesela, 'Should I eat pizza or pasta tonight? What a dilemma!' (Bu akşam pizza mı yemeliyim, makarna mı? Ne ikilem!) gibi günlük hayatta da kullanabilirsin. Hayat bazen zorlu 'dilemma'larla doludur, önemli olan doğru kararı verebilmek!",
+    "phrase": "A brave _____ saved the child from the fire.",
+    "translation": "Cesur bir 'olay yeri tanığı' çocuğu yangından kurtardı.",
+    "context": "Bir olaya karışmayan, sadece izleyen kişiye 'bystander' denir. Yani, yoldan geçen, etrafta duran biridir. Ama bazen bu 'bystander'lar kahramanlık yapıp duruma müdahale edebilir. Mesela, bir kazada durup yardım eden bir bystander gibi. Olay yerindeki sessiz kahraman.",
     "options": [
-      "dilemma",
-      "problem",
-      "challenge",
-      "choice"
+      "bystander",
+      "participant",
+      "perpetrator",
+      "witness"
     ],
-    "correctAnswer": "dilemma",
+    "correctAnswer": "bystander",
     "category": "MIXED",
     "variations": [
-      "She was in a _____ whether to stay or go.",
-      "Choosing between two great jobs is a sweet _____."
+      "Many bystanders watched the parade.",
+      "Police interviewed the bystanders."
     ]
   },
   {
-    "id": 126101409,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "id": 126101609,
+    "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "'Striking someone in the face' eylemi ne anlama gelir?",
-    "translation": "Birine yüze vurmak veya yumruk atmak.",
-    "context": "'Striking someone in the face', birine yüzüne vurmak veya darbe indirmek demektir. Genellikle agresif veya cezalandırıcı bir eylemi ifade eder. Spor dünyasında bu tür hareketler genellikle diskalifiye veya ceza ile sonuçlanır. Mesela, 'He was suspended for striking another player' (Başka bir oyuncuya vurduğu için uzaklaştırıldı) gibi. Unutmayalım ki şiddet hiçbir zaman bir çözüm değildir, spor da centilmenlik gerektirir!",
+    "phrase": "This new car is _____ by an innovative electric engine.",
+    "translation": "Bu yeni araba yenilikçi bir elektrikli motorla 'çalışıyor/güç alıyor'.",
+    "context": "'Powered by', bir şeyin ne tarafından güç aldığını veya neyle çalıştığını anlatmak için kullanılır. Mesela telefonun bataryayla 'powered by' olması gibi. Ya da Elon Musk'ın hayallerinin 'powered by' olması gibi. Bir nevi arkasındaki itici güç.",
     "options": [
-      "Birine gülümsemek",
-      "Birinin yüzünü okşamak",
-      "Birine yüze vurmak/darbe indirmek",
-      "Birine iltifat etmek"
+      "powered",
+      "driven",
+      "fueled",
+      "charged"
     ],
-    "correctAnswer": "Birine yüze vurmak/darbe indirmek",
+    "correctAnswer": "powered",
     "category": "CASUAL",
-    "variations": []
+    "variations": [
+      "The robot is powered by solar energy.",
+      "Our company is powered by creative ideas."
+    ]
   },
   {
-    "id": 126101410,
+    "id": 126101610,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Eğer birisi bir suçla 'charged with' edilmişse, bu ne anlama gelir?",
-    "translation": "Resmi olarak bir suçla itham edilmek, suçlanmak.",
-    "context": "'Charged with', yasal olarak bir suçla 'itham edilmek' veya 'suçlanmak' anlamına gelir. Polis veya savcılık tarafından bir suç işlediğine dair resmi bir bildirimdir. Mesela, 'He was charged with theft' (Hırsızlıkla suçlandı) veya 'She was charged with assault' (Saldırı ile suçlandı) gibi. Bu, suçlu olduğu anlamına gelmez, sadece mahkemede yargılanacağı anlamına gelir. Yani, henüz kesinleşmiş bir karar yok, süreç yeni başlıyor!",
+    "phrase": "Atmosfere hiç gaz salımı yapmayan araçları veya sistemleri tanımlamak için hangi terimi kullanırız?",
+    "translation": "Which term do we use to describe vehicles or systems that produce no gas emissions into the atmosphere?",
+    "context": "'Zero-emission', yani sıfır emisyon! Çevreye hiç zararlı gaz salımı yapmayan, tertemiz teknolojileri anlatmak için kullanılır. Elektrikli arabalar, bisikletler ya da bazı yeni gemiler gibi. Dünya'yı kurtarmaya çalışanların parolası!",
     "options": [
-      "Bir görevle görevlendirilmek",
-      "Bir ücret ödemek zorunda kalmak",
-      "Resmi olarak bir suçla itham edilmek",
-      "Bir sorumluluğu üstlenmek"
+      "zero-emission",
+      "low-carbon",
+      "fossil-fueled",
+      "high-polluting"
     ],
-    "correctAnswer": "Resmi olarak bir suçla itham edilmek",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126101411,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "'Gales' kelimesi genellikle hangi hava koşulunu ifade eder?",
-    "translation": "Çok kuvvetli rüzgarlar veya fırtınalı rüzgarlar.",
-    "context": "'Gales', oldukça şiddetli rüzgarlar veya fırtınalı rüzgarlar demektir. Denizcilikte veya hava durumu raporlarında sıkça karşımıza çıkar. Tıpkı filmlerdeki gibi gemileri alabora edebilecek kadar güçlü olabilirler. 'The gales battered the coast' (Şiddetli rüzgarlar sahili vurdu) gibi kullanımlarla karşılaşabilirsin. Seyahate çıkarken hava durumu raporlarına dikkat et, yoksa 'gales' seni uçuşturabilir!",
-    "options": [
-      "Hafif esinti",
-      "Ilık rüzgarlar",
-      "Çok kuvvetli rüzgarlar",
-      "Sakin hava"
-    ],
-    "correctAnswer": "Çok kuvvetli rüzgarlar",
+    "correctAnswer": "zero-emission",
     "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126101412,
+    "id": 126101611,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The two companies signed a new _____ to avoid competition.",
+    "translation": "İki şirket, rekabeti önlemek için yeni bir 'ortaklık anlaşması' imzaladı.",
+    "context": "'Venture pact', genellikle iki veya daha fazla şirketin belirli bir proje veya iş için bir araya gelerek yaptığı anlaşmaya denir. Riskli ama potansiyelli girişimler için ortaklık anlaşması gibi düşünebilirsin. Tıpkı süper kahramanların dünyayı kurtarmak için bir araya gelmesi gibi ama bu biraz daha az aksiyonlu.",
+    "options": [
+      "venture pact",
+      "rivalry deal",
+      "solo contract",
+      "merger agreement"
+    ],
+    "correctAnswer": "venture pact",
+    "category": "BUSINESS",
+    "variations": [
+      "They formed a venture pact for the new startup.",
+      "Breaking the venture pact caused issues."
+    ]
+  },
+  {
+    "id": 126101612,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Bir 'personal AI assistant' ne işe yarar?",
-    "translation": "Kişisel yapay zeka asistanı, günlük görevlerde yardımcı olan, programları yöneten ve bilgi sağlayan bir yapay zeka aracıdır.",
-    "context": "'Personal AI assistant', evde veya mobil cihazlarda kullanılan, senin için randevuları ayarlayan, hava durumunu söyleyen, müzik çalan, sorularını yanıtlayan kişisel yapay zeka yardımcın demektir. Tıpkı filmlerdeki robotlar gibi, ama daha çok bir sesli asistan formunda. Gelecekte muhtemelen herkesin böyle bir yardımcısı olacak, çayını bile getirecek desek yeridir! Ev işlerinden tut da kompleks bilgi araştırmalarına kadar her konuda sana destek olacaklar. Kulağa harika gelmiyor mu?",
+    "phrase": "Bir rakibi güç veya yetenekle alt etmek, ezmek veya üstün gelmek anlamına gelen fiil hangisidir?",
+    "translation": "Which verb means to defeat, overwhelm, or gain superiority over an opponent by strength or ability?",
+    "context": "Birini ya da bir şeyi gücünle ezmek, ona üstün gelmek anlamına gelir. Mesela bir boksör rakibini 'overpower' edebilir ya da bir ordu düşmanını 'overpower' edebilir. Spor dünyasında çok sık duyarsın. Rakibi tam anlamıyla domine etmek!",
     "options": [
-      "Evde kullanılan bir temizlik robotu",
-      "Kişisel bir fitness eğitmeni",
-      "Günlük görevlerde yardımcı olan, programları yöneten ve bilgi sağlayan bir yapay zeka aracı",
-      "Sadece oyun oynamak için tasarlanmış bir yapay zeka"
+      "overpower",
+      "underperform",
+      "surrender",
+      "equate"
     ],
-    "correctAnswer": "Günlük görevlerde yardımcı olan, programları yöneten ve bilgi sağlayan bir yapay zeka aracı",
+    "correctAnswer": "overpower",
     "category": "MIXED",
     "variations": []
   }
