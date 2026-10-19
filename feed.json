@@ -1,230 +1,233 @@
 [
   {
-    "id": 126101601,
+    "id": 126101901,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "My dog has a terrible _____! I need to wash him.",
-    "translation": "Köpeğimin korkunç bir 'kokusu' var! Onu yıkamam gerek.",
-    "context": "Bazen evcil hayvanlarımızın ya da buzdolabında unutulan yemeklerin etrafa yaydığı o rahatsız edici kokuya 'stink' deriz. Hatta biri çok kötü kokarsa 'He stinks!' bile diyebiliriz. Amaçsızca gaza basmak gibi.",
+    "phrase": "The suspect finally _____ the verdict today.",
+    "translation": "Sanık sonunda bugün kararı karşıladı/öğrendi.",
+    "context": "Film veya dizilerde sıkça duyarsın: 'The jury will now face the verdict!' (Jüri şimdi kararı açıklayacak!) Bir davada kararın açıklanması, herkesin heyecanla beklediği o anı anlatır. 'Face the verdict' dediğinde, o kararla yüzleşmek, ne olursa olsun kabul etmek anlamı taşır. Tıpkı sabah erken uyanıp sınav sonucunla yüzleşmek gibi!",
     "options": [
-      "stink",
-      "smell",
-      "odor",
-      "fragrance"
+      "faces",
+      "hides",
+      "avoids",
+      "ignores"
     ],
-    "correctAnswer": "stink",
+    "correctAnswer": "faces",
     "category": "CASUAL",
     "variations": [
-      "The garbage has a bad stink.",
-      "What's that stink in the kitchen?"
+      "Everyone must _____ the consequences of their actions.",
+      "You must _____ your fears to overcome them."
     ]
   },
   {
-    "id": 126101602,
+    "id": 126101902,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "We saw many ships in the old _____.",
-    "translation": "Eski 'limanda' birçok gemi gördük.",
-    "context": "Gemilerin yanaştığı, yüklerin indirilip bindirildiği o yer var ya, işte orası 'harbour'. Bazen 'port' ile karıştırılır ama harbour daha çok doğal veya yapay bir sığınak alanını ifade eder. Tıpkı ruhunun güvenli limanı gibi!",
+    "phrase": "The rocket is ready to _____ off for its journey.",
+    "translation": "Roket yolculuğu için fırlatılmaya hazır.",
+    "context": "Uzay filmlerinin vazgeçilmez sahnesi! Geri sayım biter, ateşleme başlar ve roket gökyüzüne doğru hızla yükselir. İşte bu 'blast off' anıdır! Sadece roketler için değil, bazen bir etkinliğin veya projenin hızlı ve heyecanlı başlangıcını anlatmak için de kullanılır. 'Our new project will blast off next month!' gibi.",
     "options": [
-      "harbour",
-      "airport",
-      "station",
-      "bridge"
+      "blast",
+      "take",
+      "fly",
+      "send"
     ],
-    "correctAnswer": "harbour",
+    "correctAnswer": "blast",
     "category": "TRAVEL",
     "variations": [
-      "The ferry left the harbour at dawn.",
-      "Our city has a beautiful natural harbour."
+      "The spacecraft is scheduled to _____ off at dawn.",
+      "We will _____ off on our vacation very soon."
     ]
   },
   {
-    "id": 126101603,
+    "id": 126101903,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "I need to _____ this problem right away.",
-    "translation": "Bu sorunla hemen 'ilgilenmem' gerekiyor.",
-    "context": "Bir problemle, bir insanla ya da bir durumla 'ilgilenmek', onu halletmek veya onunla başa çıkmak anlamında kullanırız. Tıpkı sınav stresini deal with etmek gibi. Bazen de 'bu konuda seninle deal with etmeyeceğim' gibi uzlaşma anlamında da kullanılır.",
+    "phrase": "The coach will _____ a new deal next week.",
+    "translation": "Koç gelecek hafta yeni bir anlaşma imzalayacak.",
+    "context": "Spor haberlerinde veya iş dünyasında sıkça duyduğun bir ifade! Bir sporcu, bir menajer veya bir şirket çalışanı, mevcut sözleşmesini bitirip yenisini kabul ettiğinde 'signs a new deal' deriz. Yani kalemini alır, imzasını atar ve 'Evet, bu iş bende!' der. Terfi etmek ya da maaşına zam almak gibi havalı bir durum!",
     "options": [
-      "deal with",
-      "look at",
-      "talk to",
-      "agree on"
+      "sign",
+      "write",
+      "close",
+      "read"
     ],
-    "correctAnswer": "deal with",
+    "correctAnswer": "sign",
     "category": "BUSINESS",
     "variations": [
-      "How do you deal with stress?",
-      "It's hard to deal with rude customers."
+      "The company hopes to _____ a big deal soon.",
+      "Did you _____ the contract they sent you?"
     ]
   },
   {
-    "id": 126101604,
+    "id": 126101904,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Is your area _____ by the new rules?",
-    "translation": "Bölgeniz yeni kurallardan 'etkilendi' mi?",
-    "context": "Bir şeyden etkilenmek, bir durumun sonucunda bir değişikliğe uğramak anlamına gelir. Mesela kötü hava koşulları uçuşları etkileyebilir. Ya da yeni bir şarkı senin duygularını etkileyebilir. Yani, bir durumun dokunduğu yer.",
+    "phrase": "They decided to _____ down on their strategy.",
+    "translation": "Stratejileri üzerine daha fazla yoğunlaşmaya karar verdiler.",
+    "context": "Poker masasında elindeki kartlara güvenip bahsi ikiye katlamak gibi düşünebilirsin! İş hayatında ise 'double down' dediğinde, mevcut bir planına, yatırımına ya da fikrine daha fazla güvenip, elini kuvvetlendirdiğin anlamına gelir. Bir şirket bir ürüne yatırımını artırdığında veya bir stratejiye daha sıkı sarıldığında bu ifadeyi kullanırız. 'Kaybedeceksem de tam kaybedeyim!' der gibi!",
     "options": [
-      "affected",
-      "helped",
-      "ignored",
-      "solved"
+      "double",
+      "cut",
+      "back",
+      "slow"
     ],
-    "correctAnswer": "affected",
-    "category": "MIXED",
+    "correctAnswer": "double",
+    "category": "GENERAL",
     "variations": [
-      "Many people were affected by the flood.",
-      "This decision will affect our future."
+      "The team decided to _____ down on their efforts.",
+      "We need to _____ down on our marketing for this product."
     ]
   },
   {
-    "id": 126101605,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Bir olayın nasıl geliştiğini veya ortaya çıktığını anlatmak için hangi fiili kullanırız?",
-    "translation": "Which verb do we use to describe how an event developed or revealed itself?",
-    "context": "Bir olayın perde arkasında nasıl başladığını, adım adım nasıl geliştiğini merak ettiğimizde 'unfold' kelimesini kullanırız. Sanki bir hikaye kitabı yavaş yavaş açılıyor gibi. Filmlerin sonundaki 'nasıl oldu?' anları gibi düşün.",
-    "options": [
-      "unfolded",
-      "disappeared",
-      "concluded",
-      "stopped"
-    ],
-    "correctAnswer": "unfolded",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126101606,
+    "id": 126101905,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "She didn't knock, she just _____ the room.",
-    "translation": "Kapıyı çalmadı, sadece odaya 'daldı/hışımla girdi'.",
-    "context": "Bir yere aniden, öfkeyle veya büyük bir enerjiyle girmek. Mesela, sinirlendiğinde patronun odasına 'storm into' yapabilirsin (ama yapma, sonra kovulursun!). Ya da bir sporcu maçı kazanıp şampiyonaya 'storm into' yapar. Hızlı ve etkili bir giriş!",
+    "phrase": "After the foul, the player was immediately _____ from the game.",
+    "translation": "Faul sonrası oyuncu oyundan hemen atıldı.",
+    "context": "Spor sahalarının en tatsız anlarından biri! Bir oyuncu kuralları ciddi şekilde çiğnediğinde veya itirazında aşırıya kaçtığında hakem tarafından oyundan atılır. İşte bu durum 'ejected' olarak adlandırılır. Sadece spor değil, bazen bir misafir bir partiden kovulduğunda veya bir öğrenci dersten çıkarıldığında da bu kelimeyi duyabilirsin. 'Hadi bakalım, güle güle!' demek gibi.",
     "options": [
-      "stormed into",
-      "walked to",
-      "entered slowly",
-      "ran after"
+      "ejected",
+      "awarded",
+      "included",
+      "admitted"
     ],
-    "correctAnswer": "stormed into",
-    "category": "TRAVEL",
-    "variations": [
-      "The fans stormed into the field.",
-      "He stormed into the office, yelling."
-    ]
-  },
-  {
-    "id": 126101607,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Bir şeyin yavaş yavaş aşınması, yıpranması veya değer kaybetmesi durumunu en iyi anlatan kelime hangisidir?",
-    "translation": "Which word best describes the situation where something is slowly wearing away, deteriorating, or losing value?",
-    "context": "'Eroding' kelimesi, bir şeyin zamanla veya belirli etkenlerle yavaşça aşınmasını, yıpranmasını veya gücünü kaybetmesini ifade eder. Tıpkı rüzgarın kayaları 'erode' etmesi gibi. Ya da bir şirket politikasının güveni 'erode' etmesi gibi. Küçücük bir sızıntının barajı bitirmesi gibi düşün.",
-    "options": [
-      "eroding",
-      "strengthening",
-      "building",
-      "developing"
-    ],
-    "correctAnswer": "eroding",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126101608,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "A brave _____ saved the child from the fire.",
-    "translation": "Cesur bir 'olay yeri tanığı' çocuğu yangından kurtardı.",
-    "context": "Bir olaya karışmayan, sadece izleyen kişiye 'bystander' denir. Yani, yoldan geçen, etrafta duran biridir. Ama bazen bu 'bystander'lar kahramanlık yapıp duruma müdahale edebilir. Mesela, bir kazada durup yardım eden bir bystander gibi. Olay yerindeki sessiz kahraman.",
-    "options": [
-      "bystander",
-      "participant",
-      "perpetrator",
-      "witness"
-    ],
-    "correctAnswer": "bystander",
-    "category": "MIXED",
-    "variations": [
-      "Many bystanders watched the parade.",
-      "Police interviewed the bystanders."
-    ]
-  },
-  {
-    "id": 126101609,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "This new car is _____ by an innovative electric engine.",
-    "translation": "Bu yeni araba yenilikçi bir elektrikli motorla 'çalışıyor/güç alıyor'.",
-    "context": "'Powered by', bir şeyin ne tarafından güç aldığını veya neyle çalıştığını anlatmak için kullanılır. Mesela telefonun bataryayla 'powered by' olması gibi. Ya da Elon Musk'ın hayallerinin 'powered by' olması gibi. Bir nevi arkasındaki itici güç.",
-    "options": [
-      "powered",
-      "driven",
-      "fueled",
-      "charged"
-    ],
-    "correctAnswer": "powered",
+    "correctAnswer": "ejected",
     "category": "CASUAL",
     "variations": [
-      "The robot is powered by solar energy.",
-      "Our company is powered by creative ideas."
+      "The unruly fan was _____ from the stadium.",
+      "He was _____ for arguing with the referee."
     ]
   },
   {
-    "id": 126101610,
+    "id": 126101906,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Atmosfere hiç gaz salımı yapmayan araçları veya sistemleri tanımlamak için hangi terimi kullanırız?",
-    "translation": "Which term do we use to describe vehicles or systems that produce no gas emissions into the atmosphere?",
-    "context": "'Zero-emission', yani sıfır emisyon! Çevreye hiç zararlı gaz salımı yapmayan, tertemiz teknolojileri anlatmak için kullanılır. Elektrikli arabalar, bisikletler ya da bazı yeni gemiler gibi. Dünya'yı kurtarmaya çalışanların parolası!",
+    "level": "INTERMEDIATE",
+    "phrase": "'Haze-choked' ne anlama gelir?",
+    "translation": "Duman, sis veya pusla boğulmuş, kaplanmış.",
+    "context": "Hava kirliliğinin veya orman yangınlarının olduğu yerlerde gökyüzünün griye döndüğü, nefes almanın zorlaştığı o durumu düşün! 'Haze' kelimesi, puslu havayı ifade ederken, 'choked' (boğulmuş) kelimesiyle birleştiğinde, havanın o kadar kötü olduğunu ve insanların adeta boğulur gibi hissettiğini anlatır. Sanki bütün dünya bir anda sigara içmeye başlamış gibi!",
     "options": [
-      "zero-emission",
-      "low-carbon",
-      "fossil-fueled",
-      "high-polluting"
+      "dumanla kaplı",
+      "çamurlu",
+      "ağaçsız",
+      "rüzgarlı"
     ],
-    "correctAnswer": "zero-emission",
+    "correctAnswer": "dumanla kaplı",
     "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126101611,
+    "id": 126101907,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The two companies signed a new _____ to avoid competition.",
-    "translation": "İki şirket, rekabeti önlemek için yeni bir 'ortaklık anlaşması' imzaladı.",
-    "context": "'Venture pact', genellikle iki veya daha fazla şirketin belirli bir proje veya iş için bir araya gelerek yaptığı anlaşmaya denir. Riskli ama potansiyelli girişimler için ortaklık anlaşması gibi düşünebilirsin. Tıpkı süper kahramanların dünyayı kurtarmak için bir araya gelmesi gibi ama bu biraz daha az aksiyonlu.",
+    "level": "INTERMEDIATE",
+    "phrase": "Investors are navigating a highly _____ market.",
+    "translation": "Yatırımcılar oldukça hareketli/çılgın bir piyasada yol alıyorlar.",
+    "context": "Borsa düşüşe geçtiğinde veya bir anda rekor seviyelere çıktığında, herkesin panik içinde alım satım yaptığı, fiyatların sürekli değiştiği o 'çılgın' anlar vardır. İşte bu duruma 'frenzied market' denir. Herkesin bir şeyler yakalamaya çalıştığı, enerjinin tavan yaptığı, adeta bir arı kovanı gibi hareketli bir ortamı hayal et. Kimse ne olacağını tam kestiremez, tam bir adrenalin bombası!",
     "options": [
-      "venture pact",
-      "rivalry deal",
-      "solo contract",
-      "merger agreement"
+      "frenzied",
+      "calm",
+      "stable",
+      "slow"
     ],
-    "correctAnswer": "venture pact",
+    "correctAnswer": "frenzied",
     "category": "BUSINESS",
     "variations": [
-      "They formed a venture pact for the new startup.",
-      "Breaking the venture pact caused issues."
+      "The crowd was in a _____ state before the concert.",
+      "The holiday shopping created a _____ atmosphere."
     ]
   },
   {
-    "id": 126101612,
+    "id": 126101908,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The documentary explored the _____ world of espionage.",
+    "translation": "Belgesel, casusluğun gölgeli/gizli dünyasını araştırdı.",
+    "context": "Karanlık sokaklar, gizemli figürler, fısıltılar ve sırlar... İşte bir şeyin 'shadowy world' olması tam da bu anlama gelir. Genellikle yasa dışı veya etik olmayan, kamuoyundan saklanan, kimsenin tam olarak ne döndüğünü bilmediği gizli işleri anlatmak için kullanılır. Filmlerdeki ajanların, mafya babalarının dünyası gibi. Perdenin arkasında neler döndüğünü merak ettiren, biraz da korkutucu bir durum!",
+    "options": [
+      "shadowy",
+      "bright",
+      "open",
+      "transparent"
+    ],
+    "correctAnswer": "shadowy",
+    "category": "GENERAL",
+    "variations": [
+      "She disappeared into the _____ alleys of the city.",
+      "The police investigated the _____ dealings of the group."
+    ]
+  },
+  {
+    "id": 126101909,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Bir rakibi güç veya yetenekle alt etmek, ezmek veya üstün gelmek anlamına gelen fiil hangisidir?",
-    "translation": "Which verb means to defeat, overwhelm, or gain superiority over an opponent by strength or ability?",
-    "context": "Birini ya da bir şeyi gücünle ezmek, ona üstün gelmek anlamına gelir. Mesela bir boksör rakibini 'overpower' edebilir ya da bir ordu düşmanını 'overpower' edebilir. Spor dünyasında çok sık duyarsın. Rakibi tam anlamıyla domine etmek!",
+    "phrase": "'Glamping pod' terimi neyi ifade eder?",
+    "translation": "Konforlu ve genellikle lüks olan bir kamp deneyimi sağlayan küçük, kubbeli bir konaklama birimi.",
+    "context": "Kamp yapmayı seviyorsun ama böceklerden, çadırdan ve yerde yatmaktan nefret mi ediyorsun? İşte 'glamping' tam sana göre! 'Glamorous camping'in kısaltması olan bu terim, doğanın içinde ama beş yıldızlı otel konforunda konaklamayı ifade eder. 'Glamping pod' ise bu lüks kampın genellikle küçük, modern ve şık tasarımlı, kubbe veya kapsül şeklindeki özel odalarına verilen isimdir. Gitmek için birikim yapmaya başlasan iyi olur!",
     "options": [
-      "overpower",
-      "underperform",
-      "surrender",
-      "equate"
+      "lüks kamp deneyimi",
+      "uzay kapsülü",
+      "batık tekne",
+      "dağ evi"
     ],
-    "correctAnswer": "overpower",
-    "category": "MIXED",
+    "correctAnswer": "lüks kamp deneyimi",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126101910,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The region voted on its _____ from the main country.",
+    "translation": "Bölge, ana ülkeden ayrılması için oy kullandı.",
+    "context": "Bir ülkenin bir parçasının, ana ülkeden bağımsızlığını ilan etme veya kendi yoluna gitme isteği politik gündemi sıklıkla meşgul eder. 'Separation' kelimesi, bu tür bir ayrılma veya bağımsızlık talebini anlatır. Tarih derslerinden veya güncel olaylardan hatırlayacağın gibi, bazen büyük bir ülkenin içinden yeni bir devletin doğuşuna yol açabilir. Boşanma davasının ülkeler versiyonu gibi düşünebilirsin!",
+    "options": [
+      "separation",
+      "union",
+      "inclusion",
+      "connection"
+    ],
+    "correctAnswer": "separation",
+    "category": "TRAVEL",
+    "variations": [
+      "The debate about the province's _____ is ongoing.",
+      "They sought legal _____ from the corporation."
+    ]
+  },
+  {
+    "id": 126101911,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The company allocates a portion of its profits to a _____",
+    "translation": "Şirket, karının bir kısmını kamu yararı fonuna ayırır.",
+    "context": "Günümüzde şirketlerin sadece para kazanmak değil, aynı zamanda topluma faydalı olmak istemesi giderek yaygınlaşıyor. 'Public benefit fund' tam da bunu ifade eder: bir şirketin kazancının bir kısmını, eğitim, çevre koruma veya sağlık gibi kamu yararına projeleri desteklemek için ayırdığı özel bir fon. Kısacası, 'Sadece kendimiz için çalışmıyoruz, dünya için de varız!' diyen şirketlerin gurur kaynağıdır.",
+    "options": [
+      "public benefit fund",
+      "private investment",
+      "shareholder dividend",
+      "marketing budget"
+    ],
+    "correctAnswer": "public benefit fund",
+    "category": "BUSINESS",
+    "variations": [
+      "Many startups are now establishing a _____.",
+      "They are planning to contribute more to the _____."
+    ]
+  },
+  {
+    "id": 126101912,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "'Sabotage' kelimesi en iyi hangi anlamı taşır?",
+    "translation": "Bir şeye zarar vererek, onu bozarak veya etkili olmasını engelleyerek kasıtlı olarak engelleme veya yok etme eylemi.",
+    "context": "Gizemli filmlerin ve politik gerilimlerin vazgeçilmez kelimesi! 'Sabotage' dediğimizde, bir şeyin işleyişini kasıtlı olarak bozma, engelleme veya zarar verme eylemini anlarız. Bazen düşman bir ülkenin operasyonlarını sekteye uğratmak için yapılır, bazen de bir rakip şirketin projesini baltalamak için. Sanki biri arabanın fren kablolarını kesmiş gibi, ama daha büyük ölçekli ve gizli bir eylem!",
+    "options": [
+      "yıkıcı eylem",
+      "gizli toplantı",
+      "iş birliği",
+      "yeni proje"
+    ],
+    "correctAnswer": "yıkıcı eylem",
+    "category": "GENERAL",
     "variations": []
   }
 ]
