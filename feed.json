@@ -1,233 +1,227 @@
 [
   {
-    "id": 126101901,
+    "id": 126102001,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The suspect finally _____ the verdict today.",
-    "translation": "Sanık sonunda bugün kararı karşıladı/öğrendi.",
-    "context": "Film veya dizilerde sıkça duyarsın: 'The jury will now face the verdict!' (Jüri şimdi kararı açıklayacak!) Bir davada kararın açıklanması, herkesin heyecanla beklediği o anı anlatır. 'Face the verdict' dediğinde, o kararla yüzleşmek, ne olursa olsun kabul etmek anlamı taşır. Tıpkı sabah erken uyanıp sınav sonucunla yüzleşmek gibi!",
+    "phrase": "A Canadian _____ was found guilty of animal cruelty.",
+    "translation": "Bir Kanadalı turist, hayvanlara eziyet etmekten suçlu bulundu.",
+    "context": "Las Vegas'ta flamingo çalmaya kalkan Kanadalı turist haberi süper viral oldu! 'Tourist', yabancı bir ülkeyi gezen kişiye denir. Sıkça 'traveler' kelimesiyle karıştırılsa da 'tourist' genellikle sadece gezip eğlence için seyahat edenleri kapsar.",
     "options": [
-      "faces",
-      "hides",
-      "avoids",
-      "ignores"
+      "visitor",
+      "tourist",
+      "traveler",
+      "vacationer"
     ],
-    "correctAnswer": "faces",
+    "correctAnswer": "tourist",
     "category": "CASUAL",
     "variations": [
-      "Everyone must _____ the consequences of their actions.",
-      "You must _____ your fears to overcome them."
+      "The police are looking for a missing _____.",
+      "Many _____ visit this beautiful city every year."
     ]
   },
   {
-    "id": 126101902,
+    "id": 126102002,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "Bir şirketin piyasa değerini ve gelecekteki potansiyelini ifade eden kelime hangisidir?",
+    "translation": "Valuation",
+    "context": "Teknoloji dünyasında 'valuation' kelimesini sıkça duyarsın. Bir startup'ın kaç milyar dolar ettiğini gösteren bu sayı, yatırımcıların o şirkete ne kadar inandığını gösterir. Blackwall 2.2 milyar dolar 'valuation'a ulaşmış, harika bir başarı!",
+    "options": [
+      "Revenue",
+      "Profit",
+      "Valuation",
+      "Expense"
+    ],
+    "correctAnswer": "Valuation",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126102003,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The rocket is ready to _____ off for its journey.",
-    "translation": "Roket yolculuğu için fırlatılmaya hazır.",
-    "context": "Uzay filmlerinin vazgeçilmez sahnesi! Geri sayım biter, ateşleme başlar ve roket gökyüzüne doğru hızla yükselir. İşte bu 'blast off' anıdır! Sadece roketler için değil, bazen bir etkinliğin veya projenin hızlı ve heyecanlı başlangıcını anlatmak için de kullanılır. 'Our new project will blast off next month!' gibi.",
+    "phrase": "The flamingo was stolen from its _____ at the zoo.",
+    "translation": "Flamingo, hayvanat bahçesindeki kendi kapalı alanından çalındı.",
+    "context": "Hayvanat bahçelerindeki hayvanların kaldığı özel alanlara 'enclosure' denir. Bu kelime, bir şeyin etrafını çeviren bariyer veya kapalı alan anlamına gelir. Las Vegas'taki o flamingo da kendi 'enclosure'ından çalınmış. Hayvanları kendi doğal alanlarında bırakmak en güzeli!",
     "options": [
-      "blast",
-      "take",
-      "fly",
-      "send"
+      "cage",
+      "enclosure",
+      "area",
+      "section"
     ],
-    "correctAnswer": "blast",
+    "correctAnswer": "enclosure",
     "category": "TRAVEL",
     "variations": [
-      "The spacecraft is scheduled to _____ off at dawn.",
-      "We will _____ off on our vacation very soon."
+      "The children played safely within the school _____.",
+      "New laws protect the animals in their natural _____."
     ]
   },
   {
-    "id": 126101903,
+    "id": 126102004,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The coach will _____ a new deal next week.",
-    "translation": "Koç gelecek hafta yeni bir anlaşma imzalayacak.",
-    "context": "Spor haberlerinde veya iş dünyasında sıkça duyduğun bir ifade! Bir sporcu, bir menajer veya bir şirket çalışanı, mevcut sözleşmesini bitirip yenisini kabul ettiğinde 'signs a new deal' deriz. Yani kalemini alır, imzasını atar ve 'Evet, bu iş bende!' der. Terfi etmek ya da maaşına zam almak gibi havalı bir durum!",
+    "phrase": "Authorities issued a severe _____ warning for the UK.",
+    "translation": "Yetkililer, Birleşik Krallık için şiddetli bir hava durumu uyarısı yayınladı.",
+    "context": "'Weather warning', özellikle fırtına, sel veya aşırı kar yağışı gibi doğal olaylar öncesinde yapılan resmi uyarılardır. Bu uyarılar, insanların güvende kalması için çok önemli. Tıpkı Birleşik Krallık'taki Austen Fırtınası'nda olduğu gibi!",
     "options": [
-      "sign",
-      "write",
-      "close",
-      "read"
+      "climate",
+      "weather",
+      "storm",
+      "natural"
     ],
-    "correctAnswer": "sign",
-    "category": "BUSINESS",
+    "correctAnswer": "weather",
+    "category": "MIXED/GENERAL",
     "variations": [
-      "The company hopes to _____ a big deal soon.",
-      "Did you _____ the contract they sent you?"
+      "Always check the _____ forecast before traveling.",
+      "The ship sailed despite the rough _____."
     ]
   },
   {
-    "id": 126101904,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "They decided to _____ down on their strategy.",
-    "translation": "Stratejileri üzerine daha fazla yoğunlaşmaya karar verdiler.",
-    "context": "Poker masasında elindeki kartlara güvenip bahsi ikiye katlamak gibi düşünebilirsin! İş hayatında ise 'double down' dediğinde, mevcut bir planına, yatırımına ya da fikrine daha fazla güvenip, elini kuvvetlendirdiğin anlamına gelir. Bir şirket bir ürüne yatırımını artırdığında veya bir stratejiye daha sıkı sarıldığında bu ifadeyi kullanırız. 'Kaybedeceksem de tam kaybedeyim!' der gibi!",
-    "options": [
-      "double",
-      "cut",
-      "back",
-      "slow"
-    ],
-    "correctAnswer": "double",
-    "category": "GENERAL",
-    "variations": [
-      "The team decided to _____ down on their efforts.",
-      "We need to _____ down on our marketing for this product."
-    ]
-  },
-  {
-    "id": 126101905,
+    "id": 126102005,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "After the foul, the player was immediately _____ from the game.",
-    "translation": "Faul sonrası oyuncu oyundan hemen atıldı.",
-    "context": "Spor sahalarının en tatsız anlarından biri! Bir oyuncu kuralları ciddi şekilde çiğnediğinde veya itirazında aşırıya kaçtığında hakem tarafından oyundan atılır. İşte bu durum 'ejected' olarak adlandırılır. Sadece spor değil, bazen bir misafir bir partiden kovulduğunda veya bir öğrenci dersten çıkarıldığında da bu kelimeyi duyabilirsin. 'Hadi bakalım, güle güle!' demek gibi.",
+    "phrase": "Violent _____ erupted between protesters and police.",
+    "translation": "Protestocular ve polis arasında şiddetli çatışmalar çıktı.",
+    "context": "'Clashes', genellikle gruplar arasında yaşanan şiddetli çatışmaları veya sürtüşmeleri ifade eder. Arnavutluk'taki protestolarda olduğu gibi, bazen maalesef olaylar kontrolden çıkıp 'clashes'e dönüşebiliyor. Barışçıl çözümler her zaman tercih edilmeli!",
     "options": [
-      "ejected",
-      "awarded",
-      "included",
-      "admitted"
+      "arguments",
+      "fights",
+      "clashes",
+      "disagreements"
     ],
-    "correctAnswer": "ejected",
+    "correctAnswer": "clashes",
     "category": "CASUAL",
     "variations": [
-      "The unruly fan was _____ from the stadium.",
-      "He was _____ for arguing with the referee."
+      "The team had several internal _____ before the final game.",
+      "They tried to avoid any direct _____ with the rival group."
     ]
   },
   {
-    "id": 126101906,
+    "id": 126102006,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "'Haze-choked' ne anlama gelir?",
-    "translation": "Duman, sis veya pusla boğulmuş, kaplanmış.",
-    "context": "Hava kirliliğinin veya orman yangınlarının olduğu yerlerde gökyüzünün griye döndüğü, nefes almanın zorlaştığı o durumu düşün! 'Haze' kelimesi, puslu havayı ifade ederken, 'choked' (boğulmuş) kelimesiyle birleştiğinde, havanın o kadar kötü olduğunu ve insanların adeta boğulur gibi hissettiğini anlatır. Sanki bütün dünya bir anda sigara içmeye başlamış gibi!",
+    "phrase": "'Hükümet yetkililerinin, sorumluluklarından vazgeçtiğini veya görevlerini yerine getirmediğini' ifade eden kelime hangisidir?",
+    "translation": "Abdicated",
+    "context": "'Abdicated', genelde bir liderin tahtını veya bir hükümetin sorumluluklarını terk etmesi anlamına gelir. AI konusunda feds'in (federal hükümetin) sorumluluğunu 'abdicated' etmesi, yani vazgeçmesi, bazı uzmanları endişelendiriyor. Teknoloji hızla ilerlerken düzenlemeler de önemli!",
     "options": [
-      "dumanla kaplı",
-      "çamurlu",
-      "ağaçsız",
-      "rüzgarlı"
+      "Delegated",
+      "Assumed",
+      "Abdicated",
+      "Fulfilled"
     ],
-    "correctAnswer": "dumanla kaplı",
+    "correctAnswer": "Abdicated",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126102007,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The tourist was found _____ of animal cruelty.",
+    "translation": "Turist, hayvanlara eziyet etmekten suçlu bulundu.",
+    "context": "Mahkemelerde bir kişinin bir suçtan sorumlu olduğunu belirten karara 'guilty' denir. O zavallı flamingoyu çalmaya kalkan Kanadalı turist de bu sıfatı almış. 'Guilty' olmak hiç güzel bir his değil, değil mi? Özellikle de masum bir hayvana zarar verdiysen.",
+    "options": [
+      "innocent",
+      "responsible",
+      "guilty",
+      "wrong"
+    ],
+    "correctAnswer": "guilty",
+    "category": "TRAVEL",
+    "variations": [
+      "He felt _____ about not helping his friend.",
+      "The jury found him _____ on all counts."
+    ]
+  },
+  {
+    "id": 126102008,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Geceleri gökyüzünde hızla kayan, parlak ışık izleri bırakan gök cisimleri olayına ne ad verilir?",
+    "translation": "Meteor shower",
+    "context": "Gökyüzü meraklıları için 'meteor shower', kaçırılmaması gereken bir görsel şölen! Uzaydan gelen minik parçacıklar Dünya atmosferine girdiğinde yanarak parlak izler bırakır. Orionid meteor yağmuru gibi olaylar, insanı adeta uzaya çıkarır!",
+    "options": [
+      "Solar eclipse",
+      "Lunar eclipse",
+      "Meteor shower",
+      "Aurora borealis"
+    ],
+    "correctAnswer": "Meteor shower",
+    "category": "MIXED/GENERAL",
+    "variations": []
+  },
+  {
+    "id": 126102009,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Northern Ireland needs leadership to _____ climate change effectively.",
+    "translation": "Kuzey İrlanda'nın iklim değişikliğiyle etkili bir şekilde mücadele etmek için liderliğe ihtiyacı var.",
+    "context": "'Tackle' kelimesi, bir sorunun üstesinden gelmek, onunla başa çıkmak veya onu çözmek için kararlı adımlar atmak anlamına gelir. İklim değişikliği gibi küresel bir sorunla 'tackle' etmek için büyük cesaret ve liderlik gerekiyor. Herkes elini taşın altına koymalı!",
+    "options": [
+      "approach",
+      "handle",
+      "tackle",
+      "face"
+    ],
+    "correctAnswer": "tackle",
+    "category": "CASUAL",
+    "variations": [
+      "We need to _____ the root cause of the problem.",
+      "The government promised to _____ poverty in the region."
+    ]
+  },
+  {
+    "id": 126102010,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Nscale and Anthropic are reportedly in talks for a massive _____ deal.",
+    "translation": "Nscale ve Anthropic'in büyük bir işlem gücü anlaşması için görüşmelerde olduğu bildiriliyor.",
+    "context": "Teknoloji dünyasında, özellikle yapay zeka ve büyük veri çağında, 'compute' (işlem gücü) son derece değerli. 'Compute deal', devasa miktarlarda işlem gücünün tedariki veya kiralanması anlamına gelir. Bu kadar büyük 'compute deal'ler, şirketlerin ne kadar büyük hedefleri olduğunu gösteriyor!",
+    "options": [
+      "software",
+      "data",
+      "compute",
+      "hardware"
+    ],
+    "correctAnswer": "compute",
+    "category": "BUSINESS",
+    "variations": [
+      "Cloud providers offer various _____ services to businesses.",
+      "The project requires significant _____ resources."
+    ]
+  },
+  {
+    "id": 126102011,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "'Kasten ateşe vermek veya yakmak' anlamına gelen fiil grubu hangisidir?",
+    "translation": "Set alight",
+    "context": "Tarihi bir belediye binasının 'set alight' edilmesi, yani ateşe verilmesi gerçekten üzücü bir olay. Bu ifade, bir şeyi kasıtlı olarak yakmak anlamına gelir. 'Set alight' fiilini duyduğunda, genelde kötü niyetli bir eylem olduğunu anlayabilirsin.",
+    "options": [
+      "Put out",
+      "Light up",
+      "Set alight",
+      "Burn down"
+    ],
+    "correctAnswer": "Set alight",
     "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126101907,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Investors are navigating a highly _____ market.",
-    "translation": "Yatırımcılar oldukça hareketli/çılgın bir piyasada yol alıyorlar.",
-    "context": "Borsa düşüşe geçtiğinde veya bir anda rekor seviyelere çıktığında, herkesin panik içinde alım satım yaptığı, fiyatların sürekli değiştiği o 'çılgın' anlar vardır. İşte bu duruma 'frenzied market' denir. Herkesin bir şeyler yakalamaya çalıştığı, enerjinin tavan yaptığı, adeta bir arı kovanı gibi hareketli bir ortamı hayal et. Kimse ne olacağını tam kestiremez, tam bir adrenalin bombası!",
-    "options": [
-      "frenzied",
-      "calm",
-      "stable",
-      "slow"
-    ],
-    "correctAnswer": "frenzied",
-    "category": "BUSINESS",
-    "variations": [
-      "The crowd was in a _____ state before the concert.",
-      "The holiday shopping created a _____ atmosphere."
-    ]
-  },
-  {
-    "id": 126101908,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The documentary explored the _____ world of espionage.",
-    "translation": "Belgesel, casusluğun gölgeli/gizli dünyasını araştırdı.",
-    "context": "Karanlık sokaklar, gizemli figürler, fısıltılar ve sırlar... İşte bir şeyin 'shadowy world' olması tam da bu anlama gelir. Genellikle yasa dışı veya etik olmayan, kamuoyundan saklanan, kimsenin tam olarak ne döndüğünü bilmediği gizli işleri anlatmak için kullanılır. Filmlerdeki ajanların, mafya babalarının dünyası gibi. Perdenin arkasında neler döndüğünü merak ettiren, biraz da korkutucu bir durum!",
-    "options": [
-      "shadowy",
-      "bright",
-      "open",
-      "transparent"
-    ],
-    "correctAnswer": "shadowy",
-    "category": "GENERAL",
-    "variations": [
-      "She disappeared into the _____ alleys of the city.",
-      "The police investigated the _____ dealings of the group."
-    ]
-  },
-  {
-    "id": 126101909,
+    "id": 126102012,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "'Glamping pod' terimi neyi ifade eder?",
-    "translation": "Konforlu ve genellikle lüks olan bir kamp deneyimi sağlayan küçük, kubbeli bir konaklama birimi.",
-    "context": "Kamp yapmayı seviyorsun ama böceklerden, çadırdan ve yerde yatmaktan nefret mi ediyorsun? İşte 'glamping' tam sana göre! 'Glamorous camping'in kısaltması olan bu terim, doğanın içinde ama beş yıldızlı otel konforunda konaklamayı ifade eder. 'Glamping pod' ise bu lüks kampın genellikle küçük, modern ve şık tasarımlı, kubbe veya kapsül şeklindeki özel odalarına verilen isimdir. Gitmek için birikim yapmaya başlasan iyi olur!",
+    "phrase": "'Bilgi veya haber paylaşımını kısıtlamak, sınırlamak' anlamına gelen ifade nedir?",
+    "translation": "Restricting intelligence sharing",
+    "context": "'Restricting intelligence sharing', özellikle savaş ve güvenlik konularında kritik bilgilerin paylaşımını sınırlamak demektir. Ukrayna savaşında böyle bir durumun yaşanması, Zelenskiy'nin danışmanını endişelendirmiş. Bilgi akışı, bazen hayat kurtarabilir.",
     "options": [
-      "lüks kamp deneyimi",
-      "uzay kapsülü",
-      "batık tekne",
-      "dağ evi"
+      "Promoting information flow",
+      "Enhancing data access",
+      "Restricting intelligence sharing",
+      "Facilitating knowledge exchange"
     ],
-    "correctAnswer": "lüks kamp deneyimi",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126101910,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The region voted on its _____ from the main country.",
-    "translation": "Bölge, ana ülkeden ayrılması için oy kullandı.",
-    "context": "Bir ülkenin bir parçasının, ana ülkeden bağımsızlığını ilan etme veya kendi yoluna gitme isteği politik gündemi sıklıkla meşgul eder. 'Separation' kelimesi, bu tür bir ayrılma veya bağımsızlık talebini anlatır. Tarih derslerinden veya güncel olaylardan hatırlayacağın gibi, bazen büyük bir ülkenin içinden yeni bir devletin doğuşuna yol açabilir. Boşanma davasının ülkeler versiyonu gibi düşünebilirsin!",
-    "options": [
-      "separation",
-      "union",
-      "inclusion",
-      "connection"
-    ],
-    "correctAnswer": "separation",
-    "category": "TRAVEL",
-    "variations": [
-      "The debate about the province's _____ is ongoing.",
-      "They sought legal _____ from the corporation."
-    ]
-  },
-  {
-    "id": 126101911,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The company allocates a portion of its profits to a _____",
-    "translation": "Şirket, karının bir kısmını kamu yararı fonuna ayırır.",
-    "context": "Günümüzde şirketlerin sadece para kazanmak değil, aynı zamanda topluma faydalı olmak istemesi giderek yaygınlaşıyor. 'Public benefit fund' tam da bunu ifade eder: bir şirketin kazancının bir kısmını, eğitim, çevre koruma veya sağlık gibi kamu yararına projeleri desteklemek için ayırdığı özel bir fon. Kısacası, 'Sadece kendimiz için çalışmıyoruz, dünya için de varız!' diyen şirketlerin gurur kaynağıdır.",
-    "options": [
-      "public benefit fund",
-      "private investment",
-      "shareholder dividend",
-      "marketing budget"
-    ],
-    "correctAnswer": "public benefit fund",
-    "category": "BUSINESS",
-    "variations": [
-      "Many startups are now establishing a _____.",
-      "They are planning to contribute more to the _____."
-    ]
-  },
-  {
-    "id": 126101912,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "'Sabotage' kelimesi en iyi hangi anlamı taşır?",
-    "translation": "Bir şeye zarar vererek, onu bozarak veya etkili olmasını engelleyerek kasıtlı olarak engelleme veya yok etme eylemi.",
-    "context": "Gizemli filmlerin ve politik gerilimlerin vazgeçilmez kelimesi! 'Sabotage' dediğimizde, bir şeyin işleyişini kasıtlı olarak bozma, engelleme veya zarar verme eylemini anlarız. Bazen düşman bir ülkenin operasyonlarını sekteye uğratmak için yapılır, bazen de bir rakip şirketin projesini baltalamak için. Sanki biri arabanın fren kablolarını kesmiş gibi, ama daha büyük ölçekli ve gizli bir eylem!",
-    "options": [
-      "yıkıcı eylem",
-      "gizli toplantı",
-      "iş birliği",
-      "yeni proje"
-    ],
-    "correctAnswer": "yıkıcı eylem",
-    "category": "GENERAL",
+    "correctAnswer": "Restricting intelligence sharing",
+    "category": "MIXED/GENERAL",
     "variations": []
   }
 ]
