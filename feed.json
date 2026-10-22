@@ -1,226 +1,226 @@
 [
   {
-    "id": 126102001,
+    "id": 126102201,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "A Canadian _____ was found guilty of animal cruelty.",
-    "translation": "Bir Kanadalı turist, hayvanlara eziyet etmekten suçlu bulundu.",
-    "context": "Las Vegas'ta flamingo çalmaya kalkan Kanadalı turist haberi süper viral oldu! 'Tourist', yabancı bir ülkeyi gezen kişiye denir. Sıkça 'traveler' kelimesiyle karıştırılsa da 'tourist' genellikle sadece gezip eğlence için seyahat edenleri kapsar.",
+    "phrase": "The celebrity shark _____ to swim out to the sea.",
+    "translation": "Ünlü köpek balığı denize yüzmeyi reddetti.",
+    "context": "'Refuse' kelimesi, bir şeyi yapmayı 'reddetmek' veya 'geri çevirmek' anlamına gelir. Mesela, bir arkadaşın sana çay ikram ettiğinde 'No, thank you, I refuse to drink tea right now' diyebilirsin. Ya da burada olduğu gibi, yüzmeyi reddeden bir köpek balığı! Bazen sadece kendi istediğini yaparsın, tıpkı bu asi köpek balığı gibi!",
     "options": [
-      "visitor",
-      "tourist",
-      "traveler",
-      "vacationer"
+      "agrees",
+      "refuses",
+      "allows",
+      "accepts"
     ],
-    "correctAnswer": "tourist",
+    "correctAnswer": "refuses",
     "category": "CASUAL",
     "variations": [
-      "The police are looking for a missing _____.",
-      "Many _____ visit this beautiful city every year."
+      "He will _____ their offer.",
+      "She _____ to answer my calls."
     ]
   },
   {
-    "id": 126102002,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "Bir şirketin piyasa değerini ve gelecekteki potansiyelini ifade eden kelime hangisidir?",
-    "translation": "Valuation",
-    "context": "Teknoloji dünyasında 'valuation' kelimesini sıkça duyarsın. Bir startup'ın kaç milyar dolar ettiğini gösteren bu sayı, yatırımcıların o şirkete ne kadar inandığını gösterir. Blackwall 2.2 milyar dolar 'valuation'a ulaşmış, harika bir başarı!",
-    "options": [
-      "Revenue",
-      "Profit",
-      "Valuation",
-      "Expense"
-    ],
-    "correctAnswer": "Valuation",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126102003,
+    "id": 126102202,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The flamingo was stolen from its _____ at the zoo.",
-    "translation": "Flamingo, hayvanat bahçesindeki kendi kapalı alanından çalındı.",
-    "context": "Hayvanat bahçelerindeki hayvanların kaldığı özel alanlara 'enclosure' denir. Bu kelime, bir şeyin etrafını çeviren bariyer veya kapalı alan anlamına gelir. Las Vegas'taki o flamingo da kendi 'enclosure'ından çalınmış. Hayvanları kendi doğal alanlarında bırakmak en güzeli!",
+    "phrase": "Meta wants to pay with a newly created class of _____.",
+    "translation": "Meta, yeni oluşturulmuş bir hisse senedi sınıfıyla ödeme yapmak istiyor.",
+    "context": "'Stock', bir şirketin sahiplik paylarını temsil eden hisse senedi demektir. Yani bir şirketten 'stock' satın aldığında, o şirketin küçük bir parçasına sahip olursun! Borsada alınıp satılırlar. Meta gibi büyük şirketler, yeni projelerini finanse etmek için sıkça yeni 'stock' çıkarabilirler. Böylece hem yatırımcı çekmiş olurlar hem de nakit akışını yönetirler.",
     "options": [
-      "cage",
-      "enclosure",
-      "area",
-      "section"
+      "bond",
+      "loan",
+      "debt",
+      "stock"
     ],
-    "correctAnswer": "enclosure",
+    "correctAnswer": "stock",
+    "category": "BUSINESS",
+    "variations": [
+      "Do you own any company _____?",
+      "The company's _____ price went up."
+    ]
+  },
+  {
+    "id": 126102203,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Airbnb limits chores for _____.",
+    "translation": "Airbnb, misafirler için ev işlerini sınırlandırıyor.",
+    "context": "'Guest', otelde kalan, eve gelen veya davet edilen 'misafir' demektir. Airbnb'de sen de bir 'guest' oluyorsun ve rahatın önemli! Bazen misafir olmak demek, ev sahibinin istediği tüm kurallara uymak zorunda kalmak demek. Ama artık Airbnb, misafirlerinin daha az ev işi yapmasını istiyor, kim sevmez ki!",
+    "options": [
+      "hosts",
+      "owners",
+      "guests",
+      "staff"
+    ],
+    "correctAnswer": "guests",
     "category": "TRAVEL",
     "variations": [
-      "The children played safely within the school _____.",
-      "New laws protect the animals in their natural _____."
+      "Our _____ arrived late.",
+      "She was a special _____ at the party."
     ]
   },
   {
-    "id": 126102004,
-    "type": "QUIZ_COMPLETION",
+    "id": 126102204,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "Authorities issued a severe _____ warning for the UK.",
-    "translation": "Yetkililer, Birleşik Krallık için şiddetli bir hava durumu uyarısı yayınladı.",
-    "context": "'Weather warning', özellikle fırtına, sel veya aşırı kar yağışı gibi doğal olaylar öncesinde yapılan resmi uyarılardır. Bu uyarılar, insanların güvende kalması için çok önemli. Tıpkı Birleşik Krallık'taki Austen Fırtınası'nda olduğu gibi!",
+    "phrase": "Hangi kelime 'bilgisayar sistemlerini siber saldırılardan koruma' anlamına gelir?",
+    "translation": "Which word means 'protecting computer systems from cyber-attacks'?",
+    "context": "'Cyber-security', siber güvenlik demektir ve dijital dünyamızı korumanın kahramanıdır! Bilgisayarlarımızı, telefonlarımızı, banka hesaplarımızı kötü niyetli hacker'lardan, virüslerden ve dolandırıcılardan korumak için alınan önlemlerin tümünü kapsar. PHP gibi yazılımlardaki güvenlik açıkları, tüm dünyada siber güvenlik uzmanlarını alarma geçirebilir. Unutma, dijital dünyanın da kapıları var ve onları kilitli tutmak önemli!",
     "options": [
-      "climate",
-      "weather",
-      "storm",
-      "natural"
+      "Cyber-attack",
+      "Cyber-security",
+      "Cyber-space",
+      "Cyber-punk"
     ],
-    "correctAnswer": "weather",
-    "category": "MIXED/GENERAL",
-    "variations": [
-      "Always check the _____ forecast before traveling.",
-      "The ship sailed despite the rough _____."
-    ]
-  },
-  {
-    "id": 126102005,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Violent _____ erupted between protesters and police.",
-    "translation": "Protestocular ve polis arasında şiddetli çatışmalar çıktı.",
-    "context": "'Clashes', genellikle gruplar arasında yaşanan şiddetli çatışmaları veya sürtüşmeleri ifade eder. Arnavutluk'taki protestolarda olduğu gibi, bazen maalesef olaylar kontrolden çıkıp 'clashes'e dönüşebiliyor. Barışçıl çözümler her zaman tercih edilmeli!",
-    "options": [
-      "arguments",
-      "fights",
-      "clashes",
-      "disagreements"
-    ],
-    "correctAnswer": "clashes",
-    "category": "CASUAL",
-    "variations": [
-      "The team had several internal _____ before the final game.",
-      "They tried to avoid any direct _____ with the rival group."
-    ]
-  },
-  {
-    "id": 126102006,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "'Hükümet yetkililerinin, sorumluluklarından vazgeçtiğini veya görevlerini yerine getirmediğini' ifade eden kelime hangisidir?",
-    "translation": "Abdicated",
-    "context": "'Abdicated', genelde bir liderin tahtını veya bir hükümetin sorumluluklarını terk etmesi anlamına gelir. AI konusunda feds'in (federal hükümetin) sorumluluğunu 'abdicated' etmesi, yani vazgeçmesi, bazı uzmanları endişelendiriyor. Teknoloji hızla ilerlerken düzenlemeler de önemli!",
-    "options": [
-      "Delegated",
-      "Assumed",
-      "Abdicated",
-      "Fulfilled"
-    ],
-    "correctAnswer": "Abdicated",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126102007,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The tourist was found _____ of animal cruelty.",
-    "translation": "Turist, hayvanlara eziyet etmekten suçlu bulundu.",
-    "context": "Mahkemelerde bir kişinin bir suçtan sorumlu olduğunu belirten karara 'guilty' denir. O zavallı flamingoyu çalmaya kalkan Kanadalı turist de bu sıfatı almış. 'Guilty' olmak hiç güzel bir his değil, değil mi? Özellikle de masum bir hayvana zarar verdiysen.",
-    "options": [
-      "innocent",
-      "responsible",
-      "guilty",
-      "wrong"
-    ],
-    "correctAnswer": "guilty",
-    "category": "TRAVEL",
-    "variations": [
-      "He felt _____ about not helping his friend.",
-      "The jury found him _____ on all counts."
-    ]
-  },
-  {
-    "id": 126102008,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Geceleri gökyüzünde hızla kayan, parlak ışık izleri bırakan gök cisimleri olayına ne ad verilir?",
-    "translation": "Meteor shower",
-    "context": "Gökyüzü meraklıları için 'meteor shower', kaçırılmaması gereken bir görsel şölen! Uzaydan gelen minik parçacıklar Dünya atmosferine girdiğinde yanarak parlak izler bırakır. Orionid meteor yağmuru gibi olaylar, insanı adeta uzaya çıkarır!",
-    "options": [
-      "Solar eclipse",
-      "Lunar eclipse",
-      "Meteor shower",
-      "Aurora borealis"
-    ],
-    "correctAnswer": "Meteor shower",
+    "correctAnswer": "Cyber-security",
     "category": "MIXED/GENERAL",
     "variations": []
   },
   {
-    "id": 126102009,
+    "id": 126102205,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Northern Ireland needs leadership to _____ climate change effectively.",
-    "translation": "Kuzey İrlanda'nın iklim değişikliğiyle etkili bir şekilde mücadele etmek için liderliğe ihtiyacı var.",
-    "context": "'Tackle' kelimesi, bir sorunun üstesinden gelmek, onunla başa çıkmak veya onu çözmek için kararlı adımlar atmak anlamına gelir. İklim değişikliği gibi küresel bir sorunla 'tackle' etmek için büyük cesaret ve liderlik gerekiyor. Herkes elini taşın altına koymalı!",
+    "level": "INTERMEDIATE",
+    "phrase": "Russia agrees to _____ Ukraine peace talks.",
+    "translation": "Rusya, Ukrayna barış görüşmelerine yeniden başlamayı kabul ediyor.",
+    "context": "'Resume' kelimesi, bir şeye 'yeniden başlamak' veya 'devam etmek' anlamına gelir. Yani bir ara verdiğin işe veya aktiviteye kaldığın yerden devam etmek gibi. Mesela, 'After a coffee break, we will resume our meeting.' diyebilirsin. Burada da barış görüşmeleri bir süreliğine durmuş, şimdi ise tekrar başlamasına karar verilmiş. Hayatımızda sıkça 'resume' ederiz bir şeyleri, tıpkı okuduğumuz kitabı veya izlediğimiz diziyi kaldığı yerden açmak gibi!",
     "options": [
-      "approach",
-      "handle",
-      "tackle",
-      "face"
+      "end",
+      "cancel",
+      "resume",
+      "delay"
     ],
-    "correctAnswer": "tackle",
+    "correctAnswer": "resume",
     "category": "CASUAL",
     "variations": [
-      "We need to _____ the root cause of the problem.",
-      "The government promised to _____ poverty in the region."
+      "Let's _____ our work after lunch.",
+      "The game will _____ in five minutes."
     ]
   },
   {
-    "id": 126102010,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Nscale and Anthropic are reportedly in talks for a massive _____ deal.",
-    "translation": "Nscale ve Anthropic'in büyük bir işlem gücü anlaşması için görüşmelerde olduğu bildiriliyor.",
-    "context": "Teknoloji dünyasında, özellikle yapay zeka ve büyük veri çağında, 'compute' (işlem gücü) son derece değerli. 'Compute deal', devasa miktarlarda işlem gücünün tedariki veya kiralanması anlamına gelir. Bu kadar büyük 'compute deal'ler, şirketlerin ne kadar büyük hedefleri olduğunu gösteriyor!",
-    "options": [
-      "software",
-      "data",
-      "compute",
-      "hardware"
-    ],
-    "correctAnswer": "compute",
-    "category": "BUSINESS",
-    "variations": [
-      "Cloud providers offer various _____ services to businesses.",
-      "The project requires significant _____ resources."
-    ]
-  },
-  {
-    "id": 126102011,
+    "id": 126102206,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "'Kasten ateşe vermek veya yakmak' anlamına gelen fiil grubu hangisidir?",
-    "translation": "Set alight",
-    "context": "Tarihi bir belediye binasının 'set alight' edilmesi, yani ateşe verilmesi gerçekten üzücü bir olay. Bu ifade, bir şeyi kasıtlı olarak yakmak anlamına gelir. 'Set alight' fiilini duyduğunda, genelde kötü niyetli bir eylem olduğunu anlayabilirsin.",
+    "level": "INTERMEDIATE",
+    "phrase": "'Fears over AI-buildout debt are overblown.' cümlesinde 'overblown' kelimesinin anlamı nedir?",
+    "translation": "What is the meaning of 'overblown' in the sentence 'Fears over AI-buildout debt are overblown.'?",
+    "context": "'Overblown', bir şeyin abartılmış, gereğinden fazla büyütülmüş veya önemsenmiş olduğu anlamına gelir. Yani balon gibi şişirilmiş, gerçekte olduğundan daha büyük gösterilmiş. Bu haberde de yapay zeka yatırımları nedeniyle oluşabilecek borçlar hakkındaki 'korkuların abartıldığı' söyleniyor. Bazen ufak bir sorunu da 'overblown' bir drama çevirebiliriz, değil mi? Gerçekleri olduğu gibi görmek lazım!",
     "options": [
-      "Put out",
-      "Light up",
-      "Set alight",
-      "Burn down"
+      "Underestimated",
+      "Exaggerated",
+      "Accurate",
+      "Hidden"
     ],
-    "correctAnswer": "Set alight",
-    "category": "TRAVEL",
+    "correctAnswer": "Exaggerated",
+    "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126102012,
+    "id": 126102207,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "A celebrity shark guided out of South Korea _____.",
+    "translation": "Güney Kore'deki bir kanaldan dışarı çıkarılan ünlü bir köpek balığı.",
+    "context": "'Canal', insan yapımı bir su yolu, yani 'kanal' demektir. Genellikle gemilerin veya teknelerin geçişi için ya da tarım arazilerini sulamak için kullanılırlar. Ünlü köpek balığımız da yanlışlıkla bir kanala girmiş ve denize çıkmayı reddetmiş! Bazen kısa yoldan gitmek için 'canal' açarız ama bu köpek balığı için pek işe yaramamış.",
+    "options": [
+      "ocean",
+      "lake",
+      "canal",
+      "river"
+    ],
+    "correctAnswer": "canal",
+    "category": "TRAVEL",
+    "variations": [
+      "The city is famous for its narrow _____. ",
+      "Boats can travel through the _____."
+    ]
+  },
+  {
+    "id": 126102208,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "'Balance of power' ne anlama gelir?",
+    "translation": "What does 'balance of power' mean?",
+    "context": "'Balance of power', 'güç dengesi' demektir. Birçok farklı tarafın olduğu durumlarda, hiçbirinin tam üstünlük sağlayamadığı ve karşılıklı güçlerin birbirini dengelediği bir durumu ifade eder. Politikada, bir seçimde küçük partilerin büyük partiler arasında anahtar rol oynaması gibi. Tıpkı bir tahterevalli gibi, herkesin dengede durması önemlidir!",
+    "options": [
+      "Complete control",
+      "Equality of strength",
+      "Lack of influence",
+      "Dictatorship"
+    ],
+    "correctAnswer": "Equality of strength",
+    "category": "MIXED/GENERAL",
+    "variations": []
+  },
+  {
+    "id": 126102209,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Carra said Fernandes comments were '_____'.",
+    "translation": "Carra, Fernandes'in yorumlarının 'utanç verici' olduğunu söyledi.",
+    "context": "'Disgraceful', 'utanç verici', 'ayıp' veya 'rezil' anlamına gelen güçlü bir sıfattır. Bir davranışın veya sözün toplum tarafından kabul edilemez, ahlaki olarak yanlış bulunduğunda kullanılır. Özellikle spor dünyasında, Fair Play kurallarına aykırı bir hareket veya sportmenlik dışı bir açıklama 'disgraceful' olarak nitelendirilebilir. Ağır bir kelimedir, dikkatli kullanmak gerekir!",
+    "options": [
+      "excellent",
+      "acceptable",
+      "disgraceful",
+      "praiseworthy"
+    ],
+    "correctAnswer": "disgraceful",
+    "category": "CASUAL",
+    "variations": [
+      "His behavior was absolutely _____.",
+      "It was a _____ performance."
+    ]
+  },
+  {
+    "id": 126102210,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "'Bilgi veya haber paylaşımını kısıtlamak, sınırlamak' anlamına gelen ifade nedir?",
-    "translation": "Restricting intelligence sharing",
-    "context": "'Restricting intelligence sharing', özellikle savaş ve güvenlik konularında kritik bilgilerin paylaşımını sınırlamak demektir. Ukrayna savaşında böyle bir durumun yaşanması, Zelenskiy'nin danışmanını endişelendirmiş. Bilgi akışı, bazen hayat kurtarabilir.",
+    "phrase": "'AI buildout' ifadesindeki 'buildout' kelimesi neyi ifade eder?",
+    "translation": "What does the word 'buildout' refer to in the phrase 'AI buildout'?",
+    "context": "'Buildout', genellikle büyük ölçekli bir 'yapılandırma', 'geliştirme' veya 'genişletme' projesini ifade eder. Özellikle iş ve teknoloji dünyasında kullanılır. Örneğin, Meta'nın 'AI buildout'u, yapay zeka altyapısını kurmak ve geliştirmek için yaptığı büyük yatırımları ve çalışmaları kapsar. Bir şirket yeni bir fabrika kurduğunda veya yeni bir teknoloji geliştirme projesine başladığında da 'buildout' kelimesi karşımıza çıkar. Kısacası, sıfırdan büyük bir şeyi inşa etme veya mevcut bir sistemi kapsamlı bir şekilde genişletme sürecidir!",
     "options": [
-      "Promoting information flow",
-      "Enhancing data access",
-      "Restricting intelligence sharing",
-      "Facilitating knowledge exchange"
+      "Dismantling",
+      "Expansion and development",
+      "Maintenance",
+      "Cost reduction"
     ],
-    "correctAnswer": "Restricting intelligence sharing",
+    "correctAnswer": "Expansion and development",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126102211,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Airbnb limits _____ for guests, sparking backlash from hosts.",
+    "translation": "Airbnb, misafirler için ev işlerini sınırlandırıyor, bu da ev sahiplerinden tepki çekiyor.",
+    "context": "'Chores', günlük ev işleri veya rutin görevler anlamına gelir. Bulaşık yıkamak, yerleri süpürmek, çamaşır katlamak gibi. Airbnb'de ev sahipleri, misafirlerinden bazen bazı 'chores' yapmalarını bekleyebilirler. Ama bu haberde gördüğümüz gibi, Airbnb misafirlerin daha az 'chore' yapmasını isteyerek ev sahiplerini kızdırmış! Kim tatilde 'chore' yapmak ister ki?",
+    "options": [
+      "parties",
+      "chores",
+      "payments",
+      "complaints"
+    ],
+    "correctAnswer": "chores",
+    "category": "TRAVEL",
+    "variations": [
+      "I have to finish my morning _____.",
+      "Doing daily _____ is tiring."
+    ]
+  },
+  {
+    "id": 126102212,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "'PHP security scramble' veya 'sparking backlash' cümlelerindeki 'spark' fiilinin anlamı nedir?",
+    "translation": "What is the meaning of the verb 'spark' in the phrases 'PHP security scramble' or 'sparking backlash'?",
+    "context": "'Spark', genellikle bir şeyin 'başlamasına neden olmak', 'tetiklemek' veya 'kıvılcım çakmak' anlamına gelir. Küçük bir kıvılcım nasıl büyük bir yangını başlatabilirse, küçük bir olay da büyük tepkilere veya gelişmelere yol açabilir. Örneğin, PHP'deki güvenlik açığı küresel bir 'siber güvenlik telaşına' 'spark' (kıvılcım) saçmış. Ya da Airbnb'nin kararı ev sahipleri arasında 'tepkilere neden olmuş' (sparking backlash). Yani, bir olayın başlangıç noktasını veya tetikleyicisini ifade eder.",
+    "options": [
+      "To extinguish",
+      "To prevent",
+      "To cause or initiate",
+      "To ignore"
+    ],
+    "correctAnswer": "To cause or initiate",
     "category": "MIXED/GENERAL",
     "variations": []
   }
