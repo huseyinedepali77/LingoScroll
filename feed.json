@@ -1,227 +1,230 @@
 [
   {
-    "id": 126102201,
+    "id": 126102501,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The celebrity shark _____ to swim out to the sea.",
-    "translation": "Ünlü köpek balığı denize yüzmeyi reddetti.",
-    "context": "'Refuse' kelimesi, bir şeyi yapmayı 'reddetmek' veya 'geri çevirmek' anlamına gelir. Mesela, bir arkadaşın sana çay ikram ettiğinde 'No, thank you, I refuse to drink tea right now' diyebilirsin. Ya da burada olduğu gibi, yüzmeyi reddeden bir köpek balığı! Bazen sadece kendi istediğini yaparsın, tıpkı bu asi köpek balığı gibi!",
+    "phrase": "He hit an amazing _____ shot.",
+    "translation": "O inanılmaz bir 'tweener' vuruşu yaptı.",
+    "context": "Teniste, bacaklarının arasından yapılan, kalabalığı coşturan o havalı vuruşa 'tweener' denir. Genelde rakibin arkaya attığı topa yetişirken yapılır. Arthur Fils'in yaptığı gibi, seyircileri hayran bırakır!",
     "options": [
-      "agrees",
-      "refuses",
-      "allows",
-      "accepts"
+      "tweener",
+      "kicker",
+      "lobber",
+      "smasher"
     ],
-    "correctAnswer": "refuses",
+    "correctAnswer": "tweener",
     "category": "CASUAL",
     "variations": [
-      "He will _____ their offer.",
-      "She _____ to answer my calls."
+      "She played a perfect _____ to win the point.",
+      "The tennis player surprised everyone with a fantastic _____."
     ]
   },
   {
-    "id": 126102202,
+    "id": 126102502,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Meta wants to pay with a newly created class of _____.",
-    "translation": "Meta, yeni oluşturulmuş bir hisse senedi sınıfıyla ödeme yapmak istiyor.",
-    "context": "'Stock', bir şirketin sahiplik paylarını temsil eden hisse senedi demektir. Yani bir şirketten 'stock' satın aldığında, o şirketin küçük bir parçasına sahip olursun! Borsada alınıp satılırlar. Meta gibi büyük şirketler, yeni projelerini finanse etmek için sıkça yeni 'stock' çıkarabilirler. Böylece hem yatırımcı çekmiş olurlar hem de nakit akışını yönetirler.",
+    "phrase": "Many new tech _____ fail quickly.",
+    "translation": "Birçok yeni teknoloji girişimi hızla başarısız olur.",
+    "context": "'Startup' kelimesi, yeni kurulmuş, genellikle teknoloji tabanlı ve hızlı büyümeyi hedefleyen genç şirketler için kullanılır. Bazen 'AI graveyard' haberindeki gibi çoğu tutunamayabilir ama bazıları da milyar dolarlık devlere dönüşür!",
     "options": [
-      "bond",
-      "loan",
-      "debt",
-      "stock"
+      "startups",
+      "finish-ups",
+      "close-ups",
+      "kick-offs"
     ],
-    "correctAnswer": "stock",
+    "correctAnswer": "startups",
     "category": "BUSINESS",
     "variations": [
-      "Do you own any company _____?",
-      "The company's _____ price went up."
+      "Our new _____ is looking for investors.",
+      "The Silicon Valley is full of exciting _____."
     ]
   },
   {
-    "id": 126102203,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Airbnb limits chores for _____.",
-    "translation": "Airbnb, misafirler için ev işlerini sınırlandırıyor.",
-    "context": "'Guest', otelde kalan, eve gelen veya davet edilen 'misafir' demektir. Airbnb'de sen de bir 'guest' oluyorsun ve rahatın önemli! Bazen misafir olmak demek, ev sahibinin istediği tüm kurallara uymak zorunda kalmak demek. Ama artık Airbnb, misafirlerinin daha az ev işi yapmasını istiyor, kim sevmez ki!",
-    "options": [
-      "hosts",
-      "owners",
-      "guests",
-      "staff"
-    ],
-    "correctAnswer": "guests",
-    "category": "TRAVEL",
-    "variations": [
-      "Our _____ arrived late.",
-      "She was a special _____ at the party."
-    ]
-  },
-  {
-    "id": 126102204,
+    "id": 126102503,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "Hangi kelime 'bilgisayar sistemlerini siber saldırılardan koruma' anlamına gelir?",
-    "translation": "Which word means 'protecting computer systems from cyber-attacks'?",
-    "context": "'Cyber-security', siber güvenlik demektir ve dijital dünyamızı korumanın kahramanıdır! Bilgisayarlarımızı, telefonlarımızı, banka hesaplarımızı kötü niyetli hacker'lardan, virüslerden ve dolandırıcılardan korumak için alınan önlemlerin tümünü kapsar. PHP gibi yazılımlardaki güvenlik açıkları, tüm dünyada siber güvenlik uzmanlarını alarma geçirebilir. Unutma, dijital dünyanın da kapıları var ve onları kilitli tutmak önemli!",
+    "phrase": "Which word means a very strong wind with rain or snow?",
+    "translation": "Hangi kelime çok kuvvetli rüzgar, yağmur veya kar fırtınası anlamına gelir?",
+    "context": "'Storm', rüzgarlı, yağmurlu veya karlı kötü hava koşullarının genel adıdır. Tıpkı İskoçya'yı vuran 'Storm Boelo' gibi! Böyle havalarda dışarı çıkmadan önce bir kez daha düşünmekte fayda var.",
     "options": [
-      "Cyber-attack",
-      "Cyber-security",
-      "Cyber-space",
-      "Cyber-punk"
+      "calm",
+      "breeze",
+      "storm",
+      "mist"
     ],
-    "correctAnswer": "Cyber-security",
-    "category": "MIXED/GENERAL",
+    "correctAnswer": "storm",
+    "category": "MIXED",
     "variations": []
   },
   {
-    "id": 126102205,
+    "id": 126102504,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Russia agrees to _____ Ukraine peace talks.",
-    "translation": "Rusya, Ukrayna barış görüşmelerine yeniden başlamayı kabul ediyor.",
-    "context": "'Resume' kelimesi, bir şeye 'yeniden başlamak' veya 'devam etmek' anlamına gelir. Yani bir ara verdiğin işe veya aktiviteye kaldığın yerden devam etmek gibi. Mesela, 'After a coffee break, we will resume our meeting.' diyebilirsin. Burada da barış görüşmeleri bir süreliğine durmuş, şimdi ise tekrar başlamasına karar verilmiş. Hayatımızda sıkça 'resume' ederiz bir şeyleri, tıpkı okuduğumuz kitabı veya izlediğimiz diziyi kaldığı yerden açmak gibi!",
+    "level": "BEGINNER",
+    "phrase": "They had to close the border _____ for security.",
+    "translation": "Güvenlik için sınır geçişlerini kapatmak zorunda kaldılar.",
+    "context": "'Crossing', bir yerden diğerine geçilen nokta anlamına gelir. Haberdeki 'West Bank crossings' gibi, sınırlar arası geçiş noktaları bazen güvenlik nedeniyle kapatılabilir. Seyahat planları yaparken bu tür durumları kontrol etmekte fayda var!",
     "options": [
-      "end",
-      "cancel",
-      "resume",
-      "delay"
+      "crossings",
+      "openings",
+      "bridges",
+      "routes"
     ],
-    "correctAnswer": "resume",
+    "correctAnswer": "crossings",
+    "category": "TRAVEL",
+    "variations": [
+      "The mountain _____ was dangerous in winter.",
+      "Always check the road _____ before you travel."
+    ]
+  },
+  {
+    "id": 126102505,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "What does 'horror start' mean in sports?",
+    "translation": "Sporda 'horror start' ne anlama gelir?",
+    "context": "'Horror start', özellikle spor karşılaşmalarında hiç de iyi gitmeyen, felaketle başlayan durumlar için kullanılır. İngiltere'nin Pakistan maçına 'horror start' yapması gibi, ilk dakikalardan işlerin ters gitmesi demektir. Tam bir kabus başlangıcı!",
+    "options": [
+      "A very exciting beginning",
+      "A very bad beginning to a game or match",
+      "A beginning with a scary mascot",
+      "A beginning that's too long"
+    ],
+    "correctAnswer": "A very bad beginning to a game or match.",
     "category": "CASUAL",
-    "variations": [
-      "Let's _____ our work after lunch.",
-      "The game will _____ in five minutes."
-    ]
+    "variations": []
   },
   {
-    "id": 126102206,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "id": 126102506,
+    "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "'Fears over AI-buildout debt are overblown.' cümlesinde 'overblown' kelimesinin anlamı nedir?",
-    "translation": "What is the meaning of 'overblown' in the sentence 'Fears over AI-buildout debt are overblown.'?",
-    "context": "'Overblown', bir şeyin abartılmış, gereğinden fazla büyütülmüş veya önemsenmiş olduğu anlamına gelir. Yani balon gibi şişirilmiş, gerçekte olduğundan daha büyük gösterilmiş. Bu haberde de yapay zeka yatırımları nedeniyle oluşabilecek borçlar hakkındaki 'korkuların abartıldığı' söyleniyor. Bazen ufak bir sorunu da 'overblown' bir drama çevirebiliriz, değil mi? Gerçekleri olduğu gibi görmek lazım!",
+    "phrase": "The company is discussing _____ itself to a rival.",
+    "translation": "Şirket kendini bir rakibine satmayı görüşüyor.",
+    "context": "'Selling itself', bir şirketin başka bir şirkete satılması veya devredilmesi anlamına gelir. Instacart'ın DoorDash veya Uber ile görüşmesi gibi, büyük şirketler arasında sıkça görülen bir durumdur. Ticaret dünyasında böyle büyük anlaşmalar her zaman gündemde.",
     "options": [
-      "Underestimated",
-      "Exaggerated",
-      "Accurate",
-      "Hidden"
+      "selling",
+      "buying",
+      "holding",
+      "sharing"
     ],
-    "correctAnswer": "Exaggerated",
+    "correctAnswer": "selling",
     "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126102207,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "A celebrity shark guided out of South Korea _____.",
-    "translation": "Güney Kore'deki bir kanaldan dışarı çıkarılan ünlü bir köpek balığı.",
-    "context": "'Canal', insan yapımı bir su yolu, yani 'kanal' demektir. Genellikle gemilerin veya teknelerin geçişi için ya da tarım arazilerini sulamak için kullanılırlar. Ünlü köpek balığımız da yanlışlıkla bir kanala girmiş ve denize çıkmayı reddetmiş! Bazen kısa yoldan gitmek için 'canal' açarız ama bu köpek balığı için pek işe yaramamış.",
-    "options": [
-      "ocean",
-      "lake",
-      "canal",
-      "river"
-    ],
-    "correctAnswer": "canal",
-    "category": "TRAVEL",
     "variations": [
-      "The city is famous for its narrow _____. ",
-      "Boats can travel through the _____."
+      "They decided on _____ their old factory.",
+      "The small business considered _____ to a larger firm."
     ]
   },
   {
-    "id": 126102208,
+    "id": 126102507,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Mass _____ followed the new law.",
+    "translation": "Yeni yasayı kitlesel protestolar izledi.",
+    "context": "'Protest', insanların bir şeye karşı çıkmak, itiraz etmek için bir araya gelmesi ve sesini duyurmasıdır. Fransa'daki mass protests gibi, bir yasanın veya kararın hoşnutsuzluk yaratması durumunda görülen bir tepki şeklidir.",
+    "options": [
+      "protests",
+      "celebrations",
+      "concerts",
+      "meetings"
+    ],
+    "correctAnswer": "protests",
+    "category": "MIXED",
+    "variations": [
+      "The students organized a _____ against tuition fees.",
+      "Peaceful _____ are a part of democracy."
+    ]
+  },
+  {
+    "id": 126102508,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "'Balance of power' ne anlama gelir?",
-    "translation": "What does 'balance of power' mean?",
-    "context": "'Balance of power', 'güç dengesi' demektir. Birçok farklı tarafın olduğu durumlarda, hiçbirinin tam üstünlük sağlayamadığı ve karşılıklı güçlerin birbirini dengelediği bir durumu ifade eder. Politikada, bir seçimde küçük partilerin büyük partiler arasında anahtar rol oynaması gibi. Tıpkı bir tahterevalli gibi, herkesin dengede durması önemlidir!",
+    "phrase": "Which word means 'disturbance or problems interrupting an event or process'?",
+    "translation": "Hangi kelime 'bir olayı veya süreci kesintiye uğratan rahatsızlık veya sorunlar' anlamına gelir?",
+    "context": "'Disruption', bir şeyin normal akışını bozan, kesintiye uğratan durumları ifade eder. Tıpkı Storm Boelo'nun yarattığı ulaşım ve elektrik 'disruption'ları gibi. Seyahat ederken 'disruption'larla karşılaşmamak için hava durumunu kontrol etmek şart!",
     "options": [
-      "Complete control",
-      "Equality of strength",
-      "Lack of influence",
-      "Dictatorship"
+      "Harmony",
+      "Smoothness",
+      "Disruption",
+      "Order"
     ],
-    "correctAnswer": "Equality of strength",
-    "category": "MIXED/GENERAL",
+    "correctAnswer": "Disruption",
+    "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126102209,
-    "type": "QUIZ_COMPLETION",
+    "id": 126102509,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Carra said Fernandes comments were '_____'.",
-    "translation": "Carra, Fernandes'in yorumlarının 'utanç verici' olduğunu söyledi.",
-    "context": "'Disgraceful', 'utanç verici', 'ayıp' veya 'rezil' anlamına gelen güçlü bir sıfattır. Bir davranışın veya sözün toplum tarafından kabul edilemez, ahlaki olarak yanlış bulunduğunda kullanılır. Özellikle spor dünyasında, Fair Play kurallarına aykırı bir hareket veya sportmenlik dışı bir açıklama 'disgraceful' olarak nitelendirilebilir. Ağır bir kelimedir, dikkatli kullanmak gerekir!",
+    "phrase": "What does 'night and day different' mean?",
+    "translation": "'Night and day different' ne anlama gelir?",
+    "context": "'Night and day different', iki şeyin arasında geceyle gündüz kadar büyük bir fark olduğunu, yani tamamen zıt olduklarını anlatmak için kullanılır. Ferrari'nin yarış performansının bir anda 'night and day different' olması gibi, büyük ve beklenmedik bir değişim için ideal bir ifadedir.",
     "options": [
-      "excellent",
-      "acceptable",
-      "disgraceful",
-      "praiseworthy"
+      "Happening at different times",
+      "Exactly the same",
+      "A huge contrast; completely unlike each other",
+      "Easy to compare"
     ],
-    "correctAnswer": "disgraceful",
+    "correctAnswer": "A huge contrast; completely unlike each other.",
     "category": "CASUAL",
-    "variations": [
-      "His behavior was absolutely _____.",
-      "It was a _____ performance."
-    ]
-  },
-  {
-    "id": 126102210,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "'AI buildout' ifadesindeki 'buildout' kelimesi neyi ifade eder?",
-    "translation": "What does the word 'buildout' refer to in the phrase 'AI buildout'?",
-    "context": "'Buildout', genellikle büyük ölçekli bir 'yapılandırma', 'geliştirme' veya 'genişletme' projesini ifade eder. Özellikle iş ve teknoloji dünyasında kullanılır. Örneğin, Meta'nın 'AI buildout'u, yapay zeka altyapısını kurmak ve geliştirmek için yaptığı büyük yatırımları ve çalışmaları kapsar. Bir şirket yeni bir fabrika kurduğunda veya yeni bir teknoloji geliştirme projesine başladığında da 'buildout' kelimesi karşımıza çıkar. Kısacası, sıfırdan büyük bir şeyi inşa etme veya mevcut bir sistemi kapsamlı bir şekilde genişletme sürecidir!",
-    "options": [
-      "Dismantling",
-      "Expansion and development",
-      "Maintenance",
-      "Cost reduction"
-    ],
-    "correctAnswer": "Expansion and development",
-    "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126102211,
+    "id": 126102510,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Airbnb limits _____ for guests, sparking backlash from hosts.",
-    "translation": "Airbnb, misafirler için ev işlerini sınırlandırıyor, bu da ev sahiplerinden tepki çekiyor.",
-    "context": "'Chores', günlük ev işleri veya rutin görevler anlamına gelir. Bulaşık yıkamak, yerleri süpürmek, çamaşır katlamak gibi. Airbnb'de ev sahipleri, misafirlerinden bazen bazı 'chores' yapmalarını bekleyebilirler. Ama bu haberde gördüğümüz gibi, Airbnb misafirlerin daha az 'chore' yapmasını isteyerek ev sahiplerini kızdırmış! Kim tatilde 'chore' yapmak ister ki?",
+    "phrase": "The old bridge was too _____ for heavy traffic.",
+    "translation": "Eski köprü yoğun trafik için çok döküntüydü.",
+    "context": "'Rickety', genellikle yapıların veya eşyaların sağlam olmaması, döküntü, sallanan veya çürük durumda olması anlamına gelir. Haberdeki 'rickety infrastructure of the internet' gibi, altyapının ne kadar kırılgan olduğunu vurgular. İş dünyasında sağlam 'infrastructure' olmadan işler yürümez!",
     "options": [
-      "parties",
-      "chores",
-      "payments",
-      "complaints"
+      "rickety",
+      "sturdy",
+      "new",
+      "modern"
     ],
-    "correctAnswer": "chores",
-    "category": "TRAVEL",
+    "correctAnswer": "rickety",
+    "category": "BUSINESS",
     "variations": [
-      "I have to finish my morning _____.",
-      "Doing daily _____ is tiring."
+      "Be careful, that ladder is very _____.",
+      "The old chair felt a bit _____."
     ]
   },
   {
-    "id": 126102212,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "id": 126102511,
+    "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "'PHP security scramble' veya 'sparking backlash' cümlelerindeki 'spark' fiilinin anlamı nedir?",
-    "translation": "What is the meaning of the verb 'spark' in the phrases 'PHP security scramble' or 'sparking backlash'?",
-    "context": "'Spark', genellikle bir şeyin 'başlamasına neden olmak', 'tetiklemek' veya 'kıvılcım çakmak' anlamına gelir. Küçük bir kıvılcım nasıl büyük bir yangını başlatabilirse, küçük bir olay da büyük tepkilere veya gelişmelere yol açabilir. Örneğin, PHP'deki güvenlik açığı küresel bir 'siber güvenlik telaşına' 'spark' (kıvılcım) saçmış. Ya da Airbnb'nin kararı ev sahipleri arasında 'tepkilere neden olmuş' (sparking backlash). Yani, bir olayın başlangıç noktasını veya tetikleyicisini ifade eder.",
+    "phrase": "The government started a _____ on illegal activities.",
+    "translation": "Hükümet yasa dışı faaliyetlere karşı bir baskı başlattı.",
+    "context": "'Crackdown', yetkililerin yasa dışı veya istenmeyen davranışları bastırmak, kontrol altına almak için sert önlemler almasıdır. İsrail'in seçim günü 'West Bank crossings' üzerine yaptığı 'crackdown' gibi, belirli bir duruma karşı alınan yoğun ve kısıtlayıcı eylemleri ifade eder.",
     "options": [
-      "To extinguish",
-      "To prevent",
-      "To cause or initiate",
-      "To ignore"
+      "crackdown",
+      "uplift",
+      "looseness",
+      "freedom"
     ],
-    "correctAnswer": "To cause or initiate",
-    "category": "MIXED/GENERAL",
-    "variations": []
+    "correctAnswer": "crackdown",
+    "category": "MIXED",
+    "variations": [
+      "There was a severe _____ on drug trafficking.",
+      "The police began a _____ against speeding."
+    ]
+  },
+  {
+    "id": 126102512,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "They faced a political _____ during their trip.",
+    "translation": "Gezileri sırasında politik bir fırtınayla karşılaştılar.",
+    "context": "'Political storm', siyasi bir kargaşa veya yoğun tartışma ortamını metaforik olarak ifade eder. Tıpkı 'Rosebank oil field' haberindeki gibi. Seyahat ederken bazen böyle 'politik fırtınalara' denk gelebilir, bu da planları etkileyebilir. Yani sadece hava fırtınası değil, siyasi fırtına da işleri karıştırır!",
+    "options": [
+      "storm",
+      "calm",
+      "breeze",
+      "sun"
+    ],
+    "correctAnswer": "storm",
+    "category": "TRAVEL",
+    "variations": [
+      "The leader was caught in a media _____.",
+      "The country is heading for an economic _____."
+    ]
   }
 ]
