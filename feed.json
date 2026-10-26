@@ -1,230 +1,230 @@
 [
   {
-    "id": 126102501,
+    "id": 126102601,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "He hit an amazing _____ shot.",
-    "translation": "O inanılmaz bir 'tweener' vuruşu yaptı.",
-    "context": "Teniste, bacaklarının arasından yapılan, kalabalığı coşturan o havalı vuruşa 'tweener' denir. Genelde rakibin arkaya attığı topa yetişirken yapılır. Arthur Fils'in yaptığı gibi, seyircileri hayran bırakır!",
+    "phrase": "Eric Bauza, the voice of Bugs Bunny, _____ aged 46.",
+    "translation": "Eric Bauza, Bugs Bunny'nin sesi, 46 yaşında öldü.",
+    "context": "Birinin vefat ettiğini söylemek için 'die' fiilinin geçmiş zamanı olan 'died' kullanılır. Mesela, 'My grandpa died last year' (Dedem geçen yıl vefat etti) diyebiliriz. Bu, haberlerde sıkça karşımıza çıkan, üzücü ama günlük hayatta da kullanılan bir durum.",
     "options": [
-      "tweener",
-      "kicker",
-      "lobber",
-      "smasher"
+      "die",
+      "dying",
+      "dies",
+      "died"
     ],
-    "correctAnswer": "tweener",
+    "correctAnswer": "died",
     "category": "CASUAL",
     "variations": [
-      "She played a perfect _____ to win the point.",
-      "The tennis player surprised everyone with a fantastic _____."
+      "He died peacefully in his sleep.",
+      "Sadly, my dog died last night."
     ]
   },
   {
-    "id": 126102502,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Many new tech _____ fail quickly.",
-    "translation": "Birçok yeni teknoloji girişimi hızla başarısız olur.",
-    "context": "'Startup' kelimesi, yeni kurulmuş, genellikle teknoloji tabanlı ve hızlı büyümeyi hedefleyen genç şirketler için kullanılır. Bazen 'AI graveyard' haberindeki gibi çoğu tutunamayabilir ama bazıları da milyar dolarlık devlere dönüşür!",
-    "options": [
-      "startups",
-      "finish-ups",
-      "close-ups",
-      "kick-offs"
-    ],
-    "correctAnswer": "startups",
-    "category": "BUSINESS",
-    "variations": [
-      "Our new _____ is looking for investors.",
-      "The Silicon Valley is full of exciting _____."
-    ]
-  },
-  {
-    "id": 126102503,
+    "id": 126102602,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "Which word means a very strong wind with rain or snow?",
-    "translation": "Hangi kelime çok kuvvetli rüzgar, yağmur veya kar fırtınası anlamına gelir?",
-    "context": "'Storm', rüzgarlı, yağmurlu veya karlı kötü hava koşullarının genel adıdır. Tıpkı İskoçya'yı vuran 'Storm Boelo' gibi! Böyle havalarda dışarı çıkmadan önce bir kez daha düşünmekte fayda var.",
+    "phrase": "What is the word for the process where people vote to choose their leaders?",
+    "translation": "İnsanların liderlerini seçmek için oy kullandığı sürece ne denir?",
+    "context": "'Election', yani 'seçim', bir ülkenin geleceğini belirleyen en önemli süreçlerden biri. Sandık başına gidip oy kullanmak da bu sürecin en heyecanlı kısmı! 'Who won the election?' (Seçimi kim kazandı?) gibi cümlelerde sıkça duyarsın.",
     "options": [
-      "calm",
-      "breeze",
-      "storm",
-      "mist"
+      "Meeting",
+      "Party",
+      "Election",
+      "Campaign"
     ],
-    "correctAnswer": "storm",
-    "category": "MIXED",
+    "correctAnswer": "Election",
+    "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126102504,
+    "id": 126102603,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "They had to close the border _____ for security.",
-    "translation": "Güvenlik için sınır geçişlerini kapatmak zorunda kaldılar.",
-    "context": "'Crossing', bir yerden diğerine geçilen nokta anlamına gelir. Haberdeki 'West Bank crossings' gibi, sınırlar arası geçiş noktaları bazen güvenlik nedeniyle kapatılabilir. Seyahat planları yaparken bu tür durumları kontrol etmekte fayda var!",
+    "phrase": "The opposition leader returned home after months in _____.",
+    "translation": "Muhalefet lideri aylarca süren sürgünün ardından evine döndü.",
+    "context": "'Exile', yani 'sürgün', birinin siyasi veya başka sebeplerle kendi ülkesinden uzakta, zorunlu olarak yaşaması demek. Genelde vatan hasretiyle dolu, hüzünlü bir durumu anlatır. 'He lived in exile for twenty years' (Yirmi yıl sürgünde yaşadı) gibi.",
     "options": [
-      "crossings",
-      "openings",
-      "bridges",
-      "routes"
+      "home",
+      "holiday",
+      "exile",
+      "vacation"
     ],
-    "correctAnswer": "crossings",
+    "correctAnswer": "exile",
     "category": "TRAVEL",
     "variations": [
-      "The mountain _____ was dangerous in winter.",
-      "Always check the road _____ before you travel."
+      "Many artists lived in exile during the war.",
+      "She was sent into exile for her political views."
     ]
   },
   {
-    "id": 126102505,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "What does 'horror start' mean in sports?",
-    "translation": "Sporda 'horror start' ne anlama gelir?",
-    "context": "'Horror start', özellikle spor karşılaşmalarında hiç de iyi gitmeyen, felaketle başlayan durumlar için kullanılır. İngiltere'nin Pakistan maçına 'horror start' yapması gibi, ilk dakikalardan işlerin ters gitmesi demektir. Tam bir kabus başlangıcı!",
+    "id": 126102604,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The storm left 90,000 homes _____ power.",
+    "translation": "Fırtına 90.000 evi elektriksiz bıraktı.",
+    "context": "Elektriğin, suyun veya herhangi bir şeyin 'yokluğunu' anlatmak için 'without' kelimesini kullanırız. 'I can't live without coffee!' (Kahvesiz yaşayamam!) veya 'We are without water today' (Bugün suyumuz yok) gibi cümlelerde karşımıza çıkar. Fırtınalarda ise en çok elektrik kesintisiyle anılır!",
     "options": [
-      "A very exciting beginning",
-      "A very bad beginning to a game or match",
-      "A beginning with a scary mascot",
-      "A beginning that's too long"
+      "with",
+      "from",
+      "without",
+      "for"
     ],
-    "correctAnswer": "A very bad beginning to a game or match.",
+    "correctAnswer": "without",
+    "category": "MIXED",
+    "variations": [
+      "They had to spend the night without electricity.",
+      "It's hard to work without internet access."
+    ]
+  },
+  {
+    "id": 126102605,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The Australian murderer lost his _____ to eat Vegemite in prison.",
+    "translation": "Avustralyalı katil, hapishanede Vegemite yeme girişimini kaybetti.",
+    "context": "Buradaki 'bid', bir şeyi yapma 'girişimi' veya 'teklifi' anlamına gelir. 'To lose a bid' ise bir girişimin başarısız olması demektir. Bu haberdeki gibi absürt bir durumda bile kullanılabiliyor! Mesela, bir ihaleyi kaybettiğinde de 'We lost the bid for the new contract' (Yeni sözleşme için teklifi kaybettik) dersin.",
+    "options": [
+      "try",
+      "bid",
+      "chance",
+      "effort"
+    ],
+    "correctAnswer": "bid",
     "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126102506,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The company is discussing _____ itself to a rival.",
-    "translation": "Şirket kendini bir rakibine satmayı görüşüyor.",
-    "context": "'Selling itself', bir şirketin başka bir şirkete satılması veya devredilmesi anlamına gelir. Instacart'ın DoorDash veya Uber ile görüşmesi gibi, büyük şirketler arasında sıkça görülen bir durumdur. Ticaret dünyasında böyle büyük anlaşmalar her zaman gündemde.",
-    "options": [
-      "selling",
-      "buying",
-      "holding",
-      "sharing"
-    ],
-    "correctAnswer": "selling",
-    "category": "BUSINESS",
     "variations": [
-      "They decided on _____ their old factory.",
-      "The small business considered _____ to a larger firm."
+      "Our team lost the bid for the championship title.",
+      "He made a bid for freedom but failed."
     ]
   },
   {
-    "id": 126102507,
+    "id": 126102606,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Which term refers to the financial return or benefit from an investment?",
+    "translation": "Bir yatırımdan elde edilen finansal getiriyi veya faydayı ifade eden terim hangisidir?",
+    "context": "'Payoff', bir yatırımın veya çabanın sonunda elde edilen kar veya getiriyi anlatır. 'The hard work had a great payoff' (Sıkı çalışmanın harika bir getirisi oldu) gibi. AI teknolojilerinin şirketlere 'sıfır finansal getiri' sağladığı iddiası da tam olarak bu kavramla ilgili!",
+    "options": [
+      "Investment",
+      "Payoff",
+      "Expenditure",
+      "Budget"
+    ],
+    "correctAnswer": "Payoff",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126102607,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Mass _____ followed the new law.",
-    "translation": "Yeni yasayı kitlesel protestolar izledi.",
-    "context": "'Protest', insanların bir şeye karşı çıkmak, itiraz etmek için bir araya gelmesi ve sesini duyurmasıdır. Fransa'daki mass protests gibi, bir yasanın veya kararın hoşnutsuzluk yaratması durumunda görülen bir tepki şeklidir.",
+    "phrase": "After months in exile, the leader finally _____ home.",
+    "translation": "Aylar süren sürgünün ardından lider nihayet evine döndü.",
+    "context": "'Return', yani 'dönmek', bir yere veya bir duruma geri gelmek anlamına gelir. Seyahat dönüşlerinde, bir eşyayı yerine koyarken veya bir konuya geri dönerken kullanabilirsin. 'I'll return your book tomorrow' (Kitabını yarın iade ederim) veya 'When will you return from your trip?' (Seyahatinden ne zaman döneceksin?) gibi.",
     "options": [
-      "protests",
-      "celebrations",
-      "concerts",
-      "meetings"
+      "went",
+      "returned",
+      "left",
+      "came"
     ],
-    "correctAnswer": "protests",
+    "correctAnswer": "returned",
+    "category": "TRAVEL",
+    "variations": [
+      "The swallows return to Capistrano every spring.",
+      "He promised to return the stolen goods."
+    ]
+  },
+  {
+    "id": 126102608,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The Met Office _____ a new wind warning for the UK.",
+    "translation": "Meteoroloji Ofisi, Birleşik Krallık için yeni bir rüzgar uyarısı yayınladı.",
+    "context": "'Issue', bir belge, bildiri veya uyarı 'yayınlamak' veya 'çıkarmak' anlamına gelir. Hükümetler, kurumlar veya bankalar genellikle resmi duyurular için bu fiili kullanır. 'The police issued a statement' (Polis bir açıklama yayınladı) veya 'They issued a refund' (Geri ödeme yaptılar) gibi.",
+    "options": [
+      "gave",
+      "stated",
+      "issued",
+      "told"
+    ],
+    "correctAnswer": "issued",
     "category": "MIXED",
     "variations": [
-      "The students organized a _____ against tuition fees.",
-      "Peaceful _____ are a part of democracy."
+      "The company will issue new shares next month.",
+      "Passport offices issue passports."
     ]
   },
   {
-    "id": 126102508,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Which word means 'disturbance or problems interrupting an event or process'?",
-    "translation": "Hangi kelime 'bir olayı veya süreci kesintiye uğratan rahatsızlık veya sorunlar' anlamına gelir?",
-    "context": "'Disruption', bir şeyin normal akışını bozan, kesintiye uğratan durumları ifade eder. Tıpkı Storm Boelo'nun yarattığı ulaşım ve elektrik 'disruption'ları gibi. Seyahat ederken 'disruption'larla karşılaşmamak için hava durumunu kontrol etmek şart!",
-    "options": [
-      "Harmony",
-      "Smoothness",
-      "Disruption",
-      "Order"
-    ],
-    "correctAnswer": "Disruption",
-    "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126102509,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "id": 126102609,
+    "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "What does 'night and day different' mean?",
-    "translation": "'Night and day different' ne anlama gelir?",
-    "context": "'Night and day different', iki şeyin arasında geceyle gündüz kadar büyük bir fark olduğunu, yani tamamen zıt olduklarını anlatmak için kullanılır. Ferrari'nin yarış performansının bir anda 'night and day different' olması gibi, büyük ve beklenmedik bir değişim için ideal bir ifadedir.",
+    "phrase": "The author _____ aim at techno-libertarianism in her new book.",
+    "translation": "Yazar, yeni kitabında tekno-liberteryenizmi hedef alıyor.",
+    "context": "'Take aim at' deyimi, birini veya bir şeyi 'hedef almak', 'eleştirmek' veya 'saldırmak' anlamına gelir. Genellikle bir konuşmada, makalede veya kitapta belirli bir görüşe karşı çıkarken kullanılır. 'The politician took aim at his opponent's policies' (Politikacı rakibinin politikalarını hedef aldı) gibi.",
     "options": [
-      "Happening at different times",
-      "Exactly the same",
-      "A huge contrast; completely unlike each other",
-      "Easy to compare"
+      "makes",
+      "holds",
+      "takes",
+      "gives"
     ],
-    "correctAnswer": "A huge contrast; completely unlike each other.",
+    "correctAnswer": "takes",
     "category": "CASUAL",
+    "variations": [
+      "She took aim at the prevalent sexism in the industry.",
+      "The article takes aim at the lack of transparency."
+    ]
+  },
+  {
+    "id": 126102610,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "What is the specific term for applying Artificial Intelligence in farming practices?",
+    "translation": "Tarım uygulamalarında Yapay Zeka kullanılması için kullanılan özel terim nedir?",
+    "context": "'AI-griculture', yani 'yapay zekalı tarım', tarım sektöründe yapay zeka teknolojilerini kullanarak verimliliği artırmayı, kaynakları optimize etmeyi ve sürdürülebilirliği sağlamayı ifade eden modern bir terim. Drone'larla tarlaları kontrol etmekten, akıllı sulama sistemlerine kadar birçok yeniliği kapsar. Geleceğin çiftçiliği bu!",
+    "options": [
+      "Robot-farming",
+      "Smart farming",
+      "AI-griculture",
+      "Digital harvest"
+    ],
+    "correctAnswer": "AI-griculture",
+    "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126102510,
+    "id": 126102611,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The old bridge was too _____ for heavy traffic.",
-    "translation": "Eski köprü yoğun trafik için çok döküntüydü.",
-    "context": "'Rickety', genellikle yapıların veya eşyaların sağlam olmaması, döküntü, sallanan veya çürük durumda olması anlamına gelir. Haberdeki 'rickety infrastructure of the internet' gibi, altyapının ne kadar kırılgan olduğunu vurgular. İş dünyasında sağlam 'infrastructure' olmadan işler yürümez!",
+    "phrase": "More wind and rain is expected to _____ down on the UK.",
+    "translation": "Birleşik Krallık'a daha fazla rüzgar ve yağmurun gelmesi bekleniyor.",
+    "context": "'Bear down on' deyimi, özellikle hava durumu bağlamında, bir şeyin bir yere doğru 'hızla yaklaşması' veya 'üzerine gelmesi' anlamına gelir, genellikle olumsuz veya şiddetli bir durumu ifade eder. 'The hurricane bore down on the coast' (Kasırga kıyıya yaklaşıyordu) gibi düşünebilirsin. Tedbirli olmak lazım!",
     "options": [
-      "rickety",
-      "sturdy",
-      "new",
-      "modern"
+      "bring",
+      "fall",
+      "bear",
+      "come"
     ],
-    "correctAnswer": "rickety",
-    "category": "BUSINESS",
-    "variations": [
-      "Be careful, that ladder is very _____.",
-      "The old chair felt a bit _____."
-    ]
-  },
-  {
-    "id": 126102511,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The government started a _____ on illegal activities.",
-    "translation": "Hükümet yasa dışı faaliyetlere karşı bir baskı başlattı.",
-    "context": "'Crackdown', yetkililerin yasa dışı veya istenmeyen davranışları bastırmak, kontrol altına almak için sert önlemler almasıdır. İsrail'in seçim günü 'West Bank crossings' üzerine yaptığı 'crackdown' gibi, belirli bir duruma karşı alınan yoğun ve kısıtlayıcı eylemleri ifade eder.",
-    "options": [
-      "crackdown",
-      "uplift",
-      "looseness",
-      "freedom"
-    ],
-    "correctAnswer": "crackdown",
-    "category": "MIXED",
-    "variations": [
-      "There was a severe _____ on drug trafficking.",
-      "The police began a _____ against speeding."
-    ]
-  },
-  {
-    "id": 126102512,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "They faced a political _____ during their trip.",
-    "translation": "Gezileri sırasında politik bir fırtınayla karşılaştılar.",
-    "context": "'Political storm', siyasi bir kargaşa veya yoğun tartışma ortamını metaforik olarak ifade eder. Tıpkı 'Rosebank oil field' haberindeki gibi. Seyahat ederken bazen böyle 'politik fırtınalara' denk gelebilir, bu da planları etkileyebilir. Yani sadece hava fırtınası değil, siyasi fırtına da işleri karıştırır!",
-    "options": [
-      "storm",
-      "calm",
-      "breeze",
-      "sun"
-    ],
-    "correctAnswer": "storm",
+    "correctAnswer": "bear",
     "category": "TRAVEL",
     "variations": [
-      "The leader was caught in a media _____.",
-      "The country is heading for an economic _____."
+      "The enemy army bore down on the fortress.",
+      "The deadline is bearing down on us quickly."
     ]
+  },
+  {
+    "id": 126102612,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "What does the idiom 'return from the dead' mean in a figurative sense, like for a book?",
+    "translation": "'Return from the dead' deyimi, bir kitap için mecazi anlamda ne anlama gelir?",
+    "context": "'Return from the dead', kelimenin tam anlamıyla ölümden dönmek değil, mecazi olarak bir şeyin uzun süreli bir kayboluş, unutulmuşluk veya başarısızlık döneminden sonra 'yeniden ortaya çıkması', 'popüler olması' veya 'canlanması' anlamına gelir. Eski bir moda trendi veya bu haberdeki gibi unutulmuş bir kitap için harika bir ifade!",
+    "options": [
+      "To literally come back to life.",
+      "To be found after being lost for many years.",
+      "To become popular or relevant again after a period of obscurity.",
+      "To be reprinted with a new cover design."
+    ],
+    "correctAnswer": "To become popular or relevant again after a period of obscurity.",
+    "category": "MIXED",
+    "variations": []
   }
 ]
