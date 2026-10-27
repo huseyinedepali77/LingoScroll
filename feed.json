@@ -1,229 +1,229 @@
 [
   {
-    "id": 126102601,
+    "id": 126102701,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Eric Bauza, the voice of Bugs Bunny, _____ aged 46.",
-    "translation": "Eric Bauza, Bugs Bunny'nin sesi, 46 yaşında öldü.",
-    "context": "Birinin vefat ettiğini söylemek için 'die' fiilinin geçmiş zamanı olan 'died' kullanılır. Mesela, 'My grandpa died last year' (Dedem geçen yıl vefat etti) diyebiliriz. Bu, haberlerde sıkça karşımıza çıkan, üzücü ama günlük hayatta da kullanılan bir durum.",
+    "phrase": "The sudden _____ caused flight delays.",
+    "translation": "Ani fırtına uçuş gecikmelerine neden oldu.",
+    "context": "Sokakta yürürken aniden bastıran sağanak yağmur için veya deniz yolculuğunu altüst eden rüzgarlar için 'storm' diyebiliriz. 'Fırtına çıktı, eyvah!' demek gibi bir şey. Hava durumunu takip etmekte fayda var!",
     "options": [
-      "die",
-      "dying",
-      "dies",
-      "died"
+      "storm",
+      "sunshine",
+      "calm",
+      "mist"
     ],
-    "correctAnswer": "died",
-    "category": "CASUAL",
-    "variations": [
-      "He died peacefully in his sleep.",
-      "Sadly, my dog died last night."
-    ]
-  },
-  {
-    "id": 126102602,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "What is the word for the process where people vote to choose their leaders?",
-    "translation": "İnsanların liderlerini seçmek için oy kullandığı sürece ne denir?",
-    "context": "'Election', yani 'seçim', bir ülkenin geleceğini belirleyen en önemli süreçlerden biri. Sandık başına gidip oy kullanmak da bu sürecin en heyecanlı kısmı! 'Who won the election?' (Seçimi kim kazandı?) gibi cümlelerde sıkça duyarsın.",
-    "options": [
-      "Meeting",
-      "Party",
-      "Election",
-      "Campaign"
-    ],
-    "correctAnswer": "Election",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126102603,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The opposition leader returned home after months in _____.",
-    "translation": "Muhalefet lideri aylarca süren sürgünün ardından evine döndü.",
-    "context": "'Exile', yani 'sürgün', birinin siyasi veya başka sebeplerle kendi ülkesinden uzakta, zorunlu olarak yaşaması demek. Genelde vatan hasretiyle dolu, hüzünlü bir durumu anlatır. 'He lived in exile for twenty years' (Yirmi yıl sürgünde yaşadı) gibi.",
-    "options": [
-      "home",
-      "holiday",
-      "exile",
-      "vacation"
-    ],
-    "correctAnswer": "exile",
+    "correctAnswer": "storm",
     "category": "TRAVEL",
     "variations": [
-      "Many artists lived in exile during the war.",
-      "She was sent into exile for her political views."
+      "A big storm is coming.",
+      "We saw a heavy storm last night."
     ]
   },
   {
-    "id": 126102604,
+    "id": 126102702,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The storm left 90,000 homes _____ power.",
-    "translation": "Fırtına 90.000 evi elektriksiz bıraktı.",
-    "context": "Elektriğin, suyun veya herhangi bir şeyin 'yokluğunu' anlatmak için 'without' kelimesini kullanırız. 'I can't live without coffee!' (Kahvesiz yaşayamam!) veya 'We are without water today' (Bugün suyumuz yok) gibi cümlelerde karşımıza çıkar. Fırtınalarda ise en çok elektrik kesintisiyle anılır!",
+    "phrase": "She worked hard to _____ her new product.",
+    "translation": "Yeni ürününü tanıtmak için çok çalıştı.",
+    "context": "Bir markayı, ürünü ya da hatta kendini daha çok kişiye duyurmak, bilinirliğini artırmak istediğinde 'promote' kelimesini kullanırız. İş dünyasında vazgeçilmez bir kelime!",
     "options": [
-      "with",
-      "from",
-      "without",
-      "for"
+      "promote",
+      "hide",
+      "criticize",
+      "delay"
     ],
-    "correctAnswer": "without",
+    "correctAnswer": "promote",
+    "category": "BUSINESS",
+    "variations": [
+      "We need to promote this event.",
+      "Let's promote healthy habits."
+    ]
+  },
+  {
+    "id": 126102703,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "He wants to _____ his fans for their support.",
+    "translation": "Hayranlarına destekleri için teşekkür etmek istiyor.",
+    "context": "Yardım eden birine, iyi dileklerini sunan birine veya seni destekleyenlere minnettarlığını ifade etmek için 'thanks' deriz. En kibar ve samimi iletişim yollarından biri!",
+    "options": [
+      "thanks",
+      "blames",
+      "ignores",
+      "criticizes"
+    ],
+    "correctAnswer": "thanks",
+    "category": "CASUAL",
+    "variations": [
+      "She always thanks her team.",
+      "He wants to say thanks."
+    ]
+  },
+  {
+    "id": 126102704,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "He couldn't play due to a leg _____.",
+    "translation": "Bacak sakatlığı nedeniyle oynayamadı.",
+    "context": "Vücudunda meydana gelen bir hasar veya yaralanma durumu için 'injury' deriz. Sporcularda sıkça duyduğumuz, aman dikkat etmemiz gereken bir kelime!",
+    "options": [
+      "injury",
+      "victory",
+      "health",
+      "practice"
+    ],
+    "correctAnswer": "injury",
     "category": "MIXED",
     "variations": [
-      "They had to spend the night without electricity.",
-      "It's hard to work without internet access."
+      "His old injury still bothers him.",
+      "The injury required surgery."
     ]
   },
   {
-    "id": 126102605,
+    "id": 126102705,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The Australian murderer lost his _____ to eat Vegemite in prison.",
-    "translation": "Avustralyalı katil, hapishanede Vegemite yeme girişimini kaybetti.",
-    "context": "Buradaki 'bid', bir şeyi yapma 'girişimi' veya 'teklifi' anlamına gelir. 'To lose a bid' ise bir girişimin başarısız olması demektir. Bu haberdeki gibi absürt bir durumda bile kullanılabiliyor! Mesela, bir ihaleyi kaybettiğinde de 'We lost the bid for the new contract' (Yeni sözleşme için teklifi kaybettik) dersin.",
+    "phrase": "Heavy snow left many travelers _____ at the airport.",
+    "translation": "Yoğun kar yağışı birçok yolcuyu havalimanında mahsur bıraktı.",
+    "context": "'Stranded' demek, bir yerde sıkışıp kalmak, mahsur kalmak demek. Özellikle kötü hava koşullarında veya beklenmedik durumlarda yolculuk yaparken başına gelebilir. Bavulunu alıp bir otelde kalmak zorunda kalmak gibi düşünebilirsin!",
     "options": [
-      "try",
-      "bid",
-      "chance",
-      "effort"
+      "stranded",
+      "departed",
+      "welcomed",
+      "assisted"
     ],
-    "correctAnswer": "bid",
-    "category": "CASUAL",
+    "correctAnswer": "stranded",
+    "category": "TRAVEL",
     "variations": [
-      "Our team lost the bid for the championship title.",
-      "He made a bid for freedom but failed."
+      "We were stranded on the island.",
+      "They left us stranded there."
     ]
   },
   {
-    "id": 126102606,
+    "id": 126102706,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Which term refers to the financial return or benefit from an investment?",
-    "translation": "Bir yatırımdan elde edilen finansal getiriyi veya faydayı ifade eden terim hangisidir?",
-    "context": "'Payoff', bir yatırımın veya çabanın sonunda elde edilen kar veya getiriyi anlatır. 'The hard work had a great payoff' (Sıkı çalışmanın harika bir getirisi oldu) gibi. AI teknolojilerinin şirketlere 'sıfır finansal getiri' sağladığı iddiası da tam olarak bu kavramla ilgili!",
+    "phrase": "Which word best describes a large business organization?",
+    "translation": "Büyük bir iş organizasyonunu en iyi tanımlayan kelime hangisidir?",
+    "context": "'Enterprise', genellikle büyük çaplı, karmaşık ve bazen riskli iş girişimlerini ifade eder. Küçük bir dükkandan ziyade, kocaman bir şirketler grubunu veya büyük bir projeyi düşünebilirsin.",
     "options": [
-      "Investment",
-      "Payoff",
-      "Expenditure",
-      "Budget"
+      "Enterprise",
+      "Kiosk",
+      "Stall",
+      "Boutique"
     ],
-    "correctAnswer": "Payoff",
+    "correctAnswer": "Enterprise",
     "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126102607,
+    "id": 126102707,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "After months in exile, the leader finally _____ home.",
-    "translation": "Aylar süren sürgünün ardından lider nihayet evine döndü.",
-    "context": "'Return', yani 'dönmek', bir yere veya bir duruma geri gelmek anlamına gelir. Seyahat dönüşlerinde, bir eşyayı yerine koyarken veya bir konuya geri dönerken kullanabilirsin. 'I'll return your book tomorrow' (Kitabını yarın iade ederim) veya 'When will you return from your trip?' (Seyahatinden ne zaman döneceksin?) gibi.",
+    "phrase": "The coach decided to _____ his best players in the second half.",
+    "translation": "Antrenör, ikinci yarıda en iyi oyuncularını sahaya sürmeye karar verdi.",
+    "context": "Birinin içindeki gücü, potansiyeli ya da yeteneği ortaya çıkarmak, serbest bırakmak anlamına gelir. 'Unleash the beast!' deyimi gibi, bir şeyi tamamen özgür bırakıp etkisini göstermesini sağlamak!",
     "options": [
-      "went",
-      "returned",
-      "left",
-      "came"
+      "unleash",
+      "restrain",
+      "hide",
+      "ignore"
     ],
-    "correctAnswer": "returned",
-    "category": "TRAVEL",
+    "correctAnswer": "unleash",
+    "category": "CASUAL",
     "variations": [
-      "The swallows return to Capistrano every spring.",
-      "He promised to return the stolen goods."
+      "She will unleash her creativity.",
+      "Unleash your full potential!"
     ]
   },
   {
-    "id": 126102608,
-    "type": "QUIZ_COMPLETION",
+    "id": 126102708,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "The Met Office _____ a new wind warning for the UK.",
-    "translation": "Meteoroloji Ofisi, Birleşik Krallık için yeni bir rüzgar uyarısı yayınladı.",
-    "context": "'Issue', bir belge, bildiri veya uyarı 'yayınlamak' veya 'çıkarmak' anlamına gelir. Hükümetler, kurumlar veya bankalar genellikle resmi duyurular için bu fiili kullanır. 'The police issued a statement' (Polis bir açıklama yayınladı) veya 'They issued a refund' (Geri ödeme yaptılar) gibi.",
+    "phrase": "Which phrase refers to an AI-powered helper that manages daily tasks?",
+    "translation": "Günlük görevleri yöneten yapay zeka destekli bir yardımcıya ne denir?",
+    "context": "Sana randevularını hatırlatan, e-postalarını düzenleyen, hava durumunu söyleyen veya hatta kod yazmana yardımcı olan bir robot arkadaş düşün! 'Personal assistant' tam da böyle bir teknoloji harikasıdır.",
     "options": [
-      "gave",
-      "stated",
-      "issued",
-      "told"
+      "Personal assistant",
+      "Security guard",
+      "Robot chef",
+      "Traffic controller"
     ],
-    "correctAnswer": "issued",
+    "correctAnswer": "Personal assistant",
     "category": "MIXED",
-    "variations": [
-      "The company will issue new shares next month.",
-      "Passport offices issue passports."
-    ]
-  },
-  {
-    "id": 126102609,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The author _____ aim at techno-libertarianism in her new book.",
-    "translation": "Yazar, yeni kitabında tekno-liberteryenizmi hedef alıyor.",
-    "context": "'Take aim at' deyimi, birini veya bir şeyi 'hedef almak', 'eleştirmek' veya 'saldırmak' anlamına gelir. Genellikle bir konuşmada, makalede veya kitapta belirli bir görüşe karşı çıkarken kullanılır. 'The politician took aim at his opponent's policies' (Politikacı rakibinin politikalarını hedef aldı) gibi.",
-    "options": [
-      "makes",
-      "holds",
-      "takes",
-      "gives"
-    ],
-    "correctAnswer": "takes",
-    "category": "CASUAL",
-    "variations": [
-      "She took aim at the prevalent sexism in the industry.",
-      "The article takes aim at the lack of transparency."
-    ]
-  },
-  {
-    "id": 126102610,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "What is the specific term for applying Artificial Intelligence in farming practices?",
-    "translation": "Tarım uygulamalarında Yapay Zeka kullanılması için kullanılan özel terim nedir?",
-    "context": "'AI-griculture', yani 'yapay zekalı tarım', tarım sektöründe yapay zeka teknolojilerini kullanarak verimliliği artırmayı, kaynakları optimize etmeyi ve sürdürülebilirliği sağlamayı ifade eden modern bir terim. Drone'larla tarlaları kontrol etmekten, akıllı sulama sistemlerine kadar birçok yeniliği kapsar. Geleceğin çiftçiliği bu!",
-    "options": [
-      "Robot-farming",
-      "Smart farming",
-      "AI-griculture",
-      "Digital harvest"
-    ],
-    "correctAnswer": "AI-griculture",
-    "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126102611,
+    "id": 126102709,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "What is an act of returning an injury or wrong?",
+    "translation": "Bir zarar veya yanlışı geri ödeme eylemi nedir?",
+    "context": "'Retaliation', kısaca misilleme demek. Bazen uluslararası seyahatlerde veya diplomatik ilişkilerde, bir ülkenin başka bir ülkeye karşı aldığı bir önlem veya ceza eylemi için de kullanılabilir. Yani bir nevi karşı atak!",
+    "options": [
+      "Retaliation",
+      "Cooperation",
+      "Negotiation",
+      "Reconciliation"
+    ],
+    "correctAnswer": "Retaliation",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126102710,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "More wind and rain is expected to _____ down on the UK.",
-    "translation": "Birleşik Krallık'a daha fazla rüzgar ve yağmurun gelmesi bekleniyor.",
-    "context": "'Bear down on' deyimi, özellikle hava durumu bağlamında, bir şeyin bir yere doğru 'hızla yaklaşması' veya 'üzerine gelmesi' anlamına gelir, genellikle olumsuz veya şiddetli bir durumu ifade eder. 'The hurricane bore down on the coast' (Kasırga kıyıya yaklaşıyordu) gibi düşünebilirsin. Tedbirli olmak lazım!",
+    "phrase": "The CEO's decision was _____ for the company's future.",
+    "translation": "CEO'nun kararı şirketin geleceği için çok önemliydi.",
+    "context": "'Pivotal', bir dönüm noktası niteliğinde, kritik ve merkezi bir öneme sahip olan şeyleri tanımlar. Bir maçın 'pivotal' anı, bir iş anlaşmasının 'pivotal' maddesi gibi, her şeyi değiştirebilecek o kilit nokta!",
     "options": [
-      "bring",
-      "fall",
-      "bear",
-      "come"
+      "pivotal",
+      "minor",
+      "irrelevant",
+      "insignificant"
     ],
-    "correctAnswer": "bear",
-    "category": "TRAVEL",
+    "correctAnswer": "pivotal",
+    "category": "BUSINESS",
     "variations": [
-      "The enemy army bore down on the fortress.",
-      "The deadline is bearing down on us quickly."
+      "It was a pivotal moment in history.",
+      "This meeting is pivotal."
     ]
   },
   {
-    "id": 126102612,
+    "id": 126102711,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "He has great _____ to become a successful entrepreneur.",
+    "translation": "Başarılı bir girişimci olmak için büyük hedefleri var.",
+    "context": "'Ambitions', büyük hedefler, arzular ve ulaşmak istediğin yüksek makamlar demektir. Gözünü yükseklere diken, hayalleri olan kişiler için kullanılır. 'Onun büyük hayalleri var!' demek gibi.",
+    "options": [
+      "ambitions",
+      "fears",
+      "doubts",
+      "hesitations"
+    ],
+    "correctAnswer": "ambitions",
+    "category": "CASUAL",
+    "variations": [
+      "Her ambitions were limitless.",
+      "He pursued his ambitions."
+    ]
+  },
+  {
+    "id": 126102712,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "What does the idiom 'return from the dead' mean in a figurative sense, like for a book?",
-    "translation": "'Return from the dead' deyimi, bir kitap için mecazi anlamda ne anlama gelir?",
-    "context": "'Return from the dead', kelimenin tam anlamıyla ölümden dönmek değil, mecazi olarak bir şeyin uzun süreli bir kayboluş, unutulmuşluk veya başarısızlık döneminden sonra 'yeniden ortaya çıkması', 'popüler olması' veya 'canlanması' anlamına gelir. Eski bir moda trendi veya bu haberdeki gibi unutulmuş bir kitap için harika bir ifade!",
+    "phrase": "What do you call a temporary agreement to stop fighting?",
+    "translation": "Kavgayı durdurmak için yapılan geçici anlaşmaya ne denir?",
+    "context": "'Truce', özellikle savaş veya çatışma ortamlarında, taraflar arasında sağlanan geçici ateşkes veya barış anlamına gelir. Silahların sustuğu, biraz nefes alınabilen o an. 'Şimdilik barış var' demek gibi.",
     "options": [
-      "To literally come back to life.",
-      "To be found after being lost for many years.",
-      "To become popular or relevant again after a period of obscurity.",
-      "To be reprinted with a new cover design."
+      "Truce",
+      "Conflict",
+      "Battle",
+      "Siege"
     ],
-    "correctAnswer": "To become popular or relevant again after a period of obscurity.",
+    "correctAnswer": "Truce",
     "category": "MIXED",
     "variations": []
   }
