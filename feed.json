@@ -1,229 +1,226 @@
 [
   {
-    "id": 126102701,
+    "id": 126102801,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The sudden _____ caused flight delays.",
-    "translation": "Ani fırtına uçuş gecikmelerine neden oldu.",
-    "context": "Sokakta yürürken aniden bastıran sağanak yağmur için veya deniz yolculuğunu altüst eden rüzgarlar için 'storm' diyebiliriz. 'Fırtına çıktı, eyvah!' demek gibi bir şey. Hava durumunu takip etmekte fayda var!",
+    "phrase": "The heavy snow left many travelers _____ at the airport.",
+    "translation": "Yoğun kar, birçok yolcuyu havaalanında mahsur bıraktı.",
+    "context": "Kendini bir yerde sıkışmış, hareket edemez halde bulduğun zaman 'stranded' kelimesi tam da bu durumu anlatır. Tıpkı karda mahsur kalan arabalar ya da adada yalnız kalan maceraperestler gibi! Yani otobüsü kaçırıp bir sonraki sefere kadar durakta kalmak da bir nevi 'stranded' sayılır, ama biraz daha dramatik hali diyelim.",
     "options": [
-      "storm",
-      "sunshine",
-      "calm",
-      "mist"
-    ],
-    "correctAnswer": "storm",
-    "category": "TRAVEL",
-    "variations": [
-      "A big storm is coming.",
-      "We saw a heavy storm last night."
-    ]
-  },
-  {
-    "id": 126102702,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "She worked hard to _____ her new product.",
-    "translation": "Yeni ürününü tanıtmak için çok çalıştı.",
-    "context": "Bir markayı, ürünü ya da hatta kendini daha çok kişiye duyurmak, bilinirliğini artırmak istediğinde 'promote' kelimesini kullanırız. İş dünyasında vazgeçilmez bir kelime!",
-    "options": [
-      "promote",
-      "hide",
-      "criticize",
-      "delay"
-    ],
-    "correctAnswer": "promote",
-    "category": "BUSINESS",
-    "variations": [
-      "We need to promote this event.",
-      "Let's promote healthy habits."
-    ]
-  },
-  {
-    "id": 126102703,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "He wants to _____ his fans for their support.",
-    "translation": "Hayranlarına destekleri için teşekkür etmek istiyor.",
-    "context": "Yardım eden birine, iyi dileklerini sunan birine veya seni destekleyenlere minnettarlığını ifade etmek için 'thanks' deriz. En kibar ve samimi iletişim yollarından biri!",
-    "options": [
-      "thanks",
-      "blames",
-      "ignores",
-      "criticizes"
-    ],
-    "correctAnswer": "thanks",
-    "category": "CASUAL",
-    "variations": [
-      "She always thanks her team.",
-      "He wants to say thanks."
-    ]
-  },
-  {
-    "id": 126102704,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "He couldn't play due to a leg _____.",
-    "translation": "Bacak sakatlığı nedeniyle oynayamadı.",
-    "context": "Vücudunda meydana gelen bir hasar veya yaralanma durumu için 'injury' deriz. Sporcularda sıkça duyduğumuz, aman dikkat etmemiz gereken bir kelime!",
-    "options": [
-      "injury",
-      "victory",
-      "health",
-      "practice"
-    ],
-    "correctAnswer": "injury",
-    "category": "MIXED",
-    "variations": [
-      "His old injury still bothers him.",
-      "The injury required surgery."
-    ]
-  },
-  {
-    "id": 126102705,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Heavy snow left many travelers _____ at the airport.",
-    "translation": "Yoğun kar yağışı birçok yolcuyu havalimanında mahsur bıraktı.",
-    "context": "'Stranded' demek, bir yerde sıkışıp kalmak, mahsur kalmak demek. Özellikle kötü hava koşullarında veya beklenmedik durumlarda yolculuk yaparken başına gelebilir. Bavulunu alıp bir otelde kalmak zorunda kalmak gibi düşünebilirsin!",
-    "options": [
-      "stranded",
-      "departed",
-      "welcomed",
-      "assisted"
+      "stuck",
+      "lost",
+      "delayed",
+      "stranded"
     ],
     "correctAnswer": "stranded",
     "category": "TRAVEL",
     "variations": [
-      "We were stranded on the island.",
-      "They left us stranded there."
+      "Due to the flood, many villagers were _____ in their homes.",
+      "Our car broke down, and we were _____ on the side of the road."
     ]
   },
   {
-    "id": 126102706,
+    "id": 126102802,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "She bought some _____ in a new tech company.",
+    "translation": "Yeni bir teknoloji şirketinden hisse aldı.",
+    "context": "Bir şirketin küçük bir parçasına sahip olmak demektir 'share' almak. Tıpkı bir pastadan bir dilim almak gibi, ama bu dilim sana para kazandırabilir! 'Jio shares surge' haberindeki gibi, bazen bu dilimler fırından yeni çıkmış pizza gibi sıcak ve değerli olabilir.",
+    "options": [
+      "parts",
+      "pieces",
+      "shares",
+      "portions"
+    ],
+    "correctAnswer": "shares",
+    "category": "BUSINESS",
+    "variations": [
+      "He sold all his _____ to invest in real estate.",
+      "The value of the company's _____ increased significantly."
+    ]
+  },
+  {
+    "id": 126102803,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "Which word means 'to attack and injure an animal or person by tearing with claws or teeth'?",
+    "translation": "Hangi kelime 'bir hayvanı veya kişiyi pençe veya dişlerle parçalayarak saldırmak ve yaralamak' anlamına gelir?",
+    "context": "'Zookeeper mauled by leopard' haberinde geçtiği gibi, 'maul' kelimesi vahşi bir saldırıyı anlatır. Bu kelimeyi duyduğunda aklına hemen 'Ooof, kötü olmuş!' dedirtecek, tırnakların ve dişlerin acımasızca kullanıldığı bir durum gelsin. Leoparların, ayıları veya başka yırtıcı hayvanların avlarına yaptığı gibi düşünebilirsin.",
+    "options": [
+      "Pet",
+      "Feed",
+      "Maul",
+      "Observe"
+    ],
+    "correctAnswer": "Maul",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126102804,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "After a few hours, the strong wind started to _____.",
+    "translation": "Birkaç saat sonra şiddetli rüzgar dinmeye başladı.",
+    "context": "Fırtınanın yavaşlaması, ağrıyan başının geçmesi ya da yoğun bir günün sonunda rahatlamaya başlamak... İşte tüm bunlar için 'ease off' deriz! 'Weather warning lifted as storm eases off' haberindeki gibi, kötü bir durumun hafiflemesi anlamına gelir. Tıpkı uzun bir koşudan sonra temponu düşürmek gibi, yavaş yavaş sakinleşmek.",
+    "options": [
+      "pick up",
+      "blow hard",
+      "ease off",
+      "get stronger"
+    ],
+    "correctAnswer": "ease off",
+    "category": "MIXED",
+    "variations": [
+      "The rain began to _____ around noon.",
+      "Her anger eventually started to _____."
+    ]
+  },
+  {
+    "id": 126102805,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Their company offers a fantastic _____ to many exotic islands.",
+    "translation": "Şirketleri birçok egzotik adaya harika bir tur sunuyor.",
+    "context": "'Caribbean tour begins' haberindeki gibi, 'tour' kelimesi genellikle bir bölgeyi, ülkeyi veya birden fazla yeri kapsayan planlı bir geziyi ifade eder. Yani sadece bir yere gidip gelmek değil, aynı zamanda o yerin kültürünü, tarihini de keşfetme fırsatı sunan bir macera! Rehberli turlarla yeni yerler keşfetmek gibisi yoktur.",
+    "options": [
+      "stay",
+      "tour",
+      "flight",
+      "trip"
+    ],
+    "correctAnswer": "tour",
+    "category": "TRAVEL",
+    "variations": [
+      "We took a guided _____ of the ancient ruins.",
+      "The band is going on a world _____ next year."
+    ]
+  },
+  {
+    "id": 126102806,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Which word best describes a large business organization?",
-    "translation": "Büyük bir iş organizasyonunu en iyi tanımlayan kelime hangisidir?",
-    "context": "'Enterprise', genellikle büyük çaplı, karmaşık ve bazen riskli iş girişimlerini ifade eder. Küçük bir dükkandan ziyade, kocaman bir şirketler grubunu veya büyük bir projeyi düşünebilirsin.",
+    "phrase": "What does 'IPO' stand for in the business world?",
+    "translation": "İş dünyasında 'IPO' ne anlama gelir?",
+    "context": "'Jio shares surge in market debut after blockbuster India IPO' haberinde geçen 'IPO', bir şirketin ilk kez hisselerini halka arz etmesi demektir. Yani o güne kadar sadece belli kişilerin sahip olduğu bir şirketin, artık herkesin küçük de olsa bir parçasına sahip olabileceği anlamına gelir. Bu, şirketler için büyük bir adımdır, adeta bir şirketin 'büyüklere veda partisi' gibidir!",
     "options": [
-      "Enterprise",
-      "Kiosk",
-      "Stall",
-      "Boutique"
+      "International Purchase Order",
+      "Investor's Private Option",
+      "Income Potential Outlook",
+      "Initial Public Offering"
     ],
-    "correctAnswer": "Enterprise",
+    "correctAnswer": "Initial Public Offering",
     "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126102707,
+    "id": 126102807,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The coach decided to _____ his best players in the second half.",
-    "translation": "Antrenör, ikinci yarıda en iyi oyuncularını sahaya sürmeye karar verdi.",
-    "context": "Birinin içindeki gücü, potansiyeli ya da yeteneği ortaya çıkarmak, serbest bırakmak anlamına gelir. 'Unleash the beast!' deyimi gibi, bir şeyi tamamen özgür bırakıp etkisini göstermesini sağlamak!",
+    "phrase": "Her dedication led to an incredible body _____.",
+    "translation": "Adanmışlığı inanılmaz bir vücut dönüşümüne yol açtı.",
+    "context": "'Vickery's bodybuilding transformation' haberindeki gibi, 'transformation' kelimesi bir şeyin veya birinin tamamen değişmesi, bambaşka bir hale gelmesi demektir. Tıpkı tırtılın kelebeğe dönüşmesi gibi! Vücut geliştirmede, hayat tarzında veya hatta bir şehrin görünümünde bile harika 'transformasyon' örnekleri görebiliriz.",
     "options": [
-      "unleash",
-      "restrain",
-      "hide",
-      "ignore"
+      "change",
+      "modification",
+      "alteration",
+      "transformation"
     ],
-    "correctAnswer": "unleash",
+    "correctAnswer": "transformation",
     "category": "CASUAL",
     "variations": [
-      "She will unleash her creativity.",
-      "Unleash your full potential!"
+      "The city underwent a huge architectural _____ in the last decade.",
+      "His diet and exercise regime caused a complete _____ in his health."
     ]
   },
   {
-    "id": 126102708,
+    "id": 126102808,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Which phrase refers to an AI-powered helper that manages daily tasks?",
-    "translation": "Günlük görevleri yöneten yapay zeka destekli bir yardımcıya ne denir?",
-    "context": "Sana randevularını hatırlatan, e-postalarını düzenleyen, hava durumunu söyleyen veya hatta kod yazmana yardımcı olan bir robot arkadaş düşün! 'Personal assistant' tam da böyle bir teknoloji harikasıdır.",
+    "phrase": "Which of these best describes a 'ceasefire'?",
+    "translation": "Bunlardan hangisi 'ateşkesi' en iyi açıklar?",
+    "context": "'Ceasefire extended across Ukraine's Kherson region' haberinde geçen 'ceasefire', savaşan taraflar arasında çatışmaların geçici olarak durdurulması anlaşmasıdır. Yani kavgayı bırakıp bir süre soluklanmak gibi düşünebilirsin. Genellikle barış görüşmeleri için bir fırsat yaratır ama her zaman kalıcı bir çözüm anlamına gelmez. 'Durun bakalım, bir mola verelim!' diyen bir durum.",
     "options": [
-      "Personal assistant",
-      "Security guard",
-      "Robot chef",
-      "Traffic controller"
+      "A new weapon",
+      "A peace treaty",
+      "A military exercise",
+      "A temporary agreement to stop fighting"
     ],
-    "correctAnswer": "Personal assistant",
+    "correctAnswer": "A temporary agreement to stop fighting",
     "category": "MIXED",
     "variations": []
   },
   {
-    "id": 126102709,
+    "id": 126102809,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The airline cancelled flights due to _____.",
+    "translation": "Havayolu, artan yakıt maliyetleri nedeniyle uçuşları iptal etti.",
+    "context": "'Luxury cruise passengers stranded due to soaring fuel costs' haberinde geçtiği gibi, 'soaring fuel costs' yakıt fiyatlarının fırlaması, hızla yükselmesi demektir. Fiyatlar adeta gökyüzüne doğru bir roket gibi yükseliyor! Bu durum sadece yolcuları değil, nakliye şirketlerini ve hatta cebimizdeki parayı bile etkiler. Uçak bileti alırken gözünü kapalı geçme, 'soaring costs' ile karşılaşabilirsin!",
+    "options": [
+      "decreasing demands",
+      "rising profits",
+      "soaring fuel costs",
+      "stable prices"
+    ],
+    "correctAnswer": "soaring fuel costs",
+    "category": "TRAVEL",
+    "variations": [
+      "Manufacturers are struggling with _____ for raw materials.",
+      "The energy crisis is partly caused by _____."
+    ]
+  },
+  {
+    "id": 126102810,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "What is an act of returning an injury or wrong?",
-    "translation": "Bir zarar veya yanlışı geri ödeme eylemi nedir?",
-    "context": "'Retaliation', kısaca misilleme demek. Bazen uluslararası seyahatlerde veya diplomatik ilişkilerde, bir ülkenin başka bir ülkeye karşı aldığı bir önlem veya ceza eylemi için de kullanılabilir. Yani bir nevi karşı atak!",
+    "phrase": "What is an 'upside' in a business context?",
+    "translation": "İş bağlamında 'upside' nedir?",
+    "context": "'The data center boom has an upside' haberinde geçtiği gibi, 'upside' bir durumun veya kararın olumlu tarafı, faydası veya potansiyel avantajı demektir. Her kötü görünen durumun bile bir 'upside'ı olabilir! Tıpkı yağmurlu bir günün ardından çıkan gökkuşağı gibi, bir zorluğun arkasında gizli bir kazanç veya iyi bir yön bulunabilir.",
     "options": [
-      "Retaliation",
-      "Cooperation",
-      "Negotiation",
-      "Reconciliation"
+      "A sudden decrease in sales",
+      "A significant financial loss",
+      "An unexpected problem",
+      "A positive aspect or advantage"
     ],
-    "correctAnswer": "Retaliation",
-    "category": "TRAVEL",
+    "correctAnswer": "A positive aspect or advantage",
+    "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126102710,
+    "id": 126102811,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The CEO's decision was _____ for the company's future.",
-    "translation": "CEO'nun kararı şirketin geleceği için çok önemliydi.",
-    "context": "'Pivotal', bir dönüm noktası niteliğinde, kritik ve merkezi bir öneme sahip olan şeyleri tanımlar. Bir maçın 'pivotal' anı, bir iş anlaşmasının 'pivotal' maddesi gibi, her şeyi değiştirebilecek o kilit nokta!",
+    "phrase": "The report detailed several cases _____ official misconduct.",
+    "translation": "Rapor, resmi görevi kötüye kullanmayla ilgili birçok vakayı iddia etti.",
+    "context": "'Parents sue OpenAI, alleging GPT-4o coached their daughter' haberinde geçtiği gibi, 'alleging' kelimesi bir iddiada bulunmak, suçlamak anlamına gelir ama henüz kanıtlanmamış bir durumu ifade eder. Yani 'Bence o yaptı!' demenin biraz daha resmi ve hukuki hali. 'Alleging' dendiğinde, o iddianın henüz sadece bir 'söz' olduğunu, kanıt beklediğini unutma.",
     "options": [
-      "pivotal",
-      "minor",
-      "irrelevant",
-      "insignificant"
+      "proving",
+      "denying",
+      "ignoring",
+      "alleging"
     ],
-    "correctAnswer": "pivotal",
-    "category": "BUSINESS",
-    "variations": [
-      "It was a pivotal moment in history.",
-      "This meeting is pivotal."
-    ]
-  },
-  {
-    "id": 126102711,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "He has great _____ to become a successful entrepreneur.",
-    "translation": "Başarılı bir girişimci olmak için büyük hedefleri var.",
-    "context": "'Ambitions', büyük hedefler, arzular ve ulaşmak istediğin yüksek makamlar demektir. Gözünü yükseklere diken, hayalleri olan kişiler için kullanılır. 'Onun büyük hayalleri var!' demek gibi.",
-    "options": [
-      "ambitions",
-      "fears",
-      "doubts",
-      "hesitations"
-    ],
-    "correctAnswer": "ambitions",
+    "correctAnswer": "alleging",
     "category": "CASUAL",
     "variations": [
-      "Her ambitions were limitless.",
-      "He pursued his ambitions."
+      "The suspect was arrested for _____ fraud.",
+      "The newspaper published an article _____ corruption within the department."
     ]
   },
   {
-    "id": 126102712,
+    "id": 126102812,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "What do you call a temporary agreement to stop fighting?",
-    "translation": "Kavgayı durdurmak için yapılan geçici anlaşmaya ne denir?",
-    "context": "'Truce', özellikle savaş veya çatışma ortamlarında, taraflar arasında sağlanan geçici ateşkes veya barış anlamına gelir. Silahların sustuğu, biraz nefes alınabilen o an. 'Şimdilik barış var' demek gibi.",
+    "phrase": "When someone 'acknowledges' something, what are they doing?",
+    "translation": "Birisi bir şeyi 'kabul ettiğinde', ne yapıyor demektir?",
+    "context": "'King acknowledges 'suffering of the past'' haberinde olduğu gibi, 'acknowledge' bir şeyi resmi olarak kabul etmek, tanımak veya varlığını onaylamak demektir. Yani 'Tamam, anladım ve kabul ediyorum' demenin daha ağırbaşlı hali. Bir hatayı kabul etmek, bir gerçeği tanımak veya bir kişinin varlığını onaylamak için kullanılır. Kafanı sallayıp 'Evet, haklısın' demek gibi, ama biraz daha ciddi.",
     "options": [
-      "Truce",
-      "Conflict",
-      "Battle",
-      "Siege"
+      "Ignoring or dismissing it",
+      "Challenging its validity",
+      "Denying its importance",
+      "Accepting or recognizing its existence or truth"
     ],
-    "correctAnswer": "Truce",
+    "correctAnswer": "Accepting or recognizing its existence or truth",
     "category": "MIXED",
     "variations": []
   }
