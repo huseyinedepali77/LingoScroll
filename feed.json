@@ -1,230 +1,233 @@
 [
   {
-    "id": 126102901,
+    "id": 126103001,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The plane is _____ at Miami International Airport.",
-    "translation": "Uçak Miami Uluslararası Havalimanı'na iniş yapıyor.",
-    "context": "'Landing', bir uçağın yere inmesi demek. Havalimanında anonsları dinlerken veya bir arkadaşına 'Uçağımız yeni indi!' derken sıkça duyarsın. Biletini alırken 'landing time' yani 'iniş saati'ni kontrol etmeyi unutma, yoksa seni bekleyenler çok sıkılabilir!",
+    "phrase": "The `_____` opened, allowing people to leave the war zone.",
+    "translation": "İnsanların savaş bölgesinden ayrılmasına olanak tanıyan tahliye koridoru açıldı.",
+    "context": "Oleshky haberinden esinlendik! 'Evacuation corridor' dediğimiz şey, savaş, afet gibi durumlarda insanların güvenle tahliye edilmesi için belirlenmiş güvenli geçiş yolu. Mesela deprem bölgesinden ayrılırken açılan yollar gibi düşünebilirsin. Hayat kurtarıcıdır!",
     "options": [
-      "landing",
-      "taking off",
-      "flying",
-      "boarding"
+      "evacuation corridor",
+      "escape tunnel",
+      "safety path",
+      "exit route"
     ],
-    "correctAnswer": "landing",
+    "correctAnswer": "evacuation corridor",
     "category": "TRAVEL",
     "variations": [
-      "Our flight is landing in Istanbul soon.",
-      "The birds are landing on the tree."
+      "Many residents used the evacuation corridor to flee.",
+      "A new evacuation corridor was established today."
     ]
   },
   {
-    "id": 126102902,
+    "id": 126103002,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Microsoft's Azure cloud service reported high _____ this quarter.",
-    "translation": "Microsoft'un Azure bulut hizmeti bu çeyrekte yüksek gelir bildirdi.",
-    "context": "'Revenue', bir şirketin sattığı ürünler veya hizmetlerden elde ettiği toplam para, yani geliri demek. İş dünyasında, şirketlerin ne kadar başarılı olduğunu anlamak için 'revenue' rakamlarına bakılır. 'Şirketin revenue'si geçen yıl ikiye katlandı!' gibi cümleleri toplantılarda sıkça duyabilirsin. Cüzdanına giren para miktarı gibi düşünebilirsin, ama çok daha büyük ölçekte!",
+    "phrase": "Syrians are struggling with `_____` in their country.",
+    "translation": "Suriye halkı ülkelerindeki fahiş fiyatlarla mücadele ediyor.",
+    "context": "Suriye'deki ekonomik krizi düşününce, 'soaring prices' tam da durumu özetliyor. Yani fiyatlar uçmuş, almış başını gitmiş! Cebini yakıp canını sıkan, sürekli artan fiyatlar demek bu. Alışveriş yaparken 'Ay bu da mı pahalılaşmış!' dediğin anlar gibi.",
     "options": [
-      "revenue",
-      "expenses",
-      "debts",
-      "losses"
+      "soaring prices",
+      "low earnings",
+      "stable market",
+      "easy deals"
     ],
-    "correctAnswer": "revenue",
+    "correctAnswer": "soaring prices",
     "category": "BUSINESS",
     "variations": [
-      "The company aims to increase its revenue next year.",
-      "Our new product line generates good revenue."
+      "We are worried about soaring prices of food.",
+      "Soaring prices make life hard for many."
     ]
   },
   {
-    "id": 126102903,
+    "id": 126103003,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The heavy rain finally started to _____ after an hour.",
-    "translation": "Şiddetli yağmur bir saat sonra nihayet hafiflemeye başladı.",
-    "context": "'Eases off', bir şeyin şiddetinin veya yoğunluğunun azalması, hafiflemesi anlamına gelir. Kötü bir hava durumu, ağrıyan bir baş ağrısı veya yoğun bir iş yükü için kullanabilirsin. 'Neyse ki fırtına birazdan diner.' veya 'Baş ağrım yavaş yavaş geçiyor.' derken tam da bu durumu ifade edersin. Sanki birisi gaz pedalından ayağını çekiyormuş gibi!",
+    "phrase": "He was caught in a `_____` and lost all his money.",
+    "translation": "Bir 'hayalet öğrenci dolandırıcılığına' yakalandı ve tüm parasını kaybetti.",
+    "context": "Kenya'daki o inanılmaz dolandırıcılık haberinden ilham aldık! 'Ghost student scam' demek, aslında var olmayan veya eğitim görmeyen kişiler adına burs, kredi veya başka yardımlar almak için yapılan dolandırıcılık. Hayalet öğrenciler gibi düşün, kimseden habersiz para cebe indiriyorlar!",
     "options": [
-      "eases off",
-      "picks up",
-      "starts up",
-      "gets worse"
+      "ghost student scam",
+      "fake degree plan",
+      "hidden talent show",
+      "student aid program"
     ],
-    "correctAnswer": "eases off",
+    "correctAnswer": "ghost student scam",
     "category": "CASUAL",
     "variations": [
-      "The traffic will ease off after rush hour.",
-      "Her stress began to ease off after the holiday."
+      "The police uncovered a huge ghost student scam.",
+      "Avoid falling for a ghost student scam."
     ]
   },
   {
-    "id": 126102904,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "id": 126103004,
+    "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Which word means 'a sudden, violent accident, especially involving a vehicle'?",
-    "translation": "'Özellikle bir taşıtın karıştığı ani, şiddetli bir kaza' anlamına gelen kelime hangisidir?",
-    "context": "'Crash', genellikle araçların (tren, araba, uçak) karıştığı ani ve kötü kazalar için kullanılır. Haberlerde sıkça duyduğun 'Bir tren kazası oldu' veya 'Uçak düştü' gibi durumları ifade eder. Aman yollarda dikkatli ol, kimse böyle bir 'crash' yaşamak istemez! Bilgisayarın aniden donup kapanması için de 'my computer crashed' diyebilirsin.",
+    "phrase": "A `_____` was issued due to very poor visibility.",
+    "translation": "Görüş mesafesinin çok düşük olması nedeniyle sis uyarısı yapıldı.",
+    "context": "Met Office'in sis uyarısı haberi! 'Fog warning' dediğimizde, 'Dikkat! Önünüzü göremeyebilirsiniz!' anlamına gelen bir hava durumu uyarısı. Özellikle yollarda araç kullanırken çok tehlikeli olabilir. Tamamen beyaz bir perde gibi düşün her yeri!",
     "options": [
-      "crash",
-      "journey",
-      "trip",
-      "drive"
+      "fog warning",
+      "rain advice",
+      "wind notice",
+      "sun alert"
     ],
-    "correctAnswer": "crash",
+    "correctAnswer": "fog warning",
     "category": "MIXED",
-    "variations": []
-  },
-  {
-    "id": 126102905,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The suspect was seen _____ the country after the incident.",
-    "translation": "Şüpheli, olaydan sonra ülkeden kaçarken görüldü.",
-    "context": "'Fleeing', bir yerden hızla kaçmak, genellikle tehlike veya kovuşturmadan kurtulmak için kaçmak demektir. Haberlerde suçluların veya siyasi mültecilerin ülkeden kaçışları gibi durumlar için sıkça kullanılır. 'Kaçtı, gitti!' dediğinde bu kelimeyi kullanmış olursun. Ama unutma, bazen çok sevimsiz bir partiden kaçmak için de 'flee' kelimesini kullanabilirsin!",
-    "options": [
-      "fleeing",
-      "visiting",
-      "exploring",
-      "returning"
-    ],
-    "correctAnswer": "fleeing",
-    "category": "TRAVEL",
     "variations": [
-      "Many people are fleeing the war zone.",
-      "He was caught fleeing the scene of the crime."
+      "Drivers were advised to heed the fog warning.",
+      "The fog warning affected many flights."
     ]
   },
   {
-    "id": 126102906,
+    "id": 126103005,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "What is an 'acquisition offer' in business?",
-    "translation": "İş dünyasında 'acquisition offer' nedir?",
-    "context": "'Acquisition offer', bir şirketin başka bir şirketi satın almak için yaptığı resmi tekliftir. Yani, bir devin daha küçük bir şirketi kendi bünyesine katmak için sunduğu 'Gel seni alalım!' teklifi gibi düşünebilirsin. Bu tür teklifler genellikle milyonlarca, hatta milyarlarca doları bulabilir ve iş dünyasının en büyük haberlerinden biri olur. Hayal et, biri sana bir 'acquisition offer' yapsa, ne yapardın?",
+    "phrase": "Which phrase describes autonomous vehicles for public transport?",
+    "translation": "Toplu taşıma için otonom araçları hangi ifade tanımlar?",
+    "context": "Waymo'nun Toyota ile robotaksi anlaşması tam da bunu anlatıyor. 'Robotaxis', yani sürücüsüz, otonom taksiler! Bilim kurgu filmlerinden fırlamış gibi değil mi? Gelecekte bir yerden bir yere gitmek için uygulama üzerinden robotaksiler çağıracağız, şoför koltuğu boş olacak!",
     "options": [
-      "A proposal to buy another company",
-      "A plan to start a new company",
-      "A request for a business loan",
-      "An invitation to a business meeting"
+      "robotaxis",
+      "auto-buses",
+      "driverless cars",
+      "smart vehicles"
     ],
-    "correctAnswer": "A proposal to buy another company",
+    "correctAnswer": "robotaxis",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126103006,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "What does it mean if a company is 'on track to earn billions'?",
+    "translation": "Bir şirketin 'milyarlar kazanma yolunda' olması ne anlama gelir?",
+    "context": "Andy Jassy'nin Prime Video'nun milyarlarca dolar kazanma yolunda olduğuna dair açıklaması! 'On track to earn' ifadesi, bir şeyin belirli bir hedefe ulaşma yolunda ilerlediği, beklentileri karşıladığı anlamına gelir. Yani işler tıkırında, kazanç hedefine doğru ilerliyor! Tam bir başarı hikayesi!",
+    "options": [
+      "It is struggling financially.",
+      "It is expected to make a huge profit.",
+      "It is changing its business model.",
+      "It is about to close down."
+    ],
+    "correctAnswer": "It is expected to make a huge profit.",
     "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126102907,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The loud music completely _____ me from my studies.",
-    "translation": "Yüksek sesli müzik derslerimden tamamen dikkatimi dağıttı.",
-    "context": "'Distracted', bir şeyin veya birinin dikkatini dağıtması, odaklanmayı zorlaştırması demektir. Bir işte çalışırken telefonun sürekli çalması, sınavda pencereden dışarı bakmak ya da maçta taraftarın bağırışları gibi durumlarda dikkatimiz 'distracted' olur. 'Aklı başka yere gitti' deriz ya, işte tam o durum! Hayatta dikkat dağıtıcı o kadar çok şey var ki, odaklanmak bazen bir süper güç gibi hissettirebilir!",
-    "options": [
-      "distracted",
-      "focused",
-      "helped",
-      "motivated"
-    ],
-    "correctAnswer": "distracted",
-    "category": "CASUAL",
-    "variations": [
-      "Don't get distracted by social media.",
-      "He was easily distracted by the noise."
-    ]
-  },
-  {
-    "id": 126102908,
+    "id": 126103007,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "What does 'serious pollution' refer to?",
-    "translation": "'Serious pollution' neyi ifade eder?",
-    "context": "'Pollution', çevrenin (hava, su, toprak) kirletilmesi, yani doğaya zarar veren maddelerle dolması demektir. Özellikle 'serious pollution' dendiğinde, bu durumun insan sağlığı ve ekosistem üzerindeki çok kötü ve tehlikeli etkilerinden bahsedilir. Sanayi atıkları, egzoz dumanı veya plastik çöpler... Hepsi çevremizin 'pollution' seviyesini artırıyor. Temiz bir gezegen için 'pollution' ile mücadele etmek hepimizin görevi!",
+    "phrase": "Which phrase means 'to fail to reverse a previous legal decision'?",
+    "translation": "'Önceki bir yasal kararı tersine çevirememek' hangi ifade ile anlatılır?",
+    "context": "Mantar katilinin mahkeme kararını bozamaması haberi! 'Overturn convictions', daha önceki bir mahkeme kararını iptal etmek, bozmak veya tersine çevirmek demek. Eğer 'fail to overturn' diyorsak, o zaman suçlu bulunan kişi, cezasının yanlış olduğuna kimseyi ikna edememiş demektir. Yani karar kesindir, kurtuluş yok!",
     "options": [
-      "Severe contamination of the environment",
-      "A new type of energy source",
-      "An advanced medical treatment",
-      "A healthy eating habit"
+      "win an appeal",
+      "fail to overturn convictions",
+      "prove innocence",
+      "seek justice"
     ],
-    "correctAnswer": "Severe contamination of the environment",
-    "category": "MIXED",
-    "variations": []
-  },
-  {
-    "id": 126102909,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Diplomats will _____ at the upcoming international summit.",
-    "translation": "Diplomatlar yaklaşan uluslararası zirvede daha yakın ilişkiler için çabalayacak.",
-    "context": "'Push for closer ties', daha yakın ilişkiler kurmak veya mevcut ilişkileri güçlendirmek için çaba sarf etmek demektir. Ülkeler arası diplomatik görüşmelerde, iş ortaklıklarında veya hatta kişisel arkadaşlıklarda bile bu ifade kullanılabilir. Birbirine daha sıkı bağlanmak isteyen iki ülke gibi düşünebilirsin; sürekli 'Hadi daha çok görüşelim, daha çok iş yapalım!' diyorlar. Bu, sadece toplantılarda duyacağın havalı bir ifade değil, gerçek hayatta da ilişkileri geliştirmek için yapılan her türlü çabayı kapsar.",
-    "options": [
-      "push for closer ties",
-      "avoid discussions",
-      "create new borders",
-      "reduce cooperation"
-    ],
-    "correctAnswer": "push for closer ties",
-    "category": "TRAVEL",
-    "variations": [
-      "The two companies push for closer ties.",
-      "We need to push for closer ties with our neighbors."
-    ]
-  },
-  {
-    "id": 126102910,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The e-commerce company plans to _____ next year.",
-    "translation": "E-ticaret şirketi önümüzdeki yıl küresel olarak genişlemeyi planlıyor.",
-    "context": "'Expands globally', bir şirketin veya ürünün dünya çapında yayılması, farklı ülkelere açılması anlamına gelir. Yani, sadece kendi ülkesinde kalmayıp, ürünlerini ve hizmetlerini dünyanın dört bir yanına ulaştırma hedefini ifade eder. Bir düşün, favori markan dünyanın her yerinde satışa sunulsa ne harika olurdu, değil mi? Bu ifade, uluslararası büyüme ve stratejik yayılım planları için kullanılır.",
-    "options": [
-      "expands globally",
-      "contracts locally",
-      "reduces sales",
-      "limits market share"
-    ],
-    "correctAnswer": "expands globally",
-    "category": "BUSINESS",
-    "variations": [
-      "Our services are expanding globally this quarter.",
-      "The tech giant is expanding globally into new markets."
-    ]
-  },
-  {
-    "id": 126102911,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "What does 'potential disasters' suggest?",
-    "translation": "'Potential disasters' neyi ifade eder?",
-    "context": "'Potential disasters', gelecekte meydana gelme ihtimali olan büyük ve yıkıcı felaketler anlamına gelir. Depremler, seller, volkanik patlamalar veya tsunamiler gibi doğal olaylar olabilir. 'Olabilir, belki olur' ama olursa çok kötü olur' durumları için kullanılır. Bilim insanları bu 'potential disasters' hakkında bizi sürekli uyarır. Önlem almak için bu uyarıları ciddiye almak çok önemli!",
-    "options": [
-      "Serious events that might happen in the future",
-      "Minor inconveniences that are easily solved",
-      "Past events that had no impact",
-      "Guaranteed positive outcomes"
-    ],
-    "correctAnswer": "Serious events that might happen in the future",
+    "correctAnswer": "fail to overturn convictions",
     "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126102912,
+    "id": 126103008,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "He knows all the _____ of the local cricket league.",
-    "translation": "Yerel kriket liginin tüm inceliklerini/ayrıntılarını biliyor.",
-    "context": "'Ins and outs', bir şeyin tüm detayları, incelikleri, iç işleyişi ve sırları anlamına gelir. Yani, bir konuyu veya sistemi A'dan Z'ye, her yönüyle bilmek demektir. Bir oyunu, bir işi veya bir hobiyi enine boyuna bilen, tüm püf noktalarına hakim kişiler için kullanılır. 'Bu işin bütün kıvrımlarını biliyorum!' derken tam da bu durumu ifade edersin. Sanki bir oyunun gizli geçitlerini ve hilelerini öğrenmiş gibi!",
+    "level": "INTERMEDIATE",
+    "phrase": "Djokovic suffered a `_____` defeat in the ATP Finals.",
+    "translation": "Djokovic ATP Finalleri'nde şok edici bir mağlubiyet yaşadı.",
+    "context": "Djokovic'in ATP Finalleri'ndeki sürpriz yenilgisi! 'Shock defeat' yani 'şok edici mağlubiyet', kimsenin beklemediği, herkesi şaşırtan, favori birinin kaybetmesi durumudur. Futbolda küçük bir takımın devleri yenmesi gibi düşün! Ağzın açık kalır resmen!",
     "options": [
-      "ins and outs",
-      "ups and downs",
-      "pros and cons",
-      "odds and ends"
+      "shock",
+      "expected",
+      "minor",
+      "easy"
     ],
-    "correctAnswer": "ins and outs",
+    "correctAnswer": "shock",
     "category": "MIXED",
     "variations": [
-      "Learning the ins and outs of a new language takes time.",
-      "She understands the ins and outs of financial markets."
+      "His shock defeat stunned the crowd.",
+      "The team suffered a shock defeat."
+    ]
+  },
+  {
+    "id": 126103009,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Waymo `_____` Toyota to provide robotaxis for Europe.",
+    "translation": "Waymo, Avrupa için robotaksi sağlamak üzere Toyota ile iş birliği yaptı.",
+    "context": "Waymo'nun Toyota ile robotaksi anlaşması! Buradaki 'taps' kelimesi, 'birinin yeteneklerinden veya kaynaklarından faydalanmak', 'birine başvurmak' veya 'birinden destek almak' anlamında kullanılır. Yani Waymo, robotaksi işinde Toyota'nın uzmanlığına ve kaynaklarına 'dokunuyor', onlardan faydalanıyor. Parmakla işaret etmek gibi düşün, ama bu daha çok stratejik bir işbirliği!",
+    "options": [
+      "taps",
+      "requests",
+      "signals",
+      "orders"
+    ],
+    "correctAnswer": "taps",
+    "category": "TRAVEL",
+    "variations": [
+      "The company taps external experts for advice.",
+      "They tapped into new markets with their product."
+    ]
+  },
+  {
+    "id": 126103010,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "AWS is predicted to become a `_____` business in the future.",
+    "translation": "AWS'nin gelecekte 1 trilyon dolarlık bir iş olması bekleniyor.",
+    "context": "Jassy'nin AWS'nin 1 trilyon dolarlık bir iş olacağı tahmini! '$1T business' demek, tam 1 trilyon dolarlık (bin milyar dolar) bir iş hacmine sahip dev bir şirket olmak demek. Bu seviyeye ulaşan şirketler ekonomide çığır açar! Düşünsene, dünya ekonomisinin en büyük oyuncularından biri olmak!",
+    "options": [
+      "$1T",
+      "$1B",
+      "$1M",
+      "$1K"
+    ],
+    "correctAnswer": "$1T",
+    "category": "BUSINESS",
+    "variations": [
+      "Reaching a $1T business valuation is a huge milestone.",
+      "They aim to build a $1T business."
+    ]
+  },
+  {
+    "id": 126103011,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "He claimed a `_____` exemption from using AI at work.",
+    "translation": "İş yerinde yapay zeka kullanımından dini bir muafiyet talep etti.",
+    "context": "AI kullanımıyla ilgili dini muafiyet haberi! 'Religious exemption' demek, bir kurala veya zorunluluğa, dini inançlar sebebiyle muafiyet tanınması demek. Yani 'Benim inancım buna izin vermiyor' diyerek bazı şeylerden yasal olarak muaf tutulmak. Mesela aşı zorunluluğunda da bazı ülkelerde bu tür muafiyetler olabiliyor.",
+    "options": [
+      "religious",
+      "personal",
+      "medical",
+      "ethical"
+    ],
+    "correctAnswer": "religious",
+    "category": "CASUAL",
+    "variations": [
+      "She sought a religious exemption for her children.",
+      "A religious exemption was granted to some employees."
+    ]
+  },
+  {
+    "id": 126103012,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": " `_____` looms for sports teams to finalize transfers.",
+    "translation": "Spor takımlarının transferleri tamamlaması için Son Tarih Günü yaklaşıyor.",
+    "context": "LIV 2.0 ve transfer haberleri! 'Deadline Day looms' demek, 'Son tarih yaklaşıyor' ya da 'Karar günü yaklaşıyor' anlamına gelir. Özellikle spor transferlerinde veya önemli proje teslimlerinde bu ifade çok kullanılır. Herkesin son dakikaya kadar beklediği, stresli ve heyecanlı anlar! Tıpkı ödevin son günü gibi!",
+    "options": [
+      "Deadline Day",
+      "Transfer Window",
+      "Match Day",
+      "Final Round"
+    ],
+    "correctAnswer": "Deadline Day",
+    "category": "MIXED",
+    "variations": [
+      "The project's Deadline Day is next week.",
+      "Everyone is nervous as Deadline Day looms."
     ]
   }
 ]
