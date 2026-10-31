@@ -1,233 +1,230 @@
 [
   {
-    "id": 126103001,
+    "id": 126103101,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The `_____` opened, allowing people to leave the war zone.",
-    "translation": "İnsanların savaş bölgesinden ayrılmasına olanak tanıyan tahliye koridoru açıldı.",
-    "context": "Oleshky haberinden esinlendik! 'Evacuation corridor' dediğimiz şey, savaş, afet gibi durumlarda insanların güvenle tahliye edilmesi için belirlenmiş güvenli geçiş yolu. Mesela deprem bölgesinden ayrılırken açılan yollar gibi düşünebilirsin. Hayat kurtarıcıdır!",
+    "phrase": "Ollie, an AI assistant, is _____ down.",
+    "translation": "Kapanıyor.",
+    "context": "Bir şirket ya da uygulama işleri durdurduğunda 'shut down' fiilini kullanırız. Bazen de yorgun düşüp, 'Shutting down for the day!' diyebilirsin, yani 'Bugünlük paydos!' demek gibi.",
     "options": [
-      "evacuation corridor",
-      "escape tunnel",
-      "safety path",
-      "exit route"
+      "shutting",
+      "closing",
+      "ending",
+      "failing"
     ],
-    "correctAnswer": "evacuation corridor",
-    "category": "TRAVEL",
-    "variations": [
-      "Many residents used the evacuation corridor to flee.",
-      "A new evacuation corridor was established today."
-    ]
-  },
-  {
-    "id": 126103002,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Syrians are struggling with `_____` in their country.",
-    "translation": "Suriye halkı ülkelerindeki fahiş fiyatlarla mücadele ediyor.",
-    "context": "Suriye'deki ekonomik krizi düşününce, 'soaring prices' tam da durumu özetliyor. Yani fiyatlar uçmuş, almış başını gitmiş! Cebini yakıp canını sıkan, sürekli artan fiyatlar demek bu. Alışveriş yaparken 'Ay bu da mı pahalılaşmış!' dediğin anlar gibi.",
-    "options": [
-      "soaring prices",
-      "low earnings",
-      "stable market",
-      "easy deals"
-    ],
-    "correctAnswer": "soaring prices",
-    "category": "BUSINESS",
-    "variations": [
-      "We are worried about soaring prices of food.",
-      "Soaring prices make life hard for many."
-    ]
-  },
-  {
-    "id": 126103003,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "He was caught in a `_____` and lost all his money.",
-    "translation": "Bir 'hayalet öğrenci dolandırıcılığına' yakalandı ve tüm parasını kaybetti.",
-    "context": "Kenya'daki o inanılmaz dolandırıcılık haberinden ilham aldık! 'Ghost student scam' demek, aslında var olmayan veya eğitim görmeyen kişiler adına burs, kredi veya başka yardımlar almak için yapılan dolandırıcılık. Hayalet öğrenciler gibi düşün, kimseden habersiz para cebe indiriyorlar!",
-    "options": [
-      "ghost student scam",
-      "fake degree plan",
-      "hidden talent show",
-      "student aid program"
-    ],
-    "correctAnswer": "ghost student scam",
+    "correctAnswer": "shutting",
     "category": "CASUAL",
     "variations": [
-      "The police uncovered a huge ghost student scam.",
-      "Avoid falling for a ghost student scam."
+      "The store decided to shut down early.",
+      "My old phone is shutting down a lot."
     ]
   },
   {
-    "id": 126103004,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "A `_____` was issued due to very poor visibility.",
-    "translation": "Görüş mesafesinin çok düşük olması nedeniyle sis uyarısı yapıldı.",
-    "context": "Met Office'in sis uyarısı haberi! 'Fog warning' dediğimizde, 'Dikkat! Önünüzü göremeyebilirsiniz!' anlamına gelen bir hava durumu uyarısı. Özellikle yollarda araç kullanırken çok tehlikeli olabilir. Tamamen beyaz bir perde gibi düşün her yeri!",
-    "options": [
-      "fog warning",
-      "rain advice",
-      "wind notice",
-      "sun alert"
-    ],
-    "correctAnswer": "fog warning",
-    "category": "MIXED",
-    "variations": [
-      "Drivers were advised to heed the fog warning.",
-      "The fog warning affected many flights."
-    ]
-  },
-  {
-    "id": 126103005,
+    "id": 126103102,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Which phrase describes autonomous vehicles for public transport?",
-    "translation": "Toplu taşıma için otonom araçları hangi ifade tanımlar?",
-    "context": "Waymo'nun Toyota ile robotaksi anlaşması tam da bunu anlatıyor. 'Robotaxis', yani sürücüsüz, otonom taksiler! Bilim kurgu filmlerinden fırlamış gibi değil mi? Gelecekte bir yerden bir yere gitmek için uygulama üzerinden robotaksiler çağıracağız, şoför koltuğu boş olacak!",
+    "level": "BEGINNER",
+    "phrase": "Hangi kelime, hava koşulları nedeniyle sürüşün tehlikeli olabileceğini açıklar?",
+    "translation": "Hazardous (tehlikeli) kelimesi, kötü hava koşulları veya diğer riskler nedeniyle bir durumun tehlikeli olduğunu belirtir.",
+    "context": "Meteoroloji birimi sis uyarısı verdiğinde, 'Hazardous driving conditions' derler. Yani 'Aman dikkat, yollar tehlikeli!' demek. Plan yaparken 'Is it hazardous to go outside?' diye sorabilirsin.",
     "options": [
-      "robotaxis",
-      "auto-buses",
-      "driverless cars",
-      "smart vehicles"
+      "Sunny",
+      "Clear",
+      "Hazardous",
+      "Mild"
     ],
-    "correctAnswer": "robotaxis",
+    "correctAnswer": "Hazardous",
     "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126103006,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "What does it mean if a company is 'on track to earn billions'?",
-    "translation": "Bir şirketin 'milyarlar kazanma yolunda' olması ne anlama gelir?",
-    "context": "Andy Jassy'nin Prime Video'nun milyarlarca dolar kazanma yolunda olduğuna dair açıklaması! 'On track to earn' ifadesi, bir şeyin belirli bir hedefe ulaşma yolunda ilerlediği, beklentileri karşıladığı anlamına gelir. Yani işler tıkırında, kazanç hedefine doğru ilerliyor! Tam bir başarı hikayesi!",
+    "id": 126103103,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The US government will _____ 500 missiles to Ukraine.",
+    "translation": "Satışını onaylamak.",
+    "context": "Büyük iş anlaşmalarında ya da devletlerin yaptığı ticaretlerde 'approve a sale' ifadesi çok kullanılır. Patronun yeni bir projenin bütçesini 'approve' edebilir, yani 'onaylayabilir'.",
     "options": [
-      "It is struggling financially.",
-      "It is expected to make a huge profit.",
-      "It is changing its business model.",
-      "It is about to close down."
+      "approve",
+      "allow",
+      "permit",
+      "agree"
     ],
-    "correctAnswer": "It is expected to make a huge profit.",
+    "correctAnswer": "approve",
     "category": "BUSINESS",
-    "variations": []
+    "variations": [
+      "The board will approve the new budget.",
+      "Did they approve your vacation request?"
+    ]
   },
   {
-    "id": 126103007,
+    "id": 126103104,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Binance is trying to _____ $6.3bn after the hack.",
+    "translation": "Geri almak, kurtarmak.",
+    "context": "Bir şeyini kaybettiğinde ya da çalındığında onu geri almak için 'recover' fiilini kullanırsın. Bilgisayarın çöktüğünde verilerini 'recover' etmeye çalışırsın. Sakatlanınca da iyileşip 'recover' olursun.",
+    "options": [
+      "recover",
+      "find",
+      "get",
+      "retrieve"
+    ],
+    "correctAnswer": "recover",
+    "category": "MIXED",
+    "variations": [
+      "I need to recover my lost keys.",
+      "She is recovering from her illness."
+    ]
+  },
+  {
+    "id": 126103105,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Which phrase means 'to fail to reverse a previous legal decision'?",
-    "translation": "'Önceki bir yasal kararı tersine çevirememek' hangi ifade ile anlatılır?",
-    "context": "Mantar katilinin mahkeme kararını bozamaması haberi! 'Overturn convictions', daha önceki bir mahkeme kararını iptal etmek, bozmak veya tersine çevirmek demek. Eğer 'fail to overturn' diyorsak, o zaman suçlu bulunan kişi, cezasının yanlış olduğuna kimseyi ikna edememiş demektir. Yani karar kesindir, kurtuluş yok!",
+    "phrase": "Birinin zorlukların veya olumsuz duyguların üstesinden geldiğini belirtmek için hangi fiil kalıbını kullanırsınız?",
+    "translation": "Overcome (üstesinden gelmek) fiili, bir zorluğun, engelin veya olumsuz bir durumun başarıyla atlatılmasını ifade eder.",
+    "context": "Dart oyuncusu Sherrock, kendisine karşı duyulan 'hate'in üstesinden gelmiş. Yani, 'tüm zorluklara rağmen başarılı olmak' gibi bir durum. 'Overcome your fears' dediğinde 'Korkularının üstesinden gel' demek oluyor.",
     "options": [
-      "win an appeal",
-      "fail to overturn convictions",
-      "prove innocence",
-      "seek justice"
+      "Get over",
+      "Give up",
+      "Deal with",
+      "Overcome"
     ],
-    "correctAnswer": "fail to overturn convictions",
+    "correctAnswer": "Overcome",
     "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126103008,
+    "id": 126103106,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Djokovic suffered a `_____` defeat in the ATP Finals.",
-    "translation": "Djokovic ATP Finalleri'nde şok edici bir mağlubiyet yaşadı.",
-    "context": "Djokovic'in ATP Finalleri'ndeki sürpriz yenilgisi! 'Shock defeat' yani 'şok edici mağlubiyet', kimsenin beklemediği, herkesi şaşırtan, favori birinin kaybetmesi durumudur. Futbolda küçük bir takımın devleri yenmesi gibi düşün! Ağzın açık kalır resmen!",
+    "phrase": "Salesforce continues its M&A _____ with a new tech deal.",
+    "translation": "Hızlı bir dizi, ardı ardına gelen olaylar.",
+    "context": "'Spree' kelimesi genellikle alışveriş çılgınlığı ('shopping spree') gibi bir şeyi durmaksızın, hızla ve coşkuyla yapma halini anlatır. Salesforce'un durmadan şirket satın alması da bir 'M&A spree' (birleşme ve satın alma çılgınlığı) olarak niteleniyor.",
     "options": [
-      "shock",
-      "expected",
-      "minor",
-      "easy"
+      "spree",
+      "rush",
+      "period",
+      "trend"
     ],
-    "correctAnswer": "shock",
-    "category": "MIXED",
+    "correctAnswer": "spree",
+    "category": "BUSINESS",
     "variations": [
-      "His shock defeat stunned the crowd.",
-      "The team suffered a shock defeat."
+      "He went on a spending spree after winning the lottery.",
+      "The company is on a hiring spree."
     ]
   },
   {
-    "id": 126103009,
+    "id": 126103107,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Waymo `_____` Toyota to provide robotaxis for Europe.",
-    "translation": "Waymo, Avrupa için robotaksi sağlamak üzere Toyota ile iş birliği yaptı.",
-    "context": "Waymo'nun Toyota ile robotaksi anlaşması! Buradaki 'taps' kelimesi, 'birinin yeteneklerinden veya kaynaklarından faydalanmak', 'birine başvurmak' veya 'birinden destek almak' anlamında kullanılır. Yani Waymo, robotaksi işinde Toyota'nın uzmanlığına ve kaynaklarına 'dokunuyor', onlardan faydalanıyor. Parmakla işaret etmek gibi düşün, ama bu daha çok stratejik bir işbirliği!",
+    "level": "INTERMEDIATE",
+    "phrase": "Yamashita is currently in _____ of the golf tournament in Kuala Lumpur.",
+    "translation": "Bir durumun kontrolünü elinde tutmak.",
+    "context": "Bir yarışmada önde giden ya da bir durumu tamamen kontrol eden biri için 'in command' deriz. Kaptan geminin 'in command'idir, yani 'kontrolü ondadır'. Bir projede liderlik yapan kişi de 'in command' olabilir.",
     "options": [
-      "taps",
-      "requests",
-      "signals",
-      "orders"
+      "command",
+      "control",
+      "charge",
+      "lead"
     ],
-    "correctAnswer": "taps",
+    "correctAnswer": "command",
     "category": "TRAVEL",
     "variations": [
-      "The company taps external experts for advice.",
-      "They tapped into new markets with their product."
+      "The general was in command of the army.",
+      "She took command of the project."
     ]
   },
   {
-    "id": 126103010,
+    "id": 126103108,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "AWS is predicted to become a `_____` business in the future.",
-    "translation": "AWS'nin gelecekte 1 trilyon dolarlık bir iş olması bekleniyor.",
-    "context": "Jassy'nin AWS'nin 1 trilyon dolarlık bir iş olacağı tahmini! '$1T business' demek, tam 1 trilyon dolarlık (bin milyar dolar) bir iş hacmine sahip dev bir şirket olmak demek. Bu seviyeye ulaşan şirketler ekonomide çığır açar! Düşünsene, dünya ekonomisinin en büyük oyuncularından biri olmak!",
+    "level": "INTERMEDIATE",
+    "phrase": "Police were _____ to the court during the stand-off.",
+    "translation": "Görevlendirilmek, konuşlandırılmak.",
+    "context": "Askerler ya da polisler bir bölgeye 'deploy' edilir, yani 'konuşlandırılır' ya da 'görevlendirilir'. Yeni bir yazılım da bir sisteme 'deploy' edilebilir, yani 'yerleştirilebilir'.",
     "options": [
-      "$1T",
-      "$1B",
-      "$1M",
-      "$1K"
+      "deployed",
+      "sent",
+      "moved",
+      "placed"
     ],
-    "correctAnswer": "$1T",
-    "category": "BUSINESS",
-    "variations": [
-      "Reaching a $1T business valuation is a huge milestone.",
-      "They aim to build a $1T business."
-    ]
-  },
-  {
-    "id": 126103011,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "He claimed a `_____` exemption from using AI at work.",
-    "translation": "İş yerinde yapay zeka kullanımından dini bir muafiyet talep etti.",
-    "context": "AI kullanımıyla ilgili dini muafiyet haberi! 'Religious exemption' demek, bir kurala veya zorunluluğa, dini inançlar sebebiyle muafiyet tanınması demek. Yani 'Benim inancım buna izin vermiyor' diyerek bazı şeylerden yasal olarak muaf tutulmak. Mesela aşı zorunluluğunda da bazı ülkelerde bu tür muafiyetler olabiliyor.",
-    "options": [
-      "religious",
-      "personal",
-      "medical",
-      "ethical"
-    ],
-    "correctAnswer": "religious",
-    "category": "CASUAL",
-    "variations": [
-      "She sought a religious exemption for her children.",
-      "A religious exemption was granted to some employees."
-    ]
-  },
-  {
-    "id": 126103012,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": " `_____` looms for sports teams to finalize transfers.",
-    "translation": "Spor takımlarının transferleri tamamlaması için Son Tarih Günü yaklaşıyor.",
-    "context": "LIV 2.0 ve transfer haberleri! 'Deadline Day looms' demek, 'Son tarih yaklaşıyor' ya da 'Karar günü yaklaşıyor' anlamına gelir. Özellikle spor transferlerinde veya önemli proje teslimlerinde bu ifade çok kullanılır. Herkesin son dakikaya kadar beklediği, stresli ve heyecanlı anlar! Tıpkı ödevin son günü gibi!",
-    "options": [
-      "Deadline Day",
-      "Transfer Window",
-      "Match Day",
-      "Final Round"
-    ],
-    "correctAnswer": "Deadline Day",
+    "correctAnswer": "deployed",
     "category": "MIXED",
     "variations": [
-      "The project's Deadline Day is next week.",
-      "Everyone is nervous as Deadline Day looms."
+      "Troops were deployed to the disaster zone.",
+      "The new update will be deployed next week."
+    ]
+  },
+  {
+    "id": 126103109,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Finans dünyasında 'bir yatırımda büyük bir hisse almak' veya 'çok sayıda kişinin bir projeye aynı anda yatırım yapması' anlamına gelen terim hangisidir?",
+    "translation": "'Pile-in' (üst üste yığmak/akın etmek), genellikle çok sayıda yatırımcının veya kaynağın aynı anda bir şeye yönelmesi durumunu ifade eder, bu da o şeyin popülaritesini veya değerini artırır.",
+    "context": "Kripto veya girişim dünyasında herkesin bir anda bir projeye yatırım yapmasına 'pile-in' denir. Resmen 'üst üste yığılıyorlar' gibi düşün! Bu durum bazen balonlar yaratabilir.",
+    "options": [
+      "Bailout",
+      "Pile-in",
+      "Withdrawal",
+      "Liquidation"
+    ],
+    "correctAnswer": "Pile-in",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126103110,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Nvidia is _____ playing the cosigner for Nscale's new data center.",
+    "translation": "Düşünmek, değerlendirmek.",
+    "context": "Bir karar vermeden önce bir konuyu dikkatlice düşündüğünü belirtmek için 'weighs' fiilini kullanırız. Sanki artıları ve eksileri bir teraziye koyup tartıyorsun gibi düşün. 'She weighs her options carefully before deciding.'",
+    "options": [
+      "weighs",
+      "considers",
+      "evaluates",
+      "examines"
+    ],
+    "correctAnswer": "weighs",
+    "category": "BUSINESS",
+    "variations": [
+      "The committee weighs all proposals.",
+      "He weighs the risks and benefits."
+    ]
+  },
+  {
+    "id": 126103111,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Bir sporcu veya takımın bir müsabakada liderliği kaybetmeye veya geride kalmaya başladığını ifade eden deyim hangisidir?",
+    "translation": "'Fall away' (geride kalmak, düşüşe geçmek), bir yarışmada veya durumda performansın düşmesi ve önde gidenlerden geri kalması anlamına gelir.",
+    "context": "Golf turnuvasında Hull ve Woad 'fall away' olmuş. Yani, liderliği kaybedip geriye düşmüşler. 'The lead runner started to fall away in the last lap.' dediğinde, 'Lider koşucu son turda geride kalmaya başladı' demek olur.",
+    "options": [
+      "Catch up",
+      "Drop out",
+      "Fall away",
+      "Hold on"
+    ],
+    "correctAnswer": "Fall away",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126103112,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "North Korea's hackers are the _____ suspect in the Binance attack.",
+    "translation": "Ana şüpheli, baş şüpheli.",
+    "context": "Bir suç olayında delillerin en çok işaret ettiği, 'en kuvvetli' şüpheliye 'prime suspect' denir. Dedektifler hep 'prime suspect'i arar. 'He became the prime suspect in the investigation.'",
+    "options": [
+      "prime",
+      "main",
+      "first",
+      "key"
+    ],
+    "correctAnswer": "prime",
+    "category": "MIXED",
+    "variations": [
+      "The police identified a prime suspect.",
+      "She was the prime suspect in the disappearance."
     ]
   }
 ]
