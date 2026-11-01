@@ -1,230 +1,233 @@
 [
   {
-    "id": 126103101,
+    "id": 126110101,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Ollie, an AI assistant, is _____ down.",
-    "translation": "Kapanıyor.",
-    "context": "Bir şirket ya da uygulama işleri durdurduğunda 'shut down' fiilini kullanırız. Bazen de yorgun düşüp, 'Shutting down for the day!' diyebilirsin, yani 'Bugünlük paydos!' demek gibi.",
+    "phrase": "The team won the championship and celebrated their _____.",
+    "translation": "Takım şampiyonluğu kazandı ve zaferlerini kutladı.",
+    "context": "Bir spor takımının şampiyonluk kazanıp kutlama yapmasını düşün! 'Victory' zafer demek. Hayatta küçük zaferler de büyük zaferler de vardır; mesela, sabah yatağından kalkmak bile bazen bir 'victory' olabilir!",
     "options": [
-      "shutting",
-      "closing",
-      "ending",
-      "failing"
+      "victory",
+      "loss",
+      "draw",
+      "game"
     ],
-    "correctAnswer": "shutting",
+    "correctAnswer": "victory",
     "category": "CASUAL",
     "variations": [
-      "The store decided to shut down early.",
-      "My old phone is shutting down a lot."
+      "They celebrated their great victory.",
+      "The big victory made everyone happy."
     ]
   },
   {
-    "id": 126103102,
+    "id": 126110102,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The CEO said they don't want to _____ AI for AI's sake.",
+    "translation": "CEO, yapay zeka olsun diye yapay zeka piyasaya sürmek istemediklerini söyledi.",
+    "context": "Teknoloji dünyasında 'ship' kelimesi bir ürünü piyasaya sürmek, çıkarmak anlamında kullanılır. Kargo gemisi gibi düşün, yeni bir ürünü kullanıcıya ulaştırıyorsun. 'Hadi bakalım, yeni telefon ne zaman 'ship' ediliyor?' diye sorabilirsin!",
+    "options": [
+      "ship",
+      "buy",
+      "sell",
+      "learn"
+    ],
+    "correctAnswer": "ship",
+    "category": "BUSINESS",
+    "variations": [
+      "They will ship the new update next week.",
+      "When will the company ship their product?"
+    ]
+  },
+  {
+    "id": 126110103,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Many families needed to _____ their loved ones after the war.",
+    "translation": "Birçok aile savaştan sonra sevdikleriyle yeniden bir araya gelmek zorunda kaldı.",
+    "context": "Sevdiklerinle tekrar bir araya gelmek, özellikle uzun bir ayrılıktan sonra, harika bir duygu! Bu kelimeyi 'Uzun zaman sonra arkadaşlarımla 'reunite' olduk.' diye kullanabilirsin. Hasret gidermek gibi düşün!",
+    "options": [
+      "reunite",
+      "leave",
+      "ignore",
+      "forget"
+    ],
+    "correctAnswer": "reunite",
+    "category": "TRAVEL",
+    "variations": [
+      "The old friends planned to reunite soon.",
+      "We hope to reunite with our family quickly."
+    ]
+  },
+  {
+    "id": 126110104,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "Hangi kelime, hava koşulları nedeniyle sürüşün tehlikeli olabileceğini açıklar?",
-    "translation": "Hazardous (tehlikeli) kelimesi, kötü hava koşulları veya diğer riskler nedeniyle bir durumun tehlikeli olduğunu belirtir.",
-    "context": "Meteoroloji birimi sis uyarısı verdiğinde, 'Hazardous driving conditions' derler. Yani 'Aman dikkat, yollar tehlikeli!' demek. Plan yaparken 'Is it hazardous to go outside?' diye sorabilirsin.",
+    "phrase": "Which word means 'to illegally take goods from a shop'?",
+    "translation": "Hangi kelime 'bir dükkandan yasa dışı yollarla mal almak' anlamına gelir?",
+    "context": "Bir kargaşa sırasında dükkanlardan mal çalmak, yağmalamak anlamına gelir. Filmlerde sıkça duyarsın, 'Olaylar sırasında dükkanlar 'loot' edildi.' şeklinde kullanılır.",
     "options": [
-      "Sunny",
-      "Clear",
-      "Hazardous",
-      "Mild"
+      "buy",
+      "sell",
+      "loot",
+      "pay"
     ],
-    "correctAnswer": "Hazardous",
+    "correctAnswer": "loot",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126110105,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The rare beetle discovery was truly _____.",
+    "translation": "Nadir böcek keşfi gerçekten büyüleyiciydi.",
+    "context": "Eğer bir şey seni çok etkiliyor, ilgini çekiyor ve hayran bırakıyorsa, o 'fascinating'dir! Sanki sana büyülenmiş gibi hissettiriyor. 'Bu bilimsel deneyin sonuçları çok 'fascinating'!' diyebilirsin.",
+    "options": [
+      "fascinating",
+      "boring",
+      "ugly",
+      "common"
+    ],
+    "correctAnswer": "fascinating",
+    "category": "CASUAL",
+    "variations": [
+      "I found the old castle quite fascinating.",
+      "Her stories were always fascinating to listen to."
+    ]
+  },
+  {
+    "id": 126110106,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The judge decided to _____ the lawsuit.",
+    "translation": "Yargıç davayı reddetmeye karar verdi.",
+    "context": "Hukuk dilinde 'dismiss', bir davanın veya yasal bir talebin reddedilmesi, düşürülmesi anlamına gelir. Yani mahkeme davaya devam etmiyor. 'Hakim, iddiaları yetersiz bulup davayı 'dismiss' etti.' diyebilirsin.",
+    "options": [
+      "dismiss",
+      "accept",
+      "start",
+      "approve"
+    ],
+    "correctAnswer": "dismiss",
+    "category": "BUSINESS",
+    "variations": [
+      "The court dismissed the charges against him.",
+      "She asked her lawyer to dismiss the complaint."
+    ]
+  },
+  {
+    "id": 126110107,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "After years in the occupied city, they felt like they were _____.",
+    "translation": "İşgal altındaki şehirde yıllar sonra kendilerini kapana kısılmış hissettiler.",
+    "context": "Bir yerde sıkışıp kalmak, çıkış yolu bulamamak durumuna 'trapped' denir. Asansörde kalmak gibi düşün! 'Kar fırtınası yüzünden dağ evinde 'trapped' kaldık.' diyebilirsin.",
+    "options": [
+      "trapped",
+      "free",
+      "traveling",
+      "happy"
+    ],
+    "correctAnswer": "trapped",
+    "category": "TRAVEL",
+    "variations": [
+      "The bird was trapped in the net.",
+      "I felt trapped in a difficult situation."
+    ]
+  },
+  {
+    "id": 126110108,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Which phrase means 'a controversial or important topic discussed during an election campaign'?",
+    "translation": "Hangi ifade 'bir seçim kampanyası sırasında tartışılan tartışmalı veya önemli bir konu' anlamına gelir?",
+    "context": "Seçim dönemlerinde, özellikle de ara seçimlerde (midterm elections), halkın en çok konuştuğu, tartışılan önemli konulara 'midterm issue' denir. Gündemi belirleyen, seçmenlerin oyunu etkileyen bir konu gibi düşün.",
+    "options": [
+      "a minor problem",
+      "a personal opinion",
+      "a midterm issue",
+      "a solved case"
+    ],
+    "correctAnswer": "a midterm issue",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126110109,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The rising cost of living led to public _____.",
+    "translation": "Artan yaşam maliyeti halk arasında huzursuzluğa yol açtı.",
+    "context": "Toplumda genel bir hoşnutsuzluk, huzursuzluk ve karışıklık durumu varsa, buna 'unrest' denir. Genellikle protestolar ve gerginliklerle birlikte görülür. 'Ekonomik sorunlar halk arasında 'unrest' yarattı.' gibi kullanabilirsin.",
+    "options": [
+      "unrest",
+      "peace",
+      "harmony",
+      "silence"
+    ],
+    "correctAnswer": "unrest",
+    "category": "CASUAL",
+    "variations": [
+      "There was civil unrest in the city.",
+      "The news reported growing public unrest."
+    ]
+  },
+  {
+    "id": 126110110,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The summit helps founders to _____ their business rapidly.",
+    "translation": "Zirve, kurucuların işlerini hızla büyütmelerine yardımcı oluyor.",
+    "context": "İş dünyasında 'scale', bir işi veya operasyonu büyütmek, genişletmek, ölçeklendirmek anlamına gelir. Yani daha fazla müşteri, daha fazla üretim, daha fazla kar. 'Bu startup'ın hızlı bir şekilde 'scale' etme potansiyeli var.' diyebilirsin.",
+    "options": [
+      "scale",
+      "shrink",
+      "limit",
+      "stop"
+    ],
+    "correctAnswer": "scale",
+    "category": "BUSINESS",
+    "variations": [
+      "We need to scale up our production next year.",
+      "The company plans to scale its operations globally."
+    ]
+  },
+  {
+    "id": 126110111,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Which phrase is used to describe a very difficult and unpleasant experience?",
+    "translation": "Hangi ifade çok zor ve nahoş bir deneyimi tanımlamak için kullanılır?",
+    "context": "Çok kötü, travmatik veya son derece zor bir deneyimden sağ salim çıkmayı anlatmak için 'came back from hell' deyimi kullanılır. Türkçedeki 'cehennemden dönmek' deyimiyle birebir aynı anlamda, yani tam bir kabus yaşamışsın demektir.",
+    "options": [
+      "enjoyed a trip",
+      "took a break",
+      "came back from hell",
+      "had a party"
+    ],
+    "correctAnswer": "came back from hell",
     "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126103103,
+    "id": 126110112,
     "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The US government will _____ 500 missiles to Ukraine.",
-    "translation": "Satışını onaylamak.",
-    "context": "Büyük iş anlaşmalarında ya da devletlerin yaptığı ticaretlerde 'approve a sale' ifadesi çok kullanılır. Patronun yeni bir projenin bütçesini 'approve' edebilir, yani 'onaylayabilir'.",
+    "level": "ADVANCED",
+    "phrase": "The oil spill turned the park into a real _____.",
+    "translation": "Petrol sızıntısı parkı gerçek bir kabusa çevirdi.",
+    "context": "'Nightmare' kelimesi kabus demektir, ama günlük dilde çok kötü, korkunç veya aşırı zor bir durumu anlatmak için de kullanılır. 'Bu trafik tam bir 'nightmare'!' ya da 'Yeni işim tam bir 'nightmare' oldu.' diyebilirsin.",
     "options": [
-      "approve",
-      "allow",
-      "permit",
-      "agree"
+      "nightmare",
+      "dream",
+      "paradise",
+      "haven"
     ],
-    "correctAnswer": "approve",
-    "category": "BUSINESS",
-    "variations": [
-      "The board will approve the new budget.",
-      "Did they approve your vacation request?"
-    ]
-  },
-  {
-    "id": 126103104,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Binance is trying to _____ $6.3bn after the hack.",
-    "translation": "Geri almak, kurtarmak.",
-    "context": "Bir şeyini kaybettiğinde ya da çalındığında onu geri almak için 'recover' fiilini kullanırsın. Bilgisayarın çöktüğünde verilerini 'recover' etmeye çalışırsın. Sakatlanınca da iyileşip 'recover' olursun.",
-    "options": [
-      "recover",
-      "find",
-      "get",
-      "retrieve"
-    ],
-    "correctAnswer": "recover",
+    "correctAnswer": "nightmare",
     "category": "MIXED",
     "variations": [
-      "I need to recover my lost keys.",
-      "She is recovering from her illness."
-    ]
-  },
-  {
-    "id": 126103105,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Birinin zorlukların veya olumsuz duyguların üstesinden geldiğini belirtmek için hangi fiil kalıbını kullanırsınız?",
-    "translation": "Overcome (üstesinden gelmek) fiili, bir zorluğun, engelin veya olumsuz bir durumun başarıyla atlatılmasını ifade eder.",
-    "context": "Dart oyuncusu Sherrock, kendisine karşı duyulan 'hate'in üstesinden gelmiş. Yani, 'tüm zorluklara rağmen başarılı olmak' gibi bir durum. 'Overcome your fears' dediğinde 'Korkularının üstesinden gel' demek oluyor.",
-    "options": [
-      "Get over",
-      "Give up",
-      "Deal with",
-      "Overcome"
-    ],
-    "correctAnswer": "Overcome",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126103106,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Salesforce continues its M&A _____ with a new tech deal.",
-    "translation": "Hızlı bir dizi, ardı ardına gelen olaylar.",
-    "context": "'Spree' kelimesi genellikle alışveriş çılgınlığı ('shopping spree') gibi bir şeyi durmaksızın, hızla ve coşkuyla yapma halini anlatır. Salesforce'un durmadan şirket satın alması da bir 'M&A spree' (birleşme ve satın alma çılgınlığı) olarak niteleniyor.",
-    "options": [
-      "spree",
-      "rush",
-      "period",
-      "trend"
-    ],
-    "correctAnswer": "spree",
-    "category": "BUSINESS",
-    "variations": [
-      "He went on a spending spree after winning the lottery.",
-      "The company is on a hiring spree."
-    ]
-  },
-  {
-    "id": 126103107,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Yamashita is currently in _____ of the golf tournament in Kuala Lumpur.",
-    "translation": "Bir durumun kontrolünü elinde tutmak.",
-    "context": "Bir yarışmada önde giden ya da bir durumu tamamen kontrol eden biri için 'in command' deriz. Kaptan geminin 'in command'idir, yani 'kontrolü ondadır'. Bir projede liderlik yapan kişi de 'in command' olabilir.",
-    "options": [
-      "command",
-      "control",
-      "charge",
-      "lead"
-    ],
-    "correctAnswer": "command",
-    "category": "TRAVEL",
-    "variations": [
-      "The general was in command of the army.",
-      "She took command of the project."
-    ]
-  },
-  {
-    "id": 126103108,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Police were _____ to the court during the stand-off.",
-    "translation": "Görevlendirilmek, konuşlandırılmak.",
-    "context": "Askerler ya da polisler bir bölgeye 'deploy' edilir, yani 'konuşlandırılır' ya da 'görevlendirilir'. Yeni bir yazılım da bir sisteme 'deploy' edilebilir, yani 'yerleştirilebilir'.",
-    "options": [
-      "deployed",
-      "sent",
-      "moved",
-      "placed"
-    ],
-    "correctAnswer": "deployed",
-    "category": "MIXED",
-    "variations": [
-      "Troops were deployed to the disaster zone.",
-      "The new update will be deployed next week."
-    ]
-  },
-  {
-    "id": 126103109,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Finans dünyasında 'bir yatırımda büyük bir hisse almak' veya 'çok sayıda kişinin bir projeye aynı anda yatırım yapması' anlamına gelen terim hangisidir?",
-    "translation": "'Pile-in' (üst üste yığmak/akın etmek), genellikle çok sayıda yatırımcının veya kaynağın aynı anda bir şeye yönelmesi durumunu ifade eder, bu da o şeyin popülaritesini veya değerini artırır.",
-    "context": "Kripto veya girişim dünyasında herkesin bir anda bir projeye yatırım yapmasına 'pile-in' denir. Resmen 'üst üste yığılıyorlar' gibi düşün! Bu durum bazen balonlar yaratabilir.",
-    "options": [
-      "Bailout",
-      "Pile-in",
-      "Withdrawal",
-      "Liquidation"
-    ],
-    "correctAnswer": "Pile-in",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126103110,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Nvidia is _____ playing the cosigner for Nscale's new data center.",
-    "translation": "Düşünmek, değerlendirmek.",
-    "context": "Bir karar vermeden önce bir konuyu dikkatlice düşündüğünü belirtmek için 'weighs' fiilini kullanırız. Sanki artıları ve eksileri bir teraziye koyup tartıyorsun gibi düşün. 'She weighs her options carefully before deciding.'",
-    "options": [
-      "weighs",
-      "considers",
-      "evaluates",
-      "examines"
-    ],
-    "correctAnswer": "weighs",
-    "category": "BUSINESS",
-    "variations": [
-      "The committee weighs all proposals.",
-      "He weighs the risks and benefits."
-    ]
-  },
-  {
-    "id": 126103111,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Bir sporcu veya takımın bir müsabakada liderliği kaybetmeye veya geride kalmaya başladığını ifade eden deyim hangisidir?",
-    "translation": "'Fall away' (geride kalmak, düşüşe geçmek), bir yarışmada veya durumda performansın düşmesi ve önde gidenlerden geri kalması anlamına gelir.",
-    "context": "Golf turnuvasında Hull ve Woad 'fall away' olmuş. Yani, liderliği kaybedip geriye düşmüşler. 'The lead runner started to fall away in the last lap.' dediğinde, 'Lider koşucu son turda geride kalmaya başladı' demek olur.",
-    "options": [
-      "Catch up",
-      "Drop out",
-      "Fall away",
-      "Hold on"
-    ],
-    "correctAnswer": "Fall away",
-    "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126103112,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "North Korea's hackers are the _____ suspect in the Binance attack.",
-    "translation": "Ana şüpheli, baş şüpheli.",
-    "context": "Bir suç olayında delillerin en çok işaret ettiği, 'en kuvvetli' şüpheliye 'prime suspect' denir. Dedektifler hep 'prime suspect'i arar. 'He became the prime suspect in the investigation.'",
-    "options": [
-      "prime",
-      "main",
-      "first",
-      "key"
-    ],
-    "correctAnswer": "prime",
-    "category": "MIXED",
-    "variations": [
-      "The police identified a prime suspect.",
-      "She was the prime suspect in the disappearance."
+      "Dealing with that problem was a nightmare.",
+      "The journey became a complete nightmare."
     ]
   }
 ]
