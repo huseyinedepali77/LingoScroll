@@ -1,233 +1,233 @@
 [
   {
-    "id": 126110101,
+    "id": 126110201,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The team won the championship and celebrated their _____.",
-    "translation": "Takım şampiyonluğu kazandı ve zaferlerini kutladı.",
-    "context": "Bir spor takımının şampiyonluk kazanıp kutlama yapmasını düşün! 'Victory' zafer demek. Hayatta küçük zaferler de büyük zaferler de vardır; mesela, sabah yatağından kalkmak bile bazen bir 'victory' olabilir!",
+    "phrase": "The small plane ____ on a busy street.",
+    "translation": "Küçük uçak işlek bir caddeye düştü.",
+    "context": "Uçağın veya aracın kontrolünü kaybedip bir yere çarpması durumunda 'crash' kelimesini kullanırız. Bazen bilgisayarımız da 'crash' olur, yani çöker. Umarım seyahatlerin hep 'smooth' (sorunsuz) geçer!",
     "options": [
-      "victory",
-      "loss",
-      "draw",
-      "game"
+      "crashed",
+      "flew",
+      "landed",
+      "departed"
     ],
-    "correctAnswer": "victory",
-    "category": "CASUAL",
+    "correctAnswer": "crashed",
+    "category": "TRAVEL",
     "variations": [
-      "They celebrated their great victory.",
-      "The big victory made everyone happy."
+      "The car ____ into the tree.",
+      "My computer ____ and I lost my work."
     ]
   },
   {
-    "id": 126110102,
+    "id": 126110202,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The CEO said they don't want to _____ AI for AI's sake.",
-    "translation": "CEO, yapay zeka olsun diye yapay zeka piyasaya sürmek istemediklerini söyledi.",
-    "context": "Teknoloji dünyasında 'ship' kelimesi bir ürünü piyasaya sürmek, çıkarmak anlamında kullanılır. Kargo gemisi gibi düşün, yeni bir ürünü kullanıcıya ulaştırıyorsun. 'Hadi bakalım, yeni telefon ne zaman 'ship' ediliyor?' diye sorabilirsin!",
+    "phrase": "The company will ____ its new product next month.",
+    "translation": "Şirket yeni ürününü gelecek ay piyasaya sürecek.",
+    "context": "Yeni bir ürünü veya hizmeti piyasaya sürmek, bir projeye başlamak için 'launch' kelimesini kullanırız. Tıpkı bir roketin fırlatılması gibi!",
     "options": [
-      "ship",
-      "buy",
+      "launch",
+      "finish",
+      "delay",
+      "sell"
+    ],
+    "correctAnswer": "launch",
+    "category": "BUSINESS",
+    "variations": [
+      "They plan to ____ a new marketing campaign.",
+      "Let's ____ this exciting project!"
+    ]
+  },
+  {
+    "id": 126110203,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "I ____ my keys under the sofa.",
+    "translation": "Anahtarlarımı koltuğun altında buldum.",
+    "context": "Kaybettiğin bir şeyi bulduğunda veya yeni bir keşif yaptığında 'find' kelimesinin geçmiş zamanı olan 'found'u kullanırız. Ne kadar güzel bir his, değil mi? 'Found' it!",
+    "options": [
+      "lost",
+      "found",
+      "forgot",
+      "hid"
+    ],
+    "correctAnswer": "found",
+    "category": "CASUAL",
+    "variations": [
+      "She ____ a new hobby last year.",
+      "We ____ a great restaurant downtown."
+    ]
+  },
+  {
+    "id": 126110204,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "Which word means 'to state that something is true'?",
+    "translation": "Bir şeyin doğru olduğunu belirtmek anlamına gelen kelime hangisidir?",
+    "context": "Bir şeyi teyit etmek, doğrulamak anlamına gelir. Uçuş saatini, randevunu veya bir bilginin doğruluğunu teyit ederken kullanabilirsin. 'Can you confirm our meeting time?' gibi.",
+    "options": [
+      "deny",
+      "confirm",
+      "question",
+      "doubt"
+    ],
+    "correctAnswer": "confirm",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126110205,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The company decided to ____ its old product line with a fresh image.",
+    "translation": "Şirket, eski ürün grubunu yeni bir imajla yeniden markalaştırmaya karar verdi.",
+    "context": "Bir markanın veya ürünün imajını, ismini, logosunu veya pazarlama stratejisini yenilemek anlamına gelir. Bazen 'eski' olanı 'yeni' göstermek için yapılır, bazen de kötü bir imajdan kurtulmak için. 'Refresh your brand!' gibi düşünebilirsin.",
+    "options": [
+      "rebrand",
+      "launch",
       "sell",
-      "learn"
+      "destroy"
     ],
-    "correctAnswer": "ship",
+    "correctAnswer": "rebrand",
     "category": "BUSINESS",
     "variations": [
-      "They will ship the new update next week.",
-      "When will the company ship their product?"
+      "They need to ____ their services to attract younger customers.",
+      "After the scandal, the restaurant tried to ____ itself."
     ]
   },
   {
-    "id": 126110103,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Many families needed to _____ their loved ones after the war.",
-    "translation": "Birçok aile savaştan sonra sevdikleriyle yeniden bir araya gelmek zorunda kaldı.",
-    "context": "Sevdiklerinle tekrar bir araya gelmek, özellikle uzun bir ayrılıktan sonra, harika bir duygu! Bu kelimeyi 'Uzun zaman sonra arkadaşlarımla 'reunite' olduk.' diye kullanabilirsin. Hasret gidermek gibi düşün!",
-    "options": [
-      "reunite",
-      "leave",
-      "ignore",
-      "forget"
-    ],
-    "correctAnswer": "reunite",
-    "category": "TRAVEL",
-    "variations": [
-      "The old friends planned to reunite soon.",
-      "We hope to reunite with our family quickly."
-    ]
-  },
-  {
-    "id": 126110104,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "Which word means 'to illegally take goods from a shop'?",
-    "translation": "Hangi kelime 'bir dükkandan yasa dışı yollarla mal almak' anlamına gelir?",
-    "context": "Bir kargaşa sırasında dükkanlardan mal çalmak, yağmalamak anlamına gelir. Filmlerde sıkça duyarsın, 'Olaylar sırasında dükkanlar 'loot' edildi.' şeklinde kullanılır.",
-    "options": [
-      "buy",
-      "sell",
-      "loot",
-      "pay"
-    ],
-    "correctAnswer": "loot",
-    "category": "MIXED",
-    "variations": []
-  },
-  {
-    "id": 126110105,
+    "id": 126110206,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The rare beetle discovery was truly _____.",
-    "translation": "Nadir böcek keşfi gerçekten büyüleyiciydi.",
-    "context": "Eğer bir şey seni çok etkiliyor, ilgini çekiyor ve hayran bırakıyorsa, o 'fascinating'dir! Sanki sana büyülenmiş gibi hissettiriyor. 'Bu bilimsel deneyin sonuçları çok 'fascinating'!' diyebilirsin.",
+    "phrase": "A sudden ____ by hackers disrupted online services globally.",
+    "translation": "Hackerlar tarafından yapılan ani bir siber saldırı, dünya genelindeki çevrimiçi hizmetleri aksattı.",
+    "context": "Bilgisayar sistemlerine veya ağlara yönelik kötü niyetli saldırıları ifade eder. Hassas verileri çalmak, sistemleri bozmak veya fidye talep etmek için yapılabilir. Dijital dünyada maalesef kaçınılmaz bir tehdit. Güvende kalmak için dikkatli ol!",
     "options": [
-      "fascinating",
-      "boring",
-      "ugly",
-      "common"
+      "cyber-attack",
+      "fire alarm",
+      "power outage",
+      "internet upgrade"
     ],
-    "correctAnswer": "fascinating",
+    "correctAnswer": "cyber-attack",
+    "category": "MIXED",
+    "variations": [
+      "The company's systems were severely damaged by a ____.",
+      "Governments are investing more in defense against ____s."
+    ]
+  },
+  {
+    "id": 126110207,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "She worked tirelessly, pushing herself ____ to achieve her goal.",
+    "translation": "Hedefine ulaşmak için yorulmadan çalıştı, kendini sınırlarının ötesine zorladı.",
+    "context": "Kendi sınırlarının ötesine geçmek, elinden gelenin en iyisini yapmak hatta daha fazlasını yapmak anlamına gelir. Sporcular, öğrenciler veya herhangi bir hedefe ulaşmaya çalışan herkes için harika bir motivasyon sözü!",
+    "options": [
+      "beyond her limits",
+      "within her comfort zone",
+      "just enough",
+      "for a short time"
+    ],
+    "correctAnswer": "beyond her limits",
     "category": "CASUAL",
     "variations": [
-      "I found the old castle quite fascinating.",
-      "Her stories were always fascinating to listen to."
+      "The coach always encouraged players to push ____.",
+      "I pushed ____ to finish the marathon."
     ]
   },
   {
-    "id": 126110106,
+    "id": 126110208,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The judge decided to _____ the lawsuit.",
-    "translation": "Yargıç davayı reddetmeye karar verdi.",
-    "context": "Hukuk dilinde 'dismiss', bir davanın veya yasal bir talebin reddedilmesi, düşürülmesi anlamına gelir. Yani mahkeme davaya devam etmiyor. 'Hakim, iddiaları yetersiz bulup davayı 'dismiss' etti.' diyebilirsin.",
+    "phrase": "If you plan to travel there, you should research the local ____ carefully.",
+    "translation": "Eğer oraya seyahat etmeyi planlıyorsan, yerel rejimi dikkatlice araştırmalısın.",
+    "context": "Bir ülkenin yönetim şekli veya iktidardaki hükümet anlamına gelir. Seyahat ederken gittiğin yerdeki siyasi durumu veya yönetim biçimini bilmek, potansiyel sıkıntıları önlemene yardımcı olabilir. 'Different country, different rules!'",
     "options": [
-      "dismiss",
-      "accept",
-      "start",
-      "approve"
+      "regime",
+      "weather",
+      "cuisine",
+      "festival"
     ],
-    "correctAnswer": "dismiss",
-    "category": "BUSINESS",
-    "variations": [
-      "The court dismissed the charges against him.",
-      "She asked her lawyer to dismiss the complaint."
-    ]
-  },
-  {
-    "id": 126110107,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "After years in the occupied city, they felt like they were _____.",
-    "translation": "İşgal altındaki şehirde yıllar sonra kendilerini kapana kısılmış hissettiler.",
-    "context": "Bir yerde sıkışıp kalmak, çıkış yolu bulamamak durumuna 'trapped' denir. Asansörde kalmak gibi düşün! 'Kar fırtınası yüzünden dağ evinde 'trapped' kaldık.' diyebilirsin.",
-    "options": [
-      "trapped",
-      "free",
-      "traveling",
-      "happy"
-    ],
-    "correctAnswer": "trapped",
+    "correctAnswer": "regime",
     "category": "TRAVEL",
     "variations": [
-      "The bird was trapped in the net.",
-      "I felt trapped in a difficult situation."
+      "The new ____ has implemented strict travel restrictions.",
+      "Many tourists avoid countries with unstable ____s."
     ]
   },
   {
-    "id": 126110108,
+    "id": 126110209,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Which phrase means 'a controversial or important topic discussed during an election campaign'?",
-    "translation": "Hangi ifade 'bir seçim kampanyası sırasında tartışılan tartışmalı veya önemli bir konu' anlamına gelir?",
-    "context": "Seçim dönemlerinde, özellikle de ara seçimlerde (midterm elections), halkın en çok konuştuğu, tartışılan önemli konulara 'midterm issue' denir. Gündemi belirleyen, seçmenlerin oyunu etkileyen bir konu gibi düşün.",
+    "level": "ADVANCED",
+    "phrase": "Which term describes a company's commitment to protecting user information?",
+    "translation": "Bir şirketin kullanıcı bilgilerini koruma taahhüdünü tanımlayan terim hangisidir?",
+    "context": "Bir şirketin, kullanıcılarının kişisel verilerini nasıl koruyacağına dair verdiği taahhüt veya garanti anlamına gelir. Dijital dünyada 'veri gizliliği' çok önemli, bu yüzden şirketler bu konuda şeffaf olmaya çalışır. Haklarını bil!",
     "options": [
-      "a minor problem",
-      "a personal opinion",
-      "a midterm issue",
-      "a solved case"
+      "privacy promise",
+      "data breach",
+      "user agreement",
+      "marketing strategy"
     ],
-    "correctAnswer": "a midterm issue",
-    "category": "MIXED",
+    "correctAnswer": "privacy promise",
+    "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126110109,
+    "id": 126110210,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The rising cost of living led to public _____.",
-    "translation": "Artan yaşam maliyeti halk arasında huzursuzluğa yol açtı.",
-    "context": "Toplumda genel bir hoşnutsuzluk, huzursuzluk ve karışıklık durumu varsa, buna 'unrest' denir. Genellikle protestolar ve gerginliklerle birlikte görülür. 'Ekonomik sorunlar halk arasında 'unrest' yarattı.' gibi kullanabilirsin.",
+    "phrase": "The player was ____ after faking an injury to get a penalty.",
+    "translation": "Oyuncu, penaltı kazanmak için sakatlık taklidi yaptıktan sonra abartılı hareketleri nedeniyle ağır eleştirildi.",
+    "context": "'Slammed' birini sertçe eleştirmek veya kınamak anlamına gelirken, 'theatrics' sahne sanatları gibi abartılı, yapmacık hareketleri ifade eder. Yani, birini 'theatrics' yaptığı için 'slam'lemek, aşırı dramatik davrandığı için çok ağır eleştirmek demektir. Futbol sahalarında sıkça görülür, bazen Oscar'lık performanslar çıkar!",
     "options": [
-      "unrest",
-      "peace",
-      "harmony",
-      "silence"
+      "praised for skill",
+      "cheered by fans",
+      "slammed for theatrics",
+      "rewarded for fair play"
     ],
-    "correctAnswer": "unrest",
+    "correctAnswer": "slammed for theatrics",
     "category": "CASUAL",
     "variations": [
-      "There was civil unrest in the city.",
-      "The news reported growing public unrest."
+      "Critics ____ the actor's overly dramatic performance.",
+      "The politician was ____ during the debate for his exaggerated claims."
     ]
   },
   {
-    "id": 126110110,
+    "id": 126110211,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The summit helps founders to _____ their business rapidly.",
-    "translation": "Zirve, kurucuların işlerini hızla büyütmelerine yardımcı oluyor.",
-    "context": "İş dünyasında 'scale', bir işi veya operasyonu büyütmek, genişletmek, ölçeklendirmek anlamına gelir. Yani daha fazla müşteri, daha fazla üretim, daha fazla kar. 'Bu startup'ın hızlı bir şekilde 'scale' etme potansiyeli var.' diyebilirsin.",
+    "phrase": "Local authorities are working to restore the historical site damaged by ____.",
+    "translation": "Yerel yetkililer, vandallık nedeniyle zarar gören tarihi alanı restore etmek için çalışıyor.",
+    "context": "Kamuya veya başkasına ait mülke kasten zarar verme eylemidir. Tarihi yerlere, parklara veya kamusal alanlara yapılan bu tür zararlar, hem görüntü kirliliğine neden olur hem de turizmi olumsuz etkileyebilir. 'Kendi malın gibi sahip çık!' demenin tam yeri.",
     "options": [
-      "scale",
-      "shrink",
-      "limit",
-      "stop"
+      "vandalism",
+      "renovation",
+      "conservation",
+      "construction"
     ],
-    "correctAnswer": "scale",
-    "category": "BUSINESS",
+    "correctAnswer": "vandalism",
+    "category": "TRAVEL",
     "variations": [
-      "We need to scale up our production next year.",
-      "The company plans to scale its operations globally."
+      "The museum increased security to prevent further ____.",
+      "Graffiti is a common form of ____ in urban areas."
     ]
   },
   {
-    "id": 126110111,
+    "id": 126110212,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Which phrase is used to describe a very difficult and unpleasant experience?",
-    "translation": "Hangi ifade çok zor ve nahoş bir deneyimi tanımlamak için kullanılır?",
-    "context": "Çok kötü, travmatik veya son derece zor bir deneyimden sağ salim çıkmayı anlatmak için 'came back from hell' deyimi kullanılır. Türkçedeki 'cehennemden dönmek' deyimiyle birebir aynı anlamda, yani tam bir kabus yaşamışsın demektir.",
+    "phrase": "In sports, which term describes the lowest league positions, often leading to demotion?",
+    "translation": "Sporda, genellikle küme düşmeye yol açan en düşük lig pozisyonlarını tanımlayan terim hangisidir?",
+    "context": "Özellikle futbol gibi lig sistemine sahip sporlarda, ligin en alt sıralarındaki takımların düştüğü bölgeye verilen addır. Bu bölgedeki takımlar genellikle bir alt lige düşürülme tehlikesiyle karşı karşıya kalır. Mecazi olarak iş hayatında veya günlük hayatta da 'düşüşe geçmek' anlamında kullanılabilir. Kimse 'relegation zone'da olmak istemez!",
     "options": [
-      "enjoyed a trip",
-      "took a break",
-      "came back from hell",
-      "had a party"
+      "championship play-off",
+      "promotion spot",
+      "relegation zone",
+      "top tier"
     ],
-    "correctAnswer": "came back from hell",
-    "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126110112,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The oil spill turned the park into a real _____.",
-    "translation": "Petrol sızıntısı parkı gerçek bir kabusa çevirdi.",
-    "context": "'Nightmare' kelimesi kabus demektir, ama günlük dilde çok kötü, korkunç veya aşırı zor bir durumu anlatmak için de kullanılır. 'Bu trafik tam bir 'nightmare'!' ya da 'Yeni işim tam bir 'nightmare' oldu.' diyebilirsin.",
-    "options": [
-      "nightmare",
-      "dream",
-      "paradise",
-      "haven"
-    ],
-    "correctAnswer": "nightmare",
+    "correctAnswer": "relegation zone",
     "category": "MIXED",
-    "variations": [
-      "Dealing with that problem was a nightmare.",
-      "The journey became a complete nightmare."
-    ]
+    "variations": []
   }
 ]
