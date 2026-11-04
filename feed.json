@@ -1,230 +1,242 @@
 [
   {
-    "id": 126110301,
+    "id": 126110401,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "She is a _____ exploring new places around the world.",
-    "translation": "Yeni yerleri keşfeden bir turist o.",
-    "context": "Bir turist, Everest'e yakın helikopter kazasında maalesef hayatını kaybetmişti. Sen de bir yere giderken 'tourist' gibi gezgin ruhunu koru! 'I'm a tourist here' diyerek yoldan geçenlere istediğin soruyu rahatça sorabilirsin.",
+    "phrase": "The brave _____ worked hard to put out the summer blazes.",
+    "translation": "cesur itfaiyeciler",
+    "context": "Yazın çıkan yangınları söndüren kahraman itfaiyecilerimizi düşün! 'Firefighters' kelimesi tam da bu zorlu ve önemli mesleği yapan kişileri anlatır. Onlar olmasa halimiz nice olurdu!",
     "options": [
-      "tourist",
-      "traveler",
-      "visitor",
-      "passenger"
+      "drivers",
+      "teachers",
+      "firefighters",
+      "farmers"
     ],
-    "correctAnswer": "tourist",
-    "category": "TRAVEL",
-    "variations": [
-      "He is a tourist who loves history.",
-      "Are you a tourist or a local?"
-    ]
-  },
-  {
-    "id": 126110302,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "They invested fresh _____ into the new startup.",
-    "translation": "Yeni girişime taze sermaye yatırdılar.",
-    "context": "Bir işe ya da girişime yatırım yapılan paraya 'capital' denir. Yvonne Bajela da Avrupa'daki start-uplara taze 'capital' getirmiş. Yani bir nevi can suyu, girişimlerin büyümesi için en temel kaynak!",
-    "options": [
-      "capital",
-      "money",
-      "funds",
-      "resources"
-    ],
-    "correctAnswer": "capital",
-    "category": "BUSINESS",
-    "variations": [
-      "We need more capital to expand our business.",
-      "Access to capital is crucial for startups."
-    ]
-  },
-  {
-    "id": 126110303,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Many people save money by _____ diving for useful items.",
-    "translation": "Birçok insan işe yarar eşyalar için çöp konteyneri dalarak para biriktiriyor.",
-    "context": "'Dumpster diving' çöp konteynerlarından işe yarar şeyler bulup kurtarmak demek. Şampuan, scooter bile bulmuşlar! Bu, hem çevreye yardımcı olmak hem de tasarruf etmek için ilginç bir yol, ama herkesin harcı değil. Çok şaşırtıcı, değil mi?",
-    "options": [
-      "dumpster",
-      "trash",
-      "waste",
-      "garbage"
-    ],
-    "correctAnswer": "dumpster",
+    "correctAnswer": "firefighters",
     "category": "CASUAL",
     "variations": [
-      "She found a laptop while dumpster diving.",
-      "Dumpster diving can be a surprising hobby."
+      "Local _____ bravely tackled the huge forest fire.",
+      "We appreciate the courage of all the _____."
     ]
   },
   {
-    "id": 126110304,
+    "id": 126110402,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "AI can help you _____ important conversations quickly.",
-    "translation": "Yapay zeka önemli konuşmaları hızlıca özetlemene yardımcı olabilir.",
-    "context": "'Recap' bir şeyin özetini geçmek, kısa bir tekrar yapmak demek. Apple Watch'ın yeni AI özelliği, konuşmalarını senin için 'recap' yapabiliyormuş. Yani toplantı notu tutma derdine son! Sanki sihir gibi, değil mi?",
+    "phrase": "Many employees were sadly _____ due to the company's slowing growth.",
+    "translation": "işten çıkarıldı",
+    "context": "Bir şirkette 'laid off' olmak, işlerin kötüye gitmesi ya da yeniden yapılanma gibi nedenlerle işinden çıkarılmak demektir. Kötü bir durum ama maalesef iş dünyasında bazen yaşanabiliyor. Üzücü ama gerçek!",
     "options": [
-      "recap",
-      "summarize",
-      "repeat",
-      "review"
+      "hired",
+      "promoted",
+      "laid off",
+      "transferred"
     ],
-    "correctAnswer": "recap",
-    "category": "MIXED",
-    "variations": [
-      "Could you recap the main points for me?",
-      "Let's recap what we discussed earlier."
-    ]
-  },
-  {
-    "id": 126110305,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "What happened near Everest base camp when two helicopters were involved in an accident?",
-    "translation": "Everest ana kampı yakınlarında iki helikopterin karıştığı kazada ne oldu?",
-    "context": "Everest ana kampı yakınlarında iki helikopterin çarpışması maalesef bir turistin ölümüne yol açtı. 'Collision' çarpışma veya tokuşma anlamına gelir. Trafikte veya hava yoluyla seyahat ederken duyabileceğin ciddi bir kelime! Umarım böyle bir olayla karşılaşmazsın.",
-    "options": [
-      "A serious collision",
-      "A minor delay",
-      "A planned landing",
-      "A rescue mission"
-    ],
-    "correctAnswer": "A serious collision",
-    "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126110306,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Apple wants to _____ its revenue using third-party AI apps.",
-    "translation": "Apple, üçüncü parti yapay zeka uygulamalarını kullanarak gelirini artırmak istiyor.",
-    "context": "Şirketler her zaman daha fazla para kazanmak isterler! 'Increase revenue', geliri artırmak demek. Apple da bunu üçüncü parti AI uygulamalarıyla yapmayı planlıyormuş. Yani daha çok satış, daha çok kazanç, daha mutlu hissedarlar!",
-    "options": [
-      "increase",
-      "grow",
-      "boost",
-      "raise"
-    ],
-    "correctAnswer": "increase",
+    "correctAnswer": "laid off",
     "category": "BUSINESS",
     "variations": [
-      "The company aims to increase its profit margins.",
-      "We need to increase customer satisfaction."
+      "My friend was _____ last week, it's tough.",
+      "The company had to _____ a lot of staff."
     ]
   },
   {
-    "id": 126110307,
+    "id": 126110403,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The player signed a long-term _____ with the football club.",
-    "translation": "Oyuncu futbol kulübüyle uzun vadeli bir anlaşma imzaladı.",
-    "context": "Futbolcular ve kulüpler arasında yapılan anlaşmalara 'deal' denir. Brobbey de Sunderland ile uzun vadeli bir 'deal' imzalamış. Bu, onun kariyerinde önemli bir 'deal' olduğu anlamına geliyor! Tıpkı hayatındaki önemli anlaşmalar gibi.",
+    "level": "BEGINNER",
+    "phrase": "The air quality in the city was very _____ after the Diwali celebrations.",
+    "translation": "kötü",
+    "context": "Büyük şehirlerde 'air quality' (hava kalitesi) konusu, özellikle kirlilik arttığında çok konuşulur. Kirli hava nefes almayı zorlaştırır, o yüzden temiz hava için çaba göstermek çok önemli!",
     "options": [
-      "deal",
-      "agreement",
-      "contract",
-      "pact"
+      "good",
+      "excellent",
+      "bad",
+      "perfect"
     ],
-    "correctAnswer": "deal",
-    "category": "CASUAL",
-    "variations": [
-      "They closed a big business deal yesterday.",
-      "It was a fair deal for both parties."
-    ]
-  },
-  {
-    "id": 126110308,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The US conducted military _____ on an Iranian island.",
-    "translation": "ABD, İran adasına askeri saldırılar düzenledi.",
-    "context": "'Strikes' kelimesi hem grev anlamına gelebilir hem de askeri saldırıları ifade edebilir. Bu haberde ABD'nin İran adasına yaptığı 'strikes' (saldırılar) anlatılıyor. Yani dikkatli olmalı, bağlama göre anlamı değişebilir! Karışıklık olmasın sakın.",
-    "options": [
-      "strikes",
-      "attacks",
-      "raids",
-      "missions"
-    ],
-    "correctAnswer": "strikes",
-    "category": "MIXED",
-    "variations": [
-      "Air strikes targeted enemy positions.",
-      "The workers went on strike for higher wages."
-    ]
-  },
-  {
-    "id": 126110309,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Which phrase means 'the base area of a mountain, often used for setting up camps for climbers'?",
-    "translation": "Dağcılar için kamp kurulan, dağın taban bölgesini ifade eden kelime hangisidir?",
-    "context": "Everest'in 'base camp'i, dağcıların zirveye çıkmadan önce dinlendiği ve hazırlık yaptığı ana kamp alanıdır. İki helikopterin burada çarpışması, dağcılar için de büyük bir tehlike oluşturdu. Bu, maceraperestlerin çok iyi bildiği bir terim! Sen de artık biliyorsun.",
-    "options": [
-      "Summit",
-      "Base camp",
-      "Peak",
-      "Ridge"
-    ],
-    "correctAnswer": "Base camp",
+    "correctAnswer": "bad",
     "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126110310,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "What does 'undermine' mean in the context of a country's emissions goals?",
-    "translation": "Bir ülkenin emisyon hedefleri bağlamında 'undermine' ne anlama gelir?",
-    "context": "'Undermine', bir şeyin temelini zayıflatmak veya etkisini azaltmak demektir. AI veri merkezlerinin enerji tüketimi yüzünden İngiltere'nin emisyon hedeflerini 'undermine' edebileceği söyleniyor. Yani bir şeyi içeriden çökertmek gibi düşünebilirsin! Sinsi bir düşman gibi.",
-    "options": [
-      "To support",
-      "To strengthen",
-      "To reinforce",
-      "To weaken"
-    ],
-    "correctAnswer": "To weaken",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126110311,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The tragic news of the striker's death was a huge _____ for the team.",
-    "translation": "Golcünün trajik ölüm haberi takım için büyük bir darbe oldu.",
-    "context": "'Blow' kelimesinin birçok anlamı var, ama burada bir darbe, yıkım veya büyük bir şok anlamına geliyor. Tenerife'li golcünün saha içinde yaşanan çarpışma sonucu ölümü, spor dünyası için büyük bir 'blow' oldu. Yani kalpleri kıran, büyük bir darbe gibi düşünebilirsin!",
-    "options": [
-      "blow",
-      "shock",
-      "impact",
-      "loss"
-    ],
-    "correctAnswer": "blow",
-    "category": "CASUAL",
     "variations": [
-      "Losing the championship was a big blow to their morale.",
-      "The economic crisis was a severe blow to many businesses."
+      "The report indicated _____ air quality today.",
+      "Don't go out, the air quality is really _____."
     ]
   },
   {
-    "id": 126110312,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "What is the meaning of 'net zero plans' in environmental discussions?",
-    "translation": "Çevresel tartışmalarda 'net sıfır planları' ne anlama gelir?",
-    "context": "'Net zero plans', atmosfere saldığımız sera gazı miktarını, aynı miktarda gazı atmosferden uzaklaştırarak dengelemek anlamına geliyor. Yani karbon ayak izini sıfırlamak gibi düşünebilirsin. Galler kamu sektörünün 2030'a kadar bu hedefe ulaşması zor görünüyor. Gezegenimiz için çok önemli bir hedef!",
+    "id": 126110404,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "She was happy to _____ the election and become the new governor.",
+    "translation": "kazanmak",
+    "context": "Bir seçimde 'win' (kazanmak) demek, oyların çoğunu alarak göreve gelmek demektir. Tıpkı bir yarışmayı kazanmak gibi! Demokrasinin temel taşlarından biri de bu kazanma ve kaybetme döngüsü.",
     "options": [
-      "Eliminating all energy consumption",
-      "Achieving a balance between emissions produced and emissions removed",
-      "Increasing greenhouse gas emissions gradually",
-      "Focusing only on recycling initiatives"
+      "lose",
+      "tie",
+      "win",
+      "avoid"
     ],
-    "correctAnswer": "Achieving a balance between emissions produced and emissions removed",
+    "correctAnswer": "win",
     "category": "MIXED",
-    "variations": []
+    "variations": [
+      "Who do you think will _____ the next election?",
+      "Our team managed to _____ the game."
+    ]
+  },
+  {
+    "id": 126110405,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The startup managed to _____ a big investment from a global company.",
+    "translation": "kapmak",
+    "context": "Bir şirketin 'nab' (kapmak, ele geçirmek) kelimesi, özellikle büyük bir anlaşmayı, fonu ya da önemli bir şeyi hızlıca ve başarıyla elde ettiğini belirtmek için kullanılır. Sanki kuş gibi havadan kapmış gibi düşün!",
+    "options": [
+      "lose",
+      "ignore",
+      "nab",
+      "decline"
+    ],
+    "correctAnswer": "nab",
+    "category": "BUSINESS",
+    "variations": [
+      "They hope to _____ a major deal by year-end.",
+      "The thief tried to _____ the wallet quickly."
+    ]
+  },
+  {
+    "id": 126110406,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Wildfires are a terrifying _____ because of climate change.",
+    "translation": "risk",
+    "context": "'Risk' kelimesi, gelecekte kötü bir şey olma ihtimali anlamına gelir. Özellikle iklim değişikliği gibi küresel konularda 'terrifying risk' (korkunç risk) deriz. Aman dikkat, doğa şakaya gelmez!",
+    "options": [
+      "reward",
+      "opportunity",
+      "risk",
+      "benefit"
+    ],
+    "correctAnswer": "risk",
+    "category": "CASUAL",
+    "variations": [
+      "There's a serious _____ of flood next month.",
+      "Ignoring the warning is a huge _____."
+    ]
+  },
+  {
+    "id": 126110407,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "New travel restrictions will _____ force next month due to the pandemic.",
+    "translation": "yürürlüğe girecek",
+    "context": "'Enter force' ifadesi, kısıtlamaların veya kuralların yürürlüğe girdiğini, yani artık geçerli olduğunu anlatır. Seyahat ederken ya da bir etkinliğe katılırken yeni kurallara uymak zorunda kalmak gibi düşünebilirsin.",
+    "options": [
+      "enter",
+      "leave",
+      "begin",
+      "start"
+    ],
+    "correctAnswer": "enter",
+    "category": "TRAVEL",
+    "variations": [
+      "The new parking rules will _____ force soon.",
+      "When do the new policies _____ force?"
+    ]
+  },
+  {
+    "id": 126110408,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Can the veteran player _____ the years and perform like he used to?",
+    "translation": "yılları geri sarmak",
+    "context": "'Roll back the years' ifadesi, birinin geçmişteki genç ve başarılı günlerine geri dönüp aynı performansı sergilemesini dilemek anlamına gelir. Özellikle yaşlı sporcular için sıkça kullanılır. Zaman makinesi olsa da hepimiz biraz 'yılları geri sarsak' keşke!",
+    "options": [
+      "push forward",
+      "roll back",
+      "turn around",
+      "jump over"
+    ],
+    "correctAnswer": "roll back",
+    "category": "MIXED",
+    "variations": [
+      "I wish I could _____ the years and be young again.",
+      "She hopes to _____ the years with her new training."
+    ]
+  },
+  {
+    "id": 126110409,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "They reached a _____ agreement, but the contract is not signed yet.",
+    "translation": "sözlü",
+    "context": "'Verbal agreement' (sözlü anlaşma), iki tarafın bir konuda sözle anlaşmasıdır. Genellikle yazılı bir belge kadar bağlayıcı olmasa da, iş dünyasında güvene dayalı ilişkilerde önemlidir. Ama her zaman yazılı anlaşma yapmak daha sağlamdır, unutma!",
+    "options": [
+      "written",
+      "official",
+      "digital",
+      "verbal"
+    ],
+    "correctAnswer": "verbal",
+    "category": "BUSINESS",
+    "variations": [
+      "We have a _____ agreement on the terms.",
+      "Is a _____ agreement legally binding?"
+    ]
+  },
+  {
+    "id": 126110410,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The striker scored a magnificent _____ from outside the box.",
+    "translation": "şimşek gibi şut",
+    "context": "Futbolda 'thunderbolt' (şimşek gibi şut), inanılmaz güçlü ve hızlı bir şutu anlatır. Top filelere deyim yerindeyse 'şimşek hızıyla' gider. Seyircileri koltuklarından zıplatan cinsten goller!",
+    "options": [
+      "penalty",
+      "header",
+      "volley",
+      "thunderbolt"
+    ],
+    "correctAnswer": "thunderbolt",
+    "category": "CASUAL",
+    "variations": [
+      "His shot was a pure _____, straight into the net.",
+      "That goal was a real _____!"
+    ]
+  },
+  {
+    "id": 126110411,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Achieving _____ plans by 2030 is a huge challenge for many countries.",
+    "translation": "net sıfır",
+    "context": "'Net zero plans' (net sıfır planları), bir ülkenin veya şirketin karbon emisyonlarını sıfıra indirmeyi hedeflemesi demektir. Yani atmosfere saldığı sera gazı miktarını, aldığı gaz miktarıyla eşitlemesi anlamına gelir. Gezegenimizin geleceği için çok önemli bir hedef!",
+    "options": [
+      "high profit",
+      "rapid growth",
+      "net zero",
+      "full employment"
+    ],
+    "correctAnswer": "net zero",
+    "category": "TRAVEL",
+    "variations": [
+      "The company aims for _____ emissions by 2040.",
+      "Many cities are setting _____ targets."
+    ]
+  },
+  {
+    "id": 126110412,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The politician had to _____ strong criticism from the opposition party.",
+    "translation": "savuşturmak",
+    "context": "'Fend off' (savuşturmak, püskürtmek) kelimesi, bir saldırıyı, eleştiriyi veya istenmeyen bir durumu uzak tutmak, kendini korumak anlamında kullanılır. Tıpkı bir okçunun hedefleri savuşturması gibi, politikacılar da eleştirileri 'fend off' ederler.",
+    "options": [
+      "welcome",
+      "accept",
+      "embrace",
+      "fend off"
+    ],
+    "correctAnswer": "fend off",
+    "category": "MIXED",
+    "variations": [
+      "She tried to _____ the attackers.",
+      "It was hard to _____ all the questions."
+    ]
   }
 ]
