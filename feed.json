@@ -1,242 +1,233 @@
 [
   {
-    "id": 126110401,
+    "id": 126110601,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The brave _____ worked hard to put out the summer blazes.",
-    "translation": "cesur itfaiyeciler",
-    "context": "Yazın çıkan yangınları söndüren kahraman itfaiyecilerimizi düşün! 'Firefighters' kelimesi tam da bu zorlu ve önemli mesleği yapan kişileri anlatır. Onlar olmasa halimiz nice olurdu!",
+    "phrase": "The news reported that a bus _____ in France.",
+    "translation": "Bir otobüsün Fransa'da kaza yaptığını haberler bildirdi.",
+    "context": "'Crash' kelimesi, bir aracın kaza yapması durumunda kullanılır. Düşünsene, sabah işe gidiyorsun ve 'Oh no, the train crashed!' dediler. İşte o kötü durum! 'Bus crashed' deyince, otobüsün kaza yaptığını anlarız. Allah korusun!",
     "options": [
-      "drivers",
-      "teachers",
-      "firefighters",
-      "farmers"
+      "crashed",
+      "jumped",
+      "flew",
+      "walked"
     ],
-    "correctAnswer": "firefighters",
-    "category": "CASUAL",
-    "variations": [
-      "Local _____ bravely tackled the huge forest fire.",
-      "We appreciate the courage of all the _____."
-    ]
-  },
-  {
-    "id": 126110402,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Many employees were sadly _____ due to the company's slowing growth.",
-    "translation": "işten çıkarıldı",
-    "context": "Bir şirkette 'laid off' olmak, işlerin kötüye gitmesi ya da yeniden yapılanma gibi nedenlerle işinden çıkarılmak demektir. Kötü bir durum ama maalesef iş dünyasında bazen yaşanabiliyor. Üzücü ama gerçek!",
-    "options": [
-      "hired",
-      "promoted",
-      "laid off",
-      "transferred"
-    ],
-    "correctAnswer": "laid off",
-    "category": "BUSINESS",
-    "variations": [
-      "My friend was _____ last week, it's tough.",
-      "The company had to _____ a lot of staff."
-    ]
-  },
-  {
-    "id": 126110403,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The air quality in the city was very _____ after the Diwali celebrations.",
-    "translation": "kötü",
-    "context": "Büyük şehirlerde 'air quality' (hava kalitesi) konusu, özellikle kirlilik arttığında çok konuşulur. Kirli hava nefes almayı zorlaştırır, o yüzden temiz hava için çaba göstermek çok önemli!",
-    "options": [
-      "good",
-      "excellent",
-      "bad",
-      "perfect"
-    ],
-    "correctAnswer": "bad",
+    "correctAnswer": "crashed",
     "category": "TRAVEL",
     "variations": [
-      "The report indicated _____ air quality today.",
-      "Don't go out, the air quality is really _____."
+      "A bus accident happened in France.",
+      "The bus had an accident in France."
     ]
   },
   {
-    "id": 126110404,
+    "id": 126110602,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "She was happy to _____ the election and become the new governor.",
-    "translation": "kazanmak",
-    "context": "Bir seçimde 'win' (kazanmak) demek, oyların çoğunu alarak göreve gelmek demektir. Tıpkı bir yarışmayı kazanmak gibi! Demokrasinin temel taşlarından biri de bu kazanma ve kaybetme döngüsü.",
+    "phrase": "The White House _____ the reports about job changes.",
+    "translation": "Beyaz Saray, iş değişiklikleri hakkındaki raporları yalanladı.",
+    "context": "'Deny' bir şeyi inkar etmek, reddetmek demek. Mesela arkadaşın 'Sen benim pizzamı yedin mi?' diye sorar, sen de ağzın peynir doluyken 'No, I deny it!' dersin. İş hayatında da şirketler dedikoduları 'deny' eder. Yani 'Yok öyle bir şey!' derler.",
     "options": [
-      "lose",
-      "tie",
-      "win",
-      "avoid"
+      "denied",
+      "agreed",
+      "said",
+      "confirmed"
     ],
-    "correctAnswer": "win",
-    "category": "MIXED",
-    "variations": [
-      "Who do you think will _____ the next election?",
-      "Our team managed to _____ the game."
-    ]
-  },
-  {
-    "id": 126110405,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The startup managed to _____ a big investment from a global company.",
-    "translation": "kapmak",
-    "context": "Bir şirketin 'nab' (kapmak, ele geçirmek) kelimesi, özellikle büyük bir anlaşmayı, fonu ya da önemli bir şeyi hızlıca ve başarıyla elde ettiğini belirtmek için kullanılır. Sanki kuş gibi havadan kapmış gibi düşün!",
-    "options": [
-      "lose",
-      "ignore",
-      "nab",
-      "decline"
-    ],
-    "correctAnswer": "nab",
+    "correctAnswer": "denied",
     "category": "BUSINESS",
     "variations": [
-      "They hope to _____ a major deal by year-end.",
-      "The thief tried to _____ the wallet quickly."
+      "The government denied the rumors.",
+      "She denied making the mistake."
     ]
   },
   {
-    "id": 126110406,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Wildfires are a terrifying _____ because of climate change.",
-    "translation": "risk",
-    "context": "'Risk' kelimesi, gelecekte kötü bir şey olma ihtimali anlamına gelir. Özellikle iklim değişikliği gibi küresel konularda 'terrifying risk' (korkunç risk) deriz. Aman dikkat, doğa şakaya gelmez!",
+    "id": 126110603,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "Tenis oyuncusu Sinner'ın uzun süredir birlikte çalıştığı antrenörüyle yollarını ayırdığı haber verildi. Buradaki 'coach' kelimesi ne anlama gelir?",
+    "translation": "Antrenör",
+    "context": "Sporda 'coach', takıma veya sporcuya yol gösteren, eğiten kişidir. Bizim 'antrenör' dediğimiz şey. Maçlarda kenarda bağırıp çağıran, taktiği veren kişi işte. Ama dikkat, 'coach' aynı zamanda otobüs de demek! Karıştırma, bağlama göre değişir.",
     "options": [
-      "reward",
-      "opportunity",
-      "risk",
-      "benefit"
+      "Otobüs",
+      "Kol",
+      "Antrenör",
+      "Çanta"
     ],
-    "correctAnswer": "risk",
+    "correctAnswer": "Antrenör",
     "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126110604,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The news said that a strong polar vortex might bring _____ to the UK.",
+    "translation": "Haberler, güçlü bir kutup girdabının İngiltere'ye kar getirebileceğini söyledi.",
+    "context": "'Snow' kar demek, biliyoruz zaten. Ama bu 'polar vortex' denen şey, kutup bölgelerindeki soğuk hava kütlesi. Bazen bunlar güneye inince bol bol kar getirir. 'Snow day' diye bir şey var mesela, okulların kar yüzünden tatil olduğu günler. Keşke!",
+    "options": [
+      "snow",
+      "sun",
+      "heat",
+      "rain"
+    ],
+    "correctAnswer": "snow",
+    "category": "MIXED/GENERAL",
     "variations": [
-      "There's a serious _____ of flood next month.",
-      "Ignoring the warning is a huge _____."
+      "Heavy snow is expected in the UK.",
+      "Will we see snow this winter?"
     ]
   },
   {
-    "id": 126110407,
+    "id": 126110605,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "New travel restrictions will _____ force next month due to the pandemic.",
-    "translation": "yürürlüğe girecek",
-    "context": "'Enter force' ifadesi, kısıtlamaların veya kuralların yürürlüğe girdiğini, yani artık geçerli olduğunu anlatır. Seyahat ederken ya da bir etkinliğe katılırken yeni kurallara uymak zorunda kalmak gibi düşünebilirsin.",
+    "phrase": "Powerful _____ East Asia as El Niño affects the region.",
+    "translation": "El Niño bölgeyi etkilerken güçlü tayfunlar Doğu Asya'yı hırpalıyor.",
+    "context": "'Typhoon' Doğu Asya'da görülen tropikal fırtınalara verilen isim. 'Batter' ise bir yere şiddetle vurmak, hasar vermek anlamında kullanılır. 'Typhoons batter' dediğimizde, fırtınaların bölgeyi darmaduman ettiğini anlarız. Tıpkı boksörün rakibini dövdüğü gibi!",
     "options": [
-      "enter",
-      "leave",
-      "begin",
-      "start"
+      "typhoons batter",
+      "sun shines on",
+      "birds fly over",
+      "tourists visit"
     ],
-    "correctAnswer": "enter",
+    "correctAnswer": "typhoons batter",
     "category": "TRAVEL",
     "variations": [
-      "The new parking rules will _____ force soon.",
-      "When do the new policies _____ force?"
+      "Strong winds batter the coast.",
+      "The storm battered the old house."
     ]
   },
   {
-    "id": 126110408,
+    "id": 126110606,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Can the veteran player _____ the years and perform like he used to?",
-    "translation": "yılları geri sarmak",
-    "context": "'Roll back the years' ifadesi, birinin geçmişteki genç ve başarılı günlerine geri dönüp aynı performansı sergilemesini dilemek anlamına gelir. Özellikle yaşlı sporcular için sıkça kullanılır. Zaman makinesi olsa da hepimiz biraz 'yılları geri sarsak' keşke!",
+    "phrase": "The New York Times is reportedly _____ Letterboxd for millions.",
+    "translation": "New York Times'ın Letterboxd'u milyonlarca dolara satın almak için görüşmelerde olduğu bildiriliyor.",
+    "context": "'In talks to buy' bir şirketin başka bir şirketi satın almak için görüşmelerde bulunduğunu belirtir. Henüz resmi değil ama pazarlık masasına oturulmuş! İş dünyasında çok sık duyarsın. 'Are they in talks to merge?' gibi. Kulis bilgileri yani.",
     "options": [
-      "push forward",
-      "roll back",
-      "turn around",
-      "jump over"
+      "in talks to buy",
+      "planning to sell",
+      "thinking about closing",
+      "refusing to invest"
     ],
-    "correctAnswer": "roll back",
-    "category": "MIXED",
-    "variations": [
-      "I wish I could _____ the years and be young again.",
-      "She hopes to _____ the years with her new training."
-    ]
-  },
-  {
-    "id": 126110409,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "They reached a _____ agreement, but the contract is not signed yet.",
-    "translation": "sözlü",
-    "context": "'Verbal agreement' (sözlü anlaşma), iki tarafın bir konuda sözle anlaşmasıdır. Genellikle yazılı bir belge kadar bağlayıcı olmasa da, iş dünyasında güvene dayalı ilişkilerde önemlidir. Ama her zaman yazılı anlaşma yapmak daha sağlamdır, unutma!",
-    "options": [
-      "written",
-      "official",
-      "digital",
-      "verbal"
-    ],
-    "correctAnswer": "verbal",
+    "correctAnswer": "in talks to buy",
     "category": "BUSINESS",
     "variations": [
-      "We have a _____ agreement on the terms.",
-      "Is a _____ agreement legally binding?"
+      "The company is in talks to acquire a rival.",
+      "They've been in talks for weeks."
     ]
   },
   {
-    "id": 126110410,
+    "id": 126110607,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The striker scored a magnificent _____ from outside the box.",
-    "translation": "şimşek gibi şut",
-    "context": "Futbolda 'thunderbolt' (şimşek gibi şut), inanılmaz güçlü ve hızlı bir şutu anlatır. Top filelere deyim yerindeyse 'şimşek hızıyla' gider. Seyircileri koltuklarından zıplatan cinsten goller!",
+    "level": "INTERMEDIATE",
+    "phrase": "Sinner, the tennis player, _____ his coach after five years.",
+    "translation": "Tenisçi Sinner, beş yıl sonra koçuyla yollarını ayırdı.",
+    "context": "'Part ways with someone' birisiyle yolları ayırmak, ayrılmak demektir. Bu, bir iş ilişkisi (koç-sporcu gibi) olabileceği gibi, romantik bir ilişki için de kullanılabilir. 'They parted ways after a long disagreement.' gibi. Kibarca 'ayrıldık' demenin bir yolu.",
     "options": [
-      "penalty",
-      "header",
-      "volley",
-      "thunderbolt"
+      "parted ways with",
+      "joined forces with",
+      "started a business with",
+      "traveled abroad with"
     ],
-    "correctAnswer": "thunderbolt",
+    "correctAnswer": "parted ways with",
     "category": "CASUAL",
     "variations": [
-      "His shot was a pure _____, straight into the net.",
-      "That goal was a real _____!"
+      "The band parted ways last year.",
+      "We decided to part ways professionally."
     ]
   },
   {
-    "id": 126110411,
+    "id": 126110608,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Achieving _____ plans by 2030 is a huge challenge for many countries.",
-    "translation": "net sıfır",
-    "context": "'Net zero plans' (net sıfır planları), bir ülkenin veya şirketin karbon emisyonlarını sıfıra indirmeyi hedeflemesi demektir. Yani atmosfere saldığı sera gazı miktarını, aldığı gaz miktarıyla eşitlemesi anlamına gelir. Gezegenimizin geleceği için çok önemli bir hedef!",
+    "level": "INTERMEDIATE",
+    "phrase": "The cult leader received a _____ for murdering many people.",
+    "translation": "Kült lideri, birçok kişiyi öldürmekten ömür boyu hapis cezası aldı.",
+    "context": "'Life sentence', ömür boyu hapis cezası demektir. Yani bir daha gün yüzü görmeyecek kadar uzun bir ceza. Suçun ciddiyetini vurgular. İngilizcede 'to serve a life sentence' diye kullanılır. Kimseye nasip olmasın!",
     "options": [
-      "high profit",
-      "rapid growth",
-      "net zero",
-      "full employment"
+      "life sentence",
+      "short break",
+      "promotion",
+      "award"
     ],
-    "correctAnswer": "net zero",
+    "correctAnswer": "life sentence",
+    "category": "MIXED/GENERAL",
+    "variations": [
+      "He was given a life sentence for the crime.",
+      "A life sentence means spending your life in prison."
+    ]
+  },
+  {
+    "id": 126110609,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Haber, El Niño'nun Pasifik'i 'ateşle yakması' metaforunu kullanıyor. Bu ifade, ne tür bir durumu anlatmak için kullanılmış olabilir?",
+    "translation": "Pasifik Okyanusu'ndaki suların alışılmadık derecede ısınması",
+    "context": "'Burn with fever' normalde insan vücudunun yüksek ateşte olması durumunu anlatır. Ama burada 'Pasifik ateşte yanıyor' denilmesi, El Niño'nun etkisiyle okyanus sularının rekor seviyede ısındığını, adeta ateşi çıktığını mecazi olarak ifade eder. Küresel ısınmanın dramatik bir resmi!",
+    "options": [
+      "Pasifik kıyılarında yangınlar çıkması",
+      "Pasifik'teki volkanların aktifleşmesi",
+      "Pasifik Okyanusu'ndaki suların alışılmadık derecede ısınması",
+      "Pasifik ülkelerinde salgın hastalıkların yayılması"
+    ],
+    "correctAnswer": "Pasifik Okyanusu'ndaki suların alışılmadık derecede ısınması",
     "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126110610,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Many local governments are moving to drop the use of _____ due to privacy concerns.",
+    "translation": "Birçok yerel yönetim, gizlilik endişeleri nedeniyle gözetim kameralarının kullanımını bırakmaya yöneliyor.",
+    "context": "'Surveillance cameras', yani 'gözetim kameraları', genellikle güvenlik için kullanılır ama aynı zamanda mahremiyet endişeleri de yaratır. Her adımını takip eden büyük bir göz gibi düşün. 'CCTV cameras' olarak da geçer. Güvenlik mi, özgürlük mü ikilemi işte.",
+    "options": [
+      "surveillance cameras",
+      "security guards",
+      "public transport",
+      "street lights"
+    ],
+    "correctAnswer": "surveillance cameras",
+    "category": "BUSINESS",
     "variations": [
-      "The company aims for _____ emissions by 2040.",
-      "Many cities are setting _____ targets."
+      "The city installed new surveillance cameras.",
+      "Do surveillance cameras make us safer?"
     ]
   },
   {
-    "id": 126110412,
+    "id": 126110611,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The politician had to _____ strong criticism from the opposition party.",
-    "translation": "savuşturmak",
-    "context": "'Fend off' (savuşturmak, püskürtmek) kelimesi, bir saldırıyı, eleştiriyi veya istenmeyen bir durumu uzak tutmak, kendini korumak anlamında kullanılır. Tıpkı bir okçunun hedefleri savuşturması gibi, politikacılar da eleştirileri 'fend off' ederler.",
+    "phrase": "The cricketer, _____ 'Clicky Ponting', was _____ for two years from the sport.",
+    "translation": "'Clicky Ponting' lakaplı kriket oyuncusu, spordan iki yıl süreyle men edildi.",
+    "context": "'Dubbed', birine lakap takmak, bir şeyi adlandırmak anlamına gelir. 'Batman dubbed him the Joker.' gibi. 'Banned' ise bir şeyi yasaklamak, men etmek demek. Mesela kopya çekersen sınavdan 'banned' olursun. Bu durumda, oyuncuya lakap takılmış ve sonra spordan men edilmiş. Hem lakap hem ceza!",
     "options": [
-      "welcome",
-      "accept",
-      "embrace",
-      "fend off"
+      "dubbed / banned",
+      "called / promoted",
+      "named / awarded",
+      "hailed / praised"
     ],
-    "correctAnswer": "fend off",
-    "category": "MIXED",
+    "correctAnswer": "dubbed / banned",
+    "category": "CASUAL",
     "variations": [
-      "She tried to _____ the attackers.",
-      "It was hard to _____ all the questions."
+      "He was dubbed a hero.",
+      "Smoking is banned in public places."
     ]
+  },
+  {
+    "id": 126110612,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Bir 'major fish kill' olayı, bir 'pollution incident' sonrasında soruşturuluyor. Buradaki iki terimin en doğru birleşimi hangisidir?",
+    "translation": "Büyük çaplı balık ölümü / Kirlilik olayı",
+    "context": "'Fish kill', bir su kütlesindeki balıkların kitlesel ölümü anlamına gelir. Genellikle 'pollution incident' yani 'kirlilik olayı' gibi çevresel felaketler sonucu olur. Kimyasal döküntüler, oksijenin azalması gibi nedenlerle balıklar nefessiz kalır ve ölür. Doğa için çok üzücü bir durumdur.",
+    "options": [
+      "Büyük balık avı / Balıkçılık kazası",
+      "Büyük çaplı balık ölümü / Kirlilik olayı",
+      "Balık yetiştiriciliği projesi / Çevre felaketi",
+      "Küçük balık sürüsü / Temiz su kaynağı"
+    ],
+    "correctAnswer": "Büyük çaplı balık ölümü / Kirlilik olayı",
+    "category": "MIXED/GENERAL",
+    "variations": []
   }
 ]
