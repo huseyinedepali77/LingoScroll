@@ -1,233 +1,227 @@
 [
   {
-    "id": 126110601,
+    "id": 126110701,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The news reported that a bus _____ in France.",
-    "translation": "Bir otobüsün Fransa'da kaza yaptığını haberler bildirdi.",
-    "context": "'Crash' kelimesi, bir aracın kaza yapması durumunda kullanılır. Düşünsene, sabah işe gidiyorsun ve 'Oh no, the train crashed!' dediler. İşte o kötü durum! 'Bus crashed' deyince, otobüsün kaza yaptığını anlarız. Allah korusun!",
+    "phrase": "The Pope will begin his Latin America _____.",
+    "translation": "Papa Latin Amerika turuna başlayacak.",
+    "context": "Bir yere ziyaret veya seyahat planı yaparken 'tour' kelimesini sıkça kullanırız. Biletler alınır, valizler hazırlanır ve yeni yerler keşfetmek için heyecanlı bir 'tour' başlar!",
     "options": [
-      "crashed",
-      "jumped",
-      "flew",
-      "walked"
+      "tour",
+      "battle",
+      "collapse",
+      "stocks"
     ],
-    "correctAnswer": "crashed",
+    "correctAnswer": "tour",
     "category": "TRAVEL",
     "variations": [
-      "A bus accident happened in France.",
-      "The bus had an accident in France."
+      "He is planning a city ____ next month.",
+      "Our band is going on a world ____ next year."
     ]
   },
   {
-    "id": 126110602,
+    "id": 126110702,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The White House _____ the reports about job changes.",
-    "translation": "Beyaz Saray, iş değişiklikleri hakkındaki raporları yalanladı.",
-    "context": "'Deny' bir şeyi inkar etmek, reddetmek demek. Mesela arkadaşın 'Sen benim pizzamı yedin mi?' diye sorar, sen de ağzın peynir doluyken 'No, I deny it!' dersin. İş hayatında da şirketler dedikoduları 'deny' eder. Yani 'Yok öyle bir şey!' derler.",
+    "phrase": "The bank's sudden _____ caused market panic.",
+    "translation": "Bankanın ani çöküşü piyasada paniğe yol açtı.",
+    "context": "Bir banka iflas ettiğinde veya büyük mali sorunlar yaşadığında 'bank collapse' denir. Bu durum bazen domino etkisi yaratıp tüm ekonomiyi sarsabilir, tıpkı domino taşları gibi!",
     "options": [
-      "denied",
-      "agreed",
-      "said",
-      "confirmed"
+      "collapse",
+      "health",
+      "meteors",
+      "player"
     ],
-    "correctAnswer": "denied",
+    "correctAnswer": "collapse",
     "category": "BUSINESS",
     "variations": [
-      "The government denied the rumors.",
-      "She denied making the mistake."
+      "The government tried to prevent a financial _____.",
+      "The company's _____ led to many job losses."
     ]
   },
   {
-    "id": 126110603,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "id": 126110703,
+    "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Tenis oyuncusu Sinner'ın uzun süredir birlikte çalıştığı antrenörüyle yollarını ayırdığı haber verildi. Buradaki 'coach' kelimesi ne anlama gelir?",
-    "translation": "Antrenör",
-    "context": "Sporda 'coach', takıma veya sporcuya yol gösteren, eğiten kişidir. Bizim 'antrenör' dediğimiz şey. Maçlarda kenarda bağırıp çağıran, taktiği veren kişi işte. Ama dikkat, 'coach' aynı zamanda otobüs de demek! Karıştırma, bağlama göre değişir.",
+    "phrase": "The star player is _____ for tomorrow's match.",
+    "translation": "Yıldız oyuncu yarınki maç için hazır.",
+    "context": "Sporcular için 'fit' olmak, fiziksel olarak hazır ve zinde olmak demektir. Sakatlıklar sonrası sahalara dönen oyuncular için bu kelime çok kritik! 'Sahada aslan gibi!' denilen cinsten.",
     "options": [
-      "Otobüs",
-      "Kol",
-      "Antrenör",
-      "Çanta"
+      "fit",
+      "wiped",
+      "troubled",
+      "shines"
     ],
-    "correctAnswer": "Antrenör",
+    "correctAnswer": "fit",
+    "category": "CASUAL",
+    "variations": [
+      "She works out daily to stay _____.",
+      "Are you _____ enough to run a marathon?"
+    ]
+  },
+  {
+    "id": 126110704,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Meteor showers will _____ the night sky.",
+    "translation": "Meteor yağmurları gece gökyüzünü aydınlatacak.",
+    "context": "Gökyüzünde oluşan bu görsel şöleni tanımlamak için 'light up' ifadesini kullanırız. Bazen havai fişekler, bazen de milyonlarca yıldız kayması gökyüzünü adeta bir disko topu gibi 'light up' eder!",
+    "options": [
+      "light up",
+      "shutting down",
+      "exceeding",
+      "readies for"
+    ],
+    "correctAnswer": "light up",
+    "category": "MIXED",
+    "variations": [
+      "The Christmas lights will _____ the street.",
+      "Her smile can _____ a whole room."
+    ]
+  },
+  {
+    "id": 126110705,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Sequoia is _____ its Scouts program.",
+    "translation": "Sequoia, Scouts programını kapatıyor.",
+    "context": "Bir şirketin bir bölümünü, programını veya operasyonunu sonlandırması 'shutting down' demektir. Bazen verimsiz olduğu için, bazen de stratejik bir karar yüzünden 'kapıya kilit vurulur'.",
+    "options": [
+      "shutting down",
+      "raising funds",
+      "impeached",
+      "climb"
+    ],
+    "correctAnswer": "shutting down",
+    "category": "BUSINESS",
+    "variations": [
+      "They are _____ the old factory next month.",
+      "The store is _____ due to low sales."
+    ]
+  },
+  {
+    "id": 126110706,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Everton takımının beklentilerin üzerine çıkması ne anlama gelir?",
+    "translation": "To perform better than expected.",
+    "context": "Birinin veya bir takımın 'exceeding expectations' yapması, herkesin sandığından çok daha iyi iş çıkardığı anlamına gelir. Düşük bütçeyle harikalar yaratan filmler veya sürpriz şampiyonluklar hep bu kategoriye girer. Şaşırtıcı ve alkışlanası bir durum!",
+    "options": [
+      "To perform better than expected.",
+      "To perform worse than expected.",
+      "To cancel the event.",
+      "To avoid a problem."
+    ],
+    "correctAnswer": "To perform better than expected.",
     "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126110604,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The news said that a strong polar vortex might bring _____ to the UK.",
-    "translation": "Haberler, güçlü bir kutup girdabının İngiltere'ye kar getirebileceğini söyledi.",
-    "context": "'Snow' kar demek, biliyoruz zaten. Ama bu 'polar vortex' denen şey, kutup bölgelerindeki soğuk hava kütlesi. Bazen bunlar güneye inince bol bol kar getirir. 'Snow day' diye bir şey var mesela, okulların kar yüzünden tatil olduğu günler. Keşke!",
-    "options": [
-      "snow",
-      "sun",
-      "heat",
-      "rain"
-    ],
-    "correctAnswer": "snow",
-    "category": "MIXED/GENERAL",
-    "variations": [
-      "Heavy snow is expected in the UK.",
-      "Will we see snow this winter?"
-    ]
-  },
-  {
-    "id": 126110605,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Powerful _____ East Asia as El Niño affects the region.",
-    "translation": "El Niño bölgeyi etkilerken güçlü tayfunlar Doğu Asya'yı hırpalıyor.",
-    "context": "'Typhoon' Doğu Asya'da görülen tropikal fırtınalara verilen isim. 'Batter' ise bir yere şiddetle vurmak, hasar vermek anlamında kullanılır. 'Typhoons batter' dediğimizde, fırtınaların bölgeyi darmaduman ettiğini anlarız. Tıpkı boksörün rakibini dövdüğü gibi!",
-    "options": [
-      "typhoons batter",
-      "sun shines on",
-      "birds fly over",
-      "tourists visit"
-    ],
-    "correctAnswer": "typhoons batter",
-    "category": "TRAVEL",
-    "variations": [
-      "Strong winds batter the coast.",
-      "The storm battered the old house."
-    ]
-  },
-  {
-    "id": 126110606,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The New York Times is reportedly _____ Letterboxd for millions.",
-    "translation": "New York Times'ın Letterboxd'u milyonlarca dolara satın almak için görüşmelerde olduğu bildiriliyor.",
-    "context": "'In talks to buy' bir şirketin başka bir şirketi satın almak için görüşmelerde bulunduğunu belirtir. Henüz resmi değil ama pazarlık masasına oturulmuş! İş dünyasında çok sık duyarsın. 'Are they in talks to merge?' gibi. Kulis bilgileri yani.",
-    "options": [
-      "in talks to buy",
-      "planning to sell",
-      "thinking about closing",
-      "refusing to invest"
-    ],
-    "correctAnswer": "in talks to buy",
-    "category": "BUSINESS",
-    "variations": [
-      "The company is in talks to acquire a rival.",
-      "They've been in talks for weeks."
-    ]
-  },
-  {
-    "id": 126110607,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Sinner, the tennis player, _____ his coach after five years.",
-    "translation": "Tenisçi Sinner, beş yıl sonra koçuyla yollarını ayırdı.",
-    "context": "'Part ways with someone' birisiyle yolları ayırmak, ayrılmak demektir. Bu, bir iş ilişkisi (koç-sporcu gibi) olabileceği gibi, romantik bir ilişki için de kullanılabilir. 'They parted ways after a long disagreement.' gibi. Kibarca 'ayrıldık' demenin bir yolu.",
-    "options": [
-      "parted ways with",
-      "joined forces with",
-      "started a business with",
-      "traveled abroad with"
-    ],
-    "correctAnswer": "parted ways with",
-    "category": "CASUAL",
-    "variations": [
-      "The band parted ways last year.",
-      "We decided to part ways professionally."
-    ]
-  },
-  {
-    "id": 126110608,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The cult leader received a _____ for murdering many people.",
-    "translation": "Kült lideri, birçok kişiyi öldürmekten ömür boyu hapis cezası aldı.",
-    "context": "'Life sentence', ömür boyu hapis cezası demektir. Yani bir daha gün yüzü görmeyecek kadar uzun bir ceza. Suçun ciddiyetini vurgular. İngilizcede 'to serve a life sentence' diye kullanılır. Kimseye nasip olmasın!",
-    "options": [
-      "life sentence",
-      "short break",
-      "promotion",
-      "award"
-    ],
-    "correctAnswer": "life sentence",
-    "category": "MIXED/GENERAL",
-    "variations": [
-      "He was given a life sentence for the crime.",
-      "A life sentence means spending your life in prison."
-    ]
-  },
-  {
-    "id": 126110609,
+    "id": 126110707,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Haber, El Niño'nun Pasifik'i 'ateşle yakması' metaforunu kullanıyor. Bu ifade, ne tür bir durumu anlatmak için kullanılmış olabilir?",
-    "translation": "Pasifik Okyanusu'ndaki suların alışılmadık derecede ısınması",
-    "context": "'Burn with fever' normalde insan vücudunun yüksek ateşte olması durumunu anlatır. Ama burada 'Pasifik ateşte yanıyor' denilmesi, El Niño'nun etkisiyle okyanus sularının rekor seviyede ısındığını, adeta ateşi çıktığını mecazi olarak ifade eder. Küresel ısınmanın dramatik bir resmi!",
+    "level": "INTERMEDIATE",
+    "phrase": "İklim değişikliğinin olumsuz etkilerinden hangileri haberlerde bahsedildi?",
+    "translation": "Heatwaves, droughts, and floods.",
+    "context": "Küresel ısınma denince aklımıza gelen 'climate change', gezegenimizi derinden etkileyen bir gerçek. Haberlerde gördüğümüz sıcak hava dalgaları (heatwaves), kuraklıklar (droughts) ve seller (floods) bunun acı sonuçları. Dünyamızın ateşi yükseliyor!",
     "options": [
-      "Pasifik kıyılarında yangınlar çıkması",
-      "Pasifik'teki volkanların aktifleşmesi",
-      "Pasifik Okyanusu'ndaki suların alışılmadık derecede ısınması",
-      "Pasifik ülkelerinde salgın hastalıkların yayılması"
+      "Heatwaves, droughts, and floods.",
+      "Meteor showers and bright skies.",
+      "Bank collapses and stock market climbs.",
+      "New AI technologies and space missions."
     ],
-    "correctAnswer": "Pasifik Okyanusu'ndaki suların alışılmadık derecede ısınması",
+    "correctAnswer": "Heatwaves, droughts, and floods.",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126110708,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Papa'nın Latin Amerika'ya 'tour' yapması ne anlama geliyor?",
+    "translation": "To visit multiple places in Latin America.",
+    "context": "Papa gibi önemli bir figürün 'Latin America tour' yapması, o bölgedeki birçok farklı şehri ve ülkeyi ziyaret etmesi demek. Tıpkı bir müzik grubunun konser turnesine çıkması gibi, ancak mesajları çok daha evrensel!",
+    "options": [
+      "To visit multiple places in Latin America.",
+      "To live in Latin America permanently.",
+      "To organize a sports event in Latin America.",
+      "To study ancient Latin texts."
+    ],
+    "correctAnswer": "To visit multiple places in Latin America.",
     "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126110610,
+    "id": 126110709,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Many local governments are moving to drop the use of _____ due to privacy concerns.",
-    "translation": "Birçok yerel yönetim, gizlilik endişeleri nedeniyle gözetim kameralarının kullanımını bırakmaya yöneliyor.",
-    "context": "'Surveillance cameras', yani 'gözetim kameraları', genellikle güvenlik için kullanılır ama aynı zamanda mahremiyet endişeleri de yaratır. Her adımını takip eden büyük bir göz gibi düşün. 'CCTV cameras' olarak da geçer. Güvenlik mi, özgürlük mü ikilemi işte.",
+    "phrase": "Big Tech companies are now in the _____.",
+    "translation": "Büyük teknoloji şirketleri şimdi sıkıntılı bir durumda.",
+    "context": "'In the hot seat' deyimi, birinin veya bir grubun sorgulandığı, eleştirildiği veya baskı altında olduğu zorlu bir durumu anlatır. Tıpkı sınavda bilmediğin bir soruda kalmak gibi, terleten bir durum!",
     "options": [
-      "surveillance cameras",
-      "security guards",
-      "public transport",
-      "street lights"
+      "hot seat",
+      "good health",
+      "perfect",
+      "warm-up"
     ],
-    "correctAnswer": "surveillance cameras",
+    "correctAnswer": "hot seat",
     "category": "BUSINESS",
     "variations": [
-      "The city installed new surveillance cameras.",
-      "Do surveillance cameras make us safer?"
+      "The CEO was in the _____ after the scandal.",
+      "Being 'in the _____' requires strong leadership."
     ]
   },
   {
-    "id": 126110611,
+    "id": 126110710,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The cricketer, _____ 'Clicky Ponting', was _____ for two years from the sport.",
-    "translation": "'Clicky Ponting' lakaplı kriket oyuncusu, spordan iki yıl süreyle men edildi.",
-    "context": "'Dubbed', birine lakap takmak, bir şeyi adlandırmak anlamına gelir. 'Batman dubbed him the Joker.' gibi. 'Banned' ise bir şeyi yasaklamak, men etmek demek. Mesela kopya çekersen sınavdan 'banned' olursun. Bu durumda, oyuncuya lakap takılmış ve sonra spordan men edilmiş. Hem lakap hem ceza!",
+    "phrase": "The players _____ on their return and _____ to a win.",
+    "translation": "Oyuncular geri dönüşlerinde parladılar ve kolayca kazandılar.",
+    "context": "Sporcular için 'shine' demek, sahanın yıldızı olmak, mükemmel bir performans sergilemek demektir. 'Cruise to a win' ise, maçı rahatlıkla, adeta gemi gibi süzülerek kazanmak anlamına gelir. Rakibi ezmek ve şov yapmak gibi!",
     "options": [
-      "dubbed / banned",
-      "called / promoted",
-      "named / awarded",
-      "hailed / praised"
+      "shined / cruised",
+      "climbed / wiped",
+      "raised / collapsed",
+      "worsened / lighted"
     ],
-    "correctAnswer": "dubbed / banned",
+    "correctAnswer": "shined / cruised",
     "category": "CASUAL",
     "variations": [
-      "He was dubbed a hero.",
-      "Smoking is banned in public places."
+      "Our team _____ in the final and _____ the championship.",
+      "She _____ at the event and _____ first place easily."
     ]
   },
   {
-    "id": 126110612,
+    "id": 126110711,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Bir 'major fish kill' olayı, bir 'pollution incident' sonrasında soruşturuluyor. Buradaki iki terimin en doğru birleşimi hangisidir?",
-    "translation": "Büyük çaplı balık ölümü / Kirlilik olayı",
-    "context": "'Fish kill', bir su kütlesindeki balıkların kitlesel ölümü anlamına gelir. Genellikle 'pollution incident' yani 'kirlilik olayı' gibi çevresel felaketler sonucu olur. Kimyasal döküntüler, oksijenin azalması gibi nedenlerle balıklar nefessiz kalır ve ölür. Doğa için çok üzücü bir durumdur.",
+    "phrase": "'Trillions wiped from market values' ifadesinin anlamı nedir?",
+    "translation": "Büyük miktarda piyasa değerinin kaybedilmesi.",
+    "context": "'Wiped from market values' ifadesi, bir şirketin veya sektörün piyasa değerinden devasa miktarlarda paranın silinmesi, yani kaybedilmesi anlamına gelir. Tıpkı bir silgiyle devasa rakamların defterden silinmesi gibi, ekonomistler için kabus senaryosu!",
     "options": [
-      "Büyük balık avı / Balıkçılık kazası",
-      "Büyük çaplı balık ölümü / Kirlilik olayı",
-      "Balık yetiştiriciliği projesi / Çevre felaketi",
-      "Küçük balık sürüsü / Temiz su kaynağı"
+      "Büyük miktarda piyasa değerinin kaybedilmesi.",
+      "Yatırımcıların yeni hisseler alması.",
+      "Şirketlerin yeni ürünler piyasaya sürmesi.",
+      "Piyasa değerlerinin yükselmesi ve rekor kırması."
     ],
-    "correctAnswer": "Büyük çaplı balık ölümü / Kirlilik olayı",
-    "category": "MIXED/GENERAL",
+    "correctAnswer": "Büyük miktarda piyasa değerinin kaybedilmesi.",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126110712,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Küresel bir 'tour' planlamak genellikle neyi gerektirir?",
+    "translation": "Extensive planning and logistics for multiple destinations.",
+    "context": "Bir 'global tour' planlamak, sadece valiz hazırlamaktan çok daha fazlasını gerektirir! Farklı kıtalar, farklı kültürler, vizeler, aşılar... Adeta bir macera filmi çekimi gibi, detaylı planlama ve lojistik gerektiren devasa bir görev.",
+    "options": [
+      "Extensive planning and logistics for multiple destinations.",
+      "A simple booking for a weekend getaway.",
+      "An impromptu decision to visit a nearby city.",
+      "Only packing light clothes for a short journey."
+    ],
+    "correctAnswer": "Extensive planning and logistics for multiple destinations.",
+    "category": "TRAVEL",
     "variations": []
   }
 ]
