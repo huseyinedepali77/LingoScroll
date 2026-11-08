@@ -1,227 +1,230 @@
 [
   {
-    "id": 126110701,
+    "id": 126110801,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The Pope will begin his Latin America _____.",
-    "translation": "Papa Latin Amerika turuna başlayacak.",
-    "context": "Bir yere ziyaret veya seyahat planı yaparken 'tour' kelimesini sıkça kullanırız. Biletler alınır, valizler hazırlanır ve yeni yerler keşfetmek için heyecanlı bir 'tour' başlar!",
+    "phrase": "Many people were _____ in the attack.",
+    "translation": "'Killed' kelimesinin Türkçe karşılığıdır.",
+    "context": "'Killed' kelimesi, birinin hayatını kaybetmesi durumunu ifade eder. Haberlerde, savaşlarda veya kazalarda yaşanan ölümleri anlatmak için sıkça kullanılır. Aman dikkatli ol, hayat kıymetlidir!",
     "options": [
-      "tour",
-      "battle",
-      "collapse",
-      "stocks"
+      "killed",
+      "helped",
+      "saved",
+      "watched"
     ],
-    "correctAnswer": "tour",
-    "category": "TRAVEL",
-    "variations": [
-      "He is planning a city ____ next month.",
-      "Our band is going on a world ____ next year."
-    ]
-  },
-  {
-    "id": 126110702,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The bank's sudden _____ caused market panic.",
-    "translation": "Bankanın ani çöküşü piyasada paniğe yol açtı.",
-    "context": "Bir banka iflas ettiğinde veya büyük mali sorunlar yaşadığında 'bank collapse' denir. Bu durum bazen domino etkisi yaratıp tüm ekonomiyi sarsabilir, tıpkı domino taşları gibi!",
-    "options": [
-      "collapse",
-      "health",
-      "meteors",
-      "player"
-    ],
-    "correctAnswer": "collapse",
-    "category": "BUSINESS",
-    "variations": [
-      "The government tried to prevent a financial _____.",
-      "The company's _____ led to many job losses."
-    ]
-  },
-  {
-    "id": 126110703,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The star player is _____ for tomorrow's match.",
-    "translation": "Yıldız oyuncu yarınki maç için hazır.",
-    "context": "Sporcular için 'fit' olmak, fiziksel olarak hazır ve zinde olmak demektir. Sakatlıklar sonrası sahalara dönen oyuncular için bu kelime çok kritik! 'Sahada aslan gibi!' denilen cinsten.",
-    "options": [
-      "fit",
-      "wiped",
-      "troubled",
-      "shines"
-    ],
-    "correctAnswer": "fit",
+    "correctAnswer": "killed",
     "category": "CASUAL",
     "variations": [
-      "She works out daily to stay _____.",
-      "Are you _____ enough to run a marathon?"
+      "Sadly, some animals were _____ by the fire.",
+      "He was _____ in a car accident last year."
     ]
   },
   {
-    "id": 126110704,
+    "id": 126110802,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Meteor showers will _____ the night sky.",
-    "translation": "Meteor yağmurları gece gökyüzünü aydınlatacak.",
-    "context": "Gökyüzünde oluşan bu görsel şöleni tanımlamak için 'light up' ifadesini kullanırız. Bazen havai fişekler, bazen de milyonlarca yıldız kayması gökyüzünü adeta bir disko topu gibi 'light up' eder!",
+    "phrase": "She decided to start a new business _____.",
+    "translation": "'Venture' kelimesinin Türkçe karşılığıdır.",
+    "context": "'Venture', genellikle riskli ama heyecan verici yeni iş girişimleri için kullanılır. 'Yeni bir maceraya atılmak' gibi düşünebilirsin. Belki sen de bir gün kendi 'venture'ını başlatırsın!",
+    "options": [
+      "venture",
+      "house",
+      "car",
+      "hobby"
+    ],
+    "correctAnswer": "venture",
+    "category": "BUSINESS",
+    "variations": [
+      "His latest _____ failed, but he learned a lot.",
+      "Starting a tech _____ is very challenging."
+    ]
+  },
+  {
+    "id": 126110803,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The fireworks will _____ the night sky.",
+    "translation": "'Light up' kelimesinin Türkçe karşılığıdır.",
+    "context": "'Light up', bir yeri ışıklandırmak, aydınlatmak veya canlandırmak anlamına gelir. Havai fişekler, ışık gösterileri ya da birinin yüzündeki gülümseme için kullanılabilir. Hatta bir fikir bile beynini 'light up' edebilir!",
     "options": [
       "light up",
-      "shutting down",
-      "exceeding",
-      "readies for"
+      "put out",
+      "turn off",
+      "dim down"
     ],
     "correctAnswer": "light up",
-    "category": "MIXED",
+    "category": "TRAVEL",
     "variations": [
-      "The Christmas lights will _____ the street.",
-      "Her smile can _____ a whole room."
+      "Her smile can _____ a whole room.",
+      "The Christmas lights will _____ the city center."
     ]
   },
   {
-    "id": 126110705,
+    "id": 126110804,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "Aşağıdaki kelimelerden hangisi 'hava durumu' anlamına gelir?",
+    "translation": "Hava durumu",
+    "context": "'Weather', günlük hava durumunu tanımlamak için kullandığımız kelime. Bugün güneşli mi, yağmurlu mu? İşte bunu anlatırız. Karıştırma, 'climate' daha uzun vadeli iklimi ifade eder!",
+    "options": [
+      "Weather",
+      "Season",
+      "Wind",
+      "Snow"
+    ],
+    "correctAnswer": "Weather",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126110805,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Sequoia is _____ its Scouts program.",
-    "translation": "Sequoia, Scouts programını kapatıyor.",
-    "context": "Bir şirketin bir bölümünü, programını veya operasyonunu sonlandırması 'shutting down' demektir. Bazen verimsiz olduğu için, bazen de stratejik bir karar yüzünden 'kapıya kilit vurulur'.",
+    "phrase": "The weather was so _____, making everyone feel sad.",
+    "translation": "'Gloomy' kelimesinin Türkçe karşılığıdır.",
+    "context": "'Gloomy', kasvetli, iç karartıcı anlamına gelir. Hem hava durumu için hem de insanların ruh halleri için kullanılabilir. Gri ve sıkıcı bir günü ya da moral bozukluğunu anlatır. Biraz 'gloomy' hissediyorsan, bir kahve iyi gelebilir!",
     "options": [
-      "shutting down",
-      "raising funds",
-      "impeached",
-      "climb"
+      "gloomy",
+      "sunny",
+      "bright",
+      "exciting"
     ],
-    "correctAnswer": "shutting down",
-    "category": "BUSINESS",
+    "correctAnswer": "gloomy",
+    "category": "CASUAL",
     "variations": [
-      "They are _____ the old factory next month.",
-      "The store is _____ due to low sales."
+      "He felt _____ after losing the game.",
+      "The room was _____ with no windows."
     ]
   },
   {
-    "id": 126110706,
+    "id": 126110806,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Everton takımının beklentilerin üzerine çıkması ne anlama gelir?",
-    "translation": "To perform better than expected.",
-    "context": "Birinin veya bir takımın 'exceeding expectations' yapması, herkesin sandığından çok daha iyi iş çıkardığı anlamına gelir. Düşük bütçeyle harikalar yaratan filmler veya sürpriz şampiyonluklar hep bu kategoriye girer. Şaşırtıcı ve alkışlanası bir durum!",
+    "phrase": "'Yeni bir kariyer peşinde koşmak' anlamına gelen ifade hangisidir?",
+    "translation": "To pursue a new career",
+    "context": "'Pursue', bir şeyi takip etmek, peşinden gitmek veya bir hedefe ulaşmaya çalışmak demektir. Hayallerinin peşinden koşmak, bir hobiyi 'pursue' etmek ya da yeni bir iş fırsatını kovalamak için kullanabilirsin. Vazgeçme, 'pursue' et!",
     "options": [
-      "To perform better than expected.",
-      "To perform worse than expected.",
-      "To cancel the event.",
-      "To avoid a problem."
+      "To pursue a new career",
+      "To lose a new career",
+      "To delay a new career",
+      "To stop a new career"
     ],
-    "correctAnswer": "To perform better than expected.",
-    "category": "CASUAL",
+    "correctAnswer": "To pursue a new career",
+    "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126110707,
+    "id": 126110807,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "İklim değişikliğinin olumsuz etkilerinden hangileri haberlerde bahsedildi?",
-    "translation": "Heatwaves, droughts, and floods.",
-    "context": "Küresel ısınma denince aklımıza gelen 'climate change', gezegenimizi derinden etkileyen bir gerçek. Haberlerde gördüğümüz sıcak hava dalgaları (heatwaves), kuraklıklar (droughts) ve seller (floods) bunun acı sonuçları. Dünyamızın ateşi yükseliyor!",
+    "phrase": "'Geceleri gökyüzünde parlak çizgiler halinde kayan yıldızlar kümesi' olarak bilinen doğa olayı hangisidir?",
+    "translation": "Meteor yağmuru",
+    "context": "'Meteor shower', halk arasında 'yıldız kayması' olarak bilinen muhteşem bir gökyüzü olayıdır. Geceleri karanlık bir yerde uzanıp bu gösteriyi izlemek, sanki evrenden sana bir mesaj geliyormuş gibi hissettirir! Dilek tutmayı unutma!",
     "options": [
-      "Heatwaves, droughts, and floods.",
-      "Meteor showers and bright skies.",
-      "Bank collapses and stock market climbs.",
-      "New AI technologies and space missions."
+      "Meteor yağmuru",
+      "Kuzey ışıkları",
+      "Ay tutulması",
+      "Güneş patlaması"
     ],
-    "correctAnswer": "Heatwaves, droughts, and floods.",
-    "category": "MIXED",
-    "variations": []
-  },
-  {
-    "id": 126110708,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Papa'nın Latin Amerika'ya 'tour' yapması ne anlama geliyor?",
-    "translation": "To visit multiple places in Latin America.",
-    "context": "Papa gibi önemli bir figürün 'Latin America tour' yapması, o bölgedeki birçok farklı şehri ve ülkeyi ziyaret etmesi demek. Tıpkı bir müzik grubunun konser turnesine çıkması gibi, ancak mesajları çok daha evrensel!",
-    "options": [
-      "To visit multiple places in Latin America.",
-      "To live in Latin America permanently.",
-      "To organize a sports event in Latin America.",
-      "To study ancient Latin texts."
-    ],
-    "correctAnswer": "To visit multiple places in Latin America.",
+    "correctAnswer": "Meteor yağmuru",
     "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126110709,
+    "id": 126110808,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Big Tech companies are now in the _____.",
-    "translation": "Büyük teknoloji şirketleri şimdi sıkıntılı bir durumda.",
-    "context": "'In the hot seat' deyimi, birinin veya bir grubun sorgulandığı, eleştirildiği veya baskı altında olduğu zorlu bir durumu anlatır. Tıpkı sınavda bilmediğin bir soruda kalmak gibi, terleten bir durum!",
+    "level": "INTERMEDIATE",
+    "phrase": "Their relationship hit a _____ patch last month.",
+    "translation": "'Rocky' kelimesinin Türkçe karşılığıdır.",
+    "context": "'Rocky', genellikle zorlu, inişli çıkışlı veya istikrarsız durumları ifade eder. İlişkilerde, işlerde ya da projelerde karşılaşılan sıkıntılar için kullanılır. Sanki kayalıklı bir yolda yürümek gibi, bazen sendeleyebilirsin ama düşmezsin!",
     "options": [
-      "hot seat",
-      "good health",
-      "perfect",
-      "warm-up"
+      "rocky",
+      "smooth",
+      "easy",
+      "calm"
     ],
-    "correctAnswer": "hot seat",
-    "category": "BUSINESS",
+    "correctAnswer": "rocky",
+    "category": "MIXED",
     "variations": [
-      "The CEO was in the _____ after the scandal.",
-      "Being 'in the _____' requires strong leadership."
+      "The negotiations were a bit _____, but we reached an agreement.",
+      "Starting a new business can be a _____ road."
     ]
   },
   {
-    "id": 126110710,
+    "id": 126110809,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The players _____ on their return and _____ to a win.",
-    "translation": "Oyuncular geri dönüşlerinde parladılar ve kolayca kazandılar.",
-    "context": "Sporcular için 'shine' demek, sahanın yıldızı olmak, mükemmel bir performans sergilemek demektir. 'Cruise to a win' ise, maçı rahatlıkla, adeta gemi gibi süzülerek kazanmak anlamına gelir. Rakibi ezmek ve şov yapmak gibi!",
+    "phrase": "The coach could not give him any _____ about his future.",
+    "translation": "'Assurances' kelimesinin Türkçe karşılığıdır.",
+    "context": "'Assurances', bir konuda güvence, teminat veya garanti vermek anlamına gelir. Genellikle bir durumun veya bir kişinin geleceği hakkında verilen kesin sözler için kullanılır. 'Sana söz veriyorum' derken, aslında bir tür 'assurance' veriyorsun!",
     "options": [
-      "shined / cruised",
-      "climbed / wiped",
-      "raised / collapsed",
-      "worsened / lighted"
+      "assurances",
+      "doubts",
+      "questions",
+      "problems"
     ],
-    "correctAnswer": "shined / cruised",
+    "correctAnswer": "assurances",
     "category": "CASUAL",
     "variations": [
-      "Our team _____ in the final and _____ the championship.",
-      "She _____ at the event and _____ first place easily."
+      "We need stronger _____ that the project will succeed.",
+      "Despite her _____, she was still worried."
     ]
   },
   {
-    "id": 126110711,
+    "id": 126110810,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The company tried to _____ new talent for its AI team.",
+    "translation": "'Recruit' kelimesinin Türkçe karşılığıdır.",
+    "context": "'Recruit', yeni personel veya üye almak, işe almak anlamına gelir. Firmalar iyi elemanları 'recruit' etmek için birbirleriyle yarışır. Sanki kendi takımına yeni bir süper kahraman katmak gibi düşün!",
+    "options": [
+      "recruit",
+      "fire",
+      "ignore",
+      "punish"
+    ],
+    "correctAnswer": "recruit",
+    "category": "BUSINESS",
+    "variations": [
+      "We need to _____ more volunteers for the event.",
+      "They plan to _____ 50 new engineers next year."
+    ]
+  },
+  {
+    "id": 126110811,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "'Trillions wiped from market values' ifadesinin anlamı nedir?",
-    "translation": "Büyük miktarda piyasa değerinin kaybedilmesi.",
-    "context": "'Wiped from market values' ifadesi, bir şirketin veya sektörün piyasa değerinden devasa miktarlarda paranın silinmesi, yani kaybedilmesi anlamına gelir. Tıpkı bir silgiyle devasa rakamların defterden silinmesi gibi, ekonomistler için kabus senaryosu!",
+    "phrase": "'Küresel ısınmanın dünya üzerindeki etkilerini daha kötü hale getirmek' anlamını veren kelime hangisidir?",
+    "translation": "Worsens",
+    "context": "'Worsens', bir durumu daha kötü hale getirmek, kötüleştirmek demektir. Hava kirliliği, hastalıklar veya iklim değişikliği gibi durumlar için sıkça kullanılır. Keşke her şey 'improves' (iyileşir) olsaydı!",
     "options": [
-      "Büyük miktarda piyasa değerinin kaybedilmesi.",
-      "Yatırımcıların yeni hisseler alması.",
-      "Şirketlerin yeni ürünler piyasaya sürmesi.",
-      "Piyasa değerlerinin yükselmesi ve rekor kırması."
+      "Worsens",
+      "Improves",
+      "Stabilizes",
+      "Reduces"
     ],
-    "correctAnswer": "Büyük miktarda piyasa değerinin kaybedilmesi.",
-    "category": "MIXED",
+    "correctAnswer": "Worsens",
+    "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126110712,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "id": 126110812,
+    "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Küresel bir 'tour' planlamak genellikle neyi gerektirir?",
-    "translation": "Extensive planning and logistics for multiple destinations.",
-    "context": "Bir 'global tour' planlamak, sadece valiz hazırlamaktan çok daha fazlasını gerektirir! Farklı kıtalar, farklı kültürler, vizeler, aşılar... Adeta bir macera filmi çekimi gibi, detaylı planlama ve lojistik gerektiren devasa bir görev.",
+    "phrase": "The report _____ the main problems of the project.",
+    "translation": "'Highlights' kelimesinin Türkçe karşılığıdır.",
+    "context": "'Highlights', bir şeyin en önemli veya dikkat çekici yönlerini vurgulamak, öne çıkarmak anlamına gelir. Bir konuşmada ana noktaları 'highlight' edebilir, ya da bir maçın en güzel anlarını 'highlights' olarak izleyebilirsin. Odak noktanı belirle ve 'highlight' et!",
     "options": [
-      "Extensive planning and logistics for multiple destinations.",
-      "A simple booking for a weekend getaway.",
-      "An impromptu decision to visit a nearby city.",
-      "Only packing light clothes for a short journey."
+      "highlights",
+      "hides",
+      "ignores",
+      "forgets"
     ],
-    "correctAnswer": "Extensive planning and logistics for multiple destinations.",
-    "category": "TRAVEL",
-    "variations": []
+    "correctAnswer": "highlights",
+    "category": "MIXED",
+    "variations": [
+      "The speech _____ the need for immediate action.",
+      "Her performance _____ her amazing talent."
+    ]
   }
 ]
