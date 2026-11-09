@@ -1,230 +1,239 @@
 [
   {
-    "id": 126110801,
+    "id": 126110901,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Many people were _____ in the attack.",
-    "translation": "'Killed' kelimesinin Türkçe karşılığıdır.",
-    "context": "'Killed' kelimesi, birinin hayatını kaybetmesi durumunu ifade eder. Haberlerde, savaşlarda veya kazalarda yaşanan ölümleri anlatmak için sıkça kullanılır. Aman dikkatli ol, hayat kıymetlidir!",
+    "phrase": "The old boat began to _____ slowly.",
+    "translation": "Eski tekne yavaşça batmaya başladı.",
+    "context": "Bir tekne veya gemi suya batıp gözden kaybolduğunda 'sink' fiilini kullanırız. Genelde trajik olaylarda ya da eski bir objenin batırılması gibi durumlarda karşına çıkar. 'Titanic'in batışı' gibi hafızalara kazınmış olaylar için de bu kelime birebir!",
     "options": [
-      "killed",
-      "helped",
-      "saved",
-      "watched"
+      "sink",
+      "swim",
+      "float",
+      "rise"
     ],
-    "correctAnswer": "killed",
-    "category": "CASUAL",
-    "variations": [
-      "Sadly, some animals were _____ by the fire.",
-      "He was _____ in a car accident last year."
-    ]
-  },
-  {
-    "id": 126110802,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "She decided to start a new business _____.",
-    "translation": "'Venture' kelimesinin Türkçe karşılığıdır.",
-    "context": "'Venture', genellikle riskli ama heyecan verici yeni iş girişimleri için kullanılır. 'Yeni bir maceraya atılmak' gibi düşünebilirsin. Belki sen de bir gün kendi 'venture'ını başlatırsın!",
-    "options": [
-      "venture",
-      "house",
-      "car",
-      "hobby"
-    ],
-    "correctAnswer": "venture",
-    "category": "BUSINESS",
-    "variations": [
-      "His latest _____ failed, but he learned a lot.",
-      "Starting a tech _____ is very challenging."
-    ]
-  },
-  {
-    "id": 126110803,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The fireworks will _____ the night sky.",
-    "translation": "'Light up' kelimesinin Türkçe karşılığıdır.",
-    "context": "'Light up', bir yeri ışıklandırmak, aydınlatmak veya canlandırmak anlamına gelir. Havai fişekler, ışık gösterileri ya da birinin yüzündeki gülümseme için kullanılabilir. Hatta bir fikir bile beynini 'light up' edebilir!",
-    "options": [
-      "light up",
-      "put out",
-      "turn off",
-      "dim down"
-    ],
-    "correctAnswer": "light up",
+    "correctAnswer": "sink",
     "category": "TRAVEL",
     "variations": [
-      "Her smile can _____ a whole room.",
-      "The Christmas lights will _____ the city center."
+      "Many old ships _____ to the bottom of the sea.",
+      "The heavy stone will _____ in the water."
     ]
   },
   {
-    "id": 126110804,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "id": 126110902,
+    "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Aşağıdaki kelimelerden hangisi 'hava durumu' anlamına gelir?",
-    "translation": "Hava durumu",
-    "context": "'Weather', günlük hava durumunu tanımlamak için kullandığımız kelime. Bugün güneşli mi, yağmurlu mu? İşte bunu anlatırız. Karıştırma, 'climate' daha uzun vadeli iklimi ifade eder!",
+    "phrase": "The company plans to _____ its services next year.",
+    "translation": "Şirket, hizmetlerini gelecek yıl genişletmeyi planlıyor.",
+    "context": "Bir işin, şirketin veya servisin büyümesi, yeni yerlere açılması veya daha fazla ürün sunması durumunda 'expand' kelimesini kullanırız. Mesela, en sevdiğin kahveci yeni bir şube açtığında veya telefonun hafızasını artırdığında 'expanded' diyebilirsin! İş dünyasında çok duyacağın bir kelime.",
     "options": [
-      "Weather",
-      "Season",
-      "Wind",
-      "Snow"
+      "expand",
+      "shrink",
+      "close",
+      "limit"
     ],
-    "correctAnswer": "Weather",
-    "category": "MIXED",
-    "variations": []
-  },
-  {
-    "id": 126110805,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The weather was so _____, making everyone feel sad.",
-    "translation": "'Gloomy' kelimesinin Türkçe karşılığıdır.",
-    "context": "'Gloomy', kasvetli, iç karartıcı anlamına gelir. Hem hava durumu için hem de insanların ruh halleri için kullanılabilir. Gri ve sıkıcı bir günü ya da moral bozukluğunu anlatır. Biraz 'gloomy' hissediyorsan, bir kahve iyi gelebilir!",
-    "options": [
-      "gloomy",
-      "sunny",
-      "bright",
-      "exciting"
-    ],
-    "correctAnswer": "gloomy",
-    "category": "CASUAL",
-    "variations": [
-      "He felt _____ after losing the game.",
-      "The room was _____ with no windows."
-    ]
-  },
-  {
-    "id": 126110806,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "'Yeni bir kariyer peşinde koşmak' anlamına gelen ifade hangisidir?",
-    "translation": "To pursue a new career",
-    "context": "'Pursue', bir şeyi takip etmek, peşinden gitmek veya bir hedefe ulaşmaya çalışmak demektir. Hayallerinin peşinden koşmak, bir hobiyi 'pursue' etmek ya da yeni bir iş fırsatını kovalamak için kullanabilirsin. Vazgeçme, 'pursue' et!",
-    "options": [
-      "To pursue a new career",
-      "To lose a new career",
-      "To delay a new career",
-      "To stop a new career"
-    ],
-    "correctAnswer": "To pursue a new career",
+    "correctAnswer": "expand",
     "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126110807,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "'Geceleri gökyüzünde parlak çizgiler halinde kayan yıldızlar kümesi' olarak bilinen doğa olayı hangisidir?",
-    "translation": "Meteor yağmuru",
-    "context": "'Meteor shower', halk arasında 'yıldız kayması' olarak bilinen muhteşem bir gökyüzü olayıdır. Geceleri karanlık bir yerde uzanıp bu gösteriyi izlemek, sanki evrenden sana bir mesaj geliyormuş gibi hissettirir! Dilek tutmayı unutma!",
-    "options": [
-      "Meteor yağmuru",
-      "Kuzey ışıkları",
-      "Ay tutulması",
-      "Güneş patlaması"
-    ],
-    "correctAnswer": "Meteor yağmuru",
-    "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126110808,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Their relationship hit a _____ patch last month.",
-    "translation": "'Rocky' kelimesinin Türkçe karşılığıdır.",
-    "context": "'Rocky', genellikle zorlu, inişli çıkışlı veya istikrarsız durumları ifade eder. İlişkilerde, işlerde ya da projelerde karşılaşılan sıkıntılar için kullanılır. Sanki kayalıklı bir yolda yürümek gibi, bazen sendeleyebilirsin ama düşmezsin!",
-    "options": [
-      "rocky",
-      "smooth",
-      "easy",
-      "calm"
-    ],
-    "correctAnswer": "rocky",
-    "category": "MIXED",
     "variations": [
-      "The negotiations were a bit _____, but we reached an agreement.",
-      "Starting a new business can be a _____ road."
+      "Our team needs to _____ its market share.",
+      "They want to _____ into new cities."
     ]
   },
   {
-    "id": 126110809,
+    "id": 126110903,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The coach could not give him any _____ about his future.",
-    "translation": "'Assurances' kelimesinin Türkçe karşılığıdır.",
-    "context": "'Assurances', bir konuda güvence, teminat veya garanti vermek anlamına gelir. Genellikle bir durumun veya bir kişinin geleceği hakkında verilen kesin sözler için kullanılır. 'Sana söz veriyorum' derken, aslında bir tür 'assurance' veriyorsun!",
+    "level": "BEGINNER",
+    "phrase": "Don't worry, I was just _____.",
+    "translation": "Endişelenme, sadece şaka yapıyordum.",
+    "context": "Birine 'I'm just kidding!' dediğinde, yaptığın veya söylediğin şeyin ciddi olmadığını, sadece eğlence amaçlı bir şaka olduğunu belirtirsin. Arkadaş ortamında, hafif bir espri yaptığında veya birini yanlış anladığında kullanışlı bir ifade. Kimse sana 'Ciddi misin?' diye sorduğunda 'just kidding' demek hayat kurtarabilir!",
     "options": [
-      "assurances",
-      "doubts",
-      "questions",
-      "problems"
+      "kidding",
+      "crying",
+      "lying",
+      "waiting"
     ],
-    "correctAnswer": "assurances",
+    "correctAnswer": "kidding",
     "category": "CASUAL",
     "variations": [
-      "We need stronger _____ that the project will succeed.",
-      "Despite her _____, she was still worried."
+      "Are you _____ me?",
+      "He was _____ about the big party."
     ]
   },
   {
-    "id": 126110810,
+    "id": 126110904,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The company tried to _____ new talent for its AI team.",
-    "translation": "'Recruit' kelimesinin Türkçe karşılığıdır.",
-    "context": "'Recruit', yeni personel veya üye almak, işe almak anlamına gelir. Firmalar iyi elemanları 'recruit' etmek için birbirleriyle yarışır. Sanki kendi takımına yeni bir süper kahraman katmak gibi düşün!",
+    "level": "BEGINNER",
+    "phrase": "The stars are clearly _____ tonight.",
+    "translation": "Yıldızlar bu gece açıkça görülebilir.",
+    "context": "Gözlerimizle görebildiğimiz veya algılayabildiğimiz her şey için 'visible' kelimesini kullanırız. Örneğin, sis dağıldığında dağın zirvesi 'visible' olur ya da cebindeki telefonun ekranı kırıldığında içindeki çatlaklar 'visible' hale gelir. Gökyüzündeki meteor yağmurları da tabii ki 'visible' olmalı!",
     "options": [
-      "recruit",
-      "fire",
+      "visible",
+      "hidden",
+      "dark",
+      "imaginary"
+    ],
+    "correctAnswer": "visible",
+    "category": "MIXED",
+    "variations": [
+      "The moon was not _____ due to clouds.",
+      "The island became _____ as we got closer."
+    ]
+  },
+  {
+    "id": 126110905,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "She packed her bags for a _____ journey.",
+    "translation": "O, Avrupa'ya doğru bir yolculuk için çantalarını topladı.",
+    "context": "'-bound' eki, bir şeyin belirli bir yere doğru gittiğini veya o yere bağlı olduğunu ifade eder. Mesela, 'home-bound' (eve dönen), 'London-bound' (Londra'ya giden tren) gibi düşünebilirsin. Seyahat ederken havalimanlarında veya otobüs terminallerinde çokça duyacağın bir kalıp. Hatta bazen 'duty-bound' (görevli) gibi mecazi anlamlarda da kullanılır.",
+    "options": [
+      "Europe-bound",
+      "Europe-free",
+      "Europe-wide",
+      "Europe-less"
+    ],
+    "correctAnswer": "Europe-bound",
+    "category": "TRAVEL",
+    "variations": [
+      "The train was _____ for its final stop.",
+      "Many students are now _____ for their summer vacation."
+    ]
+  },
+  {
+    "id": 126110906,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The police decided to _____ the strange incident.",
+    "translation": "Polis, tuhaf olayı soruşturmaya karar verdi.",
+    "context": "Bir durumu, olayı veya iddiayı detaylı bir şekilde incelemek, araştırmak ve gerçeği bulmak için 'investigate' fiilini kullanırız. Dedektifler cinayetleri, şirketler usulsüzlükleri, bilim insanları da yeni keşifleri 'investigate' ederler. Yani bir nevi Sherlock Holmes'luk yapmak gibi düşünebilirsin!",
+    "options": [
+      "investigate",
       "ignore",
-      "punish"
+      "forget",
+      "accept"
     ],
-    "correctAnswer": "recruit",
+    "correctAnswer": "investigate",
     "category": "BUSINESS",
     "variations": [
-      "We need to _____ more volunteers for the event.",
-      "They plan to _____ 50 new engineers next year."
+      "We need to _____ the cause of the problem.",
+      "The journalist began to _____ the rumors."
     ]
   },
   {
-    "id": 126110811,
+    "id": 126110907,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "'Küresel ısınmanın dünya üzerindeki etkilerini daha kötü hale getirmek' anlamını veren kelime hangisidir?",
-    "translation": "Worsens",
-    "context": "'Worsens', bir durumu daha kötü hale getirmek, kötüleştirmek demektir. Hava kirliliği, hastalıklar veya iklim değişikliği gibi durumlar için sıkça kullanılır. Keşke her şey 'improves' (iyileşir) olsaydı!",
+    "level": "INTERMEDIATE",
+    "phrase": "Which word describes endlessly consuming negative news online?",
+    "translation": "Çevrimiçi olarak olumsuz haberleri durmaksızın tüketmeyi tanımlayan kelime hangisidir?",
+    "context": "Sosyal medyada veya haber sitelerinde kötü ve olumsuz haberleri durmadan okuma eylemine 'doomscrolling' denir. Resmen parmağınla sonsuzluğa kaydırırken iç dünyan da kararıyor gibi! Bu modern çağın yeni hastalığı, kendine bir iyilik yap ve biraz mola ver! Belki o uygulamalar gerçekten işe yarar.",
     "options": [
-      "Worsens",
-      "Improves",
-      "Stabilizes",
-      "Reduces"
+      "doomscrolling",
+      "mindfulness",
+      "newsreading",
+      "positivescrolling"
     ],
-    "correctAnswer": "Worsens",
-    "category": "TRAVEL",
+    "correctAnswer": "doomscrolling",
+    "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126110812,
+    "id": 126110908,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The report _____ the main problems of the project.",
-    "translation": "'Highlights' kelimesinin Türkçe karşılığıdır.",
-    "context": "'Highlights', bir şeyin en önemli veya dikkat çekici yönlerini vurgulamak, öne çıkarmak anlamına gelir. Bir konuşmada ana noktaları 'highlight' edebilir, ya da bir maçın en güzel anlarını 'highlights' olarak izleyebilirsin. Odak noktanı belirle ve 'highlight' et!",
+    "level": "INTERMEDIATE",
+    "phrase": "After many troubles, there was a _____ for the team.",
+    "translation": "Birçok sorundan sonra, takım için bir iyi haber kırıntısı vardı.",
+    "context": "Bir 'glimmer of good news', kötü bir durumun veya bir dizi olumsuzluğun ortasında beliren ufacık, az da olsa umut verici bir işaret veya iyi haber parçası demektir. Hani tünelin ucundaki ışık gibi, ama daha minik ve bazen zor fark edilen bir ışık. 'Dormouse' haberi gibi, küçük bir canlı için bile olsa, her iyi haber bir 'glimmer'dir!",
     "options": [
-      "highlights",
-      "hides",
-      "ignores",
-      "forgets"
+      "glimmer of good news",
+      "dark cloud",
+      "huge problem",
+      "bad feeling"
     ],
-    "correctAnswer": "highlights",
+    "correctAnswer": "glimmer of good news",
     "category": "MIXED",
     "variations": [
-      "The speech _____ the need for immediate action.",
-      "Her performance _____ her amazing talent."
+      "We found a _____ in his recovery.",
+      "The report offered a _____ about the economy."
+    ]
+  },
+  {
+    "id": 126110909,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The _____ is home to many ducks and geese.",
+    "translation": "Su kuşları parkı birçok ördek ve kaz'a ev sahipliği yapıyor.",
+    "context": "'Waterfowl park', ördek, kaz, kuğu gibi su kuşlarının yaşadığı ve korunduğu özel bir park veya doğal alandır. Eğer kuş gözlemlemeyi seviyorsan veya doğayla iç içe olmak istersen, bu parklar tam sana göre. Bazen 'bird sanctuary' (kuş sığınağı) olarak da geçerler ama 'waterfowl' su kuşlarına özgüdür.",
+    "options": [
+      "waterfowl park",
+      "desert park",
+      "forest park",
+      "city park"
+    ],
+    "correctAnswer": "waterfowl park",
+    "category": "TRAVEL",
+    "variations": [
+      "Many migrating birds stop at the local _____.",
+      "We saw rare species at the _____."
+    ]
+  },
+  {
+    "id": 126110910,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "If he fails this project, his _____.",
+    "translation": "Bu projede başarısız olursa, işi tehlikeye girer.",
+    "context": "'Someone's job is on the line' ifadesi, bir kişinin işini kaybetme, kovulma veya kariyerinde büyük bir riske girme ihtimalinin yüksek olduğunu belirtir. Genelde büyük sorumluluklar veya kritik projelerde başarısızlık durumunda kullanılır. Yani deyim yerindeyse, ipin ucunda olmak gibi bir durum! Çok gerilimli bir durum değil mi?",
+    "options": [
+      "job is on the line",
+      "job is secure",
+      "job is easy",
+      "job is promoted"
+    ],
+    "correctAnswer": "job is on the line",
+    "category": "BUSINESS",
+    "variations": [
+      "Her reputation was also _____.",
+      "With the company struggling, many positions are _____."
+    ]
+  },
+  {
+    "id": 126110911,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The two rival teams are preparing for a big _____.",
+    "translation": "İki rakip takım büyük bir hesaplaşmaya hazırlanıyor.",
+    "context": "'Showdown', genellikle iki rakip arasında, bir sorunu çözmek veya üstünlük kurmak için yapılan nihai ve belirleyici yüzleşme, hesaplaşma veya mücadele demektir. Western filmlerindeki tabanca düelloları ya da spor müsabakalarındaki kritik final maçları tam olarak birer 'showdown'dur. Kısacası, nefes kesen anlar için kullanılır!",
+    "options": [
+      "showdown",
+      "friendly chat",
+      "cooperation",
+      "small meeting"
+    ],
+    "correctAnswer": "showdown",
+    "category": "CASUAL",
+    "variations": [
+      "The election will be a major _____ for the party.",
+      "They are heading for a legal _____."
+    ]
+  },
+  {
+    "id": 126110912,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The coach selected an _____ for his debut match.",
+    "translation": "Antrenör, ilk maçı için uluslararası deneyimi olmayan bir 'spinner' seçti.",
+    "context": "Kriket veya benzeri sporlarda 'uncapped' bir oyuncu, henüz ulusal takımda oynamamış veya uluslararası arenada temsil etmemiş demektir. 'Spinner' ise topa falso veren, topu döndürerek rakibi zorlayan bir kriket oyuncusu pozisyonudur. Yani 'uncapped spinner', daha önce milli takım forması giymemiş, topu ustaca çeviren genç bir yetenek demek. Heyecan verici bir ilk maç için harika bir seçim!",
+    "options": [
+      "uncapped spinner",
+      "experienced batsman",
+      "team captain",
+      "retired umpire"
+    ],
+    "correctAnswer": "uncapped spinner",
+    "category": "MIXED",
+    "variations": [
+      "She is an _____ talent in the local league.",
+      "Many _____ players dream of joining the national team."
     ]
   }
 ]
