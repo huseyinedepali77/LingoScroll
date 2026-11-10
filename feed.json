@@ -1,239 +1,230 @@
 [
   {
-    "id": 126110901,
+    "id": 126111001,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The old boat began to _____ slowly.",
-    "translation": "Eski tekne yavaşça batmaya başladı.",
-    "context": "Bir tekne veya gemi suya batıp gözden kaybolduğunda 'sink' fiilini kullanırız. Genelde trajik olaylarda ya da eski bir objenin batırılması gibi durumlarda karşına çıkar. 'Titanic'in batışı' gibi hafızalara kazınmış olaylar için de bu kelime birebir!",
+    "phrase": "The police _____ the suspect's passport at the airport.",
+    "translation": "Polis, şüphelinin pasaportuna havalimanında el koydu.",
+    "context": "Uçak bileti alıp tam tatile çıkacakken bir anda pasaportunuzu polisin 'el koyması' gibi durumlar için 'seize' kelimesi kullanılır. Yani, yetkililerin bir şeye resmen el koyması, onu alması anlamına gelir. Vahşi Batı filmlerindeki gibi, 'silahına el konuldu!' cümlesini düşünebilirsin.",
     "options": [
-      "sink",
-      "swim",
-      "float",
-      "rise"
+      "seized",
+      "bought",
+      "released",
+      "checked"
     ],
-    "correctAnswer": "sink",
+    "correctAnswer": "seized",
     "category": "TRAVEL",
     "variations": [
-      "Many old ships _____ to the bottom of the sea.",
-      "The heavy stone will _____ in the water."
+      "Customs officers _____ the illegal goods.",
+      "The ship was _____ for carrying contraband."
     ]
   },
   {
-    "id": 126110902,
+    "id": 126111002,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The company plans to _____ its services next year.",
-    "translation": "Şirket, hizmetlerini gelecek yıl genişletmeyi planlıyor.",
-    "context": "Bir işin, şirketin veya servisin büyümesi, yeni yerlere açılması veya daha fazla ürün sunması durumunda 'expand' kelimesini kullanırız. Mesela, en sevdiğin kahveci yeni bir şube açtığında veya telefonun hafızasını artırdığında 'expanded' diyebilirsin! İş dünyasında çok duyacağın bir kelime.",
+    "phrase": "After the new ad campaign, our online _____ jumped significantly.",
+    "translation": "Yeni reklam kampanyasından sonra online satışlarımız önemli ölçüde arttı.",
+    "context": "Bir ürünün satışları aniden fırladığında, yani beklentilerin üzerinde bir artış gösterdiğinde 'sales jump' deriz. Yeni bir telefon modeli çıktığında veya bir kafe yeni bir lezzet sunduğunda patlama yapan 'satışları' düşün!",
     "options": [
-      "expand",
-      "shrink",
-      "close",
-      "limit"
+      "sales",
+      "costs",
+      "problems",
+      "debts"
     ],
-    "correctAnswer": "expand",
+    "correctAnswer": "sales",
     "category": "BUSINESS",
     "variations": [
-      "Our team needs to _____ its market share.",
-      "They want to _____ into new cities."
+      "The company reported a sharp _____ increase this quarter.",
+      "We expect _____ to jump after the holiday season."
     ]
   },
   {
-    "id": 126110903,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Don't worry, I was just _____.",
-    "translation": "Endişelenme, sadece şaka yapıyordum.",
-    "context": "Birine 'I'm just kidding!' dediğinde, yaptığın veya söylediğin şeyin ciddi olmadığını, sadece eğlence amaçlı bir şaka olduğunu belirtirsin. Arkadaş ortamında, hafif bir espri yaptığında veya birini yanlış anladığında kullanışlı bir ifade. Kimse sana 'Ciddi misin?' diye sorduğunda 'just kidding' demek hayat kurtarabilir!",
-    "options": [
-      "kidding",
-      "crying",
-      "lying",
-      "waiting"
-    ],
-    "correctAnswer": "kidding",
-    "category": "CASUAL",
-    "variations": [
-      "Are you _____ me?",
-      "He was _____ about the big party."
-    ]
-  },
-  {
-    "id": 126110904,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The stars are clearly _____ tonight.",
-    "translation": "Yıldızlar bu gece açıkça görülebilir.",
-    "context": "Gözlerimizle görebildiğimiz veya algılayabildiğimiz her şey için 'visible' kelimesini kullanırız. Örneğin, sis dağıldığında dağın zirvesi 'visible' olur ya da cebindeki telefonun ekranı kırıldığında içindeki çatlaklar 'visible' hale gelir. Gökyüzündeki meteor yağmurları da tabii ki 'visible' olmalı!",
-    "options": [
-      "visible",
-      "hidden",
-      "dark",
-      "imaginary"
-    ],
-    "correctAnswer": "visible",
-    "category": "MIXED",
-    "variations": [
-      "The moon was not _____ due to clouds.",
-      "The island became _____ as we got closer."
-    ]
-  },
-  {
-    "id": 126110905,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "She packed her bags for a _____ journey.",
-    "translation": "O, Avrupa'ya doğru bir yolculuk için çantalarını topladı.",
-    "context": "'-bound' eki, bir şeyin belirli bir yere doğru gittiğini veya o yere bağlı olduğunu ifade eder. Mesela, 'home-bound' (eve dönen), 'London-bound' (Londra'ya giden tren) gibi düşünebilirsin. Seyahat ederken havalimanlarında veya otobüs terminallerinde çokça duyacağın bir kalıp. Hatta bazen 'duty-bound' (görevli) gibi mecazi anlamlarda da kullanılır.",
-    "options": [
-      "Europe-bound",
-      "Europe-free",
-      "Europe-wide",
-      "Europe-less"
-    ],
-    "correctAnswer": "Europe-bound",
-    "category": "TRAVEL",
-    "variations": [
-      "The train was _____ for its final stop.",
-      "Many students are now _____ for their summer vacation."
-    ]
-  },
-  {
-    "id": 126110906,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The police decided to _____ the strange incident.",
-    "translation": "Polis, tuhaf olayı soruşturmaya karar verdi.",
-    "context": "Bir durumu, olayı veya iddiayı detaylı bir şekilde incelemek, araştırmak ve gerçeği bulmak için 'investigate' fiilini kullanırız. Dedektifler cinayetleri, şirketler usulsüzlükleri, bilim insanları da yeni keşifleri 'investigate' ederler. Yani bir nevi Sherlock Holmes'luk yapmak gibi düşünebilirsin!",
-    "options": [
-      "investigate",
-      "ignore",
-      "forget",
-      "accept"
-    ],
-    "correctAnswer": "investigate",
-    "category": "BUSINESS",
-    "variations": [
-      "We need to _____ the cause of the problem.",
-      "The journalist began to _____ the rumors."
-    ]
-  },
-  {
-    "id": 126110907,
+    "id": 126111003,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Which word describes endlessly consuming negative news online?",
-    "translation": "Çevrimiçi olarak olumsuz haberleri durmaksızın tüketmeyi tanımlayan kelime hangisidir?",
-    "context": "Sosyal medyada veya haber sitelerinde kötü ve olumsuz haberleri durmadan okuma eylemine 'doomscrolling' denir. Resmen parmağınla sonsuzluğa kaydırırken iç dünyan da kararıyor gibi! Bu modern çağın yeni hastalığı, kendine bir iyilik yap ve biraz mola ver! Belki o uygulamalar gerçekten işe yarar.",
+    "level": "BEGINNER",
+    "phrase": "Which of the following refers to a humorous image, video, or piece of text that is copied and spread rapidly by Internet users, often with slight variations?",
+    "translation": "İnternet kullanıcıları tarafından kopyalanıp hızla yayılan, genellikle küçük varyasyonlarla mizahi bir görsel, video veya metin parçasına ne denir?",
+    "context": "Sosyal medyada hepimizin güldüğü, paylaştığı, üzerinde oynayarak yeniden ürettiği komik görseller, videolar veya yazılara 'meme' denir. O kadar hızlı yayılırlar ki bir bakmışsın herkes aynı şeye gülüyor! Bir kedi fotoğrafının binlerce versiyonu gibi düşünebilirsin.",
     "options": [
-      "doomscrolling",
-      "mindfulness",
-      "newsreading",
-      "positivescrolling"
+      "Blogs",
+      "Podcasts",
+      "Memes",
+      "E-books"
     ],
-    "correctAnswer": "doomscrolling",
+    "correctAnswer": "Memes",
     "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126110908,
+    "id": 126111004,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The leaders decided to hold new _____ to resolve the conflict.",
+    "translation": "Liderler, çatışmayı çözmek için yeni barış görüşmeleri yapmaya karar verdiler.",
+    "context": "İki tarafın aralarındaki kavgayı, anlaşmazlığı veya savaşı bitirmek için bir araya gelip konuşmalarına 'peace talks' denir. Yani 'barış görüşmeleri' demek. Bazen kardeşinle aranızdaki küçük bir tartışmayı bile 'peace talks' ile çözersin!",
+    "options": [
+      "peace talks",
+      "war games",
+      "political rallies",
+      "economic sanctions"
+    ],
+    "correctAnswer": "peace talks",
+    "category": "MIXED",
+    "variations": [
+      "International delegates will join the _____ next month.",
+      "Hopes are high for successful _____ this time."
+    ]
+  },
+  {
+    "id": 126111005,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "After many troubles, there was a _____ for the team.",
-    "translation": "Birçok sorundan sonra, takım için bir iyi haber kırıntısı vardı.",
-    "context": "Bir 'glimmer of good news', kötü bir durumun veya bir dizi olumsuzluğun ortasında beliren ufacık, az da olsa umut verici bir işaret veya iyi haber parçası demektir. Hani tünelin ucundaki ışık gibi, ama daha minik ve bazen zor fark edilen bir ışık. 'Dormouse' haberi gibi, küçük bir canlı için bile olsa, her iyi haber bir 'glimmer'dir!",
+    "phrase": "We are planning a Mediterranean _____ next summer.",
+    "translation": "Gelecek yaz bir Akdeniz gemi yolculuğu planlıyoruz.",
+    "context": "Gemilerle yapılan, genellikle birden fazla şehri veya ülkeyi kapsayan lüks ve eğlenceli deniz yolculuklarına 'cruise' denir. Güneşlenmek, havuz başında kokteyl içmek ve her gün farklı bir limanda uyanmak gibi hayal edebilirsin. Seyahat etmenin en rahat yollarından biri!",
     "options": [
-      "glimmer of good news",
-      "dark cloud",
-      "huge problem",
-      "bad feeling"
+      "cruise",
+      "hike",
+      "road trip",
+      "backpacking"
     ],
-    "correctAnswer": "glimmer of good news",
-    "category": "MIXED",
-    "variations": [
-      "We found a _____ in his recovery.",
-      "The report offered a _____ about the economy."
-    ]
-  },
-  {
-    "id": 126110909,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The _____ is home to many ducks and geese.",
-    "translation": "Su kuşları parkı birçok ördek ve kaz'a ev sahipliği yapıyor.",
-    "context": "'Waterfowl park', ördek, kaz, kuğu gibi su kuşlarının yaşadığı ve korunduğu özel bir park veya doğal alandır. Eğer kuş gözlemlemeyi seviyorsan veya doğayla iç içe olmak istersen, bu parklar tam sana göre. Bazen 'bird sanctuary' (kuş sığınağı) olarak da geçerler ama 'waterfowl' su kuşlarına özgüdür.",
-    "options": [
-      "waterfowl park",
-      "desert park",
-      "forest park",
-      "city park"
-    ],
-    "correctAnswer": "waterfowl park",
+    "correctAnswer": "cruise",
     "category": "TRAVEL",
     "variations": [
-      "Many migrating birds stop at the local _____.",
-      "We saw rare species at the _____."
+      "The 'Cruise for Life' ship offered a unique travel experience.",
+      "Many people enjoy going on a _____ during their vacation."
     ]
   },
   {
-    "id": 126110910,
+    "id": 126111006,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "If he fails this project, his _____.",
-    "translation": "Bu projede başarısız olursa, işi tehlikeye girer.",
-    "context": "'Someone's job is on the line' ifadesi, bir kişinin işini kaybetme, kovulma veya kariyerinde büyük bir riske girme ihtimalinin yüksek olduğunu belirtir. Genelde büyük sorumluluklar veya kritik projelerde başarısızlık durumunda kullanılır. Yani deyim yerindeyse, ipin ucunda olmak gibi bir durum! Çok gerilimli bir durum değil mi?",
+    "level": "INTERMEDIATE",
+    "phrase": "The new _____ on luxury goods met with strong opposition.",
+    "translation": "Lüks ürünler üzerindeki yeni önerilen vergi güçlü bir muhalefetle karşılaştı.",
+    "context": "Bir yasa veya düzenleme olarak 'önerilen', henüz resmi olarak kabul edilmemiş ama tartışılan bir vergiye 'proposed tax' denir. Tıpkı bir iş yerinin 'önerilen yeni çalışma saatleri' gibi, henüz kesinleşmemiş ama üzerinde durulan bir konudur.",
     "options": [
-      "job is on the line",
-      "job is secure",
-      "job is easy",
-      "job is promoted"
+      "proposed tax",
+      "approved budget",
+      "final decision",
+      "market share"
     ],
-    "correctAnswer": "job is on the line",
+    "correctAnswer": "proposed tax",
     "category": "BUSINESS",
     "variations": [
-      "Her reputation was also _____.",
-      "With the company struggling, many positions are _____."
+      "The council discussed the _____ for homeowners.",
+      "They debated the impact of the _____ on small businesses."
     ]
   },
   {
-    "id": 126110911,
+    "id": 126111007,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The two rival teams are preparing for a big _____.",
-    "translation": "İki rakip takım büyük bir hesaplaşmaya hazırlanıyor.",
-    "context": "'Showdown', genellikle iki rakip arasında, bir sorunu çözmek veya üstünlük kurmak için yapılan nihai ve belirleyici yüzleşme, hesaplaşma veya mücadele demektir. Western filmlerindeki tabanca düelloları ya da spor müsabakalarındaki kritik final maçları tam olarak birer 'showdown'dur. Kısacası, nefes kesen anlar için kullanılır!",
+    "level": "INTERMEDIATE",
+    "phrase": "He was called a _____ for not standing up for his friend.",
+    "translation": "Arkadaşını savunmadığı için korkak dendi.",
+    "context": "Tehlikeli veya zor bir durumda cesaret gösteremeyen, korkakça davranan kişiye 'coward' denir. Hani bazı filmlerde kahraman olmak yerine saklanmayı seçen karakterler vardır ya, işte onlar 'coward' olarak nitelendirilir. Kimse 'coward' olmak istemez!",
     "options": [
-      "showdown",
-      "friendly chat",
-      "cooperation",
-      "small meeting"
+      "coward",
+      "hero",
+      "leader",
+      "champion"
     ],
-    "correctAnswer": "showdown",
+    "correctAnswer": "coward",
     "category": "CASUAL",
     "variations": [
-      "The election will be a major _____ for the party.",
-      "They are heading for a legal _____."
+      "Don't be a _____, face your fears!",
+      "She refused to be labeled a _____."
     ]
   },
   {
-    "id": 126110912,
+    "id": 126111008,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "What are malicious attempts to disrupt, damage, or gain unauthorized access to computer systems, networks, or data?",
+    "translation": "Bilgisayar sistemlerine, ağlara veya verilere izinsiz erişim sağlamak, bozmak veya zarar vermek amacıyla yapılan kötü niyetli girişimler nelerdir?",
+    "context": "Bilgisayar sistemlerine, ağlara veya verilere izinsiz erişim sağlamak, onları bozmak veya zarar vermek amacıyla yapılan kötü niyetli girişimlere 'cyberattacks' denir. Telefonuna gelen 'bedava hediye kazandınız!' mesajı aslında seni bir 'cyberattack' kurbanı yapabilir! Verilerini korumak için dikkatli olmalısın.",
+    "options": [
+      "Data breaches",
+      "Cyberattacks",
+      "Software updates",
+      "Firewall policies"
+    ],
+    "correctAnswer": "Cyberattacks",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126111009,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The coach selected an _____ for his debut match.",
-    "translation": "Antrenör, ilk maçı için uluslararası deneyimi olmayan bir 'spinner' seçti.",
-    "context": "Kriket veya benzeri sporlarda 'uncapped' bir oyuncu, henüz ulusal takımda oynamamış veya uluslararası arenada temsil etmemiş demektir. 'Spinner' ise topa falso veren, topu döndürerek rakibi zorlayan bir kriket oyuncusu pozisyonudur. Yani 'uncapped spinner', daha önce milli takım forması giymemiş, topu ustaca çeviren genç bir yetenek demek. Heyecan verici bir ilk maç için harika bir seçim!",
+    "phrase": "The athlete was _____ from the race for doping.",
+    "translation": "Sporcu, doping yaptığı için yarışmadan diskalifiye edildi.",
+    "context": "Bir kural ihlali nedeniyle bir yarışmadan, turnuvadan veya resmi bir durumdan 'men edilmek', 'hükümsüz sayılmak' anlamına gelir. Tıpkı kopya çektiği için sınavdan 'disqualified' olan bir öğrenci gibi, kurallara uymadığında sonuçları ağır olabilir. Seyahatte vize ihlali yaparsan ülkeye girişin bile 'disqualified' edilebilir.",
     "options": [
-      "uncapped spinner",
-      "experienced batsman",
-      "team captain",
-      "retired umpire"
+      "disqualified",
+      "qualified",
+      "awarded",
+      "registered"
     ],
-    "correctAnswer": "uncapped spinner",
-    "category": "MIXED",
+    "correctAnswer": "disqualified",
+    "category": "TRAVEL",
     "variations": [
-      "She is an _____ talent in the local league.",
-      "Many _____ players dream of joining the national team."
+      "He was _____ for not submitting the project on time.",
+      "Any participant breaking the rules will be immediately _____."
     ]
+  },
+  {
+    "id": 126111010,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "In a business or intelligence context, what refers to an attractive trap designed to lure individuals into a compromising situation, often involving espionage or financial gain?",
+    "translation": "İş veya istihbarat bağlamında, bireyleri genellikle casusluk veya finansal kazanç içeren uzlaşmacı bir duruma çekmek için tasarlanmış çekici bir tuzağa ne denir?",
+    "context": "İş veya istihbarat dünyasında, birini zaaflarından faydalanarak tuzağa düşürmek, genellikle casusluk veya finansal çıkar elde etmek için kurulmuş çekici bir 'tuzak' anlamına gelir. Adı üstünde, bal kavanozu gibi cezbedici ama aslında kötü niyetli bir 'skandal' yaratır. Bazen siber güvenlikte de sahte bir sistem kurup hackerları çekmeye 'honeypot' denir.",
+    "options": [
+      "Whistleblower report",
+      "Hostile takeover",
+      "Due diligence",
+      "Honeypot scandal"
+    ],
+    "correctAnswer": "Honeypot scandal",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126111011,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The restaurant serves _____ Italian food.",
+    "translation": "Restoran birinci sınıf İtalyan yemekleri servis ediyor.",
+    "context": "Bir şeyin kalitesinin 'en üst düzeyde', 'harika', 'birinci sınıf' olduğunu belirtmek için kullanılır. Arkadaşının yeni aldığı telefon 'top-notch' olabilir, izlediğin bir film 'top-notch' olabilir veya yaptığın bir iş 'top-notch' olabilir. Yani mükemmelin bir üst versiyonu!",
+    "options": [
+      "top-notch",
+      "mediocre",
+      "awful",
+      "average"
+    ],
+    "correctAnswer": "top-notch",
+    "category": "CASUAL",
+    "variations": [
+      "Her performance was absolutely _____.",
+      "They offer _____ customer service."
+    ]
+  },
+  {
+    "id": 126111012,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "What is a place of refuge or safety, especially for birds or animals?",
+    "translation": "Özellikle kuşlar veya hayvanlar için bir sığınma veya güvenlik yeri nedir?",
+    "context": "Özellikle kuşlar veya hayvanlar için güvenli, korunaklı bir barınma, sığınak veya yaşam alanı anlamına gelir. Doğa koruma alanları, yırtıcılardan veya insan müdahalesinden uzak kalmaları için hayvanlara 'sanctuary' sağlar. Hani filmlerde kaçakların sığındığı 'kutsal yer' gibi düşünebilirsin, ama burası hayvanlar için!",
+    "options": [
+      "Zoo",
+      "Aquarium",
+      "Sanctuary",
+      "Farm"
+    ],
+    "correctAnswer": "Sanctuary",
+    "category": "MIXED",
+    "variations": []
   }
 ]
