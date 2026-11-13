@@ -1,230 +1,236 @@
 [
   {
-    "id": 126111001,
+    "id": 126111301,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The police _____ the suspect's passport at the airport.",
-    "translation": "Polis, şüphelinin pasaportuna havalimanında el koydu.",
-    "context": "Uçak bileti alıp tam tatile çıkacakken bir anda pasaportunuzu polisin 'el koyması' gibi durumlar için 'seize' kelimesi kullanılır. Yani, yetkililerin bir şeye resmen el koyması, onu alması anlamına gelir. Vahşi Batı filmlerindeki gibi, 'silahına el konuldu!' cümlesini düşünebilirsin.",
+    "phrase": "The global Microsoft services suffered a major _____ today.",
+    "translation": "Microsoft hizmetleri bugün büyük bir kesinti yaşadı.",
+    "context": "'Outage', elektrik kesintisi veya internet/uygulama gibi hizmetlerdeki büyük çaplı kesinti anlamına gelir. Sabah kahveni alıp işe başladığında Outlook'un, Teams'in çalışmadığını görürsen, 'We have an outage!' diye haykırabilirsin. Patronunu aramak yerine bir kahve daha içmek için bahane olabilir!",
     "options": [
-      "seized",
-      "bought",
-      "released",
-      "checked"
+      "outage",
+      "usage",
+      "storage",
+      "message"
     ],
-    "correctAnswer": "seized",
-    "category": "TRAVEL",
-    "variations": [
-      "Customs officers _____ the illegal goods.",
-      "The ship was _____ for carrying contraband."
-    ]
-  },
-  {
-    "id": 126111002,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "After the new ad campaign, our online _____ jumped significantly.",
-    "translation": "Yeni reklam kampanyasından sonra online satışlarımız önemli ölçüde arttı.",
-    "context": "Bir ürünün satışları aniden fırladığında, yani beklentilerin üzerinde bir artış gösterdiğinde 'sales jump' deriz. Yeni bir telefon modeli çıktığında veya bir kafe yeni bir lezzet sunduğunda patlama yapan 'satışları' düşün!",
-    "options": [
-      "sales",
-      "costs",
-      "problems",
-      "debts"
-    ],
-    "correctAnswer": "sales",
+    "correctAnswer": "outage",
     "category": "BUSINESS",
     "variations": [
-      "The company reported a sharp _____ increase this quarter.",
-      "We expect _____ to jump after the holiday season."
+      "A power _____ left thousands without electricity.",
+      "The website had an unexpected _____ for hours."
     ]
   },
   {
-    "id": 126111003,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "Which of the following refers to a humorous image, video, or piece of text that is copied and spread rapidly by Internet users, often with slight variations?",
-    "translation": "İnternet kullanıcıları tarafından kopyalanıp hızla yayılan, genellikle küçük varyasyonlarla mizahi bir görsel, video veya metin parçasına ne denir?",
-    "context": "Sosyal medyada hepimizin güldüğü, paylaştığı, üzerinde oynayarak yeniden ürettiği komik görseller, videolar veya yazılara 'meme' denir. O kadar hızlı yayılırlar ki bir bakmışsın herkes aynı şeye gülüyor! Bir kedi fotoğrafının binlerce versiyonu gibi düşünebilirsin.",
-    "options": [
-      "Blogs",
-      "Podcasts",
-      "Memes",
-      "E-books"
-    ],
-    "correctAnswer": "Memes",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126111004,
+    "id": 126111302,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The leaders decided to hold new _____ to resolve the conflict.",
-    "translation": "Liderler, çatışmayı çözmek için yeni barış görüşmeleri yapmaya karar verdiler.",
-    "context": "İki tarafın aralarındaki kavgayı, anlaşmazlığı veya savaşı bitirmek için bir araya gelip konuşmalarına 'peace talks' denir. Yani 'barış görüşmeleri' demek. Bazen kardeşinle aranızdaki küçük bir tartışmayı bile 'peace talks' ile çözersin!",
+    "phrase": "The extreme heatwave put bin crews' lives _____",
+    "translation": "Aşırı sıcak hava dalgası çöp toplama ekiplerinin hayatını riske attı.",
+    "context": "'At risk' ifadesi, bir şeyin tehlikede olduğunu, risk altında olduğunu belirtir. Sokakta yürürken kaygan bir zemine basarsan 'Oh, I'm at risk of falling!' diyebilirsin. Ama dikkatli ol, kimse düşmek istemez!",
     "options": [
-      "peace talks",
+      "at risk",
+      "in joy",
+      "on duty",
+      "off limit"
+    ],
+    "correctAnswer": "at risk",
+    "category": "CASUAL",
+    "variations": [
+      "Children are _____ from cyberbullying.",
+      "Elderly people are _____ during cold weather."
+    ]
+  },
+  {
+    "id": 126111303,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "Zelensky welcomed other countries joining the _____ to end the conflict.",
+    "translation": "Zelensky, çatışmayı sona erdirmek için diğer ülkelerin barış görüşmelerine katılmasını memnuniyetle karşıladı.",
+    "context": "'Peace talks', barış görüşmeleri demek. Genellikle iki taraf arasındaki anlaşmazlıkları çözmek ve barışı sağlamak için yapılan resmi toplantılardır. Kahve masasında arkadaşınla 'Who should do the dishes?' konusunda 'peace talks' yapabilirsin. Belki işe yarar!",
+    "options": [
       "war games",
-      "political rallies",
-      "economic sanctions"
+      "peace talks",
+      "trade deals",
+      "sports events"
     ],
     "correctAnswer": "peace talks",
     "category": "MIXED",
-    "variations": [
-      "International delegates will join the _____ next month.",
-      "Hopes are high for successful _____ this time."
-    ]
+    "variations": []
   },
   {
-    "id": 126111005,
+    "id": 126111304,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "We are planning a Mediterranean _____ next summer.",
-    "translation": "Gelecek yaz bir Akdeniz gemi yolculuğu planlıyoruz.",
-    "context": "Gemilerle yapılan, genellikle birden fazla şehri veya ülkeyi kapsayan lüks ve eğlenceli deniz yolculuklarına 'cruise' denir. Güneşlenmek, havuz başında kokteyl içmek ve her gün farklı bir limanda uyanmak gibi hayal edebilirsin. Seyahat etmenin en rahat yollarından biri!",
+    "level": "BEGINNER",
+    "phrase": "Man Utd will _____ Pochettino as their new head coach.",
+    "translation": "Manchester United yeni teknik direktörü olarak Pochettino'yu atayacak.",
+    "context": "'Appoint', bir kişiyi resmi olarak bir göreve atamak veya tayin etmek anlamına gelir. İş hayatında, sporda veya siyasette sıkça duyarsın. Yeni bir şehre taşınan bir arkadaşına 'They appointed him to a manager position in Istanbul!' diyerek müjdeli haberi verebilirsin.",
     "options": [
-      "cruise",
-      "hike",
-      "road trip",
-      "backpacking"
+      "appoint",
+      "resign",
+      "disrupt",
+      "transfer"
     ],
-    "correctAnswer": "cruise",
+    "correctAnswer": "appoint",
     "category": "TRAVEL",
     "variations": [
-      "The 'Cruise for Life' ship offered a unique travel experience.",
-      "Many people enjoy going on a _____ during their vacation."
+      "The company decided to _____ a new CEO next month.",
+      "She was _____ to the committee last week."
     ]
   },
   {
-    "id": 126111006,
+    "id": 126111305,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The new _____ on luxury goods met with strong opposition.",
-    "translation": "Lüks ürünler üzerindeki yeni önerilen vergi güçlü bir muhalefetle karşılaştı.",
-    "context": "Bir yasa veya düzenleme olarak 'önerilen', henüz resmi olarak kabul edilmemiş ama tartışılan bir vergiye 'proposed tax' denir. Tıpkı bir iş yerinin 'önerilen yeni çalışma saatleri' gibi, henüz kesinleşmemiş ama üzerinde durulan bir konudur.",
+    "phrase": "Israel's VCs see opportunity for challengers in Nvidia's recent _____",
+    "translation": "İsrailli risk sermayedarları, Nvidia'nın son kargaşasında rakipler için fırsat görüyor.",
+    "context": "'Turmoil', kargaşa, karışıklık, çalkantı demek. Genellikle politik, ekonomik veya sosyal durumlardaki istikrarsızlığı anlatır. Borsa çalkantılı dönemlerde 'market turmoil' yaşayabilir. Pazartesi sendromuyla uyanan bir arkadaşın için 'He's in a bit of morning turmoil.' diyerek durumu espriye vurabilirsin.",
     "options": [
-      "proposed tax",
-      "approved budget",
-      "final decision",
-      "market share"
+      "stability",
+      "turmoil",
+      "growth",
+      "collaboration"
     ],
-    "correctAnswer": "proposed tax",
+    "correctAnswer": "turmoil",
     "category": "BUSINESS",
     "variations": [
-      "The council discussed the _____ for homeowners.",
-      "They debated the impact of the _____ on small businesses."
+      "The country experienced political _____ after the election.",
+      "His mind was in _____ trying to make a decision."
     ]
   },
   {
-    "id": 126111007,
+    "id": 126111306,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "He was called a _____ for not standing up for his friend.",
-    "translation": "Arkadaşını savunmadığı için korkak dendi.",
-    "context": "Tehlikeli veya zor bir durumda cesaret gösteremeyen, korkakça davranan kişiye 'coward' denir. Hani bazı filmlerde kahraman olmak yerine saklanmayı seçen karakterler vardır ya, işte onlar 'coward' olarak nitelendirilir. Kimse 'coward' olmak istemez!",
+    "phrase": "Cameron will _____ her rivalry with Mayer in a boxing rematch.",
+    "translation": "Cameron, Mayer ile olan rekabetini bir boks rövanşında yeniden alevlendirecek.",
+    "context": "'Reignite rivalry', eski bir rekabeti yeniden alevlendirmek, canlandırmak demektir. Spor müsabakalarında veya eski dostluklarda sıklıkla karşımıza çıkar. En sevdiğin iki futbol takımı karşılaştığında 'This match will definitely reignite their old rivalry!' diye heyecanla bağırabilirsin.",
     "options": [
-      "coward",
-      "hero",
-      "leader",
-      "champion"
+      "end",
+      "diminish",
+      "reignite",
+      "forget"
     ],
-    "correctAnswer": "coward",
+    "correctAnswer": "reignite",
     "category": "CASUAL",
     "variations": [
-      "Don't be a _____, face your fears!",
-      "She refused to be labeled a _____."
+      "They tried to _____ their old friendship.",
+      "The debate helped to _____ public interest in the issue."
     ]
   },
   {
-    "id": 126111008,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "id": 126111307,
+    "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "What are malicious attempts to disrupt, damage, or gain unauthorized access to computer systems, networks, or data?",
-    "translation": "Bilgisayar sistemlerine, ağlara veya verilere izinsiz erişim sağlamak, bozmak veya zarar vermek amacıyla yapılan kötü niyetli girişimler nelerdir?",
-    "context": "Bilgisayar sistemlerine, ağlara veya verilere izinsiz erişim sağlamak, onları bozmak veya zarar vermek amacıyla yapılan kötü niyetli girişimlere 'cyberattacks' denir. Telefonuna gelen 'bedava hediye kazandınız!' mesajı aslında seni bir 'cyberattack' kurbanı yapabilir! Verilerini korumak için dikkatli olmalısın.",
+    "phrase": "Jensen Huang was _____ to testify before Congress.",
+    "translation": "Jensen Huang, Kongre önünde ifade vermek üzere çağrıldı.",
+    "context": "'Summoned to testify', resmi olarak ifade vermeye çağrılmak demek. Genellikle mahkemeler, komisyonlar veya yasama organları tarafından kullanılır. Eğer bir arkadaşın seni 'Are you summoned to testify about your late night snacks?' diye takılırsa, gülümsere geçebilirsin! Ama bazen ciddi durumlar için kullanılır.",
     "options": [
-      "Data breaches",
-      "Cyberattacks",
-      "Software updates",
-      "Firewall policies"
+      "summoned",
+      "appointed",
+      "dismissed",
+      "invited"
     ],
-    "correctAnswer": "Cyberattacks",
+    "correctAnswer": "summoned",
     "category": "MIXED",
-    "variations": []
+    "variations": [
+      "The witness was _____ to court next week.",
+      "He was _____ by the committee for an interview."
+    ]
   },
   {
-    "id": 126111009,
+    "id": 126111308,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The athlete was _____ from the race for doping.",
-    "translation": "Sporcu, doping yaptığı için yarışmadan diskalifiye edildi.",
-    "context": "Bir kural ihlali nedeniyle bir yarışmadan, turnuvadan veya resmi bir durumdan 'men edilmek', 'hükümsüz sayılmak' anlamına gelir. Tıpkı kopya çektiği için sınavdan 'disqualified' olan bir öğrenci gibi, kurallara uymadığında sonuçları ağır olabilir. Seyahatte vize ihlali yaparsan ülkeye girişin bile 'disqualified' edilebilir.",
+    "level": "INTERMEDIATE",
+    "phrase": "F1 Academy champion Palmowski officially _____ a Red Bull junior team spot.",
+    "translation": "F1 Akademi şampiyonu Palmowski, resmi olarak bir Red Bull genç takımında yer edindi.",
+    "context": "'Lands a spot', bir yerde yer edinmek, bir pozisyona gelmek veya bir şeyi başarmak anlamına gelir. Özellikle spor veya kariyer fırsatları için kullanılır. Hayalindeki üniversiteye kabul edildiysen 'I finally landed a spot at my dream university!' diye havalı bir şekilde duyurabilirsin.",
     "options": [
-      "disqualified",
-      "qualified",
-      "awarded",
-      "registered"
+      "lost",
+      "missed",
+      "landed",
+      "abandoned"
     ],
-    "correctAnswer": "disqualified",
+    "correctAnswer": "landed",
     "category": "TRAVEL",
     "variations": [
-      "He was _____ for not submitting the project on time.",
-      "Any participant breaking the rules will be immediately _____."
+      "After many interviews, she _____ a great job in London.",
+      "The band _____ a gig at a famous festival."
     ]
   },
   {
-    "id": 126111010,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "In a business or intelligence context, what refers to an attractive trap designed to lure individuals into a compromising situation, often involving espionage or financial gain?",
-    "translation": "İş veya istihbarat bağlamında, bireyleri genellikle casusluk veya finansal kazanç içeren uzlaşmacı bir duruma çekmek için tasarlanmış çekici bir tuzağa ne denir?",
-    "context": "İş veya istihbarat dünyasında, birini zaaflarından faydalanarak tuzağa düşürmek, genellikle casusluk veya finansal çıkar elde etmek için kurulmuş çekici bir 'tuzak' anlamına gelir. Adı üstünde, bal kavanozu gibi cezbedici ama aslında kötü niyetli bir 'skandal' yaratır. Bazen siber güvenlikte de sahte bir sistem kurup hackerları çekmeye 'honeypot' denir.",
-    "options": [
-      "Whistleblower report",
-      "Hostile takeover",
-      "Due diligence",
-      "Honeypot scandal"
-    ],
-    "correctAnswer": "Honeypot scandal",
-    "category": "BUSINESS",
-    "variations": []
-  },
-  {
-    "id": 126111011,
+    "id": 126111309,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The restaurant serves _____ Italian food.",
-    "translation": "Restoran birinci sınıf İtalyan yemekleri servis ediyor.",
-    "context": "Bir şeyin kalitesinin 'en üst düzeyde', 'harika', 'birinci sınıf' olduğunu belirtmek için kullanılır. Arkadaşının yeni aldığı telefon 'top-notch' olabilir, izlediğin bir film 'top-notch' olabilir veya yaptığın bir iş 'top-notch' olabilir. Yani mükemmelin bir üst versiyonu!",
+    "phrase": "Democrats wrote a _____ letter about Huang’s alleged 'scheme'.",
+    "translation": "Demokratlar, Huang'ın iddia edilen 'entrikası' hakkında sert bir mektup yazdı.",
+    "context": "'Scathing letter', çok sert, eleştirel ve yıkıcı bir dille yazılmış mektup demektir. Genellikle bir hata, yolsuzluk veya ciddi bir durum hakkında duyulan derin öfkeyi veya hayal kırıklığını ifade eder. İş hayatında, kötü bir performans değerlendirmesi bazen 'scathing review' şeklinde olabilir. Umarım hiç almazsın!",
     "options": [
-      "top-notch",
-      "mediocre",
-      "awful",
-      "average"
+      "praiseful",
+      "scathing",
+      "neutral",
+      "friendly"
     ],
-    "correctAnswer": "top-notch",
-    "category": "CASUAL",
+    "correctAnswer": "scathing",
+    "category": "BUSINESS",
     "variations": [
-      "Her performance was absolutely _____.",
-      "They offer _____ customer service."
+      "The critics published a _____ review of the movie.",
+      "He delivered a _____ attack on his opponent's policies."
     ]
   },
   {
-    "id": 126111012,
+    "id": 126111310,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "What is a place of refuge or safety, especially for birds or animals?",
-    "translation": "Özellikle kuşlar veya hayvanlar için bir sığınma veya güvenlik yeri nedir?",
-    "context": "Özellikle kuşlar veya hayvanlar için güvenli, korunaklı bir barınma, sığınak veya yaşam alanı anlamına gelir. Doğa koruma alanları, yırtıcılardan veya insan müdahalesinden uzak kalmaları için hayvanlara 'sanctuary' sağlar. Hani filmlerde kaçakların sığındığı 'kutsal yer' gibi düşünebilirsin, ama burası hayvanlar için!",
+    "phrase": "What caused environmental damage in Scotland, related to water systems?",
+    "translation": "İskoçya'da su sistemleriyle ilgili çevresel hasara ne sebep oldu?",
+    "context": "'Sewage spills', kanalizasyon taşması veya atık su sızıntısı demektir. Çevreye ciddi zararlar verebilen, özellikle su kaynaklarını kirleten bir durumdur. 'Gross!' (iğrenç!) diyebileceğin bir haber. Umarım yaşadığın yerde 'sewage spills' hiç yaşanmaz, çünkü gerçekten kötü kokabilir!",
     "options": [
-      "Zoo",
-      "Aquarium",
-      "Sanctuary",
-      "Farm"
+      "Water main bursts",
+      "Sewage spills",
+      "River floods",
+      "Heavy rainfall"
     ],
-    "correctAnswer": "Sanctuary",
-    "category": "MIXED",
+    "correctAnswer": "Sewage spills",
+    "category": "CASUAL",
     "variations": []
+  },
+  {
+    "id": 126111311,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Burnham stated that the climate _____ is now 'gone'.",
+    "translation": "Burnham, iklim konusundaki fikir birliğinin artık 'kalmadığını' belirtti.",
+    "context": "'Climate consensus', iklim konusunda genel fikir birliği veya uzlaşma anlamına gelir. Bilim insanları ve politikacılar arasında iklim değişikliğinin nedenleri ve çözümleri hakkında ortak bir görüşün olması durumudur. Eğer ailenle film izleme konusunda 'consensus' sağlayamazsanız, herkes kendi odasında takılabilir!",
+    "options": [
+      "conflict",
+      "consensus",
+      "dispute",
+      "uncertainty"
+    ],
+    "correctAnswer": "consensus",
+    "category": "MIXED",
+    "variations": [
+      "There was a broad _____ on the need for reform.",
+      "The committee tried to reach a _____ on the new budget."
+    ]
+  },
+  {
+    "id": 126111312,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Muse can now _____ calls to US businesses, if you subscribe.",
+    "translation": "Muse artık ABD'deki işletmelere arama yapabiliyor, eğer abone olursanız.",
+    "context": "'Place calls', telefon araması yapmak, çağrı başlatmak demektir. Özellikle iş dünyasında veya uluslararası iletişimde kullanılır. Örneğin, yurt dışındaki bir oteli arayıp rezervasyon yaptırmak için 'I need to place a call to the hotel in Paris.' diyebilirsin. Sanal seyahat gibi, değil mi?",
+    "options": [
+      "end",
+      "drop",
+      "receive",
+      "place"
+    ],
+    "correctAnswer": "place",
+    "category": "TRAVEL",
+    "variations": [
+      "She had to _____ several international calls for work.",
+      "Can you _____ a call to the customer service department?"
+    ]
   }
 ]
