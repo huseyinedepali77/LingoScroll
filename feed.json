@@ -1,236 +1,227 @@
 [
   {
-    "id": 126111301,
+    "id": 126111501,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The global Microsoft services suffered a major _____ today.",
-    "translation": "Microsoft hizmetleri bugün büyük bir kesinti yaşadı.",
-    "context": "'Outage', elektrik kesintisi veya internet/uygulama gibi hizmetlerdeki büyük çaplı kesinti anlamına gelir. Sabah kahveni alıp işe başladığında Outlook'un, Teams'in çalışmadığını görürsen, 'We have an outage!' diye haykırabilirsin. Patronunu aramak yerine bir kahve daha içmek için bahane olabilir!",
+    "phrase": "Tesla has opened _____ for its new Cybercab service.",
+    "translation": "Ön siparişler",
+    "context": "Yeni bir ürün veya hizmeti, piyasaya sürülmeden önce sipariş etmeye ‘pre-order’ denir. Özellikle teknoloji dünyasında, merakla beklenen telefonlar veya oyunlar için sıkça kullanılır. Mesela, ‘Yeni iPhone için pre-order yaptım!’ diyebilirsin.",
     "options": [
-      "outage",
-      "usage",
-      "storage",
-      "message"
+      "pre-orders",
+      "after-sales",
+      "final bids",
+      "trial runs"
     ],
-    "correctAnswer": "outage",
+    "correctAnswer": "pre-orders",
     "category": "BUSINESS",
     "variations": [
-      "A power _____ left thousands without electricity.",
-      "The website had an unexpected _____ for hours."
+      "I placed a pre-order for the new game console.",
+      "Many people waited to make pre-orders."
     ]
   },
   {
-    "id": 126111302,
+    "id": 126111502,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The extreme heatwave put bin crews' lives _____",
-    "translation": "Aşırı sıcak hava dalgası çöp toplama ekiplerinin hayatını riske attı.",
-    "context": "'At risk' ifadesi, bir şeyin tehlikede olduğunu, risk altında olduğunu belirtir. Sokakta yürürken kaygan bir zemine basarsan 'Oh, I'm at risk of falling!' diyebilirsin. Ama dikkatli ol, kimse düşmek istemez!",
+    "phrase": "You can change your phone's _____ to make it easier to use.",
+    "translation": "Ayarlar",
+    "context": "Telefonunun, bilgisayarının veya bir uygulamanın ayarlarını değiştirmek için ‘settings’ kelimesini kullanırız. ‘Privacy settings’ (gizlilik ayarları) veya ‘sound settings’ (ses ayarları) gibi birçok yerde karşımıza çıkar. Kısacası, bir cihazı kişiselleştirmenin yolu buradan geçer!",
     "options": [
-      "at risk",
-      "in joy",
-      "on duty",
-      "off limit"
+      "settings",
+      "hardware",
+      "updates",
+      "memory"
     ],
-    "correctAnswer": "at risk",
+    "correctAnswer": "settings",
     "category": "CASUAL",
     "variations": [
-      "Children are _____ from cyberbullying.",
-      "Elderly people are _____ during cold weather."
+      "Check your privacy settings on your phone.",
+      "These settings help customize your experience."
     ]
   },
   {
-    "id": 126111303,
+    "id": 126111503,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "Zelensky welcomed other countries joining the _____ to end the conflict.",
-    "translation": "Zelensky, çatışmayı sona erdirmek için diğer ülkelerin barış görüşmelerine katılmasını memnuniyetle karşıladı.",
-    "context": "'Peace talks', barış görüşmeleri demek. Genellikle iki taraf arasındaki anlaşmazlıkları çözmek ve barışı sağlamak için yapılan resmi toplantılardır. Kahve masasında arkadaşınla 'Who should do the dishes?' konusunda 'peace talks' yapabilirsin. Belki işe yarar!",
+    "phrase": "Arapça'da 'fecir' olarak da bilinen, Güneş doğmadan önceki alacakaranlık vakti hangi İngilizce ifadeyle anlatılır?",
+    "translation": "Güneş doğmadan önceki gökyüzü",
+    "context": "Sabahın çok erken saatleri, Güneş’in henüz yüzünü göstermediği ama gökyüzünün yavaş yavaş aydınlandığı o büyülü an! İşte o zaman dilimine ‘pre-dawn sky’ deriz. Eğer gökyüzünde bir şeyler gözlemlemek istiyorsan (yıldızlar, gezegenler gibi), bu vakit harika bir fırsat sunar!",
     "options": [
-      "war games",
-      "peace talks",
-      "trade deals",
-      "sports events"
+      "mid-day sun",
+      "pre-dawn sky",
+      "late-afternoon",
+      "midnight hour"
     ],
-    "correctAnswer": "peace talks",
-    "category": "MIXED",
+    "correctAnswer": "pre-dawn sky",
+    "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126111304,
+    "id": 126111504,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Man Utd will _____ Pochettino as their new head coach.",
-    "translation": "Manchester United yeni teknik direktörü olarak Pochettino'yu atayacak.",
-    "context": "'Appoint', bir kişiyi resmi olarak bir göreve atamak veya tayin etmek anlamına gelir. İş hayatında, sporda veya siyasette sıkça duyarsın. Yeni bir şehre taşınan bir arkadaşına 'They appointed him to a manager position in Istanbul!' diyerek müjdeli haberi verebilirsin.",
+    "phrase": "The player wants a new _____ before committing to the team.",
+    "translation": "Sözleşme",
+    "context": "İş hayatında, spor dünyasında veya herhangi bir anlaşmada iki veya daha fazla taraf arasında yapılan yasal belgeye ‘contract’ denir. Bu belge, haklarını ve sorumluluklarını belirler. Mesela, ‘iş sözleşmesi’ne ‘employment contract’ denir.",
     "options": [
-      "appoint",
-      "resign",
-      "disrupt",
-      "transfer"
+      "contract",
+      "ticket",
+      "bonus",
+      "jersey"
     ],
-    "correctAnswer": "appoint",
-    "category": "TRAVEL",
-    "variations": [
-      "The company decided to _____ a new CEO next month.",
-      "She was _____ to the committee last week."
-    ]
-  },
-  {
-    "id": 126111305,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Israel's VCs see opportunity for challengers in Nvidia's recent _____",
-    "translation": "İsrailli risk sermayedarları, Nvidia'nın son kargaşasında rakipler için fırsat görüyor.",
-    "context": "'Turmoil', kargaşa, karışıklık, çalkantı demek. Genellikle politik, ekonomik veya sosyal durumlardaki istikrarsızlığı anlatır. Borsa çalkantılı dönemlerde 'market turmoil' yaşayabilir. Pazartesi sendromuyla uyanan bir arkadaşın için 'He's in a bit of morning turmoil.' diyerek durumu espriye vurabilirsin.",
-    "options": [
-      "stability",
-      "turmoil",
-      "growth",
-      "collaboration"
-    ],
-    "correctAnswer": "turmoil",
-    "category": "BUSINESS",
-    "variations": [
-      "The country experienced political _____ after the election.",
-      "His mind was in _____ trying to make a decision."
-    ]
-  },
-  {
-    "id": 126111306,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Cameron will _____ her rivalry with Mayer in a boxing rematch.",
-    "translation": "Cameron, Mayer ile olan rekabetini bir boks rövanşında yeniden alevlendirecek.",
-    "context": "'Reignite rivalry', eski bir rekabeti yeniden alevlendirmek, canlandırmak demektir. Spor müsabakalarında veya eski dostluklarda sıklıkla karşımıza çıkar. En sevdiğin iki futbol takımı karşılaştığında 'This match will definitely reignite their old rivalry!' diye heyecanla bağırabilirsin.",
-    "options": [
-      "end",
-      "diminish",
-      "reignite",
-      "forget"
-    ],
-    "correctAnswer": "reignite",
-    "category": "CASUAL",
-    "variations": [
-      "They tried to _____ their old friendship.",
-      "The debate helped to _____ public interest in the issue."
-    ]
-  },
-  {
-    "id": 126111307,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Jensen Huang was _____ to testify before Congress.",
-    "translation": "Jensen Huang, Kongre önünde ifade vermek üzere çağrıldı.",
-    "context": "'Summoned to testify', resmi olarak ifade vermeye çağrılmak demek. Genellikle mahkemeler, komisyonlar veya yasama organları tarafından kullanılır. Eğer bir arkadaşın seni 'Are you summoned to testify about your late night snacks?' diye takılırsa, gülümsere geçebilirsin! Ama bazen ciddi durumlar için kullanılır.",
-    "options": [
-      "summoned",
-      "appointed",
-      "dismissed",
-      "invited"
-    ],
-    "correctAnswer": "summoned",
+    "correctAnswer": "contract",
     "category": "MIXED",
     "variations": [
-      "The witness was _____ to court next week.",
-      "He was _____ by the committee for an interview."
+      "He signed a two-year contract with the company.",
+      "Reading the contract carefully is important."
     ]
   },
   {
-    "id": 126111308,
+    "id": 126111505,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "F1 Academy champion Palmowski officially _____ a Red Bull junior team spot.",
-    "translation": "F1 Akademi şampiyonu Palmowski, resmi olarak bir Red Bull genç takımında yer edindi.",
-    "context": "'Lands a spot', bir yerde yer edinmek, bir pozisyona gelmek veya bir şeyi başarmak anlamına gelir. Özellikle spor veya kariyer fırsatları için kullanılır. Hayalindeki üniversiteye kabul edildiysen 'I finally landed a spot at my dream university!' diye havalı bir şekilde duyurabilirsin.",
+    "phrase": "Elon Musk signed a petition to _____ Jensen Huang at Nvidia.",
+    "translation": "Eski görevine iade etmek",
+    "context": "Birini eski görevine veya pozisyonuna geri getirmeye ‘reinstate’ denir. Genellikle işten çıkarıldıktan sonra veya bir cezanın ardından tekrar görevine başlamak için kullanılır. Sanki bir oyunda karakterini eski konumuna ‘resetlemek’ gibi düşünebilirsin!",
     "options": [
-      "lost",
-      "missed",
-      "landed",
-      "abandoned"
+      "reinstate",
+      "dismiss",
+      "promote",
+      "demote"
     ],
-    "correctAnswer": "landed",
-    "category": "TRAVEL",
-    "variations": [
-      "After many interviews, she _____ a great job in London.",
-      "The band _____ a gig at a famous festival."
-    ]
-  },
-  {
-    "id": 126111309,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Democrats wrote a _____ letter about Huang’s alleged 'scheme'.",
-    "translation": "Demokratlar, Huang'ın iddia edilen 'entrikası' hakkında sert bir mektup yazdı.",
-    "context": "'Scathing letter', çok sert, eleştirel ve yıkıcı bir dille yazılmış mektup demektir. Genellikle bir hata, yolsuzluk veya ciddi bir durum hakkında duyulan derin öfkeyi veya hayal kırıklığını ifade eder. İş hayatında, kötü bir performans değerlendirmesi bazen 'scathing review' şeklinde olabilir. Umarım hiç almazsın!",
-    "options": [
-      "praiseful",
-      "scathing",
-      "neutral",
-      "friendly"
-    ],
-    "correctAnswer": "scathing",
+    "correctAnswer": "reinstate",
     "category": "BUSINESS",
     "variations": [
-      "The critics published a _____ review of the movie.",
-      "He delivered a _____ attack on his opponent's policies."
+      "The union demanded to reinstate the fired workers.",
+      "After a review, he was reinstated to his position."
     ]
   },
   {
-    "id": 126111310,
+    "id": 126111506,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "What caused environmental damage in Scotland, related to water systems?",
-    "translation": "İskoçya'da su sistemleriyle ilgili çevresel hasara ne sebep oldu?",
-    "context": "'Sewage spills', kanalizasyon taşması veya atık su sızıntısı demektir. Çevreye ciddi zararlar verebilen, özellikle su kaynaklarını kirleten bir durumdur. 'Gross!' (iğrenç!) diyebileceğin bir haber. Umarım yaşadığın yerde 'sewage spills' hiç yaşanmaz, çünkü gerçekten kötü kokabilir!",
+    "level": "INTERMEDIATE",
+    "phrase": "Bir takımı veya rakibi kolayca yenmek veya hafife almak hangi ifadeyle anlatılır?",
+    "translation": "Kolayca yenmek, önemsememek",
+    "context": "Birini veya bir şeyi kolayca, fazla çaba harcamadan geçiştirmek, yenmek veya önemsememek anlamına gelir. Mesela, ‘Maçta rakibini kolayca brush off etti’ dersek, rakibi fazla zorlanmadan yendiğini anlarız. Hafifçe omuz silkip geçmek gibi düşünebilirsin!",
     "options": [
-      "Water main bursts",
-      "Sewage spills",
-      "River floods",
-      "Heavy rainfall"
+      "tie up",
+      "brush off",
+      "hold back",
+      "level up"
     ],
-    "correctAnswer": "Sewage spills",
+    "correctAnswer": "brush off",
     "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126111311,
+    "id": 126111507,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Burnham stated that the climate _____ is now 'gone'.",
-    "translation": "Burnham, iklim konusundaki fikir birliğinin artık 'kalmadığını' belirtti.",
-    "context": "'Climate consensus', iklim konusunda genel fikir birliği veya uzlaşma anlamına gelir. Bilim insanları ve politikacılar arasında iklim değişikliğinin nedenleri ve çözümleri hakkında ortak bir görüşün olması durumudur. Eğer ailenle film izleme konusunda 'consensus' sağlayamazsanız, herkes kendi odasında takılabilir!",
+    "level": "INTERMEDIATE",
+    "phrase": "El Niño could significantly impact _____ in the US and Canada.",
+    "translation": "Kış hava durumu",
+    "context": "Kış mevsimindeki hava durumunu anlatmak için ‘winter weather’ ifadesini kullanırız. Kar yağışı, soğuk hava, buzlanma gibi her şey bu kategoriye girer. ‘Bu kış çok çetin bir winter weather bekliyoruz!’ cümlesiyle kışın sert geçeceğini ifade edebilirsin.",
     "options": [
-      "conflict",
-      "consensus",
-      "dispute",
-      "uncertainty"
+      "winter weather",
+      "summer holidays",
+      "spring flowers",
+      "autumn leaves"
     ],
-    "correctAnswer": "consensus",
-    "category": "MIXED",
+    "correctAnswer": "winter weather",
+    "category": "TRAVEL",
     "variations": [
-      "There was a broad _____ on the need for reform.",
-      "The committee tried to reach a _____ on the new budget."
+      "We had very mild winter weather last year.",
+      "Prepare for harsh winter weather this season."
     ]
   },
   {
-    "id": 126111312,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Muse can now _____ calls to US businesses, if you subscribe.",
-    "translation": "Muse artık ABD'deki işletmelere arama yapabiliyor, eğer abone olursanız.",
-    "context": "'Place calls', telefon araması yapmak, çağrı başlatmak demektir. Özellikle iş dünyasında veya uluslararası iletişimde kullanılır. Örneğin, yurt dışındaki bir oteli arayıp rezervasyon yaptırmak için 'I need to place a call to the hotel in Paris.' diyebilirsin. Sanal seyahat gibi, değil mi?",
+    "id": 126111508,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Aşağıdaki fiillerden hangisi bir şeyi başarıyla yakalamak veya tutmak anlamında kullanılır?",
+    "translation": "Yakalamak",
+    "context": "Bir şeyi havada veya hareket halindeyken yakalamak için ‘catch’ fiilini kullanırız. Topu yakalamak (catch the ball) veya balık yakalamak (catch a fish) gibi. SpaceX haberindeki gibi, bir roketin üst kısmını yakalamak da büyük bir başarıdır! 'Başarıyla yakalamak' için ise 'successfully catch' dersin.",
     "options": [
-      "end",
       "drop",
-      "receive",
-      "place"
+      "launch",
+      "catch",
+      "release"
     ],
-    "correctAnswer": "place",
+    "correctAnswer": "catch",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126111509,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The US has _____ the idea of Ukraine ceding Donbas for Nato membership.",
+    "translation": "Gündeme getirmek, nabız yoklamak",
+    "context": "Bir fikri, öneriyi veya planı deneme amaçlı olarak, resmiyete dökmeden ortaya atmaya veya gündeme getirmeye ‘float an idea’ denir. Balon gibi havaya bırakmak, nabız yoklamak gibi düşünebilirsin. Henüz kesinleşmemiş, tartışmaya açık bir öneridir.",
+    "options": [
+      "floated",
+      "sunk",
+      "rejected",
+      "ignored"
+    ],
+    "correctAnswer": "floated",
+    "category": "BUSINESS",
+    "variations": [
+      "She floated an idea during the brainstorming session.",
+      "Let's float this proposal to see the reaction."
+    ]
+  },
+  {
+    "id": 126111510,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Birinin veya bir şeyin gerçekten iyi, otantik ve beklentileri karşılayan olduğunu ifade eden İngilizce deyim hangisidir?",
+    "translation": "Gerçekten iyi/otantik olan",
+    "context": "Birisi veya bir şey için ‘the real deal’ dediğimizde, o kişinin veya şeyin gerçekten iyi, güvenilir, otantik ve beklentileri fazlasıyla karşılayan olduğunu vurgularız. Yani sahte veya abartılı değil, tam anlamıyla ‘gerçekten o’ demek! Mesela, yeni bir şarkıcı için ‘He's the real deal!’ dersen, gerçekten yetenekli olduğunu kast edersin.",
+    "options": [
+      "a raw talent",
+      "the real deal",
+      "a dark horse",
+      "an underdog"
+    ],
+    "correctAnswer": "the real deal",
+    "category": "CASUAL",
+    "variations": []
+  },
+  {
+    "id": 126111511,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "November's _____ in the sky is a rare astronomical event.",
+    "translation": "Gezegen geçidi",
+    "context": "Birden fazla gezegenin gökyüzünde yakın bir hizaya gelerek görsel bir şölen oluşturmasına ‘planetary parade’ denir. Sanki gezegenler bir tören geçişi yapıyormuş gibi düşünebilirsin. Astronomi meraklıları için kaçırılmaması gereken büyüleyici bir olaydır!",
+    "options": [
+      "planetary parade",
+      "star shower",
+      "solar eclipse",
+      "lunar dance"
+    ],
+    "correctAnswer": "planetary parade",
     "category": "TRAVEL",
     "variations": [
-      "She had to _____ several international calls for work.",
-      "Can you _____ a call to the customer service department?"
+      "A planetary parade is a rare celestial event.",
+      "We observed a small planetary parade last night."
     ]
+  },
+  {
+    "id": 126111512,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Aşağıdaki terimlerden hangisi bir tür virüs adıdır ve hayvan sağlığıyla ilgilidir?",
+    "translation": "Mavi Dil Virüsü",
+    "context": "Bu, özellikle geviş getiren hayvanlarda (koyun, keçi, sığır vb.) görülen, sineklerle bulaşan viral bir hastalıktır. Adını, hastalığın semptomlarından biri olan dilin mavi-mor bir renk almasından alır. Genellikle çiftliklerde ciddi ekonomik kayıplara yol açabilir. Kısacası, hayvanlar için oldukça ciddi bir sağlık sorunudur!",
+    "options": [
+      "Bluetongue virus",
+      "Greeneye bacteria",
+      "Redskin disease",
+      "Yellowtooth parasite"
+    ],
+    "correctAnswer": "Bluetongue virus",
+    "category": "MIXED",
+    "variations": []
   }
 ]
