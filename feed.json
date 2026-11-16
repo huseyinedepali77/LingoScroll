@@ -1,226 +1,232 @@
 [
   {
-    "id": 126111501,
+    "id": 126111601,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Tesla has opened _____ for its new Cybercab service.",
-    "translation": "Ön siparişler",
-    "context": "Yeni bir ürün veya hizmeti, piyasaya sürülmeden önce sipariş etmeye ‘pre-order’ denir. Özellikle teknoloji dünyasında, merakla beklenen telefonlar veya oyunlar için sıkça kullanılır. Mesela, ‘Yeni iPhone için pre-order yaptım!’ diyebilirsin.",
+    "phrase": "Many people travel to _____ for entertainment and shows.",
+    "translation": "Birçok insan eğlence ve gösteriler için Las Vegas'a seyahat eder.",
+    "context": "Las Vegas, ABD'nin Nevada eyaletinde bir şehir. Kumarhaneleri, lüks otelleri, eğlence şovları ve gece hayatıyla dünyaca ünlü. Buraya 'Günah Şehri' de denir ama aslında her yaşa uygun birçok aktivite bulabilirsin. F1 yarışları, robot taksiler derken bayağı popüler!",
     "options": [
-      "pre-orders",
-      "after-sales",
-      "final bids",
-      "trial runs"
+      "Paris",
+      "London",
+      "Las Vegas",
+      "Rome"
     ],
-    "correctAnswer": "pre-orders",
-    "category": "BUSINESS",
-    "variations": [
-      "I placed a pre-order for the new game console.",
-      "Many people waited to make pre-orders."
-    ]
-  },
-  {
-    "id": 126111502,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "You can change your phone's _____ to make it easier to use.",
-    "translation": "Ayarlar",
-    "context": "Telefonunun, bilgisayarının veya bir uygulamanın ayarlarını değiştirmek için ‘settings’ kelimesini kullanırız. ‘Privacy settings’ (gizlilik ayarları) veya ‘sound settings’ (ses ayarları) gibi birçok yerde karşımıza çıkar. Kısacası, bir cihazı kişiselleştirmenin yolu buradan geçer!",
-    "options": [
-      "settings",
-      "hardware",
-      "updates",
-      "memory"
-    ],
-    "correctAnswer": "settings",
-    "category": "CASUAL",
-    "variations": [
-      "Check your privacy settings on your phone.",
-      "These settings help customize your experience."
-    ]
-  },
-  {
-    "id": 126111503,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "Arapça'da 'fecir' olarak da bilinen, Güneş doğmadan önceki alacakaranlık vakti hangi İngilizce ifadeyle anlatılır?",
-    "translation": "Güneş doğmadan önceki gökyüzü",
-    "context": "Sabahın çok erken saatleri, Güneş’in henüz yüzünü göstermediği ama gökyüzünün yavaş yavaş aydınlandığı o büyülü an! İşte o zaman dilimine ‘pre-dawn sky’ deriz. Eğer gökyüzünde bir şeyler gözlemlemek istiyorsan (yıldızlar, gezegenler gibi), bu vakit harika bir fırsat sunar!",
-    "options": [
-      "mid-day sun",
-      "pre-dawn sky",
-      "late-afternoon",
-      "midnight hour"
-    ],
-    "correctAnswer": "pre-dawn sky",
-    "category": "TRAVEL",
-    "variations": []
-  },
-  {
-    "id": 126111504,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The player wants a new _____ before committing to the team.",
-    "translation": "Sözleşme",
-    "context": "İş hayatında, spor dünyasında veya herhangi bir anlaşmada iki veya daha fazla taraf arasında yapılan yasal belgeye ‘contract’ denir. Bu belge, haklarını ve sorumluluklarını belirler. Mesela, ‘iş sözleşmesi’ne ‘employment contract’ denir.",
-    "options": [
-      "contract",
-      "ticket",
-      "bonus",
-      "jersey"
-    ],
-    "correctAnswer": "contract",
-    "category": "MIXED",
-    "variations": [
-      "He signed a two-year contract with the company.",
-      "Reading the contract carefully is important."
-    ]
-  },
-  {
-    "id": 126111505,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Elon Musk signed a petition to _____ Jensen Huang at Nvidia.",
-    "translation": "Eski görevine iade etmek",
-    "context": "Birini eski görevine veya pozisyonuna geri getirmeye ‘reinstate’ denir. Genellikle işten çıkarıldıktan sonra veya bir cezanın ardından tekrar görevine başlamak için kullanılır. Sanki bir oyunda karakterini eski konumuna ‘resetlemek’ gibi düşünebilirsin!",
-    "options": [
-      "reinstate",
-      "dismiss",
-      "promote",
-      "demote"
-    ],
-    "correctAnswer": "reinstate",
-    "category": "BUSINESS",
-    "variations": [
-      "The union demanded to reinstate the fired workers.",
-      "After a review, he was reinstated to his position."
-    ]
-  },
-  {
-    "id": 126111506,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Bir takımı veya rakibi kolayca yenmek veya hafife almak hangi ifadeyle anlatılır?",
-    "translation": "Kolayca yenmek, önemsememek",
-    "context": "Birini veya bir şeyi kolayca, fazla çaba harcamadan geçiştirmek, yenmek veya önemsememek anlamına gelir. Mesela, ‘Maçta rakibini kolayca brush off etti’ dersek, rakibi fazla zorlanmadan yendiğini anlarız. Hafifçe omuz silkip geçmek gibi düşünebilirsin!",
-    "options": [
-      "tie up",
-      "brush off",
-      "hold back",
-      "level up"
-    ],
-    "correctAnswer": "brush off",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126111507,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "El Niño could significantly impact _____ in the US and Canada.",
-    "translation": "Kış hava durumu",
-    "context": "Kış mevsimindeki hava durumunu anlatmak için ‘winter weather’ ifadesini kullanırız. Kar yağışı, soğuk hava, buzlanma gibi her şey bu kategoriye girer. ‘Bu kış çok çetin bir winter weather bekliyoruz!’ cümlesiyle kışın sert geçeceğini ifade edebilirsin.",
-    "options": [
-      "winter weather",
-      "summer holidays",
-      "spring flowers",
-      "autumn leaves"
-    ],
-    "correctAnswer": "winter weather",
+    "correctAnswer": "Las Vegas",
     "category": "TRAVEL",
     "variations": [
-      "We had very mild winter weather last year.",
-      "Prepare for harsh winter weather this season."
+      "We are flying to _____ next month.",
+      "Our hotel in _____ is fantastic."
     ]
   },
   {
-    "id": 126111508,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "Aşağıdaki fiillerden hangisi bir şeyi başarıyla yakalamak veya tutmak anlamında kullanılır?",
-    "translation": "Yakalamak",
-    "context": "Bir şeyi havada veya hareket halindeyken yakalamak için ‘catch’ fiilini kullanırız. Topu yakalamak (catch the ball) veya balık yakalamak (catch a fish) gibi. SpaceX haberindeki gibi, bir roketin üst kısmını yakalamak da büyük bir başarıdır! 'Başarıyla yakalamak' için ise 'successfully catch' dersin.",
+    "id": 126111602,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "A new tech _____ just launched its innovative app.",
+    "translation": "Yeni bir teknoloji girişimi yenilikçi uygulamasını piyasaya sürdü.",
+    "context": "'Startup' veya 'girişim', genellikle teknoloji alanında yenilikçi bir fikirle yola çıkan, hızlı büyüme potansiyeli olan genç şirketlere denir. Silikon Vadisi ruhu işte! Kimi zaman 'dodging death' (ölümden dönmek) gibi zorlu süreçlerden geçip 'going public' (halka açılmak) ile taçlandırırlar hikayelerini.",
     "options": [
-      "drop",
-      "launch",
-      "catch",
-      "release"
+      "company",
+      "startup",
+      "firm",
+      "business"
+    ],
+    "correctAnswer": "startup",
+    "category": "BUSINESS",
+    "variations": [
+      "That small _____ raised a lot of capital.",
+      "She founded her own successful _____."
+    ]
+  },
+  {
+    "id": 126111603,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The stock market saw prices _____ after the news.",
+    "translation": "Haberden sonra borsa fiyatları hızla düştü.",
+    "context": "'Plummet' kelimesi, bir şeyin aniden ve hızla aşağı düşmesi demek. Özellikle hava durumu raporlarında 'temperatures plummet' (sıcaklıklar düşüyor) diye duyarsın. Bazen de ekonomi haberlerinde 'stock market plummet' (borsa çakıldı) olarak karşına çıkar. Anlayacağın, ani ve sert düşüşler için ideal!",
+    "options": [
+      "rise",
+      "increase",
+      "plummet",
+      "stabilize"
+    ],
+    "correctAnswer": "plummet",
+    "category": "CASUAL",
+    "variations": [
+      "Birds will _____ from the sky.",
+      "His popularity began to _____ quickly."
+    ]
+  },
+  {
+    "id": 126111604,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "Hangi fiil, bir nesneyi hareket halindeyken tutmak veya yakalamak anlamında kullanılır?",
+    "translation": "Catch",
+    "context": "'Catch', İngilizcede yakalamak, tutmak demek. Topu yakalamak, balık yakalamak gibi fiziksel eylemler için kullanılır. Ama bazen bir fırsatı 'catch a chance' veya bir hastalığı 'catch a cold' gibi soyut durumlarda da kullanabiliriz. SpaceX'in roketi yakalaması gibi, bazen de kelimenin tam anlamıyla bir şeyi havada yakalamak anlamına gelir!",
+    "options": [
+      "run",
+      "throw",
+      "jump",
+      "catch"
     ],
     "correctAnswer": "catch",
     "category": "MIXED",
     "variations": []
   },
   {
-    "id": 126111509,
+    "id": 126111605,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The US has _____ the idea of Ukraine ceding Donbas for Nato membership.",
-    "translation": "Gündeme getirmek, nabız yoklamak",
-    "context": "Bir fikri, öneriyi veya planı deneme amaçlı olarak, resmiyete dökmeden ortaya atmaya veya gündeme getirmeye ‘float an idea’ denir. Balon gibi havaya bırakmak, nabız yoklamak gibi düşünebilirsin. Henüz kesinleşmemiş, tartışmaya açık bir öneridir.",
+    "level": "INTERMEDIATE",
+    "phrase": "The government decided on the _____ of illegal immigrants.",
+    "translation": "Hükümet yasa dışı göçmenlerin sınır dışı edilmesine karar verdi.",
+    "context": "'Deportation', bir yabancının yasalara aykırı olarak bir ülkede bulunduktan sonra kendi ülkesine veya başka bir ülkeye geri gönderilmesi anlamına gelir. Kulağa sert gelse de, her ülkenin kendi sınırlarını koruma politikaları var. Haberlerde 'migrant deportation centre' (göçmen sınır dışı etme merkezi) gibi ifadelerle sıkça karşılaşırsın.",
     "options": [
-      "floated",
-      "sunk",
-      "rejected",
-      "ignored"
+      "immigration",
+      "deportation",
+      "visa",
+      "citizenship"
     ],
-    "correctAnswer": "floated",
-    "category": "BUSINESS",
+    "correctAnswer": "deportation",
+    "category": "TRAVEL",
     "variations": [
-      "She floated an idea during the brainstorming session.",
-      "Let's float this proposal to see the reaction."
+      "He faced _____ after his visa expired.",
+      "Many countries have strict _____ policies."
     ]
   },
   {
-    "id": 126111510,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Birinin veya bir şeyin gerçekten iyi, otantik ve beklentileri karşılayan olduğunu ifade eden İngilizce deyim hangisidir?",
-    "translation": "Gerçekten iyi/otantik olan",
-    "context": "Birisi veya bir şey için ‘the real deal’ dediğimizde, o kişinin veya şeyin gerçekten iyi, güvenilir, otantik ve beklentileri fazlasıyla karşılayan olduğunu vurgularız. Yani sahte veya abartılı değil, tam anlamıyla ‘gerçekten o’ demek! Mesela, yeni bir şarkıcı için ‘He's the real deal!’ dersen, gerçekten yetenekli olduğunu kast edersin.",
+    "id": 126111606,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The company plans to _____ the popular manager.",
+    "translation": "Şirket, popüler müdürü eski görevine iade etmeyi planlıyor.",
+    "context": "'Reinstate', birini eski görevine, pozisyonuna veya durumuna geri getirmek demektir. İş dünyasında, haksız yere işten çıkarılan birinin 'reinstate' edilmesi veya bir politikanın 'reinstate' edilmesi gibi durumlarda kullanılır. Elon Musk'ın Jensen'ı geri getirme kampanyası gibi düşün, yani 'Yine gelsin, yine işbaşı yapsın!' demek.",
     "options": [
-      "a raw talent",
-      "the real deal",
-      "a dark horse",
-      "an underdog"
+      "fire",
+      "demote",
+      "promote",
+      "reinstate"
     ],
-    "correctAnswer": "the real deal",
+    "correctAnswer": "reinstate",
+    "category": "BUSINESS",
+    "variations": [
+      "The court ordered his immediate _____.",
+      "They voted to _____ the old rules."
+    ]
+  },
+  {
+    "id": 126111607,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The details of the accident were truly _____.",
+    "translation": "Kazanın detayları gerçekten korkunçtu.",
+    "context": "'Horrific', dehşet verici, korkunç, tüyler ürpertici anlamına gelir. Genellikle kötü olayları, suçları veya çok sarsıcı deneyimleri tanımlamak için kullanılır. 'Horrific attempted murder' (korkunç cinayete teşebbüs) gibi haber başlıklarında sıkça rastlarsın. Yani, mide bulandırıcı ve ürkütücü her şey için bu kelimeyi kullanabilirsin.",
+    "options": [
+      "pleasant",
+      "beautiful",
+      "horrific",
+      "normal"
+    ],
+    "correctAnswer": "horrific",
     "category": "CASUAL",
+    "variations": [
+      "It was a truly _____ sight to behold.",
+      "She described the _____ conditions in the camp."
+    ]
+  },
+  {
+    "id": 126111608,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "'Green light' deyimi, bir projeye veya eyleme ne anlama gelir?",
+    "translation": "Onay veya izin",
+    "context": "'Green light' (yeşil ışık), bir trafik ışığındaki yeşil ışık gibi, bir şeye başlamak veya devam etmek için onay veya izin verildiği anlamına gelen bir deyimdir. Hükümetin bir gaz projesine 'green light' vermesi gibi, bir işe veya fikre onay verildiğinde kullanılır. Yani, 'Hadi bakalım, başlayabiliriz!' demek.",
+    "options": [
+      "red light",
+      "yellow light",
+      "green light",
+      "blue light"
+    ],
+    "correctAnswer": "green light",
+    "category": "MIXED",
     "variations": []
   },
   {
-    "id": 126111511,
+    "id": 126111609,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "November's _____ in the sky is a rare astronomical event.",
-    "translation": "Gezegen geçidi",
-    "context": "Birden fazla gezegenin gökyüzünde yakın bir hizaya gelerek görsel bir şölen oluşturmasına ‘planetary parade’ denir. Sanki gezegenler bir tören geçişi yapıyormuş gibi düşünebilirsin. Astronomi meraklıları için kaçırılmaması gereken büyüleyici bir olaydır!",
+    "phrase": "Many goods are imported through the busy _____ on the coast.",
+    "translation": "Birçok mal, sahil şeridindeki işlek liman şehrinden ithal edilir.",
+    "context": "'Port city', deniz yoluyla ticaretin yapıldığı, gemilerin yük boşalttığı ve yolcu aldığı büyük limanı olan şehirlere denir. İstanbul, İzmir gibi şehirler de aslında birer 'port city' sayılır. Stratejik önemi nedeniyle sıkça savunulan veya ele geçirilmeye çalışılan yerlerdir, tıpkı haberdeki gibi!",
     "options": [
-      "planetary parade",
-      "star shower",
-      "solar eclipse",
-      "lunar dance"
+      "capital city",
+      "port city",
+      "mountain city",
+      "desert city"
     ],
-    "correctAnswer": "planetary parade",
+    "correctAnswer": "port city",
     "category": "TRAVEL",
     "variations": [
-      "A planetary parade is a rare celestial event.",
-      "We observed a small planetary parade last night."
+      "The ancient _____ was vital for trade routes.",
+      "We visited a charming _____ during our trip."
     ]
   },
   {
-    "id": 126111512,
+    "id": 126111610,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The small company aims to _____ the market leader.",
+    "translation": "Küçük şirket, pazar lideriyle rekabet etmeyi hedefliyor.",
+    "context": "'Take on' deyimi, bir meydan okumayı kabul etmek, bir rakiple rekabete girmek veya bir sorumluluğu üstlenmek gibi farklı anlamlara gelebilir. Buradaki haberde olduğu gibi 'Salesforce ile take on' demek, onlarla rekabet etmek ve pazar payı kapmaya çalışmak anlamına geliyor. Yani, 'Hodri meydan!' demek gibi düşünebilirsin.",
+    "options": [
+      "avoid",
+      "ignore",
+      "collaborate with",
+      "take on"
+    ],
+    "correctAnswer": "take on",
+    "category": "BUSINESS",
+    "variations": [
+      "She decided to _____ a new challenge.",
+      "Can our team _____ the champions?"
+    ]
+  },
+  {
+    "id": 126111611,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The driver had a narrow escape, literally _____ after the crash.",
+    "translation": "Sürücü kazadan sonra kelimenin tam anlamıyla ölümden döndü.",
+    "context": "'Dodging death' deyimi, 'ölümden dönmek', 'kıl payı kurtulmak' anlamına gelir. Çok tehlikeli bir durumdan sağ salim kurtulduğunda kullanılır. Bir startup için 'dodging death' deniyorsa, battı batacak duruma gelip son anda kurtulup tekrar yükselişe geçtiğini anlatır. Yani, 'Az kalsın gidiyorduk ama sıyırdık!' der gibi.",
+    "options": [
+      "facing death",
+      "inviting death",
+      "dodging death",
+      "embracing death"
+    ],
+    "correctAnswer": "dodging death",
+    "category": "CASUAL",
+    "variations": [
+      "It was a close call, truly _____.",
+      "He spent weeks _____ in the hospital."
+    ]
+  },
+  {
+    "id": 126111612,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Aşağıdaki terimlerden hangisi bir tür virüs adıdır ve hayvan sağlığıyla ilgilidir?",
-    "translation": "Mavi Dil Virüsü",
-    "context": "Bu, özellikle geviş getiren hayvanlarda (koyun, keçi, sığır vb.) görülen, sineklerle bulaşan viral bir hastalıktır. Adını, hastalığın semptomlarından biri olan dilin mavi-mor bir renk almasından alır. Genellikle çiftliklerde ciddi ekonomik kayıplara yol açabilir. Kısacası, hayvanlar için oldukça ciddi bir sağlık sorunudur!",
+    "phrase": "Bir anlaşmazlığı yasal yollarla çözmek anlamına gelen ifade hangisidir?",
+    "translation": "Bir talebi çözmek",
+    "context": "'Settle a claim', yasal bir anlaşmazlığı veya talebi mahkemeye gitmeden veya mahkeme kararıyla çözüme kavuşturmak demektir. Genellikle tarafların uzlaşmasıyla veya tazminat ödenerek yapılır. Haberdeki gibi bir yacht (yat) üzerindeki milyonluk iddialar 'settle' edildiğinde, tarafların uzlaştığı ve davanın kapandığı anlamına gelir. Yani, 'Dava bitti, anlaşmaya varıldı!'",
     "options": [
-      "Bluetongue virus",
-      "Greeneye bacteria",
-      "Redskin disease",
-      "Yellowtooth parasite"
+      "file a lawsuit",
+      "ignore a claim",
+      "settle a claim",
+      "dispute a claim"
     ],
-    "correctAnswer": "Bluetongue virus",
+    "correctAnswer": "settle a claim",
     "category": "MIXED",
     "variations": []
   }
