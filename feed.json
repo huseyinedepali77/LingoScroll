@@ -1,233 +1,236 @@
 [
   {
-    "id": 126111601,
+    "id": 126111801,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Many people travel to _____ for entertainment and shows.",
-    "translation": "Birçok insan eğlence ve gösteriler için Las Vegas'a seyahat eder.",
-    "context": "Las Vegas, ABD'nin Nevada eyaletinde bir şehir. Kumarhaneleri, lüks otelleri, eğlence şovları ve gece hayatıyla dünyaca ünlü. Buraya 'Günah Şehri' de denir ama aslında her yaşa uygun birçok aktivite bulabilirsin. F1 yarışları, robot taksiler derken bayağı popüler!",
+    "phrase": "It's polite to _____ hands when you meet someone new.",
+    "translation": "Yeni biriyle tanıştığında el sıkışmak kibarlıktır.",
+    "context": "'Shake hands' dediğimizde, yeni biriyle tanışırken veya anlaşma yaparken el sıkışmak demektir. Mesela, bir iş görüşmesinde veya önemli bir toplantıda, karşınızdaki kişiye saygı göstermenin ve samimiyet kurmanın en güzel yollarından biridir. Unutma, ilk izlenim çok önemli!",
     "options": [
-      "Paris",
-      "London",
-      "Las Vegas",
-      "Rome"
+      "shake",
+      "wave",
+      "clap",
+      "point"
     ],
-    "correctAnswer": "Las Vegas",
-    "category": "TRAVEL",
-    "variations": [
-      "We are flying to _____ next month.",
-      "Our hotel in _____ is fantastic."
-    ]
-  },
-  {
-    "id": 126111602,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "A new tech _____ just launched its innovative app.",
-    "translation": "Yeni bir teknoloji girişimi yenilikçi uygulamasını piyasaya sürdü.",
-    "context": "'Startup' veya 'girişim', genellikle teknoloji alanında yenilikçi bir fikirle yola çıkan, hızlı büyüme potansiyeli olan genç şirketlere denir. Silikon Vadisi ruhu işte! Kimi zaman 'dodging death' (ölümden dönmek) gibi zorlu süreçlerden geçip 'going public' (halka açılmak) ile taçlandırırlar hikayelerini.",
-    "options": [
-      "company",
-      "startup",
-      "firm",
-      "business"
-    ],
-    "correctAnswer": "startup",
-    "category": "BUSINESS",
-    "variations": [
-      "That small _____ raised a lot of capital.",
-      "She founded her own successful _____."
-    ]
-  },
-  {
-    "id": 126111603,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The stock market saw prices _____ after the news.",
-    "translation": "Haberden sonra borsa fiyatları hızla düştü.",
-    "context": "'Plummet' kelimesi, bir şeyin aniden ve hızla aşağı düşmesi demek. Özellikle hava durumu raporlarında 'temperatures plummet' (sıcaklıklar düşüyor) diye duyarsın. Bazen de ekonomi haberlerinde 'stock market plummet' (borsa çakıldı) olarak karşına çıkar. Anlayacağın, ani ve sert düşüşler için ideal!",
-    "options": [
-      "rise",
-      "increase",
-      "plummet",
-      "stabilize"
-    ],
-    "correctAnswer": "plummet",
+    "correctAnswer": "shake",
     "category": "CASUAL",
     "variations": [
-      "Birds will _____ from the sky.",
-      "His popularity began to _____ quickly."
+      "It's customary to _____ hands after a good negotiation.",
+      "Always _____ hands firmly to show confidence."
     ]
   },
   {
-    "id": 126111604,
-    "type": "QUIZ_MULTIPLE_CHOICE",
+    "id": 126111802,
+    "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Hangi fiil, bir nesneyi hareket halindeyken tutmak veya yakalamak anlamında kullanılır?",
-    "translation": "Catch",
-    "context": "'Catch', İngilizcede yakalamak, tutmak demek. Topu yakalamak, balık yakalamak gibi fiziksel eylemler için kullanılır. Ama bazen bir fırsatı 'catch a chance' veya bir hastalığı 'catch a cold' gibi soyut durumlarda da kullanabiliriz. SpaceX'in roketi yakalaması gibi, bazen de kelimenin tam anlamıyla bir şeyi havada yakalamak anlamına gelir!",
+    "phrase": "The company reported _____ sales last quarter, boosting profits.",
+    "translation": "Şirket geçen çeyrekte hızla artan satışlar bildirdi ve kârlarını artırdı.",
+    "context": "'Soaring sales' derken, bir ürünün veya hizmetin satışlarının inanılmaz derecede hızla ve yüksek bir şekilde arttığını anlatırız. Tıpkı bir roketin gökyüzüne fırlaması gibi! Bu durum genellikle şirketler için harika bir haberdir ve 'kârlar tavan yaptı' anlamına gelir.",
     "options": [
-      "run",
-      "throw",
-      "jump",
-      "catch"
+      "soaring",
+      "falling",
+      "slow",
+      "steady"
     ],
-    "correctAnswer": "catch",
+    "correctAnswer": "soaring",
+    "category": "BUSINESS",
+    "variations": [
+      "The new product achieved _____ sales in its first month.",
+      "Expect _____ sales during the holiday season."
+    ]
+  },
+  {
+    "id": 126111803,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "We are going to a lovely _____ site for our summer holiday.",
+    "translation": "Yaz tatilimiz için hoş bir yüzme/plaj alanına gidiyoruz.",
+    "context": "'Bathing site' dediğimizde aklına hemen deniz kenarındaki o harika plajlar ya da serinletici göletler gelsin. Yani yüzmek, güneşlenmek ve rahatlamak için harika bir yer! İngiltere'deki bazı 'bathing site'lar ne yazık ki kirlilik sorunlarıyla boğuşsa da, çoğu yazın keyfini çıkarmak için ideal.",
+    "options": [
+      "bathing",
+      "eating",
+      "running",
+      "hiking"
+    ],
+    "correctAnswer": "bathing",
+    "category": "TRAVEL",
+    "variations": [
+      "This lake is a popular _____ site for families.",
+      "Beware of the signs indicating if a _____ site is safe."
+    ]
+  },
+  {
+    "id": 126111804,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Our team achieved a great _____ win after three exciting games.",
+    "translation": "Takımımız üç heyecanlı maçtan sonra harika bir seri galibiyeti elde etti.",
+    "context": "'Series win' spor dünyasında, birden fazla maçtan oluşan bir seriyi (yani 'dizi'yi) kazanmak anlamına gelir. Mesela, basketbolda veya krikette, takımlar birkaç maç yapar ve en çok galibiyeti alan 'series win' yapmış olur. Takımının şampiyonluk yolunda attığı büyük bir adım!",
+    "options": [
+      "series",
+      "single",
+      "game",
+      "match"
+    ],
+    "correctAnswer": "series",
     "category": "MIXED",
+    "variations": [
+      "They hope to clinch the _____ win in the final match.",
+      "Another _____ win will secure their place in the playoffs."
+    ]
+  },
+  {
+    "id": 126111805,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "Which term describes a market situation where one company or group has exclusive control over a commodity or service?",
+    "translation": "Bir şirketin veya grubun bir mal veya hizmet üzerinde münhasır kontrol sahibi olduğu piyasa durumunu tanımlayan terim nedir?",
+    "context": "'Monopoly' ekonomide çok önemli bir terimdir ve bir kişinin veya şirketin bir sektördeki tek kontrol gücünü ifade eder. Tıpkı bir oyunun tek hakimi olmak gibi! Çin'in batarya grafitindeki 'monopoly'si, yeni bir startup'ın bu durumu değiştirebileceği haberleriyle gündemde.",
+    "options": [
+      "Monopoly",
+      "Oligopoly",
+      "Duopoly",
+      "Competition"
+    ],
+    "correctAnswer": "Monopoly",
+    "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126111605,
+    "id": 126111806,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The government decided on the _____ of illegal immigrants.",
-    "translation": "Hükümet yasa dışı göçmenlerin sınır dışı edilmesine karar verdi.",
-    "context": "'Deportation', bir yabancının yasalara aykırı olarak bir ülkede bulunduktan sonra kendi ülkesine veya başka bir ülkeye geri gönderilmesi anlamına gelir. Kulağa sert gelse de, her ülkenin kendi sınırlarını koruma politikaları var. Haberlerde 'migrant deportation centre' (göçmen sınır dışı etme merkezi) gibi ifadelerle sıkça karşılaşırsın.",
+    "phrase": "The organization decided to _____ online abuse from its fans.",
+    "translation": "Organizasyon, taraftarlarından gelen çevrimiçi tacizi kınamaya karar verdi.",
+    "context": "'Condemn abuse' derken, bir olayı veya davranışı (özellikle kötü niyetli veya zararlı olanları) kınamak, şiddetle eleştirmek ve kabul edilemez bulmak anlamına gelir. Güney Afrika Rugby Federasyonu'nun taraftar şiddetini 'condemn' etmesi gibi, etik değerlere sahip çıkmak çok önemlidir.",
     "options": [
-      "immigration",
-      "deportation",
-      "visa",
-      "citizenship"
+      "condemn",
+      "praise",
+      "encourage",
+      "ignore"
     ],
-    "correctAnswer": "deportation",
-    "category": "TRAVEL",
+    "correctAnswer": "condemn",
+    "category": "CASUAL",
     "variations": [
-      "He faced _____ after his visa expired.",
-      "Many countries have strict _____ policies."
+      "We must _____ all forms of discrimination.",
+      "The UN will _____ the violence in the region."
     ]
   },
   {
-    "id": 126111606,
+    "id": 126111807,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The company plans to _____ the popular manager.",
-    "translation": "Şirket, popüler müdürü eski görevine iade etmeyi planlıyor.",
-    "context": "'Reinstate', birini eski görevine, pozisyonuna veya durumuna geri getirmek demektir. İş dünyasında, haksız yere işten çıkarılan birinin 'reinstate' edilmesi veya bir politikanın 'reinstate' edilmesi gibi durumlarda kullanılır. Elon Musk'ın Jensen'ı geri getirme kampanyası gibi düşün, yani 'Yine gelsin, yine işbaşı yapsın!' demek.",
+    "phrase": "Governments are working to meet their strict _____ targets.",
+    "translation": "Hükümetler katı iklim hedeflerini karşılamak için çalışıyor.",
+    "context": "'Climate targets' gezegenimizin geleceği için çok önemli hedeflerdir. Hükümetler, küresel ısınmayı durdurmak ve çevreyi korumak için belirli karbon salımı azaltma hedefleri belirler. Elektrikli araç (EV) kurallarının gevşetilmesi, bu 'climate targets'a ulaşma çabalarımızı ciddi şekilde riske atabilir.",
     "options": [
-      "fire",
-      "demote",
+      "climate",
+      "financial",
+      "growth",
+      "employment"
+    ],
+    "correctAnswer": "climate",
+    "category": "TRAVEL",
+    "variations": [
+      "Meeting ambitious _____ targets requires global cooperation.",
+      "The city aims to achieve its zero-carbon _____ targets by 2050."
+    ]
+  },
+  {
+    "id": 126111808,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The employee hoped the company would _____ him after the investigation.",
+    "translation": "Çalışan, şirketin soruşturmadan sonra onu görevine geri iade etmesini umuyordu.",
+    "context": "'Reinstate' kelimesi, daha önce görevden alınan, işten çıkarılan veya askıya alınan birini eski pozisyonuna geri getirmek anlamına gelir. Tıpkı bir sporcunun cezasının bitip takımına dönmesi gibi. Nvidia'nın Huang'ı 'reinstate' etmeme kararı, şirketin önemli bir yönetim değişikliği yaptığına işaret ediyor olabilir.",
+    "options": [
+      "reinstate",
+      "dismiss",
       "promote",
-      "reinstate"
+      "transfer"
     ],
     "correctAnswer": "reinstate",
-    "category": "BUSINESS",
-    "variations": [
-      "The court ordered his immediate _____.",
-      "They voted to _____ the old rules."
-    ]
-  },
-  {
-    "id": 126111607,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The details of the accident were truly _____.",
-    "translation": "Kazanın detayları gerçekten korkunçtu.",
-    "context": "'Horrific', dehşet verici, korkunç, tüyler ürpertici anlamına gelir. Genellikle kötü olayları, suçları veya çok sarsıcı deneyimleri tanımlamak için kullanılır. 'Horrific attempted murder' (korkunç cinayete teşebbüs) gibi haber başlıklarında sıkça rastlarsın. Yani, mide bulandırıcı ve ürkütücü her şey için bu kelimeyi kullanabilirsin.",
-    "options": [
-      "pleasant",
-      "beautiful",
-      "horrific",
-      "normal"
-    ],
-    "correctAnswer": "horrific",
-    "category": "CASUAL",
-    "variations": [
-      "It was a truly _____ sight to behold.",
-      "She described the _____ conditions in the camp."
-    ]
-  },
-  {
-    "id": 126111608,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "'Green light' deyimi, bir projeye veya eyleme ne anlama gelir?",
-    "translation": "Onay veya izin",
-    "context": "'Green light' (yeşil ışık), bir trafik ışığındaki yeşil ışık gibi, bir şeye başlamak veya devam etmek için onay veya izin verildiği anlamına gelen bir deyimdir. Hükümetin bir gaz projesine 'green light' vermesi gibi, bir işe veya fikre onay verildiğinde kullanılır. Yani, 'Hadi bakalım, başlayabiliriz!' demek.",
-    "options": [
-      "red light",
-      "yellow light",
-      "green light",
-      "blue light"
-    ],
-    "correctAnswer": "green light",
     "category": "MIXED",
+    "variations": [
+      "The union demanded the company _____ the striking workers.",
+      "He appealed to the board to _____ his membership."
+    ]
+  },
+  {
+    "id": 126111809,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Which term best describes software programs that perform tasks or services for a user or another program, especially autonomously?",
+    "translation": "Bir kullanıcı veya başka bir program için, özellikle özerk bir şekilde görev veya hizmetleri yerine getiren yazılım programlarını en iyi tanımlayan terim nedir?",
+    "context": "'AI agents' (Yapay Zeka ajanları), belirli görevleri otomasyonla veya bir insan gibi 'düşünerek' yerine getiren akıllı yazılım programlarıdır. Şirketlerin dağınık 'enterprise documents' (kurumsal belgeler) yığınlarını 'AI agents' kullanarak daha erişilebilir ve işlenebilir hale getirmesi, geleceğin iş yapış şekli olacak.",
+    "options": [
+      "AI agents",
+      "Spreadsheets",
+      "Data warehouses",
+      "Legacy systems"
+    ],
+    "correctAnswer": "AI agents",
+    "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126111609,
+    "id": 126111810,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Many goods are imported through the busy _____ on the coast.",
-    "translation": "Birçok mal, sahil şeridindeki işlek liman şehrinden ithal edilir.",
-    "context": "'Port city', deniz yoluyla ticaretin yapıldığı, gemilerin yük boşalttığı ve yolcu aldığı büyük limanı olan şehirlere denir. İstanbul, İzmir gibi şehirler de aslında birer 'port city' sayılır. Stratejik önemi nedeniyle sıkça savunulan veya ele geçirilmeye çalışılan yerlerdir, tıpkı haberdeki gibi!",
+    "phrase": "The new evidence might _____ the old criminal case.",
+    "translation": "Yeni kanıtlar eski ceza davasını yeniden açabilir (ortaya çıkarabilir).",
+    "context": "'Blow open' deyimi, genellikle bir sırrın, skandalın veya gizli kalmış bir durumun aniden ve dramatik bir şekilde ortaya çıkması anlamına gelir. Tıpkı bir kutunun içinden sürpriz bir patlama sesiyle bir şeylerin dışarı fırlaması gibi! Bancroft'un 'Sandpapergate' skandalını 'blow open' etmesi, büyük bir şok etkisi yarattı.",
     "options": [
-      "capital city",
-      "port city",
-      "mountain city",
-      "desert city"
+      "blow open",
+      "close off",
+      "hide",
+      "cover up"
     ],
-    "correctAnswer": "port city",
+    "correctAnswer": "blow open",
+    "category": "CASUAL",
+    "variations": [
+      "The journalist's report helped _____ the government's secret.",
+      "This new information could _____ the entire investigation."
+    ]
+  },
+  {
+    "id": 126111811,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The government's new policy has _____ the environmental protection rules.",
+    "translation": "Hükümetin yeni politikası çevre koruma kurallarını zayıflattı.",
+    "context": "'Weakened' kelimesi, bir şeyin gücünü, etkinliğini veya etkisini azaltmak demektir. Mesela, bir yasayı 'weakened' etmek, onu daha az katı veya daha az uygulanabilir hale getirmektir. Elektrikli araç (EV) kurallarının 'weakened' olması, çevre hedeflerine ulaşma potansiyelimizi olumsuz etkileyebilir.",
+    "options": [
+      "weakened",
+      "strengthened",
+      "established",
+      "clarified"
+    ],
+    "correctAnswer": "weakened",
     "category": "TRAVEL",
     "variations": [
-      "The ancient _____ was vital for trade routes.",
-      "We visited a charming _____ during our trip."
+      "Lack of proper training has _____ their confidence.",
+      "The economic crisis _____ the national currency."
     ]
   },
   {
-    "id": 126111610,
+    "id": 126111812,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The small company aims to _____ the market leader.",
-    "translation": "Küçük şirket, pazar lideriyle rekabet etmeyi hedefliyor.",
-    "context": "'Take on' deyimi, bir meydan okumayı kabul etmek, bir rakiple rekabete girmek veya bir sorumluluğu üstlenmek gibi farklı anlamlara gelebilir. Buradaki haberde olduğu gibi 'Salesforce ile take on' demek, onlarla rekabet etmek ve pazar payı kapmaya çalışmak anlamına geliyor. Yani, 'Hodri meydan!' demek gibi düşünebilirsin.",
+    "phrase": "World leaders gathered for _____ talks on global security.",
+    "translation": "Dünya liderleri küresel güvenlik konusunda tarihi görüşmeler için toplandı.",
+    "context": "'Historic talks' dediğimizde, tarihe geçecek kadar önemli ve dönüştürücü görüşmeleri kastediyoruz. Tıpkı bir ülkenin kaderini değiştirecek, uluslararası ilişkileri yeniden şekillendirecek büyük zirveler gibi! Trump'ın Putin ve Xi ile 'historic talks' yapması, uluslararası arenada büyük yankı uyandırdı.",
     "options": [
-      "avoid",
-      "ignore",
-      "collaborate with",
-      "take on"
+      "historic",
+      "trivial",
+      "casual",
+      "brief"
     ],
-    "correctAnswer": "take on",
-    "category": "BUSINESS",
-    "variations": [
-      "She decided to _____ a new challenge.",
-      "Can our team _____ the champions?"
-    ]
-  },
-  {
-    "id": 126111611,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The driver had a narrow escape, literally _____ after the crash.",
-    "translation": "Sürücü kazadan sonra kelimenin tam anlamıyla ölümden döndü.",
-    "context": "'Dodging death' deyimi, 'ölümden dönmek', 'kıl payı kurtulmak' anlamına gelir. Çok tehlikeli bir durumdan sağ salim kurtulduğunda kullanılır. Bir startup için 'dodging death' deniyorsa, battı batacak duruma gelip son anda kurtulup tekrar yükselişe geçtiğini anlatır. Yani, 'Az kalsın gidiyorduk ama sıyırdık!' der gibi.",
-    "options": [
-      "facing death",
-      "inviting death",
-      "dodging death",
-      "embracing death"
-    ],
-    "correctAnswer": "dodging death",
-    "category": "CASUAL",
-    "variations": [
-      "It was a close call, truly _____.",
-      "He spent weeks _____ in the hospital."
-    ]
-  },
-  {
-    "id": 126111612,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "Bir anlaşmazlığı yasal yollarla çözmek anlamına gelen ifade hangisidir?",
-    "translation": "Bir talebi çözmek",
-    "context": "'Settle a claim', yasal bir anlaşmazlığı veya talebi mahkemeye gitmeden veya mahkeme kararıyla çözüme kavuşturmak demektir. Genellikle tarafların uzlaşmasıyla veya tazminat ödenerek yapılır. Haberdeki gibi bir yacht (yat) üzerindeki milyonluk iddialar 'settle' edildiğinde, tarafların uzlaştığı ve davanın kapandığı anlamına gelir. Yani, 'Dava bitti, anlaşmaya varıldı!'",
-    "options": [
-      "file a lawsuit",
-      "ignore a claim",
-      "settle a claim",
-      "dispute a claim"
-    ],
-    "correctAnswer": "settle a claim",
+    "correctAnswer": "historic",
     "category": "MIXED",
-    "variations": []
+    "variations": [
+      "Their anniversary was marked by a _____ dinner.",
+      "The decision was truly _____, affecting generations to come."
+    ]
   }
 ]
