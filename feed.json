@@ -1,236 +1,233 @@
 [
   {
-    "id": 126111801,
+    "id": 126112001,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "It's polite to _____ hands when you meet someone new.",
-    "translation": "Yeni biriyle tanıştığında el sıkışmak kibarlıktır.",
-    "context": "'Shake hands' dediğimizde, yeni biriyle tanışırken veya anlaşma yaparken el sıkışmak demektir. Mesela, bir iş görüşmesinde veya önemli bir toplantıda, karşınızdaki kişiye saygı göstermenin ve samimiyet kurmanın en güzel yollarından biridir. Unutma, ilk izlenim çok önemli!",
+    "phrase": "The bird made an _____ migration to Siberia.",
+    "translation": "destansı",
+    "context": "Bir kuşun göç yolu veya bir uzay aracının uzun yolculuğu gibi sıradışı, uzun ve etkileyici seyahatleri anlatırken 'epic' kelimesini kullanabiliriz. Düşünsene, Phil kuşunun Sibirya'ya gidip gelmesi tam bir 'epic' olay!",
     "options": [
-      "shake",
-      "wave",
-      "clap",
-      "point"
+      "epic",
+      "small",
+      "short",
+      "boring"
     ],
-    "correctAnswer": "shake",
-    "category": "CASUAL",
-    "variations": [
-      "It's customary to _____ hands after a good negotiation.",
-      "Always _____ hands firmly to show confidence."
-    ]
-  },
-  {
-    "id": 126111802,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The company reported _____ sales last quarter, boosting profits.",
-    "translation": "Şirket geçen çeyrekte hızla artan satışlar bildirdi ve kârlarını artırdı.",
-    "context": "'Soaring sales' derken, bir ürünün veya hizmetin satışlarının inanılmaz derecede hızla ve yüksek bir şekilde arttığını anlatırız. Tıpkı bir roketin gökyüzüne fırlaması gibi! Bu durum genellikle şirketler için harika bir haberdir ve 'kârlar tavan yaptı' anlamına gelir.",
-    "options": [
-      "soaring",
-      "falling",
-      "slow",
-      "steady"
-    ],
-    "correctAnswer": "soaring",
-    "category": "BUSINESS",
-    "variations": [
-      "The new product achieved _____ sales in its first month.",
-      "Expect _____ sales during the holiday season."
-    ]
-  },
-  {
-    "id": 126111803,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "We are going to a lovely _____ site for our summer holiday.",
-    "translation": "Yaz tatilimiz için hoş bir yüzme/plaj alanına gidiyoruz.",
-    "context": "'Bathing site' dediğimizde aklına hemen deniz kenarındaki o harika plajlar ya da serinletici göletler gelsin. Yani yüzmek, güneşlenmek ve rahatlamak için harika bir yer! İngiltere'deki bazı 'bathing site'lar ne yazık ki kirlilik sorunlarıyla boğuşsa da, çoğu yazın keyfini çıkarmak için ideal.",
-    "options": [
-      "bathing",
-      "eating",
-      "running",
-      "hiking"
-    ],
-    "correctAnswer": "bathing",
+    "correctAnswer": "epic",
     "category": "TRAVEL",
     "variations": [
-      "This lake is a popular _____ site for families.",
-      "Beware of the signs indicating if a _____ site is safe."
+      "The spacecraft's epic voyage lasted eight years.",
+      "Their trip to Mount Everest was truly epic."
     ]
   },
   {
-    "id": 126111804,
+    "id": 126112002,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "Our team achieved a great _____ win after three exciting games.",
-    "translation": "Takımımız üç heyecanlı maçtan sonra harika bir seri galibiyeti elde etti.",
-    "context": "'Series win' spor dünyasında, birden fazla maçtan oluşan bir seriyi (yani 'dizi'yi) kazanmak anlamına gelir. Mesela, basketbolda veya krikette, takımlar birkaç maç yapar ve en çok galibiyeti alan 'series win' yapmış olur. Takımının şampiyonluk yolunda attığı büyük bir adım!",
+    "phrase": "The coach will hold a _____ conference today.",
+    "translation": "basın",
+    "context": "Yeni bir ürün tanıtımı, önemli bir duyuru veya bir istifa sonrası açıklama için toplanılan basın toplantılarına 'press conference' denir. Kameralar ve gazetecilerle dolu bir ortam düşün!",
     "options": [
-      "series",
-      "single",
-      "game",
-      "match"
+      "press",
+      "team",
+      "private",
+      "daily"
     ],
-    "correctAnswer": "series",
-    "category": "MIXED",
+    "correctAnswer": "press",
+    "category": "BUSINESS",
     "variations": [
-      "They hope to clinch the _____ win in the final match.",
-      "Another _____ win will secure their place in the playoffs."
+      "The CEO's resignation was announced at a press conference.",
+      "She refused to answer questions at the press conference."
     ]
   },
   {
-    "id": 126111805,
+    "id": 126112003,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "We need a new _____ pump for our home.",
+    "translation": "ısı",
+    "context": "Evini ısıtıp soğutan, çevre dostu bir cihazdır 'heat pump'. Enerji faturanı düşürürken doğayı da korur. Kışın sıcacık, yazın serin tutar!",
+    "options": [
+      "heat",
+      "water",
+      "air",
+      "power"
+    ],
+    "correctAnswer": "heat",
+    "category": "CASUAL",
+    "variations": [
+      "Heat pumps are becoming more popular in homes.",
+      "This system uses a special heat pump."
+    ]
+  },
+  {
+    "id": 126112004,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The missile _____ the old building.",
+    "translation": "çarptı/isabet etti",
+    "context": "Bir şeyin bir hedefe çarpması veya isabet etmesi durumunda 'hit' kelimesini kullanırız. Bazen istemeden, bazen de bilerek. Futbol topunun direğe çarpması gibi!",
+    "options": [
+      "hit",
+      "missed",
+      "passed",
+      "avoided"
+    ],
+    "correctAnswer": "hit",
+    "category": "MIXED",
+    "variations": [
+      "The car hit a tree in the storm.",
+      "He accidentally hit his thumb with the hammer."
+    ]
+  },
+  {
+    "id": 126112005,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Athletes train at _____ to improve performance.",
+    "translation": "irtifa/yükseklik",
+    "context": "Sporcuların ciğerlerini güçlendirmek, performanslarını artırmak için dağlık bölgelerde, yani 'altitude'da, yüksek irtifada antrenman yapması yaygındır. Zirveye giden yol!",
+    "options": [
+      "altitude",
+      "sea level",
+      "home",
+      "the gym"
+    ],
+    "correctAnswer": "altitude",
+    "category": "TRAVEL",
+    "variations": [
+      "Their team is currently training at high altitude.",
+      "The cabin is located at an altitude of 2000 meters."
+    ]
+  },
+  {
+    "id": 126112006,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The company suffered from several tech _____",
+    "translation": "kesintiler/arızalar",
+    "context": "İnternet, elektrik veya herhangi bir sistemin aniden kesilmesi durumuna 'outage' denir. Yani, sistemin çökmesi veya çalışmaması. Özellikle teknoloji dünyasında can sıkan bir durumdur!",
+    "options": [
+      "outages",
+      "updates",
+      "features",
+      "solutions"
+    ],
+    "correctAnswer": "outages",
+    "category": "BUSINESS",
+    "variations": [
+      "A power outage affected the entire city.",
+      "We experienced a network outage last night."
+    ]
+  },
+  {
+    "id": 126112007,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Which term describes a market situation where one company or group has exclusive control over a commodity or service?",
-    "translation": "Bir şirketin veya grubun bir mal veya hizmet üzerinde münhasır kontrol sahibi olduğu piyasa durumunu tanımlayan terim nedir?",
-    "context": "'Monopoly' ekonomide çok önemli bir terimdir ve bir kişinin veya şirketin bir sektördeki tek kontrol gücünü ifade eder. Tıpkı bir oyunun tek hakimi olmak gibi! Çin'in batarya grafitindeki 'monopoly'si, yeni bir startup'ın bu durumu değiştirebileceği haberleriyle gündemde.",
+    "phrase": "Which of these is a 'wading bird'?",
+    "translation": "Flamingo",
+    "context": "Uzun bacaklarıyla sığ sularda yürüyerek (wading) yiyecek arayan kuşlara 'wading bird' denir. Flamingolar, turnalar ve balıkçıllar bu grubun havalı üyeleridir. Adeta su balesi yaparlar!",
     "options": [
-      "Monopoly",
-      "Oligopoly",
-      "Duopoly",
-      "Competition"
+      "Flamingo",
+      "Eagle",
+      "Penguin",
+      "Hummingbird"
     ],
-    "correctAnswer": "Monopoly",
-    "category": "BUSINESS",
+    "correctAnswer": "Flamingo",
+    "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126111806,
+    "id": 126112008,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The organization decided to _____ online abuse from its fans.",
-    "translation": "Organizasyon, taraftarlarından gelen çevrimiçi tacizi kınamaya karar verdi.",
-    "context": "'Condemn abuse' derken, bir olayı veya davranışı (özellikle kötü niyetli veya zararlı olanları) kınamak, şiddetle eleştirmek ve kabul edilemez bulmak anlamına gelir. Güney Afrika Rugby Federasyonu'nun taraftar şiddetini 'condemn' etmesi gibi, etik değerlere sahip çıkmak çok önemlidir.",
+    "phrase": "Countries often form _____ for mutual defense.",
+    "translation": "müttefikler",
+    "context": "Ortak çıkarları veya hedefleri olan ülkeler ya da kişiler arasında kurulan ittifaklara 'allies' denir. Dostluk ve yardımlaşma esastır, tıpkı savaş zamanı birlikte hareket eden ülkeler gibi.",
     "options": [
-      "condemn",
-      "praise",
-      "encourage",
-      "ignore"
+      "allies",
+      "enemies",
+      "rivals",
+      "strangers"
     ],
-    "correctAnswer": "condemn",
-    "category": "CASUAL",
-    "variations": [
-      "We must _____ all forms of discrimination.",
-      "The UN will _____ the violence in the region."
-    ]
-  },
-  {
-    "id": 126111807,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Governments are working to meet their strict _____ targets.",
-    "translation": "Hükümetler katı iklim hedeflerini karşılamak için çalışıyor.",
-    "context": "'Climate targets' gezegenimizin geleceği için çok önemli hedeflerdir. Hükümetler, küresel ısınmayı durdurmak ve çevreyi korumak için belirli karbon salımı azaltma hedefleri belirler. Elektrikli araç (EV) kurallarının gevşetilmesi, bu 'climate targets'a ulaşma çabalarımızı ciddi şekilde riske atabilir.",
-    "options": [
-      "climate",
-      "financial",
-      "growth",
-      "employment"
-    ],
-    "correctAnswer": "climate",
-    "category": "TRAVEL",
-    "variations": [
-      "Meeting ambitious _____ targets requires global cooperation.",
-      "The city aims to achieve its zero-carbon _____ targets by 2050."
-    ]
-  },
-  {
-    "id": 126111808,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The employee hoped the company would _____ him after the investigation.",
-    "translation": "Çalışan, şirketin soruşturmadan sonra onu görevine geri iade etmesini umuyordu.",
-    "context": "'Reinstate' kelimesi, daha önce görevden alınan, işten çıkarılan veya askıya alınan birini eski pozisyonuna geri getirmek anlamına gelir. Tıpkı bir sporcunun cezasının bitip takımına dönmesi gibi. Nvidia'nın Huang'ı 'reinstate' etmeme kararı, şirketin önemli bir yönetim değişikliği yaptığına işaret ediyor olabilir.",
-    "options": [
-      "reinstate",
-      "dismiss",
-      "promote",
-      "transfer"
-    ],
-    "correctAnswer": "reinstate",
+    "correctAnswer": "allies",
     "category": "MIXED",
     "variations": [
-      "The union demanded the company _____ the striking workers.",
-      "He appealed to the board to _____ his membership."
+      "During the war, several nations became allies.",
+      "He found an ally in his fight for justice."
     ]
   },
   {
-    "id": 126111809,
+    "id": 126112009,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Which term best describes software programs that perform tasks or services for a user or another program, especially autonomously?",
-    "translation": "Bir kullanıcı veya başka bir program için, özellikle özerk bir şekilde görev veya hizmetleri yerine getiren yazılım programlarını en iyi tanımlayan terim nedir?",
-    "context": "'AI agents' (Yapay Zeka ajanları), belirli görevleri otomasyonla veya bir insan gibi 'düşünerek' yerine getiren akıllı yazılım programlarıdır. Şirketlerin dağınık 'enterprise documents' (kurumsal belgeler) yığınlarını 'AI agents' kullanarak daha erişilebilir ve işlenebilir hale getirmesi, geleceğin iş yapış şekli olacak.",
+    "phrase": "What defines an 'epic migration'?",
+    "translation": "Uzun ve zorlu bir yolculuk",
+    "context": "'Epic migration', bir hayvanın veya bazen bir insanın, genellikle uzun mesafeli, zorlu ve dikkat çekici yolculuğunu ifade eder. Kuşların kıtalararası uçuşları veya antik kavimlerin yer değiştirmeleri buna örnektir. Hayatta kalma mücadelesinin destanı!",
     "options": [
-      "AI agents",
-      "Spreadsheets",
-      "Data warehouses",
-      "Legacy systems"
+      "A short, easy trip",
+      "A routine daily commute",
+      "A long and challenging journey",
+      "A comfortable vacation"
     ],
-    "correctAnswer": "AI agents",
-    "category": "BUSINESS",
+    "correctAnswer": "A long and challenging journey",
+    "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126111810,
+    "id": 126112010,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The new evidence might _____ the old criminal case.",
-    "translation": "Yeni kanıtlar eski ceza davasını yeniden açabilir (ortaya çıkarabilir).",
-    "context": "'Blow open' deyimi, genellikle bir sırrın, skandalın veya gizli kalmış bir durumun aniden ve dramatik bir şekilde ortaya çıkması anlamına gelir. Tıpkı bir kutunun içinden sürpriz bir patlama sesiyle bir şeylerin dışarı fırlaması gibi! Bancroft'un 'Sandpapergate' skandalını 'blow open' etmesi, büyük bir şok etkisi yarattı.",
+    "phrase": "A report claimed his management style was built on _____",
+    "translation": "korku",
+    "context": "Çalışanları motive etmek yerine, onları cezalandırma veya işten çıkarma tehdidiyle baskı altında tutan yönetim tarzına 'built on fear' denir. Böyle bir ortamda kim çalışmak ister ki?",
     "options": [
-      "blow open",
-      "close off",
-      "hide",
-      "cover up"
+      "fear",
+      "trust",
+      "collaboration",
+      "innovation"
     ],
-    "correctAnswer": "blow open",
+    "correctAnswer": "fear",
+    "category": "BUSINESS",
+    "variations": [
+      "That company's culture is reportedly built on fear.",
+      "He tried to manage his team built on fear, but it failed."
+    ]
+  },
+  {
+    "id": 126112011,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "What is an 'AI agent' in technology?",
+    "translation": "Görevleri otonom olarak gerçekleştiren bir program",
+    "context": "'AI agent', belirli görevleri yerine getirmek için tasarlanmış, genellikle otonom olarak (yani kendi kendine) çalışabilen yapay zeka programıdır. Sanal asistanlardan karmaşık otomasyon sistemlerine kadar birçok farklı alanda karşımıza çıkar. Senin yerine işlerini halleden akıllı bir yardımcı gibi düşün!",
+    "options": [
+      "A human programmer",
+      "A simple calculator app",
+      "A program that performs tasks autonomously",
+      "A new type of computer hardware"
+    ],
+    "correctAnswer": "A program that performs tasks autonomously",
     "category": "CASUAL",
-    "variations": [
-      "The journalist's report helped _____ the government's secret.",
-      "This new information could _____ the entire investigation."
-    ]
+    "variations": []
   },
   {
-    "id": 126111811,
+    "id": 126112012,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The government's new policy has _____ the environmental protection rules.",
-    "translation": "Hükümetin yeni politikası çevre koruma kurallarını zayıflattı.",
-    "context": "'Weakened' kelimesi, bir şeyin gücünü, etkinliğini veya etkisini azaltmak demektir. Mesela, bir yasayı 'weakened' etmek, onu daha az katı veya daha az uygulanabilir hale getirmektir. Elektrikli araç (EV) kurallarının 'weakened' olması, çevre hedeflerine ulaşma potansiyelimizi olumsuz etkileyebilir.",
+    "phrase": "Countries have _____ billions for climate change.",
+    "translation": "taahhüt etti/söz verdi",
+    "context": "Bir şeye resmi olarak söz vermek veya taahhütte bulunmak anlamına gelir 'pledged'. Özellikle finansal yardımlar veya politik kararlar için kullanılır. Bir ülkenin iklim değişikliğiyle mücadele için para 'pledged' etmesi gibi. Yani söz verdiler, şimdi sıra harekete geçmekte!",
     "options": [
-      "weakened",
-      "strengthened",
-      "established",
-      "clarified"
+      "pledged",
+      "demanded",
+      "forgotten",
+      "ignored"
     ],
-    "correctAnswer": "weakened",
-    "category": "TRAVEL",
-    "variations": [
-      "Lack of proper training has _____ their confidence.",
-      "The economic crisis _____ the national currency."
-    ]
-  },
-  {
-    "id": 126111812,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "World leaders gathered for _____ talks on global security.",
-    "translation": "Dünya liderleri küresel güvenlik konusunda tarihi görüşmeler için toplandı.",
-    "context": "'Historic talks' dediğimizde, tarihe geçecek kadar önemli ve dönüştürücü görüşmeleri kastediyoruz. Tıpkı bir ülkenin kaderini değiştirecek, uluslararası ilişkileri yeniden şekillendirecek büyük zirveler gibi! Trump'ın Putin ve Xi ile 'historic talks' yapması, uluslararası arenada büyük yankı uyandırdı.",
-    "options": [
-      "historic",
-      "trivial",
-      "casual",
-      "brief"
-    ],
-    "correctAnswer": "historic",
+    "correctAnswer": "pledged",
     "category": "MIXED",
     "variations": [
-      "Their anniversary was marked by a _____ dinner.",
-      "The decision was truly _____, affecting generations to come."
+      "They pledged their support for the new policy.",
+      "She pledged allegiance to the flag."
     ]
   }
 ]
