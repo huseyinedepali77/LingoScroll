@@ -1,242 +1,239 @@
 [
   {
-    "id": 126112101,
+    "id": 126112201,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The spacecraft made an eight-year _____ to Mercury.",
-    "translation": "Uzay aracı, Merkür'e sekiz yıllık bir seyahat yaptı.",
-    "context": "Haberlerde geçen bu 'voyage' kelimesi, genellikle uzun ve maceralı yolculuklar için kullanılır. Uzay gemilerinin, denizcilerin ya da kaşiflerin yaptığı destansı seyahatleri anlatmak için harikadır. Düşünsene, 8 yıl süren bir 'voyage' boyunca o uzay aracı neler görmüştür kim bilir! Arkadaşına 'Our road trip was an epic voyage!' diyerek bir sonraki seyahatinizi destanlaştırabilirsin.",
+    "phrase": "The plane is _____ for London, so passengers should get ready.",
+    "translation": "Uçak Londra'ya doğru gidiyor, bu yüzden yolcular hazırlanmalı.",
+    "context": "Bir yere gitmek üzere yola çıkmış, hedefi belli olan bir araçtan bahsederken 'bound' kelimesini kullanırız. Özellikle havalimanlarında 'London-bound flight' (Londra'ya giden uçuş) gibi tabelalarda sıkça görürsün. Yani, 'nereye bound?' dendiğinde 'nereye gidiyor?' demek gibi bir şey!",
     "options": [
+      "bound",
+      "going",
+      "aimed",
+      "heading"
+    ],
+    "correctAnswer": "bound",
+    "category": "TRAVEL",
+    "variations": [
+      "The train is bound for Paris.",
+      "This bus is bound for the city center."
+    ]
+  },
+  {
+    "id": 126112202,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "My uncle works in a car _____ in Germany.",
+    "translation": "Amcam Almanya'da bir araba fabrikasında çalışıyor.",
+    "context": "Ürünlerin üretildiği, makinelerin çalıştığı büyük endüstriyel tesislere 'factory' denir. Sanayi bölgelerinde bolca görebilirsin. Düşünsene, arabaların, telefonların, hatta bazı kıyafetlerin bile bir 'factory'de üretildiğini!",
+    "options": [
+      "factory",
+      "office",
+      "shop",
+      "market"
+    ],
+    "correctAnswer": "factory",
+    "category": "BUSINESS",
+    "variations": [
+      "The new factory will open next year.",
+      "They built a big factory for shoes."
+    ]
+  },
+  {
+    "id": 126112203,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The old building was completely _____ after the accident.",
+    "translation": "Eski bina kazadan sonra tamamen yanıyordu.",
+    "context": "Bir şeyin alevler içinde yandığını anlatmak için 'on fire' deriz. Sadece gerçek bir yangın için değil, bazen biri çok iyi bir performans sergilediğinde de 'He's on fire!' (Coştu, süper gidiyor!) diyebiliriz. Ama dikkat et, yangın ciddidir!",
+    "options": [
+      "on fire",
+      "burning",
+      "ablaze",
+      "burnt"
+    ],
+    "correctAnswer": "on fire",
+    "category": "CASUAL",
+    "variations": [
+      "The candle was on fire for hours.",
+      "The engine was on fire and smoking."
+    ]
+  },
+  {
+    "id": 126112204,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "BEGINNER",
+    "phrase": "Polis, suçluyu başarılı bir operasyonla yakaladı.",
+    "translation": "Polis, suçluyu tutukladı.",
+    "context": "'Arrested' kelimesi, bir suç işlediği şüphesiyle polisin birini gözaltına alması veya tutuklaması durumunda kullanılır. Yani, suçüstü yakalamanın resmi adı diyebiliriz. Film ve dizilerde bolca duyarsın: 'You're under arrest!'",
+    "options": [
+      "The police arrested the criminal.",
+      "The police captured the criminal.",
+      "The police caught the criminal.",
+      "The police imprisoned the criminal."
+    ],
+    "correctAnswer": "The police arrested the criminal.",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126112205,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The ship's long _____ across the ocean took several months.",
+    "translation": "Geminin okyanus üzerindeki uzun yolculuğu birkaç ay sürdü.",
+    "context": "Özellikle uzun ve genellikle deniz yoluyla yapılan yolculuklar için 'voyage' kelimesini kullanırız. Gemilerle, uzay araçlarıyla ya da keşif amacıyla yapılan büyük 'journey'ler için tam da bu kelime yakışır. Kulağa biraz destansı geliyor, değil mi?",
+    "options": [
+      "voyage",
       "trip",
       "journey",
-      "voyage",
       "travel"
     ],
     "correctAnswer": "voyage",
     "category": "TRAVEL",
     "variations": [
-      "My grandparents took a long ocean _____.",
-      "The company offers several historical river _____."
+      "They planned a long voyage to Mars.",
+      "Captain Cook's voyages were famous."
     ]
   },
   {
-    "id": 126112102,
+    "id": 126112206,
     "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "A new tech _____ sued Apple over its feature.",
-    "translation": "Yeni bir teknoloji girişimi, Apple'a bir özelliği yüzünden dava açtı.",
-    "context": "'Startup' denince akla hemen yenilikçi fikirler, genç ve dinamik ekipler gelir! Yeni kurulmuş, genellikle teknoloji odaklı, hızlı büyümeyi hedefleyen şirketlere denir. Haberimizdeki gibi, küçük bir 'startup' dev bir firmaya kafa tutabiliyor, bu da onların cesur ruhunu gösteriyor! 'My friend just launched a cool startup!' diyerek sen de bu heyecana ortak olabilirsin.",
+    "level": "INTERMEDIATE",
+    "phrase": "The CEO decided to _____ due to health problems.",
+    "translation": "CEO sağlık sorunları nedeniyle istifa etmeye karar verdi.",
+    "context": "Bir pozisyondan veya işten, genellikle kendi isteğiyle, resmi olarak ayrılmak anlamına gelir. 'Resign' dediğimizde, genellikle istifa dilekçesi verme gibi resmi bir sürecin olduğunu anlarız. 'Patronuna mail atıp istifa etti' derken 'resign' kelimesini kullanırsın.",
     "options": [
-      "company",
-      "startup",
-      "business",
-      "venture"
+      "resign",
+      "quit",
+      "retire",
+      "leave"
     ],
-    "correctAnswer": "startup",
+    "correctAnswer": "resign",
     "category": "BUSINESS",
     "variations": [
-      "That successful _____ received huge investments.",
-      "She decided to join a small tech _____."
+      "He resigned from his post last week.",
+      "She threatened to resign if changes were not made."
     ]
   },
   {
-    "id": 126112103,
+    "id": 126112207,
     "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The FBI is investigating the _____ of its database.",
-    "translation": "FBI, veritabanının hacklenmesini araştırıyor.",
-    "context": "'Hack' kelimesi, bir bilgisayar sistemine izinsiz girilmesi anlamına gelir. Kötü niyetli kişilerin bilgilerinizi çalması veya sistemleri bozması durumunda kullanılır. Haberimizde FBI gibi büyük bir kurumun bile 'hack'lenmesi, siber güvenliğin ne kadar önemli olduğunu gösteriyor! Arkadaşın şifresini unuttuğunda espriyle 'Did someone hack your brain?' diyebilirsin!",
+    "level": "INTERMEDIATE",
+    "phrase": "Can you take a _____ of that error message and send it to me?",
+    "translation": "O hata mesajının bir ekran görüntüsünü alıp bana gönderebilir misin?",
+    "context": "Akıllı telefonundan veya bilgisayarından ekranının bir görüntüsünü almak için 'screenshot' (ekran görüntüsü) terimini kullanırız. Arkadaşına bir hata mesajını göstermek, komik bir yazışmayı paylaşmak veya beğendiğin bir şeyi kaydetmek için harika bir yöntem!",
     "options": [
-      "break-in",
-      "attack",
-      "hack",
-      "access"
+      "screenshot",
+      "photo",
+      "picture",
+      "capture"
     ],
-    "correctAnswer": "hack",
+    "correctAnswer": "screenshot",
     "category": "CASUAL",
     "variations": [
-      "His personal computer was unfortunately _____.",
-      "They tried to _____ into the company's servers."
+      "I sent him a screenshot of the website.",
+      "She took a quick screenshot of the game score."
     ]
   },
   {
-    "id": 126112104,
+    "id": 126112208,
     "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Zelensky _____ the UK's Streeting in a new report.",
-    "translation": "Zelensky, yeni bir raporda Birleşik Krallık'tan Streeting ile buluşuyor.",
-    "context": "'Meet' en temel kelimelerden biri ve bir araya gelmek, tanışmak veya buluşmak anlamına gelir. Haberimizde olduğu gibi iki önemli figür bir toplantı için bir araya geldiğinde 'meets' deriz. Yeni bir arkadaşla tanıştığında 'Nice to meet you!' dersin veya birini görmek için 'Let's meet for coffee' diyebilirsin. Çok yönlü ve basit bir kelime!",
+    "level": "INTERMEDIATE",
+    "phrase": "Two cars _____ on the highway, causing a huge traffic jam.",
+    "translation": "İki araba otoyolda çarpıştı, bu da büyük bir trafik sıkışıklığına neden oldu.",
+    "context": "İki veya daha fazla şeyin birbirine şiddetli bir şekilde çarpması anlamına gelir. Özellikle trafik kazaları veya spor müsabakalarındaki çarpışmalar için kullanılır. Formula 1'de araçların 'collide' ettiğini duymak hiç şaşırtıcı değil!",
     "options": [
-      "meets",
-      "sees",
-      "greets",
-      "joins"
+      "collided",
+      "crashed",
+      "hit",
+      "struck"
     ],
-    "correctAnswer": "meets",
+    "correctAnswer": "collided",
     "category": "MIXED",
     "variations": [
-      "We can _____ at the café tomorrow morning.",
-      "She usually _____ her friends on weekends."
+      "The planets might collide someday.",
+      "He saw two boats collide in the harbor."
     ]
   },
   {
-    "id": 126112105,
+    "id": 126112209,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The All Blacks will _____ Twickenham before their match.",
-    "translation": "All Blacks, maçlarından önce Twickenham'ı ziyaret edecek.",
-    "context": "'Visit', bir yeri görmek veya birini ziyaret etmek anlamına gelir. Haberimizdeki gibi, Yeni Zelanda Rugby Takımı 'All Blacks' Twickenham'ı 'visit' ediyor, yani oraya maça geliyorlar. Sadece bir yere gitmek değil, aynı zamanda orayı deneyimlemek anlamı da taşır. 'I want to visit Japan next year!' diyerek seyahat hayallerini anlatabilirsin.",
+    "level": "ADVANCED",
+    "phrase": "World leaders will meet at the economic _____ next month.",
+    "translation": "Dünya liderleri gelecek ay ekonomik zirvede buluşacak.",
+    "context": "Genellikle önemli liderlerin, uzmanların veya devlet başkanlarının belirli bir konuda görüşmek üzere bir araya geldiği uluslararası zirvelere 'summit' denir. Dağların en yüksek noktası gibi, önemli kararların alındığı en üst düzey toplantılar için bu kelime kullanılır.",
     "options": [
-      "visit",
-      "tour",
-      "attend",
-      "come to"
+      "summit",
+      "conference",
+      "meeting",
+      "gathering"
     ],
-    "correctAnswer": "visit",
+    "correctAnswer": "summit",
     "category": "TRAVEL",
     "variations": [
-      "We plan to _____ the museum during our trip.",
-      "My cousin will _____ us next summer."
+      "The climate summit aims to find solutions.",
+      "They attended a peace summit in Geneva."
     ]
   },
   {
-    "id": 126112106,
+    "id": 126112210,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Tech stock _____ dragged markets down.",
-    "translation": "Teknoloji hisselerindeki satış dalgası piyasaları aşağı çekti.",
-    "context": "Borsada 'sell-off' yaşanması demek, yatırımcıların panikleyip hisselerini hızla satmasıdır, bu da piyasanın düşmesine neden olur. Haberimizde olduğu gibi, bu durum tüm piyasayı aşağı çekebilir. Piyasalarda endişe ve belirsizlik olduğunda sıkça duyulan bir terimdir. 'There was a huge sell-off after the bad news' diyerek ekonomik haberleri daha iyi yorumlayabilirsin.",
+    "level": "ADVANCED",
+    "phrase": "Negotiations reached a _____ as neither side would compromise.",
+    "translation": "Her iki taraf da taviz vermeyince müzakereler bir çıkmaza girdi.",
+    "context": "İki tarafın da bir anlaşmaya varamadığı, ilerlemenin tamamen durduğu durumlarda 'deadlock' (çıkmaz, kilitlenme) terimi kullanılır. Tıpkı bir satranç oyununda şah mat yapamama durumu gibi! 'Müzakereler kilitlendi' derken tam da bunu kastederiz.",
     "options": [
-      "drop",
-      "fall",
-      "sell-off",
-      "decline"
-    ],
-    "correctAnswer": "sell-off",
-    "category": "BUSINESS",
-    "variations": [
-      "The market experienced a sharp _____ yesterday.",
-      "Analysts predicted a massive _____ in tech stocks."
-    ]
-  },
-  {
-    "id": 126112107,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Birds were killed in a _____ at the farm.",
-    "translation": "Çiftlikteki büyük yangında kuşlar telef oldu.",
-    "context": "'Blaze' kelimesi, büyük ve şiddetli bir yangını, yani alevlerin hızla yayıldığı durumu anlatır. Haberimizdeki gibi, bir çiftlikte çıkan 'blaze' maalesef hayvanların ölümüne neden olmuş. Genellikle kontrol altına alınması zor, yıkıcı yangınlar için kullanılır. 'The old building was destroyed by a huge blaze' örneğiyle ne kadar ciddi bir durum olduğunu anlayabilirsin.",
-    "options": [
-      "fire",
-      "inferno",
-      "blaze",
-      "flame"
-    ],
-    "correctAnswer": "blaze",
-    "category": "CASUAL",
-    "variations": [
-      "Firefighters quickly responded to the _____.",
-      "The forest _____ spread rapidly due to strong winds."
-    ]
-  },
-  {
-    "id": 126112108,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Climate talks were in a _____ over fossil fuels.",
-    "translation": "İklim görüşmeleri, fosil yakıtlar konusunda bir çıkmaza girdi.",
-    "context": "'Deadlock' demek, bir durumun iki tarafın da anlaşamaması yüzünden tamamen çıkmaza girmesi, kilitlenmesi demektir. Haberimizdeki gibi iklim görüşmeleri, fosil yakıtlar konusunda 'deadlock'a girmiş, yani ilerleyememiş. Müzakerelerde veya tartışmalarda tarafların birbirine direndiği durumlarda kullanılır. 'The negotiations reached a deadlock' diyerek bir anlaşmazlığı açıklayabilirsin.",
-    "options": [
-      "stalemate",
-      "standstill",
       "deadlock",
-      "impasse"
+      "stalemate",
+      "impasse",
+      "standstill"
     ],
     "correctAnswer": "deadlock",
-    "category": "MIXED",
-    "variations": [
-      "The two parties reached a _____ in their debate.",
-      "They tried to break the _____ in the meeting."
-    ]
-  },
-  {
-    "id": 126112109,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The spacecraft's eight-year _____ was incredible.",
-    "translation": "Uzay aracının sekiz yıllık destansı yolculuğu inanılmazdı.",
-    "context": "Haberimizde bahsedilen 'epic voyage', sadece uzun bir yolculuk değil, aynı zamanda destansı, unutulmaz ve büyük bir macera anlamına gelir. Uzay aracının 8 yıllık serüveni tam da böyle bir 'epic voyage'. Odysseus'un destansı yolculuğu gibi düşünebilirsin; zorluklarla dolu ama nihayetinde başarıyla sonuçlanan bir seyahat. 'Our hiking trip turned into an epic voyage through the mountains!' diyebilirsin.",
-    "options": [
-      "vast travel",
-      "epic voyage",
-      "grand journey",
-      "huge trip"
-    ],
-    "correctAnswer": "epic voyage",
-    "category": "TRAVEL",
-    "variations": [
-      "The explorers embarked on an _____ to unknown lands.",
-      "Her solo cycling trip was an _____ across the continent."
-    ]
-  },
-  {
-    "id": 126112110,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "AI experts are susceptible to a _____ right now.",
-    "translation": "Yapay zeka uzmanları şu anda bir 'honey-trap' tuzağına karşı savunmasızlar.",
-    "context": "'Honey-trap scheme', genellikle casusluk filmlerinde gördüğümüz, birini çekici bir kişi aracılığıyla tuzağa düşürme planıdır. Ama burada, AI uzmanlarının zayıf noktalarını kullanarak onları manipüle etmeye çalışan bir siber güvenlik tehdidi olarak kullanılmış. Yani, cazip bir teklif veya kişisel bir ilişki ağıyla sızma girişimi. 'Be careful, it might be a honey-trap scheme!' diyerek birine dikkatli olmasını söyleyebilirsin.",
-    "options": [
-      "trick plan",
-      "lure operation",
-      "honey-trap scheme",
-      "deception project"
-    ],
-    "correctAnswer": "honey-trap scheme",
     "category": "BUSINESS",
     "variations": [
-      "The spy used a classic _____ to gain information.",
-      "They warned against online _____ targeting employees."
+      "The talks ended in a deadlock.",
+      "They broke the deadlock with a new proposal."
     ]
   },
   {
-    "id": 126112111,
+    "id": 126112211,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Australia edged England in a T20I _____",
-    "translation": "Avustralya, T20I'da İngiltere'yi heyecanlı bir maçta kıl payı yendi.",
-    "context": "'Thriller' kelimesini genellikle gerilim filmleri için duyarız ama sporda kullanıldığında, son ana kadar kimin kazanacağının belli olmadığı, nefes kesici, çok heyecanlı bir maçı veya yarışı ifade eder. Haberimizdeki gibi Avustralya-İngiltere maçı tam bir 'thriller' olmuş! 'That basketball game was an absolute thriller!' diyerek izlediğin heyecanlı bir maçı anlatabilirsin.",
+    "phrase": "The security cameras are used for 24-hour _____ of the building.",
+    "translation": "Güvenlik kameraları binanın 24 saat gözetimi için kullanılıyor.",
+    "context": "Özellikle güvenlik amacıyla yapılan sürekli gözetim ve denetim anlamına gelir. Yapay zeka ile birleştiğinde, gelecekte bizi nelerin beklediği konusunda biraz ürkütücü olabilir! Casus filmlerinde bolca 'surveillance' ekipmanları görürsün.",
     "options": [
-      "exciting game",
-      "thrilling match",
-      "thriller",
-      "close contest"
+      "surveillance",
+      "monitoring",
+      "observation",
+      "watching"
     ],
-    "correctAnswer": "thriller",
+    "correctAnswer": "surveillance",
     "category": "CASUAL",
     "variations": [
-      "The final round turned into a real _____ for fans.",
-      "Their latest book is an action-packed _____."
+      "There is constant surveillance in the airport.",
+      "The police put the suspect under surveillance."
     ]
   },
   {
-    "id": 126112112,
+    "id": 126112212,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "AI claimed a solution to the 167-year-old _____.",
-    "translation": "Yapay zeka, 167 yıllık Riemann hipotezine bir çözüm bulduğunu iddia etti.",
-    "context": "'Riemann hypothesis', matematik dünyasının en ünlü çözülememiş problemlerinden biri. 167 yıldır bilim insanlarını meşgul eden bu gizemi çözdüğünü iddia eden hem yapay zeka hem de bir insan olmuş! Bu tür karmaşık bilimsel terimler, bilginin derinliğini ve sürekli gelişimi gösterir. 'The professor was studying the Riemann hypothesis.' gibi cümlelerde görebilirsin.",
+    "phrase": "The government tried to _____ a financial crisis with new policies.",
+    "translation": "Hükümet, yeni politikalarla bir finansal krizi önlemeye çalıştı.",
+    "context": "Bir felaketi, tehlikeyi veya kötü bir durumu önlemek, savuşturmak anlamına gelir. Sanki kötü bir şeyin başını çevirip gitmesini sağlamak gibi düşünebilirsin. 'Büyük bir kazayı son anda önlediler' derken 'avert' kelimesi tam yerine oturur.",
     "options": [
-      "mathematical puzzle",
-      "Riemann hypothesis",
-      "complex theory",
-      "number problem"
+      "avert",
+      "prevent",
+      "avoid",
+      "ward off"
     ],
-    "correctAnswer": "Riemann hypothesis",
+    "correctAnswer": "avert",
     "category": "MIXED",
     "variations": [
-      "Solving the _____ would have major implications.",
-      "Many mathematicians have attempted the _____."
+      "She managed to avert a disaster.",
+      "They took steps to avert a strike."
     ]
   }
 ]
