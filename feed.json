@@ -1,239 +1,227 @@
 [
   {
-    "id": 126112201,
+    "id": 126112301,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The plane is _____ for London, so passengers should get ready.",
-    "translation": "Uçak Londra'ya doğru gidiyor, bu yüzden yolcular hazırlanmalı.",
-    "context": "Bir yere gitmek üzere yola çıkmış, hedefi belli olan bir araçtan bahsederken 'bound' kelimesini kullanırız. Özellikle havalimanlarında 'London-bound flight' (Londra'ya giden uçuş) gibi tabelalarda sıkça görürsün. Yani, 'nereye bound?' dendiğinde 'nereye gidiyor?' demek gibi bir şey!",
+    "phrase": "The boy was _____ from the rubble after the strike.",
+    "translation": "Çocuk, saldırıdan sonra enkazdan sağ çıkarıldı.",
+    "context": "Düşünsene, depremde ya da bir felakette binanın yıkıntıları arasından birinin sağ salim çıkarılması ne demek! 'Pulled alive from rubble' tam da bu durumu anlatıyor. Sokakta duymasan da, haberlerde felaket sonrası kurtarma operasyonları anlatılırken hep karşına çıkar, içimizi ısıtan cinsten bir ifade!",
     "options": [
-      "bound",
-      "going",
-      "aimed",
-      "heading"
+      "pulled alive",
+      "left alone",
+      "forgotten",
+      "injured badly"
     ],
-    "correctAnswer": "bound",
-    "category": "TRAVEL",
-    "variations": [
-      "The train is bound for Paris.",
-      "This bus is bound for the city center."
-    ]
-  },
-  {
-    "id": 126112202,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "My uncle works in a car _____ in Germany.",
-    "translation": "Amcam Almanya'da bir araba fabrikasında çalışıyor.",
-    "context": "Ürünlerin üretildiği, makinelerin çalıştığı büyük endüstriyel tesislere 'factory' denir. Sanayi bölgelerinde bolca görebilirsin. Düşünsene, arabaların, telefonların, hatta bazı kıyafetlerin bile bir 'factory'de üretildiğini!",
-    "options": [
-      "factory",
-      "office",
-      "shop",
-      "market"
-    ],
-    "correctAnswer": "factory",
-    "category": "BUSINESS",
-    "variations": [
-      "The new factory will open next year.",
-      "They built a big factory for shoes."
-    ]
-  },
-  {
-    "id": 126112203,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The old building was completely _____ after the accident.",
-    "translation": "Eski bina kazadan sonra tamamen yanıyordu.",
-    "context": "Bir şeyin alevler içinde yandığını anlatmak için 'on fire' deriz. Sadece gerçek bir yangın için değil, bazen biri çok iyi bir performans sergilediğinde de 'He's on fire!' (Coştu, süper gidiyor!) diyebiliriz. Ama dikkat et, yangın ciddidir!",
-    "options": [
-      "on fire",
-      "burning",
-      "ablaze",
-      "burnt"
-    ],
-    "correctAnswer": "on fire",
+    "correctAnswer": "pulled alive",
     "category": "CASUAL",
     "variations": [
-      "The candle was on fire for hours.",
-      "The engine was on fire and smoking."
+      "He was rescued, pulled alive from the debris.",
+      "Rescuers managed to pull him alive from the wreckage."
     ]
   },
   {
-    "id": 126112204,
+    "id": 126112302,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "Sierra's market value _____ to $30B.",
+    "translation": "Sierra'nın piyasa değeri 30 milyar dolara ikiye katlandı.",
+    "context": "Bir şirket 'değerlemesini ikiye katlamak' ne demek? Yani, piyasadaki değeri, ederinin iki katına çıkmak! Ekonomi haberlerinde, teknoloji şirketlerinin başarısını anlatırken bu ifadeyi çok duyarsın. Düşünsene, paranı ikiye katlamak gibi bir şey, süper haber!",
+    "options": [
+      "lost its valuation",
+      "halved its valuation",
+      "doubled its valuation",
+      "maintained its valuation"
+    ],
+    "correctAnswer": "doubled its valuation",
+    "category": "BUSINESS",
+    "variations": [
+      "The company's valuation quickly doubled.",
+      "Their market value doubled within six months."
+    ]
+  },
+  {
+    "id": 126112303,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The spacecraft completed an eight-year _____.",
+    "translation": "Uzay aracı sekiz yıllık destansı bir yolculuğu tamamladı.",
+    "context": "'Epic voyage' kulağa destansı geliyor değil mi? Aynen öyle! Uzun, zorlu ve akılda kalıcı bir yolculuğu anlatırken kullanılır. Bir uzay gemisinin Mars'a gidişi de 'epic voyage'dır, senin sırt çantasıyla dünya turu maceran da! Her ikisi de 'wow' dedirtir.",
+    "options": [
+      "short trip",
+      "daily commute",
+      "epic voyage",
+      "quick visit"
+    ],
+    "correctAnswer": "epic voyage",
+    "category": "TRAVEL",
+    "variations": [
+      "It was an incredible, epic voyage through space.",
+      "The satellite embarked on a long, epic voyage."
+    ]
+  },
+  {
+    "id": 126112304,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "BEGINNER",
-    "phrase": "Polis, suçluyu başarılı bir operasyonla yakaladı.",
-    "translation": "Polis, suçluyu tutukladı.",
-    "context": "'Arrested' kelimesi, bir suç işlediği şüphesiyle polisin birini gözaltına alması veya tutuklaması durumunda kullanılır. Yani, suçüstü yakalamanın resmi adı diyebiliriz. Film ve dizilerde bolca duyarsın: 'You're under arrest!'",
+    "phrase": "What was the outcome of the UN climate talks?",
+    "translation": "BM iklim müzakerelerinin sonucu ne oldu?",
+    "context": "'No deal' İngilizcede 'anlaşma sağlanamadı' demek. Özellikle iş dünyasında veya uluslararası görüşmelerde tarafların uzlaşamadığını belirtmek için kullanılır. Bazen arkadaşlarla dışarı çıkarken bile 'no deal, let's just stay home!' diyebilirsin, yani 'anlaşamadık, evde kalalım!'",
     "options": [
-      "The police arrested the criminal.",
-      "The police captured the criminal.",
-      "The police caught the criminal.",
-      "The police imprisoned the criminal."
+      "A new agreement was reached.",
+      "There was no deal.",
+      "A temporary truce was signed.",
+      "They were postponed indefinitely."
     ],
-    "correctAnswer": "The police arrested the criminal.",
-    "category": "MIXED",
+    "correctAnswer": "There was no deal.",
+    "category": "GENERAL",
     "variations": []
   },
   {
-    "id": 126112205,
-    "type": "QUIZ_COMPLETION",
+    "id": 126112305,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "The ship's long _____ across the ocean took several months.",
-    "translation": "Geminin okyanus üzerindeki uzun yolculuğu birkaç ay sürdü.",
-    "context": "Özellikle uzun ve genellikle deniz yoluyla yapılan yolculuklar için 'voyage' kelimesini kullanırız. Gemilerle, uzay araçlarıyla ya da keşif amacıyla yapılan büyük 'journey'ler için tam da bu kelime yakışır. Kulağa biraz destansı geliyor, değil mi?",
+    "phrase": "What did the Dutch privacy authority do regarding the 'pervert glasses'?",
+    "translation": "Hollanda gizlilik otoritesi 'sapkın gözlükler' hakkında ne yaptı?",
+    "context": "'Urges consumers not to buy' ifadesi, bir otoritenin veya kuruluşun tüketicileri belirli bir ürünü almaktan şiddetle vazgeçirmeye çalıştığını gösterir. 'Pervert glasses' gibi tartışmalı ürünlerde, devlet kurumları güvenlik veya etik nedenlerle böyle bir çağrı yapabilir. Yani 'Sakın almayın, başınız ağrımasın!' der gibi.",
     "options": [
-      "voyage",
-      "trip",
-      "journey",
-      "travel"
+      "It praised the innovation.",
+      "It urged consumers not to buy them.",
+      "It offered them for free.",
+      "It banned their production."
     ],
-    "correctAnswer": "voyage",
-    "category": "TRAVEL",
-    "variations": [
-      "They planned a long voyage to Mars.",
-      "Captain Cook's voyages were famous."
-    ]
+    "correctAnswer": "It urged consumers not to buy them.",
+    "category": "CASUAL",
+    "variations": []
   },
   {
-    "id": 126112206,
+    "id": 126112306,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "The CEO decided to _____ due to health problems.",
-    "translation": "CEO sağlık sorunları nedeniyle istifa etmeye karar verdi.",
-    "context": "Bir pozisyondan veya işten, genellikle kendi isteğiyle, resmi olarak ayrılmak anlamına gelir. 'Resign' dediğimizde, genellikle istifa dilekçesi verme gibi resmi bir sürecin olduğunu anlarız. 'Patronuna mail atıp istifa etti' derken 'resign' kelimesini kullanırsın.",
+    "phrase": "Trump _____ Jensen Huang's return to Nvidia.",
+    "translation": "Trump, Jensen Huang'ın Nvidia'ya dönüşünü onayladı.",
+    "context": "Birini veya bir şeyi 'endorse etmek' demek, o kişiyi veya şeyi alenen desteklemek, onaylamak anlamına gelir. Ünlüler ürünleri 'endorse' eder, politikacılar adayları 'endorse' eder. Yani 'tamamdır, ben kefilim' demenin havalı yolu!",
     "options": [
-      "resign",
-      "quit",
-      "retire",
-      "leave"
+      "criticized",
+      "opposed",
+      "endorsed",
+      "ignored"
     ],
-    "correctAnswer": "resign",
+    "correctAnswer": "endorsed",
     "category": "BUSINESS",
     "variations": [
-      "He resigned from his post last week.",
-      "She threatened to resign if changes were not made."
+      "He endorsed the new policy during his speech.",
+      "The celebrity endorsed the brand's latest product."
     ]
   },
   {
-    "id": 126112207,
-    "type": "QUIZ_COMPLETION",
+    "id": 126112307,
+    "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Can you take a _____ of that error message and send it to me?",
-    "translation": "O hata mesajının bir ekran görüntüsünü alıp bana gönderebilir misin?",
-    "context": "Akıllı telefonundan veya bilgisayarından ekranının bir görüntüsünü almak için 'screenshot' (ekran görüntüsü) terimini kullanırız. Arkadaşına bir hata mesajını göstermek, komik bir yazışmayı paylaşmak veya beğendiğin bir şeyi kaydetmek için harika bir yöntem!",
+    "phrase": "What type of vessel was reportedly hit by drones in Libya?",
+    "translation": "Libya'da insansız hava araçları tarafından vurulan gemi türü neydi?",
+    "context": "'Warship' savaş gemisi demektir, yani ülkelerin askeri deniz gücünün önemli bir parçası. Haberlerde genellikle çatışma bölgeleriyle ilgili haberlerde karşımıza çıkar. Tatil gemisiyle karıştırma sakın, bunun güvertesinde havuz değil, toplar var!",
     "options": [
-      "screenshot",
-      "photo",
-      "picture",
-      "capture"
+      "A cargo ship",
+      "A fishing boat",
+      "A luxury yacht",
+      "A warship"
     ],
-    "correctAnswer": "screenshot",
-    "category": "CASUAL",
-    "variations": [
-      "I sent him a screenshot of the website.",
-      "She took a quick screenshot of the game score."
-    ]
-  },
-  {
-    "id": 126112208,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Two cars _____ on the highway, causing a huge traffic jam.",
-    "translation": "İki araba otoyolda çarpıştı, bu da büyük bir trafik sıkışıklığına neden oldu.",
-    "context": "İki veya daha fazla şeyin birbirine şiddetli bir şekilde çarpması anlamına gelir. Özellikle trafik kazaları veya spor müsabakalarındaki çarpışmalar için kullanılır. Formula 1'de araçların 'collide' ettiğini duymak hiç şaşırtıcı değil!",
-    "options": [
-      "collided",
-      "crashed",
-      "hit",
-      "struck"
-    ],
-    "correctAnswer": "collided",
-    "category": "MIXED",
-    "variations": [
-      "The planets might collide someday.",
-      "He saw two boats collide in the harbor."
-    ]
-  },
-  {
-    "id": 126112209,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "World leaders will meet at the economic _____ next month.",
-    "translation": "Dünya liderleri gelecek ay ekonomik zirvede buluşacak.",
-    "context": "Genellikle önemli liderlerin, uzmanların veya devlet başkanlarının belirli bir konuda görüşmek üzere bir araya geldiği uluslararası zirvelere 'summit' denir. Dağların en yüksek noktası gibi, önemli kararların alındığı en üst düzey toplantılar için bu kelime kullanılır.",
-    "options": [
-      "summit",
-      "conference",
-      "meeting",
-      "gathering"
-    ],
-    "correctAnswer": "summit",
+    "correctAnswer": "A warship",
     "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126112308,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Oxfam stated that Gaza has become a _____.",
+    "translation": "Oxfam, Gazze'nin zehirli bir çöplüğe dönüştüğünü belirtti.",
+    "context": "'Toxic wasteland', yani 'zehirli çorak arazi'. Bu ifade, bir yerin çevre felaketi, savaş veya sanayi atıkları nedeniyle yaşanmaz, kirli ve tehlikeli hale geldiğini anlatır. Genelde çok dramatik ve üzücü durumlarda kullanılır. Düşünsene, oyun oynadığın parkın zehirli bir çöplüğe dönüştüğünü... işte öyle bir şey.",
+    "options": [
+      "green paradise",
+      "economic hub",
+      "toxic wasteland",
+      "flourishing city"
+    ],
+    "correctAnswer": "toxic wasteland",
+    "category": "GENERAL",
     "variations": [
-      "The climate summit aims to find solutions.",
-      "They attended a peace summit in Geneva."
+      "The report described the area as a toxic wasteland.",
+      "The region was left as a toxic wasteland after the disaster."
     ]
   },
   {
-    "id": 126112210,
+    "id": 126112309,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Negotiations reached a _____ as neither side would compromise.",
-    "translation": "Her iki taraf da taviz vermeyince müzakereler bir çıkmaza girdi.",
-    "context": "İki tarafın da bir anlaşmaya varamadığı, ilerlemenin tamamen durduğu durumlarda 'deadlock' (çıkmaz, kilitlenme) terimi kullanılır. Tıpkı bir satranç oyununda şah mat yapamama durumu gibi! 'Müzakereler kilitlendi' derken tam da bunu kastederiz.",
+    "phrase": "Arteta felt _____ after hearing Raya's injury was not too serious.",
+    "translation": "Raya'nın sakatlığının çok ciddi olmadığını duyan Arteta rahatlamıştı.",
+    "context": "'Relieved' kelimesi, kötü bir durumun veya endişenin sona ermesiyle hissedilen rahatlama anlamına gelir. Mesela, sınav sonuçlarının iyi çıktığını öğrendiğinde ya da kaybettiğin anahtarlarını bulduğunda hissettiğin o ohhh çekme hali! Arteta da oyuncusunun sakatlığının ciddi olmadığını duyunca aynen böyle hissetmiş.",
     "options": [
-      "deadlock",
-      "stalemate",
-      "impasse",
-      "standstill"
+      "worried",
+      "angry",
+      "relieved",
+      "indifferent"
     ],
-    "correctAnswer": "deadlock",
-    "category": "BUSINESS",
-    "variations": [
-      "The talks ended in a deadlock.",
-      "They broke the deadlock with a new proposal."
-    ]
-  },
-  {
-    "id": 126112211,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The security cameras are used for 24-hour _____ of the building.",
-    "translation": "Güvenlik kameraları binanın 24 saat gözetimi için kullanılıyor.",
-    "context": "Özellikle güvenlik amacıyla yapılan sürekli gözetim ve denetim anlamına gelir. Yapay zeka ile birleştiğinde, gelecekte bizi nelerin beklediği konusunda biraz ürkütücü olabilir! Casus filmlerinde bolca 'surveillance' ekipmanları görürsün.",
-    "options": [
-      "surveillance",
-      "monitoring",
-      "observation",
-      "watching"
-    ],
-    "correctAnswer": "surveillance",
+    "correctAnswer": "relieved",
     "category": "CASUAL",
     "variations": [
-      "There is constant surveillance in the airport.",
-      "The police put the suspect under surveillance."
+      "She was relieved when the test results came back negative.",
+      "I felt so relieved after I finished my presentation."
     ]
   },
   {
-    "id": 126112212,
+    "id": 126112310,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "What did Nvidia do regarding its previous decision about the CEO?",
+    "translation": "Nvidia, CEO ile ilgili önceki kararıyla ilgili ne yaptı?",
+    "context": "Bir şirket 'reverses course' dediğinde, daha önce aldığı bir karardan veya izlediği bir politikadan vazgeçip tamamen tersi yönde bir hareket yaptığını anlarız. Bazen işler planlandığı gibi gitmeyince rota değiştirmek gerekir, tıpkı geminin yönünü değiştirmesi gibi. İş dünyasında oldukça stratejik bir hareket!",
+    "options": [
+      "It confirmed its initial decision.",
+      "It reversed course.",
+      "It announced a new merger.",
+      "It declared bankruptcy."
+    ],
+    "correctAnswer": "It reversed course.",
+    "category": "BUSINESS",
+    "variations": []
+  },
+  {
+    "id": 126112311,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "What is the UK's role for the 2035 Women's World Cup?",
+    "translation": "Birleşik Krallık'ın 2035 Kadınlar Dünya Kupası'ndaki rolü nedir?",
+    "context": "Bir ülkenin büyük bir etkinliğe 'confirmed as hosts' olması, o etkinliği düzenleme hakkının resmen onaylandığı anlamına gelir. Yani, bütün maçlar, organizasyonlar o ülkede yapılacak. Büyük bir onur ve tabii ki turist akını demek! Düşünsene, Dünya Kupası senin şehrinde!",
+    "options": [
+      "They are participating as a team.",
+      "They are sponsoring the event.",
+      "They are confirmed as hosts.",
+      "They are merely attending."
+    ],
+    "correctAnswer": "They are confirmed as hosts.",
+    "category": "TRAVEL",
+    "variations": []
+  },
+  {
+    "id": 126112312,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The government tried to _____ a financial crisis with new policies.",
-    "translation": "Hükümet, yeni politikalarla bir finansal krizi önlemeye çalıştı.",
-    "context": "Bir felaketi, tehlikeyi veya kötü bir durumu önlemek, savuşturmak anlamına gelir. Sanki kötü bir şeyin başını çevirip gitmesini sağlamak gibi düşünebilirsin. 'Büyük bir kazayı son anda önlediler' derken 'avert' kelimesi tam yerine oturur.",
+    "phrase": "The UN climate talks, also known as COP31, were a major _____.",
+    "translation": "BM iklim müzakereleri, COP31 olarak da bilinir, önemli bir iklim zirvesiydi.",
+    "context": "'Climate summit' demek, iklim değişikliğiyle mücadele etmek için dünyanın dört bir yanından liderlerin, bilim insanlarının ve aktivistlerin bir araya geldiği uluslararası büyük toplantı demektir. Geleceğimizi konuştuğumuz, önemli kararların alınmaya çalışıldığı kritik zirvelerdir. Kulağa çok havalı gelse de aslında gezegenimizin geleceği için çok ciddi meselelerin tartışıldığı yerler!",
     "options": [
-      "avert",
-      "prevent",
-      "avoid",
-      "ward off"
+      "social gathering",
+      "shopping festival",
+      "climate summit",
+      "music concert"
     ],
-    "correctAnswer": "avert",
-    "category": "MIXED",
+    "correctAnswer": "climate summit",
+    "category": "GENERAL",
     "variations": [
-      "She managed to avert a disaster.",
-      "They took steps to avert a strike."
+      "World leaders gathered for the annual climate summit.",
+      "The last climate summit failed to reach an agreement."
     ]
   }
 ]
