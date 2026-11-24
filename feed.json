@@ -1,227 +1,236 @@
 [
   {
-    "id": 126112301,
+    "id": 126112401,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The boy was _____ from the rubble after the strike.",
-    "translation": "Çocuk, saldırıdan sonra enkazdan sağ çıkarıldı.",
-    "context": "Düşünsene, depremde ya da bir felakette binanın yıkıntıları arasından birinin sağ salim çıkarılması ne demek! 'Pulled alive from rubble' tam da bu durumu anlatıyor. Sokakta duymasan da, haberlerde felaket sonrası kurtarma operasyonları anlatılırken hep karşına çıkar, içimizi ısıtan cinsten bir ifade!",
+    "phrase": "The heavy snow will _____ travel plans for millions.",
+    "translation": "Sekmeyi engellemek, tıkamak",
+    "context": "Seyahat planlarınızı mahveden, trafik sıkıştıran karlı bir hava hayal edin. İşte 'snarl' tam olarak bu durumu anlatır! Bir ip yumağının karışması gibi, seyahat de birbirine girer, karmaşa oluşur.",
     "options": [
-      "pulled alive",
-      "left alone",
-      "forgotten",
-      "injured badly"
+      "snarl",
+      "brighten",
+      "expand",
+      "smooth"
     ],
-    "correctAnswer": "pulled alive",
-    "category": "CASUAL",
-    "variations": [
-      "He was rescued, pulled alive from the debris.",
-      "Rescuers managed to pull him alive from the wreckage."
-    ]
-  },
-  {
-    "id": 126112302,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "Sierra's market value _____ to $30B.",
-    "translation": "Sierra'nın piyasa değeri 30 milyar dolara ikiye katlandı.",
-    "context": "Bir şirket 'değerlemesini ikiye katlamak' ne demek? Yani, piyasadaki değeri, ederinin iki katına çıkmak! Ekonomi haberlerinde, teknoloji şirketlerinin başarısını anlatırken bu ifadeyi çok duyarsın. Düşünsene, paranı ikiye katlamak gibi bir şey, süper haber!",
-    "options": [
-      "lost its valuation",
-      "halved its valuation",
-      "doubled its valuation",
-      "maintained its valuation"
-    ],
-    "correctAnswer": "doubled its valuation",
-    "category": "BUSINESS",
-    "variations": [
-      "The company's valuation quickly doubled.",
-      "Their market value doubled within six months."
-    ]
-  },
-  {
-    "id": 126112303,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The spacecraft completed an eight-year _____.",
-    "translation": "Uzay aracı sekiz yıllık destansı bir yolculuğu tamamladı.",
-    "context": "'Epic voyage' kulağa destansı geliyor değil mi? Aynen öyle! Uzun, zorlu ve akılda kalıcı bir yolculuğu anlatırken kullanılır. Bir uzay gemisinin Mars'a gidişi de 'epic voyage'dır, senin sırt çantasıyla dünya turu maceran da! Her ikisi de 'wow' dedirtir.",
-    "options": [
-      "short trip",
-      "daily commute",
-      "epic voyage",
-      "quick visit"
-    ],
-    "correctAnswer": "epic voyage",
+    "correctAnswer": "snarl",
     "category": "TRAVEL",
     "variations": [
-      "It was an incredible, epic voyage through space.",
-      "The satellite embarked on a long, epic voyage."
+      "The protest might snarl the morning commute.",
+      "Bad weather can snarl holiday traffic."
     ]
   },
   {
-    "id": 126112304,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "BEGINNER",
-    "phrase": "What was the outcome of the UN climate talks?",
-    "translation": "BM iklim müzakerelerinin sonucu ne oldu?",
-    "context": "'No deal' İngilizcede 'anlaşma sağlanamadı' demek. Özellikle iş dünyasında veya uluslararası görüşmelerde tarafların uzlaşamadığını belirtmek için kullanılır. Bazen arkadaşlarla dışarı çıkarken bile 'no deal, let's just stay home!' diyebilirsin, yani 'anlaşamadık, evde kalalım!'",
-    "options": [
-      "A new agreement was reached.",
-      "There was no deal.",
-      "A temporary truce was signed.",
-      "They were postponed indefinitely."
-    ],
-    "correctAnswer": "There was no deal.",
-    "category": "GENERAL",
-    "variations": []
-  },
-  {
-    "id": 126112305,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "What did the Dutch privacy authority do regarding the 'pervert glasses'?",
-    "translation": "Hollanda gizlilik otoritesi 'sapkın gözlükler' hakkında ne yaptı?",
-    "context": "'Urges consumers not to buy' ifadesi, bir otoritenin veya kuruluşun tüketicileri belirli bir ürünü almaktan şiddetle vazgeçirmeye çalıştığını gösterir. 'Pervert glasses' gibi tartışmalı ürünlerde, devlet kurumları güvenlik veya etik nedenlerle böyle bir çağrı yapabilir. Yani 'Sakın almayın, başınız ağrımasın!' der gibi.",
-    "options": [
-      "It praised the innovation.",
-      "It urged consumers not to buy them.",
-      "It offered them for free.",
-      "It banned their production."
-    ],
-    "correctAnswer": "It urged consumers not to buy them.",
-    "category": "CASUAL",
-    "variations": []
-  },
-  {
-    "id": 126112306,
+    "id": 126112402,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Trump _____ Jensen Huang's return to Nvidia.",
-    "translation": "Trump, Jensen Huang'ın Nvidia'ya dönüşünü onayladı.",
-    "context": "Birini veya bir şeyi 'endorse etmek' demek, o kişiyi veya şeyi alenen desteklemek, onaylamak anlamına gelir. Ünlüler ürünleri 'endorse' eder, politikacılar adayları 'endorse' eder. Yani 'tamamdır, ben kefilim' demenin havalı yolu!",
+    "level": "BEGINNER",
+    "phrase": "The board decided to _____ the CEO after a long review process.",
+    "translation": "Göreve iade etmek, eski haline getirmek",
+    "context": "Birini işten çıkarıp sonra tekrar işe almak mı? İşte o duruma 'reinstate' denir. Yani, koltuğunu veya pozisyonunu geri vermek gibi düşünebilirsin! Bir nevi 'yeniden göreve getirmek'.",
     "options": [
-      "criticized",
-      "opposed",
-      "endorsed",
-      "ignored"
+      "reinstate",
+      "remove",
+      "appoint",
+      "demote"
     ],
-    "correctAnswer": "endorsed",
+    "correctAnswer": "reinstate",
     "category": "BUSINESS",
     "variations": [
-      "He endorsed the new policy during his speech.",
-      "The celebrity endorsed the brand's latest product."
+      "The union fought to reinstate the fired workers.",
+      "His license was reinstated after he paid the fine."
     ]
   },
   {
-    "id": 126112307,
+    "id": 126112403,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The controversial decision caused a huge _____ from the public.",
+    "translation": "Tepki, şiddetli eleştiri",
+    "context": "Bir şey yaptığında veya söylediğinde insanların sana büyük bir öfke veya eleştiriyle karşılık vermesi durumu. Sosyal medyada bir 'flood' yemeye benziyor, aniden herkes sana karşı! Ani ve güçlü bir reaksiyon.",
+    "options": [
+      "backlash",
+      "applause",
+      "support",
+      "agreement"
+    ],
+    "correctAnswer": "backlash",
+    "category": "CASUAL",
+    "variations": [
+      "The new policy received a strong backlash.",
+      "The singer faced backlash for her comments."
+    ]
+  },
+  {
+    "id": 126112404,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The leader _____ to protect the nation from any external threat.",
+    "translation": "Yemin etmek, ant içmek",
+    "context": "Büyük bir söz vermek, adeta yemin etmek gibi. 'Sana söz veriyorum, bir daha asla geç kalmayacağım!' dediğinde aslında bir nevi 'vow' yapmış oluyorsun. Genellikle çok ciddidir ve bağlayıcıdır!",
+    "options": [
+      "vows",
+      "whispers",
+      "doubts",
+      "suggests"
+    ],
+    "correctAnswer": "vows",
+    "category": "MIXED",
+    "variations": [
+      "He vowed to never make that mistake again.",
+      "She vowed allegiance to her country."
+    ]
+  },
+  {
+    "id": 126112405,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "AI can help manage diverse _____ for investors efficiently.",
+    "translation": "Hisse senedi portföyleri",
+    "context": "Diyelim ki paran var ve farklı şirketlerin hisselerini aldın. İşte o tüm hisse senetleri koleksiyonuna 'stock portfolio' denir. Yatırımcının 'oyuncak kutusu' gibi düşünebilirsin, ama çok değerli oyuncaklarla dolu!",
+    "options": [
+      "stock portfolios",
+      "grocery lists",
+      "music albums",
+      "sports teams"
+    ],
+    "correctAnswer": "stock portfolios",
+    "category": "BUSINESS",
+    "variations": [
+      "Diversifying your stock portfolio is wise.",
+      "He hired an advisor to manage his stock portfolio."
+    ]
+  },
+  {
+    "id": 126112406,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "What type of vessel was reportedly hit by drones in Libya?",
-    "translation": "Libya'da insansız hava araçları tarafından vurulan gemi türü neydi?",
-    "context": "'Warship' savaş gemisi demektir, yani ülkelerin askeri deniz gücünün önemli bir parçası. Haberlerde genellikle çatışma bölgeleriyle ilgili haberlerde karşımıza çıkar. Tatil gemisiyle karıştırma sakın, bunun güvertesinde havuz değil, toplar var!",
+    "phrase": "Which word means 'aiming at a specific goal or group with precision'?",
+    "translation": "Hedeflemek, bir şeye veya birine odaklanmak",
+    "context": "Bir okçunun hedefe ok atması gibi düşün. 'Targeting' de bir olayın veya eylemin belirli bir noktayı, grubu veya amacı hedeflemesi demek. Reklamlar da genellikle belirli bir kitleyi 'target' ederler, tam on ikiden vurmaya çalışırlar!",
     "options": [
-      "A cargo ship",
-      "A fishing boat",
-      "A luxury yacht",
-      "A warship"
+      "Targeting",
+      "Avoiding",
+      "Ignoring",
+      "Neglecting"
     ],
-    "correctAnswer": "A warship",
+    "correctAnswer": "Targeting",
     "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126112308,
+    "id": 126112407,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "Oxfam stated that Gaza has become a _____.",
-    "translation": "Oxfam, Gazze'nin zehirli bir çöplüğe dönüştüğünü belirtti.",
-    "context": "'Toxic wasteland', yani 'zehirli çorak arazi'. Bu ifade, bir yerin çevre felaketi, savaş veya sanayi atıkları nedeniyle yaşanmaz, kirli ve tehlikeli hale geldiğini anlatır. Genelde çok dramatik ve üzücü durumlarda kullanılır. Düşünsene, oyun oynadığın parkın zehirli bir çöplüğe dönüştüğünü... işte öyle bir şey.",
+    "phrase": "She felt deeply _____ after the embarrassing incident at the party.",
+    "translation": "Aşağılanmış, küçük düşürülmüş",
+    "context": "Herkesin içinde rezil olmak, utançtan yerin dibine girmek gibi bir duygu. Keşke yer açılsa da içine girsem dersin ya, işte tam da o anki halin 'humiliated' oluyor. Çok feci bir utanç hissi!",
     "options": [
-      "green paradise",
-      "economic hub",
-      "toxic wasteland",
-      "flourishing city"
+      "humiliated",
+      "delighted",
+      "proud",
+      "excited"
     ],
-    "correctAnswer": "toxic wasteland",
-    "category": "GENERAL",
-    "variations": [
-      "The report described the area as a toxic wasteland.",
-      "The region was left as a toxic wasteland after the disaster."
-    ]
-  },
-  {
-    "id": 126112309,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "Arteta felt _____ after hearing Raya's injury was not too serious.",
-    "translation": "Raya'nın sakatlığının çok ciddi olmadığını duyan Arteta rahatlamıştı.",
-    "context": "'Relieved' kelimesi, kötü bir durumun veya endişenin sona ermesiyle hissedilen rahatlama anlamına gelir. Mesela, sınav sonuçlarının iyi çıktığını öğrendiğinde ya da kaybettiğin anahtarlarını bulduğunda hissettiğin o ohhh çekme hali! Arteta da oyuncusunun sakatlığının ciddi olmadığını duyunca aynen böyle hissetmiş.",
-    "options": [
-      "worried",
-      "angry",
-      "relieved",
-      "indifferent"
-    ],
-    "correctAnswer": "relieved",
+    "correctAnswer": "humiliated",
     "category": "CASUAL",
     "variations": [
-      "She was relieved when the test results came back negative.",
-      "I felt so relieved after I finished my presentation."
+      "He was humiliated by the public criticism.",
+      "The defeat left the team feeling humiliated."
     ]
   },
   {
-    "id": 126112310,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "What did Nvidia do regarding its previous decision about the CEO?",
-    "translation": "Nvidia, CEO ile ilgili önceki kararıyla ilgili ne yaptı?",
-    "context": "Bir şirket 'reverses course' dediğinde, daha önce aldığı bir karardan veya izlediği bir politikadan vazgeçip tamamen tersi yönde bir hareket yaptığını anlarız. Bazen işler planlandığı gibi gitmeyince rota değiştirmek gerekir, tıpkı geminin yönünü değiştirmesi gibi. İş dünyasında oldukça stratejik bir hareket!",
+    "id": 126112408,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "Advanced _____ can perform complex tasks autonomously.",
+    "translation": "Yapay zeka aracıları",
+    "context": "Bilgisayar oyunlarındaki ya da filmlerdeki robot yardımcıları düşün. Bunlar, bizim adımıza görevleri yerine getiren, düşünebilen ve karar verebilen minik 'beyinler'. Gelecekte hayatımızı çok kolaylaştıracaklar!",
     "options": [
-      "It confirmed its initial decision.",
-      "It reversed course.",
-      "It announced a new merger.",
-      "It declared bankruptcy."
+      "AI agents",
+      "human helpers",
+      "pet animals",
+      "garden gnomes"
     ],
-    "correctAnswer": "It reversed course.",
-    "category": "BUSINESS",
-    "variations": []
+    "correctAnswer": "AI agents",
+    "category": "MIXED",
+    "variations": [
+      "The company uses AI agents for customer support.",
+      "AI agents are transforming business processes."
+    ]
   },
   {
-    "id": 126112311,
+    "id": 126112409,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "He finally _____ her to join the project after a long discussion.",
+    "translation": "İkna etmek, inandırmak",
+    "context": "Birini bir şeye inanmaya veya bir şey yapmaya 'ikna etmek'. Yani, kelimelerinle veya argümanlarınla birinin fikrini değiştirmek gibi. İkna gücünle bir 'süper kahraman' olmak, başkalarının fikirlerini etkilemek!",
+    "options": [
+      "convinced",
+      "forced",
+      "ignored",
+      "discouraged"
+    ],
+    "correctAnswer": "convinced",
+    "category": "BUSINESS",
+    "variations": [
+      "I was convinced that he was telling the truth.",
+      "Can you convince them to change their minds?"
+    ]
+  },
+  {
+    "id": 126112410,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "What is the UK's role for the 2035 Women's World Cup?",
-    "translation": "Birleşik Krallık'ın 2035 Kadınlar Dünya Kupası'ndaki rolü nedir?",
-    "context": "Bir ülkenin büyük bir etkinliğe 'confirmed as hosts' olması, o etkinliği düzenleme hakkının resmen onaylandığı anlamına gelir. Yani, bütün maçlar, organizasyonlar o ülkede yapılacak. Büyük bir onur ve tabii ki turist akını demek! Düşünsene, Dünya Kupası senin şehrinde!",
+    "phrase": "Which word means 'to make known something that was previously secret or unknown, often surprisingly'?",
+    "translation": "Ortaya çıkarmak, ifşa etmek",
+    "context": "Bir sırrı açığa çıkarmak, gizli kalmış bir şeyi gözler önüne sermek gibi düşün. Dedektifler ipuçlarını birleştirip gerçeği 'reveal' ederler. Ya da perdenin arkasındaki sürprizi! Saklı olanı gün yüzüne çıkarmak.",
     "options": [
-      "They are participating as a team.",
-      "They are sponsoring the event.",
-      "They are confirmed as hosts.",
-      "They are merely attending."
+      "Reveals",
+      "Conceals",
+      "Hides",
+      "Obscures"
     ],
-    "correctAnswer": "They are confirmed as hosts.",
+    "correctAnswer": "Reveals",
     "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126112312,
+    "id": 126112411,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The UN climate talks, also known as COP31, were a major _____.",
-    "translation": "BM iklim müzakereleri, COP31 olarak da bilinir, önemli bir iklim zirvesiydi.",
-    "context": "'Climate summit' demek, iklim değişikliğiyle mücadele etmek için dünyanın dört bir yanından liderlerin, bilim insanlarının ve aktivistlerin bir araya geldiği uluslararası büyük toplantı demektir. Geleceğimizi konuştuğumuz, önemli kararların alınmaya çalışıldığı kritik zirvelerdir. Kulağa çok havalı gelse de aslında gezegenimizin geleceği için çok ciddi meselelerin tartışıldığı yerler!",
+    "phrase": "The club was penalized for its fans' _____ during the match.",
+    "translation": "Ayrımcı tezahüratlar",
+    "context": "Stadyumlarda veya topluluklarda, belirli bir gruba veya kişiye karşı yapılan, ayrımcılık içeren kötü tezahüratlar. Fair-play'e ve saygıya tamamen aykırı, hoş olmayan ve cezaya yol açan bağırışlar.",
     "options": [
-      "social gathering",
-      "shopping festival",
-      "climate summit",
-      "music concert"
+      "discriminatory chants",
+      "cheering songs",
+      "friendly greetings",
+      "victory anthems"
     ],
-    "correctAnswer": "climate summit",
-    "category": "GENERAL",
+    "correctAnswer": "discriminatory chants",
+    "category": "CASUAL",
     "variations": [
-      "World leaders gathered for the annual climate summit.",
-      "The last climate summit failed to reach an agreement."
+      "The league imposed strict rules against discriminatory chants.",
+      "Fans were warned about discriminatory chants at the game."
+    ]
+  },
+  {
+    "id": 126112412,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "Governments are concerned about the growing _____ from hostile nations.",
+    "translation": "Uzay tehdidi",
+    "context": "Dünya'nın atmosferi dışından, yani uzaydan gelebilecek her türlü tehlike. Bu, uydulara yönelik bir saldırı da olabilir, uzaydan gelen kontrolsüz bir cisim de. Bilim kurgu filmlerindeki gibi, oldukça ciddi bir konu!",
+    "options": [
+      "space threat",
+      "peace treaty",
+      "meteor shower",
+      "moon landing"
+    ],
+    "correctAnswer": "space threat",
+    "category": "MIXED",
+    "variations": [
+      "International cooperation is vital to mitigate any space threat.",
+      "Experts are monitoring potential space threats closely."
     ]
   }
 ]
