@@ -1,236 +1,236 @@
 [
   {
-    "id": 126112401,
+    "id": 126112501,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The heavy snow will _____ travel plans for millions.",
-    "translation": "Sekmeyi engellemek, tıkamak",
-    "context": "Seyahat planlarınızı mahveden, trafik sıkıştıran karlı bir hava hayal edin. İşte 'snarl' tam olarak bu durumu anlatır! Bir ip yumağının karışması gibi, seyahat de birbirine girer, karmaşa oluşur.",
+    "phrase": "The company experienced a major _____, disrupting services for days.",
+    "translation": "Şirket, hizmetleri günlerce kesintiye uğratan büyük bir kesinti yaşadı.",
+    "context": "Bir sistemin çalışmaması, kesintiye uğraması durumudur. Mesela elektrikler kesilirse 'power outage' olur. İnternet kesilirse 'internet outage' denir. Haberdeki gibi bir uygulamanın çökmesi de 'tech outage' olur, kullanıcılar çıldırır!",
     "options": [
-      "snarl",
-      "brighten",
-      "expand",
-      "smooth"
+      "outage",
+      "upgrade",
+      "update",
+      "overload"
     ],
-    "correctAnswer": "snarl",
-    "category": "TRAVEL",
-    "variations": [
-      "The protest might snarl the morning commute.",
-      "Bad weather can snarl holiday traffic."
-    ]
-  },
-  {
-    "id": 126112402,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The board decided to _____ the CEO after a long review process.",
-    "translation": "Göreve iade etmek, eski haline getirmek",
-    "context": "Birini işten çıkarıp sonra tekrar işe almak mı? İşte o duruma 'reinstate' denir. Yani, koltuğunu veya pozisyonunu geri vermek gibi düşünebilirsin! Bir nevi 'yeniden göreve getirmek'.",
-    "options": [
-      "reinstate",
-      "remove",
-      "appoint",
-      "demote"
-    ],
-    "correctAnswer": "reinstate",
-    "category": "BUSINESS",
-    "variations": [
-      "The union fought to reinstate the fired workers.",
-      "His license was reinstated after he paid the fine."
-    ]
-  },
-  {
-    "id": 126112403,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The controversial decision caused a huge _____ from the public.",
-    "translation": "Tepki, şiddetli eleştiri",
-    "context": "Bir şey yaptığında veya söylediğinde insanların sana büyük bir öfke veya eleştiriyle karşılık vermesi durumu. Sosyal medyada bir 'flood' yemeye benziyor, aniden herkes sana karşı! Ani ve güçlü bir reaksiyon.",
-    "options": [
-      "backlash",
-      "applause",
-      "support",
-      "agreement"
-    ],
-    "correctAnswer": "backlash",
+    "correctAnswer": "outage",
     "category": "CASUAL",
     "variations": [
-      "The new policy received a strong backlash.",
-      "The singer faced backlash for her comments."
+      "Many customers were affected by the recent tech _____ .",
+      "The system's _____ lasted for hours."
     ]
   },
   {
-    "id": 126112404,
+    "id": 126112502,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The leader _____ to protect the nation from any external threat.",
-    "translation": "Yemin etmek, ant içmek",
-    "context": "Büyük bir söz vermek, adeta yemin etmek gibi. 'Sana söz veriyorum, bir daha asla geç kalmayacağım!' dediğinde aslında bir nevi 'vow' yapmış oluyorsun. Genellikle çok ciddidir ve bağlayıcıdır!",
+    "phrase": "An approaching _____ could ruin the outdoor event.",
+    "translation": "Yaklaşan bir fırtına, açık hava etkinliğini mahvedebilir.",
+    "context": "Büyük bir fırtına veya hava muhalefeti durumudur. Seyahat planlarını, açık hava etkinliklerini mahvedebilir. Haberdeki gibi Şükran Günü geçit törenini bile tehdit edebilir! Hava durumunu kontrol etmeden yola çıkma sakın!",
     "options": [
-      "vows",
-      "whispers",
-      "doubts",
-      "suggests"
+      "storm",
+      "breeze",
+      "cloud",
+      "sunshine"
     ],
-    "correctAnswer": "vows",
-    "category": "MIXED",
+    "correctAnswer": "storm",
+    "category": "TRAVEL",
     "variations": [
-      "He vowed to never make that mistake again.",
-      "She vowed allegiance to her country."
+      "We should stay home during the heavy _____ .",
+      "The flight was cancelled due to the _____ ."
     ]
   },
   {
-    "id": 126112405,
+    "id": 126112503,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "AI can help manage diverse _____ for investors efficiently.",
-    "translation": "Hisse senedi portföyleri",
-    "context": "Diyelim ki paran var ve farklı şirketlerin hisselerini aldın. İşte o tüm hisse senetleri koleksiyonuna 'stock portfolio' denir. Yatırımcının 'oyuncak kutusu' gibi düşünebilirsin, ama çok değerli oyuncaklarla dolu!",
+    "level": "BEGINNER",
+    "phrase": "The CEO decided to _____ from his position next month.",
+    "translation": "CEO, önümüzdeki ay görevinden ayrılmaya karar verdi.",
+    "context": "Bir pozisyondan veya görevden ayrılmak, istifa etmek anlamına gelir. Patrondan nefret ettiysen ya da yeni bir macera arıyorsan 'I'm stepping down from my job' diyebilirsin. Kariyerinde yeni bir sayfa açmak için harika bir bahane!",
     "options": [
-      "stock portfolios",
-      "grocery lists",
-      "music albums",
-      "sports teams"
+      "step down",
+      "step up",
+      "step in",
+      "step out"
     ],
-    "correctAnswer": "stock portfolios",
+    "correctAnswer": "step down",
     "category": "BUSINESS",
     "variations": [
-      "Diversifying your stock portfolio is wise.",
-      "He hired an advisor to manage his stock portfolio."
+      "She will _____ after many successful years.",
+      "He plans to _____ to pursue other interests."
     ]
   },
   {
-    "id": 126112406,
+    "id": 126112504,
+    "type": "QUIZ_COMPLETION",
+    "level": "BEGINNER",
+    "phrase": "The new photos will _____ details of the asteroid's surface.",
+    "translation": "Yeni fotoğraflar, asteroidin yüzeyinin detaylarını ortaya çıkaracak.",
+    "context": "Bir şeyi gizli olmaktan çıkarıp, ortaya sermek veya göstermek demektir. Dedektifler gizli bir ipucunu 'reveal' edebilir, ya da haberdelerdeki gibi bilim insanları yeni bir gezegenin 'close-up images'ını 'reveal' edebilir. Sırlar açığa çıksın!",
+    "options": [
+      "reveal",
+      "hide",
+      "cover",
+      "obscure"
+    ],
+    "correctAnswer": "reveal",
+    "category": "MIXED",
+    "variations": [
+      "Scientists are ready to _____ their latest findings.",
+      "The investigation will _____ the truth."
+    ]
+  },
+  {
+    "id": 126112505,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The situation became very _____ after the new evidence appeared.",
+    "translation": "Yeni kanıtlar ortaya çıktıktan sonra durum çok karmaşık hale geldi.",
+    "context": "Karmaşık, anlaşılması zor veya birçok farklı faktörü içeren durumlar için kullanılır. Haberdeki gibi aile içi meseleler, bazen politik olaylar, bazen de birinin ne istediğini anlamaya çalışmak çok 'complicated' olabilir. Basit düşünmek bazen hayat kurtarır!",
+    "options": [
+      "complicated",
+      "simple",
+      "easy",
+      "clear"
+    ],
+    "correctAnswer": "complicated",
+    "category": "CASUAL",
+    "variations": [
+      "Her feelings about the issue were quite _____ .",
+      "Solving the puzzle proved to be extremely _____ ."
+    ]
+  },
+  {
+    "id": 126112506,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The company confirmed a serious data _____ affecting its customers.",
+    "translation": "Şirket, müşterilerini etkileyen ciddi bir veri ihlalini doğruladı.",
+    "context": "Bir kuralın, anlaşmanın, yasanın veya güvenlik sisteminin ihlal edilmesi durumudur. Özellikle 'data breach' terimi, bir şirketin verilerinin sızdırılması veya çalınması anlamına gelir. Şirketler için tam bir kabus, müşteriler içinse 'şifreni değiştir' alarmı!",
+    "options": [
+      "breach",
+      "approval",
+      "agreement",
+      "security"
+    ],
+    "correctAnswer": "breach",
+    "category": "BUSINESS",
+    "variations": [
+      "They must prevent any future security _____ .",
+      "A serious contract _____ led to legal action."
+    ]
+  },
+  {
+    "id": 126112507,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "INTERMEDIATE",
-    "phrase": "Which word means 'aiming at a specific goal or group with precision'?",
-    "translation": "Hedeflemek, bir şeye veya birine odaklanmak",
-    "context": "Bir okçunun hedefe ok atması gibi düşün. 'Targeting' de bir olayın veya eylemin belirli bir noktayı, grubu veya amacı hedeflemesi demek. Reklamlar da genellikle belirli bir kitleyi 'target' ederler, tam on ikiden vurmaya çalışırlar!",
+    "phrase": "What is the main role of an _____ during a space mission?",
+    "translation": "Uzay görevinde bir astronotun ana görevi nedir?",
+    "context": "Uzaya seyahat eden ve uzay araçlarında görev yapan kişiye 'astronaut' denir. Görevleri arasında bilimsel deneyler yapmak, uzay yürüyüşleri yapmak ve uzay aracının bakımını sağlamak var. 'Houston, we have a problem!' diye bağırmak da işlerinin bir parçası olabilir.",
     "options": [
-      "Targeting",
-      "Avoiding",
-      "Ignoring",
-      "Neglecting"
+      "To manage the control room on Earth",
+      "To conduct experiments and maintain spacecraft",
+      "To design new rockets",
+      "To coordinate international space policies"
     ],
-    "correctAnswer": "Targeting",
+    "correctAnswer": "To conduct experiments and maintain spacecraft",
     "category": "TRAVEL",
     "variations": []
   },
   {
-    "id": 126112407,
+    "id": 126112508,
     "type": "QUIZ_COMPLETION",
     "level": "INTERMEDIATE",
-    "phrase": "She felt deeply _____ after the embarrassing incident at the party.",
-    "translation": "Aşağılanmış, küçük düşürülmüş",
-    "context": "Herkesin içinde rezil olmak, utançtan yerin dibine girmek gibi bir duygu. Keşke yer açılsa da içine girsem dersin ya, işte tam da o anki halin 'humiliated' oluyor. Çok feci bir utanç hissi!",
+    "phrase": "The latest _____ show a significant increase in sales this quarter.",
+    "translation": "Son rakamlar, bu çeyrekte satışlarda önemli bir artış olduğunu gösteriyor.",
+    "context": "Sayılar, rakamlar veya istatistikler anlamına gelir. Haberlerde veya iş dünyasında sıkça kullanılır. 'Government figures' (hükümet rakamları) veya 'sales figures' (satış rakamları) gibi. Her zaman doğru olmayabilirler, o yüzden 'figures don't lie, but liars figure' derler!",
     "options": [
-      "humiliated",
-      "delighted",
-      "proud",
-      "excited"
+      "figures",
+      "guesses",
+      "opinions",
+      "stories"
     ],
-    "correctAnswer": "humiliated",
-    "category": "CASUAL",
-    "variations": [
-      "He was humiliated by the public criticism.",
-      "The defeat left the team feeling humiliated."
-    ]
-  },
-  {
-    "id": 126112408,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "Advanced _____ can perform complex tasks autonomously.",
-    "translation": "Yapay zeka aracıları",
-    "context": "Bilgisayar oyunlarındaki ya da filmlerdeki robot yardımcıları düşün. Bunlar, bizim adımıza görevleri yerine getiren, düşünebilen ve karar verebilen minik 'beyinler'. Gelecekte hayatımızı çok kolaylaştıracaklar!",
-    "options": [
-      "AI agents",
-      "human helpers",
-      "pet animals",
-      "garden gnomes"
-    ],
-    "correctAnswer": "AI agents",
+    "correctAnswer": "figures",
     "category": "MIXED",
     "variations": [
-      "The company uses AI agents for customer support.",
-      "AI agents are transforming business processes."
+      "Official _____ were released this morning.",
+      "The unemployment _____ are alarming."
     ]
   },
   {
-    "id": 126112409,
-    "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "He finally _____ her to join the project after a long discussion.",
-    "translation": "İkna etmek, inandırmak",
-    "context": "Birini bir şeye inanmaya veya bir şey yapmaya 'ikna etmek'. Yani, kelimelerinle veya argümanlarınla birinin fikrini değiştirmek gibi. İkna gücünle bir 'süper kahraman' olmak, başkalarının fikirlerini etkilemek!",
-    "options": [
-      "convinced",
-      "forced",
-      "ignored",
-      "discouraged"
-    ],
-    "correctAnswer": "convinced",
-    "category": "BUSINESS",
-    "variations": [
-      "I was convinced that he was telling the truth.",
-      "Can you convince them to change their minds?"
-    ]
-  },
-  {
-    "id": 126112410,
+    "id": 126112509,
     "type": "QUIZ_MULTIPLE_CHOICE",
     "level": "ADVANCED",
-    "phrase": "Which word means 'to make known something that was previously secret or unknown, often surprisingly'?",
-    "translation": "Ortaya çıkarmak, ifşa etmek",
-    "context": "Bir sırrı açığa çıkarmak, gizli kalmış bir şeyi gözler önüne sermek gibi düşün. Dedektifler ipuçlarını birleştirip gerçeği 'reveal' ederler. Ya da perdenin arkasındaki sürprizi! Saklı olanı gün yüzüne çıkarmak.",
+    "phrase": "What does the term 'personal attacks' generally refer to?",
+    "translation": "'Kişisel saldırılar' terimi genellikle neyi ifade eder?",
+    "context": "Bir tartışma veya anlaşmazlık sırasında, karşıdaki kişinin argümanlarına değil de, doğrudan karakterine, görünüşüne veya kişisel özelliklerine yönelik yapılan hakaret veya eleştirilere denir. Tartışmanın seviyesini düşürür ve genellikle hiç hoş karşılanmaz. 'Ad hominem' saldırısı olarak da bilinir.",
     "options": [
-      "Reveals",
-      "Conceals",
-      "Hides",
-      "Obscures"
+      "Constructive criticism about someone's work",
+      "Arguments focusing on specific policy disagreements",
+      "Insults or criticisms directed at someone's character rather than their arguments",
+      "Formal complaints filed against an individual"
     ],
-    "correctAnswer": "Reveals",
-    "category": "TRAVEL",
+    "correctAnswer": "Insults or criticisms directed at someone's character rather than their arguments",
+    "category": "CASUAL",
     "variations": []
   },
   {
-    "id": 126112411,
+    "id": 126112510,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The club was penalized for its fans' _____ during the match.",
-    "translation": "Ayrımcı tezahüratlar",
-    "context": "Stadyumlarda veya topluluklarda, belirli bir gruba veya kişiye karşı yapılan, ayrımcılık içeren kötü tezahüratlar. Fair-play'e ve saygıya tamamen aykırı, hoş olmayan ve cezaya yol açan bağırışlar.",
+    "phrase": "The project faces significant _____ due to budget cuts.",
+    "translation": "Proje, bütçe kesintileri nedeniyle önemli belirsizliklerle karşı karşıya.",
+    "context": "Belirsizlik, kesin olmama durumu anlamına gelir. Özellikle iş dünyasında, yatırım veya piyasa hakkında 'uncertainty' kelimesi sıkça kullanılır. Haberdeki gibi 'IPO uncertainty' (halka arz belirsizliği) yatırımcıların uykularını kaçırabilir. Hayatta bazen belirsizlik iyidir, bazen de can sıkıcıdır!",
     "options": [
-      "discriminatory chants",
-      "cheering songs",
-      "friendly greetings",
-      "victory anthems"
+      "uncertainty",
+      "certainty",
+      "clarity",
+      "assurance"
     ],
-    "correctAnswer": "discriminatory chants",
-    "category": "CASUAL",
+    "correctAnswer": "uncertainty",
+    "category": "BUSINESS",
     "variations": [
-      "The league imposed strict rules against discriminatory chants.",
-      "Fans were warned about discriminatory chants at the game."
+      "There is still much _____ about the future of the company.",
+      "Market _____ is impacting investor confidence."
     ]
   },
   {
-    "id": 126112412,
+    "id": 126112511,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "Governments are concerned about the growing _____ from hostile nations.",
-    "translation": "Uzay tehdidi",
-    "context": "Dünya'nın atmosferi dışından, yani uzaydan gelebilecek her türlü tehlike. Bu, uydulara yönelik bir saldırı da olabilir, uzaydan gelen kontrolsüz bir cisim de. Bilim kurgu filmlerindeki gibi, oldukça ciddi bir konu!",
+    "phrase": "She _____ left her phone at home to avoid distractions.",
+    "translation": "Dikkati dağılmamak için telefonunu kasten evde bıraktı.",
+    "context": "Kasten, bilerek veya isteyerek yapılan bir eylemi tanımlar. Bir şey yanlışlıkla değil, tam tersi planlı bir şekilde yapıldığında kullanılır. Haberdeki gibi bir asteroide 'deliberately hit' yapmak, Dünya'yı korumak için tasarlanmış, planlı bir eylemdir. 'Kasten yaptım, ne var yani!' demek gibi bir şey.",
     "options": [
-      "space threat",
-      "peace treaty",
-      "meteor shower",
-      "moon landing"
+      "deliberately",
+      "accidentally",
+      "randomly",
+      "unintentionally"
     ],
-    "correctAnswer": "space threat",
+    "correctAnswer": "deliberately",
+    "category": "TRAVEL",
+    "variations": [
+      "He _____ ignored my advice.",
+      "The error was made _____ , not by chance."
+    ]
+  },
+  {
+    "id": 126112512,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The workers decided to go on _____ for better wages.",
+    "translation": "İşçiler daha iyi ücretler için greve gitmeye karar verdi.",
+    "context": "Çok anlamlı bir kelime! Haberlerdeki gibi 'airfield strike', bir havaalanına yapılan askeri saldırı veya vuruş anlamına gelir. Ama aynı zamanda işçilerin greve gitmesi ('go on strike') veya birinin topa vurması ('strike the ball') anlamlarına da gelebilir. Kısacası, bir yere 'vurmak' veya 'etki etmek'le ilgili birçok durum için kullanılır.",
+    "options": [
+      "strike",
+      "vacation",
+      "meeting",
+      "break"
+    ],
+    "correctAnswer": "strike",
     "category": "MIXED",
     "variations": [
-      "International cooperation is vital to mitigate any space threat.",
-      "Experts are monitoring potential space threats closely."
+      "The lightning _____ hit the old oak tree.",
+      "Police launched an early morning _____ on the suspect's hideout."
     ]
   }
 ]
