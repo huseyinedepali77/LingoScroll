@@ -1,236 +1,230 @@
 [
   {
-    "id": 126112501,
+    "id": 126112801,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "The company experienced a major _____, disrupting services for days.",
-    "translation": "Şirket, hizmetleri günlerce kesintiye uğratan büyük bir kesinti yaşadı.",
-    "context": "Bir sistemin çalışmaması, kesintiye uğraması durumudur. Mesela elektrikler kesilirse 'power outage' olur. İnternet kesilirse 'internet outage' denir. Haberdeki gibi bir uygulamanın çökmesi de 'tech outage' olur, kullanıcılar çıldırır!",
+    "phrase": "She works as a secret _____ for the government.",
+    "translation": "Hükümet için gizli bir ajan olarak çalışıyor.",
+    "context": "Film ve kitaplarda sıkça duyduğun 'spy' kelimesi, gizli görevlerde bulunan ajanlar için kullanılır. Kulağa heyecan verici gelse de, gerçek hayatta casusluk pek de James Bond filmlerindeki gibi değildir! 'Is Alice Huang a spy or not?' haberindeki gibi, bazen kimin casus olduğunu anlamak bile zordur.",
     "options": [
-      "outage",
-      "upgrade",
-      "update",
-      "overload"
+      "spy",
+      "teacher",
+      "doctor",
+      "chef"
     ],
-    "correctAnswer": "outage",
+    "correctAnswer": "spy",
     "category": "CASUAL",
     "variations": [
-      "Many customers were affected by the recent tech _____ .",
-      "The system's _____ lasted for hours."
+      "He thinks his neighbor is a spy.",
+      "The spy found secret information."
     ]
   },
   {
-    "id": 126112502,
+    "id": 126112802,
     "type": "QUIZ_COMPLETION",
     "level": "BEGINNER",
-    "phrase": "An approaching _____ could ruin the outdoor event.",
-    "translation": "Yaklaşan bir fırtına, açık hava etkinliğini mahvedebilir.",
-    "context": "Büyük bir fırtına veya hava muhalefeti durumudur. Seyahat planlarını, açık hava etkinliklerini mahvedebilir. Haberdeki gibi Şükran Günü geçit törenini bile tehdit edebilir! Hava durumunu kontrol etmeden yola çıkma sakın!",
+    "phrase": "The sudden _____ caused panic in the street.",
+    "translation": "Ani patlama sokakta paniğe neden oldu.",
+    "context": "'Explosion' kelimesi, bir şeyin aniden ve şiddetli bir şekilde patlaması anlamına gelir. 'Afghanistan explosion kills 10 students' gibi üzücü haberlerde de duyarız. Umarım bu kelimeyi sadece bilim deneylerinde veya havai fişek gösterilerinde kullanırsın!",
     "options": [
-      "storm",
-      "breeze",
-      "cloud",
-      "sunshine"
+      "explosion",
+      "silence",
+      "party",
+      "meeting"
     ],
-    "correctAnswer": "storm",
-    "category": "TRAVEL",
-    "variations": [
-      "We should stay home during the heavy _____ .",
-      "The flight was cancelled due to the _____ ."
-    ]
-  },
-  {
-    "id": 126112503,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The CEO decided to _____ from his position next month.",
-    "translation": "CEO, önümüzdeki ay görevinden ayrılmaya karar verdi.",
-    "context": "Bir pozisyondan veya görevden ayrılmak, istifa etmek anlamına gelir. Patrondan nefret ettiysen ya da yeni bir macera arıyorsan 'I'm stepping down from my job' diyebilirsin. Kariyerinde yeni bir sayfa açmak için harika bir bahane!",
-    "options": [
-      "step down",
-      "step up",
-      "step in",
-      "step out"
-    ],
-    "correctAnswer": "step down",
-    "category": "BUSINESS",
-    "variations": [
-      "She will _____ after many successful years.",
-      "He plans to _____ to pursue other interests."
-    ]
-  },
-  {
-    "id": 126112504,
-    "type": "QUIZ_COMPLETION",
-    "level": "BEGINNER",
-    "phrase": "The new photos will _____ details of the asteroid's surface.",
-    "translation": "Yeni fotoğraflar, asteroidin yüzeyinin detaylarını ortaya çıkaracak.",
-    "context": "Bir şeyi gizli olmaktan çıkarıp, ortaya sermek veya göstermek demektir. Dedektifler gizli bir ipucunu 'reveal' edebilir, ya da haberdelerdeki gibi bilim insanları yeni bir gezegenin 'close-up images'ını 'reveal' edebilir. Sırlar açığa çıksın!",
-    "options": [
-      "reveal",
-      "hide",
-      "cover",
-      "obscure"
-    ],
-    "correctAnswer": "reveal",
+    "correctAnswer": "explosion",
     "category": "MIXED",
     "variations": [
-      "Scientists are ready to _____ their latest findings.",
-      "The investigation will _____ the truth."
+      "A loud explosion shook the building.",
+      "They heard an explosion from afar."
     ]
   },
   {
-    "id": 126112505,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The situation became very _____ after the new evidence appeared.",
-    "translation": "Yeni kanıtlar ortaya çıktıktan sonra durum çok karmaşık hale geldi.",
-    "context": "Karmaşık, anlaşılması zor veya birçok farklı faktörü içeren durumlar için kullanılır. Haberdeki gibi aile içi meseleler, bazen politik olaylar, bazen de birinin ne istediğini anlamaya çalışmak çok 'complicated' olabilir. Basit düşünmek bazen hayat kurtarır!",
-    "options": [
-      "complicated",
-      "simple",
-      "easy",
-      "clear"
-    ],
-    "correctAnswer": "complicated",
-    "category": "CASUAL",
-    "variations": [
-      "Her feelings about the issue were quite _____ .",
-      "Solving the puzzle proved to be extremely _____ ."
-    ]
-  },
-  {
-    "id": 126112506,
-    "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The company confirmed a serious data _____ affecting its customers.",
-    "translation": "Şirket, müşterilerini etkileyen ciddi bir veri ihlalini doğruladı.",
-    "context": "Bir kuralın, anlaşmanın, yasanın veya güvenlik sisteminin ihlal edilmesi durumudur. Özellikle 'data breach' terimi, bir şirketin verilerinin sızdırılması veya çalınması anlamına gelir. Şirketler için tam bir kabus, müşteriler içinse 'şifreni değiştir' alarmı!",
-    "options": [
-      "breach",
-      "approval",
-      "agreement",
-      "security"
-    ],
-    "correctAnswer": "breach",
-    "category": "BUSINESS",
-    "variations": [
-      "They must prevent any future security _____ .",
-      "A serious contract _____ led to legal action."
-    ]
-  },
-  {
-    "id": 126112507,
+    "id": 126112803,
     "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "INTERMEDIATE",
-    "phrase": "What is the main role of an _____ during a space mission?",
-    "translation": "Uzay görevinde bir astronotun ana görevi nedir?",
-    "context": "Uzaya seyahat eden ve uzay araçlarında görev yapan kişiye 'astronaut' denir. Görevleri arasında bilimsel deneyler yapmak, uzay yürüyüşleri yapmak ve uzay aracının bakımını sağlamak var. 'Houston, we have a problem!' diye bağırmak da işlerinin bir parçası olabilir.",
+    "level": "BEGINNER",
+    "phrase": "Which word means 'an offer to buy something'?",
+    "translation": "'Bir şeyi satın alma teklifi' anlamına gelen kelime hangisidir?",
+    "context": "Bir açık artırmada veya ihalelerde, bir şeyi satın almak için yaptığın teklife 'bid' denir. 'Argentina's bid to stop Falklands oil drilling rejected' haberinde olduğu gibi, bazen bu teklifler reddedilebilir. Teklif vermek için elini kaldırmak gibi düşünebilirsin!",
     "options": [
-      "To manage the control room on Earth",
-      "To conduct experiments and maintain spacecraft",
-      "To design new rockets",
-      "To coordinate international space policies"
+      "sale",
+      "bid",
+      "price",
+      "receipt"
     ],
-    "correctAnswer": "To conduct experiments and maintain spacecraft",
-    "category": "TRAVEL",
+    "correctAnswer": "bid",
+    "category": "BUSINESS",
     "variations": []
   },
   {
-    "id": 126112508,
+    "id": 126112804,
     "type": "QUIZ_COMPLETION",
-    "level": "INTERMEDIATE",
-    "phrase": "The latest _____ show a significant increase in sales this quarter.",
-    "translation": "Son rakamlar, bu çeyrekte satışlarda önemli bir artış olduğunu gösteriyor.",
-    "context": "Sayılar, rakamlar veya istatistikler anlamına gelir. Haberlerde veya iş dünyasında sıkça kullanılır. 'Government figures' (hükümet rakamları) veya 'sales figures' (satış rakamları) gibi. Her zaman doğru olmayabilirler, o yüzden 'figures don't lie, but liars figure' derler!",
+    "level": "BEGINNER",
+    "phrase": "Heavy _____ caused flights to be cancelled.",
+    "translation": "Şiddetli fırtınalar uçuşların iptal edilmesine neden oldu.",
+    "context": "'Storm' kelimesi, yağmur, rüzgar, kar gibi hava olaylarının şiddetli olduğu durumlarda kullanılır. 'Thanksgiving storms' haberinde olduğu gibi bazen planlarımızı alt üst edebilirler. Ama battaniyenin altında sıcak çikolata içmek için de harika bir bahanedirler, değil mi?",
     "options": [
-      "figures",
-      "guesses",
-      "opinions",
-      "stories"
+      "storms",
+      "sun",
+      "clouds",
+      "flowers"
     ],
-    "correctAnswer": "figures",
-    "category": "MIXED",
+    "correctAnswer": "storms",
+    "category": "TRAVEL",
     "variations": [
-      "Official _____ were released this morning.",
-      "The unemployment _____ are alarming."
+      "The ship survived the violent storm.",
+      "We saw a big storm coming."
     ]
   },
   {
-    "id": 126112509,
-    "type": "QUIZ_MULTIPLE_CHOICE",
-    "level": "ADVANCED",
-    "phrase": "What does the term 'personal attacks' generally refer to?",
-    "translation": "'Kişisel saldırılar' terimi genellikle neyi ifade eder?",
-    "context": "Bir tartışma veya anlaşmazlık sırasında, karşıdaki kişinin argümanlarına değil de, doğrudan karakterine, görünüşüne veya kişisel özelliklerine yönelik yapılan hakaret veya eleştirilere denir. Tartışmanın seviyesini düşürür ve genellikle hiç hoş karşılanmaz. 'Ad hominem' saldırısı olarak da bilinir.",
+    "id": 126112805,
+    "type": "QUIZ_COMPLETION",
+    "level": "INTERMEDIATE",
+    "phrase": "The team made an amazing _____ to win the game.",
+    "translation": "Takım maçı kazanmak için inanılmaz bir geri dönüş yaptı.",
+    "context": "Özellikle spor haberlerinde sıkça duyduğun 'comeback', geride olan bir takımın veya kişinin birdenbire durumu tersine çevirip öne geçmesi anlamına gelir. 'Spurs make super comeback against Lakers' haberindeki gibi, maçların en heyecanlı anları genellikle bu geri dönüşlerdir! Hayatta da düşüp kalktığında, bir 'comeback' yapabilirsin!",
     "options": [
-      "Constructive criticism about someone's work",
-      "Arguments focusing on specific policy disagreements",
-      "Insults or criticisms directed at someone's character rather than their arguments",
-      "Formal complaints filed against an individual"
+      "comeback",
+      "mistake",
+      "timeout",
+      "score"
     ],
-    "correctAnswer": "Insults or criticisms directed at someone's character rather than their arguments",
+    "correctAnswer": "comeback",
     "category": "CASUAL",
+    "variations": [
+      "She is trying to make a comeback in music.",
+      "His political comeback surprised everyone."
+    ]
+  },
+  {
+    "id": 126112806,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "INTERMEDIATE",
+    "phrase": "What does 'slammed with storms' mean?",
+    "translation": "'Slammed with storms' ne anlama gelir?",
+    "context": "Bu ifade, bir yerin şiddetli fırtınalardan çok etkilendiğini anlatır. 'US slammed with Thanksgiving storms' haberindeki gibi, fırtınanın bir yere sertçe çarptığını hayal edebilirsin. Yani bildiğimiz 'fırtına vurdu' demenin biraz daha havalı ve dramatik hali!",
+    "options": [
+      "Experienced severe storms",
+      "Enjoyed light rain",
+      "Avoided bad weather",
+      "Waited for sunshine"
+    ],
+    "correctAnswer": "Experienced severe storms",
+    "category": "MIXED",
     "variations": []
   },
   {
-    "id": 126112510,
+    "id": 126112807,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "The project faces significant _____ due to budget cuts.",
-    "translation": "Proje, bütçe kesintileri nedeniyle önemli belirsizliklerle karşı karşıya.",
-    "context": "Belirsizlik, kesin olmama durumu anlamına gelir. Özellikle iş dünyasında, yatırım veya piyasa hakkında 'uncertainty' kelimesi sıkça kullanılır. Haberdeki gibi 'IPO uncertainty' (halka arz belirsizliği) yatırımcıların uykularını kaçırabilir. Hayatta bazen belirsizlik iyidir, bazen de can sıkıcıdır!",
+    "level": "INTERMEDIATE",
+    "phrase": "The company delayed its latest _____ due to a shortage.",
+    "translation": "Şirket, kıtlık nedeniyle son yonga sevkiyatlarını erteledi.",
+    "context": "'Chip shipments' ifadesi, bilgisayarlar, telefonlar ve diğer elektronik cihazlar için üretilen mikroçip veya yongaların bir yerden başka bir yere taşınması, sevk edilmesi anlamına gelir. 'Nvidia hits pause on chip shipments' haberinde olduğu gibi, bu sevkiyatlar durduğunda bütün dünya teknolojisi etkilenebilir! Minik çiplerin ne kadar önemli olduğunu görüyorsun, değil mi?",
     "options": [
-      "uncertainty",
-      "certainty",
-      "clarity",
-      "assurance"
+      "chip shipments",
+      "food orders",
+      "car sales",
+      "book deliveries"
     ],
-    "correctAnswer": "uncertainty",
+    "correctAnswer": "chip shipments",
     "category": "BUSINESS",
     "variations": [
-      "There is still much _____ about the future of the company.",
-      "Market _____ is impacting investor confidence."
+      "Global chip shipments decreased last quarter.",
+      "They are tracking the next chip shipments."
     ]
   },
   {
-    "id": 126112511,
+    "id": 126112808,
     "type": "QUIZ_COMPLETION",
-    "level": "ADVANCED",
-    "phrase": "She _____ left her phone at home to avoid distractions.",
-    "translation": "Dikkati dağılmamak için telefonunu kasten evde bıraktı.",
-    "context": "Kasten, bilerek veya isteyerek yapılan bir eylemi tanımlar. Bir şey yanlışlıkla değil, tam tersi planlı bir şekilde yapıldığında kullanılır. Haberdeki gibi bir asteroide 'deliberately hit' yapmak, Dünya'yı korumak için tasarlanmış, planlı bir eylemdir. 'Kasten yaptım, ne var yani!' demek gibi bir şey.",
+    "level": "INTERMEDIATE",
+    "phrase": "My car broke down, so it had to be _____.",
+    "translation": "Arabam bozuldu, bu yüzden çekilmesi gerekti.",
+    "context": "Bir araba veya gemi gibi bir aracın arıza yapıp başka bir araç (genellikle çekici) tarafından çekilerek götürülmesine 'towed away' denir. 'Capsized tanker... to be towed away from Ibiza' haberindeki gibi, bazen büyük gemilerin bile yardıma ihtiyacı olur. Umarım arabanın başına böyle bir şey gelmez, yoksa masrafı büyük olur!",
     "options": [
-      "deliberately",
-      "accidentally",
-      "randomly",
-      "unintentionally"
+      "towed away",
+      "driven fast",
+      "painted new",
+      "sold quickly"
     ],
-    "correctAnswer": "deliberately",
+    "correctAnswer": "towed away",
     "category": "TRAVEL",
     "variations": [
-      "He _____ ignored my advice.",
-      "The error was made _____ , not by chance."
+      "The illegally parked car was towed away.",
+      "They had to tow away the damaged boat."
     ]
   },
   {
-    "id": 126112512,
+    "id": 126112809,
     "type": "QUIZ_COMPLETION",
     "level": "ADVANCED",
-    "phrase": "The workers decided to go on _____ for better wages.",
-    "translation": "İşçiler daha iyi ücretler için greve gitmeye karar verdi.",
-    "context": "Çok anlamlı bir kelime! Haberlerdeki gibi 'airfield strike', bir havaalanına yapılan askeri saldırı veya vuruş anlamına gelir. Ama aynı zamanda işçilerin greve gitmesi ('go on strike') veya birinin topa vurması ('strike the ball') anlamlarına da gelebilir. Kısacası, bir yere 'vurmak' veya 'etki etmek'le ilgili birçok durum için kullanılır.",
+    "phrase": "The leader tried to _____ before the election.",
+    "translation": "Lider seçim öncesinde destekçilerini toplamaya çalıştı.",
+    "context": "Politikada veya büyük bir hareketin parçası olarak, insanları bir araya getirip motive etmek, coşturmak anlamına gelir. 'Spanish PM and rivals rally supporters' haberinde olduğu gibi, liderler seçimden önce bunu sıkça yapar. Bir futbol maçı öncesi taraftarları gaza getiren teknik direktör gibi düşünebilirsin!",
     "options": [
-      "strike",
-      "vacation",
-      "meeting",
-      "break"
+      "rally supporters",
+      "cancel meetings",
+      "ignore critics",
+      "avoid discussions"
     ],
-    "correctAnswer": "strike",
-    "category": "MIXED",
+    "correctAnswer": "rally supporters",
+    "category": "CASUAL",
     "variations": [
-      "The lightning _____ hit the old oak tree.",
-      "Police launched an early morning _____ on the suspect's hideout."
+      "His speech aimed to rally more supporters.",
+      "The new policy helped to rally public support."
     ]
+  },
+  {
+    "id": 126112810,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "What does it mean if an athlete is 'in contention'?",
+    "translation": "Bir sporcunun 'in contention' olması ne anlama gelir?",
+    "context": "Spor dünyasında, bir sporcunun veya takımın bir şampiyonluk veya önemli bir pozisyon için hala güçlü bir aday olduğunu, yani 'iddialı' olduğunu belirtir. 'McKibbin in contention at Australian PGA Championship' haberindeki gibi, bu onların kazanma şansının yüksek olduğunu gösterir. Yani, 'Ben de varım!' demenin daha havalı bir yolu!",
+    "options": [
+      "They are injured and cannot play.",
+      "They have already won the championship.",
+      "They have a good chance to win or place high.",
+      "They are withdrawing from the competition."
+    ],
+    "correctAnswer": "They have a good chance to win or place high.",
+    "category": "MIXED",
+    "variations": []
+  },
+  {
+    "id": 126112811,
+    "type": "QUIZ_COMPLETION",
+    "level": "ADVANCED",
+    "phrase": "The government approved new offshore _____ projects.",
+    "translation": "Hükümet, yeni açık deniz petrol arama projelerini onayladı.",
+    "context": "'Oil drilling', petrol çıkarmak için yerin altını (veya denizin dibini) delme işlemidir. 'Argentina's bid to stop Falklands oil drilling rejected' haberinde olduğu gibi, bu konu genellikle çevresel ve politik tartışmalara yol açar. Kocaman bir pipetle dünyanın içindeki yağı çekmek gibi düşünebilirsin, ama çok daha karmaşık ve riskli!",
+    "options": [
+      "oil drilling",
+      "water conservation",
+      "forest planting",
+      "solar panel"
+    ],
+    "correctAnswer": "oil drilling",
+    "category": "BUSINESS",
+    "variations": [
+      "Deep sea oil drilling carries risks.",
+      "Environmentalists oppose new oil drilling."
+    ]
+  },
+  {
+    "id": 126112812,
+    "type": "QUIZ_MULTIPLE_CHOICE",
+    "level": "ADVANCED",
+    "phrase": "Which term describes a large ship that has overturned?",
+    "translation": "Devrilmiş büyük bir gemiyi tanımlayan terim hangisidir?",
+    "context": "Bir geminin veya botun suya batmadan yan yatması veya ters dönmesi durumuna 'capsized' denir. 'Capsized tanker carrying 7,000 tonnes of diesel to be towed away from Ibiza' haberindeki gibi, bu durum genellikle tehlikeli kirliliğe yol açabilir ve kurtarma ekipleri için büyük bir zorluktur. Bir teknenin yan dönüp su alması gibi düşün, ama çok daha büyük ve riskli bir versiyonu!",
+    "options": [
+      "sinking boat",
+      "capsized tanker",
+      "docked vessel",
+      "cruising yacht"
+    ],
+    "correctAnswer": "capsized tanker",
+    "category": "TRAVEL",
+    "variations": []
   }
 ]
